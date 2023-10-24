@@ -65,6 +65,8 @@ class Root extends Component{
             <BrowserRouter basename={'/'}>
                 <PageScrollTop>
                     <Switch>
+
+                    {/* usable routes */}
                         <Route exact path={`${process.env.PUBLIC_URL}/`} component={DarkPortfolioLanding}/>
                         <Route exact path={`${process.env.PUBLIC_URL}/service-details`} component={ServiceDetails}/>
                         <Route exact path={`${process.env.PUBLIC_URL}/portfolio-details`} component={PortfolioDetails}/>
@@ -75,8 +77,12 @@ class Root extends Component{
                         <Route exact path={`${process.env.PUBLIC_URL}/portfolio-details`} component={PortfolioDetails}/>
                         <Route exact path={`${process.env.PUBLIC_URL}/blog`} component={Blog}/>
                         <Route exact path={`${process.env.PUBLIC_URL}/blog-details`} component={BlogDetails}/>
+
+
+
                         {/* <Route exact path={`${process.env.PUBLIC_URL}/main-demo`} component={MainDemo}/>
                         <Route exact path={`${process.env.PUBLIC_URL}/dark-main-demo`} component={DarkMainDemo}/> */}
+                        {/* hello */}
                         <Route exact path={`${process.env.PUBLIC_URL}/startup`} component={Startup}/>
                         <Route exact path={`${process.env.PUBLIC_URL}/paralax`} component={Paralax}/>
 

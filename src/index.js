@@ -65,9 +65,18 @@ class Root extends Component{
             <BrowserRouter basename={'/'}>
                 <PageScrollTop>
                     <Switch>
-                        <Route exact path={`${process.env.PUBLIC_URL}/`} component={Demo}/>
-                        <Route exact path={`${process.env.PUBLIC_URL}/main-demo`} component={MainDemo}/>
-                        <Route exact path={`${process.env.PUBLIC_URL}/dark-main-demo`} component={DarkMainDemo}/>
+                        <Route exact path={`${process.env.PUBLIC_URL}/`} component={DarkPortfolioLanding}/>
+                        <Route exact path={`${process.env.PUBLIC_URL}/service-details`} component={ServiceDetails}/>
+                        <Route exact path={`${process.env.PUBLIC_URL}/portfolio-details`} component={PortfolioDetails}/>
+                        <Route exact path={`${process.env.PUBLIC_URL}/service`} component={Service}/>
+                     
+                        <Route exact path={`${process.env.PUBLIC_URL}/contact`} component={Contact}/>
+                        <Route exact path={`${process.env.PUBLIC_URL}/about`} component={About}/>
+                        <Route exact path={`${process.env.PUBLIC_URL}/portfolio-details`} component={PortfolioDetails}/>
+                        <Route exact path={`${process.env.PUBLIC_URL}/blog`} component={Blog}/>
+                        <Route exact path={`${process.env.PUBLIC_URL}/blog-details`} component={BlogDetails}/>
+                        {/* <Route exact path={`${process.env.PUBLIC_URL}/main-demo`} component={MainDemo}/>
+                        <Route exact path={`${process.env.PUBLIC_URL}/dark-main-demo`} component={DarkMainDemo}/> */}
                         <Route exact path={`${process.env.PUBLIC_URL}/startup`} component={Startup}/>
                         <Route exact path={`${process.env.PUBLIC_URL}/paralax`} component={Paralax}/>
 
@@ -77,7 +86,7 @@ class Root extends Component{
                         <Route exact path={`${process.env.PUBLIC_URL}/studio-agency`} component={StudioAgency}/>
                         <Route exact path={`${process.env.PUBLIC_URL}/business`} component={Business}/>
                         <Route exact path={`${process.env.PUBLIC_URL}/portfolio-home`} component={HomePortfolio}/>
-                        <Route exact path={`${process.env.PUBLIC_URL}/portfolio-landing`} component={PortfolioLanding}/>
+                        <Route exact path={`${process.env.PUBLIC_URL}/portfolio-landing`} />
                         <Route exact path={`${process.env.PUBLIC_URL}/creative-landing`} component={CreativeLanding}/>
                         <Route exact path={`${process.env.PUBLIC_URL}/home-particles`} component={HomeParticles}/>
                         <Route exact path={`${process.env.PUBLIC_URL}/dark-portfolio-landing`} component={DarkPortfolioLanding}/>
@@ -89,7 +98,7 @@ class Root extends Component{
 
                         {/* Element Layot */}
                         <Route exact path={`${process.env.PUBLIC_URL}/service`} component={Service}/>
-                        <Route exact path={`${process.env.PUBLIC_URL}/service-details`} component={ServiceDetails}/>
+                     
                         <Route exact path={`${process.env.PUBLIC_URL}/contact`} component={Contact}/>
                         <Route exact path={`${process.env.PUBLIC_URL}/about`} component={About}/>
                         <Route exact path={`${process.env.PUBLIC_URL}/portfolio-details`} component={PortfolioDetails}/>

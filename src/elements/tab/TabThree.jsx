@@ -186,13 +186,13 @@ class TabStyleThree extends Component {
             tab1: 0,
             tab2: 0,
             tab3: 0,
-            tab4: 0,
+         
             isOpen: false,
         };
     }
     render() {
         const {column } = this.props;
-        const { tab1, tab2, tab3, tab4, isOpen } = this.state;
+        const { tab1, tab2, tab3, isOpen } = this.state;
         return (
             <div>
                 <Tabs>
@@ -347,51 +347,7 @@ class TabStyleThree extends Component {
                         ))}
                     </TabPanel>
 
-                    <TabPanel className="row row--35">
-                        {TabFour.map((value , index) => (
-                            <div className={`${column}`} key={index}>
-                                {isOpen && (
-                                    <Lightbox
-                                        mainSrc={TabFour[tab4].bigImage}
-                                        nextSrc={TabFour[(tab4 + 1) % TabFour.length]}
-                                        prevSrc={TabFour[(tab4 + TabFour.length - 1) % TabFour.length]}
-                                        onCloseRequest={() => this.setState({ isOpen: false })}
-                                        onMovePrevRequest={() =>
-                                        this.setState({
-                                            tab4: (tab4 + TabFour.length - 1) % TabFour.length,
-                                        })
-                                        }
-                                        onMoveNextRequest={() =>
-                                            this.setState({
-                                                tab4: (tab4 + 1) % TabFour.length,
-                                            })
-                                        }
-                                        imageLoadErrorMessage = 'Image Loading ...'
-                                        enableZoom={false}
-                                    />
-                                )}
-                                <div className="item-portfolio-static">
-                                    <div onClick={() => this.setState({ isOpen: true, tab4: index })}>
-                                        <div className="portfolio-static">
-                                            <div className="thumbnail-inner">
-                                                <div className="thumbnail">
-                                                    <a href="#portfolio-details">
-                                                        <img src={`/assets/images/portfolio/dp-portfolio-${value.image}.jpg`} alt="Portfolio Images"/>
-                                                    </a>
-                                                </div>
-                                            </div>
-                                            <div className="content">
-                                                <div className="inner">
-                                                    <p>{value.category}</p>
-                                                    <h4><a href="#portfolio-details">{value.title}</a></h4>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        ))}
-                    </TabPanel>
+                   
 
 
 

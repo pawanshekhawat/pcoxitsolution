@@ -6,8 +6,8 @@ class TabsTwo extends Component{
         let 
         tab1 = "Main skills",
         tab2 = "Awards",
-        tab3 = "Experience",
-        tab4 = "Education & Certification";
+        tab3 = "Experience";
+      
         const { tabStyle } = this.props
         return(
             <div>
@@ -21,7 +21,7 @@ class TabsTwo extends Component{
                                         <Tab>{tab1}</Tab>
                                         <Tab>{tab2}</Tab>
                                         <Tab>{tab3}</Tab>
-                                        <Tab>{tab4}</Tab>
+                                        
                                     </TabList>
 
                                     <TabPanel>

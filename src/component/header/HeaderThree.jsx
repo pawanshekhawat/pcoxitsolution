@@ -1,7 +1,9 @@
 import React, { Component } from "react";
 import {FaTwitter ,FaInstagram ,FaFacebookF , FaLinkedinIn } from "react-icons/fa";
 import { FiX , FiMenu} from "react-icons/fi";
-import Scrollspy from 'react-scrollspy'
+import Scrollspy from 'react-scrollspy';
+import { Link } from 'react-router-dom';
+
 
 const SocialShare = [
     {Social: <FaFacebookF /> , link: 'https://www.facebook.com/'},
@@ -95,9 +97,9 @@ class HeaderThree extends Component{
                             </ul>
                         </div>
                         <div className="header-btn">
-                            <a className="rn-btn" href="https://themeforest.net/checkout/from_item/25457315?license=regular">
+                            <Link className="rn-btn" to="/contact">
                                 <span>buy now</span>
-                            </a>
+                            </Link>
                         </div>
                         {/* Start Humberger Menu  */}
                         <div className="humberger-menu d-block d-lg-none pl--20">

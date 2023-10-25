@@ -4,33 +4,33 @@ import {Link} from "react-router-dom";
 const PortfolioListContent = [
     {
         image: 'image-1',
-        category: 'Development',
-        title: 'Getting tickets to the big show'
+        category: 'Building Constructiont',
+        title: 'Hiring project engineers, skilled workers, machine operators etc'
     },
     {
         image: 'image-2',
-        category: 'Development',
-        title: 'Getting tickets to the big show'
+        category: 'Road Construction',
+        title: 'Hired more than 30000 blue collar and white collar professionals'
     },
     {
         image: 'image-3',
-        category: 'Development',
-        title: 'Getting tickets to the big show'
+        category: 'Oil and Gas',
+        title: 'Helped Oil and Gas companies recruit 7000+ project managers.'
     },
     {
         image: 'image-4',
-        category: 'Development',
-        title: 'Getting tickets to the big show'
+        category: 'Facility Management',
+        title: 'Handling all sized facility.'
     },
     {
         image: 'image-3',
-        category: 'Development',
-        title: 'Getting tickets to the big show'
+        category: 'Security',
+        title: 'We support companies to hire'
     },
     {
         image: 'image-4',
-        category: 'Development',
-        title: 'Getting tickets to the big show'
+        category: 'MEP (Mechanical, Electrical, & Plumbing)',
+        title: 'From managerial levels to on ground staffs.'
     }
 ]
 

@@ -4,32 +4,32 @@ import { FiCast , FiLayers , FiUsers , FiMonitor } from "react-icons/fi";
 const ServiceList = [
     {
         icon: <FiCast />,
-        title: 'Business Stratagy',
+        title: 'HR Services',
         description: 'I throw myself down among the tall grass by the stream as I lie close to the earth.'
     },
     {
         icon: <FiLayers />,
-        title: 'Website Development',
+        title: 'HR Consulting',
         description: 'I throw myself down among the tall grass by the stream as I lie close to the earth.'
     },
     {
         icon: <FiUsers />,
-        title: 'Marketing & Reporting',
+        title: 'HR Third Party Payroll Services',
         description: 'I throw myself down among the tall grass by the stream as I lie close to the earth.'
     },
     { 
         icon: <FiMonitor />,
-        title: 'Mobile App Development',
+        title: 'Business Consulting',
         description: 'I throw myself down among the tall grass by the stream as I lie close to the earth.'
     },
     {
         icon: <FiUsers />,
-        title: 'Marketing & Reporting',
+        title: 'HR Consulting',
         description: 'I throw myself down among the tall grass by the stream as I lie close to the earth.'
     },
     { 
         icon: <FiMonitor />,
-        title: 'Mobile App Development',
+        title: 'Business Consulting', 
         description: 'I throw myself down among the tall grass by the stream as I lie close to the earth.'
     }
 ]

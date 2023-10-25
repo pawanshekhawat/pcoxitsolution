@@ -14,15 +14,16 @@ import BlogContent from "../elements/blog/BlogContent";
 const SlideList = [
     {
         textPosition: 'text-left',
-        category: 'Welcome to my World',
+        category: 'Trusted by over 400+ companies.',
         description: '',
         buttonText: '',
         buttonLink: ''
     }
+
 ]
 const PortfolioLanding = () => {
-    let title = 'About Me',
-        description = 'There are many variations of passages of Lorem Ipsum available, but the majority have suffered <a href="#">alteration</a> in some form, by injected humour, or randomised words which dont look even slightly believable. If you are going to use a passage of Lorem Ipsum,';
+    let title = 'About Us',
+        description = 'We are committed to providing the perfect manpower solutions for our prestigious 400+ International and 100+ Indian clients. With over 50 trade testing facilities spread across India, Nepal, Bangladesh, Sri Lanka, Myanmar, and Vietnam we have been providing the required skills for various industries.';
     const PostList = BlogContent.slice(0 , 3);
     return (
         <div className="active-dark">
@@ -40,22 +41,23 @@ const PortfolioLanding = () => {
                                     <div className="col-lg-12">
                                         <div className={`inner ${value.textPosition}`}>
                                             {value.category ? <span>{value.category}</span> : ''}
-                                            <h1 className="title">Hi, I’m Jone Doe <br/>
+                                            <h1 className="title">Looking for Overseas Recruitment Agency? <br/>
                                             <TextLoop>
-                                                <span> JS Developer.</span>
-                                                <span> UI/UX Designer.</span>
-                                                <span> Content Writter.</span>
+                                                <span> HR Services.</span>
+                                                <span> HR Consulting.</span>
+                                                <span> Business Consulting.</span>
                                             </TextLoop>{" "}
                                             </h1>
-                                            <h2>based in USA.</h2>
-                                            {value.description ? <p className="description">{value.description}</p> : ''}
-                                            {value.buttonText ? <div className="slide-btn"><a className="rn-button-style--2 btn-primary-color" href={`${value.buttonLink}`}>{value.buttonText}</a></div> : ''}
+                                            {/* <h2>based in USA.</h2> */}
+                                            {/* {value.description ? <p className="description">{value.description}</p> : ''}
+                                            {value.buttonText ? <div className="slide-btn"><a className="rn-button-style--2 btn-primary-color" href={`${value.buttonLink}`}>{value.buttonText}</a></div> : ''} */}
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     ))}
+                    
                     {/* End Single Slide */}
                 </div>
             </div>
@@ -98,7 +100,7 @@ const PortfolioLanding = () => {
                         <div className="row">
                             <div className="col-lg-12">
                                 <div className="section-title text-center service-style--3 mb--30 mb_sm--0">
-                                    <h2 className="title">My Awesome Service</h2>
+                                    <h2 className="title">Our Services</h2>
                                     <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.</p>
                                 </div>
                             </div>
@@ -121,7 +123,7 @@ const PortfolioLanding = () => {
                             <div className="row">
                                 <div className="col-lg-12">
                                     <div className="section-title text-center service-style--3 mb--30 mb_sm--0">
-                                        <h2 className="title">My Latest Project</h2>
+                                        <h2 className="title">Industries We Serve</h2>
                                         <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.</p>
                                     </div>
                                 </div>

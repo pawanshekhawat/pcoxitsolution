@@ -1,15 +1,15 @@
 import React, { Component } from "react";
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 
-class TabsTwo extends Component{
-    render(){
-        let 
-        tab1 = "Main skills",
-        tab2 = "Awards",
-        tab3 = "Experience";
-      
+class TabsTwo extends Component {
+    render() {
+        let
+            tab1 = "Mission",
+            tab2 = "Vision",
+            tab3 = "Value";
+
         const { tabStyle } = this.props
-        return(
+        return (
             <div>
                 {/* Start Tabs Area */}
                 <div className="tabs-area">
@@ -17,82 +17,39 @@ class TabsTwo extends Component{
                         <div className="row">
                             <div className="col-lg-12">
                                 <Tabs>
-                                    <TabList  className={`${tabStyle}`}>
+                                    <TabList className={`${tabStyle}`}>
                                         <Tab>{tab1}</Tab>
                                         <Tab>{tab2}</Tab>
                                         <Tab>{tab3}</Tab>
-                                        
+
                                     </TabList>
 
                                     <TabPanel>
                                         <div className="single-tab-content">
-                                            <ul>
-                                                <li>
-                                                    <a href="/service">User experience design <span> - UI/UX</span></a>
-                                                    Delight the user and make it work.
-                                                </li>
-                                                <li>
-                                                    <a href="/service">Web and user interface design<span> - Development</span></a>
-                                                    Websites, web experiences, ...
-                                                </li>
-                                                <li>
-                                                    <a href="/service">Interaction design <span> - Animation</span></a>
-                                                    I like to move it move it.
-                                                </li>
-                                            </ul>
+                                            <p>To empower every individual to lead a life of their choice by providing them with the necessary skills and a job that enhances their growth.</p>
                                         </div>
                                     </TabPanel>
 
                                     <TabPanel>
-                                       <div className="single-tab-content">
-                                           <ul>
-                                               <li>
-                                                   <a href="/service">Awwwards.com <span>- Winner</span></a> 2019 - 2020
-                                               </li>
-                                               <li>
-                                                   <a href="/service">CSS Design Awards <span>- Winner</span></a> 2017 - 2018
-                                               </li>
-                                               <li>
-                                                   <a href="/service">Design nominees <span>- site of the day</span></a> 2013- 2014
-                                               </li>
-                                           </ul>
-                                       </div>
+                                        <div className="single-tab-content">
+                                            <p>Our mission is to provide exceptional recruitment services, ensuring a seamless and efficient process for both employers and job seekers. We aim to match the right talent with the right job, helping businesses thrive and individuals achieve their career goals.</p>
+                                        </div>
                                     </TabPanel>
 
 
 
                                     <TabPanel>
-                                       <div className="single-tab-content">
-                                           <ul>
-                                               <li>
-                                                   <a href="/service">Sr. Front-end Engineer<span> - Google</span></a> 2018 - Current
-                                               </li>
-                                               <li>
-                                                   <a href="/service">Front-end Engineer<span> - Microsoft</span></a> 2017 - 2018
-                                               </li>
-                                               <li>
-                                                   <a href="/service">Software Engineer<span> - Alibaba </span></a> 2013- 2014
-                                               </li>
-                                           </ul>
-                                       </div>
+                                        <div className="single-tab-content">
+                                            <p>We are committed to maintaining the highest standards of professionalism, integrity, and ethical conduct in all our interactions. Our goal is to build long-term relationships with our clients and candidates, based on trust, transparency, and mutual success.  <br />  <br />
+
+                                                Through our expertise and extensive network, we aim to contribute to the growth and development of global businesses by providing them with the best talent from around the world. We also strive to empower individuals by connecting them with opportunities that will enhance their skills, knowledge, and overall career prospects.<br />  <br />
+
+                                                In summary, our vision is to be a global leader in HR recruitment, while our mission is to provide exceptional services, connect talent with opportunities, and contribute to the success of businesses and individuals alike.</p>
+                                        </div>
                                     </TabPanel>
 
-                                    <TabPanel>
-                                       <div className="single-tab-content">
-                                           <ul>
-                                               <li>
-                                                   <a href="/service">BSc In CSE<span> - ABC University, Los Angeles, CA</span></a> 2010
-                                               </li>
-                                               <li>
-                                                   <a href="/service">Diploma in Computer Science<span> - Gamma Technical Institute</span></a> 2009
-                                               </li>
-                                               <li>
-                                                   <a href="/service">Graphic Designer<span> - ABC Institute, Los Angeles, CA</span></a> 2007
-                                               </li>
-                                           </ul>
-                                       </div>
-                                    </TabPanel>
                                     
+
                                 </Tabs>
                             </div>
                         </div>

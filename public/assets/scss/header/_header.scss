@@ -109,8 +109,8 @@
     &.color-black {
         a{
             &.rn-btn {
-                border: 2px solid rgba(29, 29, 36, 0.5);
-                color: #1d1d24;
+                border: 2px solid #ffffff;
+                color: #fff;
             }
         }
     }
@@ -235,14 +235,14 @@
 
         &.sticky {
             position: fixed;
-            background: #ffffff;
+            background: #191919;
             box-shadow: 0 0 10px rgba(0,0,0,0.1);
             .header-wrapper {
                 padding: 0px;
                 a {
                     &.rn-btn {
-                        color: $heading-color;
-                        border-color: $heading-color;
+                        color: #ffffff;
+                        border-color: #ffffff;;
                         &:hover {
                             color: #ffffff;
                             border-color: $theme-color;
@@ -250,6 +250,7 @@
                     }
                 }
             }
+          
             .logo {
                 a {
                     img {
@@ -266,7 +267,7 @@
             .humberger-menu {
                 span {
                     &.text-white {
-                        color: $heading-color !important;
+                        color: #ffffff !important;
                     }
                 }
             }

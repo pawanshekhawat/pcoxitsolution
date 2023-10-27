@@ -18,8 +18,7 @@ class ContactThree extends Component{
                         <div className="col-lg-6 order-2 order-lg-1">
                             <div className="section-title text-left mb--50">
                                 <h2 className="title">{this.props.contactTitle}</h2>
-                                <p className="description">I am available for freelance work. Connect with me via phone: <a href="tel:+8801923088574">01923 088574</a> or email:
-                                    <a href="mailto:admin@example.com"> admin@example.com</a> </p>
+                                <p className="description"> Please share your details and one of our recruitment specialists will contact you shortly.</p>
                             </div>
                             <div className="form-wrapper">
                                 <form>
@@ -30,7 +29,7 @@ class ContactThree extends Component{
                                             id="item01"
                                             value={this.state.rnName}
                                             onChange={(e)=>{this.setState({rnName: e.target.value});}}
-                                            placeholder="Your Name *"
+                                            placeholder="Enter your name *"
                                         />
                                     </label>
 
@@ -41,28 +40,54 @@ class ContactThree extends Component{
                                             id="item02"
                                             value={this.state.rnEmail}
                                             onChange={(e)=>{this.setState({rnEmail: e.target.value});}}
-                                            placeholder="Your email *"
+                                            placeholder="Enter your email address *"
                                         />
                                     </label>
 
                                     <label htmlFor="item03">
                                         <input
-                                            type="text"
-                                            name="subject"
+                                            type="phone"
+                                            name="phone"
                                             id="item03"
-                                            value={this.state.rnSubject}
-                                            onChange={(e)=>{this.setState({rnSubject: e.target.value});}}
-                                            placeholder="Write a Subject"
+                                            value={this.state.rnPhone}
+                                            onChange={(e)=>{this.setState({rnPhone: e.target.value});}}
+                                            placeholder="Phone number with country code *"
                                         />
                                     </label>
+
+                                  
+
                                     <label htmlFor="item04">
+                                        <input
+                                            type="text"
+                                            name="company"
+                                            id="item04"
+                                            value={this.state.rnCompany}
+                                            onChange={(e)=>{this.setState({rnCompany: e.target.value});}}
+                                            placeholder="Enter your company name"
+                                        />
+                                    </label>
+
+                                   
+                                    <label htmlFor="item05">
                                         <textarea
                                             type="text"
-                                            id="item04"
+                                            id="item05"
+                                            name="jobtitle"
+                                            value={this.state.rnJobtitle}
+                                            onChange={(e)=>{this.setState({rnJobtitle: e.target.value});}}
+                                            placeholder="Enter your title"
+                                        />
+                                    </label>
+
+                                    <label htmlFor="item06">
+                                        <textarea
+                                            type="text"
+                                            id="item06"
                                             name="message"
                                             value={this.state.rnMessage}
                                             onChange={(e)=>{this.setState({rnMessage: e.target.value});}}
-                                            placeholder="Your Message"
+                                            placeholder="How can we help you?"
                                         />
                                     </label>
                                     <button className="rn-button-style--2 btn-solid" type="submit" value="submit" name="submit" id="mc-embedded-subscribe">Submit</button>

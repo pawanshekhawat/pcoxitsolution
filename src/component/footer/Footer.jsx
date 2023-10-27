@@ -30,19 +30,47 @@ class Footer extends Component{
                                 <div className="footer-right" data-black-overlay="6">
                                     <div className="row">
                                         {/* Start Single Widget  */}
-                                        <div className="col-lg-6 col-sm-6 col-12">
+                                        <div className="col-lg-4 col-sm-4 col-12">
                                             <div className="footer-link">
-                                                <h4>Quick Link</h4>
+                                                <h4>Find Jobs</h4>
                                                 <ul className="ft-link">
-                                                    <li><a href="/portfolio">Work</a></li>
-                                                    <li><a href="/about">About</a></li>
-                                                    <li><a href="/contact">Let's Talk</a></li>
+                                                <li><a href="/contact">Jobs Abu Dhabi</a></li>
+                                                    <li><a href="/contact">Jobs in Dubai</a></li>
+                                                    <li><a href="/contact">Jobs in Algeria</a></li>
+                                                    <li><a href="/contact">Jobs in Behrain</a></li>
+                                                    
+                                                </ul>
+                                            </div>
+                                        </div>
+
+                                        <div className="col-lg-4 col-sm-4 col-12">
+                                            <div className="footer-link">
+                                                <h4></h4>
+                                                <ul className="ft-link">
+                                                    <li><a href="/contact">Jobs in Egypt</a></li>
+                                                    <li><a href="/contact">Jobs in India</a></li>
+                                                    <li><a href="/contact">Jobs in Iraq</a></li>
+                                                    <li><a href="/contact">Jobs in Jordan</a></li>
+                                                    
+                                                </ul>
+                                            </div>
+                                        </div>
+
+                                        <div className="col-lg-4 col-sm-6 col-12">
+                                            <div className="footer-link">
+                                                <h4></h4>
+                                                <ul className="ft-link">
+                                                    <li><a href="/portfolio">Jobs in Kuwait</a></li>
+                                                    <li><a href="/about">Jobs in Lebanon</a></li>
+                                                    <li><a href="/contact">Jobs in Libya</a></li>
+                                                    <li><a href="/contact">Jobs in Morocco</a></li>
+                                                    
                                                 </ul>
                                             </div>
                                         </div>
                                         {/* End Single Widget  */}
                                         {/* Start Single Widget  */}
-                                        <div className="col-lg-6 col-sm-6 col-12 mt_mobile--30">
+                                        {/* <div className="col-lg-6 col-sm-6 col-12 mt_mobile--30">
                                             <div className="footer-link">
                                                 <h4>Say Hello</h4>
                                                 <ul className="ft-link">
@@ -58,12 +86,12 @@ class Footer extends Component{
                                                     </ul>
                                                 </div> 
                                             </div>
-                                        </div>
+                                        </div> */}
                                         {/* End Single Widget  */}
 
                                         <div className="col-lg-12">
                                             <div className="copyright-text">
-                                                <p>Copyright © 2022 Rainbow-Themes. All Rights Reserved.</p>
+                                            <p>Copyright © 2023-24 alcaenat. All Rights Reserved.</p>
                                             </div>
                                         </div>
                                     </div>

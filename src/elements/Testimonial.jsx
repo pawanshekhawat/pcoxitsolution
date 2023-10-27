@@ -10,7 +10,29 @@ class Testimonial extends Component{
                             <TabPanel>
                                 <div className="rn-testimonial-content text-center">
                                     <div className="inner">
-                                        <p>Aklima The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections Bonorum et Malorum original.</p>
+                                        <p>Since 1981, we have been serving our client with our topnotch overseas recruitment solutions. Have a look at our client testimonial sections to know more about what our clients say about us.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</p>
                                     </div>
                                     <div className="author-info">
                                         <h6><span>Aklima </span> - COO, AMERIMAR ENTERPRISES, INC.</h6>

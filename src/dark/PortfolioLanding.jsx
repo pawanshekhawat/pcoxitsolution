@@ -4,7 +4,7 @@ import { FiChevronUp } from "react-icons/fi";
 import Helmet from "../component/common/Helmet";
 import TextLoop from "react-text-loop";
 import HeaderThree from "../component/header/HeaderThree";
-import FooterTwo from "../component/footer/FooterTwo";
+import Footer from "../component/footer/Footer";
 import TabTwo from "../elements/tab/TabTwo";
 import ContactThree from "../elements/contact/ContactThree";
 import PortfolioList from "../elements/portfolio/PortfolioList";
@@ -23,11 +23,11 @@ const SlideList = [
 ]
 const PortfolioLanding = () => {
     let title = 'About Us',
-        description = 'We are committed to providing the perfect manpower solutions for our prestigious 400+ International and 100+ Indian clients. With over 50 trade testing facilities spread across India, Nepal, Bangladesh, Sri Lanka, Myanmar, and Vietnam we have been providing the required skills for various industries.';
+        description = `Welcome to our overseas recruitment company! We are a leading global HR recruitment company that specializes in connecting talented individuals with exciting job opportunities overseas. At our company, we understand the challenges and complexities of finding the right talent for international positions. That's why we are here to simplify the process and help both employers and job seekers navigate the global job market with ease.`;
     const PostList = BlogContent.slice(0 , 3);
     return (
         <div className="active-dark">
-            <Helmet pageTitle="Portfolio Landing" />
+            <Helmet pageTitle="Alcaenat" />
 
             <HeaderThree homeLink="/" logo="symbol-dark" color="color-black"/>
             {/* Start Slider Area   */}
@@ -131,13 +131,13 @@ const PortfolioLanding = () => {
                             <div className="row">
                                 <PortfolioList styevariation="text-center mt--40" column="col-lg-4 col-md-6 col-sm-6 col-12" item="6" />
                             </div>
-                            <div className="row">
+                            {/* <div className="row">
                                 <div className="col-lg-12">
                                     <div className="view-more-btn mt--60 mt_sm--30 text-center">
                                         <a className="rn-button-style--2 btn-solid" href="/blog"><span>View More</span></a>
                                     </div>
                                 </div>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                 </div>
@@ -151,7 +151,7 @@ const PortfolioLanding = () => {
                         <div className="row align-items-end">
                             <div className="col-lg-12 col-md-12 col-sm-12 col-12">
                                 <div className="section-title text-center">
-                                    <h2>Latest News</h2>
+                                    <h2>Latest Blog</h2>
                                     <p>There are many variations of passages of Lorem Ipsum available, <br />but the majority have suffered alteration.</p>
                                 </div>
                             </div>
@@ -184,12 +184,12 @@ const PortfolioLanding = () => {
             {/* Start COntact Area */}
             <div id="contact" className="fix">
                 <div className="rn-contact-area ptb--120 bg_color--1">
-                    <ContactThree contactImages="/assets/images/about/about-9.jpg" contactTitle="Hire Me." />
+                    <ContactThree contactImages="/assets/images/about/about-9.jpg" contactTitle="We Would Love To Hear From You" />
                 </div>
             </div>
             {/* End COntact Area */}
 
-            <FooterTwo />
+            <Footer/>
             {/* Start Back To Top */}
             <div className="backto-top">
                 <ScrollToTop showUnder={160}>

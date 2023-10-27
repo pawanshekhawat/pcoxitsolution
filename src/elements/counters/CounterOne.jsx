@@ -40,7 +40,7 @@ class CounterOne extends Component{
                                     <CountUp end={this.state.didViewCountUp ? value.countNum : 0} />
                                 </VisibilitySensor>
                             </h5>
-                            <p className="description">{value.countTitle}</p>
+                            <p className="description"  style={{color:"#fff"}}>{value.countTitle}</p>
                         </div>
                     ))}
                 </div>

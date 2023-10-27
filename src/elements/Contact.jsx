@@ -6,49 +6,58 @@ import ContactTwo from "../elements/contact/ContactTwo";
 import BrandTwo from "../elements/BrandTwo";
 import ScrollToTop from 'react-scroll-up';
 import { FiChevronUp } from "react-icons/fi";
-import Header from "../component/header/Header";
+import HeaderThree from "../component/header/HeaderThree";
 import Footer from "../component/footer/Footer";
+import { Background } from "react-parallax";
 
 const AnyReactComponent = ({ text }) => <div>{text}</div>;
 
 class Contact extends Component{
-    static defaultProps = {
-        center: {
-            lat: 59.95,
-            lng: 30.33
-        },
-        zoom: 11
-    };
+    // static defaultProps = {
+    //     center: {
+    //         lat: 59.95,
+    //         lng: 30.33
+    //     },
+    //     zoom: 11
+    // };
 
     render(){
         return(
             <React.Fragment>
+
                 <PageHelmet pageTitle='Contact' />
 
-                <Header headertransparent="header--transparent" colorblack="color--black" logoname="logo.png" />
+                 {/* Start Breadcrump Aresa */}
+                 <HeaderThree homeLink="/" logo="symbol-dark" color="color-dark"/>
 
-                 {/* Start Breadcrump Area */}
-                 <div className="rn-page-title-area pt--120 pb--190 bg_image bg_image--17"  data-black-overlay="6">
+                 {/* <div className="rn-page-title-area pt--120 pb--190"  data-black-overlay="0">
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-12">
                                 <div className="rn-page-title text-center pt--100">
-                                    <h2 className="title theme-gradient">Cntact With Us</h2>
+                                    <h2 className="title theme-gradient">Apply For Job</h2>
                                     <p>Contrary to popular belief, Lorem Ipsum is not simply random text. </p>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> */}
                 {/* End Breadcrump Area */}
 
 
-                {/* Start Contact Top Area  */}
-                <div className="rn-contact-top-area ptb--120 bg_color--5">
+            
+
+                {/* Start Contact Page Area  */}
+                <div className="rn-contact-page ptb--120 bg_color--1" style={{ background:'#101010' }}>
+                    <ContactTwo />
+                </div>
+                {/* End Contact Page Area  */}
+
+                    {/* Start Contact Top Area  */}
+                    {/* <div className="rn-contact-top-area ptb--120 bg_color--5" style={{ background:'#191919' }}>
                     <div className="container">
                        
                         <div className="row">
-                            {/* Start Single Address  */}
                             <div className="col-lg-4 col-md-6 col-sm-6 col-12">
                                 <div className="rn-address">
                                     <div className="icon">
@@ -61,9 +70,9 @@ class Contact extends Component{
                                     </div>
                                 </div>
                             </div>
-                            {/* End Single Address  */}
+                         
 
-                            {/* Start Single Address  */}
+           
                             <div className="col-lg-4 col-md-6 col-sm-6 col-12 mt_mobile--50">
                                 <div className="rn-address">
                                     <div className="icon">
@@ -76,9 +85,7 @@ class Contact extends Component{
                                     </div>
                                 </div>
                             </div>
-                            {/* End Single Address  */}
-
-                            {/* Start Single Address  */}
+                         
                             <div className="col-lg-4 col-md-6 col-sm-6 col-12 mt_md--50 mt_sm--50">
                                 <div className="rn-address">
                                     <div className="icon">
@@ -90,21 +97,14 @@ class Contact extends Component{
                                     </div>
                                 </div>
                             </div>
-                            {/* End Single Address  */}
 
                         </div>
                     </div>
-                </div>
+                </div> */}
                 {/* End Contact Top Area  */}
 
-                {/* Start Contact Page Area  */}
-                <div className="rn-contact-page ptb--120 bg_color--1">
-                    <ContactTwo />
-                </div>
-                {/* End Contact Page Area  */}
-
                 {/* Start Contact Map  */}
-                <div className="rn-contact-map-area position-relative">
+                {/* <div className="rn-contact-map-area position-relative">
                     <div style={{ height: '650px', width: '100%' }}>
                         <GoogleMapReact
                         defaultCenter={this.props.center}
@@ -117,12 +117,12 @@ class Contact extends Component{
                         />
                         </GoogleMapReact>
                     </div>
-                </div>
+                </div> */}
                 {/* End Contact Map  */}
                 
 
                 {/* Start Brand Area */}
-                <div className="rn-brand-area brand-separation bg_color--5 ptb--120">
+                {/* <div className="rn-brand-area brand-separation">
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-12">
@@ -130,7 +130,7 @@ class Contact extends Component{
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> */}
                 {/* End Brand Area */}
 
                 {/* Start Back To Top */}

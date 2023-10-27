@@ -9,8 +9,8 @@ class ContactTwo extends Component {
                     <div className="row row--35 align-items-start">
                         <div className="col-lg-6 order-2 order-lg-1">
                             <div className="section-title text-left mb--50">
-                                <h2 className="title">Contact Us.</h2>
-                                <p className="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto cupiditate aperiam neque.</p>
+                                <h2 className="title" style={{color: '#fff'}}>Apply For Job.</h2>
+                                <p className="description" style={{color: '#fff'}}>Looking for your dream job? Fill out the form below with your details, and our expert team will assist you in finding the perfect job opportunity tailored to your skills and aspirations</p>
                             </div>
                             <div className="form-wrapper">
                                 <ContactForm />

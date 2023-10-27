@@ -124,7 +124,7 @@ class Header extends Component{
                         </nav>
                         <div className="header-btn">
                             <Link className="rn-btn" to="/contact">
-                                <span>buy now</span>
+                                <span>Apply Now</span>
                             </Link>
                         </div>
                         {/* Start Humberger Menu  */}

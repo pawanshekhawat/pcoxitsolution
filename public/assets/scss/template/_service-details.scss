@@ -15,7 +15,7 @@
         p {
             font-size: 24px;
             line-height: 30px;
-            color: rgba(29, 29, 36, 0.75);
+            color: rgba(255, 255, 255, 0.75);
             margin-bottom: 0;
         }
     }
@@ -31,7 +31,7 @@
         }
         .details {
             p {
-                color: rgba(29, 29, 36, 0.75);
+                color: #fff;
                 font-size: 18px;
                 line-height: 30px;
                 margin-bottom: 0;
@@ -46,6 +46,7 @@
                     font-weight: 500;
                     margin-top: 40px;
                     margin-bottom: 27px;
+                    color: #fff;
                     @media #{$sm-layout} {
                         font-size: 26px;
                         line-height: 38px;
@@ -59,7 +60,7 @@
                     li {
                         font-size: 18px;
                         line-height: 30px;
-                        color: rgba(29, 29, 36, 0.75);
+                        color: #fff;
                         position: relative;
                         padding-left: 30px;
                         &::before {

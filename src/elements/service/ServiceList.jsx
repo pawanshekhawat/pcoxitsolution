@@ -5,32 +5,40 @@ const ServiceList = [
     {
         icon: <FiCast />,
         title: 'HR Services',
-        description: 'I throw myself down among the tall grass by the stream as I lie close to the earth.'
+        description: 'I throw myself down among the tall grass by the stream as I lie close to the earth.',
+        path:'/hr-services'
     },
     {
         icon: <FiLayers />,
         title: 'HR Consulting',
-        description: 'I throw myself down among the tall grass by the stream as I lie close to the earth.'
+        description: 'I throw myself down among the tall grass by the stream as I lie close to the earth.',
+        path:'/hr-consulting'
     },
     {
         icon: <FiUsers />,
         title: 'HR Third Party Payroll Services',
-        description: 'I throw myself down among the tall grass by the stream as I lie close to the earth.'
+        description: 'I throw myself down among the tall grass by the stream as I lie close to the earth.',
+        path:'/hr-third-party'
     },
     { 
         icon: <FiMonitor />,
         title: 'Business Consulting',
-        description: 'I throw myself down among the tall grass by the stream as I lie close to the earth.'
+        description: 'I throw myself down among the tall grass by the stream as I lie close to the earth.',
+        path:'/hr-third-party'
+        
     },
     {
         icon: <FiUsers />,
         title: 'HR Consulting',
-        description: 'I throw myself down among the tall grass by the stream as I lie close to the earth.'
+        description: 'I throw myself down among the tall grass by the stream as I lie close to the earth.',
+        path:'/hr-third-party'
     },
     { 
         icon: <FiMonitor />,
         title: 'Business Consulting', 
-        description: 'I throw myself down among the tall grass by the stream as I lie close to the earth.'
+        description: 'I throw myself down among the tall grass by the stream as I lie close to the earth.',
+        path:'/hr-third-party'
+
     }
 ]
 
@@ -45,7 +53,7 @@ class ServiceThree extends Component{
                 <div className="row">
                     {ServiceContent.map( (val , i) => (
                         <div className={`${column}`} key={i}>
-                            <a href="/service-details">
+                            <a href={val.path}>
                                 <div className="service service__style--2">
                                     <div className="icon">
                                         {val.icon}

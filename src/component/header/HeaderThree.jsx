@@ -8,7 +8,7 @@ import { Link } from 'react-router-dom';
 const SocialShare = [
     {Social: <FaFacebookF /> , link: 'https://www.facebook.com/'},
     {Social: <FaLinkedinIn /> , link: 'https://www.linkedin.com/'},
-    {Social: <FaInstagram /> , link: 'https://www.instagram.com/'},
+    {Social: <FaInstagram /> , link: 'https://www.instagram.com/alcaenat?igshid=MzRlODBiNWFlZA%3D%3D'},
     {Social: <FaTwitter /> , link: 'https://twitter.com/'},
 ]
 class HeaderThree extends Component{
@@ -79,28 +79,36 @@ class HeaderThree extends Component{
                         </div>
                         <nav className="mainmenunav d-lg-block ml--50">
                             <Scrollspy className="mainmenu" items={['home','about','service','portfolio','blog','contact']} currentClassName="is-current" offset={-200}>
-                                <li><a href="#home">Home</a></li>
-                                <li><a href="#about">About</a></li>
-                                <li><a href="#service">Service</a></li>
-                                <li><a href="#portfolio">Portfolio</a></li>
-                                <li><a href="#blog">Blog</a></li>
-                                <li><a href="#contact">Contact</a></li>
+                                <li><Link to="/">Home</Link></li>
+                                <li><Link to="/about">About</Link></li>
+                               
+                                <li><Link to="/service">Service</Link></li>
+                               
+                                <li><Link to="/blog">Blog</Link></li>
+                                {/* <li><Link to="/contact">Contact</Link></li> */}
                             </Scrollspy>
                         </nav>
                     </div>
                     <div className="header-right">
                         <div className="social-share-inner">
-                            <ul className="social-share social-style--2 color-black d-flex justify-content-start liststyle">
+                            <ul className="social-share social-style--2 color-white d-flex justify-content-start liststyle" >
                                 {SocialShare.map((val , i) => (
                                     <li key={i}><a href={`${val.link}`}>{val.Social}</a></li>
                                 ))}
                             </ul>
                         </div>
                         <div className="header-btn">
-                            <Link className="rn-btn" to="/contact">
-                                <span>buy now</span>
+                            <Link className="rn-btn" to="/jobseekers">
+                                <span>For Job seekers</span>
                             </Link>
                         </div>
+                        <div className="header-btn">
+                            <Link className="rn-btn" to="/clientcontact">
+                                <span>For Client</span>
+                            </Link>
+                        </div>
+
+                      
                         {/* Start Humberger Menu  */}
                         <div className="humberger-menu d-block d-lg-none pl--20">
                             <span onClick={this.menuTrigger} className="menutrigger text-white"><FiMenu /></span>

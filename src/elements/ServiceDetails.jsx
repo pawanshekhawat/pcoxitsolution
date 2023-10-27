@@ -3,7 +3,7 @@ import PageHelmet from "../component/common/Helmet";
 import ModalVideo from 'react-modal-video';
 import ScrollToTop from 'react-scroll-up';
 import { FiChevronUp } from "react-icons/fi";
-import Header from "../component/header/Header";
+import HeaderThree from "../component/header/HeaderThree";
 import Footer from "../component/footer/Footer";
 
 
@@ -26,7 +26,8 @@ class ServiceDetails extends Component{
                 <PageHelmet pageTitle='Service Details' />
                 {/* End Pagehelmet  */}
 
-                <Header headertransparent="header--transparent" colorblack="color--black" logoname="logo.png" />
+                <HeaderThree homeLink="/" logo="symbol-dark" color="color-black"/>
+
 
                 {/* Start Breadcrump Area */}
                 <div className="rn-page-title-area pt--120 pb--190 bg_image bg_image--5"  data-black-overlay="5">
@@ -34,8 +35,9 @@ class ServiceDetails extends Component{
                         <div className="row">
                             <div className="col-lg-12">
                                 <div className="rn-page-title text-center pt--100">
-                                    <h2 className="title theme-gradient">WEBSITE DEVELOPMENT</h2>
-                                    <p>Fresh From The Press Discription</p>
+                                    <h2 className="title" style={{color:"#efa900"}}>Our Hr Services</h2>
+                                   
+                                  
                                 </div>
                             </div>
                         </div>
@@ -44,7 +46,7 @@ class ServiceDetails extends Component{
                 {/* End Breadcrump Area */}
 
                 {/* Start Page Wrapper */}
-                <div className="rn-service-details ptb--120 bg_color--1">
+                <div className="rn-service-details ptb--120 bg_color--1" style={{background:"#191919"}}>
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-12">

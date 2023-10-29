@@ -30,6 +30,8 @@ import InteractiveAgency from './home/InteractiveAgency';
 // Dark Home Layout 
 import DarkMainDemo from './dark/MainDemo';
 import DarkPortfolioLanding from './dark/PortfolioLanding';
+// import DemoPort from './dark/DemoPort';
+
 
 // Element Layout
 import Service from "./elements/Service";
@@ -77,6 +79,7 @@ class Root extends Component{
 
                     {/* usable routes */}
                         <Route exact path={`${process.env.PUBLIC_URL}/`} component={DarkPortfolioLanding}/>
+                        {/* <Route exact path={`${process.env.PUBLIC_URL}/demoport`} component={DemoPort}/> */}
                         <Route exact path={`${process.env.PUBLIC_URL}/service`} component={Service}/>
                         <Route exact path={`${process.env.PUBLIC_URL}/hr-services`} component={ServiceDetails}/>
                         <Route exact path={`${process.env.PUBLIC_URL}/hr-consulting`} component={HrConsulting}/>

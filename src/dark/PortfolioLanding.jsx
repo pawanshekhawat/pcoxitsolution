@@ -9,7 +9,15 @@ import TabTwo from "../elements/tab/TabTwo";
 import ContactThree from "../elements/contact/ContactThree";
 import PortfolioList from "../elements/portfolio/PortfolioList";
 import ServiceList from "../elements/service/ServiceList";
+
 import BlogContent from "../elements/blog/BlogContent";
+// import MultiLang from '../component/MultiLang/MultiLang';
+
+
+
+
+
+
 
 const SlideList = [
     {
@@ -24,29 +32,30 @@ const SlideList = [
 const PortfolioLanding = () => {
     let title = 'About Us',
         description = `Welcome to our overseas recruitment company! We are a leading global HR recruitment company that specializes in connecting talented individuals with exciting job opportunities overseas. At our company, we understand the challenges and complexities of finding the right talent for international positions. That's why we are here to simplify the process and help both employers and job seekers navigate the global job market with ease.`;
-    const PostList = BlogContent.slice(0 , 3);
+    const PostList = BlogContent.slice(0, 3);
     return (
         <div className="active-dark">
             <Helmet pageTitle="Alcaenat" />
 
-            <HeaderThree homeLink="/" logo="symbol-dark" color="color-black"/>
+            <HeaderThree homeLink="/" logo="symbol-dark" color="color-black" />
             {/* Start Slider Area   */}
+
             <div id="home" className="fix">
                 <div className="slider-wrapper">
                     {/* Start Single Slide */}
-                    {SlideList.map((value , index) => (
+                    {SlideList.map((value, index) => (
                         <div className="slide personal-portfolio-slider slider-paralax slider-style-3 d-flex align-items-center justify-content-center bg_image bg_image--25" key={index}>
                             <div className="container">
                                 <div className="row">
                                     <div className="col-lg-12">
                                         <div className={`inner ${value.textPosition}`}>
                                             {value.category ? <span>{value.category}</span> : ''}
-                                            <h1 className="title">Looking for Overseas Recruitment Agency? <br/>
-                                            <TextLoop>
-                                                <span> HR Services.</span>
-                                                <span> HR Consulting.</span>
-                                                <span> Business Consulting.</span>
-                                            </TextLoop>{" "}
+                                            <h1 className="title">Looking for Overseas Recruitment Agency? <br />
+                                                <TextLoop>
+                                                    <span> HR Services.</span>
+                                                    <span> HR Consulting.</span>
+                                                    <span> Business Consulting.</span>
+                                                </TextLoop>{" "}
                                             </h1>
                                             {/* <h2>based in USA.</h2> */}
                                             {/* {value.description ? <p className="description">{value.description}</p> : ''}
@@ -57,11 +66,13 @@ const PortfolioLanding = () => {
                             </div>
                         </div>
                     ))}
-                    
+
                     {/* End Single Slide */}
                 </div>
             </div>
-            {/* End Slider Area   */} 
+            {/* End Slider Area   */}
+
+            {/* <MultiLang /> */}
 
             {/* Start About Area */}
             <div id="about" className="fix">
@@ -71,7 +82,7 @@ const PortfolioLanding = () => {
                             <div className="row row--35 align-items-center">
                                 <div className="col-lg-5">
                                     <div className="thumbnail">
-                                        <img className="w-100" src="/assets/images/about/about-8.jpg" alt="About Images"/>
+                                        <img className="w-100" src="/assets/images/about/about-8.jpg" alt="About Images" />
                                     </div>
                                 </div>
                                 <div className="col-lg-7">
@@ -90,7 +101,7 @@ const PortfolioLanding = () => {
                     </div>
                 </div>
             </div>
-            
+
             {/* End About Area */}
 
             {/* Start Service Area  */}
@@ -111,9 +122,9 @@ const PortfolioLanding = () => {
                             </div>
                         </div>
                     </div>
-                </div>  
+                </div>
             </div>
-            {/* End Service Area  */} 
+            {/* End Service Area  */}
 
             {/* Start Portfolio Area */}
             <div id="portfolio" className="fix">
@@ -157,12 +168,12 @@ const PortfolioLanding = () => {
                             </div>
                         </div>
                         <div className="row mt--60 mt_sm--40">
-                            {PostList.map((value , i ) => (
+                            {PostList.map((value, i) => (
                                 <div className="col-lg-4 col-md-6 col-12" key={i}>
                                     <div className="blog blog-style--1">
                                         <div className="thumbnail">
                                             <a href="/blog-details">
-                                                <img className="w-100" src={`/assets/images/blog/blog-${value.images}.jpg`} alt="Blog Images"/>
+                                                <img className="w-100" src={`/assets/images/blog/blog-${value.images}.jpg`} alt="Blog Images" />
                                             </a>
                                         </div>
                                         <div className="content">
@@ -175,8 +186,8 @@ const PortfolioLanding = () => {
                                     </div>
                                 </div>
                             ))}
-                        </div>    
-                    </div>    
+                        </div>
+                    </div>
                 </div>
             </div>
             {/* End Blog Area */}
@@ -189,7 +200,7 @@ const PortfolioLanding = () => {
             </div>
             {/* End COntact Area */}
 
-            <Footer/>
+            <Footer />
             {/* Start Back To Top */}
             <div className="backto-top">
                 <ScrollToTop showUnder={160}>
@@ -197,7 +208,7 @@ const PortfolioLanding = () => {
                 </ScrollToTop>
             </div>
             {/* End Back To Top */}
-            
+
         </div>
     )
 }

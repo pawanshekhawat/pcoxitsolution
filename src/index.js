@@ -61,13 +61,19 @@ import Columns from "./blocks/Columns";
 import PricingTable from "./blocks/PricingTable";
 import { BrowserRouter, Switch, Route  } from 'react-router-dom';
 import * as serviceWorker from './serviceWorker';
+import { useEffect, useState } from "react";
+import Cursor from './component/Cursor/Cursor'
+
+
 
 class Root extends Component{
     render(){
         return(
             <BrowserRouter basename={'/'}>
                 <PageScrollTop>
+                <Cursor/>
                     <Switch>
+                     
 
                     {/* usable routes */}
                         <Route exact path={`${process.env.PUBLIC_URL}/`} component={DarkPortfolioLanding}/>

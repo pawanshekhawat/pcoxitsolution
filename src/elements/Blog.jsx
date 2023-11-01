@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React, { Component, useState } from "react";
 import PageHelmet from "../component/common/Helmet";
 import Breadcrumb from "../elements/common/Breadcrumb";
 import Pagination from "../elements/common/Pagination";
@@ -8,45 +8,55 @@ import { FiChevronUp } from "react-icons/fi";
 import HeaderThree from "../component/header/HeaderThree";
 import Footer from "../component/footer/Footer";
 
-class Blog extends Component{
-    render(){
-        return(
-            <React.Fragment>
-                <PageHelmet pageTitle='Blog' />
+import Toggle from "../component/Toggle/Toggle";
 
-                <HeaderThree homeLink="/" logo="symbol-dark" color="color-black"/>
-                {/* Start Breadcrump Area */}
-                <Breadcrumb title={'Our Blogs'}   />
-                {/* End Breadcrump Area */}
+const Blog = () => {
+
+    const [isDark, setIsDark] = useState(true);
+
+    return (
+        <div className={isDark ? "active-dark" : "active-light"}>
+            <PageHelmet pageTitle='Blog' />
+
+            <HeaderThree homeLink="/" logo="symbol-dark" color="color-black" />
+            {/* Start Breadcrump Area */}
+            <Breadcrumb title={'Our Blogs'} />
+            {/* End Breadcrump Area */}
 
 
-                {/* Start Blog Area */}
-                <div className="rn-blog-area ptb--120 bg_color--1" style={{background:"#101010"}}>
-                    <div className="container">
-                        <BlogList />
-                        <div className="row mt--20">
-                            <div className="col-lg-12">
-                                {/* Start Pagination Area */}
-                                {/* <Pagination /> */}
-                                {/* End Pagination Area */}
-                            </div>
+            {/* Start Blog Area */}
+            <div className="rn-blog-area ptb--120 bg_color--1">
+                <div className="container">
+                    <BlogList />
+                    <div className="row mt--20">
+                        <div className="col-lg-12">
+                            {/* Start Pagination Area */}
+                            {/* <Pagination /> */}
+                            {/* End Pagination Area */}
                         </div>
                     </div>
                 </div>
-                {/* End Blog Area */}
-                
-                {/* Start Back To Top */}
-                <div className="backto-top">
-                    <ScrollToTop showUnder={160}>
-                        <FiChevronUp />
-                    </ScrollToTop>
-                </div>
-                {/* End Back To Top */}
-                
-                <Footer /> 
+            </div>
+            {/* End Blog Area */}
 
-            </React.Fragment>
-        )
-    }
+            {/* Start Back To Top */}
+            <div className="backto-top">
+                <ScrollToTop showUnder={160}>
+                    <FiChevronUp />
+                </ScrollToTop>
+            </div>
+            {/* End Back To Top */}
+
+            <div className="toggle-button">
+
+                <Toggle isChecked={isDark} handleChange={() => setIsDark(!isDark)} />
+
+            </div>
+
+            <Footer />
+
+        </div>
+    )
 }
+
 export default Blog;

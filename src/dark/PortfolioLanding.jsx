@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import ScrollToTop from 'react-scroll-up';
 import { FiChevronUp } from "react-icons/fi";
 import Helmet from "../component/common/Helmet";
@@ -12,6 +12,11 @@ import ServiceList from "../elements/service/ServiceList";
 
 import BlogContent from "../elements/blog/BlogContent";
 // import MultiLang from '../component/MultiLang/MultiLang';
+
+
+import Toggle from '../component/Toggle/Toggle';
+
+// import { UsageState } from 'webpack'
 
 
 
@@ -33,8 +38,12 @@ const PortfolioLanding = () => {
     let title = 'About Us',
         description = `Welcome to our overseas recruitment company! We are a leading global HR recruitment company that specializes in connecting talented individuals with exciting job opportunities overseas. At our company, we understand the challenges and complexities of finding the right talent for international positions. That's why we are here to simplify the process and help both employers and job seekers navigate the global job market with ease.`;
     const PostList = BlogContent.slice(0, 3);
+
+    // const preference = window.matchMedia("(prefers-color-scheme: dark)").matches;
+    const [isDark, setIsDark] = useState(true);
+
     return (
-        <div className="active-dark">
+        <div className={isDark ? "active-dark" : "active-light"}>
             <Helmet pageTitle="Alcaenat" />
 
             <HeaderThree homeLink="/" logo="symbol-dark" color="color-black" />
@@ -73,6 +82,11 @@ const PortfolioLanding = () => {
             {/* End Slider Area   */}
 
             {/* <MultiLang /> */}
+
+
+
+
+
 
             {/* Start About Area */}
             <div id="about" className="fix">
@@ -207,7 +221,22 @@ const PortfolioLanding = () => {
                     <FiChevronUp />
                 </ScrollToTop>
             </div>
+
+
             {/* End Back To Top */}
+
+            {/* theme toggle start */}
+
+            <div className="toggle-button">
+              
+                    <Toggle isChecked={isDark} handleChange={() => setIsDark(!isDark)} />
+             
+            </div>
+
+
+
+
+
 
         </div>
     )

@@ -121,7 +121,7 @@ const Contact = () => {
                                 </div>
                                 <div className="inner">
                                     <h4 className="title">Location</h4>
-                                    <p>1 Sheikh Mohammed bin Rashid Blvd - United Arab Emirates</p>
+                                    <p>Standard Chartered Tower, Level 5, Down Town, Burj Khalifa, Dubai.</p>
                                 </div>
                             </div>
                         </div>

@@ -1,8 +1,8 @@
 {
-  "name": "trydo",
+  "name": "alcaenat",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://trydo.rainbowit.net",
+  "homepage": "http://alcaenat.com/",
   "basename": "/",
   "dependencies": {
     "@babel/core": "7.4.3",
@@ -15,7 +15,7 @@
     "babel-loader": "8.0.5",
     "babel-plugin-named-asset-import": "^0.3.7",
     "babel-preset-react-app": "^9.1.2",
-    "bootstrap": "^5.3.2",
+    "bootstrap": "^4.6.1",
     "camelcase": "^5.2.0",
     "case-sensitive-paths-webpack-plugin": "2.2.0",
     "classnames": "^2.3.2",
@@ -83,7 +83,7 @@
     "react-video-tag": "0.0.10",
     "react-visibility-sensor": "^5.1.1",
     "resolve": "1.10.0",
-    "sass": "^1.50.1",
+    "sass": "^1.69.5",
     "sass-loader": "^7.3.1",
     "semver": "6.0.0",
     "slick-carousel": "^1.8.1",

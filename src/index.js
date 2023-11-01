@@ -30,6 +30,8 @@ import InteractiveAgency from './home/InteractiveAgency';
 // Dark Home Layout 
 import DarkMainDemo from './dark/MainDemo';
 import DarkPortfolioLanding from './dark/PortfolioLanding';
+import DemoPort from './dark/DemoPort';
+
 
 // Element Layout
 import Service from "./elements/Service";
@@ -64,6 +66,10 @@ import * as serviceWorker from './serviceWorker';
 import { useEffect, useState } from "react";
 import Cursor from './component/Cursor/Cursor'
 
+import Toggle from './component/Toggle/Toggle';
+
+
+
 
 
 class Root extends Component{
@@ -77,7 +83,14 @@ class Root extends Component{
 
                     {/* usable routes */}
                         <Route exact path={`${process.env.PUBLIC_URL}/`} component={DarkPortfolioLanding}/>
-                        <Route exact path={`${process.env.PUBLIC_URL}/service`} component={Service}/>
+                        <Route exact path={`${process.env.PUBLIC_URL}/demoport`} component={DemoPort}/>
+
+
+
+                        <Route exact path={`${process.env.PUBLIC_URL}/toggle`} component={Toggle}/>
+                        
+
+                   
                         <Route exact path={`${process.env.PUBLIC_URL}/hr-services`} component={ServiceDetails}/>
                         <Route exact path={`${process.env.PUBLIC_URL}/hr-consulting`} component={HrConsulting}/>
                         <Route exact path={`${process.env.PUBLIC_URL}/hr-third-party`} component={HrThirdParty}/>
@@ -105,7 +118,7 @@ class Root extends Component{
                         <Route exact path={`${process.env.PUBLIC_URL}/studio-agency`} component={StudioAgency}/>
                         <Route exact path={`${process.env.PUBLIC_URL}/business`} component={Business}/>
                         <Route exact path={`${process.env.PUBLIC_URL}/portfolio-home`} component={HomePortfolio}/>
-                        <Route exact path={`${process.env.PUBLIC_URL}/portfolio-landing`} />
+                        <Route exact path={`${process.env.PUBLIC_URL}/portfolio-landing`}  />
                         <Route exact path={`${process.env.PUBLIC_URL}/creative-landing`} component={CreativeLanding}/>
                         <Route exact path={`${process.env.PUBLIC_URL}/home-particles`} component={HomeParticles}/>
                         <Route exact path={`${process.env.PUBLIC_URL}/dark-portfolio-landing`} component={DarkPortfolioLanding}/>
@@ -144,6 +157,7 @@ class Root extends Component{
                         <Route component={error404}/>
 
                     </Switch>
+             
                 </PageScrollTop>
             </BrowserRouter>
         )

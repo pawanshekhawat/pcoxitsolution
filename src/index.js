@@ -67,6 +67,8 @@ import { useEffect, useState } from "react";
 import Cursor from './component/Cursor/Cursor'
 
 import Toggle from './component/Toggle/Toggle';
+import MainContact from './elements/MainContact';
+
 
 
 
@@ -131,7 +133,7 @@ class Root extends Component{
                         {/* Element Layot */}
                         <Route exact path={`${process.env.PUBLIC_URL}/service`} component={Service}/>
                      
-                        <Route exact path={`${process.env.PUBLIC_URL}/contact`} component={Contact}/>
+                        <Route exact path={`${process.env.PUBLIC_URL}/contact`} component={MainContact}/>
                         <Route exact path={`${process.env.PUBLIC_URL}/about`} component={About}/>
                         <Route exact path={`${process.env.PUBLIC_URL}/portfolio-details`} component={PortfolioDetails}/>
                         <Route exact path={`${process.env.PUBLIC_URL}/blog`} component={Blog}/>

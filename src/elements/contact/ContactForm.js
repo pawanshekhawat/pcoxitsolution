@@ -44,7 +44,7 @@ function ContactForm({ props }) {
 
 
     return (
-        <form action="" onSubmit={sendEmail}>
+        <form action="https://getform.io/f/997545f2-b658-4097-bfe4-07083390621a" method='POST' onSubmit={sendEmail}>
 
             <div className="rn-form-group">
                 <Select

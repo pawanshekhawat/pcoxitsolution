@@ -3,6 +3,7 @@ import {FaTwitter ,FaInstagram ,FaFacebookF , FaLinkedinIn } from "react-icons/f
 import { FiX , FiMenu} from "react-icons/fi";
 import Scrollspy from 'react-scrollspy';
 import { Link } from 'react-router-dom';
+import { useState, useEffect } from "react";
 
 
 const SocialShare = [
@@ -11,6 +12,8 @@ const SocialShare = [
     {Social: <FaInstagram /> , link: 'https://www.instagram.com/alcaenat?igshid=MzRlODBiNWFlZA%3D%3D'},
     {Social: <FaTwitter /> , link: 'https://twitter.com/'},
 ]
+
+
 class HeaderThree extends Component{
     constructor(props) {
         super(props);
@@ -33,6 +36,9 @@ class HeaderThree extends Component{
     }
 
     stickyHeader () {}
+
+
+    
 
     render(){
 
@@ -61,7 +67,7 @@ class HeaderThree extends Component{
         }else if(logo === 'dark'){
             logoUrl = <img src="/assets/images/logo/logo-dark.png" alt="Digital Agency" />;
         }else if(logo === 'symbol-dark'){
-            logoUrl = <img src="/assets/images/logo/logo-gold.jpeg" alt="Digital Agency" />;
+            logoUrl = <img src="/assets/images/logo/white-trans.webp" alt="Digital Agency" />;
         }else if(logo === 'symbol-light'){
             logoUrl = <img src="/assets/images/logo/logo-symbol-light.png" alt="Digital Agency" />;
         }else{
@@ -78,14 +84,17 @@ class HeaderThree extends Component{
                             </a>
                         </div>
                         <nav className="mainmenunav d-lg-block ml--50">
-                            <Scrollspy className="mainmenu" items={['home','about','service','portfolio','blog','contact']} currentClassName="is-current" offset={-200}>
+                            <Scrollspy className="mainmenu" items={['home','about','service','blog','contact']} currentClassName="is-current" offset={-200}>
                                 <li><Link to="/">Home</Link></li>
                                 <li><Link to="/about">About</Link></li>
                                
                                 <li><Link to="/service">Service</Link></li>
                                
                                 <li><Link to="/blog">Blog</Link></li>
+                                <li><Link to="/contact">Contact</Link></li>
                                 {/* <li><Link to="/contact">Contact</Link></li> */}
+                                {/* <li><Link to="/jobseekers">For Job seekers</Link></li>
+                                <li><Link to="/clientcontact">For Client</Link></li> */}
                             </Scrollspy>
                         </nav>
                     </div>
@@ -99,7 +108,7 @@ class HeaderThree extends Component{
                         </div>
                         <div className="header-btn">
                             <Link className="rn-btn" to="/jobseekers">
-                                <span>For Job seekers</span>
+                                <span>For Job Seekers</span>
                             </Link>
                         </div>
                         <div className="header-btn">

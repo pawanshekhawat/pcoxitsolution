@@ -91,7 +91,8 @@ const Contact = () => {
                                 </div>
                                 <div className="inner">
                                     <h4 className="title">Contact With Phone Number</h4>
-                                    <p><a href="tel:+057 254 365 456">+1 240 799 2086</a></p>
+                                    <p><a href="tel:+057 254 365 456">Mobile: +1 240 799 2086</a></p>
+                                    <p><a href="tel:+057 254 365 456">Landline: +971-04-313-2481 </a></p>
 
                                 </div>
                             </div>
@@ -121,7 +122,7 @@ const Contact = () => {
                                 </div>
                                 <div className="inner">
                                     <h4 className="title">Location</h4>
-                                    <p>Standard Chartered Tower, Level 5, Down Town, Burj Khalifa, Dubai.</p>
+                                    <p>Address: SCB, Level 5, Downtown, Burj Khalifa, Dubai. </p>
                                 </div>
                             </div>
                         </div>

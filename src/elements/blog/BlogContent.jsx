@@ -1,8 +1,8 @@
 const BlogContent = [
     {
         images: '01',
-        title: ' Getting tickets to the big show',
-        category: 'Development'
+        title: 'BYOD Security Policy Best Practices: Safeguarding Employee Device',
+        category: 'Security'
     },
     {
         images: '02',

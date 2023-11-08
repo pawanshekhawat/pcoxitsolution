@@ -13,39 +13,39 @@ const ServiceList = [
     {
         icon: <FiCast />,
         title: 'HR Services',
-        description: 'I throw myself down among the tall grass by the stream as I lie close to the earth.',
-        path: '/hr-services'
+        description: 'Welcome to our overseas recruitment website! We are thrilled to have you here. At our HR services, we strive to connect talented individuals...',
+        path:'/hr-services'
     },
     {
         icon: <FiLayers />,
         title: 'HR Consulting',
-        description: 'I throw myself down among the tall grass by the stream as I lie close to the earth.',
-        path: '/hr-consulting'
+        description: 'Welcome to our HR consulting services website! We are delighted to have you here. At our firm, we specialize in providing comprehensive and...',
+        path:'/hr-consulting'
     },
     {
         icon: <FiUsers />,
         title: 'HR Third Party Payroll Services',
-        description: 'I throw myself down among the tall grass by the stream as I lie close to the earth.',
-        path: '/hr-third-party'
+        description: 'Welcome to our HR third-party payroll services! We are delighted to offer you a comprehensive and efficient solution to manage your payroll...',
+        path:'/hr-third-party'
     },
-    {
+    { 
         icon: <FiMonitor />,
         title: 'Business Consulting',
-        description: 'I throw myself down among the tall grass by the stream as I lie close to the earth.',
-        path: '/hr-third-party'
-
+        description:'Welcome to our Business Consulting services! We specialize in providing expert guidance to businesses, helping them navigate...',
+        path:'/business-consulting'
+        
     },
     {
         icon: <FiUsers />,
-        title: 'HR Consulting',
-        description: 'I throw myself down among the tall grass by the stream as I lie close to the earth.',
-        path: '/hr-third-party'
+        title: 'Employee Training and Development:',
+        description: 'nvest in your workforce with our customized training programs. From skill development workshops to leadership training...',
+        path:'/hr-third-party'
     },
-    {
+    { 
         icon: <FiMonitor />,
-        title: 'Business Consulting',
-        description: 'I throw myself down among the tall grass by the stream as I lie close to the earth.',
-        path: '/hr-third-party'
+        title: 'HR Compliance and Legal Support', 
+        description: 'Stay compliant with ever-changing employment laws and regulations. Our HR experts provide guidance on legal matters...',
+        path:'/hr-third-party'
 
     }
 ]
@@ -69,7 +69,6 @@ const Service = () => {
                         <div className="col-lg-12">
                             <div className="section-title text-center mb--30">
                                 <h2>Our Services</h2>
-                                <p>There are many variations of passages of Lorem Ipsum available, <br /> but the majority have suffered alteration.</p>
                             </div>
                         </div>
                     </div>

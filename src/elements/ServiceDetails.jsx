@@ -20,7 +20,7 @@ const ServiceDetails = () => {
     return (
         <div className={isDark ? "active-dark" : "active-light"}>
             {/* Start Pagehelmet  */}
-            <PageHelmet pageTitle='Service Details' />
+            <PageHelmet pageTitle='Hr Services'/>
             {/* End Pagehelmet  */}
 
             <HeaderThree homeLink="/" logo="symbol-dark" color="color-black" />
@@ -55,17 +55,19 @@ const ServiceDetails = () => {
                                         </div>
                                         <div className="col-lg-6 col-12">
                                             <div className="title">
-                                            <p className="description"  >Looking for your dream job? Fill out the form below with your details, and our expert team will assist you in finding the perfect job opportunity tailored to your skills and aspirations</p>
+                                            <p className="description"  >Welcome to our overseas recruitment website! We are thrilled to have you here. At our HR services, we strive to connect talented individuals with exciting job opportunities abroad. Whether you are a job seeker looking for a new adventure or an employer seeking skilled professionals, we are here to assist you every step of the way.  </p>
 
-                                                <p>hidden in the middle of text. All the Lorem Ipsum generators tend toitrrepeat predefined chunks. Necessary, making this the first true generator on the Internet.</p>
-                                                <h4 className="title">Proceess of metel</h4>
+                                                <p>With our extensive network and expertise in international recruitment, we have successfully placed candidates in various industries across the globe. Our team of dedicated HR professionals understands the unique challenges and opportunities that come with working in a foreign country. We take pride in providing personalized services that cater to the specific needs of both job seekers and employers.  For job seekers, we offer a wide range of resources to help you find the perfect job overseas. Our team will work closely with you to understand your skills, aspirations, and preferences. We will then match you with suitable job opportunities in countries that align with your goals.</p>
+
+
+                                                {/* <h4 className="title">Proceess of metel</h4>
                                                 <ul className="liststyle">
                                                     <li>Yet this above sewed flirted opened ouch</li>
                                                     <li>Goldfinch realistic sporadic ingenuous</li>
                                                     <li>Abominable this abidin far successfully then like piquan</li>
                                                     <li>Risus commodo viverra</li>
                                                     <li>Lorem ipsum dolor sit amet, consectetur adipiscing</li>
-                                                </ul>
+                                                </ul> */}
                                             </div>
                                         </div>
                                     </div>
@@ -75,17 +77,12 @@ const ServiceDetails = () => {
                                     <div className="row sercice-details-content align-items-center">
                                     <div className="col-lg-6 col-12">
                                             <div className="title">
-                                            <p className="description"  >Looking for your dream job? Fill out the form below with your details, and our expert team will assist you in finding the perfect job opportunity tailored to your skills and aspirations</p>
+                                            <p className="description"  >For job seekers, we offer a wide range of resources to help you find the perfect job overseas. Our team will work closely with you to understand your skills, aspirations, and preferences. We will then match you with suitable job opportunities in countries that align with your goals. From resume writing and interview preparation to visa assistance and relocation support, we are committed to making your transition as smooth as possible.</p>
 
-                                                <p>hidden in the middle of text. All the Lorem Ipsum generators tend toitrrepeat predefined chunks. Necessary, making this the first true generator on the Internet.</p>
-                                                <h4 className="title">Proceess of metel</h4>
-                                                <ul className="liststyle">
-                                                    <li>Yet this above sewed flirted opened ouch</li>
-                                                    <li>Goldfinch realistic sporadic ingenuous</li>
-                                                    <li>Abominable this abidin far successfully then like piquan</li>
-                                                    <li>Risus commodo viverra</li>
-                                                    <li>Lorem ipsum dolor sit amet, consectetur adipiscing</li>
-                                                </ul>
+                                                <p>Employers, on the other hand, can rely on our expertise to find the right talent for their organizations. We understand that hiring internationally can be a complex process, which is why we handle everything from sourcing candidates to conducting interviews and managing the paperwork. Our goal is to connect you with highly qualified professionals who can contribute to the growth and success of your business.</p>
+
+
+   
                                             </div>
                                         </div>
                                         <div className="col-lg-6 col-12 order-1 order-lg-2">
@@ -93,6 +90,33 @@ const ServiceDetails = () => {
                                                 <img className="w-100" src="/assets/images/service/service-02.png" alt="Service Images" />
                                                 <ModalVideo channel='youtube' isOpen={isOpen} videoId='ZOoVOfieAF8' onClose={() => setIsOpen(false)} />
                                                 <button className="video-popup" onClick={openModal}><span className="play-icon"></span></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    {/* End Single Area */}
+
+                                     {/* Start Single Area */}
+                                     <div className="row sercice-details-content pb--80 align-items-center">
+                                        <div className="col-lg-6 col-12">
+                                            <div className="thumb">
+                                                <img className="w-100" src="/assets/images/service/service-01.png" alt="Service Images" />
+                                            </div>
+                                        </div>
+                                        <div className="col-lg-6 col-12">
+                                            <div className="title">
+                                            <p>What sets us apart is our commitment to building long-term relationships with our clients. We believe in going beyond just filling job vacancies – we strive to create partnerships that last. Our team takes the time to understand your unique requirements and company culture, ensuring that we find candidates who not only have the necessary skills but also fit seamlessly into your organization.</p>
+
+                                            <p>So, whether you are looking to explore new career opportunities overseas or seeking talented professionals to join your team, we invite you to partner with us. Together, we can make your international recruitment journey a rewarding and successful one. Contact us today to learn more about our HR services and how we can assist you in achieving your goals.
+</p>
+
+                                                {/* <h4 className="title">Proceess of metel</h4>
+                                                <ul className="liststyle">
+                                                    <li>Yet this above sewed flirted opened ouch</li>
+                                                    <li>Goldfinch realistic sporadic ingenuous</li>
+                                                    <li>Abominable this abidin far successfully then like piquan</li>
+                                                    <li>Risus commodo viverra</li>
+                                                    <li>Lorem ipsum dolor sit amet, consectetur adipiscing</li>
+                                                </ul> */}
                                             </div>
                                         </div>
                                     </div>

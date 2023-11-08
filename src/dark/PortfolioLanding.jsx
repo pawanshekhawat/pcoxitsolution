@@ -35,8 +35,8 @@ const SlideList = [
 
 ]
 const PortfolioLanding = () => {
-    let title = 'About Us',
-        description = `Welcome to our overseas recruitment company! We are a leading global HR recruitment company that specializes in connecting talented individuals with exciting job opportunities overseas. At our company, we understand the challenges and complexities of finding the right talent for international positions. That's why we are here to simplify the process and help both employers and job seekers navigate the global job market with ease.`;
+    let title = 'About Us'
+        // description = `Welcome to our overseas recruitment company! We are a leading global HR recruitment company that specializes in connecting talented individuals with exciting job opportunities overseas. At our company, we understand the challenges and complexities of finding the right talent for international positions. That's why we are here to simplify the process and help both employers and job seekers navigate the global job market with ease.`;
     const PostList = BlogContent.slice(0, 3);
 
     // const preference = window.matchMedia("(prefers-color-scheme: dark)").matches;
@@ -103,7 +103,8 @@ const PortfolioLanding = () => {
                                     <div className="about-inner inner">
                                         <div className="section-title">
                                             <h2 className="title">{title}</h2>
-                                            <p className="description">{description}</p>
+                                            <p className="description">Welcome to our overseas recruitment website! We are thrilled to have you here. At our HR services, we strive to connect talented individuals with exciting job opportunities abroad. Whether you are a job seeker looking for a new adventure or an employer seeking skilled professionals, we are here to assist you every step of the way.  With our extensive network and expertise in international recruitment, we have successfully placed candidates in various industries across the globe.</p>
+                                            <p className="description">Our team of dedicated HR professionals understands the unique challenges and opportunities that come with working in a foreign country. We take pride in providing personalized services that cater to the specific needs of both job seekers and employers.  For job seekers, we offer a wide range of resources to help you find the perfect job overseas. Our team will work closely with you to understand your skills, aspirations, and preferences. We will then match you with suitable job opportunities in countries that align with your goals.</p>
                                         </div>
                                         <div className="row mt--30">
                                             <TabTwo tabStyle="tab-style--1" />
@@ -126,7 +127,7 @@ const PortfolioLanding = () => {
                             <div className="col-lg-12">
                                 <div className="section-title text-center service-style--3 mb--30 mb_sm--0">
                                     <h2 className="title">Our Services</h2>
-                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.</p>
+                                    <p>Welcome to our overseas recruitment website! We are thrilled to have you here. </p>
                                 </div>
                             </div>
                         </div>
@@ -177,7 +178,7 @@ const PortfolioLanding = () => {
                             <div className="col-lg-12 col-md-12 col-sm-12 col-12">
                                 <div className="section-title text-center">
                                     <h2>Latest Blog</h2>
-                                    <p>There are many variations of passages of Lorem Ipsum available, <br />but the majority have suffered alteration.</p>
+                                    <p>Discover expert insights and valuable tips on cybersecurity, <br /> technology trends, and business strategies in our informative blog section </p>
                                 </div>
                             </div>
                         </div>
@@ -186,15 +187,15 @@ const PortfolioLanding = () => {
                                 <div className="col-lg-4 col-md-6 col-12" key={i}>
                                     <div className="blog blog-style--1">
                                         <div className="thumbnail">
-                                            <a href="/blog-details">
+                                            <a href="/byod-security-policy-best-practices">
                                                 <img className="w-100" src={`/assets/images/blog/blog-${value.images}.jpg`} alt="Blog Images" />
                                             </a>
                                         </div>
                                         <div className="content">
                                             <p className="blogtype">{value.category}</p>
-                                            <h4 className="title"><a href="/blog-details">{value.title}</a></h4>
+                                            <h4 className="title"><a href="/byod-security-policy-best-practices">{value.title}</a></h4>
                                             <div className="blog-btn">
-                                                <a className="rn-btn text-white" href="/blog-details">Read More</a>
+                                                <a className="rn-btn text-white" href="/byod-security-policy-best-practices">Read More</a>
                                             </div>
                                         </div>
                                     </div>

@@ -38,6 +38,13 @@ import Service from "./elements/Service";
 import ServiceDetails from "./elements/ServiceDetails";
 import HrConsulting from "./elements/HrConsulting";
 import HrThirdParty from "./elements/HrThirdParty";
+import BusinessConsulting from "./elements/BusinessConsulting"
+import EmployeeTraining from "./elements/EmplyeeTraining"
+import HrCompliance from "./elements/Hrcompliance"
+
+
+
+
 import About from "./elements/About";
 import Contact from "./elements/Contact";
 import ClientContact from "./elements/clientContact";
@@ -68,6 +75,8 @@ import Cursor from './component/Cursor/Cursor'
 
 import Toggle from './component/Toggle/Toggle';
 import MainContact from './elements/MainContact';
+import GoogleTagManager from './component/common/GoogleTag';
+
 
 
 
@@ -79,6 +88,7 @@ class Root extends Component{
         return(
             <BrowserRouter basename={'/'}>
                 <PageScrollTop>
+                    <GoogleTagManager/>
                 <Cursor/>
                     <Switch>
                      
@@ -96,6 +106,16 @@ class Root extends Component{
                         <Route exact path={`${process.env.PUBLIC_URL}/hr-services`} component={ServiceDetails}/>
                         <Route exact path={`${process.env.PUBLIC_URL}/hr-consulting`} component={HrConsulting}/>
                         <Route exact path={`${process.env.PUBLIC_URL}/hr-third-party`} component={HrThirdParty}/>
+                        <Route exact path={`${process.env.PUBLIC_URL}/business-consulting`} component={BusinessConsulting}/>
+
+                        <Route exact path={`${process.env.PUBLIC_URL}/employee-training`} component={EmployeeTraining}/>
+
+                        <Route exact path={`${process.env.PUBLIC_URL}/hr-compliance`} component={HrCompliance}/>
+
+
+
+
+
                         <Route exact path={`${process.env.PUBLIC_URL}/portfolio-details`} component={PortfolioDetails}/>
                         
                      
@@ -104,7 +124,7 @@ class Root extends Component{
                         <Route exact path={`${process.env.PUBLIC_URL}/about`} component={About}/>
                         <Route exact path={`${process.env.PUBLIC_URL}/portfolio-details`} component={PortfolioDetails}/>
                         <Route exact path={`${process.env.PUBLIC_URL}/blog`} component={Blog}/>
-                        <Route exact path={`${process.env.PUBLIC_URL}/blog-details`} component={BlogDetails}/>
+                        <Route exact path={`${process.env.PUBLIC_URL}/byod-security-policy-best-practices`} component={BlogDetails}/>
 
 
 

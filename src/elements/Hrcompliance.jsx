@@ -13,14 +13,14 @@ const ServiceDetails = () => {
     const openModal = () => {
         setIsOpen(true);
     };
- 
+
     const [isDark, setIsDark] = useState(true);
 
 
     return (
         <div className={isDark ? "active-dark" : "active-light"}>
             {/* Start Pagehelmet  */}
-            <PageHelmet pageTitle='HR Compliance and Legal Support'/>
+            <PageHelmet pageTitle='HR Compliance and Legal Support' />
             {/* End Pagehelmet  */}
 
             <HeaderThree homeLink="/" logo="symbol-dark" color="color-black" />
@@ -50,27 +50,27 @@ const ServiceDetails = () => {
                                     <div className="row sercice-details-content pb--80 align-items-center">
                                         <div className="col-lg-6 col-12">
                                             <div className="thumb">
-                                                <img className="w-100" src="/assets/images/service/service-01.png" alt="Service Images" />
+                                                <img className="w-100" src="/assets/images/service/HR Compliance and Legal Support-02-min.JPG" alt="Service Images" />
                                             </div>
                                         </div>
                                         <div className="col-lg-6 col-12">
                                             <div className="title">
 
-                                            <p>Navigating the complex landscape of HR compliance and legal regulations is crucial for any business. Our HR Compliance and Legal Support services are designed to provide you with expert guidance and peace of mind. We stay up-to-date with the latest employment laws and regulations, ensuring that your company policies and practices align seamlessly with legal requirements.</p>
+                                                <p>Navigating the complex landscape of HR compliance and legal regulations is crucial for any business. Our HR Compliance and Legal Support services are designed to provide you with expert guidance and peace of mind. We stay up-to-date with the latest employment laws and regulations, ensuring that your company policies and practices align seamlessly with legal requirements.</p>
 
-                                            <p>Our dedicated team of professionals offers comprehensive support in drafting, reviewing, and updating HR policies and procedures. We conduct thorough audits to identify potential areas of risk and guide you on best practices to mitigate legal challenges. Whether it's employment contracts, anti-discrimination policies, or workplace safety guidelines, we tailor our services to your specific industry needs, ensuring compliance with local, state, and federal laws.</p>
+                                                <p>Our dedicated team of professionals offers comprehensive support in drafting, reviewing, and updating HR policies and procedures. We conduct thorough audits to identify potential areas of risk and guide you on best practices to mitigate legal challenges. Whether it's employment contracts, anti-discrimination policies, or workplace safety guidelines, we tailor our services to your specific industry needs, ensuring compliance with local, state, and federal laws.</p>
 
-                                            <p>By partnering with us for HR Compliance and Legal Support, you can focus on your core business activities, confident that your HR practices are in line with the law. Stay ahead of regulatory changes, minimize legal risks, and foster a work environment that promotes both legal compliance and ethical integrity. Let us be your trusted partners in ensuring a secure and compliant workplace for your employees.</p>
+                                                <p>By partnering with us for HR Compliance and Legal Support, you can focus on your core business activities, confident that your HR practices are in line with the law. Stay ahead of regulatory changes, minimize legal risks, and foster a work environment that promotes both legal compliance and ethical integrity. Let us be your trusted partners in ensuring a secure and compliant workplace for your employees.</p>
 
-                                               
+
                                             </div>
                                         </div>
                                     </div>
                                     {/* End Single Area */}
 
-                           
 
-                                
+
+
                                 </div>
                             </div>
                         </div>

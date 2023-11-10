@@ -7,10 +7,10 @@ import { useState, useEffect } from "react";
 
 
 const SocialShare = [
-    {Social: <FaFacebookF /> , link: 'https://www.facebook.com/'},
+    {Social: <FaFacebookF /> , link: 'https://www.facebook.com/profile.php?id=61553086092533'},
     {Social: <FaLinkedinIn /> , link: 'https://www.linkedin.com/'},
     {Social: <FaInstagram /> , link: 'https://www.instagram.com/alcaenat?igshid=MzRlODBiNWFlZA%3D%3D'},
-    {Social: <FaTwitter /> , link: 'https://twitter.com/'},
+    {Social: <FaTwitter /> , link: 'https://twitter.com/AlCaenat'},
 ]
 
 
@@ -67,7 +67,7 @@ class HeaderThree extends Component{
         }else if(logo === 'dark'){
             logoUrl = <img src="/assets/images/logo/logo-dark.png" alt="Digital Agency" />;
         }else if(logo === 'symbol-dark'){
-            logoUrl = <img src="/assets/images/logo/white-trans.webp" alt="Digital Agency" />;
+            logoUrl = <img src="/assets/images/logo/new-logo.png" alt="Digital Agency" />;
         }else if(logo === 'symbol-light'){
             logoUrl = <img src="/assets/images/logo/logo-symbol-light.png" alt="Digital Agency" />;
         }else{

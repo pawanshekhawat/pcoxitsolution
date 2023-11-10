@@ -13,14 +13,14 @@ const ServiceDetails = () => {
     const openModal = () => {
         setIsOpen(true);
     };
- 
+
     const [isDark, setIsDark] = useState(true);
 
 
     return (
         <div className={isDark ? "active-dark" : "active-light"}>
             {/* Start Pagehelmet  */}
-            <PageHelmet pageTitle='HR Third Party Payroll Services'/>
+            <PageHelmet pageTitle='HR Third Party Payroll Services' />
             {/* End Pagehelmet  */}
 
             <HeaderThree homeLink="/" logo="symbol-dark" color="color-black" />
@@ -50,7 +50,7 @@ const ServiceDetails = () => {
                                     <div className="row sercice-details-content pb--80 align-items-center">
                                         <div className="col-lg-6 col-12">
                                             <div className="thumb">
-                                                <img className="w-100" src="/assets/images/service/service-01.png" alt="Service Images" />
+                                                <img className="w-100" src="/assets/images/service/HR Third Party Payroll Services-01.JPG" alt="Service Images" />
                                             </div>
                                         </div>
                                         <div className="col-lg-6 col-12">
@@ -75,24 +75,24 @@ const ServiceDetails = () => {
 
                                     {/* Start Single Area */}
                                     <div className="row sercice-details-content align-items-center">
-                                    <div className="col-lg-6 col-12">
+                                        <div className="col-lg-6 col-12">
                                             <div className="title">
-                                            <h4 className="title">Here are some key features and benefits of our HR third-party payroll services:</h4>
+                                                <h4 className="title">Here are some key features and benefits of our HR third-party payroll services:</h4>
 
-                                            <ul className="liststyle">
+                                                <ul className="liststyle">
                                                     <li>1. Payroll Processing: Our team of payroll experts will handle all aspects of payroll processing, including calculating wages, deductions, and taxes. We ensure that your employees are paid accurately and on time, eliminating the stress and hassle of managing payroll in-house.</li> <br />
                                                     <li>2. Tax Compliance: Staying compliant with tax regulations can be complex and time-consuming. Our payroll services include tax calculations, deductions, and reporting to ensure that your organization remains compliant with local, state, and federal tax laws.</li>  <br />
                                                     <li>3. Direct Deposit and Payroll Distribution: We offer convenient and secure direct deposit options, allowing your employees to receive their pay electronically. We also provide payroll distribution services, including printing and delivering physical paychecks, if needed.</li>  <br />
                                                     <li>4. Employee Self-Service Portal: Our user-friendly online portal enables your employees to access their pay stubs, tax forms, and other payroll-related information anytime, anywhere. This self-service feature empowers your employees and reduces administrative tasks for your HR team.</li>  <br />
-                                                 
-                                                </ul> 
 
-   
+                                                </ul>
+
+
                                             </div>
                                         </div>
                                         <div className="col-lg-6 col-12 order-1 order-lg-2">
                                             <div className="thumb position-relative">
-                                                <img className="w-100" src="/assets/images/service/service-02.png" alt="Service Images" />
+                                                <img className="w-100" src="/assets/images/service/HR Third Party Payroll Services-02.JPG" alt="Service Images" />
                                                 <ModalVideo channel='youtube' isOpen={isOpen} videoId='ZOoVOfieAF8' onClose={() => setIsOpen(false)} />
                                                 <button className="video-popup" onClick={openModal}><span className="play-icon"></span></button>
                                             </div>
@@ -100,7 +100,7 @@ const ServiceDetails = () => {
                                     </div>
                                     {/* End Single Area */}
 
-                                
+
                                 </div>
                             </div>
                         </div>

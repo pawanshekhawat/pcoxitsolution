@@ -51,6 +51,7 @@ const ServiceDetails = () => {
                                         <div className="col-lg-6 col-12">
                                             <div className="thumb">
                                                 <img className="w-100" src="/assets/images/service/hrconsult/hr-consulting-01.jpg" alt="Service Images" />
+
                                             </div>
                                         </div>
                                         <div className="col-lg-6 col-12">
@@ -91,8 +92,7 @@ const ServiceDetails = () => {
                                         <div className="col-lg-6 col-12 order-1 order-lg-2">
                                             <div className="thumb position-relative">
                                                 <img className="w-100" src="/assets/images/service/hrconsult/hr-consulting-02.jpg"  alt="Service Images" />
-                                                
-                                            </div>
+                                                                                            </div>
                                         </div>
                                     </div>
                                     {/* End Single Area */}
@@ -145,6 +145,7 @@ const ServiceDetails = () => {
                                             <div className="thumb position-relative">
                                                 <img className="w-100" src="/assets/images/service/hrconsult/hr-service-03.JPG"alt="Service Images" />
                                      
+
                                             </div>
                                         </div>
                                     </div>

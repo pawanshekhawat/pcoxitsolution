@@ -13,14 +13,14 @@ const ServiceDetails = () => {
     const openModal = () => {
         setIsOpen(true);
     };
- 
+
     const [isDark, setIsDark] = useState(true);
 
 
     return (
         <div className={isDark ? "active-dark" : "active-light"}>
             {/* Start Pagehelmet  */}
-            <PageHelmet pageTitle='Business Consulting'/>
+            <PageHelmet pageTitle='Business Consulting' />
             {/* End Pagehelmet  */}
 
             <HeaderThree homeLink="/" logo="symbol-dark" color="color-black" />
@@ -50,7 +50,7 @@ const ServiceDetails = () => {
                                     <div className="row sercice-details-content pb--80 align-items-center">
                                         <div className="col-lg-6 col-12">
                                             <div className="thumb">
-                                                <img className="w-100" src="/assets/images/service/service-01.png" alt="Service Images" />
+                                                <img className="w-100" src="/assets/images/service/Business Consulting-01-min 2.JPG" alt="Service Images" />
                                             </div>
                                         </div>
                                         <div className="col-lg-6 col-12">
@@ -60,15 +60,15 @@ const ServiceDetails = () => {
 
                                                 <p>In the realm of business consulting, we redefine possibilities. Our dedicated team of professionals combines industry insights with creativity, delivering innovative solutions that drive business growth. We believe in not just meeting but exceeding client expectations. By leveraging our expertise in areas such as market research, strategic planning, and organizational development, we assist businesses in making informed decisions and staying ahead of the competition. Let us be your strategic partners, guiding you toward a future of unparalleled success and growth.</p>
 
-                                               
+
                                             </div>
                                         </div>
                                     </div>
                                     {/* End Single Area */}
 
-                           
 
-                                
+
+
                                 </div>
                             </div>
                         </div>

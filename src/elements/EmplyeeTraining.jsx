@@ -13,14 +13,14 @@ const ServiceDetails = () => {
     const openModal = () => {
         setIsOpen(true);
     };
- 
+
     const [isDark, setIsDark] = useState(true);
 
 
     return (
         <div className={isDark ? "active-dark" : "active-light"}>
             {/* Start Pagehelmet  */}
-            <PageHelmet pageTitle='Employee Training and Development'/>
+            <PageHelmet pageTitle='Employee Training and Development' />
             {/* End Pagehelmet  */}
 
             <HeaderThree homeLink="/" logo="symbol-dark" color="color-black" />
@@ -50,7 +50,7 @@ const ServiceDetails = () => {
                                     <div className="row sercice-details-content pb--80 align-items-center">
                                         <div className="col-lg-6 col-12">
                                             <div className="thumb">
-                                                <img className="w-100" src="/assets/images/service/service-01.png" alt="Service Images" />
+                                                <img className="w-100" src="/assets/images/service/Employee Training and development-02-min.JPG" alt="Service Images" />
                                             </div>
                                         </div>
                                         <div className="col-lg-6 col-12">
@@ -60,15 +60,15 @@ const ServiceDetails = () => {
 
                                                 <p>By investing in our employee training and development programs, you are not just enhancing the capabilities of your team; you are fostering a workforce that is agile, motivated, and ready to tackle any challenge. Partner with us to unlock the full potential of your employees, driving your business towards sustainable growth and success..</p>
 
-                                               
+
                                             </div>
                                         </div>
                                     </div>
                                     {/* End Single Area */}
 
-                           
 
-                                
+
+
                                 </div>
                             </div>
                         </div>

@@ -39,13 +39,14 @@ const ServiceList = [
         icon: <FiUsers />,
         title: 'Employee Training and Development:',
         description: 'nvest in your workforce with our customized training programs. From skill development workshops to leadership training...',
-        path: '/employee-training'
+        path:'/employee-training'
     },
+
     {
         icon: <FiMonitor />,
         title: 'HR Compliance and Legal Support',
         description: 'Stay compliant with ever-changing employment laws and regulations. Our HR experts provide guidance on legal matters...',
-        path: '/hr-compliance'
+        path:'/hr-compliance'
 
     }
 ]

@@ -50,7 +50,7 @@ const ServiceDetails = () => {
                                     <div className="row sercice-details-content pb--80 align-items-center">
                                         <div className="col-lg-6 col-12">
                                             <div className="thumb">
-                                                <img className="w-100" src="/assets/images/service/service-01.png" alt="Service Images" />
+                                                <img className="w-100" src="/assets/images/service/hrconsult/hr-consulting-01.jpg" alt="Service Images" />
                                             </div>
                                         </div>
                                         <div className="col-lg-6 col-12">
@@ -90,9 +90,8 @@ const ServiceDetails = () => {
                                         </div>
                                         <div className="col-lg-6 col-12 order-1 order-lg-2">
                                             <div className="thumb position-relative">
-                                                <img className="w-100" src="/assets/images/service/service-02.png" alt="Service Images" />
-                                                <ModalVideo channel='youtube' isOpen={isOpen} videoId='ZOoVOfieAF8' onClose={() => setIsOpen(false)} />
-                                                <button className="video-popup" onClick={openModal}><span className="play-icon"></span></button>
+                                                <img className="w-100" src="/assets/images/service/hrconsult/hr-consulting-02.jpg"  alt="Service Images" />
+                                                
                                             </div>
                                         </div>
                                     </div>
@@ -102,7 +101,7 @@ const ServiceDetails = () => {
                                     <div className="row sercice-details-content pb--80 align-items-center">
                                         <div className="col-lg-6 col-12">
                                             <div className="thumb">
-                                                <img className="w-100" src="/assets/images/service/service-01.png" alt="Service Images" />
+                                                <img className="w-100" src="/assets/images/service/hrconsult/hr-consulting-03.jpg" alt="Service Images" />
                                             </div>
                                         </div>
                                         <div className="col-lg-6 col-12">
@@ -144,9 +143,8 @@ const ServiceDetails = () => {
                                         </div>
                                         <div className="col-lg-6 col-12 order-1 order-lg-2">
                                             <div className="thumb position-relative">
-                                                <img className="w-100" src="/assets/images/service/service-02.png" alt="Service Images" />
-                                                <ModalVideo channel='youtube' isOpen={isOpen} videoId='ZOoVOfieAF8' onClose={() => setIsOpen(false)} />
-                                                <button className="video-popup" onClick={openModal}><span className="play-icon"></span></button>
+                                                <img className="w-100" src="/assets/images/service/hrconsult/hr-service-03.JPG"alt="Service Images" />
+                                     
                                             </div>
                                         </div>
                                     </div>

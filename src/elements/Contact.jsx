@@ -52,7 +52,7 @@ const Contact = () => {
 
             {/* Start Contact Page Area  */}
             <div className="rn-contact-page ptb--120 bg_color--1">
-                <ContactTwo />
+                <ContactTwo targetValue='user' />
             </div>
             {/* End Contact Page Area  */}
 

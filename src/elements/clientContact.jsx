@@ -58,7 +58,7 @@ const Contact = () => {
 
             {/* Start Contact Page Area  */}
             <div className="rn-contact-page ptb--120 bg_color--1">
-                <ContactTwo />
+                <ContactTwo targetValue='client' />
             </div>
             {/* End Contact Page Area  */}
 
@@ -146,9 +146,9 @@ const Contact = () => {
 
             <div className="toggle-button">
 
-<Toggle isChecked={isDark} handleChange={() => setIsDark(!isDark)} />
+                <Toggle isChecked={isDark} handleChange={() => setIsDark(!isDark)} />
 
-</div>
+            </div>
 
             <Footer />
 

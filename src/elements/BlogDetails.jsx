@@ -36,8 +36,7 @@ const BlogDetails = () => {
                                 <ul className="blog-meta d-flex justify-content-center align-items-center">
                                     <li><FiClock />May 18, 2020</li>
                                     <li><FiUser />NipaBali</li>
-                                    {/* <li><FiMessageCircle />15 Comments</li> */}
-                                    {/* <li><FiHeart />Like</li> */}
+                                
                                 </ul>
                             </div>
                         </div>

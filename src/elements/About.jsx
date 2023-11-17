@@ -110,6 +110,14 @@ const About = () => {
                 </div> */}
             {/* End Finding Us Area  */}
 
+              {/* Start Testimonial Area */}
+            <div className="rn-testimonial-area bg_color--5 ptb--120">
+                <div className="container">
+                    <Testimonial />
+                </div>
+            </div>
+            {/* End Testimonial Area */}
+
             {/* Start Team Area  */}
             <div className="rn-team-area bg_color--1 ptb--120">
                 <div className="container">
@@ -117,7 +125,7 @@ const About = () => {
                         <div className="col-lg-12">
                             <div className="section-title service-style--3 text-center mb--25">
                                 <h2 className="title">Skilled Team</h2>
-                                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.</p>
+                                <p>Meet our exceptional team of dedicated professionals, each bringing a unique set of skills and expertise to the table. Together, we strive towards excellence, innovation, and a shared commitment to exceeding expectations.</p>
                             </div>
                         </div>
                     </div>
@@ -130,8 +138,8 @@ const About = () => {
                                     <img className="w-100" src="/assets/images/team/team-01.jpg" alt="Blog Images" />
                                 </div>
                                 <div className="content">
-                                    <h4 className="title">Jone Due</h4>
-                                    <p className="designation">Sr. Web Developer</p>
+                                    <h4 className="title">Jone Daniels</h4>
+                                    <p className="designation">Recruitment Specialist:</p>
                                 </div>
                                 <ul className="social-icon" >
                                     <li><a href="https://www.facebook.com/"><FaFacebookF /></a></li>
@@ -142,6 +150,9 @@ const About = () => {
                         </div>
                         {/* End Single Team  */}
 
+
+                        
+
                         {/* Start Single Team  */}
                         <div className="col-lg-4 col-md-6 col-sm-6 col-12">
                             <div className="team">
@@ -149,8 +160,8 @@ const About = () => {
                                     <img className="w-100" src="/assets/images/team/team-02.jpg" alt="Blog Images" />
                                 </div>
                                 <div className="content">
-                                    <h4 className="title">BM. Alamin</h4>
-                                    <p className="designation">Sr. Web Developer</p>
+                                    <h4 className="title">Maria allen</h4>
+                                    <p className="designation">HR Manager</p>
                                 </div>
                                 <ul className="social-icon" >
                                     <li><a href="https://www.facebook.com/"><FaFacebookF /></a></li>
@@ -168,8 +179,8 @@ const About = () => {
                                     <img className="w-100" src="/assets/images/team/team-03.jpg" alt="Blog Images" />
                                 </div>
                                 <div className="content">
-                                    <h4 className="title">Jone Due</h4>
-                                    <p className="designation">Sr. Web Developer</p>
+                                    <h4 className="title">Alex Hien</h4>
+                                    <p className="designation">Training and Development Specialist:</p>
                                 </div>
                                 <ul className="social-icon" >
                                     <li><a href="https://www.facebook.com/"><FaFacebookF /></a></li>
@@ -185,13 +196,7 @@ const About = () => {
             </div>
             {/* End Team Area  */}
 
-            {/* Start Testimonial Area */}
-            <div className="rn-testimonial-area bg_color--5 ptb--120">
-                <div className="container">
-                    <Testimonial />
-                </div>
-            </div>
-            {/* End Testimonial Area */}
+          
 
             {/* Start Brand Area */}
             <div className="rn-brand-area brand-separation bg_color--5 ptb--120">

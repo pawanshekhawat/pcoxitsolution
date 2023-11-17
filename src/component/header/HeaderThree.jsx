@@ -9,10 +9,12 @@ import { useTranslation } from "react-i18next";
 
 
 const SocialShare = [
-    { Social: <FaFacebookF />, link: 'https://www.facebook.com/' },
-    { Social: <FaLinkedinIn />, link: 'https://www.linkedin.com/' },
-    { Social: <FaInstagram />, link: 'https://www.instagram.com/alcaenat?igshid=MzRlODBiNWFlZA%3D%3D' },
-    { Social: <FaTwitter />, link: 'https://twitter.com/' },
+
+    {Social: <FaFacebookF /> , link: 'https://www.facebook.com/profile.php?id=61553086092533'},
+    {Social: <FaLinkedinIn /> , link: 'https://www.linkedin.com/'},
+    {Social: <FaInstagram /> , link: 'https://www.instagram.com/alcaenat?igshid=MzRlODBiNWFlZA%3D%3D'},
+    {Social: <FaTwitter /> , link: 'https://twitter.com/AlCaenat'},
+
 ]
 
 
@@ -53,7 +55,8 @@ const SocialShare = [
 //             }
 //         });
 
-//         var elements = document.querySelectorAll('.has-droupdown > a');
+//         
+
 //         for (var i in elements) {
 //             if (elements.hasOwnProperty(i)) {
 //                 elements[i].onclick = function () {
@@ -179,33 +182,27 @@ const HeaderThree = (props) => {
             el.addEventListener('click', handleClick);
         });
 
-        return () => {
-            elements.forEach((el) => {
-                el.removeEventListener('click', handleClick);
-            });
-        };
-    }, []);
-
-    function menuTrigger() {
-        document.querySelector('.header-wrapper').classList.toggle('menu-open')
-    }
-
-    function CLoseMenuTrigger() {
-        document.querySelector('.header-wrapper').classList.remove('menu-open')
-    }
-
-    const getMenuUrl = () => {
-        switch (logo) {
-            case 'light':
-                return '/assets/images/logo/logo-light.png';
-            case 'dark':
-                return '/assets/images/logo/logo-dark.png';
-            case 'symbol-dark':
-                return '/assets/images/logo/white-trans.webp';
-            case 'symbol-light':
-                return '/assets/images/logo/logo-symbol-light.png';
-            default:
-                return '/assets/images/logo/logo.png';
+        var elements = document.querySelectorAll('.has-droupdown > a');
+        for(var i in elements) {
+            if(elements.hasOwnProperty(i)) {
+                elements[i].onclick = function() {
+                    this.parentElement.querySelector('.submenu').classList.toggle("active");
+                    this.classList.toggle("open");
+                }
+            }
+        }
+        const { logo, color='default-color' } = this.props;
+        let logoUrl;
+        if(logo === 'light'){
+            logoUrl = <img src="/assets/images/logo/logo-light.png" alt="Digital Agency" />;
+        }else if(logo === 'dark'){
+            logoUrl = <img src="/assets/images/logo/logo-dark.png" alt="Digital Agency" />;
+        }else if(logo === 'symbol-dark'){
+            logoUrl = <img src="/assets/images/logo/new-logo.png" alt="Digital Agency" />;
+        }else if(logo === 'symbol-light'){
+            logoUrl = <img src="/assets/images/logo/logo-symbol-light.png" alt="Digital Agency" />;
+        }else{
+            logoUrl = <img src="/assets/images/logo/logo.png" alt="Digital Agency" />;
         }
     };
     const { t } = useTranslation();

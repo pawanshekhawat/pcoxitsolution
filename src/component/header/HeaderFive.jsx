@@ -37,7 +37,7 @@ class HeaderFive extends Component{
         }else if(logo === 'dark'){
             logoUrl = <img src="/assets/images/logo/logo-dark.png" alt="Trydo" />;
         }else if(logo === 'symbol-dark'){
-            logoUrl = <img src="/assets/images/logo/white-trans.webp" alt="Trydo" />;
+            logoUrl = <img src="/assets/images/logo/new-logo.png" alt="Trydo" />;
         }else if(logo === 'all-dark'){
             logoUrl = <img src="/assets/images/logo/logo-all-dark.png" alt="Trydo" />;
         } else if(logo === 'symbol-light'){

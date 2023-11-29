@@ -9,12 +9,10 @@ import { useTranslation } from "react-i18next";
 
 
 const SocialShare = [
-
-    {Social: <FaFacebookF /> , link: 'https://www.facebook.com/profile.php?id=61553086092533'},
-    {Social: <FaLinkedinIn /> , link: 'https://www.linkedin.com/'},
-    {Social: <FaInstagram /> , link: 'https://www.instagram.com/alcaenat?igshid=MzRlODBiNWFlZA%3D%3D'},
-    {Social: <FaTwitter /> , link: 'https://twitter.com/AlCaenat'},
-
+    { Social: <FaFacebookF />, link: 'https://www.facebook.com/' },
+    { Social: <FaLinkedinIn />, link: 'https://www.linkedin.com/' },
+    { Social: <FaInstagram />, link: 'https://www.instagram.com/alcaenat?igshid=MzRlODBiNWFlZA%3D%3D' },
+    { Social: <FaTwitter />, link: 'https://twitter.com/' },
 ]
 
 
@@ -55,8 +53,7 @@ const SocialShare = [
 //             }
 //         });
 
-//         
-
+//         var elements = document.querySelectorAll('.has-droupdown > a');
 //         for (var i in elements) {
 //             if (elements.hasOwnProperty(i)) {
 //                 elements[i].onclick = function () {
@@ -265,3 +262,4 @@ const HeaderThree = (props) => {
 };
 
 export default HeaderThree;
+

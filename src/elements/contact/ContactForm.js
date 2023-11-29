@@ -63,7 +63,7 @@ function ContactForm({ targetValue }) {
             );
 
         // Send a POST request using fetch
-        await fetch(`http://localhost:5000/api/${targetValue}/register-${targetValue}`, {
+        await fetch(`https://alkaynaat-hr-website-backend.onrender.com/api/${targetValue}/register-${targetValue}`, {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',

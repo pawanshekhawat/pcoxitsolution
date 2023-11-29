@@ -56,7 +56,7 @@ function MainForm({ props }) {
             );
 
         // Send a POST request using fetch
-        await fetch(`http://localhost:5000/api/contact/register-contact`, {
+        await fetch(`https://alkaynaat-hr-website-backend.onrender.com/api/contact/register-contact`, {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',

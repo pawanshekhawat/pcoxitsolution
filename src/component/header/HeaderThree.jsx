@@ -9,25 +9,10 @@ import { useTranslation } from "react-i18next";
 
 
 const SocialShare = [
-<<<<<<< HEAD
-<<<<<<< HEAD
     { Social: <FaFacebookF />, link: 'https://www.facebook.com/' },
     { Social: <FaLinkedinIn />, link: 'https://www.linkedin.com/' },
     { Social: <FaInstagram />, link: 'https://www.instagram.com/alcaenat?igshid=MzRlODBiNWFlZA%3D%3D' },
     { Social: <FaTwitter />, link: 'https://twitter.com/' },
-=======
-=======
-
->>>>>>> ed111a4a9d532a7c9aefc1d9087b01914b664810
-    {Social: <FaFacebookF /> , link: 'https://www.facebook.com/profile.php?id=61553086092533'},
-    {Social: <FaLinkedinIn /> , link: 'https://www.linkedin.com/'},
-    {Social: <FaInstagram /> , link: 'https://www.instagram.com/alcaenat?igshid=MzRlODBiNWFlZA%3D%3D'},
-    {Social: <FaTwitter /> , link: 'https://twitter.com/AlCaenat'},
-<<<<<<< HEAD
->>>>>>> 389ea37e0af5e961f59cc45ebd78b937926e85af
-=======
-
->>>>>>> ed111a4a9d532a7c9aefc1d9087b01914b664810
 ]
 
 
@@ -68,8 +53,7 @@ const SocialShare = [
 //             }
 //         });
 
-//         
-
+//         var elements = document.querySelectorAll('.has-droupdown > a');
 //         for (var i in elements) {
 //             if (elements.hasOwnProperty(i)) {
 //                 elements[i].onclick = function () {
@@ -195,17 +179,34 @@ const HeaderThree = (props) => {
             el.addEventListener('click', handleClick);
         });
 
-        var elements = document.querySelectorAll('.has-droupdown > a');
-        for(var i in elements) {
-            if(elements.hasOwnProperty(i)) {
-                elements[i].onclick = function() {
-                    this.parentElement.querySelector('.submenu').classList.toggle("active");
-                    this.classList.toggle("open");
-                }
-            }
+        return () => {
+            elements.forEach((el) => {
+                el.removeEventListener('click', handleClick);
+            });
+        };
+    }, []);
+
+    function menuTrigger() {
+        document.querySelector('.header-wrapper').classList.toggle('menu-open')
+    }
+
+    function CLoseMenuTrigger() {
+        document.querySelector('.header-wrapper').classList.remove('menu-open')
+    }
+
+    const getMenuUrl = () => {
+        switch (logo) {
+            case 'light':
+                return '/assets/images/logo/logo-light.png';
+            case 'dark':
+                return '/assets/images/logo/logo-dark.png';
+            case 'symbol-dark':
+                return '/assets/images/logo/white-trans.webp';
+            case 'symbol-light':
+                return '/assets/images/logo/logo-symbol-light.png';
+            default:
+                return '/assets/images/logo/logo.png';
         }
-<<<<<<< HEAD
-<<<<<<< HEAD
     };
     const { t } = useTranslation();
 
@@ -217,61 +218,6 @@ const HeaderThree = (props) => {
                         <a href={homeLink}>
                             <img src={getMenuUrl()} alt="Digital Agency" />
                         </a>
-=======
-=======
->>>>>>> ed111a4a9d532a7c9aefc1d9087b01914b664810
-        const { logo, color='default-color' } = this.props;
-        let logoUrl;
-        if(logo === 'light'){
-            logoUrl = <img src="/assets/images/logo/logo-light.png" alt="Digital Agency" />;
-        }else if(logo === 'dark'){
-            logoUrl = <img src="/assets/images/logo/logo-dark.png" alt="Digital Agency" />;
-        }else if(logo === 'symbol-dark'){
-            logoUrl = <img src="/assets/images/logo/new-logo.png" alt="Digital Agency" />;
-        }else if(logo === 'symbol-light'){
-            logoUrl = <img src="/assets/images/logo/logo-symbol-light.png" alt="Digital Agency" />;
-        }else{
-            logoUrl = <img src="/assets/images/logo/logo.png" alt="Digital Agency" />;
-        }
-<<<<<<< HEAD
-        
-        return(
-            <header className={`header-area header-style-two header--fixed ${color}`}>
-                <div className="header-wrapper">
-                    <div className="header-left d-flex align-items-center">
-                        <div className="logo">
-                            <a href={this.props.homeLink}>
-                                {logoUrl}
-                            </a>
-                        </div>
-                        <nav className="mainmenunav d-lg-block ml--50">
-                            <Scrollspy className="mainmenu" items={['home','about','service','blog','contact']} currentClassName="is-current" offset={-200}>
-                                <li><Link to="/">Home</Link></li>
-                                <li><Link to="/about">About</Link></li>
-                               
-                                <li><Link to="/service">Service</Link></li>
-                               
-                                <li><Link to="/blog">Blog</Link></li>
-                                <li><Link to="/contact">Contact</Link></li>
-                                {/* <li><Link to="/contact">Contact</Link></li> */}
-                                {/* <li><Link to="/jobseekers">For Job seekers</Link></li>
-                                <li><Link to="/clientcontact">For Client</Link></li> */}
-                            </Scrollspy>
-                        </nav>
->>>>>>> 389ea37e0af5e961f59cc45ebd78b937926e85af
-=======
-    };
-    const { t } = useTranslation();
-
-    return (
-        <header className={`header-area header-style-two header--fixed ${color}`}>
-            <div className="header-wrapper">
-                <div className="header-left d-flex align-items-center">
-                    <div className="logo">
-                        <a href={homeLink}>
-                            <img src={getMenuUrl()} alt="Digital Agency" />
-                        </a>
->>>>>>> ed111a4a9d532a7c9aefc1d9087b01914b664810
                     </div>
                     <nav className="mainmenunav d-lg-block ml--50">
                         <Scrollspy className="mainmenu" items={['home', 'about', 'service', 'blog', 'contact']} currentClassName="is-current" offset={-200}>
@@ -316,3 +262,4 @@ const HeaderThree = (props) => {
 };
 
 export default HeaderThree;
+

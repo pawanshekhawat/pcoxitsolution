@@ -94,7 +94,22 @@ function ContactForm({ targetValue }) {
         { value: 'businessenquiry', label: 'Business Enquiry' },
         { value: 'contracts', label: 'Contracts' },
         { value: 'clientqueries', label: 'Client Queries' },
+        { value: 'welders', label: 'Welders' },
+        { value: 'butchers', label: 'Butchers' },
+        { value: 'labourers', label: 'Labourers' },
+        { value: 'painters', label: 'Painters' },
+        { value: 'busdrivers', label: 'Bus Drivers' },
+        { value: 'waitress', label: 'Waitress' },
+        { value: 'housekeeping', label: 'House Keeping' },
+        { value: 'roomattendant', label: 'Room Attendant' },
+        { value: 'packers', label: 'Packers' },
+        { value: 'securityguard', label: 'Security Guard' },
+        { value: 'cook', label: 'Cook' },
+        { value: 'carpenter', label: 'Carpenter' },
+        { value: 'massagetherapist', label: 'Massage Therapist'},
         { value: 'others', label: 'Others' }
+
+
     ]
 
 

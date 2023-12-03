@@ -9,104 +9,6 @@ const SocialShare = [
     { Social: <FaTwitter />, link: 'https://twitter.com/' },
 ]
 
-// class Footer extends Component{
-//     render(){
-//         return(
-//             <React.Fragment>
-//                 <footer className="footer-area">
-//                     <div className="footer-wrapper">
-//                         <div className="row align-items-end row--0">
-//                             <div className="col-lg-6">
-//                                 <div className="footer-left">
-//                                     <div className="inner">
-//                                         <span>Ready To Do This</span>
-//                                         <h2>Let's get <br /> to work</h2>
-//                                         <a className="rn-button-style--2" href="/contact">
-//                                             <span>Contact Us</span>
-//                                         </a>
-//                                     </div>
-//                                 </div>
-//                             </div>
-//                             <div className="col-lg-6">
-//                                 <div className="footer-right" data-black-overlay="6">
-//                                     <div className="row">
-//                                         {/* Start Single Widget  */}
-//                                         <div className="col-lg-4 col-sm-4 col-12">
-//                                             <div className="footer-link">
-//                                                 <h4>Find Jobs</h4>
-//                                                 <ul className="ft-link">
-//                                                 <li><a href="/contact">Jobs Abu Dhabi</a></li>
-//                                                     <li><a href="/contact">Jobs in Dubai</a></li>
-//                                                     <li><a href="/contact">Jobs in Algeria</a></li>
-//                                                     <li><a href="/contact">Jobs in Behrain</a></li>
-
-//                                                 </ul>
-//                                             </div>
-//                                         </div>
-
-//                                         <div className="col-lg-4 col-sm-4 col-12">
-//                                             <div className="footer-link">
-//                                                 <h4></h4>
-//                                                 <ul className="ft-link">
-//                                                     <li><a href="/contact">Jobs in Egypt</a></li>
-//                                                     <li><a href="/contact">Jobs in India</a></li>
-//                                                     <li><a href="/contact">Jobs in Iraq</a></li>
-//                                                     <li><a href="/contact">Jobs in Jordan</a></li>
-
-//                                                 </ul>
-//                                             </div>
-//                                         </div>
-
-//                                         <div className="col-lg-4 col-sm-6 col-12">
-//                                             <div className="footer-link">
-//                                                 <h4></h4>
-//                                                 <ul className="ft-link">
-//                                                     <li><a href="/portfolio">Jobs in Kuwait</a></li>
-//                                                     <li><a href="/about">Jobs in Lebanon</a></li>
-//                                                     <li><a href="/contact">Jobs in Libya</a></li>
-//                                                     <li><a href="/contact">Jobs in Morocco</a></li>
-
-//                                                 </ul>
-//                                             </div>
-//                                         </div>
-//                                         {/* End Single Widget  */}
-//                                         {/* Start Single Widget  */}
-//                                         {/* <div className="col-lg-6 col-sm-6 col-12 mt_mobile--30">
-//                                             <div className="footer-link">
-//                                                 <h4>Say Hello</h4>
-//                                                 <ul className="ft-link">
-//                                                     <li><a href="mailto:admin@example.com">admin@example.com</a></li>
-//                                                     <li><a href="mailto:hr@example.com">hr@example.com</a></li>
-//                                                 </ul>
-
-//                                                 <div className="social-share-inner">
-//                                                     <ul className="social-share social-style--2 d-flex justify-content-start liststyle mt--15">
-//                                                         {SocialShare.map((val , i) => (
-//                                                             <li key={i}><a href={`${val.link}`}>{val.Social}</a></li>
-//                                                         ))}
-//                                                     </ul>
-//                                                 </div> 
-//                                             </div>
-//                                         </div> */}
-//                                         {/* End Single Widget  */}
-
-//                                         <div className="col-lg-12">
-//                                             <div className="copyright-text">
-//                                             <p>Copyright © 2023-24 alcaenat. All Rights Reserved.</p>
-//                                             </div>
-//                                         </div>
-//                                     </div>
-//                                 </div>
-//                             </div>
-//                         </div>
-//                     </div>
-//                 </footer>
-//             </React.Fragment>
-//         )
-//     }
-// }
-// export default Footer;
-
 const Footer = () => {
     const { t } = useTranslation();
     return (
@@ -129,31 +31,35 @@ const Footer = () => {
                             <div className="footer-right" data-black-overlay="6">
                                 <div className="row">
                                     {/* Start Single Widget  */}
-                                    <div className="col-lg-4 col-sm-4 col-12">
+                                    <div className="col-lg-6 col-sm-6 col-12">
                                         <div className="footer-link">
-                                            <h4>{t('find_jobs')}</h4>
+                                            <h4>{t('contact_us')}</h4>
                                             <ul className="ft-link">
-                                                <li><a href="/contact">{t('Job_abu_dhabi')}</a></li>
-                                                <li><a href="/contact">{t('Job_dubai')}</a></li>
-                                                <li><a href="/contact">{t('Job_algeria')}</a></li>
-                                                <li><a href="/contact">{t('Job_behrain')}</a></li>
+                                                <li><a href="/">{t('home')}</a></li>
+                                                <li><a href="/about">{t('about')}</a></li>
+                                                <li><a href="/service">{t('services')}</a></li>
+                                                <li><a href="/blog">{t('blog')}</a></li>
+                                                <li><a href="/contact">{t('contact')}</a></li>
                                             </ul>
                                         </div>
                                     </div>
 
-                                    <div className="col-lg-4 col-sm-4 col-12">
+                                    <div className="col-lg-6 col-sm-6 col-12">
                                         <div className="footer-link">
-                                            <h4></h4>
+                                           <h4>{t('our_services')}</h4>
                                             <ul className="ft-link">
-                                                <li><a href="/contact">{t('Job_egypt')}</a></li>
-                                                <li><a href="/contact">{t('Job_india')}</a></li>
-                                                <li><a href="/contact">{t('Job_iraq')}</a></li>
-                                                <li><a href="/contact">{t('Job_jordan')}</a></li>
+                                                <li><a href="/hr-services">{t('hr_services')}</a></li>
+                                                <li><a href="/hr-consulting">{t('hr_consulting')}</a></li>
+                                                <li><a href="/hr-third-party">{t('hr_third_party_payroll_services')}</a></li>
+                                                <li><a href="/business-consulting">{t('business_consulting')}</a></li>
+                                                <li><a href="/employee-training">{t('employment_training_and_development')}</a></li>
+                    
+                                                <li><a href="/hr-compliance">{t('hr_compilance_and_legal_support')}</a></li>
                                             </ul>
                                         </div>
                                     </div>
 
-                                    <div className="col-lg-4 col-sm-6 col-12">
+                                    {/* <div className="col-lg-4 col-sm-6 col-12">
                                         <div className="footer-link">
                                             <h4></h4>
                                             <ul className="ft-link">
@@ -163,7 +69,7 @@ const Footer = () => {
                                                 <li><a href="/contact">{t('Job_morocco')}</a></li>
                                             </ul>
                                         </div>
-                                    </div>
+                                    </div> */}
                                     {/* End Single Widget  */}
                                     {/* Start Single Widget  */}
                                     {/* <div className="col-lg-6 col-sm-6 col-12 mt_mobile--30">

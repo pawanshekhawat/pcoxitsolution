@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import ContactForm  from "./ContactForm";
+import ContactJobSeekers   from "./ContactJobSeekers";
 
 class ContactTwo extends Component {
     constructor(props) {
@@ -17,7 +17,7 @@ class ContactTwo extends Component {
                                 <p className="description"  >Looking for your dream job? Fill out the form below with your details, and our expert team will assist you in finding the perfect job opportunity tailored to your skills and aspirations</p>
                             </div>
                             <div className="form-wrapper">
-                                <ContactForm targetValue={this.props.targetValue} />
+                                <ContactJobSeekers targetValue={this.props.targetValue} />
                             </div>
                         </div>
                         <div className="col-lg-6 order-1 order-lg-2">

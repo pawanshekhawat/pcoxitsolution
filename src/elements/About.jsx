@@ -82,7 +82,7 @@ const About = () => {
                     <div className="row">
                         <div className="col-lg-12">
                             <div className="section-title text-center" style={{ marginTop: "60px" }}>
-                                <h3 className="fontWeight500">Our Fun Facts</h3>
+                                <h3 className="fontWeight500">Our Achievements</h3>
                             </div>
                         </div>
                     </div>
@@ -91,24 +91,7 @@ const About = () => {
             </div>
             {/* End CounterUp Area */}
 
-            {/* Start Finding Us Area  */}
-            {/* <div className="rn-finding-us-area rn-finding-us bg_color--1">
-                    <div className="inner">
-                        <div className="content-wrapper">
-                            <div className="content">
-                                <h4 className="theme-gradient">Find Your Work Now</h4>
-                                <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that.</p>
-                                <a className="rn-btn btn-white" href="/about">Get Started</a>
-                            </div>
-                        </div>
-                        <div className="thumbnail">
-                            <div className="image">
-                                <img src="/assets/images/about/finding-us-01.png" alt="Finding Images"/>
-                            </div>
-                        </div>
-                    </div>
-                </div> */}
-            {/* End Finding Us Area  */}
+    
 
               {/* Start Testimonial Area */}
             <div className="rn-testimonial-area bg_color--5 ptb--120">
@@ -119,7 +102,7 @@ const About = () => {
             {/* End Testimonial Area */}
 
             {/* Start Team Area  */}
-            <div className="rn-team-area bg_color--1 ptb--120">
+            {/* <div className="rn-team-area bg_color--1 ptb--120">
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-12">
@@ -131,7 +114,7 @@ const About = () => {
                     </div>
                     <div className="row">
 
-                        {/* Start Single Team  */}
+                    
                         <div className="col-lg-4 col-md-6 col-sm-6 col-12">
                             <div className="team">
                                 <div className="thumbnail">
@@ -148,12 +131,11 @@ const About = () => {
                                 </ul>
                             </div>
                         </div>
-                        {/* End Single Team  */}
+                   
 
 
                         
 
-                        {/* Start Single Team  */}
                         <div className="col-lg-4 col-md-6 col-sm-6 col-12">
                             <div className="team">
                                 <div className="thumbnail">
@@ -170,9 +152,9 @@ const About = () => {
                                 </ul>
                             </div>
                         </div>
-                        {/* End Single Team  */}
+                      
 
-                        {/* Start Single Team  */}
+              
                         <div className="col-lg-4 col-md-6 col-sm-6 col-12">
                             <div className="team">
                                 <div className="thumbnail">
@@ -189,11 +171,11 @@ const About = () => {
                                 </ul>
                             </div>
                         </div>
-                        {/* End Single Team  */}
+
 
                     </div>
                 </div>
-            </div>
+            </div> */}
             {/* End Team Area  */}
 
           

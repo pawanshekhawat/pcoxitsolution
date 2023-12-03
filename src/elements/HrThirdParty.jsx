@@ -93,8 +93,7 @@ const ServiceDetails = () => {
                                         <div className="col-lg-6 col-12 order-1 order-lg-2">
                                             <div className="thumb position-relative">
                                                 <img className="w-100" src="/assets/images/service/HR Third Party Payroll Services-02.JPG" alt="Service Images" />
-                                                <ModalVideo channel='youtube' isOpen={isOpen} videoId='ZOoVOfieAF8' onClose={() => setIsOpen(false)} />
-                                                <button className="video-popup" onClick={openModal}><span className="play-icon"></span></button>
+                                   
                                             </div>
                                         </div>
                                     </div>

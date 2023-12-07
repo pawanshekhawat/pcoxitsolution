@@ -15,6 +15,7 @@ class BrandTwo extends Component{
                         <img src="/assets/images/brand/dubai-prince.jpg" alt="Logo Images"/>
                     </li>  
                 </ul>
+                {/* dummy code */}
 
                 <ul className="brand-style-2">
                     <li>

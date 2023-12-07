@@ -12,20 +12,23 @@ import Footer from "../component/footer/Footer";
 import Toggle from "../component/Toggle/Toggle";
 
 import { useState } from "react";
+import { useTranslation } from 'react-i18next';
 
 
 const About = () => {
 
-    let title = 'About Us'
+    const { t } = useTranslation();
+
+    let title =`${t('about_us')}`
     const [isDark, setIsDark] = useState(true);
     return (
 
         <div className={isDark ? "active-dark" : "active-light"}>
-            <PageHelmet pageTitle='About' />
+            <PageHelmet pageTitle={t('about')} />
 
             <HeaderThree homeLink="/" logo="symbol-dark" color="color-black" />
             {/* Start Breadcrump Area */}
-            <Breadcrumb title={'About'} />
+            <Breadcrumb title={t('about')} />
             {/* End Breadcrump Area */}
 
             {/* Start About Area  */}
@@ -42,23 +45,18 @@ const About = () => {
                                 <div className="about-inner inner">
                                     <div className="section-title">
                                         <h2 className="title">{title}</h2>
-                                        <p className="description">Welcome to our overseas recruitment company! We are a leading global HR recruitment company that specializes in connecting talented individuals with exciting job opportunities overseas.
-
-                                            At our company, we understand the challenges and complexities of finding the right talent for international positions.
+                                        <p className="description">{t('about_desc_1')}.
 
                                             <br />  <br />
 
-                                            That's why we are here to simplify the process and help both employers and job seekers navigate the global job market with ease.
-
-                                            With years of experience in the industry, we have built a strong network of international clients and candidates, enabling us to match the right talent with the right job, regardless of geographical boundaries.
-                                            We work closely with both employers and job seekers to understand their unique needs, preferences, and goals, ensuring a seamless and successful recruitment process.
+                                            {t('about_desc_3')}
                                             <br /> </p>
                                     </div>
                                     <div className="row mt--30">
                                         <div className="col-lg-6 col-md-12 col-sm-12 col-12">
                                             <div className="about-us-list">
                                                 {/* <h3 className="title" style={{color:"#fff"}}>Who we are</h3> */}
-                                                <p>Our team of dedicated and experienced professionals is committed to providing exceptional recruitment services. We leverage our expertise, industry knowledge, and cutting-edge technology to identify top talent, conduct thorough screenings, and facilitate smooth transitions for candidates relocating to new countries.</p>
+                                                <p>{t('about_desc_2')}</p>
                                             </div>
                                         </div>
                                         <div className="col-lg-6 col-md-12 col-sm-12 col-12">

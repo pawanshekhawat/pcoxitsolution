@@ -10,7 +10,35 @@
   "about_desc_1": "Welcome to our overseas recruitment website! We are thrilled to have you here. At our HR services, we strive to connect talented individuals with exciting job opportunities abroad. Whether you are a job seeker looking for a new adventure or an employer seeking skilled professionals, we are here to assist you every step of the way. With our extensive network and expertise in international recruitment, we have successfully placed candidates in various industries across the globe.",
   "about_desc_2": "Our team of dedicated HR professionals understands the unique challenges and opportunities that come with working in a foreign country. We take pride in providing personalized services that cater to the specific needs of both job seekers and employers. For job seekers, we offer a wide range of resources to help you find the perfect job overseas. Our team will work closely with you to understand your skills, aspirations, and preferences. We will then match you with suitable job opportunities in countries that align with your goals.",
   "about_desc_3": "That's why we are here to simplify the process and help both employers and job seekers navigate the global job market with ease With years of experience in the industry, we have built a strong network of international clients and candidates, enabling us to match the right talent with the right job, regardless of geographical boundaries. We work closely with both employers and job seekers to understand their unique needs, preferences, and goals, ensuring a seamless and successful recruitment process." ,
+  "about_desc_4":"We take pride in our professionalism, integrity, and ethical conduct. We adhere to the highest standards of business practices, ensuring transparency, confidentiality, and fairness throughout the recruitment process. Our goal is to build long-term relationships with our clients and candidates, based on trust, mutual respect, and shared success.",
+  "our_achiev":"Our Achievements",
+  "teams":"Teams",
+  "country":"Countries Served",
+  "promise":"Promises Delivered",
   "mission": "Mission",
+
+  "testimonials_head":"Testimonials",
+
+  "testimonials_desc1":"Alcenat played a pivotal role in streamlining our HR processes. Their expertise in employee relations and compliance ensured a smooth and compliant work environment. A trustworthy partner for all HR needs.",
+  "testimonials_client1":"Edawrd blinkin",
+
+ 
+  "testimonials_desc2":"We engaged Alcenat for their HR consulting services, and the results were outstanding. Their insights and strategic approach to workforce planning significantly contributed to our business growth. Grateful for their impactful guidance.",
+  "testimonials_client2":"Kelvin Thomas",
+
+ 
+  "testimonials_desc3":"Alcenat's recruitment team is unparalleled. They understood our unique needs and delivered top-notch candidates promptly. Thanks to them, our company now boasts a talented and diverse workforce.",
+  "testimonials_client3":"Hileri Andrew",
+
+
+  "testimonials_desc4":"Alcenat's HR services exceeded our expectations. Their meticulous recruitment process brought in exceptional talent, transforming our team dynamics positively. Highly recommended for their professionalism and commitment to excellence.",
+  "testimonials_client4":"Aklima",
+
+
+  "testimonials_desc5":"Impressed by Alcenat's dedication to employee development. Their training programs have empowered our staff, fostering a culture of continuous improvement. A valuable asset for any organization.",
+  "testimonials_client5":"Jelia trump",
+
+
   "mission_desc_1": "To empower every individual to lead a life of their choice by providing them with the necessary skills and a job that enhances their growth.",
   "vision": "Vision",
   "vision_desc_1": "Our mission is to provide exceptional recruitment services, ensuring a seamless and efficient process for both employers and job seekers. We aim to match the right talent with the right job, helping businesses thrive and individuals achieve their career goals.",
@@ -52,9 +80,9 @@
   "securty": "Security",
   "securty_message": "BYOD Security Policy Best Practices: Safeguarding Employee Device",
   "management": "Management",
-  "management_message": "A big ticket gone to be an interesting",
-  "design": "Design",
-  "desing_message": "The Home of the Future Could Bebes",
+  "management_message": "The EU Directive for Gender Pay Gap Transparency: What Your Business Must Know",
+  "design": "Global Mobility",
+  "desing_message": "Posted Workers Directive: A1 Requirements Employers Need to Know",
   "user_indication_title": "We Would Love To Hear From You",
   "user_indication_title_message": "Please share your details and one of our recruitment specialists will contact you shortly",
   "ready_to_do_this": "READY TO DO THIS",
@@ -74,7 +102,12 @@
   "Job_lebanon": "Jobs in Lebanon",
   "Job_libya": "Jobs in Libya",
   "Job_morocco": "Jobs in Morocco",
-  "copyright": "Copyright © 2023-24 alcaenat. All Rights Reserved"
+  "copyright": "Copyright © 2023-24 AlCaenat. All Rights Reserved",
+  "contact_num": "Contact With Phone Number",
+  "email_add":"Email Address",
+  "location": "Location",
+  "formcont1": "Contact Us",
+  "formdesc": "Looking for your dream job? Fill out the form below with your details, and our expert team will assist you in finding the perfect job opportunity tailored to your skills and aspirations"
 
 
 }

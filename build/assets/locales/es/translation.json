@@ -10,6 +10,33 @@
   "about_desc_1": "¡Bienvenido a nuestro sitio web de contratación en el extranjero! Estamos encantados de tenerte aquí. En nuestros servicios de recursos humanos, nos esforzamos por conectar personas talentosas con interesantes oportunidades laborales en el extranjero. Si usted es un solicitante de empleo que busca una nueva aventura o un empleador que busca profesionales calificados, estamos aquí para ayudarlo en cada paso del camino. Con nuestra amplia red y experiencia en contratación internacional, hemos colocado candidatos con éxito en diversas industrias en todo el mundo.",
   "about_desc_2": "Nuestro equipo de dedicados profesionales de recursos humanos comprende los desafíos y oportunidades únicos que conlleva trabajar en un país extranjero. Estamos orgullosos de brindar servicios personalizados que satisfacen las necesidades específicas tanto de quienes buscan empleo como de los empleadores. Para quienes buscan empleo, ofrecemos una amplia gama de recursos para ayudarlos a encontrar el trabajo perfecto en el extranjero. Nuestro equipo trabajará estrechamente con usted para comprender sus habilidades, aspiraciones y preferencias. Luego lo encontraremos con oportunidades laborales adecuadas en países que se alineen con sus objetivos.",
   "about_desc_3": "Es por eso que estamos aquí para simplificar el proceso y ayudar tanto a los empleadores como a los solicitantes de empleo a navegar con facilidad por el mercado laboral global. Con años de experiencia en la industria, hemos creado una sólida red de clientes y candidatos internacionales, lo que nos permite encontrar el talento adecuado. con el trabajo adecuado, independientemente de las fronteras geográficas. Trabajamos estrechamente con empleadores y solicitantes de empleo para comprender sus necesidades, preferencias y objetivos únicos, garantizando un proceso de contratación fluido y exitoso.",
+  "about_desc_4":"Estamos orgullosos de nuestro profesionalismo, integridad y conducta ética. Nos adherimos a los más altos estándares de prácticas comerciales, garantizando transparencia, confidencialidad y equidad durante todo el proceso de contratación. Nuestro objetivo es construir relaciones a largo plazo con nuestros clientes y candidatos, basadas en la confianza, el respeto mutuo y el éxito compartido.",
+  "our_achiev":"Nuestros logros",
+  "teams":"equipos",
+  "country":"Países atendidos",
+  "promise":"Promesas cumplidas",
+
+  "testimonials_head":"Testimonios",
+
+  "testimonials_desc1":"Alcenat jugó un papel fundamental en la optimización de nuestros procesos de recursos humanos. Su experiencia en relaciones con los empleados y cumplimiento garantizó un ambiente de trabajo fluido y conforme. Un socio confiable para todas las necesidades de recursos humanos.",
+  "testimonials_client1":"Edward parpadeando",
+
+ 
+  "testimonials_desc2":"Contratamos a Alcenat para sus servicios de consultoría de recursos humanos y los resultados fueron sobresalientes. Sus conocimientos y su enfoque estratégico para la planificación de la fuerza laboral contribuyeron significativamente al crecimiento de nuestro negocio. Agradecido por su impactante guía.",
+  "testimonials_client2":"Kelvin Thomas",
+
+ 
+  "testimonials_desc3":"El equipo de selección de Alcenat no tiene parangón. Entendieron nuestras necesidades únicas y entregaron candidatos de primer nivel rápidamente. Gracias a ellos, nuestra empresa ahora cuenta con una fuerza laboral talentosa y diversa.",
+  "testimonials_client3":"Hileri Andrés",
+
+
+  "testimonials_desc4":"Los servicios de RRHH de Alcenat superaron nuestras expectativas. Su meticuloso proceso de reclutamiento atrajo talento excepcional, transformando positivamente la dinámica de nuestro equipo. Altamente recomendado por su profesionalismo y compromiso con la excelencia.",
+  "testimonials_client4":"aklimá",
+
+
+  "testimonials_desc5":"Impresionado por la dedicación de Alcenat al desarrollo de los empleados. Sus programas de capacitación han empoderado a nuestro personal, fomentando una cultura de mejora continua. Un activo valioso para cualquier organización.",
+  "testimonials_client5":"Jelia Trump",
+
   "mission": "Misión",
   "mission_desc_1": "Empoderar a cada individuo para que lleve la vida de su elección proporcionándole las habilidades necesarias y un trabajo que mejore su crecimiento.",
   "vision": "Visión",
@@ -52,9 +79,9 @@
   "securty": "Seguridad",
   "securty_message": "Mejores prácticas de la política de seguridad BYOD: protección de los dispositivos de los empleados",
   "management": "Gestión",
-  "management_message": "Un gran boleto ido a ser una interesante.",
-  "design": "Diseño",
-  "desing_message": "La casa del futuro podría ser Bebes",
+  "management_message": "La Directiva de la UE sobre la transparencia de la brecha salarial de género: lo que su empresa debe saber",
+  "design": "Movilidad Global",
+  "desing_message": "Directiva sobre trabajadores desplazados: requisitos A1 que los empleadores deben conocer",
   "user_indication_title": "Nos encantaría saber de usted",
   "user_indication_title_message": "Por favor comparta sus datos y uno de nuestros especialistas en reclutamiento se comunicará con usted en breve",
   "ready_to_do_this": "Listo para hacer esto",
@@ -74,5 +101,10 @@
   "Job_lebanon": "Empleos en Líbano",
   "Job_libya": "Empleos en Libia",
   "Job_morocco": "Empleos en Marruecos",
-  "copyright": "Copyright © 2023-24 alcaenat. Todos los derechos reservados"
+  "copyright": "Copyright © 2023-24 alcaenat. Todos los derechos reservados",
+  "contact_num":"Contactar con número de teléfono",
+  "email_add":"Dirección de correo electrónico",
+  "location": "Ubicación",
+  "formcont1": "Contacta con nosotras",
+  "formdesc": "¿Buscas el trabajo de tus sueños? Complete el siguiente formulario con sus datos y nuestro equipo de expertos lo ayudará a encontrar la oportunidad laboral perfecta adaptada a sus habilidades y aspiraciones."
 }

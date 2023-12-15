@@ -103,8 +103,8 @@ const HeaderThree = (props) => {
                     </nav>
                 </div>
                 <div className="header-right">
-                    <div className="social-share-inner">
-                        <ul className="social-share social-style--2 color-white d-flex justify-content-start liststyle">
+                    <div className="social-share-inner ">
+                        <ul className="social-share social-style--2 color-white d-flex justify-content-start liststyle ">
                             <MultiLang />
                             {/* Assuming SocialShare is an array of objects with 'link' and 'Social' properties */}
                             {SocialShare.map((val, i) => (

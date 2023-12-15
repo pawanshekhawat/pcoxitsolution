@@ -5,15 +5,15 @@ class BrandTwo extends Component{
         return(
             <React.Fragment>
                  <ul className="brand-style-2">
-                    <li>
+                    {/* <li>
                         <img src="/assets/images/brand/dubai-king.jpg " alt="Logo Images"/>
-                    </li>
+                    </li> */}
                     <li>
                         <img src="/assets/images/brand/dubai.png" alt="Logo Images"/>
                     </li>
-                    <li>
+                    {/* <li>
                         <img src="/assets/images/brand/dubai-prince.jpg" alt="Logo Images"/>
-                    </li>  
+                    </li>   */}
                 </ul>
                 {/* dummy code */}
 

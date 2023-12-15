@@ -10,6 +10,32 @@
     "about_desc_1": "Willkommen auf unserer Website zur Personalbeschaffung im Ausland! Wir freuen uns, Sie hier zu haben. Bei unseren HR-Diensten streben wir danach, talentierte Menschen mit spannenden Jobmöglichkeiten im Ausland zu verbinden. Ganz gleich, ob Sie ein Arbeitssuchender sind, der auf der Suche nach einem neuen Abenteuer ist, oder ein Arbeitgeber, der qualifizierte Fachkräfte sucht, wir sind hier, um Sie bei jedem Schritt auf dem Weg zu unterstützen. Mit unserem umfangreichen Netzwerk und unserer Expertise in der internationalen Personalbeschaffung haben wir erfolgreich Kandidaten in verschiedenen Branchen auf der ganzen Welt vermittelt.",
     "about_desc_2": "Unser Team aus engagierten HR-Experten versteht die einzigartigen Herausforderungen und Chancen, die die Arbeit in einem fremden Land mit sich bringt. Wir sind stolz darauf, personalisierte Dienstleistungen anzubieten, die auf die spezifischen Bedürfnisse von Arbeitssuchenden und Arbeitgebern zugeschnitten sind. Für Arbeitssuchende bieten wir eine breite Palette an Ressourcen, die Ihnen dabei helfen, den perfekten Job im Ausland zu finden. Unser Team wird eng mit Ihnen zusammenarbeiten, um Ihre Fähigkeiten, Wünsche und Vorlieben zu verstehen. Anschließend vermitteln wir Ihnen passende Stellenangebote in Ländern, die Ihren Zielen entsprechen.",
     "about_desc_3":"Aus diesem Grund sind wir hier, um den Prozess zu vereinfachen und sowohl Arbeitgebern als auch Arbeitssuchenden dabei zu helfen, sich problemlos auf dem globalen Arbeitsmarkt zurechtzufinden. Durch jahrelange Erfahrung in der Branche haben wir ein starkes Netzwerk internationaler Kunden und Kandidaten aufgebaut, das es uns ermöglicht, die richtigen Talente zusammenzubringen mit dem richtigen Job, unabhängig von geografischen Grenzen. Wir arbeiten eng mit Arbeitgebern und Arbeitssuchenden zusammen, um ihre individuellen Bedürfnisse, Vorlieben und Ziele zu verstehen und so einen reibungslosen und erfolgreichen Rekrutierungsprozess sicherzustellen.",
+    "about_desc_4":"Wir sind stolz auf unsere Professionalität, Integrität und unser ethisches Verhalten. Wir halten uns an die höchsten Standards der Geschäftspraktiken und gewährleisten Transparenz, Vertraulichkeit und Fairness während des gesamten Einstellungsprozesses. Unser Ziel ist der Aufbau langfristiger Beziehungen zu unseren Kunden und Kandidaten, die auf Vertrauen, gegenseitigem Respekt und gemeinsamem Erfolg basieren.",
+    "our_achiev":"Unsere Erfolge",
+    "teams":"Mannschaften",
+    "country":"Belieferte Länder",
+    "promise":"Versprechen gehalten",
+
+    "testimonials_head":"Referenzen",
+
+    "testimonials_desc1":"Alcenat spielte eine entscheidende Rolle bei der Optimierung unserer HR-Prozesse. Ihr Fachwissen in den Bereichen Mitarbeiterbeziehungen und Compliance sorgte für ein reibungsloses und konformes Arbeitsumfeld. Ein vertrauenswürdiger Partner für alle HR-Anforderungen.",
+    "testimonials_client1":"Edward blinzelt",
+  
+   
+    "testimonials_desc2":"Wir haben Alcenat mit der Personalberatung beauftragt und die Ergebnisse waren hervorragend. Ihre Erkenntnisse und ihr strategischer Ansatz bei der Personalplanung trugen wesentlich zu unserem Geschäftswachstum bei. Dankbar für ihre wirkungsvolle Anleitung.",
+    "testimonials_client2":"Kelvin Thomas",
+  
+   
+    "testimonials_desc3":"Das Rekrutierungsteam von Alcenat ist beispiellos. Sie verstanden unsere individuellen Bedürfnisse und stellten umgehend erstklassige Kandidaten zur Verfügung. Dank ihnen verfügt unser Unternehmen heute über eine talentierte und vielfältige Belegschaft.",
+    "testimonials_client3":"Hileri Andrew",
+  
+  
+    "testimonials_desc4":"Die HR-Dienstleistungen von Alcenat haben unsere Erwartungen übertroffen. Ihr sorgfältiger Rekrutierungsprozess brachte außergewöhnliche Talente hervor und veränderte die Dynamik unseres Teams positiv. Aufgrund ihrer Professionalität und ihres Engagements für Spitzenleistungen sehr zu empfehlen.",
+    "testimonials_client4":"Aklima",
+  
+  
+    "testimonials_desc5":"Beeindruckt von Alcenats Engagement für die Mitarbeiterentwicklung. Ihre Schulungsprogramme haben unsere Mitarbeiter gestärkt und eine Kultur der kontinuierlichen Verbesserung gefördert. Ein wertvolles Gut für jede Organisation.",
+    "testimonials_client5":"Jelia Trump",
     "mission": "Mission",
     "mission_desc_1": "Wir möchten jeden Einzelnen befähigen, ein Leben seiner Wahl zu führen, indem wir ihm die notwendigen Fähigkeiten und einen Job vermitteln, der sein Wachstum fördert.",
     "vision": "Vision",
@@ -52,9 +78,9 @@
     "securty": "Sicherheit",
     "securty_message": "Best Practices für BYOD-Sicherheitsrichtlinien: Schutz der Mitarbeitergeräte",
     "management": "Management",
-    "management_message": "Ein großes Ticket ist interessant geworden",
-    "design": "Design",
-    "desing_message": "Das Zuhause der Zukunft könnte Bebes sein",
+    "management_message": "Die EU-Richtlinie zur Transparenz des geschlechtsspezifischen Lohngefälles: Was Ihr Unternehmen wissen muss",
+    "design": "Globale Mobilität",
+    "desing_message": "Entsenderichtlinie: A1-Anforderungen, die Arbeitgeber kennen müssen",
     "user_indication_title": "Wir würden uns freuen, von Ihnen zu hören",
     "user_indication_title_message": "Bitte teilen Sie uns Ihre Daten mit und einer unserer Personalvermittlungsspezialisten wird sich in Kürze mit Ihnen in Verbindung setzen",
     "ready_to_do_this": "BEREIT, DIES ZU TUN",
@@ -74,5 +100,10 @@
     "Job_lebanon": "Jobs in Libanon",
     "Job_libya": "Jobs in Libyen",
     "Job_morocco": "Jobs in Marokko",
-    "copyright": "Copyright © 2023-24 alcaenat. Alle Rechte vorbehalten"
+    "copyright": "Copyright © 2023-24 alcaenat. Alle Rechte vorbehalten",
+    "contact_num":"Kontakt mit Telefonnummer",
+    "email_add":"E-Mail-Adresse",
+    "location": "Standort",
+    "formcont1": "Kontaktiere uns",
+    "formdesc": "Auf der Suche nach Ihrem Traumjob? Füllen Sie das untenstehende Formular mit Ihren Daten aus und unser Expertenteam unterstützt Sie dabei, die perfekte Stellenausschreibung zu finden, die Ihren Fähigkeiten und Wünschen entspricht"
 }

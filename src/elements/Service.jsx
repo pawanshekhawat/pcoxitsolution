@@ -7,50 +7,55 @@ import HeaderThree from "../component/header/HeaderThree";
 import Footer from "../component/footer/Footer";
 
 import Toggle from "../component/Toggle/Toggle";
+import { useTranslation } from 'react-i18next';
 
 
-const ServiceList = [
-    {
-        icon: <FiCast />,
-        title: 'HR Services',
-        description: 'Welcome to our overseas recruitment website! We are thrilled to have you here. At our HR services, we strive to connect talented individuals...',
-        path: '/hr-services'
-    },
-    {
-        icon: <FiLayers />,
-        title: 'HR Consulting',
-        description: 'Welcome to our HR consulting services website! We are delighted to have you here. At our firm, we specialize in providing comprehensive and...',
-        path: '/hr-consulting'
-    },
-    {
-        icon: <FiUsers />,
-        title: 'HR Third Party Payroll Services',
-        description: 'Welcome to our HR third-party payroll services! We are delighted to offer you a comprehensive and efficient solution to manage your payroll...',
-        path: '/hr-third-party'
-    },
-    {
-        icon: <FiMonitor />,
-        title: 'Business Consulting',
-        description: 'Welcome to our Business Consulting services! We specialize in providing expert guidance to businesses, helping them navigate...',
-        path: '/business-consulting'
 
-    },
-    {
-        icon: <FiUsers />,
-        title: 'Employee Training and Development:',
-        description: 'nvest in your workforce with our customized training programs. From skill development workshops to leadership training...',
-        path:'/employee-training'
-    },
 
-    {
-        icon: <FiMonitor />,
-        title: 'HR Compliance and Legal Support',
-        description: 'Stay compliant with ever-changing employment laws and regulations. Our HR experts provide guidance on legal matters...',
-        path:'/hr-compliance'
-
-    }
-]
 const Service = () => {
+
+    const { t } = useTranslation();
+
+    const ServiceList = [
+        {
+            icon: <FiCast />,
+            title: `${t('hr_services')}`,
+            description: `${t('hr_services_message')}`,
+            path: '/hr-services'
+        },
+        {
+            icon: <FiLayers />,
+            title: `${t('hr_consulting')}`,
+            description: `${t('hr_consulting_message')}`,
+            path: '/hr-consulting'
+        },
+        {
+            icon: <FiUsers />,
+            title: `${t('hr_third_party_payroll_services')}`,
+            description: `${t('hr_third_party_payroll_services_message')}`,
+            path: '/hr-third-party'
+        },
+        {
+            icon: <FiMonitor />,
+            title: `${t('business_consulting')}`,
+            description: `${t('business_consulting_message')}`,
+            path: '/business-consulting'
+    
+        },
+        {
+            icon: <FiUsers />,
+            title: `${t('employment_training_and_development')}`,
+            description: `${t('employment_training_and_development_message')}`,
+            path: '/employee-training'
+        },
+        {
+            icon: <FiMonitor />,
+            title: `${t('hr_compilance_and_legal_support')}`,
+            description: `${t('hr_compilance_and_legal_support_message')}`,
+            path: '/hr-compliance'
+    
+        }
+    ];
 
     const [isDark, setIsDark] = useState(true);
 
@@ -69,7 +74,7 @@ const Service = () => {
                     <div className="row">
                         <div className="col-lg-12">
                             <div className="section-title text-center mb--30">
-                                <h2>Our Services</h2>
+                                <h2>{t('our_services')}</h2>
                             </div>
                         </div>
                     </div>

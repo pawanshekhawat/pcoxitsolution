@@ -17,6 +17,10 @@
         color: #ffffff;
     }
 
+    .title1{
+        color: #00010c;
+    }
+
 
     
     .bg_image--3,
@@ -75,6 +79,10 @@
     .header-area.color-black a.rn-btn ,
     ul.tab-style--1 li {
         color: #ffffff; 
+    }
+
+    .social-share-inner{
+        padding: 0 0 0 30px;
     }
     .portfolio-sacousel-inner .slick-dots li button::after,
     .rn-slick-dot .slick-dots li button::after {
@@ -205,6 +213,8 @@ font-family: 'Poppins', sans-serif;
 .fix{
     overflow: hidden;
 }
+
+
 
 .visuallyhidden {
     border: 0;
@@ -473,6 +483,8 @@ Custom Row
         }
     }
 }
+
+
 
 .row--35 {
     margin-left: -35px;

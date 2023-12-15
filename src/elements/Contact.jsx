@@ -32,18 +32,7 @@ const Contact = () => {
             {/* Start Breadcrump Aresa */}
             <HeaderThree homeLink="/" logo="symbol-dark" color="color-dark" />
 
-            {/* <div className="rn-page-title-area pt--120 pb--190"  data-black-overlay="0">
-                    <div className="container">
-                        <div className="row">
-                            <div className="col-lg-12">
-                                <div className="rn-page-title text-center pt--100">
-                                    <h2 className="title theme-gradient">Apply For Job</h2>
-                                    <p>Contrary to popular belief, Lorem Ipsum is not simply random text. </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div> */}
+
             {/* End Breadcrump Area */}
 
 

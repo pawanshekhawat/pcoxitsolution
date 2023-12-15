@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import emailjs from 'emailjs-com';
 import Select from 'react-select';
 
+import { useTranslation } from 'react-i18next';
+
 const Result = () => {
     return (
         <p className="success-message">Your Message has been successfully sent. I will contact you soon.</p>
@@ -87,6 +89,8 @@ function MainForm({ props }) {
         { value: 'construction', label: 'Construction' },
         { value: 'programming', label: 'Programming' }
     ]
+
+    const { t } = useTranslation();
 
 
     return (

@@ -14,7 +14,7 @@ class ContactTwo extends Component {
                         <div className="col-lg-6 order-2 order-lg-1">
                             <div className="section-title text-left mb--50">
                                 <h2 className="title"  >Hear from us.</h2>
-                                <p className="description"  >Looking for your dream job? Fill out the form below with your details, and our expert team will assist you in finding the perfect job opportunity tailored to your skills and aspirations</p>
+                                <p className="description"  >Please fill out the following contact form, and one of our dedicated HR professionals will get in touch with you shortly to discuss how we can add value to your business.</p>
                             </div>
                             <div className="form-wrapper">
                                 <ContactForm targetValue={this.props.targetValue} />

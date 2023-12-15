@@ -20,7 +20,7 @@ const ServiceDetails = () => {
     return (
         <div className={isDark ? "active-dark" : "active-light"}>
             {/* Start Pagehelmet  */}
-            <PageHelmet pageTitle='Business Consulting' />
+            <PageHelmet pageTitle='HR Business Consulting' />
             {/* End Pagehelmet  */}
 
             <HeaderThree homeLink="/" logo="symbol-dark" color="color-black" />
@@ -31,7 +31,7 @@ const ServiceDetails = () => {
                     <div className="row">
                         <div className="col-lg-12">
                             <div className="rn-page-title text-center pt--100">
-                                <h2 className="title" >Business Consulting</h2>
+                                <h2 className="title" >HR Business Consulting</h2>
                             </div>
                         </div>
                     </div>
@@ -56,9 +56,9 @@ const ServiceDetails = () => {
                                         <div className="col-lg-6 col-12">
                                             <div className="title">
 
-                                                <p>Welcome to our business consulting services, where expertise meets innovation! At our firm, we understand the dynamic challenges businesses face in today's competitive landscape. With a team of seasoned consultants, we offer strategic guidance tailored to your specific needs. Whether you're a startup looking to establish your market presence or an established corporation aiming for operational excellence, our comprehensive solutions empower you to achieve your goals.</p>
+                                                <p>Welcome to our HR Business Consulting services, where expertise meets innovation! At our firm, we understand the dynamic challenges businesses face in today's competitive landscape. With a team of seasoned consultants, we offer strategic guidance tailored to your specific needs. Whether you're a startup looking to establish your market presence or an established corporation aiming for operational excellence, our comprehensive solutions empower you to achieve your goals.</p>
 
-                                                <p>In the realm of business consulting, we redefine possibilities. Our dedicated team of professionals combines industry insights with creativity, delivering innovative solutions that drive business growth. We believe in not just meeting but exceeding client expectations. By leveraging our expertise in areas such as market research, strategic planning, and organizational development, we assist businesses in making informed decisions and staying ahead of the competition. Let us be your strategic partners, guiding you toward a future of unparalleled success and growth.</p>
+                                                <p>In the realm of HR Business Consulting, we redefine possibilities. Our dedicated team of professionals combines industry insights with creativity, delivering innovative solutions that drive business growth. We believe in not just meeting but exceeding client expectations. By leveraging our expertise in areas such as market research, strategic planning, and organizational development, we assist businesses in making informed decisions and staying ahead of the competition. Let us be your strategic partners, guiding you toward a future of unparalleled success and growth.</p>
 
 
                                             </div>

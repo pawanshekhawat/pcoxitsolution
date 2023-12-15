@@ -28,12 +28,12 @@ function PortfolioList(props) {
             title: `${t('facility_management_message')}`
         },
         {
-            image: 'image-3',
+            image: 'image-5',
             category: `${t('security')}`,
             title: `${t('security_message')}`
         },
         {
-            image: 'image-4',
+            image: 'image-6',
             category: `${t('mep')}`,
             title: `${t('mep_message')}`
         }

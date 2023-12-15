@@ -41,34 +41,23 @@ const PortfolioLanding = () => {
         {
             images: '01',
             title: `${t('securty')}`,
-            category: `${t('securty_message')}`
+            category: `${t('securty_message')}`,
+            bloglink: '/byod-security-policy-best-practices'
         },
         {
             images: '02',
             title: `${t('management')}`,
-            category: `${t('management_message')}`
+            category: `${t('management_message')}`,
+            bloglink: '/the-eu-directive-for-gender'
         },
 
         {
             images: '03',
             title: `${t('design')}`,
-            category: `${t('desing_message')}`
-        },
-        {
-            images: '04',
-            title: `${t('user_indication_title')}`,
-            category: `${t('user_indication_title_message')}`
-        },
-        {
-            images: '01',
-            title: `${t('securty')}`,
-            category: `${t('securty_message')}`
-        },
-        {
-            images: '02',
-            title: `${t('management')}`,
-            category: `${t('management_message')}`
-        },
+            category: `${t('desing_message')}`,
+            bloglink: '/posted-workers-directive'
+        }
+     
     ]
     let title = 'About Us'
     // description = `Welcome to our overseas recruitment company! We are a leading global HR recruitment company that specializes in connecting talented individuals with exciting job opportunities overseas. At our company, we understand the challenges and complexities of finding the right talent for international positions. That's why we are here to simplify the process and help both employers and job seekers navigate the global job market with ease.`;
@@ -98,7 +87,7 @@ const PortfolioLanding = () => {
                                                 <TextLoop>
                                                     <span> HR Services.</span>
                                                     <span> HR Consulting.</span>
-                                                    <span> Business Consulting.</span>
+                                                    <span> HR Business Consulting.</span>
                                                 </TextLoop>{" "}
                                             </h1>
                                             {/* <h2>based in USA.</h2> */}
@@ -222,15 +211,15 @@ const PortfolioLanding = () => {
                                 <div className="col-lg-4 col-md-6 col-12" key={i}>
                                     <div className="blog blog-style--1">
                                         <div className="thumbnail">
-                                            <a href="/byod-security-policy-best-practices">
+                                            <a href={`${value.bloglink}`}>
                                                 <img className="w-100" src={`/assets/images/blog/blog-${value.images}.jpg`} alt="Blog Images" />
                                             </a>
                                         </div>
                                         <div className="content">
                                             <p className="blogtype">{value.category}</p>
-                                            <h4 className="title"><a href="/byod-security-policy-best-practices">{value.title}</a></h4>
+                                            <h4 className="title"><a href={`${value.bloglink}`}>{value.title}</a></h4>
                                             <div className="blog-btn">
-                                                <a className="rn-btn text-white" href="/byod-security-policy-best-practices">Read More</a>
+                                                <a className="rn-btn text-white" href={`${value.bloglink}`}>Read More</a>
                                             </div>
                                         </div>
                                     </div>

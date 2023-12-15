@@ -90,15 +90,14 @@ function ContactForm({ targetValue }) {
 
 
     const options = [
-        { value: 'appointments', label: 'Appointments' },
-        { value: 'businessenquiry', label: 'Business Enquiry' },
-        { value: 'contracts', label: 'Contracts' },
-        { value: 'clientqueries', label: 'Client Queries' },
+     
         { value: 'welders', label: 'Welders' },
         { value: 'butchers', label: 'Butchers' },
         { value: 'labourers', label: 'Labourers' },
         { value: 'painters', label: 'Painters' },
-        { value: 'busdrivers', label: 'Bus Drivers' },
+        { value: 'heavydrivers', label: 'Heavy Drivers' },
+        { value: 'cardrivers', label: 'Car Drivers' },
+        { value: 'bikedrivers', label: 'Bike Drivers' },
         { value: 'waitress', label: 'Waitress' },
         { value: 'housekeeping', label: 'House Keeping' },
         { value: 'roomattendant', label: 'Room Attendant' },

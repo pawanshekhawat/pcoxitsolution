@@ -63,7 +63,7 @@ const starndardService = [
     },
     {
         image: '02',
-        title: 'Business Consulting',
+        title: 'HR Business Consulting',
         description: 'I throw myself down among the tall grass by the stream',
     },
     {

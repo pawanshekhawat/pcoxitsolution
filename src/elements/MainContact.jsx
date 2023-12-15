@@ -11,10 +11,14 @@ import Footer from "../component/footer/Footer";
 import { Background } from "react-parallax";
 
 import Toggle from "../component/Toggle/Toggle";
+import { useTranslation } from 'react-i18next';
 
 const AnyReactComponent = ({ text }) => <div>{text}</div>;
 
+
 const MainContact = () => {
+
+    const { t } = useTranslation();
 
     const [isDark, setIsDark] = useState(true);
 
@@ -42,7 +46,7 @@ const MainContact = () => {
                                     <FiHeadphones />
                                 </div>
                                 <div className="inner">
-                                    <h4 className="title">Contact With Phone Number</h4>
+                                    <h4 className="title title1">{t('contact_num')}</h4>
                                     <p><a href="tel:+057 254 365 456">Mobile: +1 240 799 2086</a></p>
                                     <p><a href="tel:+057 254 365 456">Landline: +971-04-313-2481 </a></p>
 
@@ -58,9 +62,9 @@ const MainContact = () => {
                                     <FiMail />
                                 </div>
                                 <div className="inner">
-                                    <h4 className="title">Email Address</h4>
-                                    <p><a href="info@alcaenat.ae">info@alcaenat.ae</a></p>
-                                    <p><a href="support@alcaenat.ae">support@alcaenat.ae</a></p>
+                                    <h4 className="title title1">{t('email_add')}</h4>
+                                    <p><a href="mailto:info@alcaenat.ae">info@alcaenat.ae</a></p>
+                                    <p><a href="mailto:support@alcaenat.ae">support@alcaenat.ae</a></p>
                                 </div>
                             </div>
                         </div>
@@ -73,8 +77,9 @@ const MainContact = () => {
                                     <FiMapPin />
                                 </div>
                                 <div className="inner">
-                                    <h4 className="title">Location</h4>
-                                    <p>Address: SCB, Level 5, Downtown, Burj Khalifa, Dubai. </p>
+                                    <h4 className="title title1">{t('location')}</h4>
+
+                                    <p><a href="https://maps.app.goo.gl/h838hfMdJAc6NcHy6" target="_blank">Address: SCB, Level 5, Downtown, Burj Khalifa, Dubai.</a> </p>
                                 </div>
                             </div>
                         </div>

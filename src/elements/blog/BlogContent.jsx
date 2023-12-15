@@ -1,35 +1,25 @@
+
+
 const BlogContent = [
     {
         images: '01',
         title: 'BYOD Security Policy Best Practices: Safeguarding Employee Device',
-        category: 'Security'
+        category: 'Security',
+        bloglink: '/byod-security-policy-best-practices'
     },
     {
         images: '02',
-        title: 'A big ticket gone to be an interesting ',
-        category: 'Management'
+        title: 'The EU Directive for Gender Pay Gap Transparency: What Your Business Must Know',
+        category: 'Management',
+        bloglink: '/the-eu-directive-for-gender'
     },
 
     {
         images: '03',
-        title: 'The Home of the Future Could Bebes',
-        category: 'Design'
-    },
-    {
-        images: '04',
-        title: ' Getting tickets to the big show',
-        category: 'Development'
-    },
-    {
-        images: '01',
-        title: 'A big ticket gone to be an interesting ',
-        category: 'Management'
-    },
-    {
-        images: '02',
-        title: 'The Home of the Future Could Bebes',
-        category: 'Design'
-    },
+        title: 'Posted Workers Directive: A1 Requirements Employers Need to Know',
+        category: 'Global Mobility',
+        bloglink: '/posted-workers-directive'
+    }
 ]
 
 export default BlogContent;

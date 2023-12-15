@@ -51,6 +51,8 @@ import ClientContact from "./elements/clientContact";
 import PortfolioDetails from "./elements/PortfolioDetails";
 import Blog from "./elements/Blog";
 import BlogDetails from "./elements/BlogDetails";
+import BlogDetails1 from "./elements/BlogDetails1";
+import BlogDetails2 from "./elements/BlogDetails2";
 import error404 from "./elements/error404";
 
 
@@ -70,7 +72,7 @@ import PricingTable from "./blocks/PricingTable";
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import * as serviceWorker from './serviceWorker';
 import { useEffect, useState } from "react";
-import Cursor from './component/Cursor/Cursor'
+// import Cursor from './component/Cursor/Cursor'
 
 import Toggle from './component/Toggle/Toggle';
 import MainContact from './elements/MainContact';
@@ -120,7 +122,7 @@ class Root extends Component {
             <BrowserRouter basename={'/'}>
                 <PageScrollTop>
                     <GoogleTagManager />
-                    <Cursor />
+                    {/* <Cursor /> */}
                     <Switch>
 
 
@@ -153,6 +155,8 @@ class Root extends Component {
                         <Route exact path={`${process.env.PUBLIC_URL}/portfolio-details`} component={PortfolioDetails} />
                         <Route exact path={`${process.env.PUBLIC_URL}/blog`} component={Blog} />
                         <Route exact path={`${process.env.PUBLIC_URL}/byod-security-policy-best-practices`} component={BlogDetails} />
+                        <Route exact path={`${process.env.PUBLIC_URL}/the-eu-directive-for-gender`} component={BlogDetails1} />
+                        <Route exact path={`${process.env.PUBLIC_URL}/posted-workers-directive`} component={BlogDetails2} />
 
 
 

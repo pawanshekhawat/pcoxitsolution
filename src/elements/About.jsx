@@ -62,7 +62,7 @@ const About = () => {
                                         <div className="col-lg-6 col-md-12 col-sm-12 col-12">
                                             <div className="about-us-list">
                                                 {/* <h3 className="title" style={{color:"#fff"}}>Who we are</h3> */}
-                                                <p>We take pride in our professionalism, integrity, and ethical conduct. We adhere to the highest standards of business practices, ensuring transparency, confidentiality, and fairness throughout the recruitment process. Our goal is to build long-term relationships with our clients and candidates, based on trust, mutual respect, and shared success.</p>
+                                                <p>{t('about_desc_4')}</p>
                                             </div>
                                         </div>
                                     </div>
@@ -80,7 +80,7 @@ const About = () => {
                     <div className="row">
                         <div className="col-lg-12">
                             <div className="section-title text-center" style={{ marginTop: "60px" }}>
-                                <h3 className="fontWeight500">Our Achievements</h3>
+                                <h3 className="fontWeight500">{t('our_achiev')}</h3>
                             </div>
                         </div>
                     </div>

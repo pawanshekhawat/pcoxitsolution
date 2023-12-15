@@ -58,37 +58,6 @@ const Footer = () => {
                                             </ul>
                                         </div>
                                     </div>
-
-                                    {/* <div className="col-lg-4 col-sm-6 col-12">
-                                        <div className="footer-link">
-                                            <h4></h4>
-                                            <ul className="ft-link">
-                                                <li><a href="/portfolio">{t('Job_kuwait')}</a></li>
-                                                <li><a href="/about">{t('Job_lebanon')}</a></li>
-                                                <li><a href="/contact">{t('Job_libya')}</a></li>
-                                                <li><a href="/contact">{t('Job_morocco')}</a></li>
-                                            </ul>
-                                        </div>
-                                    </div> */}
-                                    {/* End Single Widget  */}
-                                    {/* Start Single Widget  */}
-                                    {/* <div className="col-lg-6 col-sm-6 col-12 mt_mobile--30">
-                    <div className="footer-link">
-                      <h4>Say Hello</h4>
-                      <ul className="ft-link">
-                        <li><a href="mailto:admin@example.com">admin@example.com</a></li>
-                        <li><a href="mailto:hr@example.com">hr@example.com</a></li>
-                      </ul>
-
-                      <div className="social-share-inner">
-                        <ul className="social-share social-style--2 d-flex justify-content-start liststyle mt--15">
-                          {SocialShare.map((val, i) => (
-                            <li key={i}><a href={`${val.link}`}>{val.Social}</a></li>
-                          ))}
-                        </ul>
-                      </div>
-                    </div>
-                  </div> */}
                                     {/* End Single Widget  */}
 
                                     <div className="col-lg-12">

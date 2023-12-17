@@ -7,7 +7,10 @@ import HeaderThree from "../component/header/HeaderThree";
 import Footer from "../component/footer/Footer";
 import Toggle from "../component/Toggle/Toggle";
 
+import { useTranslation } from 'react-i18next';
+
 const ServiceDetails = () => {
+    const { t } = useTranslation();
     const [isOpen, setIsOpen] = useState(false);
 
     const openModal = () => {
@@ -31,7 +34,7 @@ const ServiceDetails = () => {
                     <div className="row">
                         <div className="col-lg-12">
                             <div className="rn-page-title text-center pt--100">
-                                <h2 className="title" >Our HR Consulting</h2>
+                                <h2 className="title" >{t('hr_consulting_0')}</h2>
                             </div>
                         </div>
                     </div>
@@ -56,9 +59,9 @@ const ServiceDetails = () => {
                                         </div>
                                         <div className="col-lg-6 col-12">
                                             <div className="title">
-                                                <p className="description">Welcome to our HR consulting services website! We are delighted to have you here. At our firm, we specialize in providing comprehensive and tailored HR solutions to businesses of all sizes and industries. Whether you are a startup, a small business, or a multinational corporation, we are here to support you in all your HR needs. </p>
+                                                <p className="description">{t('hr_consulting_1')} </p>
 
-                                                <p>Our team of experienced HR consultants understands the challenges that businesses face in managing their human resources effectively. We offer a wide range of services designed to help you optimize your HR processes, enhance employee engagement, and drive organizational success.</p>
+                                                <p>{t('hr_consulting_2')} </p>
 
 
 
@@ -79,9 +82,9 @@ const ServiceDetails = () => {
                                     <div className="row sercice-details-content align-items-center">
                                         <div className="col-lg-6 col-12">
                                             <div className="title">
-                                                <p>One of our key areas of expertise is HR strategy and planning. We work closely with our clients to develop HR strategies that align with their overall business objectives. By understanding your unique needs and goals, we can help you create a roadmap for attracting, developing, and retaining top talent. Our consultants will guide you in designing effective performance management systems, implementing employee development programs, and establishing compensation and benefits structures that are competitive in the market.</p>
+                                                <p>{t('hr_consulting_3')} </p>
 
-                                                <p>Another crucial aspect of our HR consulting services is talent acquisition and management. We understand that finding the right people for your organization is crucial for its success. </p>
+                                                <p>{t('hr_consulting_4')} </p>
 
 
 
@@ -106,10 +109,9 @@ const ServiceDetails = () => {
                                         </div>
                                         <div className="col-lg-6 col-12">
                                             <div className="title">
-                                                <p>Our team utilizes a combination of innovative sourcing strategies, rigorous screening processes, and behavioral assessments to identify candidates who not only possess the necessary skills but also fit well with your company culture. We can also assist you in building a strong employer brand and developing effective onboarding programs to ensure a smooth transition for new hires.</p>
+                                                <p>{t('hr_consulting_5')}</p>
 
-                                                <p>In addition to talent acquisition, we also provide guidance on employee engagement and retention. We believe that engaged employees are the key to a thriving organization. Our consultants can help you design and implement employee engagement initiatives, conduct surveys to gather feedback, and develop strategies to enhance employee satisfaction and loyalty. We also offer training and development programs to empower your employees and foster a culture of continuous learning.
-                                                </p>
+                                                <p>{t('hr_consulting_6')}</p>
 
                                                 {/* <h4 className="title">Proceess of metel</h4>
                                                 <ul className="liststyle">
@@ -128,12 +130,10 @@ const ServiceDetails = () => {
                                     <div className="row sercice-details-content align-items-center">
                                         <div className="col-lg-6 col-12">
                                             <div className="title">
-                                                <p>Lastly, we understand the importance of compliance and risk management in today's complex business environment. Our HR consultants stay up to date with the latest laws and regulations to ensure that your organization remains compliant. We can assist you in developing HR policies and procedures, conducting audits, and providing guidance on legal and ethical issues.</p>
+                                            <p>{t('hr_consulting_7')}</p>
+                                            <p>{t('hr_consulting_8')}</p>
 
-                                                <p>Partnering with us means gaining access to a team of dedicated HR professionals who are passionate about helping you achieve your business goals. We are committed to delivering exceptional service, customized solutions, and measurable results. </p>
-
-                                                <p>So, whether you need assistance with HR strategy, talent management, employee engagement, or compliance, we are here to support you every step of the way. Contact us today to learn more about our HR consulting services and how we can help your organization thrive.
-                                                </p>
+                                            <p>{t('hr_consulting_9')}</p>
 
 
 

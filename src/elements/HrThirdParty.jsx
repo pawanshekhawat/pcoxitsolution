@@ -7,7 +7,12 @@ import HeaderThree from "../component/header/HeaderThree";
 import Footer from "../component/footer/Footer";
 import Toggle from "../component/Toggle/Toggle";
 
+import { useTranslation } from 'react-i18next';
+
 const ServiceDetails = () => {
+
+    const { t } = useTranslation();
+
     const [isOpen, setIsOpen] = useState(false);
 
     const openModal = () => {
@@ -31,7 +36,7 @@ const ServiceDetails = () => {
                     <div className="row">
                         <div className="col-lg-12">
                             <div className="rn-page-title text-center pt--100">
-                                <h2 className="title" >HR Third Party Payroll Services</h2>
+                                <h2 className="title" >{t('thirt_party_0')}</h2>
                             </div>
                         </div>
                     </div>
@@ -56,9 +61,9 @@ const ServiceDetails = () => {
                                         <div className="col-lg-6 col-12">
                                             <div className="title">
 
-                                                <p>	Welcome to our HR third-party payroll services! We are delighted to offer you a comprehensive and efficient solution to manage your payroll needs. As a trusted partner, we understand the importance of accurate and timely payroll processing, compliance with tax regulations, and maintaining confidentiality.</p>
+                                                <p>{t('thirt_party_1')}</p>
 
-                                                <p>Our payroll services are designed to simplify the payroll process for your organization, allowing you to focus on your core business activities. Whether you have a small team or a large workforce, we have the expertise and technology to handle your payroll requirements effectively.</p>
+                                                <p>{t('thirt_party_2')}</p>
 
                                                 {/* <h4 className="title">Proceess of metel</h4>
                                                 <ul className="liststyle">
@@ -77,13 +82,13 @@ const ServiceDetails = () => {
                                     <div className="row sercice-details-content align-items-center">
                                         <div className="col-lg-6 col-12">
                                             <div className="title">
-                                                <h4 className="title">Here are some key features and benefits of our HR third-party payroll services:</h4>
+                                                <h4 className="title">{t('thirt_party_3')}</h4>
 
                                                 <ul className="liststyle">
-                                                    <li>1. Payroll Processing: Our team of payroll experts will handle all aspects of payroll processing, including calculating wages, deductions, and taxes. We ensure that your employees are paid accurately and on time, eliminating the stress and hassle of managing payroll in-house.</li> <br />
-                                                    <li>2. Tax Compliance: Staying compliant with tax regulations can be complex and time-consuming. Our payroll services include tax calculations, deductions, and reporting to ensure that your organization remains compliant with local, state, and federal tax laws.</li>  <br />
-                                                    <li>3. Direct Deposit and Payroll Distribution: We offer convenient and secure direct deposit options, allowing your employees to receive their pay electronically. We also provide payroll distribution services, including printing and delivering physical paychecks, if needed.</li>  <br />
-                                                    <li>4. Employee Self-Service Portal: Our user-friendly online portal enables your employees to access their pay stubs, tax forms, and other payroll-related information anytime, anywhere. This self-service feature empowers your employees and reduces administrative tasks for your HR team.</li>  <br />
+                                                    <li>{t('thirt_party_4')}</li> <br />
+                                                    <li>{t('thirt_party_5')}</li>  <br />
+                                                    <li>{t('thirt_party_6')}</li>  <br />
+                                                    <li>{t('thirt_party_7')}</li>  <br />
 
                                                 </ul>
 

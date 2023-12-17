@@ -17,11 +17,11 @@ const languages = [
     dir: 'rtl',
     country_code: 'sa',
   },
-  {
-    code: 'ed',
-    name: 'German',
-    country_code: 'ed',
-  },
+  // {
+  //   code: 'ed',
+  //   name: 'German',
+  //   country_code: 'ed',
+  // },
   {
     code: 'es',
     name: 'Spanish',

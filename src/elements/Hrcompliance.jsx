@@ -7,6 +7,8 @@ import HeaderThree from "../component/header/HeaderThree";
 import Footer from "../component/footer/Footer";
 import Toggle from "../component/Toggle/Toggle";
 
+import { useTranslation } from 'react-i18next';
+
 const ServiceDetails = () => {
     const [isOpen, setIsOpen] = useState(false);
 
@@ -15,6 +17,8 @@ const ServiceDetails = () => {
     };
 
     const [isDark, setIsDark] = useState(true);
+
+    const { t } = useTranslation();
 
 
     return (
@@ -31,7 +35,7 @@ const ServiceDetails = () => {
                     <div className="row">
                         <div className="col-lg-12">
                             <div className="rn-page-title text-center pt--100">
-                                <h2 className="title" >HR Compliance and Legal Support</h2>
+                                <h2 className="title" >{t('hr_comp_0')}</h2>
                             </div>
                         </div>
                     </div>
@@ -56,11 +60,11 @@ const ServiceDetails = () => {
                                         <div className="col-lg-6 col-12">
                                             <div className="title">
 
-                                                <p>Navigating the complex landscape of HR compliance and legal regulations is crucial for any business. Our HR Compliance and Legal Support services are designed to provide you with expert guidance and peace of mind. We stay up-to-date with the latest employment laws and regulations, ensuring that your company policies and practices align seamlessly with legal requirements.</p>
+                                                <p>{t('hr_comp_1')}</p>
 
-                                                <p>Our dedicated team of professionals offers comprehensive support in drafting, reviewing, and updating HR policies and procedures. We conduct thorough audits to identify potential areas of risk and guide you on best practices to mitigate legal challenges. Whether it's employment contracts, anti-discrimination policies, or workplace safety guidelines, we tailor our services to your specific industry needs, ensuring compliance with local, state, and federal laws.</p>
+                                                <p>{t('hr_comp_2')}</p>
 
-                                                <p>By partnering with us for HR Compliance and Legal Support, you can focus on your core business activities, confident that your HR practices are in line with the law. Stay ahead of regulatory changes, minimize legal risks, and foster a work environment that promotes both legal compliance and ethical integrity. Let us be your trusted partners in ensuring a secure and compliant workplace for your employees.</p>
+                                                <p>{t('hr_comp_3')}</p>
 
 
                                             </div>

@@ -7,6 +7,8 @@ import HeaderThree from "../component/header/HeaderThree";
 import Footer from "../component/footer/Footer";
 import Toggle from "../component/Toggle/Toggle";
 
+import { useTranslation } from 'react-i18next';
+
 const ServiceDetails = () => {
     const [isOpen, setIsOpen] = useState(false);
 
@@ -15,6 +17,9 @@ const ServiceDetails = () => {
     };
 
     const [isDark, setIsDark] = useState(true);
+
+    const { t } = useTranslation();
+
 
 
     return (
@@ -31,7 +36,7 @@ const ServiceDetails = () => {
                     <div className="row">
                         <div className="col-lg-12">
                             <div className="rn-page-title text-center pt--100">
-                                <h2 className="title" >Employee Training and Development</h2>
+                                <h2 className="title" >{t('emp_tr_0')}</h2>
                             </div>
                         </div>
                     </div>
@@ -56,9 +61,9 @@ const ServiceDetails = () => {
                                         <div className="col-lg-6 col-12">
                                             <div className="title">
 
-                                                <p>We offer a diverse range of training modules tailored to address specific industry challenges and individual skill gaps. From technical proficiency to soft skills, our experienced trainers provide hands-on, interactive sessions that foster continuous learning. Our goal is to not only bridge the existing skill gaps within your organization but also to cultivate a culture of innovation and adaptability.</p>
+                                                <p>{t('emp_tr_1')}</p>
 
-                                                <p>By investing in our employee training and development programs, you are not just enhancing the capabilities of your team; you are fostering a workforce that is agile, motivated, and ready to tackle any challenge. Partner with us to unlock the full potential of your employees, driving your business towards sustainable growth and success..</p>
+                                                <p>{t('emp_tr_2')}</p>
 
 
                                             </div>

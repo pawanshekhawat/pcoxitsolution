@@ -89,7 +89,7 @@ const HeaderThree = (props) => {
                 <div className="header-left d-flex align-items-center">
                     <div className="logo">
                         <a href={homeLink}>
-                            <img src={getMenuUrl()} height={100} width={120} alt="Digital Agency" />
+                            <img src={getMenuUrl()} height={100} width={180} alt="Digital Agency" />
                         </a>
                     </div>
                     <nav className="mainmenunav d-lg-block ml--50">

@@ -179,7 +179,7 @@ const About = () => {
           
 
             {/* Start Brand Area */}
-            <div className="rn-brand-area brand-separation bg_color--5 ptb--120">
+            {/* <div className="rn-brand-area brand-separation bg_color--5 ptb--120">
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-12">
@@ -187,7 +187,7 @@ const About = () => {
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> */}
             {/* End Brand Area */}
 
             {/* Start Back To Top */}

@@ -46,9 +46,9 @@
 }
 
 .toggle::before {
-  background-color: #ffc409;
+  background-color: #cc2f33;
   height: 0.625em;
-  outline: 0.25em dotted #ffc409;
+  outline: 0.25em dotted #cc2f33;
   outline-offset: 0.125em;
   left: 0.7em;
   top: 0.7em;

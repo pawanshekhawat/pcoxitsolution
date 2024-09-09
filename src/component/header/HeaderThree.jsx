@@ -89,7 +89,7 @@ const HeaderThree = (props) => {
                 <div className="header-left d-flex align-items-center">
                     <div className="logo">
                         <a href={homeLink}>
-                            <img src={getMenuUrl()} alt="Digital Agency" />
+                            <img src={getMenuUrl()} height={100} width={120} alt="Digital Agency" />
                         </a>
                     </div>
                     <nav className="mainmenunav d-lg-block ml--50">
@@ -112,7 +112,7 @@ const HeaderThree = (props) => {
                             ))}
                         </ul>
                     </div>
-                    <div className="header-btn">
+                    {/* <div className="header-btn">
                         <Link className="rn-btn" to="/jobseekers">
                             <span>{t('for_job_seekers')}</span>
                         </Link>
@@ -121,7 +121,7 @@ const HeaderThree = (props) => {
                         <Link className="rn-btn" to="/clientcontact">
                             <span>{t('for_client')}</span>
                         </Link>
-                    </div>
+                    </div> */}
                     <div className="humberger-menu d-block d-lg-none pl--20">
                         <span onClick={menuTrigger} className="menutrigger text-white"><FiMenu /></span>
                     </div>

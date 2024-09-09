@@ -68,7 +68,7 @@ const PortfolioLanding = () => {
 
     return (
         <div className={isDark ? "active-dark" : "active-light"}>
-            <Helmet pageTitle="Alcaenat" />
+            <Helmet pageTitle="PCOX Internet Pvt. Ltd." />
 
             <HeaderThree homeLink="/" logo="symbol-dark" color="color-black" />
             {/* Start Slider Area   */}
@@ -83,11 +83,12 @@ const PortfolioLanding = () => {
                                     <div className="col-lg-12">
                                         <div className={`inner ${value.textPosition}`}>
                                             {value.category ? <span>{value.category}</span> : ''}
-                                            <h1 className="title">Looking for Overseas Recruitment Agency? <br />
+                                            <h1 className="title">Empowering Your Digital Journey <br />
                                                 <TextLoop>
-                                                    <span> HR Services.</span>
-                                                    <span> HR Consulting.</span>
-                                                    <span> HR Business Consulting.</span>
+                                                    <span> Web Development.</span>
+                                                    <span> Software Development.</span>
+                                                    <span> Digital Marketing.</span>
+                                                    <span> Digital Trade & Logistics Platform.</span>
                                                 </TextLoop>{" "}
                                             </h1>
                                             {/* <h2>based in USA.</h2> */}

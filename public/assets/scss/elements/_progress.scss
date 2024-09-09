@@ -18,10 +18,10 @@ Progressbar Area
             background-color: #f5f7fd;
             overflow: visible;
             .progress-bar{
-                background-color: #efa900;
-                background-image: linear-gradient(-224deg,#efa900 0,#efa900 100%);
+                background-color: #cc2f33;
+                background-image: linear-gradient(-224deg,#cc2f33 0,#cc2f33 100%);
                 position: relative;
-                color: #efa900;
+                color: #cc2f33;
             }
         }
 
@@ -152,8 +152,8 @@ Progressbar Area
                     left: auto;
                     right: auto;
                     border-radius: inherit;
-                    background-color: #efa900;
-                    background-image: linear-gradient(-224deg,#efa900 0,#efa900 100%);
+                    background-color: #cc2f33;
+                    background-image: linear-gradient(-224deg,#cc2f33 0,#cc2f33 100%);
                     &::before ,
                     &::after{
                         display: none;

@@ -38,9 +38,9 @@ import Service from "./elements/Service";
 import ServiceDetails from "./elements/ServiceDetails";
 import HrConsulting from "./elements/HrConsulting";
 import HrThirdParty from "./elements/HrThirdParty";
-import BusinessConsulting from "./elements/BusinessConsulting"
-import EmployeeTraining from "./elements/EmplyeeTraining"
-import HrCompliance from "./elements/Hrcompliance"
+// import BusinessConsulting from "./elements/BusinessConsulting"
+// import EmployeeTraining from "./elements/EmplyeeTraining"
+// import HrCompliance from "./elements/Hrcompliance"
 
 
 
@@ -133,14 +133,14 @@ class Root extends Component {
 
 
 
-                        <Route exact path={`${process.env.PUBLIC_URL}/hr-services`} component={ServiceDetails} />
-                        <Route exact path={`${process.env.PUBLIC_URL}/hr-consulting`} component={HrConsulting} />
-                        <Route exact path={`${process.env.PUBLIC_URL}/hr-third-party`} component={HrThirdParty} />
-                        <Route exact path={`${process.env.PUBLIC_URL}/business-consulting`} component={BusinessConsulting} />
+                        <Route exact path={`${process.env.PUBLIC_URL}/import-export-logistics-services`} component={ServiceDetails} />
+                        <Route exact path={`${process.env.PUBLIC_URL}/software-development`} component={HrConsulting} />
+                        <Route exact path={`${process.env.PUBLIC_URL}/digital-marketing`} component={HrThirdParty} />
+                        {/* <Route exact path={`${process.env.PUBLIC_URL}/business-consulting`} component={BusinessConsulting} />
 
                         <Route exact path={`${process.env.PUBLIC_URL}/employee-training`} component={EmployeeTraining} />
 
-                        <Route exact path={`${process.env.PUBLIC_URL}/hr-compliance`} component={HrCompliance} />
+                        <Route exact path={`${process.env.PUBLIC_URL}/hr-compliance`} component={HrCompliance} /> */}
 
 
 

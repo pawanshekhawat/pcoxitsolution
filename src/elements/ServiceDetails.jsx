@@ -23,7 +23,7 @@ const ServiceDetails = () => {
     return (
         <div className={isDark ? "active-dark" : "active-light"}>
             {/* Start Pagehelmet  */}
-            <PageHelmet pageTitle='Hr Services'/>
+            <PageHelmet pageTitle=' Import-Export Services & Logistics Solutions'/>
             {/* End Pagehelmet  */}
 
             <HeaderThree homeLink="/" logo="symbol-dark" color="color-black" />

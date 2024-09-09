@@ -1,7 +1,7 @@
 import React, { Component, useState } from "react";
 import PageHelmet from "../component/common/Helmet";
 import Breadcrumb from "../elements/common/Breadcrumb";
-import { FiCast, FiLayers, FiUsers, FiMonitor, FiChevronUp } from "react-icons/fi";
+import { FiBox, FiGlobe, FiMonitor, FiChevronUp } from "react-icons/fi";
 import ScrollToTop from 'react-scroll-up';
 import HeaderThree from "../component/header/HeaderThree";
 import Footer from "../component/footer/Footer";
@@ -18,43 +18,44 @@ const Service = () => {
 
     const ServiceList = [
         {
-            icon: <FiCast />,
+            icon: <FiBox />,
             title: `${t('hr_services')}`,
             description: `${t('hr_services_message')}`,
-            path: '/hr-services'
+            path: '/import-export-logistics-services'
         },
         {
-            icon: <FiLayers />,
+            icon: <FiMonitor />,
             title: `${t('hr_consulting')}`,
             description: `${t('hr_consulting_message')}`,
-            path: '/hr-consulting'
+            path: '/software-development'
         },
         {
-            icon: <FiUsers />,
+            icon: <FiGlobe/>,
             title: `${t('hr_third_party_payroll_services')}`,
             description: `${t('hr_third_party_payroll_services_message')}`,
-            path: '/hr-third-party'
+            path: '/digital-marketing'
         },
-        {
-            icon: <FiMonitor />,
-            title: `${t('business_consulting')}`,
-            description: `${t('business_consulting_message')}`,
-            path: '/business-consulting'
     
-        },
-        {
-            icon: <FiUsers />,
-            title: `${t('employment_training_and_development')}`,
-            description: `${t('employment_training_and_development_message')}`,
-            path: '/employee-training'
-        },
-        {
-            icon: <FiMonitor />,
-            title: `${t('hr_compilance_and_legal_support')}`,
-            description: `${t('hr_compilance_and_legal_support_message')}`,
-            path: '/hr-compliance'
+        // {
+        //     icon: <FiMonitor />,
+        //     title: `${t('business_consulting')}`,
+        //     description: `${t('business_consulting_message')}`,
+        //     path: '/business-consulting'
     
-        }
+        // },
+        // {
+        //     icon: <FiUsers />,
+        //     title: `${t('employment_training_and_development')}`,
+        //     description: `${t('employment_training_and_development_message')}`,
+        //     path: '/employee-training'
+        // },
+        // {
+        //     icon: <FiMonitor />,
+        //     title: `${t('hr_compilance_and_legal_support')}`,
+        //     description: `${t('hr_compilance_and_legal_support_message')}`,
+        //     path: '/hr-compliance'
+    
+        // }
     ];
 
     const [isDark, setIsDark] = useState(true);

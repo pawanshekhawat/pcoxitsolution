@@ -91,8 +91,8 @@ const Contact = () => {
                                 </div>
                                 <div className="inner">
                                     <h4 className="title">Contact With Phone Number</h4>
-                                    <p><a href="tel:+057 254 365 456">Mobile: +1 240 799 2086</a></p>
-                                    <p><a href="tel:+057 254 365 456">Landline: +971-04-313-2481 </a></p>
+                                    <p><a href="tel:+91 7022987604">Mobile: +91-7022987604</a></p>
+                                    {/* <p><a href="tel:+057 254 365 456">Landline: +971-04-313-2481 </a></p> */}
 
                                 </div>
                             </div>
@@ -107,8 +107,8 @@ const Contact = () => {
                                 </div>
                                 <div className="inner">
                                     <h4 className="title">Email Address</h4>
-                                    <p><a href="info@alcaenat.ae">info@alcaenat.ae</a></p>
-                                    <p><a href="support@alcaenat.ae">support@alcaenat.ae</a></p>
+                                    {/* <p><a href="info@PCOX Internet Pvt. Ltd.ae">info@PCOX Internet Pvt. Ltd.ae</a></p> */}
+                                    <p><a href="support@pcoxgroup.in">support@pcoxgroup.in</a></p>
                                 </div>
                             </div>
                         </div>
@@ -122,7 +122,7 @@ const Contact = () => {
                                 </div>
                                 <div className="inner">
                                     <h4 className="title">Location</h4>
-                                    <p>Address: SCB, Level 5, Downtown, Burj Khalifa, Dubai. </p>
+                                    <p>Address: INNOV8 MANTRI COMMERCIO, TOWER-A, 5TH FLOOR, SURVEY NO 51/3,51/4,51/2&39/5 DEVARABISANAHALLI VILLAGE, BANGALORE, Bellandur, Bangalore, Bangalore South, Karnataka, India, 560103 </p>
                                 </div>
                             </div>
                         </div>

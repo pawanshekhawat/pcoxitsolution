@@ -47,8 +47,7 @@ const MainContact = () => {
                                 </div>
                                 <div className="inner">
                                     <h4 className="title title1">{t('contact_num')}</h4>
-                                    <p><a href="tel:+057 254 365 456">Mobile: +1 240 799 2086</a></p>
-                                    <p><a href="tel:+057 254 365 456">Landline: +971-04-313-2481 </a></p>
+                                    <p><a href="tel:+91 7022987604">Mobile: +91-7022987604</a></p>
 
                                 </div>
                             </div>
@@ -63,8 +62,7 @@ const MainContact = () => {
                                 </div>
                                 <div className="inner">
                                     <h4 className="title title1">{t('email_add')}</h4>
-                                    <p><a href="mailto:info@alcaenat.ae">info@alcaenat.ae</a></p>
-                                    <p><a href="mailto:support@alcaenat.ae">support@alcaenat.ae</a></p>
+                                    <p><a href="support@pcoxgroup.in">support@pcoxgroup.in</a></p>
                                 </div>
                             </div>
                         </div>
@@ -79,7 +77,7 @@ const MainContact = () => {
                                 <div className="inner">
                                     <h4 className="title title1">{t('location')}</h4>
 
-                                    <p><a href="https://maps.app.goo.gl/h838hfMdJAc6NcHy6" target="_blank">Address: SCB, Level 5, Downtown, Burj Khalifa, Dubai.</a> </p>
+                                    <p><a href="#" target="_blank">Bangalore, Karnataka, India, 560103 </a> </p>
                                 </div>
                             </div>
                         </div>
@@ -94,7 +92,7 @@ const MainContact = () => {
                 <ContactFour />
             </div>
 
-            <div className="rn-brand-area brand-separation">
+            {/* <div className="rn-brand-area brand-separation">
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-12">
@@ -103,7 +101,7 @@ const MainContact = () => {
                     </div>
                 </div>
             </div>
-   
+    */}
 
       
 

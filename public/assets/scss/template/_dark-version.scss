@@ -22,6 +22,19 @@
     }
 
 
+    .inner p{
+        font-size: 20px !important;
+        font-weight: bold;
+
+    }
+
+    .inner h4 a{
+        font-size: 20px;
+        line-height: 0;
+        font-weight: 400;
+    }
+
+
     
     .bg_image--3,
     .bg_image--1 ,
@@ -207,6 +220,18 @@ font-family: 'Poppins', sans-serif;
 
 -------------------------------------*/
 
+.inner p{
+    font-size: 20px !important;
+    font-weight: bold;
+
+}
+
+.inner h4 a{
+    font-size: 20px;
+    line-height: 0;
+    font-weight: 400;
+}
+
 .hidden {
     display: none;
 }
@@ -283,10 +308,10 @@ font-family: 'Poppins', sans-serif;
 
 .theme-gradient {
     background: rgb(248,31,1);
-    background: -moz-linear-gradient(145deg,  #ffc107 0%, #efa900 100%);
-    background: -webkit-linear-gradient(145deg,  #ffc107 0%,#efa900 100%);
-    background: linear-gradient(145deg,  #ffc107  0%,#efa900 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#efa900', endColorstr='#ee076e',GradientType=1 );
+    background: -moz-linear-gradient(145deg,  #ff0707 0%, #cc2f33 100%);
+    background: -webkit-linear-gradient(145deg,  #ff0707 0%,#cc2f33 100%);
+    background: linear-gradient(145deg,  #ff0707  0%,#cc2f33 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cc2f33', endColorstr='#ee076e',GradientType=1 );
 }
 
 .rn-text-white {

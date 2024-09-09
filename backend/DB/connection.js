@@ -3,7 +3,7 @@ const mongoose = require('mongoose');
 // fucntion to connect to mongo DataBase 
 async function connectToMongoDB() {
     // const url = process.env.MONGODB_URL;
-    const url = "mongodb+srv://pawanshekhawat2402:57Qs3iUB723WcO5R@cluster0.inibxa0.mongodb.net/scrap-seekers?retryWrites=true&w=majority&appName=Cluster0";
+    const url = process.env.MONGODB_URL;
     try {
         await mongoose.connect(url);
         console.log('Connected to MongoDB');

@@ -61,9 +61,9 @@ const ServiceDetails = () => {
                                         <div className="col-lg-6 col-12">
                                             <div className="title">
 
-                                                <p>{t('thirt_party_1')}</p>
+                                                <p style={{lineHeight: "40px"}}>{t('thirt_party_1')}</p>
 
-                                                <p>{t('thirt_party_2')}</p>
+                                                <p style={{lineHeight: "40px"}}>{t('thirt_party_2')}</p>
 
                                                 {/* <h4 className="title">Proceess of metel</h4>
                                                 <ul className="liststyle">

@@ -36,12 +36,12 @@ const About = () => {
                 <div className="rn-about-wrapper">
                     <div className="container">
                         <div className="row row--35 align-items-center">
-                            <div className="col-lg-5">
+                            <div className="col-lg-6">
                                 <div className="thumbnail">
                                     <img className="w-100" src="/assets/images/about/about-3.jpg" alt="About Images" />
                                 </div>
                             </div>
-                            <div className="col-lg-7">
+                            <div className="col-lg-6">
                                 <div className="about-inner inner">
                                     <div className="section-title">
                                         <h2 className="title">{title}</h2>
@@ -52,7 +52,10 @@ const About = () => {
                                             {t('about_desc_3')}
                                             <br /> </p>
                                     </div>
-                                    <div className="row mt--30">
+                                </div>
+                            </div>
+                        </div>
+                        <div className="row mt--30">
                                         <div className="col-lg-6 col-md-12 col-sm-12 col-12">
                                             <div className="about-us-list">
                                                 {/* <h3 className="title" style={{color:"#fff"}}>Who we are</h3> */}
@@ -66,9 +69,6 @@ const About = () => {
                                             </div>
                                         </div>
                                     </div>
-                                </div>
-                            </div>
-                        </div>
                     </div>
                 </div>
             </div>

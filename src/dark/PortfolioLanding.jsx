@@ -42,20 +42,20 @@ const PortfolioLanding = () => {
             images: '01',
             title: `${t('securty')}`,
             category: `${t('securty_message')}`,
-            bloglink: '/byod-security-policy-best-practices'
+            bloglink: '/navigating-global-trade'
         },
         {
             images: '02',
             title: `${t('management')}`,
             category: `${t('management_message')}`,
-            bloglink: '/the-eu-directive-for-gender'
+            bloglink: '/why-your-business-needs-custom-software'
         },
 
         {
             images: '03',
             title: `${t('design')}`,
             category: `${t('desing_message')}`,
-            bloglink: '/posted-workers-directive'
+            bloglink: '/boost-your-brand'
         }
      
     ]
@@ -85,10 +85,9 @@ const PortfolioLanding = () => {
                                             {value.category ? <span>{value.category}</span> : ''}
                                             <h1 className="title">Empowering Your Digital Journey <br />
                                                 <TextLoop>
-                                                    <span> Web Development.</span>
                                                     <span> Software Development.</span>
                                                     <span> Digital Marketing.</span>
-                                                    <span> Digital Trade & Logistics Platform.</span>
+                                                    <span> Import-Export Services &<br /> Logistics Solutions</span>
                                                 </TextLoop>{" "}
                                             </h1>
                                             {/* <h2>based in USA.</h2> */}
@@ -118,13 +117,13 @@ const PortfolioLanding = () => {
                 <div className="about-area ptb--120  bg_color--1">
                     <div className="about-wrapper">
                         <div className="container">
-                            <div className="row row--35 align-items-center">
-                                <div className="col-lg-5">
+                            <div className="row row--35 align-items-start">
+                                <div className="col-lg-6">
                                     <div className="thumbnail">
                                         <img className="w-100" src="/assets/images/about/about-8.jpg" alt="About Images" />
                                     </div>
                                 </div>
-                                <div className="col-lg-7">
+                                <div className="col-lg-6">
                                     <div className="about-inner inner">
                                         <div className="section-title">
                                             <h2 className="title">{t('about_us')}</h2>
@@ -207,7 +206,7 @@ const PortfolioLanding = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="row mt--60 mt_sm--40">
+                        <div className="row mt--60 mt_sm--40 h-full">
                             {PostList.map((value, i) => (
                                 <div className="col-lg-4 col-md-6 col-12" key={i}>
                                     <div className="blog blog-style--1">

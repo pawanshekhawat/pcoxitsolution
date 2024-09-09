@@ -82,7 +82,7 @@ The EU’s recently adopted Directive on Transparent and Predictable Working Con
             {/* End Blog Details */}
 
             {/* Start BLog Comment Form  */}
-            <div className="blog-comment-form pb--120 bg_color--1">
+            <div className="blog-comment-form pb--120 bg_color--1 hidden">
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-12">

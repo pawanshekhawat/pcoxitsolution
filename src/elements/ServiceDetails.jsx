@@ -50,15 +50,15 @@ const ServiceDetails = () => {
                             <div className="service-details-inner">
                                 <div className="inner">
                                     {/* Start Single Area */}
-                                    <div className="row sercice-details-content pb--80 align-items-center">
+                                    <div className="row sercice-details-content pb--80 align-items-start">
                                         <div className="col-lg-6 col-12">
                                             <div className="thumb">
                                                 <img className="w-100" src="/assets/images/service/hrservice01.JPG" alt="Service Images" />
                                             </div>
                                         </div>
-                                        <div className="col-lg-6 col-12">
+                                        <div className="col-lg-6 col-12 mt-2">
                                             <div className="title">
-                                            <p className="description"  >{t('hr_services_1')}</p>
+                                            <p className="description font-thin" style={{lineHeight: "40px" }} >{t('hr_services_1')}</p>
 
                                                 <p>{t('hr_services_2')}</p>
 
@@ -77,10 +77,10 @@ const ServiceDetails = () => {
                                     {/* End Single Area */}
 
                                     {/* Start Single Area */}
-                                    <div className="row sercice-details-content align-items-center">
-                                    <div className="col-lg-6 col-12">
+                                    <div className="row sercice-details-content pb--80 align-items-start">
+                                    <div className="col-lg-6 col-12 mt-2">
                                             <div className="title">
-                                            <p className="description"  >{t('hr_services_3')}</p>
+                                            <p className="description" >{t('hr_services_3')}</p>
 
                                                 <p>{t('hr_services_4')}</p>
 
@@ -97,13 +97,13 @@ const ServiceDetails = () => {
                                     {/* End Single Area */}
 
                                      {/* Start Single Area */}
-                                     <div className="row sercice-details-content pb--80 align-items-center">
+                                     <div className="row sercice-details-content pb--80 align-items-start">
                                         <div className="col-lg-6 col-12">
                                             <div className="thumb">
                                                 <img className="w-100" src="/assets/images/service/hrservice03.JPG"  alt="Service Images" />
                                             </div>
                                         </div>
-                                        <div className="col-lg-6 col-12">
+                                        <div className="col-lg-6 col-12 mt-2">
                                             <div className="title">
                                             <p>{t('hr_services_5')}</p>
 

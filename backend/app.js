@@ -11,5 +11,8 @@ app.use(express.json());
 
 app.use("/api", AllRoutes);
 
+app.get('/', (req, res) => {
+    res.send('hello');
+});
 
 module.exports = app;

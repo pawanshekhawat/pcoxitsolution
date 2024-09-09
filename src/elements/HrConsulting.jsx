@@ -59,9 +59,9 @@ const ServiceDetails = () => {
                                         </div>
                                         <div className="col-lg-6 col-12">
                                             <div className="title">
-                                                <p className="description">{t('hr_consulting_1')} </p>
+                                                <p className="description" style={{lineHeight: "40px"}}>{t('hr_consulting_1')} </p>
 
-                                                <p>{t('hr_consulting_2')} </p>
+                                                <p style={{lineHeight: "40px"}}>{t('hr_consulting_2')} </p>
 
 
 
@@ -79,23 +79,17 @@ const ServiceDetails = () => {
                                     {/* End Single Area */}
 
                                     {/* Start Single Area */}
-                                    <div className="row sercice-details-content align-items-center">
+                                    <div className="row sercice-details-content pb--80 align-items-center">
                                         <div className="col-lg-6 col-12">
                                             <div className="title">
-                                                <p>{t('hr_consulting_3')} </p>
-
-                                                <p>{t('hr_consulting_4')} </p>
-
-
-
-
-
+                                                <p style={{lineHeight: "40px"}}>{t('hr_consulting_3')} </p>
+                                                <p style={{lineHeight: "40px"}}>{t('hr_consulting_4')} </p>
                                             </div>
                                         </div>
                                         <div className="col-lg-6 col-12 order-1 order-lg-2">
                                             <div className="thumb position-relative">
                                                 <img className="w-100" src="/assets/images/service/hrconsulting02.JPG"  alt="Service Images" />
-                                                                                            </div>
+                                            </div>
                                         </div>
                                     </div>
                                     {/* End Single Area */}
@@ -109,10 +103,8 @@ const ServiceDetails = () => {
                                         </div>
                                         <div className="col-lg-6 col-12">
                                             <div className="title">
-                                                <p>{t('hr_consulting_5')}</p>
-
-                                                <p>{t('hr_consulting_6')}</p>
-
+                                                <p style={{lineHeight: "40px"}}>{t('hr_consulting_5')}</p>
+                                                <p style={{lineHeight: "40px"}}>{t('hr_consulting_6')}</p>
                                                 {/* <h4 className="title">Proceess of metel</h4>
                                                 <ul className="liststyle">
                                                     <li>Yet this above sewed flirted opened ouch</li>
@@ -130,22 +122,14 @@ const ServiceDetails = () => {
                                     <div className="row sercice-details-content align-items-center">
                                         <div className="col-lg-6 col-12">
                                             <div className="title">
-                                            <p>{t('hr_consulting_7')}</p>
-                                            <p>{t('hr_consulting_8')}</p>
-
-                                            <p>{t('hr_consulting_9')}</p>
-
-
-
-
-
+                                            <p style={{lineHeight: "40px"}}>{t('hr_consulting_7')}</p>
+                                            <p style={{lineHeight: "40px"}}>{t('hr_consulting_8')}</p>
+                                            <p style={{lineHeight: "40px"}}>{t('hr_consulting_9')}</p>
                                             </div>
                                         </div>
                                         <div className="col-lg-6 col-12 order-1 order-lg-2">
                                             <div className="thumb position-relative">
-                                                <img className="w-100" src="/assets/images/service/hrservice02.JPG"alt="Service Images" />
-                                     
-
+                                                <img className="w-100" src="/assets/images/service/hrconsulting04.JPG"alt="Service Images" />
                                             </div>
                                         </div>
                                     </div>

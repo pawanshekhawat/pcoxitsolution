@@ -37,15 +37,15 @@ class Header extends Component{
         const { logo, color='default-color' } = this.props;
         let logoUrl;
         if(logo === 'light'){
-            logoUrl = <img src="/assets/images/logo/logo-light.png" alt="Digital Agency" />;
+            logoUrl = <img src="/assets/images/logo/logo-light.png" alt="Digital Agency"  style={{width: "180px !important"}}/>;
         }else if(logo === 'dark'){
-            logoUrl = <img src="/assets/images/logo/logo-dark.png" alt="Digital Agency" />;
+            logoUrl = <img src="/assets/images/logo/logo-dark.png" alt="Digital Agency" style={{width: "180px !important"}}/>;
         }else if(logo === 'symbol-dark'){
-            logoUrl = <img src="/assets/images/logo/new-logo.png" alt="Digital Agency" />;
+            logoUrl = <img src="/assets/images/logo/new-logo.png" alt="Digital Agency" style={{width: "180px !important"}}/>;
         }else if(logo === 'symbol-light'){
-            logoUrl = <img src="/assets/images/logo/logo-symbol-light.png" alt="Digital Agency" />;
+            logoUrl = <img src="/assets/images/logo/logo-symbol-light.png" alt="Digital Agency" style={{width: "180px !important"}}/>;
         }else{
-            logoUrl = <img src="/assets/images/logo/logo.png" alt="Digital Agency" />;
+            logoUrl = <img src="/assets/images/logo/logo.png" alt="Digital Agency" style={{width: "180px !important"}}/>;
         }
 
         

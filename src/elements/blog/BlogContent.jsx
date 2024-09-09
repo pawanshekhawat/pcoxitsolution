@@ -1,25 +1,26 @@
 
 
 const BlogContent = [
+
     {
         images: '01',
-        title: 'BYOD Security Policy Best Practices: Safeguarding Employee Device',
-        category: 'Security',
-        bloglink: '/byod-security-policy-best-practices'
-    },
-    {
-        images: '02',
-        title: 'The EU Directive for Gender Pay Gap Transparency: What Your Business Must Know',
-        category: 'Management',
-        bloglink: '/the-eu-directive-for-gender'
+        title: 'Navigating Global Trade: Import-Export Strategies for 2024',
+        category: 'Global Trade',
+        bloglink: '/navigating-global-trade'
     },
 
     {
+        images: '02',
+        title: 'Why Your Business Needs Custom Software',
+        category: 'Business Software',
+        bloglink: '/why-your-business-needs-custom-software'
+    },
+    {
         images: '03',
-        title: 'Posted Workers Directive: A1 Requirements Employers Need to Know',
-        category: 'Global Mobility',
-        bloglink: '/posted-workers-directive'
-    }
+        title: 'Boost Your Brand',
+        category: 'Brand Reach',
+        bloglink: '/boost-your-brand'
+    },
 ]
 
 export default BlogContent;

@@ -209,9 +209,9 @@ const ContactThree = (props) => {
                             </form>
                         </div>
                     </div>
-                    <div className="col-lg-6 order-1 order-lg-2">
+                    <div className="col-lg-6 order-1 order-lg-2" style={{margin: "38px 0px"}}>
                         <div className="thumbnail mb_md--30 mb_sm--30">
-                            <img src={`${props.contactImages}`} alt="trydo" />
+                            <img className="py-auto" src={`${props.contactImages}`} alt="trydo" />
                         </div>
                     </div>
                 </div>

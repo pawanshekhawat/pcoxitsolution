@@ -29,7 +29,7 @@ const ServiceDetails = () => {
             <HeaderThree homeLink="/" logo="symbol-dark" color="color-black" />
 
             {/* Start Breadcrump Area */}
-            <div className="rn-page-title-area pt--120 pb--190 bg_image bg_image--5" data-black-overlay="5">
+            <div className="rn-page-title-area pt--120 pb--190 bg_image" data-black-overlay="5">
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-12">
@@ -59,6 +59,7 @@ const ServiceDetails = () => {
                                         </div>
                                         <div className="col-lg-6 col-12">
                                             <div className="title">
+                                                <h2 style={{fontSize: "30px"}}>1. Software Solutions</h2>
                                                 <p className="description" style={{lineHeight: "40px"}}>{t('hr_consulting_1')} </p>
 
                                                 <p style={{lineHeight: "40px"}}>{t('hr_consulting_2')} </p>
@@ -82,6 +83,7 @@ const ServiceDetails = () => {
                                     <div className="row sercice-details-content pb--80 align-items-center">
                                         <div className="col-lg-6 col-12">
                                             <div className="title">
+                                            <h2 style={{fontSize: "30px"}}>2. Android Development</h2>
                                                 <p style={{lineHeight: "40px"}}>{t('hr_consulting_3')} </p>
                                                 <p style={{lineHeight: "40px"}}>{t('hr_consulting_4')} </p>
                                             </div>
@@ -103,6 +105,7 @@ const ServiceDetails = () => {
                                         </div>
                                         <div className="col-lg-6 col-12">
                                             <div className="title">
+                                                <h2 style={{fontSize: "30px"}}>3. Cloud Computing Services</h2>
                                                 <p style={{lineHeight: "40px"}}>{t('hr_consulting_5')}</p>
                                                 <p style={{lineHeight: "40px"}}>{t('hr_consulting_6')}</p>
                                                 {/* <h4 className="title">Proceess of metel</h4>
@@ -122,9 +125,9 @@ const ServiceDetails = () => {
                                     <div className="row sercice-details-content align-items-center">
                                         <div className="col-lg-6 col-12">
                                             <div className="title">
+                                            <h2 style={{fontSize: "30px"}}>4. Blockchain Development</h2>
                                             <p style={{lineHeight: "40px"}}>{t('hr_consulting_7')}</p>
                                             <p style={{lineHeight: "40px"}}>{t('hr_consulting_8')}</p>
-                                            <p style={{lineHeight: "40px"}}>{t('hr_consulting_9')}</p>
                                             </div>
                                         </div>
                                         <div className="col-lg-6 col-12 order-1 order-lg-2">

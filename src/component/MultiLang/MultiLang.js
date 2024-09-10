@@ -23,9 +23,39 @@ const languages = [
   //   country_code: 'ed',
   // },
   {
+    code: 'zh',
+    name: 'Chinese',
+    country_code: 'zh',
+  },
+  {
     code: 'es',
     name: 'Spanish',
     country_code: 'es',
+  },
+  {
+    code: 'ja',
+    name: 'Japanese',
+    country_code: 'ja',
+  },
+  {
+    code: 'th',
+    name: 'Thai',
+    country_code: 'th',
+  },
+  {
+    code: 'vi',
+    name: 'Vietnamese',
+    country_code: 'vi',
+  },
+  {
+    code: 'fil',
+    name: 'Filipino',
+    country_code: 'fil',
+  },
+  {
+    code: 'id',
+    name: 'Indonesian',
+    country_code: 'id',
   },
 ]
 

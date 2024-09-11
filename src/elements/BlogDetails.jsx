@@ -76,10 +76,6 @@ const BlogDetails = () => {
 
                                     <h2 className="mt--25 mt_sm--5">6. Secure Wi-Fi Usage:</h2>
                                     <p className="mt--25 mt_sm--5">Advise employees to avoid public Wi-Fi networks for work-related tasks whenever possible. If necessary, require the use of Virtual Private Networks (VPNs) to establish secure connections when accessing company resources over public Wi-Fi. </p>
-
-
-
-                                    
                                 </div>
                             </div>
                         </div>

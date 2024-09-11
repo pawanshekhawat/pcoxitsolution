@@ -48,13 +48,9 @@ const Footer = () => {
                                         <div className="footer-link">
                                            <h4>{t('our_services')}</h4>
                                             <ul className="ft-link">
-                                                <li><a href="/hr-services">{t('hr_services')}</a></li>
-                                                <li><a href="/hr-consulting">{t('hr_consulting')}</a></li>
-                                                <li><a href="/hr-third-party">{t('hr_third_party_payroll_services')}</a></li>
-                                                <li><a href="/business-consulting">{t('business_consulting')}</a></li>
-                                                <li><a href="/employee-training">{t('employment_training_and_development')}</a></li>
-                    
-                                                <li><a href="/hr-compliance">{t('hr_compilance_and_legal_support')}</a></li>
+                                                <li><a href={`${process.env.PUBLIC_URL}/import-export-logistics-services`}>{t('hr_services')}</a></li>
+                                                <li><a href={`${process.env.PUBLIC_URL}/software-development`}>{t('hr_consulting')}</a></li>
+                                                <li><a href={`${process.env.PUBLIC_URL}/digital-marketing`}>{t('hr_third_party_payroll_services')}</a></li>
                                             </ul>
                                         </div>
                                     </div>

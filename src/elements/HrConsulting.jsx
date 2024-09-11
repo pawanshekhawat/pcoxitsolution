@@ -59,21 +59,14 @@ const ServiceDetails = () => {
                                         </div>
                                         <div className="col-lg-6 col-12">
                                             <div className="title">
-                                                <h2 style={{fontSize: "30px"}}>1. Software Solutions</h2>
-                                                <p className="description" style={{lineHeight: "40px"}}>{t('hr_consulting_1')} </p>
-
-                                                <p style={{lineHeight: "40px"}}>{t('hr_consulting_2')} </p>
-
-
-
-                                                {/* <h4 className="title">Proceess of metel</h4>
+                                                <h4 className="title">{t('hr_consulting_1_head')}</h4>
+                                                <div className="mb-3" style={{fontSize:'15px'}}>{t('hr_consulting_1_desc')}</div>
                                                 <ul className="liststyle">
-                                                    <li>Yet this above sewed flirted opened ouch</li>
-                                                    <li>Goldfinch realistic sporadic ingenuous</li>
-                                                    <li>Abominable this abidin far successfully then like piquan</li>
-                                                    <li>Risus commodo viverra</li>
-                                                    <li>Lorem ipsum dolor sit amet, consectetur adipiscing</li>
-                                                </ul> */}
+                                                    <li>{t('hr_consulting_1_li1')}</li> <br />
+                                                    <li>{t('hr_consulting_1_li2')}</li>  <br />
+                                                    <li>{t('hr_consulting_1_li3')}</li>  <br />
+                                                    <li>{t('hr_consulting_1_li4')}</li>  <br />
+                                                </ul>
                                             </div>
                                         </div>
                                     </div>
@@ -83,9 +76,14 @@ const ServiceDetails = () => {
                                     <div className="row sercice-details-content pb--80 align-items-center">
                                         <div className="col-lg-6 col-12">
                                             <div className="title">
-                                            <h2 style={{fontSize: "30px"}}>2. Android Development</h2>
-                                                <p style={{lineHeight: "40px"}}>{t('hr_consulting_3')} </p>
-                                                <p style={{lineHeight: "40px"}}>{t('hr_consulting_4')} </p>
+                                                <h4 className="title">{t('hr_consulting_2_head')}</h4>
+                                                <div className="mb-3" style={{fontSize:'15px'}}>{t('hr_consulting_2_desc')}</div>
+                                                <ul className="liststyle">
+                                                    <li>{t('hr_consulting_2_li1')}</li> <br />
+                                                    <li>{t('hr_consulting_2_li2')}</li>  <br />
+                                                    <li>{t('hr_consulting_2_li3')}</li>  <br />
+                                                    <li>{t('hr_consulting_2_li4')}</li>  <br />
+                                                </ul>
                                             </div>
                                         </div>
                                         <div className="col-lg-6 col-12 order-1 order-lg-2">
@@ -100,39 +98,87 @@ const ServiceDetails = () => {
                                     <div className="row sercice-details-content pb--80 align-items-center">
                                         <div className="col-lg-6 col-12">
                                             <div className="thumb">
-                                                <img className="w-100" src="/assets/images/service/hrconsulting03.JPG" alt="Service Images" />
+                                                <img className="w-100" src="/assets/images/service/hrconsulting01.JPG" alt="Service Images" />
+
                                             </div>
                                         </div>
                                         <div className="col-lg-6 col-12">
                                             <div className="title">
-                                                <h2 style={{fontSize: "30px"}}>3. Cloud Computing Services</h2>
-                                                <p style={{lineHeight: "40px"}}>{t('hr_consulting_5')}</p>
-                                                <p style={{lineHeight: "40px"}}>{t('hr_consulting_6')}</p>
-                                                {/* <h4 className="title">Proceess of metel</h4>
+                                                <h4 className="title">{t('hr_consulting_3_head')}</h4>
+                                                <div className="mb-3" style={{fontSize:'15px'}}>{t('hr_consulting_3_desc')}</div>
                                                 <ul className="liststyle">
-                                                    <li>Yet this above sewed flirted opened ouch</li>
-                                                    <li>Goldfinch realistic sporadic ingenuous</li>
-                                                    <li>Abominable this abidin far successfully then like piquan</li>
-                                                    <li>Risus commodo viverra</li>
-                                                    <li>Lorem ipsum dolor sit amet, consectetur adipiscing</li>
-                                                </ul> */}
+                                                    <li>{t('hr_consulting_3_li1')}</li> <br />
+                                                    <li>{t('hr_consulting_3_li2')}</li>  <br />
+                                                    <li>{t('hr_consulting_3_li3')}</li>  <br />
+                                                    <li>{t('hr_consulting_3_li4')}</li>  <br />
+                                                </ul>
                                             </div>
                                         </div>
                                     </div>
                                     {/* End Single Area */}
 
                                     {/* Start Single Area */}
-                                    <div className="row sercice-details-content align-items-center">
+                                    <div className="row sercice-details-content pb--80 align-items-center">
                                         <div className="col-lg-6 col-12">
                                             <div className="title">
-                                            <h2 style={{fontSize: "30px"}}>4. Blockchain Development</h2>
-                                            <p style={{lineHeight: "40px"}}>{t('hr_consulting_7')}</p>
-                                            <p style={{lineHeight: "40px"}}>{t('hr_consulting_8')}</p>
+                                                <h4 className="title">{t('hr_consulting_4_head')}</h4>
+                                                <div className="mb-3" style={{fontSize:'15px'}}>{t('hr_consulting_4_desc')}</div>
+                                                <ul className="liststyle">
+                                                    <li>{t('hr_consulting_4_li1')}</li> <br />
+                                                    <li>{t('hr_consulting_4_li2')}</li>  <br />
+                                                    <li>{t('hr_consulting_4_li3')}</li>  <br />
+                                                    <li>{t('hr_consulting_4_li4')}</li>  <br />
+                                                </ul>
                                             </div>
                                         </div>
                                         <div className="col-lg-6 col-12 order-1 order-lg-2">
                                             <div className="thumb position-relative">
-                                                <img className="w-100" src="/assets/images/service/hrconsulting04.JPG"alt="Service Images" />
+                                                <img className="w-100" src="/assets/images/service/hrconsulting02.JPG"  alt="Service Images" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                    {/* End Single Area */}
+
+                                    {/* Start Single Area */}
+                                    <div className="row sercice-details-content pb--80 align-items-center">
+                                        <div className="col-lg-6 col-12">
+                                            <div className="thumb">
+                                                <img className="w-100" src="/assets/images/service/hrconsulting01.JPG" alt="Service Images" />
+
+                                            </div>
+                                        </div>
+                                        <div className="col-lg-6 col-12">
+                                            <div className="title">
+                                                <h4 className="title">{t('hr_consulting_5_head')}</h4>
+                                                <div className="mb-3" style={{fontSize:'15px'}}>{t('hr_consulting_5_desc')}</div>
+                                                <ul className="liststyle">
+                                                    <li>{t('hr_consulting_5_li1')}</li> <br />
+                                                    <li>{t('hr_consulting_5_li2')}</li>  <br />
+                                                    <li>{t('hr_consulting_5_li3')}</li>  <br />
+                                                    <li>{t('hr_consulting_5_li4')}</li>  <br />
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    {/* End Single Area */}
+
+                                    {/* Start Single Area */}
+                                    <div className="row sercice-details-content pb--80 align-items-center">
+                                        <div className="col-lg-6 col-12">
+                                            <div className="title">
+                                                <h4 className="title">{t('hr_consulting_6_head')}</h4>
+                                                <div className="mb-3" style={{fontSize:'15px'}}>{t('hr_consulting_6_desc')}</div>
+                                                <ul className="liststyle">
+                                                    <li>{t('hr_consulting_6_li1')}</li> <br />
+                                                    <li>{t('hr_consulting_6_li2')}</li>  <br />
+                                                    <li>{t('hr_consulting_6_li3')}</li>  <br />
+                                                    <li>{t('hr_consulting_6_li4')}</li>  <br />
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div className="col-lg-6 col-12 order-1 order-lg-2">
+                                            <div className="thumb position-relative">
+                                                <img className="w-100" src="/assets/images/service/hrconsulting02.JPG"  alt="Service Images" />
                                             </div>
                                         </div>
                                     </div>

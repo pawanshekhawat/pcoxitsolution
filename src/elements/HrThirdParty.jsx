@@ -60,51 +60,84 @@ const ServiceDetails = () => {
                                         </div>
                                         <div className="col-lg-6 col-12">
                                             <div className="title">
-
-                                                <p style={{lineHeight: "40px"}}>{t('thirt_party_1')}</p>
-
-                                                <p style={{lineHeight: "40px"}}>{t('thirt_party_2')}</p>
-
-                                                {/* <h4 className="title">Proceess of metel</h4>
+                                                <h4 className="title">{t('thirt_party_1_head')}</h4>
+                                                <div className="mb-3" style={{fontSize:'15px'}}>{t('thirt_party_1_desc')}</div>
                                                 <ul className="liststyle">
-                                                    <li>Yet this above sewed flirted opened ouch</li>
-                                                    <li>Goldfinch realistic sporadic ingenuous</li>
-                                                    <li>Abominable this abidin far successfully then like piquan</li>
-                                                    <li>Risus commodo viverra</li>
-                                                    <li>Lorem ipsum dolor sit amet, consectetur adipiscing</li>
-                                                </ul> */}
+                                                    <li>{t('thirt_party_1_li1')}</li> <br />
+                                                    <li>{t('thirt_party_1_li2')}</li>  <br />
+                                                    <li>{t('thirt_party_1_li3')}</li>  <br />
+                                                    <li>{t('thirt_party_1_li4')}</li>  <br />
+                                                </ul>
                                             </div>
                                         </div>
                                     </div>
                                     {/* End Single Area */}
 
                                     {/* Start Single Area */}
-                                    <div className="row sercice-details-content align-items-center">
+                                    <div className="row sercice-details-content pb--80 align-items-center">
                                         <div className="col-lg-6 col-12">
                                             <div className="title">
-                                                <h4 className="title">{t('thirt_party_3')}</h4>
-
+                                                <h4 className="title">{t('thirt_party_2_head')}</h4>
+                                                <div className="mb-3" style={{fontSize:'15px'}}>{t('thirt_party_2_desc')}</div>
                                                 <ul className="liststyle">
-                                                    <li>{t('thirt_party_4')}</li> <br />
-                                                    <li>{t('thirt_party_5')}</li>  <br />
-                                                    <li>{t('thirt_party_6')}</li>  <br />
-                                                    <li>{t('thirt_party_7')}</li>  <br />
-
+                                                    <li>{t('thirt_party_2_li1')}</li> <br />
+                                                    <li>{t('thirt_party_2_li2')}</li>  <br />
+                                                    <li>{t('thirt_party_2_li3')}</li>  <br />
+                                                    <li>{t('thirt_party_2_li4')}</li>  <br />
                                                 </ul>
-
-
                                             </div>
                                         </div>
                                         <div className="col-lg-6 col-12 order-1 order-lg-2">
                                             <div className="thumb position-relative">
                                                 <img className="w-100" src="/assets/images/service/HR Third Party Payroll Services-02.JPG" alt="Service Images" />
-                                   
                                             </div>
                                         </div>
                                     </div>
                                     {/* End Single Area */}
 
+                                    {/* Start Single Area */}
+                                    <div className="row sercice-details-content pb--80 align-items-center">
+                                        <div className="col-lg-6 col-12">
+                                            <div className="thumb">
+                                                <img className="w-100" src="/assets/images/service/HR Third Party Payroll Services-01.JPG" alt="Service Images" />
+                                            </div>
+                                        </div>
+                                        <div className="col-lg-6 col-12">
+                                            <div className="title">
+                                                <h4 className="title">{t('thirt_party_3_head')}</h4>
+                                                <div className="mb-3" style={{fontSize:'15px'}}>{t('thirt_party_3_desc')}</div>
+                                                <ul className="liststyle">
+                                                    <li>{t('thirt_party_3_li1')}</li> <br />
+                                                    <li>{t('thirt_party_3_li2')}</li>  <br />
+                                                    <li>{t('thirt_party_3_li3')}</li>  <br />
+                                                    <li>{t('thirt_party_3_li4')}</li>  <br />
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    {/* End Single Area */}
 
+                                    {/* Start Single Area */}
+                                    <div className="row sercice-details-content pb--80 align-items-center">
+                                        <div className="col-lg-6 col-12">
+                                            <div className="title">
+                                                <h4 className="title">{t('thirt_party_4_head')}</h4>
+                                                <div className="mb-3" style={{fontSize:'15px'}}>{t('thirt_party_4_desc')}</div>
+                                                <ul className="liststyle">
+                                                    <li>{t('thirt_party_4_li1')}</li> <br />
+                                                    <li>{t('thirt_party_4_li2')}</li>  <br />
+                                                    <li>{t('thirt_party_4_li3')}</li>  <br />
+                                                    <li>{t('thirt_party_4_li4')}</li>  <br />
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div className="col-lg-6 col-12 order-1 order-lg-2">
+                                            <div className="thumb position-relative">
+                                                <img className="w-100" src="/assets/images/service/HR Third Party Payroll Services-02.JPG" alt="Service Images" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                    {/* End Single Area */}
                                 </div>
                             </div>
                         </div>

@@ -27,7 +27,7 @@ const BlogDetails = () => {
             <HeaderThree homeLink="/" logo="symbol-dark" color="color-black" />
 
             {/* Start Breadcrump Area */}
-            <div className="rn-page-title-area pt--120 pb--190 bg_image bg_image--7" data-black-overlay="7">
+            <div className="rn-page-title-area pt--120 pb--190 bg_image" data-black-overlay="7">
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-12">
@@ -76,10 +76,6 @@ const BlogDetails = () => {
 
                                     <h2 className="mt--25 mt_sm--5">6. Secure Wi-Fi Usage:</h2>
                                     <p className="mt--25 mt_sm--5">Advise employees to avoid public Wi-Fi networks for work-related tasks whenever possible. If necessary, require the use of Virtual Private Networks (VPNs) to establish secure connections when accessing company resources over public Wi-Fi. </p>
-
-
-
-                                    
                                 </div>
                             </div>
                         </div>

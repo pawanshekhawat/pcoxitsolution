@@ -26,9 +26,20 @@ ContactRoutes.post('/register-contact', async (req, res) => {
         });
 
     } catch (error) {
+        if (error.code === 11000) {
+            // Duplicate key error
+            return res.status(400).json({
+                message: "This email or phone number is already registered.",
+                cause: "Duplicate Key Error"
+            });
+        }
         console.log(error);
-        return res.status(500).json({ messge: "ERROR", cause: error.message });
+        return res.status(500).json({
+            message: "ERROR",
+            cause: error.message
+        });
     }
 });
+
 
 module.exports = ContactRoutes;

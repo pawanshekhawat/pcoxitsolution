@@ -1,0 +1,41 @@
+.title {
+    margin-bottom: 20px;
+}
+
+.reactIcons {
+    stroke-width: 1 !important;
+    width: 44px;
+    height: 44px;
+    margin: 15px 0px;
+    color: #cc2f33;
+    transition: all 0.3s;
+}
+
+.serviceText {
+    margin-top: 10px;
+}
+
+.serviceCard {
+    transition: all 0.3s;
+}
+
+
+.serviceCard:hover {
+    background-color: #cc2f33 !important;
+}
+
+.serviceCard:hover .reactIcons {
+    color: #fff;
+}
+
+.cardBtn {
+    background-color: #191919 !important;
+    border: 1px solid #cc2f33;
+    color: #fff !important;
+}
+
+.cardBtn:hover  {
+ color: #fff !important;
+ border: 1px solid #fff;
+}
+

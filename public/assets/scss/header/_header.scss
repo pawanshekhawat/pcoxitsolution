@@ -43,49 +43,56 @@
                 margin-right: 27px;
             }
         }
-        a{
+        a {
             &.rn-btn {
-                &.theme-color {
-                    border-color: $theme-color;
-                    color: $theme-color;
-                }
-                padding: 0 25px;
-                height: 46px;
-                display: inline-block;
-                line-height: 42px;
-                border: 2px solid #b1b4c1;
+              padding: 0 25px;
+              height: 46px;
+              display: inline-block;
+              line-height: 42px;
+              border: 2px solid #b1b4c1;
+              border-radius: 6px;
+              color: #c6c9d8;
+              font-size: 14px;
+              @extend %transition;
+              position: relative;
+              z-index: 2;
+          
+              // Media queries
+              @media #{$sm-layout} {
+                padding: 0 11px;
+                height: 39px;
+                line-height: 33px;
+                font-size: 12px;
+              }
+              @media #{$large-mobile} {
+                height: 34px;
+                line-height: 29px;
+              }
+          
+              &.theme-color {
+                border-color: $theme-color;
+                color: $theme-color;
+              }
+          
+              &::before {
+                display: none;
+              }
+          
+              &:hover {
+                border-color: transparent;
+                transform: translateY(-3px);
+                color: #ffffff;
+                border: 2px solid $theme-color;
+                background: $theme-color;
                 border-radius: 6px;
-                color: #c6c9d8;
-                font-size: 14px;
-                @extend %transition;
-                position: relative;
-                z-index: 2;
-                @media #{$sm-layout} {
-                    padding: 0 11px;
-                    height: 39px;
-                    line-height: 33px;
-                    font-size: 12px;
-                }
-                @media #{$large-mobile} {
-                    height: 34px;
-                    line-height: 29px;
-                }
-                &::before {
-                   display: none;
-                }
-                &:hover{
-                    border-color: transparent;
-                    transform: translateY(-3px);
-                    color: #ffffff;
-                    border: 2px solid $theme-color;
-                    background: $theme-color;
-                    border-radius: 6px;
-                }
-                @media #{$sm-layout} {
-                    display: none;
-                }
+              }
+          
+              @media #{$sm-layout} {
+                display: none;
+              }
             }
-        }
+          }
+          
 
         .logo {
             a {

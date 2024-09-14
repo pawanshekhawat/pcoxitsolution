@@ -18,7 +18,7 @@ const BlogDetails = () => {
     const openModal = () => {
         setIsOpen(true);
     };
-    const [isDark, setIsDark] = useState(true);
+    const [isDark, setIsDark] = useState(false);
 
 
     return (

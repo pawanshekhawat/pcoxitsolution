@@ -9,6 +9,7 @@ import TabTwo from "../elements/tab/TabTwo";
 import ContactThree from "../elements/contact/ContactThree";
 import PortfolioList from "../elements/portfolio/PortfolioList";
 import ServiceList from "../elements/service/ServiceList";
+import Styles from "../../public/assets/css/custom.module.css"
 
 // import BlogContent from "../elements/blog/BlogContent";
 // import MultiLang from '../component/MultiLang/MultiLang';
@@ -64,7 +65,7 @@ const PortfolioLanding = () => {
     const PostList = BlogContent.slice(0, 3);
 
     // const preference = window.matchMedia("(prefers-color-scheme: dark)").matches;
-    const [isDark, setIsDark] = useState(true);
+    const [isDark, setIsDark] = useState(false);
 
     return (
         <div className={isDark ? "active-dark" : "active-light"}>
@@ -82,8 +83,8 @@ const PortfolioLanding = () => {
                                 <div className="row">
                                     <div className="col-lg-12">
                                         <div className={`inner ${value.textPosition}`}>
-                                            {value.category ? <span>{value.category}</span> : ''}
-                                            <h1 className="title">Empowering Your Digital Journey <br />
+                                            {value.category ? <span className={`${Styles.homePageHeroTitles} title`}>{value.category}</span> : ''}
+                                            <h1 className={`${Styles.homePageHeroTitles} title`}>Empowering Your Digital Journey <br />
                                                 <TextLoop>
                                                     <span> Software Development.</span>
                                                     <span> Digital Marketing.</span>

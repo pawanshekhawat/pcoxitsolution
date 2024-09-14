@@ -19,7 +19,7 @@ const AnyReactComponent = ({ text }) => <div>{text}</div>;
 const MainContact = () => {
   const { t } = useTranslation();
 
-  const [isDark, setIsDark] = useState(true);
+  const [isDark, setIsDark] = useState(false);
 
   // State for form fields
   const [formData, setFormData] = useState({

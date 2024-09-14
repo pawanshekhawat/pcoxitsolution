@@ -1,112 +1,65 @@
-import React from "react";
-import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
-
+import React, { useState, useEffect } from "react";
+import { Tab, Tabs, TabPanel } from 'react-tabs';
 import { useTranslation } from 'react-i18next';
 
-
 const Testimonial = () => {
-
     const { t } = useTranslation();
 
+    // State to manage the active tab index
+    const [activeIndex, setActiveIndex] = useState(0);
+    const testimonialsLength = 5; // The number of testimonials you have
+
+    useEffect(() => {
+        // Automatically change the tab every 3 seconds (3000ms)
+        const interval = setInterval(() => {
+            setActiveIndex((prevIndex) => (prevIndex + 1) % testimonialsLength);
+        }, 5000);
+
+        // Clear the interval when the component unmounts
+        return () => clearInterval(interval);
+    }, [testimonialsLength]);
+
+    const tabPanelStyle = {
+        position: 'absolute',
+        width: '100%',
+        opacity: 0,
+        transition: 'opacity 1s ease-in-out',
+    };
+
+    const activeTabPanelStyle = {
+        ...tabPanelStyle,
+        opacity: 1,
+    };
 
     return (
         <>
             <div className="section-title text-center" style={{ marginTop: "60px" }}>
                 <h3 className="fontWeight500">{t('testimonials_head')}</h3>
             </div>
-            <div className="row" style={{ marginTop: "60px" }}>
+            <div className="row" style={{ marginTop: "60px", position: 'relative', height: '300px' }}>
                 <div className="col-lg-12">
-                    <Tabs>
-                        
-                        <TabPanel>
-                            <div className="rn-testimonial-content text-center">
-                                <div className="inner">
-                                    <p>{t('testimonials_desc1')}</p>
-                                </div>
-                                <div className="author-info">
-                                    <h6><span>{t('testimonials_client1')}</span></h6>
-                                </div>
-                            </div>
-                        </TabPanel>
-                        <TabPanel>
-                            <div className="rn-testimonial-content text-center">
-                                <div className="inner">
-                                    <p>{t('testimonials_desc2')}</p>
-                                </div>
-                                <div className="author-info">
-                                    <h6><span>{t('testimonials_client2')} </span> </h6>
-                                </div>
-                            </div>
-                        </TabPanel>
-                        <TabPanel>
-                            <div className="rn-testimonial-content text-center">
-                                <div className="inner">
-                                    <p>{t('testimonials_desc3')}</p>
-                                </div>
-                                <div className="author-info">
-                                    <h6><span>{t('testimonials_client3')}  </span> </h6>
-                                </div>
-                            </div>
-                        </TabPanel>
-                        <TabPanel>
-                            <div className="rn-testimonial-content text-center">
-                                <div className="inner">
-                                    <p>{t('testimonials_desc4')}</p>
-                                </div>
-                                <div className="author-info">
-                                    <h6><span>{t('testimonials_client4')} </span></h6>
-                                </div>
-                            </div>
-                        </TabPanel>
-                        <TabPanel>
-                            <div className="rn-testimonial-content text-center">
-                                <div className="inner">
-                                    <p>{t('testimonials_desc5')}</p>
-                                </div>
-                                <div className="author-info">
-                                    <h6><span>{t('testimonials_client5')}</span></h6>
-                                </div>
-                            </div>
-                        </TabPanel>
-                      
-                        <TabList className="testimonial-thumb-wrapper">
-                            <Tab>
-                                <div className="testimonial-thumbnai">
-                                    <div className="thumb">
-                                        <img src="/assets/images/client/testimonial-1.jpg" alt="Testimonial Images" />
+                    <Tabs selectedIndex={activeIndex} onSelect={index => setActiveIndex(index)}>
+                        {Array.from({ length: testimonialsLength }).map((_, index) => (
+                            <TabPanel
+                                key={index}
+                                style={{
+                                    ...tabPanelStyle,
+                                    opacity: index === activeIndex ? 1 : 0,
+                                    position: 'absolute',
+                                    top: 0,
+                                    left: 0,
+                                }}
+                            >
+                                <div className="rn-testimonial-content text-center">
+                                    <div className="inner">
+                                        <p>{t(`testimonials_desc${index + 1}`)}</p>
+                                    </div>
+                                    <div className="author-info">
+                                        <h6><span>{t(`testimonials_client${index + 1}`)}</span></h6>
                                     </div>
                                 </div>
-                            </Tab>
-                            <Tab>
-                                <div className="testimonial-thumbnai">
-                                    <div className="thumb">
-                                        <img src="/assets/images/client/testimonial-2.jpg" alt="Testimonial Images" />
-                                    </div>
-                                </div>
-                            </Tab>
-                            <Tab>
-                                <div className="testimonial-thumbnai">
-                                    <div className="thumb">
-                                        <img src="/assets/images/client/testimonial-3.jpg" alt="Testimonial Images" />
-                                    </div>
-                                </div>
-                            </Tab>
-                            <Tab>
-                                <div className="testimonial-thumbnai">
-                                    <div className="thumb">
-                                        <img src="/assets/images/client/testimonial-4.jpg" alt="Testimonial Images" />
-                                    </div>
-                                </div>
-                            </Tab>
-                            <Tab>
-                                <div className="testimonial-thumbnai">
-                                    <div className="thumb">
-                                        <img src="/assets/images/client/testimonial-5.jpg" alt="Testimonial Images" />
-                                    </div>
-                                </div>
-                            </Tab>
-                         
-                        </TabList>
+                            </TabPanel>
+                        ))}
                     </Tabs>
                 </div>
             </div>

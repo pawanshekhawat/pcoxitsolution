@@ -34,7 +34,18 @@
         font-weight: 400;
     }
 
+    .service-area {
+        background-color: #191919!important;
+    }
 
+    .cursor {
+        z-index: 999999 !important;
+    }
+
+    .custom_homePageHeroTitles__30Lky {
+        color: #ffffff!important;
+    }
+    
     
     .bg_image--3,
     .bg_image--1 ,
@@ -49,6 +60,9 @@
     }
     .bg_color--5,
     .footer-right {
+        background: #101010;
+    }
+    .bg_color--3 {
         background: #101010;
     }
  
@@ -708,6 +722,75 @@ textarea:-ms-input-placeholder {
 img.react-parallax-bgimage {
     object-fit: contain;
 }
+
+.custom_cardBtn2__t5nCv  {
+    background-color: #fff !important;
+    border: 1px solid #cc2f33;
+    color: #000 !important;
+    font-size: 18px !important;
+    transition: all 0.3s;
+}
+
+.custom_cardBtn2__t5nCv:hover {
+    color: #fff !important;
+    transform: translateZ(-5px);
+    font-size: 18px !important;
+    background-color: #cc2f33 !important;
+    border: 1px solid #fff;
+}
+
+.custom_DevProg__1ANzF {
+    border: 0 !important;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px !important;
+}
+
+.custom_DevProg__1ANzF:hover .serviceProcHead {
+    color: #fff;
+}
+
+.mainmenu li a{
+    color: #fff !important;
+}
+
+// .header-area {
+//     background-color: #1a1b1f !important;
+// }
+
+.custom_serviceCard__1PV0h {
+    border: 0 !important;
+    background-color: #fff !important;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px !important;
+}
+
+.custom_serviceCard__1PV0h:hover .custom_title__2ljIB{
+    color: #fff!important;
+}
+
+.custom_title__2ljIB {
+    color: #000 !important;
+    transition: all 0.3s !important;
+}
+
+.custom_cardBtn__2TSNe {
+    background-color: #fff !important;
+    color: #000 !important;
+}
+
+.custom_cardBtn__2TSNe:hover {
+    color: #fff!important;
+    background-color: #cc2f33!important;
+}
+
+.cursor {
+    z-index: 999999 !important;
+}
+
+.bg_color--3 {
+    background: #101010;
+}
+
+
 }
 
 

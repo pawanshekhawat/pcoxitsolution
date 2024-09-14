@@ -38,6 +38,16 @@ import Service from "./elements/Service";
 import ServiceDetails from "./elements/ServiceDetails";
 import HrConsulting from "./elements/HrConsulting";
 import HrThirdParty from "./elements/HrThirdParty";
+import SoftDev from "./elements/service/SoftDev";
+import WebApp from "./elements/service/WebApp";
+import MobApp from "./elements/service/MobApp";
+import SoftInt from "./elements/service/SoftInt";
+import CloudBased from "./elements/service/CloudBased";
+import SoftMaintain from "./elements/service/SoftMaintain";
+import SeoService from "./elements/service/SeoService"
+import SocialService from "./elements/service/SocialService"
+import PPCService from "./elements/service/PPCService"
+import ContentService from "./elements/service/ContentService"
 // import BusinessConsulting from "./elements/BusinessConsulting"
 // import EmployeeTraining from "./elements/EmplyeeTraining"
 // import HrCompliance from "./elements/Hrcompliance"
@@ -116,16 +126,13 @@ const loadingMarkup = (
 
 
 
-
-
-
 class Root extends Component {
     render() {
         return (
             <BrowserRouter basename={'/'}>
                 <PageScrollTop>
                     <GoogleTagManager />
-                    <Cursor />
+                    <Cursor  className="cursor" />
                     <Switch>
 
 
@@ -190,6 +197,16 @@ class Root extends Component {
 
                         {/* Element Layot */}
                         <Route exact path={`${process.env.PUBLIC_URL}/service`} component={Service} />
+                        <Route exact path={`${process.env.PUBLIC_URL}/service/software-development`} component={SoftDev} />
+                        <Route exact path={`${process.env.PUBLIC_URL}/service/web-app`} component={WebApp} />
+                        <Route exact path={`${process.env.PUBLIC_URL}/service/mobile-app`} component={MobApp} />
+                        <Route exact path={`${process.env.PUBLIC_URL}/service/software-integration`} component={SoftInt} />
+                        <Route exact path={`${process.env.PUBLIC_URL}/service/cloud-based-solutions`} component={CloudBased} />
+                        <Route exact path={`${process.env.PUBLIC_URL}/service/software-maintenance`} component={SoftMaintain} />
+                        <Route exact path={`${process.env.PUBLIC_URL}/service/search-engine-optimization`} component={SeoService} />
+                        <Route exact path={`${process.env.PUBLIC_URL}/service/content-marketing`} component={ContentService} />
+                        <Route exact path={`${process.env.PUBLIC_URL}/service/social-media-marketing`} component={SocialService} />
+                        <Route exact path={`${process.env.PUBLIC_URL}/service/pay-per-click`} component={PPCService} />
 
                         <Route exact path={`${process.env.PUBLIC_URL}/contact`} component={MainContact} />
                         <Route exact path={`${process.env.PUBLIC_URL}/about`} component={About} />

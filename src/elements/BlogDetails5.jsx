@@ -8,7 +8,7 @@ import Footer from "../component/footer/Footer";
 import Toggle from "../component/Toggle/Toggle";
 
 const BlogDetails = () => {
-  const [isDark, setIsDark] = useState(true);
+  const [isDark, setIsDark] = useState(false);
 
   return (
     <div className={isDark ? "active-dark" : "active-light"}>
@@ -17,7 +17,7 @@ const BlogDetails = () => {
 
       {/* Start Breadcrump Area */}
       <div
-        className="rn-page-title-area pt--120 pb--190 bg_image  "
+        className="rn-page-title-area pt--120 pb--190 bg_image bg_image--7"
         data-black-overlay="7"
       >
         <div className="container">

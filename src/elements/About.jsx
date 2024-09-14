@@ -20,7 +20,7 @@ const About = () => {
     const { t } = useTranslation();
 
     let title =`${t('about_us')}`
-    const [isDark, setIsDark] = useState(true);
+    const [isDark, setIsDark] = useState(false);
     return (
 
         <div className={isDark ? "active-dark" : "active-light"}>
@@ -46,9 +46,7 @@ const About = () => {
                                     <div className="section-title">
                                         <h2 className="title">{title}</h2>
                                         <p className="description">{t('about_desc_1')}.
-
                                             <br />  <br />
-
                                             {t('about_desc_3')}
                                             <br /> </p>
                                     </div>

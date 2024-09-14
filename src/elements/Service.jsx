@@ -58,7 +58,7 @@ const Service = () => {
         // }
     ];
 
-    const [isDark, setIsDark] = useState(true);
+    const [isDark, setIsDark] = useState(false);
 
     return (
         <div className={isDark ? "active-dark" : "active-light"}>

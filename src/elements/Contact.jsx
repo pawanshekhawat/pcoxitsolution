@@ -21,7 +21,7 @@ const Contact = () => {
     //     },
     //     zoom: 11
     // };
-    const [isDark, setIsDark] = useState(true);
+    const [isDark, setIsDark] = useState(false);
 
 
     return (

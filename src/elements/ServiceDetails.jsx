@@ -11,7 +11,6 @@ import { AiOutlineTruck } from "react-icons/ai";
 import { LiaShipSolid } from "react-icons/lia";
 import { PiAirplaneTiltLight } from "react-icons/pi";
 
-
 import { useTranslation } from "react-i18next";
 
 const ServiceDetails = () => {
@@ -22,7 +21,7 @@ const ServiceDetails = () => {
     setIsOpen(true);
   };
 
-  const [isDark, setIsDark] = useState(true);
+  const [isDark, setIsDark] = useState(false);
 
   return (
     <div className={isDark ? "active-dark" : "active-light"}>
@@ -53,146 +52,76 @@ const ServiceDetails = () => {
       <div className="rn-service-details ptb--120 bg_color--1">
         <div className="container">
           {/* Start Service Card Area */}
-          <h3>We provide variety of services:</h3>
-          <div className="row">
+          <h3 className={`${Styles.serviceHead}`}>We provide these types of transport services</h3>
+          <div className={`${Styles.serviceCards} row`}>
             <div
-              className={`${Styles.serviceCard} card col-12 col-md-6 col-lg-5 mb-4 ml-5`}
-              style={{
-                backdropFilter: "blur(17px) saturate(200%)",
-                WebkitBackdropFilter: "blur(17px) saturate(200%)",
-                backgroundColor: "#191919",
-                borderRadius: "12px",
-                border: "1px solid rgba(255, 255, 255, 0.125)",
-              }}
+              className={`${Styles.serviceCard} card col-12 col-md-6 col-lg-3 mb-4`}
             >
               <div className="card-body">
-                <a href="#lt" className={`card-title h3 text-white ${Styles.title}`}>
-                <AiOutlineTruck className={Styles.reactIcons} /> <br />
-                  Land Transportation Services
+                <a
+                  href="#lt"
+                  className={`card-title h3 text-white ${Styles.title}`}
+                >
+                  <AiOutlineTruck className={Styles.reactIcons} /> <br />
+                  Land Transportation
                 </a>
-                <p className={`card-text text-white ${Styles.serviceText}`}>
+                {/* <p className={`card-text text-white ${Styles.serviceText}`}>
                   {t("hr_services_1_desc")}
-                </p>
-                <div className="btm-btn" style={{ color: "#fff" }}>
-                  <a
-                    href="/contact"
-                    className={`${Styles.cardBtn} btn`}
-                    
-                  >
-                    Need Service
+                </p> */}
+                <div className={`${Styles.btmBtn} mt-3 d-flex`}>
+                  <a href="/contact" className={`${Styles.cardBtn} btn`}>
+                    Enquire Now
                   </a>
-                  <a
-                    href="#lt"
-                    className={`${Styles.cardBtn} btn ml-4`}
-                    
-                  >
+                  <a href="#lt" className={`${Styles.cardBtn} btn ml-4`}>
                     Know More
                   </a>
                 </div>
               </div>
             </div>
             <div
-              className={`${Styles.serviceCard} card col-12 col-md-6 col-lg-5 mb-4 ml-5`}
-              style={{
-                backdropFilter: "blur(17px) saturate(200%)",
-                WebkitBackdropFilter: "blur(17px) saturate(200%)",
-                backgroundColor: "#191919",
-                borderRadius: "12px",
-                border: "1px solid rgba(255, 255, 255, 0.125)",
-              }}
+              className={`${Styles.serviceCard} card col-12 col-md-6 col-lg-3 mb-4`}
             >
               <div className="card-body">
-                <a href="#st" className={`card-title h3 text-white ${Styles.title}`}>
-                  <LiaShipSolid className={Styles.reactIcons}/> <br />
-                  Sea Transport Services
+                <a
+                  href="#st"
+                  className={`card-title h3 text-white ${Styles.title}`}
+                >
+                  <LiaShipSolid className={Styles.reactIcons} /> <br />
+                  Sea Transport
                 </a>
-                <p className={`card-text text-white ${Styles.serviceText}`}>
+                {/* <p className={`card-text text-white ${Styles.serviceText}`}>
                   {t("hr_services_2_desc")}
-                </p>
-                <div className="btm-btn" style={{ color: "#fff" }}>
-                  <a
-                    href="/contact"
-                    className={`${Styles.cardBtn} btn`}
-                    
-                  >
-                    Need Service
+                </p> */}
+                <div className={`${Styles.btmBtn} mt-3 d-flex`}>
+                  <a href="/contact" className={`${Styles.cardBtn} btn`}>
+                    Enquire Now
                   </a>
-                  <a
-                    href="#st"
-                    className={`${Styles.cardBtn} btn ml-4`}
-                    
-                  >
+                  <a href="#st" className={`${Styles.cardBtn} btn ml-4`}>
                     Know More
                   </a>
                 </div>
               </div>
             </div>
             <div
-              className={`${Styles.serviceCard} card col-12 col-md-6 col-lg-5 mb-4 ml-5`}
-              style={{
-                backdropFilter: "blur(17px) saturate(200%)",
-                WebkitBackdropFilter: "blur(17px) saturate(200%)",
-                backgroundColor: "#191919",
-                borderRadius: "12px",
-                border: "1px solid rgba(255, 255, 255, 0.125)",
-              }}
+              className={`${Styles.serviceCard} card col-12 col-md-6 col-lg-3 mb-4`}
             >
               <div className="card-body">
-                <a href="#at" className={`card-title h3 text-white ${Styles.title}`}>
-                  <PiAirplaneTiltLight className={Styles.reactIcons}/><br />
-                  Air Transport Services
+                <a
+                  href="#at"
+                  className={`card-title h3 text-white ${Styles.title}`}
+                >
+                  <PiAirplaneTiltLight className={Styles.reactIcons} />
+                  <br />
+                  Air Transport
                 </a>
-                <p className={`card-text text-white ${Styles.serviceText}`}>
+                {/* <p className={`card-text text-white ${Styles.serviceText}`}>
                   {t("hr_services_3_desc")}
-                </p>
-                <div className="btm-btn" style={{ color: "#fff" }}>
-                  <a
-                    href="/contact"
-                    className={`${Styles.cardBtn} btn`}
-                    
-                  >
-                    Need Service
+                </p> */}
+                <div className={`${Styles.btmBtn} mt-3 d-flex`}>
+                  <a href="/contact" className={`${Styles.cardBtn} btn`}>
+                    Enquire Now
                   </a>
-                  <a
-                    href="#at"
-                    className={`${Styles.cardBtn} btn ml-4`}
-                    
-                  >
-                    Know More
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div
-              className={`${Styles.serviceCard} card col-12 col-md-6 col-lg-5 mb-4 ml-5`}
-              style={{
-                backdropFilter: "blur(17px) saturate(200%)",
-                WebkitBackdropFilter: "blur(17px) saturate(200%)",
-                backgroundColor: "#191919",
-                borderRadius: "12px",
-                border: "1px solid rgba(255, 255, 255, 0.125)",
-              }}
-            >
-              <div className="card-body">
-                <a href="#si" className={`card-title h3 text-white ${Styles.title}`}>
-                  NAN
-                </a>
-                <p className={`card-text text-white ${Styles.serviceText}`}>
-                  {t("hr_services_4_desc")}
-                </p>
-                <div className="btm-btn" style={{ color: "#fff" }}>
-                  <a
-                    href="/contact"
-                    className={`${Styles.cardBtn} btn`}
-                    
-                  >
-                    Need Service
-                  </a>
-                  <a
-                    href="#si"
-                    className={`${Styles.cardBtn} btn ml-4`}
-                    
-                  >
+                  <a href="#at" className={`${Styles.cardBtn} btn ml-4`}>
                     Know More
                   </a>
                 </div>
@@ -218,11 +147,11 @@ const ServiceDetails = () => {
                     </div>
                     <div className="col-lg-6 col-12">
                       <div className="title">
-                        <h4 className="title">{t("hr_services_1_head")}</h4>
-                        <div className="mb-3" style={{ fontSize: "15px" }}>
+                        <h4 className={`${Styles.serviceDTitle} title`}>{t("hr_services_1_head")}</h4>
+                        <div className={`${Styles.serviceDdesc} mb-3`}>
                           {t("hr_services_1_desc")}
                         </div>
-                        <ul className="liststyle">
+                        <ul className={`${Styles.serviceLists} liststyle`}>
                           <li>{t("hr_services_1_li1")}</li> <br />
                           <li>{t("hr_services_1_li2")}</li> <br />
                           <li>{t("hr_services_1_li3")}</li> <br />
@@ -237,11 +166,11 @@ const ServiceDetails = () => {
                   <div className="row sercice-details-content pb--80 align-items-start">
                     <div className="col-lg-6 col-12 mt-2">
                       <div className="title">
-                        <h4 className="title">{t("hr_services_2_head")}</h4>
-                        <div className="mb-3" style={{ fontSize: "15px" }}>
+                        <h4 className={`${Styles.serviceDTitle} title`}>{t("hr_services_2_head")}</h4>
+                        <div className={`${Styles.serviceDdesc} mb-3`}>
                           {t("hr_services_2_desc")}
                         </div>
-                        <ul className="liststyle">
+                        <ul className={`${Styles.serviceLists} liststyle`}>
                           <li>{t("hr_services_2_li1")}</li> <br />
                           <li>{t("hr_services_2_li2")}</li> <br />
                           <li>{t("hr_services_2_li3")}</li> <br />
@@ -275,11 +204,11 @@ const ServiceDetails = () => {
                   </div>
                   <div className="col-lg-6 col-12 mt-2">
                     <div className="title">
-                      <h4 className="title">{t("hr_services_3_head")}</h4>
-                      <div className="mb-3" style={{ fontSize: "15px" }}>
+                      <h4 className={`${Styles.serviceDTitle} title`}>{t("hr_services_3_head")}</h4>
+                      <div className={`${Styles.serviceDdesc} mb-3`}>
                         {t("hr_services_3_desc")}
                       </div>
-                      <ul className="liststyle">
+                      <ul className={`${Styles.serviceLists} liststyle`}>
                         <li>{t("hr_services_3_li1")}</li> <br />
                         <li>{t("hr_services_3_li2")}</li> <br />
                         <li>{t("hr_services_3_li3")}</li> <br />

@@ -16,7 +16,7 @@ const ServiceDetails = () => {
         setIsOpen(true);
     };
 
-    const [isDark, setIsDark] = useState(true);
+    const [isDark, setIsDark] = useState(false);
 
     const { t } = useTranslation();
 

@@ -11,7 +11,7 @@
         width: auto;
         padding-left: 50px;
         padding-right: 50px;
-        z-index: 999;
+        z-index: 9;
         @media #{$lg-layout} {
             padding-left: 30px;
             padding-right: 30px;
@@ -530,11 +530,11 @@
             .close-menu {
                 opacity: 1;
                 visibility: visible;
-                z-index: 9999;
+                z-index: 999;
                 span {
                     color: #000000;
                     font-size: 30px;
-                    cursor: pointer;
+                    // cursor: pointer;
                 }
             }
             .mainmenunav {

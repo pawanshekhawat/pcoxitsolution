@@ -8,7 +8,7 @@ import Footer from "../component/footer/Footer";
 import Toggle from "../component/Toggle/Toggle";
 
 const BlogDetails = () => {
-    const [isDark, setIsDark] = useState(true);
+    const [isDark, setIsDark] = useState(false);
 
     return (
         <div className={isDark ? "active-dark" : "active-light"}>

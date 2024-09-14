@@ -23,7 +23,7 @@ const ServiceDetails = () => {
     setIsOpen(true);
   };
 
-  const [isDark, setIsDark] = useState(true);
+  const [isDark, setIsDark] = useState(false);
 
   return (
     <div className={isDark ? "active-dark" : "active-light"}>
@@ -42,7 +42,7 @@ const ServiceDetails = () => {
           <div className="row">
             <div className="col-lg-12">
               <div className="rn-page-title text-center pt--100">
-                <h2 className="title">{t("thirt_party_0")}</h2>
+                <h2 className="title text-white">{t("thirt_party_0")}</h2>
               </div>
             </div>
           </div>
@@ -54,39 +54,30 @@ const ServiceDetails = () => {
       <div className="rn-service-details ptb--120 bg_color--1">
         <div className="container">
           {/* Start Service Card Area */}
-          <h3>In Digital Marketing, Here's what we provide:</h3>
-          <div className="row ">
+          <h3 className={`${Styles.serviceHead}`}>In Digital Marketing, Here's what we provide</h3>
+          <div className={`${Styles.serviceCards} row`}>
             <div
-              className={`${Styles.serviceCard} card col-12 col-md-6 col-lg-5 mb-4 ml-5`}
-              style={{
-                backdropFilter: "blur(17px) saturate(200%)",
-                WebkitBackdropFilter: "blur(17px) saturate(200%)",
-                backgroundColor: "#191919",
-                borderRadius: "12px",
-                border: "1px solid rgba(255, 255, 255, 0.125)",
-              }}
+              className={`${Styles.serviceCard} card col-12 col-md-6 col-lg-3 mb-4`}
+ 
             >
               <div className="card-body">
                 <a
-                  href="#seo"
+                  href="/service/search-engine-optimization"
                   className={`card-title h3 text-white ${Styles.title}`}
                 >
                   <RiSeoLine className={Styles.reactIcons} /> <br />
                   Search Engine Optimization (SEO)
                 </a>
-                <p className={`card-text text-white ${Styles.serviceText}`}>
-                  {t("thirt_party_1_desc")}
-                </p>
-                <div className="btm-btn" style={{ color: "#fff" }}>
+                <div className={`${Styles.btmBtn} mt-3 d-flex`}>
                   <a
                     href="/contact"
                     className={`${Styles.cardBtn} btn`}
                    
                   >
-                    Need Service
+                    Enquire Now
                   </a>
                   <a
-                    href="#seo"
+                    href="/service/search-engine-optimization"
                     className={`${Styles.cardBtn} btn ml-4`}
                    
                   >
@@ -96,33 +87,24 @@ const ServiceDetails = () => {
               </div>
             </div>
             <div
-              className={`${Styles.serviceCard} card col-12 col-md-6 col-lg-5 mb-4 ml-5`}
-              style={{
-                backdropFilter: "blur(17px) saturate(200%)",
-                WebkitBackdropFilter: "blur(17px) saturate(200%)",
-                backgroundColor: "#191919",
-                borderRadius: "12px",
-                border: "1px solid rgba(255, 255, 255, 0.125)",
-              }}
+              className={`${Styles.serviceCard} card col-12 col-md-6 col-lg-3 mb-4`}
+ 
             >
               <div className="card-body">
-                <a href="#marketing" className="card-title h3 text-white">
+                <a href="/service/content-marketing" className={`card-title h3 text-white ${Styles.title}`}>
                   <BiBookContent className={Styles.reactIcons} /> <br />
-                  Content Marketing
+                  Strategic Content Marketing
                 </a>
-                <p className={`card-text text-white ${Styles.serviceText}`}>
-                  {t("thirt_party_2_desc")}
-                </p>
-                <div className="btm-btn" style={{ color: "#fff" }}>
+                <div className={`${Styles.btmBtn} mt-3 d-flex`}>
                   <a
                     href="/contact"
                     className={`${Styles.cardBtn} btn`}
                    
                   >
-                    Need Service
+                    Enquire Now
                   </a>
                   <a
-                    href="#marketing"
+                    href="/service/content-marketing"
                     className={`${Styles.cardBtn} btn ml-4`}
                    
                   >
@@ -132,33 +114,24 @@ const ServiceDetails = () => {
               </div>
             </div>
             <div
-              className={`${Styles.serviceCard} card col-12 col-md-6 col-lg-5 mb-4 ml-5`}
-              style={{
-                backdropFilter: "blur(17px) saturate(200%)",
-                WebkitBackdropFilter: "blur(17px) saturate(200%)",
-                backgroundColor: "#191919",
-                borderRadius: "12px",
-                border: "1px solid rgba(255, 255, 255, 0.125)",
-              }}
+              className={`${Styles.serviceCard} card col-12 col-md-6 col-lg-3 mb-4`}
+ 
             >
               <div className="card-body">
-                <a href="#social" className="card-title h3 text-white">
+                <a href="/service/social-media-marketing" className={`card-title h3 text-white ${Styles.title}`}>
                   <IoShareSocialSharp className={Styles.reactIcons}/> <br />
                   Social Media Marketing
                 </a>
-                <p className={`card-text text-white ${Styles.serviceText}`}>
-                  {t("thirt_party_3_desc")}
-                </p>
-                <div className="btm-btn" style={{ color: "#fff" }}>
+                <div className={`${Styles.btmBtn} mt-3 d-flex`}>
                   <a
                     href="/contact"
                     className={`${Styles.cardBtn} btn`}
                    
                   >
-                    Need Service
+                    Enquire Now
                   </a>
                   <a
-                    href="#social"
+                    href="/service/social-media-marketing"
                     className={`${Styles.cardBtn} btn ml-4`}
                   >
                     Know More
@@ -167,33 +140,24 @@ const ServiceDetails = () => {
               </div>
             </div>
             <div
-              className={`${Styles.serviceCard} card col-12 col-md-6 col-lg-5 mb-4 ml-5`}
-              style={{
-                backdropFilter: "blur(17px) saturate(200%)",
-                WebkitBackdropFilter: "blur(17px) saturate(200%)",
-                backgroundColor: "#191919",
-                borderRadius: "12px",
-                border: "1px solid rgba(255, 255, 255, 0.125)",
-              }}
+              className={`${Styles.serviceCard} card col-12 col-md-6 col-lg-3 mb-4`}
+ 
             >
               <div className="card-body">
-                <a href="#ppc" className="card-title h3 text-white">
+                <a href="/service/pay-per-click" className={`card-title h3 text-white ${Styles.title}`}>
                   <TbClick className={Styles.reactIcons}/> <br />
                   Pay-Per-Click (PPC) Advertising
                 </a>
-                <p className={`card-text text-white ${Styles.serviceText}`}>
-                  {t("thirt_party_1_desc")}
-                </p>
-                <div className="btm-btn" style={{ color: "#fff" }}>
+                <div className={`${Styles.btmBtn} mt-3 d-flex`}>
                   <a
                     href="/contact"
                     className={`${Styles.cardBtn} btn`}
                    
                   >
-                    Need Service
+                    Enquire Now
                   </a>
                   <a
-                    href="#ppc"
+                    href="/service/pay-per-click"
                     className={`${Styles.cardBtn} btn ml-4`}
                    
                   >
@@ -204,7 +168,7 @@ const ServiceDetails = () => {
             </div>
           </div>
           {/* End Service Card Area */}
-          <div className="row pt--120" id="seo">
+          <div className="row pt--120 hidden" id="seo">
             <div className="col-lg-12">
               <div className="service-details-inner">
                 <div className="inner">
@@ -222,11 +186,11 @@ const ServiceDetails = () => {
                     </div>
                     <div className="col-lg-6 col-12">
                       <div className="title">
-                        <h4 className="title">{t("thirt_party_1_head")}</h4>
-                        <div className="mb-3" style={{ fontSize: "15px" }}>
+                        <h4 className={`${Styles.serviceDTitle} title`}>{t("thirt_party_1_head")}</h4>
+                        <div className={`${Styles.serviceDdesc} mb-3`}>
                           {t("thirt_party_1_desc")}
                         </div>
-                        <ul className="liststyle">
+                        <ul className={`${Styles.serviceLists} liststyle`}>
                           <li>{t("thirt_party_1_li1")}</li> <br />
                           <li>{t("thirt_party_1_li2")}</li> <br />
                           <li>{t("thirt_party_1_li3")}</li> <br />
@@ -242,11 +206,11 @@ const ServiceDetails = () => {
                   <div className="row sercice-details-content pb--80 align-items-center">
                     <div className="col-lg-6 col-12">
                       <div className="title">
-                        <h4 className="title">{t("thirt_party_2_head")}</h4>
-                        <div className="mb-3" style={{ fontSize: "15px" }}>
+                        <h4 className={`${Styles.serviceDTitle} title`}>{t("thirt_party_2_head")}</h4>
+                        <div className={`${Styles.serviceDdesc} mb-3`}>
                           {t("thirt_party_2_desc")}
                         </div>
-                        <ul className="liststyle">
+                        <ul className={`${Styles.serviceLists} liststyle`}>
                           <li>{t("thirt_party_2_li1")}</li> <br />
                           <li>{t("thirt_party_2_li2")}</li> <br />
                           <li>{t("thirt_party_2_li3")}</li> <br />
@@ -281,11 +245,11 @@ const ServiceDetails = () => {
                     </div>
                     <div className="col-lg-6 col-12">
                       <div className="title">
-                        <h4 className="title">{t("thirt_party_3_head")}</h4>
-                        <div className="mb-3" style={{ fontSize: "15px" }}>
+                        <h4 className={`${Styles.serviceDTitle} title`}>{t("thirt_party_3_head")}</h4>
+                        <div className={`${Styles.serviceDdesc} mb-3`}>
                           {t("thirt_party_3_desc")}
                         </div>
-                        <ul className="liststyle">
+                        <ul className={`${Styles.serviceLists} liststyle`}>
                           <li>{t("thirt_party_3_li1")}</li> <br />
                           <li>{t("thirt_party_3_li2")}</li> <br />
                           <li>{t("thirt_party_3_li3")}</li> <br />
@@ -300,11 +264,11 @@ const ServiceDetails = () => {
                   <div className="row sercice-details-content pb--80 align-items-center">
                     <div className="col-lg-6 col-12">
                       <div className="title">
-                        <h4 className="title">{t("thirt_party_4_head")}</h4>
-                        <div className="mb-3" style={{ fontSize: "15px" }}>
+                        <h4 className={`${Styles.serviceDTitle} title`}>{t("thirt_party_4_head")}</h4>
+                        <div className={`${Styles.serviceDdesc} mb-3`}>
                           {t("thirt_party_4_desc")}
                         </div>
-                        <ul className="liststyle">
+                        <ul className={`${Styles.serviceLists} liststyle`}>
                           <li>{t("thirt_party_4_li1")}</li> <br />
                           <li>{t("thirt_party_4_li2")}</li> <br />
                           <li>{t("thirt_party_4_li3")}</li> <br />

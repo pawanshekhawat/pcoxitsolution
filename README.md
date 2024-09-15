@@ -1,5 +1,5 @@
 <<<<<<< HEAD
-# alkaynaat-hr-website
+Pcox IT Solution Pvt. Ltd.
 =======
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

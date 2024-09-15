@@ -1,4 +1,4 @@
-import React, { Component, useState } from "react";
+import React, { useContext, useState } from "react";
 import PageHelmet from "../component/common/Helmet";
 import Breadcrumb from "../elements/common/Breadcrumb";
 import Pagination from "../elements/common/Pagination";
@@ -10,9 +10,11 @@ import Footer from "../component/footer/Footer";
 
 import Toggle from "../component/Toggle/Toggle";
 
+import{ ThemeContext } from '../ThemeContext';
+
 const Blog = () => {
 
-    const [isDark, setIsDark] = useState(false);
+    const { isDark, toggleTheme } = useContext(ThemeContext); 
 
     return (
         <div className={isDark ? "active-dark" : "active-light"}>
@@ -49,7 +51,7 @@ const Blog = () => {
 
             <div className="toggle-button">
 
-                <Toggle isChecked={isDark} handleChange={() => setIsDark(!isDark)} />
+                <Toggle isChecked={isDark} handleChange={toggleTheme} />
 
             </div>
 

@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useContext } from 'react';
 import ScrollToTop from 'react-scroll-up';
 import { FiChevronUp } from "react-icons/fi";
 import Helmet from "../component/common/Helmet";
@@ -17,6 +17,7 @@ import Styles from "../../public/assets/css/custom.module.css"
 
 import Toggle from '../component/Toggle/Toggle';
 import { useTranslation } from 'react-i18next';
+import { ThemeContext } from '../ThemeContext';
 
 // import { UsageState } from 'webpack'
 
@@ -36,6 +37,9 @@ const SlideList = [
     }
 
 ]
+
+
+
 const PortfolioLanding = () => {
     const { t } = useTranslation();
     const BlogContent = [
@@ -65,7 +69,8 @@ const PortfolioLanding = () => {
     const PostList = BlogContent.slice(0, 3);
 
     // const preference = window.matchMedia("(prefers-color-scheme: dark)").matches;
-    const [isDark, setIsDark] = useState(false);
+    const { isDark, toggleTheme } = useContext(ThemeContext); // Access the theme state
+
 
     return (
         <div className={isDark ? "active-dark" : "active-light"}>
@@ -254,10 +259,9 @@ const PortfolioLanding = () => {
             {/* theme toggle start */}
 
             <div className="toggle-button">
+    <Toggle isChecked={isDark} handleChange={toggleTheme} />
+</div>
 
-                <Toggle isChecked={isDark} handleChange={() => setIsDark(!isDark)} />
-
-            </div>
 
 
 

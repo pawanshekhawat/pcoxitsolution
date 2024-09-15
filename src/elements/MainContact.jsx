@@ -1,4 +1,4 @@
-import React, { Component, useState } from "react";
+import React, { useContext, useState } from "react";
 import PageHelmet from "../component/common/Helmet";
 import { FiHeadphones, FiMail, FiMapPin } from "react-icons/fi";
 import GoogleMapReact from "google-map-react";
@@ -14,12 +14,14 @@ import axios from 'axios';
 import Toggle from "../component/Toggle/Toggle";
 import { useTranslation } from "react-i18next";
 
+import { ThemeContext } from "../ThemeContext";
+
 const AnyReactComponent = ({ text }) => <div>{text}</div>;
 
 const MainContact = () => {
   const { t } = useTranslation();
 
-  const [isDark, setIsDark] = useState(false);
+  const { isDark, toggleTheme } = useContext(ThemeContext); 
 
   // State for form fields
   const [formData, setFormData] = useState({
@@ -139,7 +141,7 @@ const MainContact = () => {
       {/* End Back To Top */}
 
       <div className="toggle-button">
-        <Toggle isChecked={isDark} handleChange={() => setIsDark(!isDark)} />
+        <Toggle isChecked={isDark} handleChange={toggleTheme} />
       </div>
 
       <Footer />

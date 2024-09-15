@@ -184,7 +184,7 @@
         border-radius: 10px; 
         position: relative;
         @extend %transition;
-        background: #191919;
+        background: #04102d;
         height: 100%;
         cursor: pointer;
         @media #{$laptop-device} {

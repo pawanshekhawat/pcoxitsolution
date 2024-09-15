@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useContext } from "react";
 import PageHelmet from "../component/common/Helmet";
 import { FiClock, FiUser, FiChevronUp } from "react-icons/fi";
 import { Link } from 'react-router-dom';
@@ -7,8 +7,10 @@ import HeaderThree from "../component/header/HeaderThree";
 import Footer from "../component/footer/Footer";
 import Toggle from "../component/Toggle/Toggle";
 
+import { ThemeContext } from '../ThemeContext';
+
 const BlogDetails = () => {
-    const [isDark, setIsDark] = useState(false);
+    const { isDark, toggleTheme } = useContext(ThemeContext);
 
     return (
         <div className={isDark ? "active-dark" : "active-light"}>
@@ -131,7 +133,7 @@ const BlogDetails = () => {
             <Footer />
 
             <div className="toggle-button">
-                <Toggle isChecked={isDark} handleChange={() => setIsDark(!isDark)} />
+            <Toggle isChecked={isDark} handleChange={toggleTheme} />
             </div>
         </div>
     );

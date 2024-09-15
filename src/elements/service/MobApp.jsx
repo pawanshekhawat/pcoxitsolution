@@ -66,7 +66,8 @@ const MobApp = () => {
                 Mobile App Development
               </h1>
               <p className="text-white mb-8">
-                We offer comprehensive mobile app development services for both iOS and Android platforms.
+                We offer comprehensive mobile app development services for both
+                iOS and Android platforms.
               </p>
               <div className="d-flex justify-content-center mb-4">
                 <a
@@ -93,7 +94,9 @@ const MobApp = () => {
                     1. Native App Development
                   </h3>
                   <p>
-                    We develop native apps tailored to the specific requirements of iOS and Android platforms, ensuring optimal performance and user experience.
+                    We develop native apps tailored to the specific requirements
+                    of iOS and Android platforms, ensuring optimal performance
+                    and user experience.
                   </p>
                 </div>
               </div>
@@ -105,7 +108,9 @@ const MobApp = () => {
                     2. Hybrid App Development
                   </h3>
                   <p>
-                    Our hybrid app solutions combine native and web technologies to provide a cost-effective option with broad platform compatibility.
+                    Our hybrid app solutions combine native and web technologies
+                    to provide a cost-effective option with broad platform
+                    compatibility.
                   </p>
                 </div>
               </div>
@@ -117,7 +122,9 @@ const MobApp = () => {
                     3. UI/UX Design
                   </h3>
                   <p>
-                    We design engaging and user-friendly interfaces for mobile apps, focusing on usability and visual appeal to improve user satisfaction.
+                    We design engaging and user-friendly interfaces for mobile
+                    apps, focusing on usability and visual appeal to improve
+                    user satisfaction.
                   </p>
                 </div>
               </div>
@@ -129,7 +136,9 @@ const MobApp = () => {
                     4. App Testing and Optimization
                   </h3>
                   <p id="redirect">
-                    We perform extensive testing and optimization to ensure that your app functions smoothly across different devices and operating systems.
+                    We perform extensive testing and optimization to ensure that
+                    your app functions smoothly across different devices and
+                    operating systems.
                   </p>
                 </div>
               </div>
@@ -138,67 +147,32 @@ const MobApp = () => {
 
           <div className="py-5">
             <h2 className="display-4 text-center mb-5">
-              Software Solutions We Provide
+              Technologies We Provide
             </h2>
             <div className="row">
               <div className="col-6 col-md-4 col-lg-3 mb-4">
                 <div className={`${Styles.cardBtn2} p-3 rounded text-center`}>
-                  ERP Systems
+                  React Native
                 </div>
               </div>
               <div className="col-6 col-md-4 col-lg-3 mb-4">
                 <div className={`${Styles.cardBtn2} p-3 rounded text-center`}>
-                  CRM Software
+                  Flutter
                 </div>
               </div>
               <div className="col-6 col-md-4 col-lg-3 mb-4">
                 <div className={`${Styles.cardBtn2} p-3 rounded text-center`}>
-                  Project Management Tools
+                  Swift
                 </div>
               </div>
               <div className="col-6 col-md-4 col-lg-3 mb-4">
                 <div className={`${Styles.cardBtn2} p-3 rounded text-center`}>
-                  HR Management Systems
+                  Kotlin
                 </div>
               </div>
               <div className="col-6 col-md-4 col-lg-3 mb-4">
                 <div className={`${Styles.cardBtn2} p-3 rounded text-center`}>
-                  Cloud Computing Services
-                </div>
-              </div>
-              <div className="col-6 col-md-4 col-lg-3 mb-4">
-                <div className={`${Styles.cardBtn2} p-3 rounded text-center`}>
-                  Cybersecurity Solutions
-                </div>
-              </div>
-              <div className="col-6 col-md-4 col-lg-3 mb-4">
-                <div className={`${Styles.cardBtn2} p-3 rounded text-center`}>
-                  Collaboration Tools
-                </div>
-              </div>
-              <div className="col-6 col-md-4 col-lg-3 mb-4">
-                <div className={`${Styles.cardBtn2} p-3 rounded text-center`}>
-                  Data Analytics & BI
-                </div>
-              </div>
-              <div className="col-6 col-md-4 col-lg-3 mb-4">
-                <div className={`${Styles.cardBtn2} p-3 rounded text-center`}>
-                  DevOps Tools
-                </div>
-              </div>
-              <div className="col-6 col-md-4 col-lg-3 mb-4">
-                <div className={`${Styles.cardBtn2} p-3 rounded text-center`}>
-                  Financial Management
-                </div>
-              </div>
-              <div className="col-6 col-md-4 col-lg-3 mb-4">
-                <div className={`${Styles.cardBtn2} p-3 rounded text-center`}>
-                  E-Commerce Platforms
-                </div>
-              </div>
-              <div className="col-6 col-md-4 col-lg-3 mb-4">
-                <div className={`${Styles.cardBtn2} p-3 rounded text-center`}>
-                  Helpdesk Solutions
+                  Xamarin
                 </div>
               </div>
             </div>
@@ -209,7 +183,8 @@ const MobApp = () => {
               Ready to Transform Your Business?
             </h2>
             <p className=" mb-5">
-              Let’s discuss how our mobile app development services can drive your success.
+              Let’s discuss how our mobile app development services can drive
+              your success.
             </p>
             <a
               href="/contact"

@@ -33,14 +33,14 @@ const ServiceDetails = () => {
 
       {/* Start Breadcrump Area */}
       <div
-        className="rn-page-title-area pt--120 pb--190 bg_image"
+        className="breadcrumb-area rn-bg-color ptb--120 bg_image bg_image--1"
         data-black-overlay="5"
       >
         <div className="container">
           <div className="row">
             <div className="col-lg-12">
               <div className="rn-page-title text-center pt--100">
-                <h2 className="title">{t("hr_services_0")}</h2>
+                <h2 className="title text-white">{t("hr_services_0")}</h2>
               </div>
             </div>
           </div>
@@ -52,7 +52,9 @@ const ServiceDetails = () => {
       <div className="rn-service-details ptb--120 bg_color--1">
         <div className="container">
           {/* Start Service Card Area */}
-          <h3 className={`${Styles.serviceHead}`}>We provide these types of transport services</h3>
+          <h3 className={`${Styles.serviceHead}`}>
+            We provide these types of transport services
+          </h3>
           <div className={`${Styles.serviceCards} row`}>
             <div
               className={`${Styles.serviceCard} card col-12 col-md-6 col-lg-3 mb-4`}
@@ -65,9 +67,6 @@ const ServiceDetails = () => {
                   <AiOutlineTruck className={Styles.reactIcons} /> <br />
                   Land Transportation
                 </a>
-                {/* <p className={`card-text text-white ${Styles.serviceText}`}>
-                  {t("hr_services_1_desc")}
-                </p> */}
                 <div className={`${Styles.btmBtn} mt-3 d-flex`}>
                   <a href="/contact" className={`${Styles.cardBtn} btn`}>
                     Enquire Now
@@ -143,18 +142,22 @@ const ServiceDetails = () => {
                           src="/assets/images/service/hrservice01.JPG"
                           alt="Service Images"
                         />
+                        <ul className={`${Styles.serviceLists} liststyle`}>
+                          <li>{t("hr_services_1_li1")}</li> <br />
+                          <li>{t("hr_services_1_li3")}</li> <br />
+                        </ul>
                       </div>
                     </div>
                     <div className="col-lg-6 col-12">
                       <div className="title">
-                        <h4 className={`${Styles.serviceDTitle} title`}>{t("hr_services_1_head")}</h4>
+                        <h4 className={`${Styles.serviceDTitle} title`}>
+                          {t("hr_services_1_head")}
+                        </h4>
                         <div className={`${Styles.serviceDdesc} mb-3`}>
                           {t("hr_services_1_desc")}
                         </div>
                         <ul className={`${Styles.serviceLists} liststyle`}>
-                          <li>{t("hr_services_1_li1")}</li> <br />
                           <li>{t("hr_services_1_li2")}</li> <br />
-                          <li>{t("hr_services_1_li3")}</li> <br />
                           <li id="st">{t("hr_services_1_li4")}</li> <br />
                         </ul>
                       </div>
@@ -166,7 +169,9 @@ const ServiceDetails = () => {
                   <div className="row sercice-details-content pb--80 align-items-start">
                     <div className="col-lg-6 col-12 mt-2">
                       <div className="title">
-                        <h4 className={`${Styles.serviceDTitle} title`}>{t("hr_services_2_head")}</h4>
+                        <h4 className={`${Styles.serviceDTitle} title`}>
+                          {t("hr_services_2_head")}
+                        </h4>
                         <div className={`${Styles.serviceDdesc} mb-3`}>
                           {t("hr_services_2_desc")}
                         </div>
@@ -204,7 +209,9 @@ const ServiceDetails = () => {
                   </div>
                   <div className="col-lg-6 col-12 mt-2">
                     <div className="title">
-                      <h4 className={`${Styles.serviceDTitle} title`}>{t("hr_services_3_head")}</h4>
+                      <h4 className={`${Styles.serviceDTitle} title`}>
+                        {t("hr_services_3_head")}
+                      </h4>
                       <div className={`${Styles.serviceDdesc} mb-3`}>
                         {t("hr_services_3_desc")}
                       </div>

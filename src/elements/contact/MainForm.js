@@ -20,7 +20,7 @@ function MainForm({ props }) {
     });
 
     // function to handle input change request 
-    const handleInputChnage = (e) => {
+    const handleInputChange = (e) => {
         if (e && e.target) {
             const { name, value } = e.target;
             setFormData((prevData) => ({
@@ -28,7 +28,7 @@ function MainForm({ props }) {
                 [name]: value,
             }));
         }
-    };
+    }
 
     const sendEmail = async (e) => {
         e.preventDefault();
@@ -58,7 +58,7 @@ function MainForm({ props }) {
             );
 
         // Send a POST request using fetch
-        await fetch(`${process.env.PUBLIC_URL}/contact`, {
+        await fetch(`http://localhost:5000/api/contact/register-contact`, {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
@@ -80,7 +80,7 @@ function MainForm({ props }) {
 
     setTimeout(() => {
         showresult(false);
-    }, 5000);
+    }, 10000);
 
 
     const options = [
@@ -103,7 +103,7 @@ function MainForm({ props }) {
                     value={FormData.fname}
                     placeholder="Enter your first name"
                     required
-                    onChange={handleInputChnage}
+                    onChange={handleInputChange}
                 />
             </div>
             <div className="rn-form-group">
@@ -113,7 +113,7 @@ function MainForm({ props }) {
                     value={FormData.lname}
                     placeholder="Enter your lastname"
                     required
-                    onChange={handleInputChnage}
+                    onChange={handleInputChange}
                 />
             </div>
 
@@ -124,7 +124,7 @@ function MainForm({ props }) {
                     value={FormData.email}
                     placeholder="Enter your email address"
                     required
-                    onChange={handleInputChnage}
+                    onChange={handleInputChange}
                 />
             </div>
 
@@ -135,7 +135,7 @@ function MainForm({ props }) {
                     value={FormData.phone}
                     placeholder="Phone number with country code"
                     required
-                    onChange={handleInputChnage}
+                    onChange={handleInputChange}
                 />
             </div>
 
@@ -145,7 +145,7 @@ function MainForm({ props }) {
                     value={FormData.message}
                     placeholder="Enter your message"
                     required
-                    onChange={handleInputChnage}
+                    onChange={handleInputChange}
                 >
                 </textarea>
             </div>

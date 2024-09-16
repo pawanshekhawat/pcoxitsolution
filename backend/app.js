@@ -6,13 +6,16 @@ const AllRoutes = require('./routes/allRoutes');
 const app = express();
 
 // middlewares
-app.use(cors({ origin: true, credentials: true }));
+app.use(cors({
+    origin: 'http://localhost:3000',
+    credentials: true
+}));
 app.use(express.json());
 
 app.use("/api", AllRoutes);
 
 app.get('/', (req, res) => {
-    res.send('hello');
+    res.send('server is working');
 });
 
 module.exports = app;

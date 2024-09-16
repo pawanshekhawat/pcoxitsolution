@@ -67,7 +67,8 @@ const CloudBased = () => {
                 Cloud-Based Solutions
               </h1>
               <p className="text-white mb-8">
-                Tailored solutions for cloud infrastructure and services, enhancing your business agility.
+                Tailored solutions for cloud infrastructure and services,
+                enhancing your business agility.
               </p>
               <div className="d-flex justify-content-center mb-4">
                 <a
@@ -94,7 +95,8 @@ const CloudBased = () => {
                     1. Cloud Application Development
                   </h3>
                   <p>
-                    We design and build custom cloud applications that fit your business needs and drive growth.
+                    We design and build custom cloud applications that fit your
+                    business needs and drive growth.
                   </p>
                 </div>
               </div>
@@ -106,7 +108,8 @@ const CloudBased = () => {
                     2. Cloud Migration
                   </h3>
                   <p>
-                    Seamlessly migrate your existing systems and data to the cloud with minimal disruption.
+                    Seamlessly migrate your existing systems and data to the
+                    cloud with minimal disruption.
                   </p>
                 </div>
               </div>
@@ -118,7 +121,8 @@ const CloudBased = () => {
                     3. Cloud Integration
                   </h3>
                   <p>
-                    Integrate various cloud services and applications for a unified and efficient operation.
+                    Integrate various cloud services and applications for a
+                    unified and efficient operation.
                   </p>
                 </div>
               </div>
@@ -130,7 +134,8 @@ const CloudBased = () => {
                     4. Cloud Security
                   </h3>
                   <p>
-                    Implement robust security measures to protect your data and applications in the cloud.
+                    Implement robust security measures to protect your data and
+                    applications in the cloud.
                   </p>
                 </div>
               </div>
@@ -140,67 +145,27 @@ const CloudBased = () => {
           {/* Added section */}
           <div className="py-5">
             <h2 className="display-4 text-center mb-5">
-              Software Solutions We Provide
+              Cloud Technologies We Use
             </h2>
             <div className="row">
               <div className="col-6 col-md-4 col-lg-3 mb-4">
                 <div className={`${Styles.cardBtn2} p-3 rounded text-center`}>
-                  ERP Systems
+                  AWS
                 </div>
               </div>
               <div className="col-6 col-md-4 col-lg-3 mb-4">
                 <div className={`${Styles.cardBtn2} p-3 rounded text-center`}>
-                  CRM Software
+                  Microsoft Azure
                 </div>
               </div>
               <div className="col-6 col-md-4 col-lg-3 mb-4">
                 <div className={`${Styles.cardBtn2} p-3 rounded text-center`}>
-                  Project Management Tools
+                  Google Cloud
                 </div>
               </div>
               <div className="col-6 col-md-4 col-lg-3 mb-4">
                 <div className={`${Styles.cardBtn2} p-3 rounded text-center`}>
-                  HR Management Systems
-                </div>
-              </div>
-              <div className="col-6 col-md-4 col-lg-3 mb-4">
-                <div className={`${Styles.cardBtn2} p-3 rounded text-center`}>
-                  Cloud Computing Services
-                </div>
-              </div>
-              <div className="col-6 col-md-4 col-lg-3 mb-4">
-                <div className={`${Styles.cardBtn2} p-3 rounded text-center`}>
-                  Cybersecurity Solutions
-                </div>
-              </div>
-              <div className="col-6 col-md-4 col-lg-3 mb-4">
-                <div className={`${Styles.cardBtn2} p-3 rounded text-center`}>
-                  Collaboration Tools
-                </div>
-              </div>
-              <div className="col-6 col-md-4 col-lg-3 mb-4">
-                <div className={`${Styles.cardBtn2} p-3 rounded text-center`}>
-                  Data Analytics & BI
-                </div>
-              </div>
-              <div className="col-6 col-md-4 col-lg-3 mb-4">
-                <div className={`${Styles.cardBtn2} p-3 rounded text-center`}>
-                  DevOps Tools
-                </div>
-              </div>
-              <div className="col-6 col-md-4 col-lg-3 mb-4">
-                <div className={`${Styles.cardBtn2} p-3 rounded text-center`}>
-                  Financial Management
-                </div>
-              </div>
-              <div className="col-6 col-md-4 col-lg-3 mb-4">
-                <div className={`${Styles.cardBtn2} p-3 rounded text-center`}>
-                  E-Commerce Platforms
-                </div>
-              </div>
-              <div className="col-6 col-md-4 col-lg-3 mb-4">
-                <div className={`${Styles.cardBtn2} p-3 rounded text-center`}>
-                  Helpdesk Solutions
+                  Cloudflare
                 </div>
               </div>
             </div>
@@ -211,7 +176,8 @@ const CloudBased = () => {
               Ready to Transform Your Business?
             </h2>
             <p className="mb-5">
-              Let’s discuss how our cloud-based solutions can drive your success.
+              Let’s discuss how our cloud-based solutions can drive your
+              success.
             </p>
             <a
               href="/contact"

@@ -71,7 +71,7 @@ const MainContact = () => {
 
       {/* Start Breadcrump Aresa */}
       <HeaderThree homeLink="/" logo="symbol-dark" color="color-dark" />
-      <div className="rn-contact-top-area ptb--120 bg_color--5">
+      <div className="breadcrumb-area rn-bg-color ptb--120 bg_image bg_image--1">
         <div className="container">
           <div className="row">
             {/* Start Single Address  */}

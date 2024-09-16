@@ -146,67 +146,27 @@ const SoftDev = () => {
 
           <div className="py-5">
             <h2 className="display-4 text-center mb-5">
-              Software Solutions We Provide
+              Maintenance Tools We Use
             </h2>
             <div className="row">
               <div className="col-6 col-md-4 col-lg-3 mb-4">
                 <div className={`${Styles.cardBtn2} p-3 rounded text-center`}>
-                  ERP Systems
+                  Jira
                 </div>
               </div>
               <div className="col-6 col-md-4 col-lg-3 mb-4">
                 <div className={`${Styles.cardBtn2} p-3 rounded text-center`}>
-                  CRM Software
+                  New Relic
                 </div>
               </div>
               <div className="col-6 col-md-4 col-lg-3 mb-4">
                 <div className={`${Styles.cardBtn2} p-3 rounded text-center`}>
-                  Project Management Tools
+                  GitHub Issues
                 </div>
               </div>
               <div className="col-6 col-md-4 col-lg-3 mb-4">
                 <div className={`${Styles.cardBtn2} p-3 rounded text-center`}>
-                  HR Management Systems
-                </div>
-              </div>
-              <div className="col-6 col-md-4 col-lg-3 mb-4">
-                <div className={`${Styles.cardBtn2} p-3 rounded text-center`}>
-                  Cloud Computing Services
-                </div>
-              </div>
-              <div className="col-6 col-md-4 col-lg-3 mb-4">
-                <div className={`${Styles.cardBtn2} p-3 rounded text-center`}>
-                  Cybersecurity Solutions
-                </div>
-              </div>
-              <div className="col-6 col-md-4 col-lg-3 mb-4">
-                <div className={`${Styles.cardBtn2} p-3 rounded text-center`}>
-                  Collaboration Tools
-                </div>
-              </div>
-              <div className="col-6 col-md-4 col-lg-3 mb-4">
-                <div className={`${Styles.cardBtn2} p-3 rounded text-center`}>
-                  Data Analytics & BI
-                </div>
-              </div>
-              <div className="col-6 col-md-4 col-lg-3 mb-4">
-                <div className={`${Styles.cardBtn2} p-3 rounded text-center`}>
-                  DevOps Tools
-                </div>
-              </div>
-              <div className="col-6 col-md-4 col-lg-3 mb-4">
-                <div className={`${Styles.cardBtn2} p-3 rounded text-center`}>
-                  Financial Management
-                </div>
-              </div>
-              <div className="col-6 col-md-4 col-lg-3 mb-4">
-                <div className={`${Styles.cardBtn2} p-3 rounded text-center`}>
-                  E-Commerce Platforms
-                </div>
-              </div>
-              <div className="col-6 col-md-4 col-lg-3 mb-4">
-                <div className={`${Styles.cardBtn2} p-3 rounded text-center`}>
-                  Helpdesk Solutions
+                  Sentry
                 </div>
               </div>
             </div>

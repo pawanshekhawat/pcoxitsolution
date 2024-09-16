@@ -61,7 +61,8 @@ const SoftDev = () => {
                 Software Integration
               </h1>
               <p className="text-white mb-8">
-                Our software integration services help you connect various systems and applications to streamline your operations.
+                Our software integration services help you connect various
+                systems and applications to streamline your operations.
               </p>
               <div className="d-flex justify-content-center mb-4">
                 <a
@@ -88,7 +89,9 @@ const SoftDev = () => {
                     1. System Analysis
                   </h3>
                   <p>
-                    We analyze your existing systems to identify integration points and requirements, designing solutions that meet your specific needs.
+                    We analyze your existing systems to identify integration
+                    points and requirements, designing solutions that meet your
+                    specific needs.
                   </p>
                 </div>
               </div>
@@ -100,7 +103,9 @@ const SoftDev = () => {
                     2. Middleware Development
                   </h3>
                   <p>
-                    We create middleware solutions that facilitate communication between disparate systems, ensuring smooth data exchange and system interoperability.
+                    We create middleware solutions that facilitate communication
+                    between disparate systems, ensuring smooth data exchange and
+                    system interoperability.
                   </p>
                 </div>
               </div>
@@ -112,7 +117,9 @@ const SoftDev = () => {
                     3. Data Migration
                   </h3>
                   <p>
-                    We manage the migration of your data between systems, ensuring accuracy and integrity while minimizing disruption to your business.
+                    We manage the migration of your data between systems,
+                    ensuring accuracy and integrity while minimizing disruption
+                    to your business.
                   </p>
                 </div>
               </div>
@@ -124,7 +131,9 @@ const SoftDev = () => {
                     4. Integration Testing
                   </h3>
                   <p>
-                    We conduct thorough testing to ensure that integrated systems function correctly and efficiently, meeting your performance and reliability standards.
+                    We conduct thorough testing to ensure that integrated
+                    systems function correctly and efficiently, meeting your
+                    performance and reliability standards.
                   </p>
                 </div>
               </div>
@@ -132,68 +141,31 @@ const SoftDev = () => {
           </div>
 
           <div className="py-5">
-            <h2 className="display-4 text-center mb-5">
-              Software Solutions We Provide
-            </h2>
+            <h2 className="display-4 text-center mb-5">What We Integrate</h2>
             <div className="row">
               <div className="col-6 col-md-4 col-lg-3 mb-4">
                 <div className={`${Styles.cardBtn2} p-3 rounded text-center`}>
-                  ERP Systems
+                  REST APIs
                 </div>
               </div>
               <div className="col-6 col-md-4 col-lg-3 mb-4">
                 <div className={`${Styles.cardBtn2} p-3 rounded text-center`}>
-                  CRM Software
+                  SOAP APIs
                 </div>
               </div>
               <div className="col-6 col-md-4 col-lg-3 mb-4">
                 <div className={`${Styles.cardBtn2} p-3 rounded text-center`}>
-                  Project Management Tools
+                  OAuth 2.0
                 </div>
               </div>
               <div className="col-6 col-md-4 col-lg-3 mb-4">
                 <div className={`${Styles.cardBtn2} p-3 rounded text-center`}>
-                  HR Management Systems
+                  GraphQL
                 </div>
               </div>
               <div className="col-6 col-md-4 col-lg-3 mb-4">
                 <div className={`${Styles.cardBtn2} p-3 rounded text-center`}>
-                  Cloud Computing Services
-                </div>
-              </div>
-              <div className="col-6 col-md-4 col-lg-3 mb-4">
-                <div className={`${Styles.cardBtn2} p-3 rounded text-center`}>
-                  Cybersecurity Solutions
-                </div>
-              </div>
-              <div className="col-6 col-md-4 col-lg-3 mb-4">
-                <div className={`${Styles.cardBtn2} p-3 rounded text-center`}>
-                  Collaboration Tools
-                </div>
-              </div>
-              <div className="col-6 col-md-4 col-lg-3 mb-4">
-                <div className={`${Styles.cardBtn2} p-3 rounded text-center`}>
-                  Data Analytics & BI
-                </div>
-              </div>
-              <div className="col-6 col-md-4 col-lg-3 mb-4">
-                <div className={`${Styles.cardBtn2} p-3 rounded text-center`}>
-                  DevOps Tools
-                </div>
-              </div>
-              <div className="col-6 col-md-4 col-lg-3 mb-4">
-                <div className={`${Styles.cardBtn2} p-3 rounded text-center`}>
-                  Financial Management
-                </div>
-              </div>
-              <div className="col-6 col-md-4 col-lg-3 mb-4">
-                <div className={`${Styles.cardBtn2} p-3 rounded text-center`}>
-                  E-Commerce Platforms
-                </div>
-              </div>
-              <div className="col-6 col-md-4 col-lg-3 mb-4">
-                <div className={`${Styles.cardBtn2} p-3 rounded text-center`}>
-                  Helpdesk Solutions
+                  Zapier
                 </div>
               </div>
             </div>

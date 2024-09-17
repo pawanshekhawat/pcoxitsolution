@@ -6,12 +6,7 @@ import Toggle from "../../component/Toggle/Toggle";
 import ScrollToTop from "react-scroll-up";
 import { FiChevronUp } from "react-icons/fi";
 import Styles from "../../../public/assets/css/custom.module.css";
-import SDBredCrmb from "../../../public/assets/images/service/breadcrumbSD.jpg";
-import WDBredCrmb from "../../../public/assets/images/service/breadcrumbWD.jpg";
-import MDBredCrmb from "../../../public/assets/images/service/breadcrumbMD.jpg";
 import SISBredCrmb from "../../../public/assets/images/service/breadcrumbSIS.jpg";
-import CCSBredCrmb from "../../../public/assets/images/service/breadcrumbCCS.jpg";
-import SMBredCrmb from "../../../public/assets/images/service/breadcrumbSM.jpg";
 
 import { useTranslation } from "react-i18next";
 
@@ -22,12 +17,7 @@ const SoftDev = () => {
   const pageTitle = "Software Integration Solutions";
 
   const backgroundImages = {
-    "Software Development": SDBredCrmb,
-    "Web Application Development": WDBredCrmb,
-    "Mobile App Development": MDBredCrmb,
     "Software Integration Solutions": SISBredCrmb,
-    "Cloud-Based Solutions": CCSBredCrmb,
-    "Software Maintenance": SMBredCrmb,
   };
 
   const backgroundImage = backgroundImages[pageTitle] || "none";
@@ -56,18 +46,15 @@ const SoftDev = () => {
               className="d-flex flex-column align-items-center justify-content-center text-dark text-center"
             >
               <h1 className="display-4 text-white font-weight-bold mb-4 mx-auto">
-                Software Integration
+                {t("sis_dev_1_head")}
               </h1>
-              <p className="text-white mb-8">
-                Our software integration services help you connect various
-                systems and applications to streamline your operations.
-              </p>
+              <p className="text-white mb-8">{t("sis_main_desc")}</p>
               <div className="d-flex justify-content-center mb-4">
                 <a
                   href="#redirect"
                   className={`${Styles.getStBtn} btn px-4 py-2 mt-3 rounded text-white`}
                 >
-                  Get Started
+                  {t("get_started")}
                 </a>
               </div>
             </div>
@@ -76,7 +63,7 @@ const SoftDev = () => {
         <div className="container pt--120">
           <div className="bg_color--1 py-5">
             <h2 className="display-4 text-center font-weight-normal mb-5">
-              Our Integration Process
+              {t("sis_process1_main_title")}
             </h2>
             <div className="row mx-auto">
               <div className="col-md-6 col-lg-6 mb-4">
@@ -84,13 +71,9 @@ const SoftDev = () => {
                   className={`${Styles.DevProg} p-4 bg_color--5 rounded shadow-sm`}
                 >
                   <h3 className="h3 font-weight-bold serviceProcHead">
-                    1. System Analysis
+                    {t("sis_process1_1_title")}
                   </h3>
-                  <p>
-                    We analyze your existing systems to identify integration
-                    points and requirements, designing solutions that meet your
-                    specific needs.
-                  </p>
+                  <p>{t("sis_process1_1_desc")}</p>
                 </div>
               </div>
               <div className="col-md-6 col-lg-6 mb-4">
@@ -98,13 +81,9 @@ const SoftDev = () => {
                   className={`${Styles.DevProg} p-4 bg_color--5 rounded shadow-sm`}
                 >
                   <h3 className="h3 font-weight-bold serviceProcHead">
-                    2. Middleware Development
+                    {t("sis_process1_2_title")}
                   </h3>
-                  <p>
-                    We create middleware solutions that facilitate communication
-                    between disparate systems, ensuring smooth data exchange and
-                    system interoperability.
-                  </p>
+                  <p>{t("sis_process1_2_desc")}</p>
                 </div>
               </div>
               <div className="col-md-6 col-lg-6 mb-4">
@@ -112,13 +91,9 @@ const SoftDev = () => {
                   className={`${Styles.DevProg} p-4 bg_color--5 rounded shadow-sm`}
                 >
                   <h3 className="h3 font-weight-bold serviceProcHead">
-                    3. Data Migration
+                    {t("sis_process1_3_title")}
                   </h3>
-                  <p>
-                    We manage the migration of your data between systems,
-                    ensuring accuracy and integrity while minimizing disruption
-                    to your business.
-                  </p>
+                  <p>{t("sis_process1_3_desc")}</p>
                 </div>
               </div>
               <div className="col-md-6 col-lg-6 mb-4">
@@ -126,61 +101,55 @@ const SoftDev = () => {
                   className={`${Styles.DevProg} p-4 bg_color--5 rounded shadow-sm`}
                 >
                   <h3 className="h3 font-weight-bold serviceProcHead">
-                    4. Integration Testing
+                    {t("sis_process1_4_title")}
                   </h3>
-                  <p>
-                    We conduct thorough testing to ensure that integrated
-                    systems function correctly and efficiently, meeting your
-                    performance and reliability standards.
-                  </p>
+                  <p>{t("sis_process1_4_desc")}</p>
                 </div>
               </div>
             </div>
           </div>
 
           <div className="py-5">
-            <h2 className="display-4 text-center mb-5">What We Integrate</h2>
+            <h2 className="display-4 text-center mb-5">
+              {t("sis_solution1_title")}
+            </h2>
             <div className="row">
               <div className="col-6 col-md-4 col-lg-3 mb-4">
                 <div className={`${Styles.cardBtn2} p-3 rounded text-center`}>
-                  REST APIs
+                  {t("sis_solution1_1")}
                 </div>
               </div>
               <div className="col-6 col-md-4 col-lg-3 mb-4">
                 <div className={`${Styles.cardBtn2} p-3 rounded text-center`}>
-                  SOAP APIs
+                  {t("sis_solution1_2")}
                 </div>
               </div>
               <div className="col-6 col-md-4 col-lg-3 mb-4">
                 <div className={`${Styles.cardBtn2} p-3 rounded text-center`}>
-                  OAuth 2.0
+                  {t("sis_solution1_3")}
                 </div>
               </div>
               <div className="col-6 col-md-4 col-lg-3 mb-4">
                 <div className={`${Styles.cardBtn2} p-3 rounded text-center`}>
-                  GraphQL
+                  {t("sis_solution1_4")}
                 </div>
               </div>
               <div className="col-6 col-md-4 col-lg-3 mb-4">
                 <div className={`${Styles.cardBtn2} p-3 rounded text-center`}>
-                  Zapier
+                  {t("sis_solution1_5")}
                 </div>
               </div>
             </div>
           </div>
 
           <div className="py-5 text-center">
-            <h2 className="display-4 mb-4">
-              Ready to Transform Your Business?
-            </h2>
-            <p className=" mb-5">
-              Let’s discuss how our software solutions can drive your success.
-            </p>
+            <h2 className="display-4 mb-4">{t("contact_us_bottom_title")}</h2>
+            <p className=" mb-5">{t("contact_us_bottom_desc")}</p>
             <a
               href="/contact"
               className="btn blog-btn rn-btn px-5 h3 font-weight-bold"
             >
-              Contact Us
+              {t("contact_us_bottom_btn")}
             </a>
           </div>
         </div>

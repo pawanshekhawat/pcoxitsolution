@@ -28,11 +28,11 @@ const SeoService = () => {
 
   const backgroundImage = backgroundImages[pageTitle] || "none";
 
-  return (
+  return  (
     <div className={isDark ? "active-dark" : "active-light"}>
-      {/* Start Pagehelmet */}
+      {/* Start PageHelmet */}
       <PageHelmet pageTitle={pageTitle} />
-      {/* End Pagehelmet */}
+      {/* End PageHelmet */}
 
       <HeaderThree homeLink="/" logo="symbol-dark" color="color-black" />
       <div className="bg_color--1">
@@ -52,18 +52,17 @@ const SeoService = () => {
               className="d-flex flex-column align-items-center justify-content-center text-dark text-center"
             >
               <h1 className="display-4 text-white font-weight-bold mb-4 mx-auto">
-                Search Engine Optimization (SEO)
+                {t("seo_dev_1_head")}
               </h1>
               <p className="text-white mb-8">
-                We use a data-driven approach to enhance your online presence
-                and drive organic traffic.
+                {t("seo_main_desc")}
               </p>
               <div className="d-flex justify-content-center mb-4">
                 <a
                   href="#redirect"
                   className={`${Styles.getStBtn} btn px-4 py-2 mt-3 rounded text-white`}
                 >
-                  Get Started
+                  {t("get_started")}
                 </a>
               </div>
             </div>
@@ -72,7 +71,7 @@ const SeoService = () => {
         <div className="container pt--120">
           <div className="bg_color--1 py-5">
             <h2 className="display-4 text-center font-weight-normal mb-5">
-              Our SEO Strategy
+              {t("seo_process1_main_title")}
             </h2>
             <div className="row mx-auto">
               <div className="col-md-6 col-lg-6 mb-4">
@@ -80,13 +79,9 @@ const SeoService = () => {
                   className={`${Styles.DevProg} p-4 bg_color--5 rounded shadow-sm`}
                 >
                   <h3 className="h3 font-weight-bold serviceProcHead">
-                    1. Keyword Research
+                    {t("seo_process1_1_title")}
                   </h3>
-                  <p>
-                    We conduct thorough keyword research to identify the most
-                    relevant and high-traffic keywords for your business,
-                    optimizing your content for better search engine rankings.
-                  </p>
+                  <p>{t("seo_process1_1_desc")}</p>
                 </div>
               </div>
               <div className="col-md-6 col-lg-6 mb-4">
@@ -94,13 +89,9 @@ const SeoService = () => {
                   className={`${Styles.DevProg} p-4 bg_color--5 rounded shadow-sm`}
                 >
                   <h3 className="h3 font-weight-bold serviceProcHead">
-                    2. On-Page Optimization
+                    {t("seo_process1_2_title")}
                   </h3>
-                  <p>
-                    Our team optimizes your website's structure, meta tags, and
-                    content to ensure that it is search engine-friendly and
-                    delivers a superior user experience.
-                  </p>
+                  <p>{t("seo_process1_2_desc")}</p>
                 </div>
               </div>
               <div className="col-md-6 col-lg-6 mb-4">
@@ -108,13 +99,9 @@ const SeoService = () => {
                   className={`${Styles.DevProg} p-4 bg_color--5 rounded shadow-sm`}
                 >
                   <h3 className="h3 font-weight-bold serviceProcHead">
-                    3. Link Building
+                    {t("seo_process1_3_title")}
                   </h3>
-                  <p>
-                    We develop a strategic link-building campaign to increase
-                    your website's authority and credibility, improving your
-                    chances of ranking higher in search results.
-                  </p>
+                  <p>{t("seo_process1_3_desc")}</p>
                 </div>
               </div>
 
@@ -123,44 +110,42 @@ const SeoService = () => {
                   className={`${Styles.DevProg} p-4 bg_color--5 rounded shadow-sm`}
                 >
                   <h3 className="h3 font-weight-bold serviceProcHead">
-                    4. Performance Tracking
+                    {t("seo_process1_4_title")}
                   </h3>
-                  <p>
-                    We continuously monitor your SEO performance, using
-                    analytics to track progress, identify areas for improvement,
-                    and adjust strategies as needed.
-                  </p>
+                  <p>{t("seo_process1_4_desc")}</p>
                 </div>
               </div>
             </div>
           </div>
 
           <div className="py-5">
-            <h2 className="display-4 text-center mb-5">SEO Tools We Use</h2>
+            <h2 className="display-4 text-center mb-5">
+              {t("seo_solution1_title")}
+            </h2>
             <div className="row">
               <div className="col-6 col-md-4 col-lg-3 mb-4">
                 <div className={`${Styles.cardBtn2} p-3 rounded text-center`}>
-                  Google Analytics
+                  {t("seo_solution1_1")}
                 </div>
               </div>
               <div className="col-6 col-md-4 col-lg-3 mb-4">
                 <div className={`${Styles.cardBtn2} p-3 rounded text-center`}>
-                  Ahrefs
+                  {t("seo_solution1_2")}
                 </div>
               </div>
               <div className="col-6 col-md-4 col-lg-3 mb-4">
                 <div className={`${Styles.cardBtn2} p-3 rounded text-center`}>
-                  SEMrush
+                  {t("seo_solution1_3")}
                 </div>
               </div>
               <div className="col-6 col-md-4 col-lg-3 mb-4">
                 <div className={`${Styles.cardBtn2} p-3 rounded text-center`}>
-                  Yoast SEO
+                  {t("seo_solution1_4")}
                 </div>
               </div>
               <div className="col-6 col-md-4 col-lg-3 mb-4">
                 <div className={`${Styles.cardBtn2} p-3 rounded text-center`}>
-                  Google Search Console
+                  {t("seo_solution1_5")}
                 </div>
               </div>
             </div>
@@ -170,16 +155,14 @@ const SeoService = () => {
 
       <div className="py-5 text-center bg_color--1">
         <h2 className="display-4 mb-4">
-          Ready to Improve Your Search Rankings?
+          {t("contact_us_bottom_title")}
         </h2>
-        <p className="mb-5">
-          Let’s discuss how our SEO services can boost your online presence.
-        </p>
+        <p className="mb-5">{t("contact_us_bottom_desc")}</p>
         <a
           href="/contact"
           className="btn blog-btn rn-btn px-5 h3 font-weight-bold"
         >
-          Contact Us
+          {t("contact_us_bottom_btn")}
         </a>
       </div>
 

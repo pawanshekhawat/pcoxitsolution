@@ -6,12 +6,7 @@ import Toggle from "../../component/Toggle/Toggle";
 import ScrollToTop from "react-scroll-up";
 import { FiChevronUp } from "react-icons/fi";
 import Styles from "../../../public/assets/css/custom.module.css";
-import SDBredCrmb from "../../../public/assets/images/service/breadcrumbSD.jpg";
-import WDBredCrmb from "../../../public/assets/images/service/breadcrumbWD.jpg";
 import MDBredCrmb from "../../../public/assets/images/service/breadcrumbMD.jpg";
-import SISBredCrmb from "../../../public/assets/images/service/breadcrumbSIS.jpg";
-import CCSBredCrmb from "../../../public/assets/images/service/breadcrumbCCS.jpg";
-import SMBredCrmb from "../../../public/assets/images/service/breadcrumbSM.jpg";
 
 import { useTranslation } from "react-i18next";
 
@@ -28,12 +23,7 @@ const MobApp = () => {
   const pageTitle = "Mobile App Development";
 
   const backgroundImages = {
-    "Software Development": SDBredCrmb,
-    "Web Application Development": WDBredCrmb,
     "Mobile App Development": MDBredCrmb,
-    "Software Integration Solutions": SISBredCrmb,
-    "Cloud-Based Solutions": CCSBredCrmb,
-    "Software Maintenance": SMBredCrmb,
   };
 
   // Default to no background image if the pageTitle doesn't match
@@ -50,7 +40,7 @@ const MobApp = () => {
         <div
           style={{
             height: "600px",
-            backgroundImage: `url(${backgroundImage})`, // Use the background image
+            backgroundImage: `url(${backgroundImage})`,
             backgroundSize: "cover",
             backgroundPosition: "center",
           }}
@@ -179,18 +169,13 @@ const MobApp = () => {
           </div>
 
           <div className="py-5 text-center">
-            <h2 className="display-4 mb-4">
-              Ready to Transform Your Business?
-            </h2>
-            <p className=" mb-5">
-              Let’s discuss how our mobile app development services can drive
-              your success.
-            </p>
+            <h2 className="display-4 mb-4">{t("contact_us_bottom_title")}</h2>
+            <p className=" mb-5">{t("contact_us_bottom_desc")}</p>
             <a
               href="/contact"
               className="btn blog-btn rn-btn px-5 h3 font-weight-bold"
             >
-              Contact Us
+              {t("contact_us_bottom_btn")}
             </a>
           </div>
         </div>

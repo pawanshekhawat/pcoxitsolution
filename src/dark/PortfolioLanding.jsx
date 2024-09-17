@@ -83,17 +83,14 @@ const PortfolioLanding = () => {
                                 <div className="row">
                                     <div className="col-lg-12">
                                         <div className={`inner ${value.textPosition}`}>
-                                            {value.category ? <span className={`${Styles.homePageHeroTitles} title`}>{value.category}</span> : ''}
-                                            <h1 className={`${Styles.homePageHeroTitles} title`}>Empowering Your Digital Journey <br />
+                                            {value.category ? <span className={`${Styles.homePageHeroTitles} title`}>{t('home_hero_sec_desc')}</span> : ''}
+                                            <h1 className={`${Styles.homePageHeroTitles} title`}> {t('home_hero_sec_title')} <br />
                                                 <TextLoop>
-                                                    <span> Software Development.</span>
-                                                    <span> Digital Marketing.</span>
-                                                    <span> Import-Export Services &<br /> Logistics Solutions</span>
-                                                </TextLoop>{" "}
+                                                    <span>{t('home_hero_sec_loop1')  ? t('home_hero_sec_loop1') : " " }</span>
+                                                    <span>{t('home_hero_sec_loop2')}</span>
+                                                    <span>{t('home_hero_sec_loop3_1')} <br /> {t('home_hero_sec_loop3_2')} </span>
+                                                </TextLoop>
                                             </h1>
-                                            {/* <h2>based in USA.</h2> */}
-                                            {/* {value.description ? <p className="description">{value.description}</p> : ''}
-                                            {value.buttonText ? <div className="slide-btn"><a className="rn-button-style--2 btn-primary-color" href={`${value.buttonLink}`}>{value.buttonText}</a></div> : ''} */}
                                         </div>
                                     </div>
                                 </div>

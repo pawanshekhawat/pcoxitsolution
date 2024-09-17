@@ -52,12 +52,10 @@ const SocialService = () => {
               className="d-flex flex-column align-items-center justify-content-center text-dark text-center"
             >
               <h1 className="display-4 text-white font-weight-bold mb-4 mx-auto">
-                Social Media Marketing
+                {t("social_media_marketing_head")}
               </h1>
               <p className="text-white mb-8">
-                Our social media marketing services help you build a strong
-                online presence and engage with your audience across various
-                social media platforms.
+                {t("social_media_marketing_main_desc")}
               </p>
               <div className="d-flex justify-content-center mb-4">
                 <a
@@ -73,7 +71,7 @@ const SocialService = () => {
         <div className="container pt--120">
           <div className="bg_color--1 py-5">
             <h2 className="display-4 text-center font-weight-normal mb-5">
-              Our Social Media Marketing Strategy
+              {t("social_media_marketing_process1_main_title")}
             </h2>
             <div className="row mx-auto">
               <div className="col-md-6 col-lg-6 mb-4">
@@ -81,13 +79,9 @@ const SocialService = () => {
                   className={`${Styles.DevProg} p-4 bg_color--5 rounded shadow-sm`}
                 >
                   <h3 className="h3 font-weight-bold serviceProcHead">
-                    1. Social Media Strategy
+                    {t("social_media_marketing_process1_1_title")}
                   </h3>
-                  <p>
-                    We develop tailored social media strategies to meet your
-                    business objectives, including content planning, audience
-                    targeting, and platform selection.
-                  </p>
+                  <p>{t("social_media_marketing_process1_1_desc")}</p>
                 </div>
               </div>
               <div className="col-md-6 col-lg-6 mb-4">
@@ -95,13 +89,9 @@ const SocialService = () => {
                   className={`${Styles.DevProg} p-4 bg_color--5 rounded shadow-sm`}
                 >
                   <h3 className="h3 font-weight-bold serviceProcHead">
-                    2. Content Creation
+                    {t("social_media_marketing_process1_2_title")}
                   </h3>
-                  <p>
-                    Our team produces engaging and relevant social media
-                    content, including posts, images, and videos, to attract and
-                    retain your audience’s attention.
-                  </p>
+                  <p>{t("social_media_marketing_process1_2_desc")}</p>
                 </div>
               </div>
               <div className="col-md-6 col-lg-6 mb-4">
@@ -109,13 +99,9 @@ const SocialService = () => {
                   className={`${Styles.DevProg} p-4 bg_color--5 rounded shadow-sm`}
                 >
                   <h3 className="h3 font-weight-bold serviceProcHead">
-                    3. Community Management
+                    {t("social_media_marketing_process1_3_title")}
                   </h3>
-                  <p>
-                    We manage your social media profiles, interact with your
-                    audience, and address any questions or comments to build a
-                    strong and positive online community.
-                  </p>
+                  <p>{t("social_media_marketing_process1_3_desc")}</p>
                 </div>
               </div>
 
@@ -124,13 +110,9 @@ const SocialService = () => {
                   className={`${Styles.DevProg} p-4 bg_color--5 rounded shadow-sm`}
                 >
                   <h3 className="h3 font-weight-bold serviceProcHead">
-                    4. Analytics and Reporting
+                    {t("social_media_marketing_process1_4_title")}
                   </h3>
-                  <p>
-                    We track social media performance using analytics tools,
-                    providing regular reports and insights to measure the
-                    effectiveness of our strategies.
-                  </p>
+                  <p>{t("social_media_marketing_process1_4_desc")}</p>
                 </div>
               </div>
             </div>
@@ -138,32 +120,32 @@ const SocialService = () => {
 
           <div className="py-5">
             <h2 className="display-4 text-center mb-5">
-              Social Media Platforms We Manage
+              {t("social_media_marketing_solution1_title")}
             </h2>
             <div className="row">
               <div className="col-6 col-md-4 col-lg-3 mb-4">
                 <div className={`${Styles.cardBtn2} p-3 rounded text-center`}>
-                  Facebook
+                  {t("social_media_marketing_solution1_1")}
                 </div>
               </div>
               <div className="col-6 col-md-4 col-lg-3 mb-4">
                 <div className={`${Styles.cardBtn2} p-3 rounded text-center`}>
-                  Instagram
+                  {t("social_media_marketing_solution1_2")}
                 </div>
               </div>
               <div className="col-6 col-md-4 col-lg-3 mb-4">
                 <div className={`${Styles.cardBtn2} p-3 rounded text-center`}>
-                  LinkedIn
+                  {t("social_media_marketing_solution1_3")}
                 </div>
               </div>
               <div className="col-6 col-md-4 col-lg-3 mb-4">
                 <div className={`${Styles.cardBtn2} p-3 rounded text-center`}>
-                  Twitter
+                  {t("social_media_marketing_solution1_4")}
                 </div>
               </div>
               <div className="col-6 col-md-4 col-lg-3 mb-4">
                 <div className={`${Styles.cardBtn2} p-3 rounded text-center`}>
-                  YouTube
+                  {t("social_media_marketing_solution1_5")}
                 </div>
               </div>
             </div>
@@ -172,16 +154,13 @@ const SocialService = () => {
       </div>
 
       <div className="py-5 text-center bg_color--1">
-        <h2 className="display-4 mb-4">Ready to Elevate Your Social Media?</h2>
-        <p className="mb-5">
-          Let’s discuss how our social media marketing services can boost your
-          online presence.
-        </p>
+        <h2 className="display-4 mb-4">{t("contact_us_bottom_title")}</h2>
+        <p className="mb-5">{t("contact_us_bottom_desc")}</p>
         <a
           href="/contact"
           className="btn blog-btn rn-btn px-5 h3 font-weight-bold"
         >
-          Contact Us
+          {t("contact_us_bottom_btn")}
         </a>
       </div>
 

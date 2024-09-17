@@ -6,12 +6,7 @@ import Toggle from "../../component/Toggle/Toggle";
 import ScrollToTop from "react-scroll-up";
 import { FiChevronUp } from "react-icons/fi";
 import Styles from "../../../public/assets/css/custom.module.css";
-import SDBredCrmb from "../../../public/assets/images/service/breadcrumbSD.jpg";
 import WDBredCrmb from "../../../public/assets/images/service/breadcrumbWD.jpg";
-import MDBredCrmb from "../../../public/assets/images/service/breadcrumbMD.jpg";
-import SISBredCrmb from "../../../public/assets/images/service/breadcrumbSIS.jpg";
-import CCSBredCrmb from "../../../public/assets/images/service/breadcrumbCCS.jpg";
-import SMBredCrmb from "../../../public/assets/images/service/breadcrumbSM.jpg";
 
 import { useTranslation } from "react-i18next";
 
@@ -28,12 +23,7 @@ const WebApp = () => {
   const pageTitle = "Web Application Development";
 
   const backgroundImages = {
-    "Software Development": SDBredCrmb,
     "Web Application Development": WDBredCrmb,
-    "Mobile App Development": MDBredCrmb,
-    "Software Integration Solutions": SISBredCrmb,
-    "Cloud-Based Solutions": CCSBredCrmb,
-    "Software Maintenance": SMBredCrmb,
   };
 
   // Default to no background image if the pageTitle doesn't match
@@ -63,18 +53,15 @@ const WebApp = () => {
               className="d-flex flex-column align-items-center justify-content-center text-dark text-center"
             >
               <h1 className="display-4 text-white font-weight-bold mb-4 mx-auto">
-                Web Application Development
+                {t("web_dev_1_head")}
               </h1>
-              <p className="text-white mb-8">
-                We use the latest technologies to build applications that are
-                both functional and user-friendly.
-              </p>
+              <p className="text-white mb-8">{t("wd_main_desc")}</p>
               <div className="d-flex justify-content-center mb-4">
                 <a
                   href="#redirect"
                   className={`${Styles.getStBtn} btn px-4 py-2 mt-3 rounded text-white`}
                 >
-                  Get Started
+                  {t("get_started")}
                 </a>
               </div>
             </div>
@@ -83,7 +70,7 @@ const WebApp = () => {
         <div className="container pt--120">
           <div className="bg_color--1 py-5">
             <h2 className="display-4 text-center font-weight-normal mb-5">
-              Our Development Process
+              {t("wd_process1_main_title")}
             </h2>
             <div className="row mx-auto">
               <div className="col-md-6 col-lg-6 mb-4">
@@ -91,13 +78,9 @@ const WebApp = () => {
                   className={`${Styles.DevProg} p-4 bg_color--5 rounded shadow-sm`}
                 >
                   <h3 className="h3 font-weight-bold serviceProcHead">
-                    1. Front-End Development
+                    {t("wd_process1_1_title")}
                   </h3>
-                  <p>
-                    We design and develop intuitive and responsive user
-                    interfaces to provide a seamless user experience across all
-                    devices.
-                  </p>
+                  <p>{t("wd_process1_1_desc")}</p>
                 </div>
               </div>
               <div className="col-md-6 col-lg-6 mb-4">
@@ -105,13 +88,9 @@ const WebApp = () => {
                   className={`${Styles.DevProg} p-4 bg_color--5 rounded shadow-sm`}
                 >
                   <h3 className="h3 font-weight-bold serviceProcHead">
-                    2. Back-End Development
+                    {t("wd_process1_2_title")}
                   </h3>
-                  <p>
-                    Our team builds robust server-side systems that handle data
-                    processing and integration efficiently, ensuring a reliable
-                    and scalable application.
-                  </p>
+                  <p>{t("wd_process1_2_desc")}</p>
                 </div>
               </div>
               <div className="col-md-6 col-lg-6 mb-4">
@@ -119,13 +98,9 @@ const WebApp = () => {
                   className={`${Styles.DevProg} p-4 bg_color--5 rounded shadow-sm`}
                 >
                   <h3 className="h3 font-weight-bold serviceProcHead">
-                    3. Database Design and Management
+                    {t("wd_process1_3_title")}
                   </h3>
-                  <p>
-                    We implement secure and efficient databases to support your
-                    web application's data storage and retrieval needs, ensuring
-                    high performance and reliability.
-                  </p>
+                  <p>{t("wd_process1_3_desc")}</p>
                 </div>
               </div>
 
@@ -134,79 +109,77 @@ const WebApp = () => {
                   className={`${Styles.DevProg} p-4 bg_color--5 rounded shadow-sm`}
                 >
                   <h3 className="h3 font-weight-bold serviceProcHead">
-                    4. API Development
+                    {t("wd_process1_4_title")}
                   </h3>
-                  <p>
-                    We create and integrate APIs to facilitate communication
-                    between your web application and other services, ensuring
-                    smooth and efficient data exchange.
-                  </p>
+                  <p>{t("wd_process1_4_desc")}</p>
                 </div>
               </div>
             </div>
           </div>
 
           <div className="py-5">
-            <h2 className="display-4 text-center mb-5">Technologies We Use</h2>
+            <h2 className="display-4 text-center mb-5">
+              {t("wd_solution1_title")}
+            </h2>
             <div className="row">
               <div className="col-6 col-md-4 col-lg-3 mb-4">
                 <div className={`${Styles.cardBtn2} p-3 rounded text-center`}>
-                  React
+                  {t("wd_solution1_1")}
                 </div>
               </div>
               <div className="col-6 col-md-4 col-lg-3 mb-4">
                 <div className={`${Styles.cardBtn2} p-3 rounded text-center`}>
-                  Angular
+                  {t("wd_solution1_2")}
                 </div>
               </div>
               <div className="col-6 col-md-4 col-lg-3 mb-4">
                 <div className={`${Styles.cardBtn2} p-3 rounded text-center`}>
-                  Vue.js
+                  {t("wd_solution1_3")}
                 </div>
               </div>
               <div className="col-6 col-md-4 col-lg-3 mb-4">
                 <div className={`${Styles.cardBtn2} p-3 rounded text-center`}>
-                  Node.js
+                  {t("wd_solution1_4")}
                 </div>
               </div>
               <div className="col-6 col-md-4 col-lg-3 mb-4">
                 <div className={`${Styles.cardBtn2} p-3 rounded text-center`}>
-                  Express
+                  {t("wd_solution1_5")}
                 </div>
               </div>
               <div className="col-6 col-md-4 col-lg-3 mb-4">
                 <div className={`${Styles.cardBtn2} p-3 rounded text-center`}>
-                  Django
+                  {t("wd_solution1_6")}
                 </div>
               </div>
               <div className="col-6 col-md-4 col-lg-3 mb-4">
                 <div className={`${Styles.cardBtn2} p-3 rounded text-center`}>
-                  Flask
+                  {t("wd_solution1_7")}
                 </div>
               </div>
               <div className="col-6 col-md-4 col-lg-3 mb-4">
                 <div className={`${Styles.cardBtn2} p-3 rounded text-center`}>
-                  MongoDB
+                  {t("wd_solution1_8")}
                 </div>
               </div>
               <div className="col-6 col-md-4 col-lg-3 mb-4">
                 <div className={`${Styles.cardBtn2} p-3 rounded text-center`}>
-                  PostgreSQL
+                  {t("wd_solution1_9")}
                 </div>
               </div>
               <div className="col-6 col-md-4 col-lg-3 mb-4">
                 <div className={`${Styles.cardBtn2} p-3 rounded text-center`}>
-                  MySQL
+                  {t("wd_solution1_10")}
                 </div>
               </div>
               <div className="col-6 col-md-4 col-lg-3 mb-4">
                 <div className={`${Styles.cardBtn2} p-3 rounded text-center`}>
-                  Firebase
+                  {t("wd_solution1_11")}
                 </div>
               </div>
               <div className="col-6 col-md-4 col-lg-3 mb-4">
                 <div className={`${Styles.cardBtn2} p-3 rounded text-center`}>
-                  GraphQL
+                  {t("wd_solution1_12")}
                 </div>
               </div>
             </div>
@@ -214,16 +187,14 @@ const WebApp = () => {
         </div>
       </div>
 
-      <div className="py-5 text-center bg_color--1">
-        <h2 className="display-4 mb-4">Ready to Transform Your Business?</h2>
-        <p className=" mb-5">
-          Let’s discuss how our software solutions can drive your success.
-        </p>
+      <div className="py-5 text-center">
+        <h2 className="display-4 mb-4">{t("contact_us_bottom_title")}</h2>
+        <p className=" mb-5">{t("contact_us_bottom_desc")}</p>
         <a
           href="/contact"
           className="btn blog-btn rn-btn px-5 h3 font-weight-bold"
         >
-          Contact Us
+          {t("contact_us_bottom_btn")}
         </a>
       </div>
 

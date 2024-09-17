@@ -74,14 +74,14 @@ const ServiceDetails = () => {
                     className={`${Styles.cardBtn} btn`}
                    
                   >
-                    Enquire Now
+                    {t("services_wwp_card_btn1")}
                   </a>
                   <a
                     href="/service/search-engine-optimization"
                     className={`${Styles.cardBtn} btn ml-4`}
                    
                   >
-                    Know More
+                    {t("services_wwp_card_btn2")}
                   </a>
                 </div>
               </div>
@@ -101,14 +101,14 @@ const ServiceDetails = () => {
                     className={`${Styles.cardBtn} btn`}
                    
                   >
-                    Enquire Now
+                    {t("services_wwp_card_btn1")}
                   </a>
                   <a
                     href="/service/content-marketing"
                     className={`${Styles.cardBtn} btn ml-4`}
                    
                   >
-                    Know More
+                    {t("services_wwp_card_btn2")}
                   </a>
                 </div>
               </div>
@@ -128,13 +128,13 @@ const ServiceDetails = () => {
                     className={`${Styles.cardBtn} btn`}
                    
                   >
-                    Enquire Now
+                    {t("services_wwp_card_btn1")}
                   </a>
                   <a
                     href="/service/social-media-marketing"
                     className={`${Styles.cardBtn} btn ml-4`}
                   >
-                    Know More
+                    {t("services_wwp_card_btn2")}
                   </a>
                 </div>
               </div>
@@ -154,14 +154,14 @@ const ServiceDetails = () => {
                     className={`${Styles.cardBtn} btn`}
                    
                   >
-                    Enquire Now
+                    {t("services_wwp_card_btn1")}
                   </a>
                   <a
                     href="/service/pay-per-click"
                     className={`${Styles.cardBtn} btn ml-4`}
                    
                   >
-                    Know More
+                    {t("services_wwp_card_btn2")}
                   </a>
                 </div>
               </div>

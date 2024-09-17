@@ -25,8 +25,8 @@ const Service = () => {
         },
         {
             icon: <FiMonitor />,
-            title: `${t('hr_consulting')}`,
-            description: `${t('hr_consulting_message')}`,
+            title: `${t('software_dev_1_head')}`,
+            description: `${t('software_dev_message')}`,
             path: '/software-development'
         },
         {

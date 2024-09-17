@@ -24,7 +24,10 @@ const ContentService = () => {
 
   return (
     <div className={isDark ? "active-dark" : "active-light"}>
+      {/* Start Pagehelmet */}
       <PageHelmet pageTitle={pageTitle} />
+      {/* End Pagehelmet */}
+
       <HeaderThree homeLink="/" logo="symbol-dark" color="color-black" />
       <div className="bg_color--1">
         <div
@@ -43,11 +46,10 @@ const ContentService = () => {
               className="d-flex flex-column align-items-center justify-content-center text-dark text-center"
             >
               <h1 className="display-4 text-white font-weight-bold mb-4 mx-auto">
-                Content Marketing
+                {t("content_marketing_head")}
               </h1>
               <p className="text-white mb-8">
-                Our content marketing services are designed to engage and attract
-                your target audience.
+                {t("content_marketing_main_desc")}
               </p>
               <div className="d-flex justify-content-center mb-4">
                 <a
@@ -63,7 +65,7 @@ const ContentService = () => {
         <div className="container pt--120">
           <div className="bg_color--1 py-5">
             <h2 className="display-4 text-center font-weight-normal mb-5">
-              Our Content Marketing Process
+              {t("content_marketing_process1_main_title")}
             </h2>
             <div className="row mx-auto">
               <div className="col-md-6 col-lg-6 mb-4">
@@ -71,13 +73,9 @@ const ContentService = () => {
                   className={`${Styles.DevProg} p-4 bg_color--5 rounded shadow-sm`}
                 >
                   <h3 className="h3 font-weight-bold serviceProcHead">
-                    1. Content Strategy Development
+                    {t("content_marketing_process1_1_title")}
                   </h3>
-                  <p>
-                    We develop a comprehensive content strategy that aligns with your
-                    business goals and target audience, ensuring your content
-                    effectively drives engagement.
-                  </p>
+                  <p>{t("content_marketing_process1_1_desc")}</p>
                 </div>
               </div>
               <div className="col-md-6 col-lg-6 mb-4">
@@ -85,13 +83,9 @@ const ContentService = () => {
                   className={`${Styles.DevProg} p-4 bg_color--5 rounded shadow-sm`}
                 >
                   <h3 className="h3 font-weight-bold serviceProcHead">
-                    2. Blog and Article Writing
+                    {t("content_marketing_process1_2_title")}
                   </h3>
-                  <p>
-                    Our team creates informative and engaging blog posts and articles
-                    that establish your brand as an industry authority and drive traffic
-                    to your website.
-                  </p>
+                  <p>{t("content_marketing_process1_2_desc")}</p>
                 </div>
               </div>
               <div className="col-md-6 col-lg-6 mb-4">
@@ -99,12 +93,9 @@ const ContentService = () => {
                   className={`${Styles.DevProg} p-4 bg_color--5 rounded shadow-sm`}
                 >
                   <h3 className="h3 font-weight-bold serviceProcHead">
-                    3. Visual Content Creation
+                    {t("content_marketing_process1_3_title")}
                   </h3>
-                  <p>
-                    We design visually appealing infographics, videos, and other multimedia
-                    content that captures attention and enhances your marketing efforts.
-                  </p>
+                  <p>{t("content_marketing_process1_3_desc")}</p>
                 </div>
               </div>
 
@@ -113,64 +104,42 @@ const ContentService = () => {
                   className={`${Styles.DevProg} p-4 bg_color--5 rounded shadow-sm`}
                 >
                   <h3 className="h3 font-weight-bold serviceProcHead">
-                    4. Content Distribution
+                    {t("content_marketing_process1_4_title")}
                   </h3>
-                  <p>
-                    We manage the distribution of your content across various platforms,
-                    ensuring maximum reach and visibility to engage with your audience
-                    effectively.
-                  </p>
+                  <p>{t("content_marketing_process1_4_desc")}</p>
                 </div>
               </div>
             </div>
           </div>
 
           <div className="py-5">
-            <h2 className="display-4 text-center mb-5">Technologies We Use</h2>
+            <h2 className="display-4 text-center mb-5">
+              {t("content_marketing_solution1_title")}
+            </h2>
             <div className="row">
               <div className="col-6 col-md-4 col-lg-3 mb-4">
                 <div className={`${Styles.cardBtn2} p-3 rounded text-center`}>
-                  WordPress
+                  {t("content_marketing_solution1_1")}
                 </div>
               </div>
               <div className="col-6 col-md-4 col-lg-3 mb-4">
                 <div className={`${Styles.cardBtn2} p-3 rounded text-center`}>
-                  Contentful
+                  {t("content_marketing_solution1_2")}
                 </div>
               </div>
               <div className="col-6 col-md-4 col-lg-3 mb-4">
                 <div className={`${Styles.cardBtn2} p-3 rounded text-center`}>
-                  Google Analytics
+                  {t("content_marketing_solution1_3")}
                 </div>
               </div>
               <div className="col-6 col-md-4 col-lg-3 mb-4">
                 <div className={`${Styles.cardBtn2} p-3 rounded text-center`}>
-                  SEMrush
+                  {t("content_marketing_solution1_4")}
                 </div>
               </div>
               <div className="col-6 col-md-4 col-lg-3 mb-4">
                 <div className={`${Styles.cardBtn2} p-3 rounded text-center`}>
-                  Ahrefs
-                </div>
-              </div>
-              <div className="col-6 col-md-4 col-lg-3 mb-4">
-                <div className={`${Styles.cardBtn2} p-3 rounded text-center`}>
-                  Canva
-                </div>
-              </div>
-              <div className="col-6 col-md-4 col-lg-3 mb-4">
-                <div className={`${Styles.cardBtn2} p-3 rounded text-center`}>
-                  Adobe Creative Suite
-                </div>
-              </div>
-              <div className="col-6 col-md-4 col-lg-3 mb-4">
-                <div className={`${Styles.cardBtn2} p-3 rounded text-center`}>
-                  Buffer
-                </div>
-              </div>
-              <div className="col-6 col-md-4 col-lg-3 mb-4">
-                <div className={`${Styles.cardBtn2} p-3 rounded text-center`}>
-                  Hootsuite
+                  {t("content_marketing_solution1_5")}
                 </div>
               </div>
             </div>
@@ -179,15 +148,13 @@ const ContentService = () => {
       </div>
 
       <div className="py-5 text-center bg_color--1">
-        <h2 className="display-4 mb-4">Ready to Transform Your Content?</h2>
-        <p className="mb-5">
-          Let’s discuss how our content marketing solutions can engage your audience.
-        </p>
+        <h2 className="display-4 mb-4">{t("contact_us_bottom_title")}</h2>
+        <p className="mb-5">{t("contact_us_bottom_desc")}</p>
         <a
           href="/contact"
           className="btn blog-btn rn-btn px-5 h3 font-weight-bold"
         >
-          Contact Us
+          {t("contact_us_bottom_btn")}
         </a>
       </div>
 

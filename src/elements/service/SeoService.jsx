@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useContext } from "react";
 import PageHelmet from "../../component/common/Helmet";
 import HeaderThree from "../../component/header/HeaderThree";
 import Footer from "../../component/footer/Footer";
@@ -10,6 +10,8 @@ import SEOBredCrmb from "../../../public/assets/images/service/breadcrumbSEO.jpg
 
 import { useTranslation } from "react-i18next";
 
+import { ThemeContext } from '../../ThemeContext';
+
 const SeoService = () => {
   const { t } = useTranslation();
   const [isOpen, setIsOpen] = useState(false);
@@ -18,7 +20,7 @@ const SeoService = () => {
     setIsOpen(true);
   };
 
-  const [isDark, setIsDark] = useState(false);
+  const { isDark, toggleTheme } = useContext(ThemeContext);
 
   const pageTitle = "Search Engine Optimization (SEO)";
 
@@ -191,7 +193,7 @@ const SeoService = () => {
       </div>
 
       <div className="toggle-button">
-        <Toggle isChecked={isDark} handleChange={() => setIsDark(!isDark)} />
+        <Toggle isChecked={isDark} handleChange={toggleTheme} />
       </div>
 
       {/* End Back To Top */}

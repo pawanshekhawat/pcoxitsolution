@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useContext } from "react";
 import PageHelmet from "../../component/common/Helmet";
 import HeaderThree from "../../component/header/HeaderThree";
 import Footer from "../../component/footer/Footer";
@@ -13,7 +13,10 @@ import SISBredCrmb from "../../../public/assets/images/service/breadcrumbSIS.jpg
 import CCSBredCrmb from "../../../public/assets/images/service/breadcrumbCCS.jpg";
 import SMBredCrmb from "../../../public/assets/images/service/breadcrumbSM.jpg";
 
+
 import { useTranslation } from "react-i18next";
+
+import { ThemeContext } from '../../ThemeContext';
 
 const SoftDev = () => {
   const { t } = useTranslation();
@@ -23,7 +26,7 @@ const SoftDev = () => {
     setIsOpen(true);
   };
 
-  const [isDark, setIsDark] = useState(false);
+  const { isDark, toggleTheme } = useContext(ThemeContext); 
 
   const pageTitle = "Software Development";
 
@@ -235,7 +238,7 @@ const SoftDev = () => {
       {/* End Back To Top */}
 
       <div className="toggle-button">
-        <Toggle isChecked={isDark} handleChange={() => setIsDark(!isDark)} />
+        <Toggle isChecked={isDark} handleChange={toggleTheme} />
       </div>
 
       <Footer />

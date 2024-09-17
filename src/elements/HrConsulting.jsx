@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useContext } from "react";
 import PageHelmet from "../component/common/Helmet";
 import ModalVideo from "react-modal-video";
 import ScrollToTop from "react-scroll-up";
@@ -15,6 +15,7 @@ import { IoCloudCircleOutline } from "react-icons/io5";
 import { BiSupport } from "react-icons/bi";
 
 import { useTranslation } from "react-i18next";
+import { ThemeContext } from '../ThemeContext';
 
 const ServiceDetails = () => {
   const { t } = useTranslation();
@@ -24,7 +25,7 @@ const ServiceDetails = () => {
     setIsOpen(true);
   };
 
-  const [isDark, setIsDark] = useState(false);
+  const { isDark, toggleTheme } = useContext(ThemeContext); 
 
   return (
     <div className={isDark ? "active-dark" : "active-light"}>
@@ -402,7 +403,7 @@ const ServiceDetails = () => {
       {/* End Back To Top */}
 
       <div className="toggle-button">
-        <Toggle isChecked={isDark} handleChange={() => setIsDark(!isDark)} />
+        <Toggle isChecked={isDark} handleChange={toggleTheme} />
       </div>
 
       <Footer />

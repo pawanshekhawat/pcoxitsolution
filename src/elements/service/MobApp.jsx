@@ -53,18 +53,15 @@ const MobApp = () => {
               className="d-flex flex-column align-items-center justify-content-center text-dark text-center"
             >
               <h1 className="display-4 text-white font-weight-bold mb-4 mx-auto">
-                Mobile App Development
+                {t("mob_dev_1_head")}
               </h1>
-              <p className="text-white mb-8">
-                We offer comprehensive mobile app development services for both
-                iOS and Android platforms.
-              </p>
+              <p className="text-white mb-8">{t("md_main_desc")}</p>
               <div className="d-flex justify-content-center mb-4">
                 <a
                   href="#redirect"
                   className={`${Styles.getStBtn} btn px-4 py-2 mt-3 rounded text-white`}
                 >
-                  Get Started
+                  {t("get_started")}
                 </a>
               </div>
             </div>
@@ -73,7 +70,7 @@ const MobApp = () => {
         <div className="container pt--120">
           <div className="bg_color--1 py-5">
             <h2 className="display-4 text-center font-weight-normal mb-5">
-              Our Development Process
+              {t("md_process1_main_title")}
             </h2>
             <div className="row mx-auto">
               <div className="col-md-6 col-lg-6 mb-4">
@@ -81,13 +78,9 @@ const MobApp = () => {
                   className={`${Styles.DevProg} p-4 bg_color--5 rounded shadow-sm`}
                 >
                   <h3 className="h3 font-weight-bold serviceProcHead">
-                    1. Native App Development
+                    {t("md_process1_1_title")}
                   </h3>
-                  <p>
-                    We develop native apps tailored to the specific requirements
-                    of iOS and Android platforms, ensuring optimal performance
-                    and user experience.
-                  </p>
+                  <p>{t("md_process1_1_desc")}</p>
                 </div>
               </div>
               <div className="col-md-6 col-lg-6 mb-4">
@@ -95,13 +88,9 @@ const MobApp = () => {
                   className={`${Styles.DevProg} p-4 bg_color--5 rounded shadow-sm`}
                 >
                   <h3 className="h3 font-weight-bold serviceProcHead">
-                    2. Hybrid App Development
+                    {t("md_process1_2_title")}
                   </h3>
-                  <p>
-                    Our hybrid app solutions combine native and web technologies
-                    to provide a cost-effective option with broad platform
-                    compatibility.
-                  </p>
+                  <p>{t("md_process1_2_desc")}</p>
                 </div>
               </div>
               <div className="col-md-6 col-lg-6 mb-4">
@@ -109,13 +98,9 @@ const MobApp = () => {
                   className={`${Styles.DevProg} p-4 bg_color--5 rounded shadow-sm`}
                 >
                   <h3 className="h3 font-weight-bold serviceProcHead">
-                    3. UI/UX Design
+                    {t("md_process1_3_title")}
                   </h3>
-                  <p>
-                    We design engaging and user-friendly interfaces for mobile
-                    apps, focusing on usability and visual appeal to improve
-                    user satisfaction.
-                  </p>
+                  <p>{t("md_process1_3_desc")}</p>
                 </div>
               </div>
               <div className="col-md-6 col-lg-6 mb-4">
@@ -123,13 +108,9 @@ const MobApp = () => {
                   className={`${Styles.DevProg} p-4 bg_color--5 rounded shadow-sm`}
                 >
                   <h3 className="h3 font-weight-bold serviceProcHead">
-                    4. App Testing and Optimization
+                    {t("md_process1_4_title")}
                   </h3>
-                  <p id="redirect">
-                    We perform extensive testing and optimization to ensure that
-                    your app functions smoothly across different devices and
-                    operating systems.
-                  </p>
+                  <p id="redirect">{t("md_process1_4_desc")}</p>
                 </div>
               </div>
             </div>
@@ -137,32 +118,32 @@ const MobApp = () => {
 
           <div className="py-5">
             <h2 className="display-4 text-center mb-5">
-              Technologies We Provide
+              {t("md_solution1_title")}
             </h2>
             <div className="row">
               <div className="col-6 col-md-4 col-lg-3 mb-4">
                 <div className={`${Styles.cardBtn2} p-3 rounded text-center`}>
-                  React Native
+                  {t("md_solution1_1")}
                 </div>
               </div>
               <div className="col-6 col-md-4 col-lg-3 mb-4">
                 <div className={`${Styles.cardBtn2} p-3 rounded text-center`}>
-                  Flutter
+                  {t("md_solution1_2")}
                 </div>
               </div>
               <div className="col-6 col-md-4 col-lg-3 mb-4">
                 <div className={`${Styles.cardBtn2} p-3 rounded text-center`}>
-                  Swift
+                  {t("md_solution1_3")}
                 </div>
               </div>
               <div className="col-6 col-md-4 col-lg-3 mb-4">
                 <div className={`${Styles.cardBtn2} p-3 rounded text-center`}>
-                  Kotlin
+                  {t("md_solution1_4")}
                 </div>
               </div>
               <div className="col-6 col-md-4 col-lg-3 mb-4">
                 <div className={`${Styles.cardBtn2} p-3 rounded text-center`}>
-                  Xamarin
+                  {t("md_solution1_5")}
                 </div>
               </div>
             </div>

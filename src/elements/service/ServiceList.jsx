@@ -17,7 +17,7 @@ const ServiceThree = (props) => {
         {
             icon: <FiMonitor />,
             title: `${t('hr_consulting')}`,
-            description: `${t('hr_consulting_message')}`,
+            description: `${t('software_dev_message')}`,
             path: '/software-development'
         },
         {

@@ -10,6 +10,8 @@ import ServiceList from "../elements/service/ServiceList";
 import BlogContent from "../elements/blog/BlogContent";
 import Helmet from "../component/common/Helmet";
 
+import { useTranslation } from "react-i18next";
+
 const SlideList = [
     {
         textPosition: 'text-left',
@@ -21,6 +23,7 @@ const SlideList = [
     }
 ]
 const PortfolioLanding = () => {
+    const { t } = useTranslation();
     let title = 'About Me',
         description = 'There are many variations of passages of Lorem Ipsum available, but the majority have suffered <a href="#">alteration</a> in some form, by injected humour, or randomised words which dont look even slightly believable. If you are going to use a passage of Lorem Ipsum,';
     const PostList = BlogContent.slice(0 , 3);
@@ -142,32 +145,32 @@ const PortfolioLanding = () => {
                         <div className="row align-items-end">
                             <div className="col-lg-12 col-md-12 col-sm-12 col-12">
                                 <div className="section-title text-center">
-                                    <h2>Latest News</h2>
-                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.</p>
+                                    <h2>{t('latest_blog')}</h2>
+                                    <p>{t('latest_blog_messaxge_1')} <br /> {t('latest_blog_message_2')}</p>
                                 </div>
                             </div>
                         </div>
-                        <div className="row mt--60 mt_sm--40">
-                            {PostList.map((value , i ) => (
+                        <div className="row mt--60 mt_sm--40 h-full">
+                            {PostList.map((value, i) => (
                                 <div className="col-lg-4 col-md-6 col-12" key={i}>
                                     <div className="blog blog-style--1">
                                         <div className="thumbnail">
-                                            <a href="/blog-details">
-                                                <img className="w-100" src={`/assets/images/blog/blog-${value.images}.jpg`} alt="Blog Images"/>
+                                            <a href={`${value.bloglink}`}>
+                                                <img className="w-100" src={`/assets/images/blog/blog-${value.images}.jpg`} alt="Blog Images" />
                                             </a>
                                         </div>
                                         <div className="content">
                                             <p className="blogtype">{value.category}</p>
-                                            <h4 className="title"><a href="/blog-details">{value.title}</a></h4>
+                                            <h4 className="title"><a href={`${value.bloglink}`}>{value.title}</a></h4>
                                             <div className="blog-btn">
-                                                <a className="rn-btn text-white" href="/blog-details">Read More</a>
+                                                <a className="rn-btn text-white" href={`${value.bloglink}`}>Read More</a>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             ))}
-                        </div>    
-                    </div>    
+                        </div>
+                    </div>
                 </div>
             </div>
             {/* End Blog Area */}

@@ -200,7 +200,7 @@ const PortfolioLanding = () => {
                             <div className="col-lg-12 col-md-12 col-sm-12 col-12">
                                 <div className="section-title text-center">
                                     <h2>{t('latest_blog')}</h2>
-                                    <p>{t('latest_blog_message_1')} <br /> {t('latest_blog_message_2')}</p>
+                                    <p>{t('latest_blog_messaxge_1')} <br /> {t('latest_blog_message_2')}</p>
                                 </div>
                             </div>
                         </div>

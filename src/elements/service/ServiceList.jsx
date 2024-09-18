@@ -1,4 +1,5 @@
-import React, { Component } from "react";
+import React, { Component, useState, useContext } from "react";
+
 import { useTranslation } from "react-i18next";
 import { FiBox, FiLayers, FiGlobe, FiMonitor } from "react-icons/fi";
 
@@ -17,7 +18,7 @@ const ServiceThree = (props) => {
         {
             icon: <FiMonitor />,
             title: `${t('hr_consulting')}`,
-            description: `${t('hr_consulting_message')}`,
+            description: `${t('software_dev_message')}`,
             path: '/software-development'
         },
         {

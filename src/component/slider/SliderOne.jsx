@@ -1,4 +1,5 @@
-import React, { Component } from "react";
+import React, { Component, useState, useContext } from "react";
+
 import ServiceOne from "../../elements/service/ServiceOne";
 
 class SliderOne extends Component {

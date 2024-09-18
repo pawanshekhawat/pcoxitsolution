@@ -1,4 +1,5 @@
 import React, { useState, useContext } from "react";
+
 import PageHelmet from "../../component/common/Helmet";
 import HeaderThree from "../../component/header/HeaderThree";
 import Footer from "../../component/footer/Footer";
@@ -21,7 +22,7 @@ const PPCService = () => {
     setIsOpen(true);
   };
 
-  const { isDark, toggleTheme } = useContext(ThemeContext);
+   const { isDark, toggleTheme } = useContext(ThemeContext);
 
   const pageTitle = "Pay-Per-Click (PPC) Advertising";
 
@@ -55,11 +56,10 @@ const PPCService = () => {
               className="d-flex flex-column align-items-center justify-content-center text-dark text-center"
             >
               <h1 className="display-4 text-white font-weight-bold mb-4 mx-auto">
-                Pay-Per-Click (PPC) Advertising
+                {t("ppc_advertising_head")}
               </h1>
               <p className="text-white mb-8">
-                Our PPC advertising services are designed to drive immediate
-                traffic and generate leads through targeted ad campaigns.
+                {t("ppc_advertising_main_desc")}
               </p>
               <div className="d-flex justify-content-center mb-4">
                 <a
@@ -75,7 +75,7 @@ const PPCService = () => {
         <div className="container pt--120">
           <div className="bg_color--1 py-5">
             <h2 className="display-4 text-center font-weight-normal mb-5">
-              Our PPC Strategy
+              {t("ppc_advertising_process1_main_title")}
             </h2>
             <div className="row mx-auto">
               <div className="col-md-6 col-lg-6 mb-4">
@@ -83,13 +83,9 @@ const PPCService = () => {
                   className={`${Styles.DevProg} p-4 bg_color--5 rounded shadow-sm`}
                 >
                   <h3 className="h3 font-weight-bold serviceProcHead">
-                    1. Campaign Strategy
+                    {t("ppc_advertising_process1_1_title")}
                   </h3>
-                  <p>
-                    We create detailed PPC campaign strategies, including
-                    keyword selection, ad copywriting, and bid management to
-                    achieve your advertising goals.
-                  </p>
+                  <p>{t("ppc_advertising_process1_1_desc")}</p>
                 </div>
               </div>
               <div className="col-md-6 col-lg-6 mb-4">
@@ -97,13 +93,9 @@ const PPCService = () => {
                   className={`${Styles.DevProg} p-4 bg_color--5 rounded shadow-sm`}
                 >
                   <h3 className="h3 font-weight-bold serviceProcHead">
-                    2. Ad Creation
+                    {t("ppc_advertising_process1_2_title")}
                   </h3>
-                  <p>
-                    Our team designs compelling ad creatives and landing pages
-                    that capture attention and drive conversions, ensuring a
-                    high-quality user experience.
-                  </p>
+                  <p>{t("ppc_advertising_process1_2_desc")}</p>
                 </div>
               </div>
               <div className="col-md-6 col-lg-6 mb-4">
@@ -111,13 +103,9 @@ const PPCService = () => {
                   className={`${Styles.DevProg} p-4 bg_color--5 rounded shadow-sm`}
                 >
                   <h3 className="h3 font-weight-bold serviceProcHead">
-                    3. Bid Management
+                    {t("ppc_advertising_process1_3_title")}
                   </h3>
-                  <p>
-                    We continuously optimize your ad bids and budgets to
-                    maximize visibility and return on investment while
-                    minimizing unnecessary costs.
-                  </p>
+                  <p>{t("ppc_advertising_process1_3_desc")}</p>
                 </div>
               </div>
 
@@ -126,44 +114,42 @@ const PPCService = () => {
                   className={`${Styles.DevProg} p-4 bg_color--5 rounded shadow-sm`}
                 >
                   <h3 className="h3 font-weight-bold serviceProcHead">
-                    4. Performance Monitoring
+                    {t("ppc_advertising_process1_4_title")}
                   </h3>
-                  <p>
-                    We monitor and analyze PPC campaign performance, providing
-                    regular updates and insights to refine strategies and
-                    improve results.
-                  </p>
+                  <p>{t("ppc_advertising_process1_4_desc")}</p>
                 </div>
               </div>
             </div>
           </div>
 
           <div className="py-5">
-            <h2 className="display-4 text-center mb-5">PPC Tools We Use</h2>
+            <h2 className="display-4 text-center mb-5">
+              {t("ppc_advertising_solution1_title")}
+            </h2>
             <div className="row">
               <div className="col-6 col-md-4 col-lg-3 mb-4">
                 <div className={`${Styles.cardBtn2} p-3 rounded text-center`}>
-                  Google Ads
+                  {t("ppc_advertising_solution1_1")}
                 </div>
               </div>
               <div className="col-6 col-md-4 col-lg-3 mb-4">
                 <div className={`${Styles.cardBtn2} p-3 rounded text-center`}>
-                  Facebook Ads
+                  {t("ppc_advertising_solution1_2")}
                 </div>
               </div>
               <div className="col-6 col-md-4 col-lg-3 mb-4">
                 <div className={`${Styles.cardBtn2} p-3 rounded text-center`}>
-                  LinkedIn Ads
+                  {t("ppc_advertising_solution1_3")}
                 </div>
               </div>
               <div className="col-6 col-md-4 col-lg-3 mb-4">
                 <div className={`${Styles.cardBtn2} p-3 rounded text-center`}>
-                  Bing Ads
+                  {t("ppc_advertising_solution1_4")}
                 </div>
               </div>
               <div className="col-6 col-md-4 col-lg-3 mb-4">
                 <div className={`${Styles.cardBtn2} p-3 rounded text-center`}>
-                  Twitter Ads
+                  {t("ppc_advertising_solution1_5")}
                 </div>
               </div>
             </div>
@@ -173,16 +159,16 @@ const PPCService = () => {
 
       <div className="py-5 text-center bg_color--1">
         <h2 className="display-4 mb-4">
-          Ready to Boost Your Traffic with PPC?
+          {t("ppc_contact_title")}
         </h2>
         <p className="mb-5">
-          Let’s discuss how our PPC services can enhance your online presence.
+        {t("ppc_contact_desc")}
         </p>
         <a
           href="/contact"
           className="btn blog-btn rn-btn px-5 h3 font-weight-bold"
         >
-          Contact Us
+          {t("ppc_contact_btn")}
         </a>
       </div>
 
@@ -194,8 +180,7 @@ const PPCService = () => {
       </div>
 
       <div className="toggle-button">
-        <Toggle isChecked={isDark} handleChange={toggleTheme} />
-      </div>
+  <Toggle isChecked={isDark} handleChange={toggleTheme} />      </div>
 
       {/* End Back To Top */}
       <Footer />

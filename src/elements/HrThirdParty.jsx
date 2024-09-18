@@ -1,4 +1,5 @@
 import React, { useState, useContext } from "react";
+
 import PageHelmet from "../component/common/Helmet";
 import ModalVideo from "react-modal-video";
 import ScrollToTop from "react-scroll-up";
@@ -24,7 +25,7 @@ const ServiceDetails = () => {
     setIsOpen(true);
   };
 
-  const { isDark, toggleTheme } = useContext(ThemeContext); 
+   const { isDark, toggleTheme } = useContext(ThemeContext);
 
   return (
     <div className={isDark ? "active-dark" : "active-light"}>
@@ -75,14 +76,14 @@ const ServiceDetails = () => {
                     className={`${Styles.cardBtn} btn`}
                    
                   >
-                    Enquire Now
+                    {t("services_wwp_card_btn1")}
                   </a>
                   <a
                     href="/service/search-engine-optimization"
                     className={`${Styles.cardBtn} btn ml-4`}
                    
                   >
-                    Know More
+                    {t("services_wwp_card_btn2")}
                   </a>
                 </div>
               </div>
@@ -102,14 +103,14 @@ const ServiceDetails = () => {
                     className={`${Styles.cardBtn} btn`}
                    
                   >
-                    Enquire Now
+                    {t("services_wwp_card_btn1")}
                   </a>
                   <a
                     href="/service/content-marketing"
                     className={`${Styles.cardBtn} btn ml-4`}
                    
                   >
-                    Know More
+                    {t("services_wwp_card_btn2")}
                   </a>
                 </div>
               </div>
@@ -129,13 +130,13 @@ const ServiceDetails = () => {
                     className={`${Styles.cardBtn} btn`}
                    
                   >
-                    Enquire Now
+                    {t("services_wwp_card_btn1")}
                   </a>
                   <a
                     href="/service/social-media-marketing"
                     className={`${Styles.cardBtn} btn ml-4`}
                   >
-                    Know More
+                    {t("services_wwp_card_btn2")}
                   </a>
                 </div>
               </div>
@@ -155,140 +156,15 @@ const ServiceDetails = () => {
                     className={`${Styles.cardBtn} btn`}
                    
                   >
-                    Enquire Now
+                    {t("services_wwp_card_btn1")}
                   </a>
                   <a
                     href="/service/pay-per-click"
                     className={`${Styles.cardBtn} btn ml-4`}
                    
                   >
-                    Know More
+                    {t("services_wwp_card_btn2")}
                   </a>
-                </div>
-              </div>
-            </div>
-          </div>
-          {/* End Service Card Area */}
-          <div className="row pt--120 hidden" id="seo">
-            <div className="col-lg-12">
-              <div className="service-details-inner">
-                <div className="inner">
-                  {/* Start Single Area */}
-                  <div className="row sercice-details-content pb--80 align-items-center">
-                    <div className="col-lg-6 col-12">
-                      <div className="thumb">
-                        <img
-                          className="w-100"
-                          src="/assets/images/service/HR Third Party Payroll Services-01.JPG"
-                          style={{ height: "600px" }}
-                          alt="Service Images"
-                        />
-                      </div>
-                    </div>
-                    <div className="col-lg-6 col-12">
-                      <div className="title">
-                        <h4 className={`${Styles.serviceDTitle} title`}>{t("thirt_party_1_head")}</h4>
-                        <div className={`${Styles.serviceDdesc} mb-3`}>
-                          {t("thirt_party_1_desc")}
-                        </div>
-                        <ul className={`${Styles.serviceLists} liststyle`}>
-                          <li>{t("thirt_party_1_li1")}</li> <br />
-                          <li>{t("thirt_party_1_li2")}</li> <br />
-                          <li>{t("thirt_party_1_li3")}</li> <br />
-                          <li id="marketing">{t("thirt_party_1_li4")}</li>{" "}
-                          <br />
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                  {/* End Single Area */}
-
-                  {/* Start Single Area */}
-                  <div className="row sercice-details-content pb--80 align-items-center">
-                    <div className="col-lg-6 col-12">
-                      <div className="title">
-                        <h4 className={`${Styles.serviceDTitle} title`}>{t("thirt_party_2_head")}</h4>
-                        <div className={`${Styles.serviceDdesc} mb-3`}>
-                          {t("thirt_party_2_desc")}
-                        </div>
-                        <ul className={`${Styles.serviceLists} liststyle`}>
-                          <li>{t("thirt_party_2_li1")}</li> <br />
-                          <li>{t("thirt_party_2_li2")}</li> <br />
-                          <li>{t("thirt_party_2_li3")}</li> <br />
-                          <li id="social">{t("thirt_party_2_li4")}</li> <br />
-                        </ul>
-                      </div>
-                    </div>
-                    <div className="col-lg-6 col-12 order-1 order-lg-2">
-                      <div className="thumb position-relative">
-                        <img
-                          className="w-100"
-                          src="/assets/images/service/HR Third Party Payroll Services-02.JPG"
-                          style={{ height: "600px" }}
-                          alt="Service Images"
-                        />
-                      </div>
-                    </div>
-                  </div>
-                  {/* End Single Area */}
-
-                  {/* Start Single Area */}
-                  <div className="row sercice-details-content pb--80 align-items-center">
-                    <div className="col-lg-6 col-12">
-                      <div className="thumb">
-                        <img
-                          className="w-100"
-                          src="/assets/images/service/HR Third Party Payroll Services-03.JPG"
-                          style={{ height: "600px" }}
-                          alt="Service Images"
-                        />
-                      </div>
-                    </div>
-                    <div className="col-lg-6 col-12">
-                      <div className="title">
-                        <h4 className={`${Styles.serviceDTitle} title`}>{t("thirt_party_3_head")}</h4>
-                        <div className={`${Styles.serviceDdesc} mb-3`}>
-                          {t("thirt_party_3_desc")}
-                        </div>
-                        <ul className={`${Styles.serviceLists} liststyle`}>
-                          <li>{t("thirt_party_3_li1")}</li> <br />
-                          <li>{t("thirt_party_3_li2")}</li> <br />
-                          <li>{t("thirt_party_3_li3")}</li> <br />
-                          <li id="ppc">{t("thirt_party_3_li4")}</li> <br />
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                  {/* End Single Area */}
-
-                  {/* Start Single Area */}
-                  <div className="row sercice-details-content pb--80 align-items-center">
-                    <div className="col-lg-6 col-12">
-                      <div className="title">
-                        <h4 className={`${Styles.serviceDTitle} title`}>{t("thirt_party_4_head")}</h4>
-                        <div className={`${Styles.serviceDdesc} mb-3`}>
-                          {t("thirt_party_4_desc")}
-                        </div>
-                        <ul className={`${Styles.serviceLists} liststyle`}>
-                          <li>{t("thirt_party_4_li1")}</li> <br />
-                          <li>{t("thirt_party_4_li2")}</li> <br />
-                          <li>{t("thirt_party_4_li3")}</li> <br />
-                          <li>{t("thirt_party_4_li4")}</li> <br />
-                        </ul>
-                      </div>
-                    </div>
-                    <div className="col-lg-6 col-12 order-1 order-lg-2">
-                      <div className="thumb position-relative">
-                        <img
-                          className="w-100"
-                          src="/assets/images/service/HR Third Party Payroll Services-04.JPG"
-                          style={{ height: "600px" }}
-                          alt="Service Images"
-                        />
-                      </div>
-                    </div>
-                  </div>
-                  {/* End Single Area */}
                 </div>
               </div>
             </div>
@@ -306,8 +182,7 @@ const ServiceDetails = () => {
       {/* End Back To Top */}
 
       <div className="toggle-button">
-        <Toggle isChecked={isDark} handleChange={toggleTheme} />
-      </div>
+  <Toggle isChecked={isDark} handleChange={toggleTheme} />      </div>
 
       <Footer />
     </div>

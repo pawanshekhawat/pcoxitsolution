@@ -1,4 +1,5 @@
-import React, { useContext } from "react";
+import React, { useState, useContext } from "react";
+
 import PageHelmet from "../component/common/Helmet";
 import Breadcrumb from "../elements/common/Breadcrumb";
 import CounterOne from "../elements/counters/CounterOne";
@@ -11,7 +12,6 @@ import HeaderThree from "../component/header/HeaderThree";
 import Footer from "../component/footer/Footer";
 import Toggle from "../component/Toggle/Toggle";
 
-import { useState } from "react";
 import { useTranslation } from 'react-i18next';
 import { ThemeContext } from '../ThemeContext';
 
@@ -21,7 +21,7 @@ const About = () => {
     const { t } = useTranslation();
 
     let title =`${t('about_us')}`
-    const { isDark, toggleTheme } = useContext(ThemeContext); 
+     const { isDark, toggleTheme } = useContext(ThemeContext);
 
 
     return (
@@ -201,8 +201,7 @@ const About = () => {
 
             <div className="toggle-button">
 
-                <Toggle isChecked={isDark} handleChange={toggleTheme} />
-
+          <Toggle isChecked={isDark} handleChange={toggleTheme} />
             </div>
 
 

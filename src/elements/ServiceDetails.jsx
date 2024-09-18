@@ -1,4 +1,5 @@
 import React, { useState, useContext } from "react";
+
 import PageHelmet from "../component/common/Helmet";
 import ModalVideo from "react-modal-video";
 import ScrollToTop from "react-scroll-up";
@@ -22,7 +23,7 @@ const ServiceDetails = () => {
     setIsOpen(true);
   };
 
-  const { isDark, toggleTheme } = useContext(ThemeContext); 
+   const { isDark, toggleTheme } = useContext(ThemeContext);
 
   return (
     <div className={isDark ? "active-dark" : "active-light"}>
@@ -41,7 +42,7 @@ const ServiceDetails = () => {
           <div className="row">
             <div className="col-lg-12">
               <div className="rn-page-title text-center pt--100">
-                <h2 className="title text-white">{t("hr_services_0")}</h2>
+                <h2 className="title text-white">{t("impo_expo_services_0")}</h2>
               </div>
             </div>
           </div>
@@ -54,7 +55,7 @@ const ServiceDetails = () => {
         <div className="container">
           {/* Start Service Card Area */}
           <h3 className={`${Styles.serviceHead}`}>
-            We provide these types of transport services
+            {t("impo_expo_services_wwp_title")}
           </h3>
           <div className={`${Styles.serviceCards} row`}>
             <div
@@ -66,14 +67,14 @@ const ServiceDetails = () => {
                   className={`card-title h3 text-white ${Styles.title}`}
                 >
                   <AiOutlineTruck className={Styles.reactIcons} /> <br />
-                  Land Transportation
+                  {t("impo_expo_services_wwp_card1_title")}
                 </a>
                 <div className={`${Styles.btmBtn} mt-3 d-flex`}>
                   <a href="/contact" className={`${Styles.cardBtn} btn`}>
-                    Enquire Now
+                    {t("services_wwp_card_btn1")}
                   </a>
                   <a href="#lt" className={`${Styles.cardBtn} btn ml-4`}>
-                    Know More
+                    {t("services_wwp_card_btn2")}
                   </a>
                 </div>
               </div>
@@ -87,17 +88,14 @@ const ServiceDetails = () => {
                   className={`card-title h3 text-white ${Styles.title}`}
                 >
                   <LiaShipSolid className={Styles.reactIcons} /> <br />
-                  Sea Transport
+                  {t("impo_expo_services_wwp_card2_title")}
                 </a>
-                {/* <p className={`card-text text-white ${Styles.serviceText}`}>
-                  {t("hr_services_2_desc")}
-                </p> */}
                 <div className={`${Styles.btmBtn} mt-3 d-flex`}>
                   <a href="/contact" className={`${Styles.cardBtn} btn`}>
-                    Enquire Now
+                    {t("services_wwp_card_btn1")}
                   </a>
                   <a href="#st" className={`${Styles.cardBtn} btn ml-4`}>
-                    Know More
+                    {t("services_wwp_card_btn2")}
                   </a>
                 </div>
               </div>
@@ -112,17 +110,14 @@ const ServiceDetails = () => {
                 >
                   <PiAirplaneTiltLight className={Styles.reactIcons} />
                   <br />
-                  Air Transport
+                  {t("impo_expo_services_wwp_card3_title")}
                 </a>
-                {/* <p className={`card-text text-white ${Styles.serviceText}`}>
-                  {t("hr_services_3_desc")}
-                </p> */}
                 <div className={`${Styles.btmBtn} mt-3 d-flex`}>
                   <a href="/contact" className={`${Styles.cardBtn} btn`}>
-                    Enquire Now
+                    {t("services_wwp_card_btn1")}
                   </a>
                   <a href="#at" className={`${Styles.cardBtn} btn ml-4`}>
-                    Know More
+                    {t("services_wwp_card_btn2")}
                   </a>
                 </div>
               </div>
@@ -144,22 +139,22 @@ const ServiceDetails = () => {
                           alt="Service Images"
                         />
                         <ul className={`${Styles.serviceLists} liststyle`}>
-                          <li>{t("hr_services_1_li1")}</li> <br />
-                          <li>{t("hr_services_1_li3")}</li> <br />
+                          <li>{t("impo_expo_services_1_li1")}</li> <br />
+                          <li>{t("impo_expo_services_1_li3")}</li> <br />
                         </ul>
                       </div>
                     </div>
                     <div className="col-lg-6 col-12">
                       <div className="title">
                         <h4 className={`${Styles.serviceDTitle} title`}>
-                          {t("hr_services_1_head")}
+                          {t("impo_expo_services_1_head")}
                         </h4>
                         <div className={`${Styles.serviceDdesc} mb-3`}>
-                          {t("hr_services_1_desc")}
+                          {t("impo_expo_services_1_desc")}
                         </div>
                         <ul className={`${Styles.serviceLists} liststyle`}>
-                          <li>{t("hr_services_1_li2")}</li> <br />
-                          <li id="st">{t("hr_services_1_li4")}</li> <br />
+                          <li>{t("impo_expo_services_1_li2")}</li> <br />
+                          <li id="st">{t("impo_expo_services_1_li4")}</li> <br />
                         </ul>
                       </div>
                     </div>
@@ -171,16 +166,16 @@ const ServiceDetails = () => {
                     <div className="col-lg-6 col-12 mt-2">
                       <div className="title">
                         <h4 className={`${Styles.serviceDTitle} title`}>
-                          {t("hr_services_2_head")}
+                          {t("impo_expo_services_2_head")}
                         </h4>
                         <div className={`${Styles.serviceDdesc} mb-3`}>
-                          {t("hr_services_2_desc")}
+                          {t("impo_expo_services_2_desc")}
                         </div>
                         <ul className={`${Styles.serviceLists} liststyle`}>
-                          <li>{t("hr_services_2_li1")}</li> <br />
-                          <li>{t("hr_services_2_li2")}</li> <br />
-                          <li>{t("hr_services_2_li3")}</li> <br />
-                          <li id="at">{t("hr_services_2_li4")}</li> <br />
+                          <li>{t("impo_expo_services_2_li1")}</li> <br />
+                          <li>{t("impo_expo_services_2_li2")}</li> <br />
+                          <li>{t("impo_expo_services_2_li3")}</li> <br />
+                          <li id="at">{t("impo_expo_services_2_li4")}</li> <br />
                         </ul>
                       </div>
                     </div>
@@ -211,16 +206,16 @@ const ServiceDetails = () => {
                   <div className="col-lg-6 col-12 mt-2">
                     <div className="title">
                       <h4 className={`${Styles.serviceDTitle} title`}>
-                        {t("hr_services_3_head")}
+                        {t("impo_expo_services_3_head")}
                       </h4>
                       <div className={`${Styles.serviceDdesc} mb-3`}>
-                        {t("hr_services_3_desc")}
+                        {t("impo_expo_services_3_desc")}
                       </div>
                       <ul className={`${Styles.serviceLists} liststyle`}>
-                        <li>{t("hr_services_3_li1")}</li> <br />
-                        <li>{t("hr_services_3_li2")}</li> <br />
-                        <li>{t("hr_services_3_li3")}</li> <br />
-                        <li>{t("hr_services_3_li4")}</li> <br />
+                        <li>{t("impo_expo_services_3_li1")}</li> <br />
+                        <li>{t("impo_expo_services_3_li2")}</li> <br />
+                        <li>{t("impo_expo_services_3_li3")}</li> <br />
+                        <li>{t("impo_expo_services_3_li4")}</li> <br />
                       </ul>
                     </div>
                   </div>
@@ -242,8 +237,7 @@ const ServiceDetails = () => {
       {/* End Back To Top */}
 
       <div className="toggle-button">
-      <Toggle isChecked={isDark} handleChange={toggleTheme} />
-      </div>
+<Toggle isChecked={isDark} handleChange={toggleTheme} />      </div>
 
       <Footer />
     </div>

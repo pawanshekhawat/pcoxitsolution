@@ -14,7 +14,7 @@ import{ ThemeContext } from '../ThemeContext';
 
 const Blog = () => {
 
-    const { isDark, toggleTheme } = useContext(ThemeContext); 
+     const { isDark, toggleTheme } = useContext(ThemeContext);
 
     return (
         <div className={isDark ? "active-dark" : "active-light"}>
@@ -51,8 +51,7 @@ const Blog = () => {
 
             <div className="toggle-button">
 
-                <Toggle isChecked={isDark} handleChange={toggleTheme} />
-
+          <Toggle isChecked={isDark} handleChange={toggleTheme} />
             </div>
 
             <Footer />

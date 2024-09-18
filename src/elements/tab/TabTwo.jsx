@@ -1,4 +1,5 @@
-import React, { Component } from "react";
+import React, { Component, useState, useContext } from "react";
+
 import { useTranslation } from "react-i18next";
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 

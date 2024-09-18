@@ -25,7 +25,7 @@ const SoftDev = () => {
     setIsOpen(true);
   };
 
-  const { isDark, toggleTheme } = useContext(ThemeContext);
+   const { isDark, toggleTheme } = useContext(ThemeContext);
 
   const pageTitle = "Software Maintenance";
 
@@ -65,18 +65,17 @@ const SoftDev = () => {
               className="d-flex flex-column align-items-center justify-content-center text-dark text-center"
             >
               <h1 className="display-4 text-white font-weight-bold mb-4 mx-auto">
-                Software Development
+                {t("sm_dev_1_head")}
               </h1>
               <p className="text-white mb-8">
-                Tailored solutions to meet the unique needs of your business,
-                from concept to deployment.
+              {t("sm_main_desc")}
               </p>
               <div className="d-flex justify-content-center mb-4">
                 <a
                   href="#redirect"
                   className={`${Styles.getStBtn} btn px-4 py-2 mt-3 rounded text-white`}
                 >
-                  Get Started
+                  {t("get_started")}
                 </a>
               </div>
             </div>
@@ -85,7 +84,7 @@ const SoftDev = () => {
         <div className="container pt--120">
           <div className="bg_color--1 py-5">
             <h2 className="display-4 text-center font-weight-normal mb-5">
-              Our Development Process
+            {t("sm_process1_main_title")}
             </h2>
             <div className="row mx-auto">
               <div className="col-md-6 col-lg-6 mb-4">
@@ -93,12 +92,10 @@ const SoftDev = () => {
                   className={`${Styles.DevProg} p-4 bg_color--5 rounded shadow-sm`}
                 >
                   <h3 className="h3 font-weight-bold serviceProcHead">
-                    1. Requirement Analysis
+                  {t("sm_process1_1_title")}
                   </h3>
                   <p>
-                    We start with a detailed analysis of your business needs to
-                    ensure the software solution meets your specific
-                    requirements.
+                  {t("sm_process1_1_desc")}
                   </p>
                 </div>
               </div>
@@ -107,11 +104,10 @@ const SoftDev = () => {
                   className={`${Styles.DevProg} p-4 bg_color--5 rounded shadow-sm`}
                 >
                   <h3 className="h3 font-weight-bold serviceProcHead">
-                    2. Design and Prototyping
+                  {t("sm_process1_2_title")}
                   </h3>
                   <p>
-                    Our team creates detailed design documents and prototypes to
-                    visualize the software's functionality and user interface.
+                  {t("sm_process1_2_desc")}
                   </p>
                 </div>
               </div>
@@ -120,11 +116,10 @@ const SoftDev = () => {
                   className={`${Styles.DevProg} p-4 bg_color--5 rounded shadow-sm`}
                 >
                   <h3 className="h3 font-weight-bold serviceProcHead">
-                    3. Development and Testing
+                  {t("sm_process1_3_title")}
                   </h3>
                   <p>
-                    We use industry best practices to build robust, scalable
-                    software and conduct thorough testing to ensure quality.
+                  {t("sm_process1_3_desc")}
                   </p>
                 </div>
               </div>
@@ -133,11 +128,10 @@ const SoftDev = () => {
                   className={`${Styles.DevProg} p-4 bg_color--5 rounded shadow-sm`}
                 >
                   <h3 className="h3 font-weight-bold serviceProcHead">
-                    4. Deployment and Support
+                  {t("sm_process1_4_title")}
                   </h3>
                   <p id="redirect">
-                    We handle the deployment and provide ongoing support and
-                    maintenance to ensure optimal performance.
+                  {t("sm_process1_4_desc")}
                   </p>
                 </div>
               </div>
@@ -146,27 +140,27 @@ const SoftDev = () => {
 
           <div className="py-5">
             <h2 className="display-4 text-center mb-5">
-              Maintenance Tools We Use
+            {t("sm_solution1_title")}
             </h2>
             <div className="row">
               <div className="col-6 col-md-4 col-lg-3 mb-4">
                 <div className={`${Styles.cardBtn2} p-3 rounded text-center`}>
-                  Jira
+                {t("sm_solution1_1")}
                 </div>
               </div>
               <div className="col-6 col-md-4 col-lg-3 mb-4">
                 <div className={`${Styles.cardBtn2} p-3 rounded text-center`}>
-                  New Relic
+                {t("sm_solution1_2")}
                 </div>
               </div>
               <div className="col-6 col-md-4 col-lg-3 mb-4">
                 <div className={`${Styles.cardBtn2} p-3 rounded text-center`}>
-                  GitHub Issues
+                {t("sm_solution1_3")}
                 </div>
               </div>
               <div className="col-6 col-md-4 col-lg-3 mb-4">
                 <div className={`${Styles.cardBtn2} p-3 rounded text-center`}>
-                  Sentry
+                {t("sm_solution1_4")}
                 </div>
               </div>
             </div>
@@ -174,16 +168,16 @@ const SoftDev = () => {
 
           <div className="py-5 text-center">
             <h2 className="display-4 mb-4">
-              Ready to Transform Your Business?
+            {t("contact_us_bottom_title")}
             </h2>
             <p className=" mb-5">
-              Let’s discuss how our software solutions can drive your success.
+            {t("contact_us_bottom_desc")}
             </p>
             <a
               href="/contact"
               className="btn blog-btn rn-btn px-5 h3 font-weight-bold"
             >
-              Contact Us
+              {t("contact_us_bottom_btn")}
             </a>
           </div>
         </div>
@@ -197,8 +191,7 @@ const SoftDev = () => {
       {/* End Back To Top */}
 
       <div className="toggle-button">
-        <Toggle isChecked={isDark} handleChange={toggleTheme} />
-      </div>
+  <Toggle isChecked={isDark} handleChange={toggleTheme} />      </div>
 
       <Footer />
     </div>

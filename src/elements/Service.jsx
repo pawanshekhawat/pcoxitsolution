@@ -26,8 +26,8 @@ const Service = () => {
         },
         {
             icon: <FiMonitor />,
-            title: `${t('hr_consulting')}`,
-            description: `${t('hr_consulting_message')}`,
+            title: `${t('software_dev_1_head')}`,
+            description: `${t('software_dev_message')}`,
             path: '/software-development'
         },
         {
@@ -59,7 +59,7 @@ const Service = () => {
         // }
     ];
 
-    const { isDark, toggleTheme } = useContext(ThemeContext); 
+     const { isDark, toggleTheme } = useContext(ThemeContext);
 
     return (
         <div className={isDark ? "active-dark" : "active-light"}>
@@ -116,8 +116,7 @@ const Service = () => {
 
             <div className="toggle-button">
 
-                <Toggle isChecked={isDark} handleChange={toggleTheme} />
-
+          <Toggle isChecked={isDark} handleChange={toggleTheme} />
             </div>
 
 

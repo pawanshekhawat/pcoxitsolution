@@ -1,4 +1,5 @@
-import React, { Component } from "react";
+import React, { Component, useState, useContext } from "react";
+
 
 class Brand extends Component{
     render(){

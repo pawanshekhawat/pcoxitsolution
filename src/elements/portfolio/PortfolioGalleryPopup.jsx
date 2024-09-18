@@ -1,4 +1,5 @@
-import React, { Component } from "react";
+import React, { Component, useState, useContext } from "react";
+
 import Lightbox from 'react-image-lightbox';
 import 'react-image-lightbox/style.css';
 

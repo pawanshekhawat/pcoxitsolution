@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React, { Component, useState, useContext } from "react";
 import PageHelmet from "../component/common/Helmet";
 import ModalVideo from 'react-modal-video';
 import { FiClock, FiUser, FiMessageCircle, FiHeart } from "react-icons/fi";
@@ -7,9 +7,9 @@ import ScrollToTop from 'react-scroll-up';
 import { FiChevronUp } from "react-icons/fi";
 import HeaderThree from "../component/header/HeaderThree";
 import Footer from "../component/footer/Footer";
-import { useState } from "react";
 
 import Toggle from "../component/Toggle/Toggle";
+import { ThemeContext } from '../ThemeContext';
 
 const BlogDetails = () => {
 
@@ -18,8 +18,7 @@ const BlogDetails = () => {
     const openModal = () => {
         setIsOpen(true);
     };
-    const [isDark, setIsDark] = useState(false);
-
+    const { isDark, toggleTheme } = useContext(ThemeContext);
 
     return (
         <div className={isDark ? "active-dark" : "active-light"}>
@@ -105,7 +104,7 @@ Implementing pay transparency is also beneficial for country-specific objectives
 
             <div className="toggle-button">
 
-<Toggle isChecked={isDark} handleChange={() => setIsDark(!isDark)} />
+<Toggle isChecked={isDark} handleChange={toggleTheme} />
 
 </div>
 

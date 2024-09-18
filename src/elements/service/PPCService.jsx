@@ -1,4 +1,5 @@
-import React, { useState } from "react";
+import React, { useState, useContext } from "react";
+
 import PageHelmet from "../../component/common/Helmet";
 import HeaderThree from "../../component/header/HeaderThree";
 import Footer from "../../component/footer/Footer";
@@ -10,6 +11,9 @@ import PPCBredCrmb from "../../../public/assets/images/service/breadcrumbPPC.jpg
 
 import { useTranslation } from "react-i18next";
 
+import { ThemeContext } from '../../ThemeContext';
+
+
 const PPCService = () => {
   const { t } = useTranslation();
   const [isOpen, setIsOpen] = useState(false);
@@ -18,7 +22,7 @@ const PPCService = () => {
     setIsOpen(true);
   };
 
-  const [isDark, setIsDark] = useState(false);
+   const { isDark, toggleTheme } = useContext(ThemeContext);
 
   const pageTitle = "Pay-Per-Click (PPC) Advertising";
 
@@ -176,8 +180,7 @@ const PPCService = () => {
       </div>
 
       <div className="toggle-button">
-        <Toggle isChecked={isDark} handleChange={() => setIsDark(!isDark)} />
-      </div>
+  <Toggle isChecked={isDark} handleChange={toggleTheme} />      </div>
 
       {/* End Back To Top */}
       <Footer />

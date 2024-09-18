@@ -2,7 +2,7 @@
     Color Darker Version  
 ----------------------------*/
 .active-dark {
-    background: #101010;
+    background: #04102d;
     [data-overlay="6"]:before,
     [data-black-overlay="6"]:before,
     [data-white-overlay="6"]:before {
@@ -18,7 +18,7 @@
     }
 
     .title1{
-        color: #00010c;
+        color: #04102d;
     }
 
 
@@ -35,7 +35,7 @@
     }
 
     .service-area {
-        background-color: #191919!important;
+        background-color: #04102d!important;
     }
 
     .cursor {
@@ -56,14 +56,14 @@
     }
     .bg_color--1 ,
     .brand-separation {
-        background: #191919;
+        background: #04102d;
     }
     .bg_color--5,
     .footer-right {
-        background: #101010;
+        background: #04102d
     }
     .bg_color--3 {
-        background: #101010;
+        background: #04102d
     }
  
     h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
@@ -117,7 +117,7 @@
         box-shadow: inset 0 0 0 5px #ffffff;
     }
     .creative-service-wrapper .row.creative-service .service.service__style--2 {
-        background: #191919;
+        background: #04102d;
     }
     .contact-form--1 input, .contact-form--1 textarea ,
     .header-area.color-black a.rn-btn {
@@ -127,7 +127,7 @@
         border-color: $theme-color;
     }
     .header-area.header--fixed.sticky {
-        background: #191919;
+        background: #04102d;
     }
     .header-area.header--fixed.sticky .header-wrapper a.rn-btn {
         color: #ffffff;
@@ -138,7 +138,7 @@
         border-color: $theme-color;
     }
     .bg_image--25 {
-        background-color: #101010;
+        background-color: #04102d;
         background-image: url(/assets/images/bg/slider.gif) !important;
         background-position: center center;
         background-repeat: no-repeat;
@@ -173,7 +173,7 @@
             color: #c6c9d8 !important;
         }
         .header-area .header-wrapper .mainmenunav ul.mainmenu {
-            background: #101010;
+            background: #04102d
         }
         .header-area .header-wrapper.menu-open .close-menu span {
             color: #c6c9d8 !important;
@@ -196,7 +196,7 @@
             color: #c6c9d8 !important;
         }
         .header-area .header-wrapper .mainmenunav ul.mainmenu {
-            background: #101010;
+            background: #04102d
         }
         .header-area .header-wrapper.menu-open .close-menu span {
             color: #c6c9d8 !important;
@@ -362,7 +362,7 @@ font-family: 'Poppins', sans-serif;
     top: 0;
     width: 100%;
     height: 100%;
-    background: #00010c;
+    background: #04102d;
     opacity: 0.57;
 }
 
@@ -645,7 +645,7 @@ textarea:-ms-input-placeholder {
 }
 
 [data-black-overlay]:before {
-    background-color: #00010c;
+    background-color: #04102d;
 }
 
 [data-white-overlay]:before {
@@ -787,7 +787,7 @@ img.react-parallax-bgimage {
 }
 
 .bg_color--3 {
-    background: #101010;
+    background: #04102d
 }
 
 

@@ -1,4 +1,5 @@
-import React, { Component } from "react";
+import React, { Component, useState, useContext } from "react";
+
 import Slider from "react-slick";
 import { portfolioSlick2 } from "../../../page-demo/script";
 import {Link} from "react-router-dom";

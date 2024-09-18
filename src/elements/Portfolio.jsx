@@ -1,4 +1,5 @@
-import React, { Component } from "react";
+import React, { Component, useState, useContext } from "react";
+
 import PageHelmet from "../component/common/Helmet";
 import Slider from "react-slick";
 import { slickDot } from "../page-demo/script";

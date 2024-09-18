@@ -1,4 +1,5 @@
-import React, { Component } from "react";
+import React, { Component, useState, useContext } from "react";
+
 import ModalVideo from 'react-modal-video'
 import { FaPlay } from "react-icons/fa";
 

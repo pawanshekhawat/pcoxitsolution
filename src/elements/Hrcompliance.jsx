@@ -1,4 +1,5 @@
-import React, { useState } from "react";
+import React, { useState, useContext } from "react";
+
 import PageHelmet from "../component/common/Helmet";
 import ModalVideo from 'react-modal-video';
 import ScrollToTop from 'react-scroll-up';
@@ -16,7 +17,7 @@ const ServiceDetails = () => {
         setIsOpen(true);
     };
 
-    const [isDark, setIsDark] = useState(false);
+     const { isDark, toggleTheme } = useContext(ThemeContext);
 
     const { t } = useTranslation();
 
@@ -93,7 +94,7 @@ const ServiceDetails = () => {
 
             <div className="toggle-button">
 
-                <Toggle isChecked={isDark} handleChange={() => setIsDark(!isDark)} />
+                <Toggle isChecked={isDark} handleChange={toggleTheme} />
 
             </div>
 

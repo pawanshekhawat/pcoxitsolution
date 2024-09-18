@@ -1,4 +1,5 @@
-import React, { Component } from "react";
+import React, { Component, useState, useContext } from "react";
+
 import { Parallax } from "react-parallax";
 
 const image1 =

@@ -1,4 +1,4 @@
-import React, { Component, useState } from "react";
+import React, { useContext, useState } from "react";
 import PageHelmet from "../component/common/Helmet";
 import Breadcrumb from "../elements/common/Breadcrumb";
 import { FiBox, FiGlobe, FiMonitor, FiChevronUp } from "react-icons/fi";
@@ -8,6 +8,7 @@ import Footer from "../component/footer/Footer";
 
 import Toggle from "../component/Toggle/Toggle";
 import { useTranslation } from 'react-i18next';
+import { ThemeContext } from '../ThemeContext';
 
 
 
@@ -58,7 +59,7 @@ const Service = () => {
         // }
     ];
 
-    const [isDark, setIsDark] = useState(false);
+     const { isDark, toggleTheme } = useContext(ThemeContext);
 
     return (
         <div className={isDark ? "active-dark" : "active-light"}>
@@ -115,8 +116,7 @@ const Service = () => {
 
             <div className="toggle-button">
 
-                <Toggle isChecked={isDark} handleChange={() => setIsDark(!isDark)} />
-
+          <Toggle isChecked={isDark} handleChange={toggleTheme} />
             </div>
 
 

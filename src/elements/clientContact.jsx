@@ -1,4 +1,5 @@
-import React, { Component, useState } from "react";
+import React, { useState, useContext } from "react";
+
 import PageHelmet from "../component/common/Helmet";
 import { FiHeadphones, FiMail, FiMapPin } from "react-icons/fi";
 import GoogleMapReact from 'google-map-react';
@@ -10,7 +11,7 @@ import HeaderThree from "../component/header/HeaderThree";
 import Footer from "../component/footer/Footer";
 import { Background } from "react-parallax";
 import Breadcrumb from "./common/Breadcrumb";
-
+import { ThemeContext } from '../ThemeContext';
 import Toggle from "../component/Toggle/Toggle";
 
 
@@ -25,7 +26,7 @@ const Contact = () => {
     //     zoom: 11
     // };
 
-    const [isDark, setIsDark] = useState(false);
+     const { isDark, toggleTheme } = useContext(ThemeContext);
 
 
     return (
@@ -146,7 +147,7 @@ const Contact = () => {
 
             <div className="toggle-button">
 
-                <Toggle isChecked={isDark} handleChange={() => setIsDark(!isDark)} />
+                <Toggle isChecked={isDark} handleChange={toggleTheme} />
 
             </div>
 

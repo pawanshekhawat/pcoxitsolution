@@ -1,17 +1,19 @@
-import React, { useState } from "react";
+import React, { useState, useContext } from "react";
+
 import PageHelmet from "../component/common/Helmet";
 import { FiClock, FiUser, FiChevronUp } from "react-icons/fi";
 import { Link } from "react-router-dom";
 import ScrollToTop from "react-scroll-up";
 import HeaderThree from "../component/header/HeaderThree";
 import Footer from "../component/footer/Footer";
-import Toggle from "../component/Toggle/Toggle";
+import Toggle from '../component/Toggle/Toggle';
+import { ThemeContext } from '../ThemeContext';
 import { useTranslation } from "react-i18next";
 
 const BlogDetails = () => {
   const { t } = useTranslation();
-  const [isDark, setIsDark] = useState(false);
-
+  const { isDark, toggleTheme } = useContext(ThemeContext);
+  
   return (
     <div className={isDark ? "active-dark" : "active-light"}>
       <PageHelmet pageTitle={t('blog_byb_title1')} />
@@ -94,8 +96,7 @@ const BlogDetails = () => {
       <Footer />
 
       <div className="toggle-button">
-        <Toggle isChecked={isDark} handleChange={() => setIsDark(!isDark)} />
-      </div>
+<Toggle isChecked={isDark} handleChange={toggleTheme} />      </div>
     </div>
   );
 };

@@ -1,4 +1,5 @@
-import React, { useState } from "react";
+import React, { useState, useContext } from "react";
+
 import PageHelmet from "../../component/common/Helmet";
 import HeaderThree from "../../component/header/HeaderThree";
 import Footer from "../../component/footer/Footer";
@@ -10,9 +11,18 @@ import CMBredCrmb from "../../../public/assets/images/service/breadcrumbCM.jpg";
 
 import { useTranslation } from "react-i18next";
 
+import { ThemeContext } from '../../ThemeContext';
+
 const ContentService = () => {
   const { t } = useTranslation();
-  const [isDark, setIsDark] = useState(false);
+  
+  const [isOpen, setIsOpen] = useState(false);
+
+  const openModal = () => {
+    setIsOpen(true);
+  };
+
+   const { isDark, toggleTheme } = useContext(ThemeContext);
 
   const pageTitle = "Content Marketing";
 
@@ -165,8 +175,7 @@ const ContentService = () => {
       </div>
 
       <div className="toggle-button">
-        <Toggle isChecked={isDark} handleChange={() => setIsDark(!isDark)} />
-      </div>
+  <Toggle isChecked={isDark} handleChange={toggleTheme} />      </div>
 
       <Footer />
     </div>

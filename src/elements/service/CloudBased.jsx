@@ -1,4 +1,5 @@
-import React, { useState } from "react";
+import React, { useState, useContext } from "react";
+
 import PageHelmet from "../../component/common/Helmet";
 import HeaderThree from "../../component/header/HeaderThree";
 import Footer from "../../component/footer/Footer";
@@ -10,6 +11,8 @@ import CCSBredCrmb from "../../../public/assets/images/service/breadcrumbCCS.jpg
 
 import { useTranslation } from "react-i18next";
 
+import { ThemeContext } from '../../ThemeContext';
+
 const CloudBased = () => {
   const { t } = useTranslation();
   const [isOpen, setIsOpen] = useState(false);
@@ -18,7 +21,7 @@ const CloudBased = () => {
     setIsOpen(true);
   };
 
-  const [isDark, setIsDark] = useState(false);
+   const { isDark, toggleTheme } = useContext(ThemeContext);
 
   const pageTitle = "Cloud-Based Solutions";
 
@@ -165,8 +168,7 @@ const CloudBased = () => {
       {/* End Back To Top */}
 
       <div className="toggle-button">
-        <Toggle isChecked={isDark} handleChange={() => setIsDark(!isDark)} />
-      </div>
+  <Toggle isChecked={isDark} handleChange={toggleTheme} />      </div>
 
       <Footer />
     </div>

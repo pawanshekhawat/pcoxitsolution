@@ -9,7 +9,6 @@ import TabTwo from "../elements/tab/TabTwo";
 import ContactThree from "../elements/contact/ContactThree";
 import PortfolioList from "../elements/portfolio/PortfolioList";
 import ServiceList from "../elements/service/ServiceList";
-import Styles from "../../public/assets/css/custom.module.css";
 
 // import BlogContent from "../elements/blog/BlogContent";
 // import MultiLang from '../component/MultiLang/MultiLang';
@@ -31,7 +30,7 @@ const SlideList = [
 ];
 
 const PortfolioLanding = () => {
-    const { isDark, toggleTheme } = useContext(ThemeContext);
+  const { isDark, toggleTheme } = useContext(ThemeContext);
 
   const { t } = useTranslation();
   const BlogContent = [
@@ -81,25 +80,24 @@ const PortfolioLanding = () => {
                   <div className="col-lg-12">
                     <div className={`inner ${value.textPosition}`}>
                       {value.category ? (
-                        <span className={`${Styles.homePageHeroTitles} title`}>
+                        <span className="homePageHeroTitlesSpan title text-white">
                           {t("home_hero_sec_desc")}
                         </span>
                       ) : (
                         ""
                       )}
-                      <h1 className={`${Styles.homePageHeroTitles} title`}>
-                        {" "}
+                      <h1 className="homePageHeroTitles title">
                         {t("home_hero_sec_title")} <br />
                         <TextLoop>
-                          <span>
-                            {t("home_hero_sec_loop1")
-                              ? t("home_hero_sec_loop1")
-                              : " "}
+                          <span className="homePageLoopText">
+                            {t("home_hero_sec_loop1")}
                           </span>
-                          <span>{t("home_hero_sec_loop2")}</span>
-                          <span>
-                            {t("home_hero_sec_loop3_1")} <br />{" "}
-                            {t("home_hero_sec_loop3_2")}{" "}
+                          <span className="homePageLoopText">
+                            {t("home_hero_sec_loop2")}
+                          </span>
+                          <span className="homePageLoopText">
+                            {t("home_hero_sec_loop3_1")} <br />
+                            {t("home_hero_sec_loop3_2")}
                           </span>
                         </TextLoop>
                       </h1>

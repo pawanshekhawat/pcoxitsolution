@@ -5,7 +5,7 @@ import Footer from "../../component/footer/Footer";
 import Toggle from "../../component/Toggle/Toggle";
 import ScrollToTop from "react-scroll-up";
 import { FiChevronUp } from "react-icons/fi";
-import Styles from "../../../public/assets/css/custom.module.css";
+ 
 import SMMBredCrmb from "../../../public/assets/images/service/breadcrumbSMM.jpg";
 
 import { useTranslation } from "react-i18next";
@@ -46,7 +46,7 @@ const SocialService = () => {
             backgroundPosition: "center",
           }}
         >
-          <div className={`${Styles.overlay}`}>
+          <div className="overlayServices">
             <div
               style={{
                 height: "600px",
@@ -62,7 +62,7 @@ const SocialService = () => {
               <div className="d-flex justify-content-center mb-4">
                 <a
                   href="#redirect"
-                  className={`${Styles.getStBtn} btn px-4 py-2 mt-3 rounded text-white`}
+                  className="getStBtn btn px-4 py-2 mt-3 rounded text-white"
                 >
                   Get Started
                 </a>
@@ -78,7 +78,7 @@ const SocialService = () => {
             <div className="row mx-auto">
               <div className="col-md-6 col-lg-6 mb-4">
                 <div
-                  className={`${Styles.DevProg} p-4 bg_color--5 rounded shadow-sm`}
+                  className="DevProg p-4 bg_color--5 rounded shadow-sm"
                 >
                   <h3 className="h3 font-weight-bold serviceProcHead">
                     {t("social_media_marketing_process1_1_title")}
@@ -88,7 +88,7 @@ const SocialService = () => {
               </div>
               <div className="col-md-6 col-lg-6 mb-4">
                 <div
-                  className={`${Styles.DevProg} p-4 bg_color--5 rounded shadow-sm`}
+                  className="DevProg p-4 bg_color--5 rounded shadow-sm"
                 >
                   <h3 className="h3 font-weight-bold serviceProcHead">
                     {t("social_media_marketing_process1_2_title")}
@@ -98,7 +98,7 @@ const SocialService = () => {
               </div>
               <div className="col-md-6 col-lg-6 mb-4">
                 <div
-                  className={`${Styles.DevProg} p-4 bg_color--5 rounded shadow-sm`}
+                  className="DevProg p-4 bg_color--5 rounded shadow-sm"
                 >
                   <h3 className="h3 font-weight-bold serviceProcHead">
                     {t("social_media_marketing_process1_3_title")}
@@ -109,7 +109,7 @@ const SocialService = () => {
 
               <div className="col-md-6 col-lg-6 mb-4">
                 <div
-                  className={`${Styles.DevProg} p-4 bg_color--5 rounded shadow-sm`}
+                  className="DevProg p-4 bg_color--5 rounded shadow-sm"
                 >
                   <h3 className="h3 font-weight-bold serviceProcHead">
                     {t("social_media_marketing_process1_4_title")}
@@ -126,27 +126,27 @@ const SocialService = () => {
             </h2>
             <div className="row">
               <div className="col-6 col-md-4 col-lg-3 mb-4">
-                <div className={`${Styles.cardBtn2} p-3 rounded text-center`}>
+                <div className="cardBtn2 p-3 rounded text-center">
                   {t("social_media_marketing_solution1_1")}
                 </div>
               </div>
               <div className="col-6 col-md-4 col-lg-3 mb-4">
-                <div className={`${Styles.cardBtn2} p-3 rounded text-center`}>
+                <div className="cardBtn2 p-3 rounded text-center">
                   {t("social_media_marketing_solution1_2")}
                 </div>
               </div>
               <div className="col-6 col-md-4 col-lg-3 mb-4">
-                <div className={`${Styles.cardBtn2} p-3 rounded text-center`}>
+                <div className="cardBtn2 p-3 rounded text-center">
                   {t("social_media_marketing_solution1_3")}
                 </div>
               </div>
               <div className="col-6 col-md-4 col-lg-3 mb-4">
-                <div className={`${Styles.cardBtn2} p-3 rounded text-center`}>
+                <div className="cardBtn2 p-3 rounded text-center">
                   {t("social_media_marketing_solution1_4")}
                 </div>
               </div>
               <div className="col-6 col-md-4 col-lg-3 mb-4">
-                <div className={`${Styles.cardBtn2} p-3 rounded text-center`}>
+                <div className="cardBtn2 p-3 rounded text-center">
                   {t("social_media_marketing_solution1_5")}
                 </div>
               </div>

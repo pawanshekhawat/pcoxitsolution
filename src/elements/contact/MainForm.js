@@ -1,89 +1,72 @@
 import React, { useState } from 'react';
 import emailjs from 'emailjs-com';
-import Select from 'react-select';
-import ContactPopUp from './ContactPopUp';
 import { useTranslation } from 'react-i18next';
+import ContactPopUp from './ContactPopUp'; // Import the popup component
 
-const Result = () => <p className="success-message">Thank you! We will get back to you soon.</p>;
+const Result = () => {
+    return (
+        <p className="success-message">Your Message has been successfully sent. I will contact you soon.</p>
+    );
+};
 
-function MainForm() {
+function MainForm({ props }) {
     const [result, showResult] = useState(false);
-    const [popupOpen, setPopupOpen] = useState(false);
-    const [formData, setFormData] = useState({
-        fname: '',
-        lname: '',
-        email: '',
-        phone: '',
-        message: ''
+    const [showPopup, setShowPopup] = useState(false); // State to show/hide the popup
+    const [FormData, setFormData] = useState({
+        fname: "",
+        lname: "",
+        email: "",
+        phone: "",
+        message: ""
     });
 
     const handleInputChange = (e) => {
-        if (e && e.target) {
-            const { name, value } = e.target;
-            setFormData((prevData) => ({
-                ...prevData,
-                [name]: value
-            }));
-        }
+        const { name, value } = e.target;
+        setFormData((prevData) => ({
+            ...prevData,
+            [name]: value,
+        }));
     };
 
     const sendEmail = async (e) => {
         e.preventDefault();
 
-        const postData = {
-            fname: formData.fname,
-            lname: formData.lname,
-            email: formData.email,
-            phone: formData.phone,
-            message: formData.message
-        };
-
-        try {
-            await emailjs.sendForm(
-                'service_p4x3hv8',
-                'template_jgfr42f',
+        emailjs
+            .sendForm(
+                'service_ugq0h5p',
+                'template_gzsif4t',
                 e.target,
-                'user_jrfTH2e0Ely35ZCVFdT9S'
+                'zBxfkmAk1QRYw3STT'
+            )
+            .then(
+                (result) => {
+                    console.log(result.text);
+                    showResult(true);
+                    setShowPopup(true); // Show popup after submission
+
+                    // Hide the popup after 10 seconds
+                    setTimeout(() => {
+                        setShowPopup(false);
+                    }, 10000);
+                },
+                (error) => {
+                    console.log(error.text);
+                }
             );
 
-            // Send POST request
-            await fetch(`http://localhost:5000/api/contact/register-contact`, {
-                method: 'POST',
-                headers: { 'Content-Type': 'application/json' },
-                body: JSON.stringify(postData),
-            });
-
-            showResult(true);
-            setPopupOpen(true);  // Open the pop-up after successful submission
-        } catch (error) {
-            console.error('Error:', error);
-        }
-
-        e.target.reset();
+        e.target.reset(); // Reset form after submission
     };
-
-    const closePopup = () => {
-        setPopupOpen(false);
-        showResult(false); // Reset the result state when the pop-up is closed
-    };
-
-    const options = [
-        { value: 'technical', label: 'Technical' },
-        { value: 'marketing', label: 'Marketing' },
-        { value: 'construction', label: 'Construction' },
-        { value: 'programming', label: 'Programming' }
-    ];
 
     const { t } = useTranslation();
 
     return (
         <>
-            <form onSubmit={sendEmail}>
+            <form method="POST" onSubmit={sendEmail}>
                 <div className="rn-form-group">
                     <input
                         type="text"
                         name="fname"
-                        value={formData.fname}
+                        value={FormData.fname}
                         placeholder="Enter your first name"
                         required
                         onChange={handleInputChange}
@@ -93,7 +76,7 @@ function MainForm() {
                     <input
                         type="text"
                         name="lname"
-                        value={formData.lname}
+                        value={FormData.lname}
                         placeholder="Enter your last name"
                         required
                         onChange={handleInputChange}
@@ -104,7 +87,7 @@ function MainForm() {
                     <input
                         type="email"
                         name="email"
-                        value={formData.email}
+                        value={FormData.email}
                         placeholder="Enter your email address"
                         required
                         onChange={handleInputChange}
@@ -115,7 +98,7 @@ function MainForm() {
                     <input
                         type="text"
                         name="phone"
-                        value={formData.phone}
+                        value={FormData.phone}
                         placeholder="Phone number with country code"
                         required
                         onChange={handleInputChange}
@@ -125,23 +108,25 @@ function MainForm() {
                 <div className="rn-form-group">
                     <textarea
                         name="message"
-                        value={formData.message}
+                        value={FormData.message}
                         placeholder="Enter your message"
                         required
                         onChange={handleInputChange}
                     />
                 </div>
-
                 <div className="rn-form-group">
-                    <button className="rn-button-style--2 btn-solid" type="submit">
+                    <button className="rn-button-style--2 btn-solid" type="submit" value="submit" name="submit" id="mc-embedded-subscribe">
                         Submit Now
                     </button>
                 </div>
+                <div className="rn-form-group">
+                    {result ? <Result /> : null}
+                </div>
             </form>
 
-            {/* Pop-up component with the result message */}
-            <ContactPopUp isOpen={popupOpen} onClose={closePopup}>
-                {result && <Result />}
+            {/* Show popup when form is submitted successfully */}
+            <ContactPopUp isOpen={showPopup} onClose={() => setShowPopup(false)}>
+                <p>Your form has been successfully submitted!</p>
             </ContactPopUp>
         </>
     );

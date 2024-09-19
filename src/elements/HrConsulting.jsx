@@ -7,7 +7,6 @@ import { FiChevronUp } from "react-icons/fi";
 import HeaderThree from "../component/header/HeaderThree";
 import Footer from "../component/footer/Footer";
 import Toggle from "../component/Toggle/Toggle";
-import Styles from "../../public/assets/css/custom.module.css";
 import { FaMedapps } from "react-icons/fa";
 import { SiAmazonwebservices } from "react-icons/si";
 import { TbDeviceMobileCharging } from "react-icons/tb";
@@ -16,7 +15,7 @@ import { IoCloudCircleOutline } from "react-icons/io5";
 import { BiSupport } from "react-icons/bi";
 
 import { useTranslation } from "react-i18next";
-import { ThemeContext } from '../ThemeContext';
+import { ThemeContext } from "../ThemeContext";
 
 const ServiceDetails = () => {
   const { t } = useTranslation();
@@ -26,7 +25,7 @@ const ServiceDetails = () => {
     setIsOpen(true);
   };
 
-   const { isDark, toggleTheme } = useContext(ThemeContext);
+  const { isDark, toggleTheme } = useContext(ThemeContext);
 
   return (
     <div className={isDark ? "active-dark" : "active-light"}>
@@ -57,133 +56,130 @@ const ServiceDetails = () => {
       <div className="rn-service-details pt--180 pb--120 bg_color--1">
         <div className="container">
           {/* Start Service Card Area */}
-          <h3 className={`${Styles.serviceHead}`}>{t("software_dev_0_title")}</h3>
-          <div className={`${Styles.serviceCards} row`}>
-            <div
-              className={`${Styles.serviceCard} card col-12 col-md-6 col-lg-3 mb-4`}
-            >
+          <h3 className="serviceHead">{t("software_dev_0_title")}</h3>
+          <div className="serviceCards row">
+            <div className="serviceCard card col-12 col-md-6 col-lg-3 mb-4">
               <div className="card-body">
                 <a
                   href="/service/software-development"
-                  className={`card-title h3 text-white ${Styles.title}`}
+                  className="card-title h3 text-white serviceCardTitle"
                 >
-                  <FaMedapps className={Styles.reactIcons} /> <br />
-                  {t('software_dev_1_head')}
+                  <FaMedapps className="reactIcons" /> <br />
+                  {t("software_dev_1_head")}
                 </a>
-                <div className={`${Styles.btmBtn} mt-3`}>
-                  <a href="/contact" className={`${Styles.cardBtn} btn`}>
+                <div className="btmBtn mt-3">
+                  <a href="/contact" className="cardBtn btn">
                     {t("services_wwp_card_btn1")}
                   </a>
-                  <a href="/service/software-development" className={`${Styles.cardBtn} btn ml-4`}>
+                  <a
+                    href="/service/software-development"
+                    className="cardBtn btn ml-4"
+                  >
                     {t("services_wwp_card_btn2")}
                   </a>
                 </div>
               </div>
             </div>
-            <div
-              className={`${Styles.serviceCard} card col-12 col-md-6 col-lg-3 mb-4`}
-            >
+            <div className="serviceCard card col-12 col-md-6 col-lg-3 mb-4">
               <div className="card-body">
                 <a
                   href="/service/web-app"
-                  className={`card-title h3 text-white ${Styles.title}`}
+                  className="card-title h3 text-white serviceCardTitle"
                 >
-                  <SiAmazonwebservices className={Styles.reactIcons} /> <br />
-                  {t('software_dev_2_head')}
+                  <SiAmazonwebservices className="reactIcons" /> <br />
+                  {t("software_dev_2_head")}
                 </a>
-                <div className={`${Styles.btmBtn} mt-3 d-flex`}>
-                  <a href="/contact" className={`${Styles.cardBtn} btn`}>
+                <div className="btmBtn mt-3 d-flex">
+                  <a href="/contact" className="cardBtn btn">
                     {t("services_wwp_card_btn1")}
                   </a>
-                  <a href="/service/web-app" className={`${Styles.cardBtn} btn ml-4`}>
+                  <a href="/service/web-app" className="cardBtn btn ml-4">
                     {t("services_wwp_card_btn2")}
                   </a>
                 </div>
               </div>
             </div>
-            <div
-              className={`${Styles.serviceCard} card col-12 col-md-6 col-lg-3 mb-4`}
- 
-            >
+            <div className="serviceCard card col-12 col-md-6 col-lg-3 mb-4">
               <div className="card-body">
                 <a
                   href="/service/mobile-app"
-                  className={`card-title h3 text-white ${Styles.title}`}
+                  className="card-title h3 text-white serviceCardTitle"
                 >
-                  <TbDeviceMobileCharging className={Styles.reactIcons} /><br />
-                  {t('software_dev_3_head')}
+                  <TbDeviceMobileCharging className="reactIcons" />
+                  <br />
+                  {t("software_dev_3_head")}
                 </a>
-                <div className={`${Styles.btmBtn} mt-3 d-flex`}>
-                  <a href="/contact" className={`${Styles.cardBtn} btn`}>
+                <div className="btmBtn mt-3 d-flex">
+                  <a href="/contact" className="cardBtn btn">
                     {t("services_wwp_card_btn1")}
                   </a>
-                  <a href="/service/mobile-app" className={`${Styles.cardBtn} btn ml-4`}>
+                  <a href="/service/mobile-app" className="cardBtn btn ml-4">
                     {t("services_wwp_card_btn2")}
                   </a>
                 </div>
               </div>
             </div>
-            <div
-              className={`${Styles.serviceCard} card col-12 col-md-6 col-lg-3 mb-4`}
- 
-            >
+            <div className="serviceCard card col-12 col-md-6 col-lg-3 mb-4">
               <div className="card-body">
                 <a
                   href="/service/software-integration"
-                  className={`card-title h3 text-white ${Styles.title}`}
+                  className="card-title h3 text-white serviceCardTitle"
                 >
-                  <IoIosAddCircleOutline className={Styles.reactIcons} /> <br />
-                  {t('software_dev_4_head')}
+                  <IoIosAddCircleOutline className="reactIcons" /> <br />
+                  {t("software_dev_4_head")}
                 </a>
-                <div className={`${Styles.btmBtn} mt-3 d-flex`}>
-                  <a href="/contact" className={`${Styles.cardBtn} btn`}>
+                <div className="btmBtn mt-3 d-flex">
+                  <a href="/contact" className="cardBtn btn">
                     {t("services_wwp_card_btn1")}
                   </a>
-                  <a href="/service/software-integration" className={`${Styles.cardBtn} btn ml-4`}>
+                  <a
+                    href="/service/software-integration"
+                    className="cardBtn btn ml-4"
+                  >
                     {t("services_wwp_card_btn2")}
                   </a>
                 </div>
               </div>
             </div>
-            <div
-              className={`${Styles.serviceCard} card col-12 col-md-6 col-lg-3 mb-4`}
- 
-            >
+            <div className="serviceCard card col-12 col-md-6 col-lg-3 mb-4">
               <div className="card-body">
                 <a
                   href="/service/cloud-based-solutions"
-                  className={`card-title h3 text-white ${Styles.title}`}
+                  className="card-title h3 text-white serviceCardTitle"
                 >
-                  <IoCloudCircleOutline className={Styles.reactIcons} /> <br />
-                  {t('software_dev_5_head')}
+                  <IoCloudCircleOutline className="reactIcons" /> <br />
+                  {t("software_dev_5_head")}
                 </a>
-                <div className={`${Styles.btmBtn} mt-3 d-flex`}>
-                  <a href="/contact" className={`${Styles.cardBtn} btn`}>
+                <div className="btmBtn mt-3 d-flex">
+                  <a href="/contact" className="cardBtn btn">
                     {t("services_wwp_card_btn1")}
                   </a>
-                  <a href="/service/cloud-based-solutions" className={`${Styles.cardBtn} btn ml-4`}>
+                  <a
+                    href="/service/cloud-based-solutions"
+                    className="cardBtn btn ml-4"
+                  >
                     {t("services_wwp_card_btn2")}
                   </a>
                 </div>
               </div>
             </div>
-            <div
-              className={`${Styles.serviceCard} card col-12 col-md-6 col-lg-3 mb-4`}
- 
-            >
+            <div className="serviceCard card col-12 col-md-6 col-lg-3 mb-4">
               <div className="card-body">
                 <a
                   href="/service/software-maintenance"
-                  className={`card-title h3 text-white ${Styles.title}`}
+                  className="card-title h3 text-white serviceCardTitle"
                 >
-                  <BiSupport className={Styles.reactIcons} /> <br />
-                  {t('software_dev_6_head')}
+                  <BiSupport className="reactIcons" /> <br />
+                  {t("software_dev_6_head")}
                 </a>
-                <div className={`${Styles.btmBtn} mt-3 d-flex`}>
-                  <a href="/contact" className={`${Styles.cardBtn} btn`}>
+                <div className="btmBtn mt-3 d-flex">
+                  <a href="/contact" className="cardBtn btn">
                     {t("services_wwp_card_btn1")}
                   </a>
-                  <a href="/service/software-maintenance" className={`${Styles.cardBtn} btn ml-4`}>
+                  <a
+                    href="/service/software-maintenance"
+                    className="cardBtn btn ml-4"
+                  >
                     {t("services_wwp_card_btn2")}
                   </a>
                 </div>
@@ -204,7 +200,8 @@ const ServiceDetails = () => {
       {/* End Back To Top */}
 
       <div className="toggle-button">
-  <Toggle isChecked={isDark} handleChange={toggleTheme} />      </div>
+        <Toggle isChecked={isDark} handleChange={toggleTheme} />{" "}
+      </div>
 
       <Footer />
     </div>

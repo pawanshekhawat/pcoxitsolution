@@ -7,8 +7,7 @@ import { FiChevronUp } from "react-icons/fi";
 import HeaderThree from "../component/header/HeaderThree";
 import Footer from "../component/footer/Footer";
 import Toggle from "../component/Toggle/Toggle";
-import Styles from "../../public/assets/css/custom.module.css";
-import { AiOutlineTruck } from "react-icons/ai";
+ import { AiOutlineTruck } from "react-icons/ai";
 import { LiaShipSolid } from "react-icons/lia";
 import { PiAirplaneTiltLight } from "react-icons/pi";
 
@@ -54,69 +53,69 @@ const ServiceDetails = () => {
       <div className="rn-service-details ptb--120 bg_color--1">
         <div className="container">
           {/* Start Service Card Area */}
-          <h3 className={`${Styles.serviceHead}`}>
+          <h3 className="serviceHead">
             {t("impo_expo_services_wwp_title")}
           </h3>
-          <div className={`${Styles.serviceCards} row`}>
+          <div className="serviceCards row">
             <div
-              className={`${Styles.serviceCard} card col-12 col-md-6 col-lg-3 mb-4`}
+              className="serviceCard card col-12 col-md-6 col-lg-3 mb-4"
             >
               <div className="card-body">
                 <a
                   href="#lt"
-                  className={`card-title h3 text-white ${Styles.title}`}
+                  className="card-title h3 text-white serviceCardTitle"
                 >
-                  <AiOutlineTruck className={Styles.reactIcons} /> <br />
+                  <AiOutlineTruck className="reactIcons" /> <br />
                   {t("impo_expo_services_wwp_card1_title")}
                 </a>
-                <div className={`${Styles.btmBtn} mt-3 d-flex`}>
-                  <a href="/contact" className={`${Styles.cardBtn} btn`}>
+                <div className="btmBtn mt-3 d-flex">
+                  <a href="/contact" className="cardBtn btn">
                     {t("services_wwp_card_btn1")}
                   </a>
-                  <a href="#lt" className={`${Styles.cardBtn} btn ml-4`}>
+                  <a href="#lt" className="cardBtn btn ml-4">
                     {t("services_wwp_card_btn2")}
                   </a>
                 </div>
               </div>
             </div>
             <div
-              className={`${Styles.serviceCard} card col-12 col-md-6 col-lg-3 mb-4`}
+              className="serviceCard card col-12 col-md-6 col-lg-3 mb-4"
             >
               <div className="card-body">
                 <a
                   href="#st"
-                  className={`card-title h3 text-white ${Styles.title}`}
+                  className="card-title h3 text-white serviceCardTitle"
                 >
-                  <LiaShipSolid className={Styles.reactIcons} /> <br />
+                  <LiaShipSolid className="reactIcons" /> <br />
                   {t("impo_expo_services_wwp_card2_title")}
                 </a>
-                <div className={`${Styles.btmBtn} mt-3 d-flex`}>
-                  <a href="/contact" className={`${Styles.cardBtn} btn`}>
+                <div className="btmBtn mt-3 d-flex">
+                  <a href="/contact" className="cardBtn btn">
                     {t("services_wwp_card_btn1")}
                   </a>
-                  <a href="#st" className={`${Styles.cardBtn} btn ml-4`}>
+                  <a href="#st" className="cardBtn btn ml-4">
                     {t("services_wwp_card_btn2")}
                   </a>
                 </div>
               </div>
             </div>
             <div
-              className={`${Styles.serviceCard} card col-12 col-md-6 col-lg-3 mb-4`}
+              className="serviceCard card col-12 col-md-6 col-lg-3 mb-4"
             >
               <div className="card-body">
                 <a
                   href="#at"
-                  className={`card-title h3 text-white ${Styles.title}`}
+                  className="card-title h3 text-white serviceCardTitle"
                 >
-                  <PiAirplaneTiltLight className={Styles.reactIcons} />
+                  <PiAirplaneTiltLight className="reactIcons" />
                   <br />
                   {t("impo_expo_services_wwp_card3_title")}
                 </a>
-                <div className={`${Styles.btmBtn} mt-3 d-flex`}>
-                  <a href="/contact" className={`${Styles.cardBtn} btn`}>
+                <div className="btmBtn mt-3 d-flex">
+                  <a href="/contact" className="cardBtn btn">
                     {t("services_wwp_card_btn1")}
                   </a>
-                  <a href="#at" className={`${Styles.cardBtn} btn ml-4`}>
+                  <a href="#at" className="cardBtn btn ml-4">
                     {t("services_wwp_card_btn2")}
                   </a>
                 </div>
@@ -138,7 +137,7 @@ const ServiceDetails = () => {
                           src="/assets/images/service/hrservice01.JPG"
                           alt="Service Images"
                         />
-                        <ul className={`${Styles.serviceLists} liststyle`}>
+                        <ul className="serviceLists liststyle">
                           <li>{t("impo_expo_services_1_li1")}</li> <br />
                           <li>{t("impo_expo_services_1_li3")}</li> <br />
                         </ul>
@@ -146,13 +145,13 @@ const ServiceDetails = () => {
                     </div>
                     <div className="col-lg-6 col-12">
                       <div className="title">
-                        <h4 className={`${Styles.serviceDTitle} title`}>
+                        <h4 className="serviceDTitle title">
                           {t("impo_expo_services_1_head")}
                         </h4>
-                        <div className={`${Styles.serviceDdesc} mb-3`}>
+                        <div className="serviceDdesc mb-3">
                           {t("impo_expo_services_1_desc")}
                         </div>
-                        <ul className={`${Styles.serviceLists} liststyle`}>
+                        <ul className="serviceLists liststyle">
                           <li>{t("impo_expo_services_1_li2")}</li> <br />
                           <li id="st">{t("impo_expo_services_1_li4")}</li> <br />
                         </ul>
@@ -165,13 +164,13 @@ const ServiceDetails = () => {
                   <div className="row sercice-details-content pb--80 align-items-start">
                     <div className="col-lg-6 col-12 mt-2">
                       <div className="title">
-                        <h4 className={`${Styles.serviceDTitle} title`}>
+                        <h4 className="serviceDTitle title">
                           {t("impo_expo_services_2_head")}
                         </h4>
-                        <div className={`${Styles.serviceDdesc} mb-3`}>
+                        <div className="serviceDdesc mb-3">
                           {t("impo_expo_services_2_desc")}
                         </div>
-                        <ul className={`${Styles.serviceLists} liststyle`}>
+                        <ul className="serviceLists liststyle">
                           <li>{t("impo_expo_services_2_li1")}</li> <br />
                           <li>{t("impo_expo_services_2_li2")}</li> <br />
                           <li>{t("impo_expo_services_2_li3")}</li> <br />
@@ -205,13 +204,13 @@ const ServiceDetails = () => {
                   </div>
                   <div className="col-lg-6 col-12 mt-2">
                     <div className="title">
-                      <h4 className={`${Styles.serviceDTitle} title`}>
+                      <h4 className="serviceDTitle title">
                         {t("impo_expo_services_3_head")}
                       </h4>
-                      <div className={`${Styles.serviceDdesc} mb-3`}>
+                      <div className="serviceDdesc mb-3">
                         {t("impo_expo_services_3_desc")}
                       </div>
-                      <ul className={`${Styles.serviceLists} liststyle`}>
+                      <ul className="serviceLists liststyle">
                         <li>{t("impo_expo_services_3_li1")}</li> <br />
                         <li>{t("impo_expo_services_3_li2")}</li> <br />
                         <li>{t("impo_expo_services_3_li3")}</li> <br />

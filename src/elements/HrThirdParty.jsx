@@ -7,8 +7,7 @@ import { FiChevronUp } from "react-icons/fi";
 import HeaderThree from "../component/header/HeaderThree";
 import Footer from "../component/footer/Footer";
 import Toggle from "../component/Toggle/Toggle";
-import Styles from "../../public/assets/css/custom.module.css";
-import { RiSeoLine } from "react-icons/ri";
+ import { RiSeoLine } from "react-icons/ri";
 import { BiBookContent } from "react-icons/bi";
 import { IoShareSocialSharp } from "react-icons/io5";
 import { TbClick } from "react-icons/tb";
@@ -56,31 +55,31 @@ const ServiceDetails = () => {
       <div className="rn-service-details ptb--120 bg_color--1">
         <div className="container">
           {/* Start Service Card Area */}
-          <h3 className={`${Styles.serviceHead}`}>In Digital Marketing, Here's what we provide</h3>
-          <div className={`${Styles.serviceCards} row`}>
+          <h3 className="serviceHead">In Digital Marketing, Here's what we provide</h3>
+          <div className="serviceCards row">
             <div
-              className={`${Styles.serviceCard} card col-12 col-md-6 col-lg-3 mb-4`}
+              className="serviceCard card col-12 col-md-6 col-lg-3 mb-4"
  
             >
               <div className="card-body">
                 <a
                   href="/service/search-engine-optimization"
-                  className={`card-title h3 text-white ${Styles.title}`}
+                  className="card-title h3 text-white serviceCardTitle"
                 >
-                  <RiSeoLine className={Styles.reactIcons} /> <br />
+                  <RiSeoLine className="reactIcons" /> <br />
                   Search Engine Optimization (SEO)
                 </a>
-                <div className={`${Styles.btmBtn} mt-3 d-flex`}>
+                <div className="btmBtn mt-3 d-flex">
                   <a
                     href="/contact"
-                    className={`${Styles.cardBtn} btn`}
+                    className="cardBtn btn"
                    
                   >
                     {t("services_wwp_card_btn1")}
                   </a>
                   <a
                     href="/service/search-engine-optimization"
-                    className={`${Styles.cardBtn} btn ml-4`}
+                    className="cardBtn btn ml-4"
                    
                   >
                     {t("services_wwp_card_btn2")}
@@ -89,25 +88,25 @@ const ServiceDetails = () => {
               </div>
             </div>
             <div
-              className={`${Styles.serviceCard} card col-12 col-md-6 col-lg-3 mb-4`}
+              className="serviceCard card col-12 col-md-6 col-lg-3 mb-4"
  
             >
               <div className="card-body">
-                <a href="/service/content-marketing" className={`card-title h3 text-white ${Styles.title}`}>
-                  <BiBookContent className={Styles.reactIcons} /> <br />
+                <a href="/service/content-marketing" className="card-title h3 text-white serviceCardTitle">
+                  <BiBookContent className="reactIcons" /> <br />
                   Strategic Content Marketing
                 </a>
-                <div className={`${Styles.btmBtn} mt-3 d-flex`}>
+                <div className="btmBtn mt-3 d-flex">
                   <a
                     href="/contact"
-                    className={`${Styles.cardBtn} btn`}
+                    className="cardBtn btn"
                    
                   >
                     {t("services_wwp_card_btn1")}
                   </a>
                   <a
                     href="/service/content-marketing"
-                    className={`${Styles.cardBtn} btn ml-4`}
+                    className="cardBtn btn ml-4"
                    
                   >
                     {t("services_wwp_card_btn2")}
@@ -116,25 +115,25 @@ const ServiceDetails = () => {
               </div>
             </div>
             <div
-              className={`${Styles.serviceCard} card col-12 col-md-6 col-lg-3 mb-4`}
+              className="serviceCard card col-12 col-md-6 col-lg-3 mb-4"
  
             >
               <div className="card-body">
-                <a href="/service/social-media-marketing" className={`card-title h3 text-white ${Styles.title}`}>
-                  <IoShareSocialSharp className={Styles.reactIcons}/> <br />
+                <a href="/service/social-media-marketing" className="card-title h3 text-white serviceCardTitle">
+                  <IoShareSocialSharp className="reactIcons"/> <br />
                   Social Media Marketing
                 </a>
-                <div className={`${Styles.btmBtn} mt-3 d-flex`}>
+                <div className="btmBtn mt-3 d-flex">
                   <a
                     href="/contact"
-                    className={`${Styles.cardBtn} btn`}
+                    className="cardBtn btn"
                    
                   >
                     {t("services_wwp_card_btn1")}
                   </a>
                   <a
                     href="/service/social-media-marketing"
-                    className={`${Styles.cardBtn} btn ml-4`}
+                    className="cardBtn btn ml-4"
                   >
                     {t("services_wwp_card_btn2")}
                   </a>
@@ -142,25 +141,25 @@ const ServiceDetails = () => {
               </div>
             </div>
             <div
-              className={`${Styles.serviceCard} card col-12 col-md-6 col-lg-3 mb-4`}
+              className="serviceCard card col-12 col-md-6 col-lg-3 mb-4"
  
             >
               <div className="card-body">
-                <a href="/service/pay-per-click" className={`card-title h3 text-white ${Styles.title}`}>
-                  <TbClick className={Styles.reactIcons}/> <br />
+                <a href="/service/pay-per-click" className="card-title h3 text-white serviceCardTitle">
+                  <TbClick className="reactIcons"/> <br />
                   Pay-Per-Click (PPC) Advertising
                 </a>
-                <div className={`${Styles.btmBtn} mt-3 d-flex`}>
+                <div className="btmBtn mt-3 d-flex">
                   <a
                     href="/contact"
-                    className={`${Styles.cardBtn} btn`}
+                    className="cardBtn btn"
                    
                   >
                     {t("services_wwp_card_btn1")}
                   </a>
                   <a
                     href="/service/pay-per-click"
-                    className={`${Styles.cardBtn} btn ml-4`}
+                    className="cardBtn btn ml-4"
                    
                   >
                     {t("services_wwp_card_btn2")}

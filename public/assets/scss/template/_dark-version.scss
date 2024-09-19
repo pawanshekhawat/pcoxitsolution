@@ -138,12 +138,12 @@
         border-color: $theme-color;
     }
     .bg_image--25 {
-        background-color: #04102d;
+        background-color: #000 !important;
         background-image: url(/assets/images/bg/slider.gif) !important;
         background-position: center center;
         background-repeat: no-repeat;
         background-size: cover;
-        opacity: 0.2;
+        opacity: 0.4;
     }
     .backto-top>div {
         background-color: #000;
@@ -217,6 +217,18 @@
             border-color: transparent transparent $theme-color transparent
         }
     }
+
+    .serviceCardTitle {
+        margin-bottom: 40px;
+        font-size: 22px !important;
+        color: #fff!important;
+    }
+
+    .cardBtn2{
+        background-color: transparent!important;
+        color: #fff!important;
+    }
+    
 }
 
 .active-light {
@@ -723,64 +735,19 @@ img.react-parallax-bgimage {
     object-fit: contain;
 }
 
-.custom_cardBtn2__t5nCv  {
-    background-color: #fff !important;
-    border: 1px solid #cc2f33;
-    color: #000 !important;
-    font-size: 18px !important;
-    transition: all 0.3s;
-}
-
-.custom_cardBtn2__t5nCv:hover {
-    color: #fff !important;
-    transform: translateZ(-5px);
-    font-size: 18px !important;
-    background-color: #cc2f33 !important;
-    border: 1px solid #fff;
-}
-
-.custom_DevProg__1ANzF {
-    border: 0 !important;
-    background-color: #fff;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px !important;
-}
-
-.custom_DevProg__1ANzF:hover .serviceProcHead {
-    color: #fff;
-}
-
 .mainmenu li a{
     color: #fff !important;
 }
 
-// .header-area {
-//     background-color: #1a1b1f !important;
+// .custom_cardBtn__2TSNe {
+//     background-color: #fff !important;
+//     color: #000 !important;
 // }
 
-.custom_serviceCard__1PV0h {
-    border: 0 !important;
-    background-color: #fff !important;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px !important;
-}
-
-.custom_serviceCard__1PV0h:hover .custom_title__2ljIB{
-    color: #fff!important;
-}
-
-.custom_title__2ljIB {
-    color: #000 !important;
-    transition: all 0.3s !important;
-}
-
-.custom_cardBtn__2TSNe {
-    background-color: #fff !important;
-    color: #000 !important;
-}
-
-.custom_cardBtn__2TSNe:hover {
-    color: #fff!important;
-    background-color: #cc2f33!important;
-}
+// .custom_cardBtn__2TSNe:hover {
+//     color: #fff!important;
+//     background-color: #cc2f33!important;
+// }
 
 .cursor {
     z-index: 999999 !important;
@@ -790,6 +757,74 @@ img.react-parallax-bgimage {
     background: #04102d
 }
 
+@media #{$sm-layout} {
+    .header-style-two .humberger-menu span.text-white {
+        color: #000 !important;
+    }
+    .header-area .header-wrapper .mainmenunav ul.mainmenu {
+        background: #fff
+    }
+    .header-area .header-wrapper.menu-open .close-menu span {
+        color: #000 !important;
+    }
+    .header-area.header--fixed.sticky .humberger-menu span.text-white {
+        color: #000 !important;
+    }
+    .service.service__style--2 .content p {
+        color: #000;
+    }
+    .header-area .header-wrapper .mainmenunav ul.mainmenu li a  {
+        color: #000 !important;
+    }
+    .header-area .header-wrapper .mainmenunav ul.mainmenu li.has-droupdown>a::after {
+        border-color: #000 transparent transparent transparent;
+    }
+    .header-area .header-wrapper .mainmenunav ul.mainmenu li.has-droupdown>a.open::after {
+        border-color: transparent transparent $theme-color transparent
+    }
+    .social-share li a {
+        color: #cc2f33;
+    }
+}
+
+.serviceCardTitle {
+    margin-bottom: 40px;
+    font-size: 22px !important;
+    color: #cc2f33!important;
+}
+.serviceCardTitle:hover {
+    margin-bottom: 40px;
+    font-size: 22px !important;
+    color: #fff!important;
+}
+
+.serviceCard {
+    border: 0 !important;
+    background-color: #fff !important;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px !important;
+}
+
+.serviceCard:hover .serviceCardTitle {
+    color: #fff!important;
+}
+
+.serviceCard:hover {
+    background-color: #cc2f33 !important;
+}
+
+.serviceCard:hover .reactIcons {
+    color: #fff;
+}
+
+.cardBtn{
+    background-color: #fff!important;
+    color: #000!important;
+}
+.cardBtn:hover{
+    background-color: #cc2f33!important;
+    color: #fff!important;
+    border: 1px solid #fff;
+}
 
 }
 

@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import emailjs from 'emailjs-com';
 import { useTranslation } from 'react-i18next';
-import ContactPopUp from './ContactPopUp'; // Import the popup component
+// import ContactPopUp from './ContactPopUp'; // Import the popup component
 
 const Result = () => {
     return (
@@ -11,7 +11,7 @@ const Result = () => {
 
 function MainForm({ props }) {
     const [result, showResult] = useState(false);
-    const [showPopup, setShowPopup] = useState(false); // State to show/hide the popup
+    // const [showPopup, setShowPopup] = useState(false); // State to show/hide the popup
     const [FormData, setFormData] = useState({
         fname: "",
         lname: "",
@@ -42,11 +42,11 @@ function MainForm({ props }) {
                 (result) => {
                     console.log(result.text);
                     showResult(true);
-                    setShowPopup(true); 
+                    // setShowPopup(true); 
 
                     setTimeout(() => {
-                        setShowPopup(false);
-                    }, 7000);
+                        window.location.reload();
+                    }, 2000);                    
                 },
                 (error) => {
                     console.log(error.text);
@@ -131,10 +131,10 @@ function MainForm({ props }) {
             </form>
 
             {/* Show popup when form is submitted successfully */}
-            <ContactPopUp isOpen={showPopup} onClose={() => setShowPopup(false)}>
+            {/* <ContactPopUp isOpen={showPopup} onClose={() => setShowPopup(false)}>
                 <p>Thanks for reaching out! <br/>
                 Your response has been successfully recorded</p>
-            </ContactPopUp>
+            </ContactPopUp> */}
         </>
     );
 }

@@ -1046,6 +1046,10 @@ gt matrik score area
   background-color: #cc2f33;
 }
 
+.rn-address {
+  height: 100%!important;
+}
+
 // Responsive
 @media #{$laptop-device} {
   .content .inner > p {
@@ -1060,4 +1064,91 @@ gt matrik score area
 }
 
 @media #{$sm-layout} {
+  //Navbar
+  // .homeLogo{
+  //   height: 40px;
+  // }
+
+  //Hero Section
+  .personal-portfolio-slider {
+    height: 400px!important;
+  }
+  .homePageHeroTitlesSpan{
+    font-size: 10px!important;
+  }
+  .homePageHeroTitles {
+    font-size: 24px!important;
+    line-height: 34px!important;
+  }
+  .homePageLoopText {
+    font-size: 20px!important;
+  }
+
+  //Home about us
+  .about-inner .section-title h2.title {
+    font-size: 24px;
+    text-align: center;
+  }
+  .row--35 {
+    text-align: center;
+  }
+  .about-inner .section-title .description  {
+    font-size: 14px!important;
+  } 
+  .single-tab-content p {
+    font-size: 14px!important;
+  }
+  .section-title title {
+    font-size: 24px!important;
+  }
+
+  //services
+  .rn-page-title-area {
+    padding-bottom: 80px!important;
+  }
+  .rn-service-details{
+    padding-top: 40px!important;
+
+  }
+  .serviceHead{
+    font-size: 24px!important;
+  }
+  .serviceCardTitle{
+    font-size: 18px!important;
+  }
+  .reactIcons {
+    width: 38px;
+    height: 38px;
+  }
+  .cardBtn {
+    font-size: 10px!important;
+  }
+  .serviceInTitile{
+    font-size: 28px!important;
+    padding: 0px 10px!important ;
+  }
+  .serviceInPara{
+    font-size: 14px!important;
+    padding: 0px 10px!important ;
+  }
+  .getStBtn {
+    font-size: 12px;
+  }
+  .DevProgTilte{
+    font-size: 28px!important;
+  }
+  .serviceProcHead{
+    font-size: 16px;
+  }
+  .DevProg{
+    padding: 15px!important;
+  }
+  .cardBtn2 {
+    font-size: 14px!important;
+    padding: 5px!important;
+  }
+  .contactBlogBtn {
+    font-size: 12px!important;
+    padding: 0px 15px!important;
+  }
 }

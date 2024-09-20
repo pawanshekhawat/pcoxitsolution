@@ -280,7 +280,7 @@
 
   .serviceCardTitle {
     margin-bottom: 40px;
-    font-size: 22px !important;
+    font-size: 22px;
     color: #fff !important;
   }
 
@@ -452,8 +452,8 @@ font-family: 'Poppins', sans-serif;
     font-size: 18px;
     line-height: 30px;
     @media #{$sm-layout} {
-      font-size: 16px !important;
-      line-height: 28px !important;
+      font-size: 12px !important;
+      line-height: 24px !important;
     }
   }
 
@@ -800,7 +800,7 @@ Custom Row
       color: #c6c9d8 !important;
     }
     .service.service__style--2 .content p {
-      color: #000;
+      color: #fff;
     }
     .header-area .header-wrapper .mainmenunav ul.mainmenu li a {
       color: #000 !important;
@@ -828,12 +828,12 @@ Custom Row
 
   .serviceCardTitle {
     margin-bottom: 40px;
-    font-size: 22px !important;
+    font-size: 22px;
     color: #cc2f33 !important;
   }
   .serviceCardTitle:hover {
     margin-bottom: 40px;
-    font-size: 22px !important;
+    font-size: 22px;
     color: #fff !important;
   }
 

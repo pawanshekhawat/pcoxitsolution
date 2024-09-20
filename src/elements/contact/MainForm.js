@@ -42,19 +42,25 @@ function MainForm({ props }) {
                 (result) => {
                     console.log(result.text);
                     showResult(true);
-                    setShowPopup(true); // Show popup after submission
+                    setShowPopup(true); 
 
-                    // Hide the popup after 10 seconds
                     setTimeout(() => {
                         setShowPopup(false);
-                    }, 10000);
+                    }, 7000);
                 },
                 (error) => {
                     console.log(error.text);
                 }
             );
 
-        e.target.reset(); // Reset form after submission
+        e.target.reset();
+        setFormData={
+            fname: "",
+            lname: "",
+            email: "",
+            phone: "",
+            message: ""
+        }
     };
 
     const { t } = useTranslation();
@@ -126,7 +132,8 @@ function MainForm({ props }) {
 
             {/* Show popup when form is submitted successfully */}
             <ContactPopUp isOpen={showPopup} onClose={() => setShowPopup(false)}>
-                <p>Your form has been successfully submitted!</p>
+                <p>Thanks for reaching out! <br/>
+                Your response has been successfully recorded</p>
             </ContactPopUp>
         </>
     );

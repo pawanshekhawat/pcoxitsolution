@@ -53,8 +53,8 @@ function PortfolioList(props) {
                         </div>
                         <div className="content">
                             <div className="inner">
-                                <p>{value.category}</p>
-                                <h4><a href="#">{value.title}</a></h4>
+                                <h3 className="text-white">{value.category}</h3>
+                                <p style={{fontSize: '20px'}}><a href="#">{value.title}</a></p>
                                 {/* <div className="portfolio-button">
                                         <a className="rn-btn" href="/portfolio-details">View Details</a>
                                     </div> */}

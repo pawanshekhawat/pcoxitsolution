@@ -19,7 +19,7 @@
 
   "home_hero_sec_title": "Potenciando su viaje digital",
   "home_hero_sec_desc": "Más de 400 empresas confían en nosotros",
-  "home_hero_sec_loop1": "Desarrollo de software",
+  "Software-Development": "Desarrollo de software",
   "home_hero_sec_loop2": "Marketing digital",
   "home_hero_sec_loop3_1": "Servicios de importación y exportación",
   "home_hero_sec_loop3_2": "Soluciones logísticas",
@@ -434,6 +434,8 @@
   "section6_desc1": "La tecnología evoluciona rápidamente y las empresas necesitan soluciones que puedan adaptarse a estos cambios. El software personalizado se puede diseñar teniendo en cuenta la escalabilidad, asegurando que crezca junto con su empresa. Se pueden agregar actualizaciones y nuevas funciones según sea necesario, manteniendo su software relevante y eficiente sin la necesidad de reemplazos completos.",
 
   "blog_byb_title1": "Potencia tu marca",
+  "blog_byb_author1": "Tech Solutions",
+  "blog_byb_date1": "July 19, 2024",
   "section1_byb_title1": "Entender la identidad de marca",
   "section1_byb_desc1": "La identidad de marca es crucial para causar una impresión memorable en el mercado. Abarca elementos como su logotipo, esquema de colores y diseño general, que contribuyen a cómo se percibe su marca. Crear una identidad de marca sólida ayuda a generar confianza y credibilidad entre su público objetivo.",
   "section2_byb_title1": "Crear una propuesta de valor única",

@@ -1,6 +1,16 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 
 const ContactPopUp = ({ isOpen, onClose, children }) => {
+  const [hrWidth, setHrWidth] = useState('10px');
+
+  useEffect(() => {
+    if (isOpen) {
+      setHrWidth('100%');
+    } else {
+      setHrWidth('10px');
+    }
+  }, [isOpen]);
+
   if (!isOpen) return null;
 
   return (
@@ -8,11 +18,9 @@ const ContactPopUp = ({ isOpen, onClose, children }) => {
       <div className="modal-dialog" role="document">
         <div className="modal-content">
           <div className="modal-header">
-            <h5 className="modal-title">Contact Us</h5>
-            <button type="button" className="close" aria-label="Close" onClick={onClose}>
-              <span aria-hidden="true">&times;</span>
-            </button>
+            <h5 className="modal-title">We will contact you soon!</h5>
           </div>
+          <hr className="popupBorder" style={{ width: hrWidth }} />
           <div className="modal-body">
             {children}
           </div>

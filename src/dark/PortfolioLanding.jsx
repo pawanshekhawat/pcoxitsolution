@@ -16,6 +16,8 @@ import ServiceList from "../elements/service/ServiceList";
 import Toggle from "../component/Toggle/Toggle";
 import { useTranslation } from "react-i18next";
 import { ThemeContext } from "../ThemeContext";
+import MainContact from "../elements/MainContact";
+import ContactFour from "../elements/contact/ContactFour";
 
 // import { UsageState } from 'webpack'
 
@@ -90,7 +92,7 @@ const PortfolioLanding = () => {
                         {t("home_hero_sec_title")} <br />
                         <TextLoop>
                           <span className="homePageLoopText">
-                            {t("home_hero_sec_loop1")}
+                            {t("Software-Development")}
                           </span>
                           <span className="homePageLoopText">
                             {t("home_hero_sec_loop2")}
@@ -195,13 +197,6 @@ const PortfolioLanding = () => {
                   item="6"
                 />
               </div>
-              {/* <div className="row">
-                                <div className="col-lg-12">
-                                    <div className="view-more-btn mt--60 mt_sm--30 text-center">
-                                        <a className="rn-button-style--2 btn-solid" href="/blog"><span>View More</span></a>
-                                    </div>
-                                </div>
-                            </div> */}
             </div>
           </div>
         </div>
@@ -217,7 +212,7 @@ const PortfolioLanding = () => {
                 <div className="section-title text-center">
                   <h2>{t("latest_blog")}</h2>
                   <p>
-                    {t("latest_blog_messaxge_1")} <br />{" "}
+                    {t("latest_blog_message_1")} <br />
                     {t("latest_blog_message_2")}
                   </p>
                 </div>
@@ -262,10 +257,7 @@ const PortfolioLanding = () => {
       {/* Start COntact Area */}
       <div id="contact" className="fix">
         <div className="rn-contact-area ptb--120 bg_color--1">
-          <ContactThree
-            contactImages="/assets/images/about/about-9.jpg"
-            contactTitle={t("user_indication_title")}
-          />
+          <ContactFour />
         </div>
       </div>
       {/* End COntact Area */}

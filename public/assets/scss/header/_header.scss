@@ -143,7 +143,7 @@
     &.header--fixed {
         position: absolute;
         top: 0;
-        z-index: 999;
+        z-index: 11;
         padding-left: 50px;
         padding-right: 50px;
         width: 100%;
@@ -564,24 +564,12 @@
             @media #{$sm-layout} {
                 padding: 15px 0;
             }
-            .logo {
-                a{
-                    img {
-                        @media #{$md-layout} {
-                            width: auto;
-                        }
-                        @media #{$sm-layout} {
-                            width: auto;
-                        }
-                    }
-                }
-            }
             .mainmenunav{
                 ul {
                     &.mainmenu {
                         li {
                             a {
-
+                                color: #fff;
                             }
                         }
                     }

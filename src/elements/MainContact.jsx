@@ -117,8 +117,8 @@ const MainContact = () => {
 
                   <p>
                     <a href="#" target="_blank">
-                      Bangalore, Karnataka, India, 560103{" "}
-                    </a>{" "}
+                      Bangalore, Karnataka, India, 560103 
+                    </a> 
                   </p>
                 </div>
               </div>

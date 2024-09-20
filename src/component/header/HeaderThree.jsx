@@ -70,15 +70,15 @@ const HeaderThree = (props) => {
     const getMenuUrl = () => {
         switch (logo) {
             case 'light':
-                return '/assets/images/logo/logo-light.png';
+                return '/assets/images/logo/white-trans.webp';
             case 'dark':
-                return '/assets/images/logo/logo-dark.png';
+                return '/assets/images/logo/white-trans.webp';
             case 'symbol-dark':
                 return '/assets/images/logo/white-trans.webp';
             case 'symbol-light':
-                return '/assets/images/logo/logo-symbol-light.png';
+                return '/assets/images/logo/white-trans.webp';
             default:
-                return '/assets/images/logo/logo.png';
+                return '/assets/images/logo/white-trans.webp';
         }
     };
     const { t } = useTranslation();
@@ -89,7 +89,7 @@ const HeaderThree = (props) => {
                 <div className="header-left d-flex align-items-center">
                     <div className="logo">
                         <a href={homeLink}>
-                            <img src={getMenuUrl()} height={100} width={180} alt="Digital Agency" />
+                            <img src={getMenuUrl()} width={180} alt="Digital Agency" className="homeLogo" />
                         </a>
                     </div>
                     <nav className="mainmenunav d-lg-block ml--50">
@@ -123,7 +123,7 @@ const HeaderThree = (props) => {
                         </Link>
                     </div> */}
                     <div className="humberger-menu d-block d-lg-none pl--20">
-                        <span onClick={menuTrigger} className="menutrigger text-white"><FiMenu /></span>
+                        <span onClick={menuTrigger} className="menutrigger text-white"><FiMenu className="hamBurger" /></span>
                     </div>
                     <div className="close-menu d-block d-lg-none">
                         <span onClick={CLoseMenuTrigger} className="closeTrigger"><FiX /></span>

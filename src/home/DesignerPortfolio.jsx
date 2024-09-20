@@ -44,7 +44,7 @@ const DesignerPortfolio = () => {
                                             <span> UX Designer.</span>
                                             <span> UI Designer.</span>
                                             <span> Content Writter.</span>
-                                        </TextLoop>{" "}
+                                        </TextLoop> 
                                         </h1>
                                         <h2>based in USA.</h2>
                                         {value.description ? <p className="description">{value.description}</p> : ''}

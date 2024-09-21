@@ -40,7 +40,7 @@ const BLogList = () => {
                                 <a href="/">{t("blog_title1")}</a>
                             </h4>
                             <div className="blog-btn">
-                                <a className="rn-btn text-white" href="/">Read More</a>
+                                <a className="rn-btn text-white" href="/why-your-business-needs-custom-software">Read More</a>
                             </div>
                         </div>
                     </div>
@@ -59,7 +59,7 @@ const BLogList = () => {
                                 <a href="/">{t("blog_byb_title1")}</a>
                             </h4>
                             <div className="blog-btn">
-                                <a className="rn-btn text-white" href="/">Read More</a>
+                                <a className="rn-btn text-white" href="/boost-your-brand">Read More</a>
                             </div>
                         </div>
                     </div>

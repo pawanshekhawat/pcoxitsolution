@@ -47,7 +47,7 @@ const SoftDev = () => {
               }}
               className="d-flex flex-column align-items-center justify-content-center text-dark text-center"
             >
-              <h1 className="display-4 text-white font-weight-bold mb-4 mx-auto">
+              <h1 className="display-4 text-white font-weight-bold mb-4 mx-auto serviceInTitile">
                 {t("sis_dev_1_head")}
               </h1>
               <p className="text-white mb-8">{t("sis_main_desc")}</p>
@@ -64,7 +64,7 @@ const SoftDev = () => {
         </div>
         <div className="container pt--120">
           <div className="bg_color--1 py-5">
-            <h2 className="display-4 text-center font-weight-normal mb-5">
+            <h2 className="display-4 text-center font-weight-normal mb-5 DevProgTilte">
               {t("sis_process1_main_title")}
             </h2>
             <div className="row mx-auto">
@@ -112,31 +112,31 @@ const SoftDev = () => {
           </div>
 
           <div className="py-5">
-            <h2 className="display-4 text-center mb-5">
+            <h2 className="display-4 text-center mb-5 DevProgTilte">
               {t("sis_solution1_title")}
             </h2>
             <div className="row">
-              <div className="col-6 col-md-4 col-lg-3 mb-4">
+              <div className="col-12 col-md-6 col-lg-3 mb-4">
                 <div className="cardBtn2 p-3 rounded text-center">
                   {t("sis_solution1_1")}
                 </div>
               </div>
-              <div className="col-6 col-md-4 col-lg-3 mb-4">
+              <div className="col-12 col-md-6 col-lg-3 mb-4">
                 <div className="cardBtn2 p-3 rounded text-center">
                   {t("sis_solution1_2")}
                 </div>
               </div>
-              <div className="col-6 col-md-4 col-lg-3 mb-4">
+              <div className="col-12 col-md-6 col-lg-3 mb-4">
                 <div className="cardBtn2 p-3 rounded text-center">
                   {t("sis_solution1_3")}
                 </div>
               </div>
-              <div className="col-6 col-md-4 col-lg-3 mb-4">
+              <div className="col-12 col-md-6 col-lg-3 mb-4">
                 <div className="cardBtn2 p-3 rounded text-center">
                   {t("sis_solution1_4")}
                 </div>
               </div>
-              <div className="col-6 col-md-4 col-lg-3 mb-4">
+              <div className="col-12 col-md-6 col-lg-3 mb-4">
                 <div className="cardBtn2 p-3 rounded text-center">
                   {t("sis_solution1_5")}
                 </div>
@@ -145,11 +145,11 @@ const SoftDev = () => {
           </div>
 
           <div className="py-5 text-center">
-            <h2 className="display-4 mb-4">{t("contact_us_bottom_title")}</h2>
+            <h2 className="display-4 mb-4 DevProgTilte">{t("contact_us_bottom_title")}</h2>
             <p className=" mb-5">{t("contact_us_bottom_desc")}</p>
             <a
               href="/contact"
-              className="btn blog-btn rn-btn px-5 h3 font-weight-bold"
+              className="btn blog-btn rn-btn px-5 h3 font-weight-bold contactBlogBtn"
             >
               {t("contact_us_bottom_btn")}
             </a>

@@ -21,7 +21,7 @@ const AnyReactComponent = ({ text }) => <div>{text}</div>;
 const MainContact = () => {
   const { t } = useTranslation();
 
-   const { isDark, toggleTheme } = useContext(ThemeContext);
+  const { isDark, toggleTheme } = useContext(ThemeContext);
 
   // State for form fields
   const [formData, setFormData] = useState({
@@ -117,8 +117,9 @@ const MainContact = () => {
 
                   <p>
                     <a href="#" target="_blank">
-                      Bangalore, Karnataka, India, 560103{" "}
-                    </a>{" "}
+                      Ilnnov8 Mantri commercio, 5th Floor, Tower-A
+                      Bellandur ORR, Bengaluru, Karnataka 560103
+                    </a>
                   </p>
                 </div>
               </div>
@@ -141,7 +142,7 @@ const MainContact = () => {
       {/* End Back To Top */}
 
       <div className="toggle-button">
-  <Toggle isChecked={isDark} handleChange={toggleTheme} />      </div>
+        <Toggle isChecked={isDark} handleChange={toggleTheme} />      </div>
 
       <Footer />
     </div>

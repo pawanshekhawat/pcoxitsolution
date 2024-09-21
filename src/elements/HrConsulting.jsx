@@ -200,7 +200,7 @@ const ServiceDetails = () => {
       {/* End Back To Top */}
 
       <div className="toggle-button">
-        <Toggle isChecked={isDark} handleChange={toggleTheme} />{" "}
+        <Toggle isChecked={isDark} handleChange={toggleTheme} /> 
       </div>
 
       <Footer />

@@ -17,9 +17,9 @@
   "promise": "Promises Delivered",
   "mission": "Mission",
 
-  "home_hero_sec_title": "Empowering Your Digital Journey",
+  "home_hero_sec_title": "Empowering Your Journey",
   "home_hero_sec_desc": "Trusted by over 400+ companies",
-  "home_hero_sec_loop1": "Software Development",
+  "Software-Development": "Software Development",
   "home_hero_sec_loop2": " Digital Marketing",
   "home_hero_sec_loop3_1": "Import-Export Services &",
   "home_hero_sec_loop3_2": "Logistics Solutions",
@@ -438,6 +438,8 @@
   "section6_desc1": "Technology evolves rapidly, and businesses need solutions that can adapt to these changes. Custom software can be designed with scalability in mind, ensuring that it grows alongside your business. Updates and new features can be added as needed, keeping your software relevant and efficient without the need for complete replacements.",
 
   "blog_byb_title1": "Boost Your Brand",
+  "blog_byb_author1": "Tech Solutions",
+  "blog_byb_date1": "July 19, 2024",
   "section1_byb_title1": "Understanding Brand Identity",
   "section1_byb_desc1": "Brand identity is crucial for making a memorable impression in the market. It encompasses elements such as your logo, color scheme, and overall design, which contribute to how your brand is perceived. Building a strong brand identity helps establish trust and credibility among your target audience.",
   "section2_byb_title1": "Creating a Unique Value Proposition",

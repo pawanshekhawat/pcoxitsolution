@@ -73,6 +73,11 @@
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#80000000',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 }
 
+.mainLogo {
+  width: 100% !important;
+  height: 100px !important;
+}
+
 .prv-banner-wrapper {
   min-height: 100vh;
   background-position: center center;
@@ -224,6 +229,10 @@
       }
     }
   }
+}
+
+.hamBurger {
+  color: #c6c9d8 !important;
 }
 
 .single-demo {
@@ -907,6 +916,7 @@ gt matrik score area
 
 .homePageHeroTitles {
   color: #d4d4d4 !important;
+  max-width: 600px;
 }
 
 .serviceCard {
@@ -928,7 +938,7 @@ gt matrik score area
 }
 
 .DevProg:hover .serviceProcHead {
-    color: #fff!important;
+  color: #fff !important;
 }
 
 .reactIcons {
@@ -966,77 +976,179 @@ gt matrik score area
 }
 
 .DevProg {
-    border: 1px solid #3a3a3a;
-    transition: all 0.3s;
+  border: 1px solid #3a3a3a;
+  transition: all 0.3s;
 }
 
 .DevProg:hover {
-    background-color: #cc2f33;
-    border: 1px solid;
+  background-color: #cc2f33;
+  border: 1px solid;
 }
 
 .DevProg:hover p {
-    color: #fff;
+  color: #fff;
 }
 
 .cardBtn {
-    background-color: #04102d !important;
-    border: 1px solid #cc2f33;
-    color: #fff !important;
-    font-size: 14px !important;
+  background-color: #04102d !important;
+  border: 1px solid #cc2f33;
+  color: #fff !important;
+  font-size: 14px !important;
 }
 
 .cardBtn:hover {
-    color: #fff !important;
-    border: 1px solid #fff;
+  color: #fff !important;
+  border: 1px solid #fff;
 }
 
 .btmBtn {
-    display: flex;
-    justify-content: center;
-    color: #fff !important;
-    align-items: baseline;
+  display: flex;
+  justify-content: center;
+  color: #fff !important;
+  align-items: baseline;
 }
 
-
-
 .serviceHead {
-    text-align: center;
-    font-size: 52px !important;
-    margin: 0px 0px 40px;
+  text-align: center;
+  font-size: 52px !important;
+  margin: 0px 0px 40px;
 }
 
 .serviceCards {
-    justify-content: center;
-    gap: 40px;
+  justify-content: center;
+  gap: 40px;
 }
 
 .serviceDTitle {
-    font-size: 30px !important;
+  font-size: 30px !important;
 }
 
 .serviceDdesc {
-    font-size: 20px !important;
+  font-size: 16px !important;
 }
 
 .serviceLists {
-    margin-top: 20px !important;
-    font-size: 18px !important;
+  margin-top: 20px !important;
+  font-size: 16px !important;
 }
 
 .serviceDTitle2 {
-    font-size: 22px;
-    margin-top: 7px;
+  font-size: 22px;
+  margin-top: 7px;
 }
 
 .serviceLists2 {
-    margin-top: 10px !important;
-    font-size: 16px !important;
+  margin-top: 10px !important;
+  font-size: 16px !important;
 }
-
-
 
 .getStBtn {
-    background-color: #cc2f33;
+  background-color: #cc2f33;
 }
 
+.rn-address {
+  height: 100%!important;
+}
+
+// Responsive
+@media #{$laptop-device} {
+  .content .inner > p {
+    font-size: 24px !important;
+  }
+}
+
+@media #{$lg-layout} {
+}
+
+@media #{$md-layout} {
+}
+
+@media #{$sm-layout} {
+  //Navbar
+  // .homeLogo{
+  //   height: 40px;
+  // }
+
+  //Hero Section
+  .personal-portfolio-slider {
+    height: 400px!important;
+  }
+  .homePageHeroTitlesSpan{
+    font-size: 10px!important;
+  }
+  .homePageHeroTitles {
+    font-size: 24px!important;
+    line-height: 34px!important;
+  }
+  .homePageLoopText {
+    font-size: 20px!important;
+  }
+
+  //Home about us
+  .about-inner .section-title h2.title {
+    font-size: 24px;
+    text-align: center;
+  }
+  .row--35 {
+    text-align: center;
+  }
+  .about-inner .section-title .description  {
+    font-size: 14px!important;
+  } 
+  .single-tab-content p {
+    font-size: 14px!important;
+  }
+  .section-title title {
+    font-size: 24px!important;
+  }
+
+  //services
+  .rn-page-title-area {
+    padding-bottom: 80px!important;
+  }
+  .rn-service-details{
+    padding-top: 40px!important;
+
+  }
+  .serviceHead{
+    font-size: 24px!important;
+  }
+  .serviceCardTitle{
+    font-size: 18px!important;
+  }
+  .reactIcons {
+    width: 38px;
+    height: 38px;
+  }
+  .cardBtn {
+    font-size: 10px!important;
+  }
+  .serviceInTitile{
+    font-size: 28px!important;
+    padding: 0px 10px!important ;
+  }
+  .serviceInPara{
+    font-size: 14px!important;
+    padding: 0px 10px!important ;
+  }
+  .getStBtn {
+    font-size: 12px;
+  }
+  .DevProgTilte{
+    font-size: 28px!important;
+  }
+  .serviceProcHead{
+    font-size: 16px;
+  }
+  .DevProg{
+    padding: 15px!important;
+  }
+  .cardBtn2 {
+    font-size: 14px!important;
+    padding: 5px!important;
+  }
+  .contactBlogBtn {
+    font-size: 12px!important;
+    padding: 0px 15px!important;
+  }
+}

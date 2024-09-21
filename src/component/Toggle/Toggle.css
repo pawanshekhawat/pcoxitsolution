@@ -4,7 +4,7 @@
 */
 
 .toggle {
-  font-size: 2rem; /* 👈 change this to scale */
+  font-size: 1.5rem; /* 👈 change this to scale */
   border: 0.125em solid currentColor;
   border-radius: 2em;
   cursor: pointer;

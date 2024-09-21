@@ -129,7 +129,7 @@ const ServiceDetails = () => {
               <div className="service-details-inner">
                 <div className="inner">
                   {/* Start Single Area */}
-                  <div className="row sercice-details-content pb--80 align-items-start">
+                  <div className="row sercice-details-content pb--30 align-items-start">
                     <div className="col-lg-6 col-12">
                       <div className="thumb">
                         <img
@@ -161,7 +161,7 @@ const ServiceDetails = () => {
                   {/* End Single Area */}
 
                   {/* Start Single Area */}
-                  <div className="row sercice-details-content pb--80 align-items-start">
+                  <div className="row sercice-details-content pb--30 align-items-start">
                     <div className="col-lg-6 col-12 mt-2">
                       <div className="title">
                         <h4 className="serviceDTitle title">
@@ -192,7 +192,7 @@ const ServiceDetails = () => {
                 {/* End Single Area */}
 
                 {/* Start Single Area */}
-                <div className="row sercice-details-content pb--80 align-items-start">
+                <div className="row sercice-details-content pb--30 align-items-start">
                   <div className="col-lg-6 col-12">
                     <div className="thumb">
                       <img

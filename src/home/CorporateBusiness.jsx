@@ -204,7 +204,7 @@ class CorporateBusiness extends Component{
                 {/* End Featured Service Area  */}
 
                 {/* Start Counterup Area */}
-                <div className="counterup-area pb--80 pt--40 bg_image bg_image--17 theme-text-white" data-black-overlay="7">
+                <div className="counterup-area pb--30 pt--40 bg_image bg_image--17 theme-text-white" data-black-overlay="7">
                     <div className="container">
                         <CounterOne />
                     </div>
@@ -410,7 +410,7 @@ class CorporateBusiness extends Component{
                 {/* End Pricing Tbale Area  */}
 
                 {/* Start Blog Area */}
-                <div className="rn-blog-area pt--120 pb--80 bg_color--1">
+                <div className="rn-blog-area pt--120 pb--30 bg_color--1">
                     <div className="container">
                         <div className="row align-items-end">
                             <div className="col-lg-12">

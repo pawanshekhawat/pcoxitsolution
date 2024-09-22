@@ -56,7 +56,7 @@ class HomePortfolio extends Component{
                         <div className="row">
                             <div className="col-lg-12">
                                 <div className="section-title text-center service-style--3 mb--30">
-                                    <h2 className="title">Our Project</h2>
+                                    <h2 className="title section-title">Our Project</h2>
                                     <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.</p>
                                 </div>
                             </div>
@@ -83,7 +83,7 @@ class HomePortfolio extends Component{
                         <div className="row">
                             <div className="col-lg-12">
                                 <div className="section-title text-center service-style--3 mb--30">
-                                    <h2 className="title">Our Clients</h2>
+                                    <h2 className="title section-title">Our Clients</h2>
                                     <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.</p>
                                 </div>
                             </div>

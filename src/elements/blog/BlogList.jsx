@@ -10,7 +10,7 @@ const BLogList = () => {
             <div className="row">
                 <div className="col-lg-4 col-md-6 col-sm-6 col-12">
                     <div className="blog blog-style--1">
-                        <div className="thumbnail">
+                        <div className="thumbnail blogImageBox">
                             <a href="/navigating-global-trade">
                                 <img className="w-100" src={`/assets/images/blog/blog-01.jpg`} alt="Blog Images"/>
                             </a>
@@ -29,9 +29,9 @@ const BLogList = () => {
 
                 <div className="col-lg-4 col-md-6 col-sm-6 col-12">
                     <div className="blog blog-style--1">
-                        <div className="thumbnail">
+                        <div className="thumbnail blogImageBox">
                             <a href="/">
-                                <img className="w-100" src={`/assets/images/blog/blog-02.jpg`} alt="Blog Images"/>
+                                <img className="w-100 " src={`/assets/images/blog/blog-02.jpg`} alt="Blog Images"/>
                             </a>
                         </div>
                         <div className="content">
@@ -48,9 +48,9 @@ const BLogList = () => {
 
                 <div className="col-lg-4 col-md-6 col-sm-6 col-12">
                     <div className="blog blog-style--1">
-                        <div className="thumbnail">
+                        <div className="thumbnail blogImageBox">
                             <a href="/">
-                                <img className="w-100" src={`/assets/images/blog/blog-01.jpg`} alt="Blog Images"/>
+                                <img className="w-100" src={`/assets/images/blog/blog-03.jpg`} alt="Blog Images"/>
                             </a>
                         </div>
                         <div className="content">

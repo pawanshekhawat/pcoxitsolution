@@ -1,4 +1,4 @@
-import React, { useContext, useState } from "react";
+import React, { useContext, useState, useEffect } from "react";
 import PageHelmet from "../component/common/Helmet";
 import Breadcrumb from "../elements/common/Breadcrumb";
 import { FiBox, FiGlobe, FiMonitor, FiChevronUp } from "react-icons/fi";
@@ -31,18 +31,18 @@ const Service = () => {
             path: '/software-development'
         },
         {
-            icon: <FiGlobe/>,
+            icon: <FiGlobe />,
             title: `${t('hr_third_party_payroll_services')}`,
             description: `${t('hr_third_party_payroll_services_message')}`,
             path: '/digital-marketing'
         },
-    
+
         // {
         //     icon: <FiMonitor />,
         //     title: `${t('business_consulting')}`,
         //     description: `${t('business_consulting_message')}`,
         //     path: '/business-consulting'
-    
+
         // },
         // {
         //     icon: <FiUsers />,
@@ -55,12 +55,54 @@ const Service = () => {
         //     title: `${t('hr_compilance_and_legal_support')}`,
         //     description: `${t('hr_compilance_and_legal_support_message')}`,
         //     path: '/hr-compliance'
-    
+
         // }
     ];
 
-     const { isDark, toggleTheme } = useContext(ThemeContext);
+    const { isDark, toggleTheme } = useContext(ThemeContext);
+    const [loading, setLoading] = useState(true);
 
+    useEffect(() => {
+        // Dynamically append the new script for dotlottie-player
+        const script = document.createElement('script');
+        script.src = 'https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs';
+        script.type = 'module';
+        document.head.appendChild(script);
+
+        // Cleanup when component unmounts
+        return () => {
+            document.head.removeChild(script);
+        };
+    }, []);
+
+    useEffect(() => {
+        const fetchData = async () => {
+            await new Promise(resolve => setTimeout(resolve, 3000));
+            setLoading(false);
+        };
+
+        fetchData();
+    }, []);
+
+    if (loading) {
+        return (
+            <div className={isDark ? "active-dark" : "active-light"} >
+                {/* <div style={{ width: '100vw', height: "100vh", display: "grid", placeItems: "center" }}>
+            <img src={LoaderGif} />
+          </div> */}
+                <div style={{ width: '100vw', height: '100vh', display: 'grid', placeItems: 'center' }}>
+                    <dotlottie-player
+                        src="https://lottie.host/0544481e-fc88-4533-8112-736c6a8be8f8/zpUnJPdBr3.json"
+                        background="transparent"
+                        speed="1"
+                        style={{ width: '300px', height: '300px' }}
+                        loop
+                        autoplay
+                    ></dotlottie-player>
+                </div>
+            </div>
+        );
+    }
     return (
         <div className={isDark ? "active-dark" : "active-light"}>
             <PageHelmet pageTitle='Service' />
@@ -71,12 +113,12 @@ const Service = () => {
             {/* End Breadcrump Area */}
 
             {/* Start Service Area */}
-            <div className="service-area ptb--120 bg_color--5">
+            <div className="service-area ptb--120 seprateBgSection">
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-12">
                             <div className="section-title text-center mb--30">
-                                <h2>{t('our_services')}</h2>
+                                {/* <h2>{t('our_services')}</h2> */}
                             </div>
                         </div>
                     </div>
@@ -84,7 +126,7 @@ const Service = () => {
                         {ServiceList.map((val, i) => (
                             <div className="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12" key={i}>
                                 <a href={val.path}>
-                                    <div className="service service__style--2 shadow-lg">
+                                    <div className="service service__style--2  bg_color--5 shadow-lg">
                                         <div className="icon">
                                             {val.icon}
                                         </div>
@@ -116,7 +158,7 @@ const Service = () => {
 
             <div className="toggle-button">
 
-          <Toggle isChecked={isDark} handleChange={toggleTheme} />
+                <Toggle isChecked={isDark} handleChange={toggleTheme} />
             </div>
 
 

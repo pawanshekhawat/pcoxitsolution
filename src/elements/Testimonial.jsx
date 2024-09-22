@@ -33,10 +33,10 @@ const Testimonial = () => {
 
     return (
         <>
-            <div className="section-title text-center" style={{ marginTop: "60px" }}>
-                <h3 className="fontWeight500">{t('testimonials_head')}</h3>
+            <div className="section-title text-center testimonialTitle">
+                <h3 className="fontWeight500 mb-40" style={{ position: 'relative', zIndex: "6"}}>{t('testimonials_head')}</h3>
             </div>
-            <div className="row" style={{ marginTop: "60px", position: 'relative', height: '300px' }}>
+            <div className="row" style={{ position: 'relative', height: '300px' }}>
                 <div className="col-lg-12">
                     <Tabs selectedIndex={activeIndex} onSelect={index => setActiveIndex(index)}>
                         {Array.from({ length: testimonialsLength }).map((_, index) => (
@@ -54,7 +54,7 @@ const Testimonial = () => {
                                     <div className="inner">
                                         <p>{t(`testimonials_desc${index + 1}`)}</p>
                                     </div>
-                                    <div className="author-info">
+                                    <div className="author-info" style={{ position: 'relative', zIndex: "6"}}>
                                         <h6><span>{t(`testimonials_client${index + 1}`)}</span></h6>
                                     </div>
                                 </div>

@@ -37,7 +37,6 @@
     "eslint-plugin-jsx-a11y": "6.2.1",
     "eslint-plugin-react": "7.12.4",
     "eslint-plugin-react-hooks": "^1.7.0",
-    "file-loader": "3.0.1",
     "flag-icon-css": "^4.1.7",
     "fs-extra": "7.0.1",
     "google-map-react": "^1.1.7",
@@ -52,6 +51,7 @@
     "jest-resolve": "24.7.1",
     "jest-watch-typeahead": "0.3.0",
     "js-cookie": "^3.0.5",
+    "lottie-web": "^5.12.2",
     "lucide-react": "^0.441.0",
     "mini-css-extract-plugin": "0.5.0",
     "optimize-css-assets-webpack-plugin": "5.0.1",
@@ -74,6 +74,7 @@
     "react-i18next": "^13.3.1",
     "react-icons": "^5.3.0",
     "react-image-lightbox": "^5.1.4",
+    "react-lottie": "^1.2.4",
     "react-modal-video": "^1.2.8",
     "react-parallax": "^3.3.0",
     "react-reveal": "^1.2.2",
@@ -174,6 +175,7 @@
     ]
   },
   "devDependencies": {
+    "file-loader": "^6.2.0",
     "terser-webpack-plugin": "^1.4.5"
   }
 }

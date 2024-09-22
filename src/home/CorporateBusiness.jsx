@@ -167,7 +167,7 @@ class CorporateBusiness extends Component{
                             {/* Start Single Service  */}
                             <div className="col-lg-3 col-md-6 col-12 mt--30">
                                 <div className="section-title">
-                                    <h2 className="title">Services</h2>
+                                    <h2 className="title section-title">Services</h2>
                                     <p>There are many variations of passages of Lorem Ipsum available, but.</p>
                                     <div className="service-btn">
                                         <a className="btn-transparent rn-btn-dark" href="/service"><span className="text">Request Custom Service</span></a>
@@ -223,7 +223,7 @@ class CorporateBusiness extends Component{
                             <div className="col-lg-6">
                                 <div className="about-inner inner">
                                     <div className="section-title">
-                                        <h2 className="title">Working Process</h2>
+                                        <h2 className="title section-title">Working Process</h2>
                                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim exercitationem impedit iure quia quo recusandae?</p>
                                     </div>
                                     <div className="accordion-wrapper mt--30">
@@ -245,7 +245,7 @@ class CorporateBusiness extends Component{
                         <div className="row">
                             <div className="col-lg-12">
                                 <div className="section-title service-style--3 text-center mb--25 mb_sm--0">
-                                    <h2 className="title">Managing Team</h2>
+                                    <h2 className="title section-title">Managing Team</h2>
                                     <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.</p>
                                 </div>
                             </div>
@@ -264,7 +264,7 @@ class CorporateBusiness extends Component{
                             <div className="col-lg-6 order-2 order-lg-1">
                                 <div className="about-inner inner">
                                     <div className="section-title">
-                                        <h2 className="title">About</h2>
+                                        <h2 className="title section-title">About</h2>
                                         <p className="description">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which dont look even slightly believable.</p>
                                     </div>
                                     <div className="mt--30">
@@ -315,7 +315,7 @@ class CorporateBusiness extends Component{
                         <div className="row">
                             <div className="col-lg-12">
                                 <div className="section-title service-style--3 text-center mb--25 mb_sm--0">
-                                    <h2 className="title">Pricing Plan</h2>
+                                    <h2 className="title section-title">Pricing Plan</h2>
                                     <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.</p>
                                 </div>
                             </div>
@@ -415,7 +415,7 @@ class CorporateBusiness extends Component{
                         <div className="row align-items-end">
                             <div className="col-lg-12">
                                 <div className="section-title service-style--3 text-center">
-                                    <h2 className="title">Latest News</h2>
+                                    <h2 className="title section-title">Latest News</h2>
                                     <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.</p>
                                 </div>
                             </div>

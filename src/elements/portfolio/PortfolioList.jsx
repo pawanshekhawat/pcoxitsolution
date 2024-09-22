@@ -1,9 +1,12 @@
 import React, { Component, useState, useContext } from "react";
 
 import { useTranslation } from "react-i18next";
-import { Link } from "react-router-dom";
-
-
+import { AiOutlineShoppingCart } from "react-icons/ai";
+import { RiMentalHealthLine } from "react-icons/ri";
+import { GrUserWorker } from "react-icons/gr";
+import { AiOutlineBank } from "react-icons/ai";
+import { GoTag } from "react-icons/go";
+import { LiaBookSolid } from "react-icons/lia";
 
 function PortfolioList(props) {
     const { t } = useTranslation();
@@ -11,32 +14,39 @@ function PortfolioList(props) {
         {
             image: 'image-1',
             category: `${t('building_construction')}`,
-            title: `${t('building_construction_message')}`
+            title: `${t('building_construction_message')}`,
+            icon: <AiOutlineShoppingCart className="iwsContentCardMainIcon" />
         },
         {
             image: 'image-2',
             category: `${t('road_construction')}`,
-            title: `${t('road_construction_message')}`
+            title: `${t('road_construction_message')}`,
+            icon: <RiMentalHealthLine className="iwsContentCardMainIcon" />
         },
         {
             image: 'image-3',
             category: `${t('oil_and_gas')}`,
-            title: `${t('oil_and_gas_message')}`
+            title: `${t('oil_and_gas_message')}`,
+            icon: <GrUserWorker className="iwsContentCardMainIcon" />
         },
         {
             image: 'image-4',
             category: `${t('facility_management')}`,
-            title: `${t('facility_management_message')}`
+            title: `${t('facility_management_message')}`,
+            icon: <AiOutlineBank className="iwsContentCardMainIcon" />
         },
         {
             image: 'image-5',
             category: `${t('security')}`,
-            title: `${t('security_message')}`
+            title: `${t('security_message')}`,
+            icon: <GoTag className="iwsContentCardMainIcon" />
         },
         {
             image: 'image-6',
             category: `${t('mep')}`,
-            title: `${t('mep_message')}`
+            title: `${t('mep_message')}`,
+            icon: <LiaBookSolid className="iwsContentCardMainIcon" />
+
         }
     ]
     const { column, styevariation } = props;
@@ -51,16 +61,14 @@ function PortfolioList(props) {
                             <div className={`thumbnail ${value.image}`}></div>
                             <div className={`bg-blr-image ${value.image}`}></div>
                         </div>
-                        <div className="content">
-                            <div className="inner">
-                                <h3 className="text-white">{value.category}</h3>
-                                <p style={{fontSize: '20px'}}><a href="#">{value.title}</a></p>
-                                {/* <div className="portfolio-button">
-                                        <a className="rn-btn" href="/portfolio-details">View Details</a>
-                                    </div> */}
+                        <div className="content ">
+                            <p className="iwsContentCardIcon">{value.icon}</p>
+                            <div className="inner iwsContentCard">
+                                <h3 className="iwsContentCardTitle">{value.category} <br />
+                                    {/* <p className="iwsContentCardPara">{value.title}</p> */}
+                                </h3>
                             </div>
                         </div>
-                        {/* <Link className="link-overlay" to="/portfolio-details"></Link> */}
                     </div>
                 </div>
             ))}

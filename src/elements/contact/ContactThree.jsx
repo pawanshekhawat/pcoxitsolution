@@ -19,7 +19,7 @@ import { useTranslation } from "react-i18next";
 //                     <div className="row row--35 align-items-start">
 //                         <div className="col-lg-6 order-2 order-lg-1">
 //                             <div className="section-title text-left mb--50">
-//                                 <h2 className="title">{this.props.contactTitle}</h2>
+//                                 <h2 className="title section-title">{this.props.contactTitle}</h2>
 //                                 <p className="description"> Please share your details and one of our recruitment specialists will contact you shortly.</p>
 //                             </div>
 //                             <div className="form-wrapper">
@@ -134,7 +134,7 @@ const ContactThree = (props) => {
                 <div className="row row--35 align-items-start">
                     <div className="col-lg-6 order-2 order-lg-1">
                         <div className="section-title text-left mb--50">
-                            <h2 className="title">{props.contactTitle}</h2>
+                            <h2 className="title section-title">{props.contactTitle}</h2>
                             <p className="description">{t('user_indication_title_message')}</p>
                         </div>
                         <div className="form-wrapper">

@@ -99,7 +99,7 @@ class DigitalAgency extends Component{
                        <div className="row">
                            <div className="col-lg-12">
                                 <div className="section-title text-center service-style--3 mb--30">
-                                    <h2 className="title">Our Service</h2>
+                                    <h2 className="title section-title">Our Service</h2>
                                     <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.</p>
                                 </div>
                            </div>
@@ -116,7 +116,7 @@ class DigitalAgency extends Component{
                             <div className="row">
                                 <div className="col-lg-12">
                                     <div className="section-title text-center service-style--3 mb--15">
-                                        <h2 className="title">Our Project</h2>
+                                        <h2 className="title section-title">Our Project</h2>
                                         <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.</p>
                                     </div>
                                 </div>
@@ -149,7 +149,7 @@ class DigitalAgency extends Component{
                                 <div className="col-lg-7">
                                     <div className="about-inner inner">
                                         <div className="section-title">
-                                            <h2 className="title">{title}</h2>
+                                            <h2 className="title section-title">{title}</h2>
                                             <p className="description">{description}</p>
                                         </div>
                                         <div className="row mt--30">
@@ -219,7 +219,7 @@ class DigitalAgency extends Component{
                         <div className="row">
                             <div className="col-lg-12">
                                 <div className="section-title text-center service-style--3 mb--30">
-                                    <h2 className="title">Our Clients</h2>
+                                    <h2 className="title section-title">Our Clients</h2>
                                     <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.</p>
                                 </div>
                             </div>

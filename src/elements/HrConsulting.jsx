@@ -1,4 +1,4 @@
-import React, { useState, useContext } from "react";
+import React, { useState, useContext, useEffect } from "react";
 
 import PageHelmet from "../component/common/Helmet";
 import ModalVideo from "react-modal-video";
@@ -26,7 +26,49 @@ const ServiceDetails = () => {
   };
 
   const { isDark, toggleTheme } = useContext(ThemeContext);
-
+  const [loading, setLoading] = useState(true);
+  
+    useEffect(() => {
+      // Dynamically append the new script for dotlottie-player
+      const script = document.createElement('script');
+      script.src = 'https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs';
+      script.type = 'module';
+      document.head.appendChild(script);
+  
+      // Cleanup when component unmounts
+      return () => {
+        document.head.removeChild(script);
+      };
+    }, []);
+  
+    useEffect(() => {
+      const fetchData = async () => {
+        await new Promise(resolve => setTimeout(resolve, 3000));
+        setLoading(false);
+      };
+  
+      fetchData();
+    }, []);
+  
+    if (loading) {
+      return (
+        <div className={isDark ? "active-dark" : "active-light"} >
+          {/* <div style={{ width: '100vw', height: "100vh", display: "grid", placeItems: "center" }}>
+            <img src={LoaderGif} />
+          </div> */}
+          <div style={{ width: '100vw', height: '100vh', display: 'grid', placeItems: 'center' }}>
+            <dotlottie-player
+              src="https://lottie.host/0544481e-fc88-4533-8112-736c6a8be8f8/zpUnJPdBr3.json"
+              background="transparent"
+              speed="1"
+              style={{ width: '300px', height: '300px' }}
+              loop
+              autoplay
+            ></dotlottie-player>
+          </div>
+        </div>
+      );
+    }
   return (
     <div className={isDark ? "active-dark" : "active-light"}>
       {/* Start Pagehelmet  */}
@@ -37,14 +79,14 @@ const ServiceDetails = () => {
 
       {/* Start Breadcrump Area */}
       <div
-        className="rn-page-title-area pt--120 pb--190 bg_image"
+        className="rn-page-title-area pt--120 pb--190 bg_image bg_image-service2"
         data-black-overlay="5"
       >
         <div className="container">
           <div className="row">
             <div className="col-lg-12">
               <div className="rn-page-title text-center pt--100">
-                <h2 className="title text-white">{t("software_dev_0")}</h2>
+                <h2 className="title section-title text-white">{t("software_dev_0")}</h2>
               </div>
             </div>
           </div>
@@ -53,7 +95,7 @@ const ServiceDetails = () => {
       {/* End Breadcrump Area */}
 
       {/* Start Page Wrapper */}
-      <div className="rn-service-details pt--180 pb--120 bg_color--1">
+      <div className="rn-service-details pt--120 pb--120 bg_color--1">
         <div className="container">
           {/* Start Service Card Area */}
           <h3 className="serviceHead">{t("software_dev_0_title")}</h3>

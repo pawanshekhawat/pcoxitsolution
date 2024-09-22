@@ -12,7 +12,7 @@ const ContactFour = () => {
                 <div className="row row--35 align-items-start">
                     <div className="col-lg-6 order-2 order-lg-1">
                         <div className="section-title text-left mb--50">
-                            <h2 className="title">{t('formcont1')}</h2>
+                            <h2 className="title section-title">{t('formcont1')}</h2>
                             <p className="description">{t('formdesc')}</p>
                         </div>
                         <div className="form-wrapper">

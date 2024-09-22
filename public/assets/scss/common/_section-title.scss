@@ -6,14 +6,14 @@
     margin-top: -20px;
     h2{
         &.title{
-            font-size: 30px;
+            font-size: 50px;
             margin-bottom: 8px;
             
             @media #{$lg-layout} {
                 font-size: 50px;
             }
             @media #{$sm-layout} {
-                font-size: 36px;
+                font-size: 30px!important;
                 margin-bottom: 7px;
             }
         }
@@ -107,8 +107,8 @@
 .section-title {
     h2{
         @media #{$sm-layout} {
-            font-size: 36px;
-            margin-bottom: 7px;
+            font-size: 24px;
+            margin: 40px 0px 0px !important;
         }
     }
 }

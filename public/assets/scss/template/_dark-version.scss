@@ -21,9 +21,14 @@
     color: #04102d;
   }
 
-  .inner p {
-    font-size: 20px !important;
-    font-weight: normal;
+  .iwsContentCard {
+    background-color: #04102d;
+    border: 2px solid rgba(255, 255, 255, 0.336);
+  }
+
+  .iwsContentCardIcon {
+    color: #cc2f33;
+    background-color: #04102d;
   }
 
   .inner h4 a {
@@ -40,8 +45,13 @@
     z-index: 999999 !important;
   }
 
-  .custom_homePageHeroTitles__30Lky {
-    color: #ffffff !important;
+  .mainContactCards {
+    background-color: #04102d;
+    border: 1px solid #ffffffaf;
+  }
+
+  .mainContactCardText {
+    color: #fff !important;
   }
 
   .modal {
@@ -158,6 +168,7 @@
   }
   .creative-service-wrapper .row.creative-service .service.service__style--2 {
     background: #04102d;
+    border: 1px solid #ffffff56 !important;
   }
   .contact-form--1 input,
   .contact-form--1 textarea,
@@ -184,7 +195,6 @@
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    opacity: 0.4;
   }
   .backto-top > div {
     background-color: #000;
@@ -288,6 +298,9 @@
     background-color: transparent !important;
     color: #fff !important;
   }
+  .seprateBgSection {
+    background-color: #041235 !important;
+  }
 }
 
 .active-light {
@@ -305,7 +318,7 @@ font-family: 'Poppins', sans-serif;
 
 -------------------------------------*/
 
-@media #{$laptop-device} {
+  @media #{$laptop-device} {
     .content .inner > p {
       font-size: 24px !important;
     }
@@ -451,10 +464,6 @@ font-family: 'Poppins', sans-serif;
   p {
     font-size: 18px;
     line-height: 30px;
-    @media #{$sm-layout} {
-      font-size: 12px !important;
-      line-height: 24px !important;
-    }
   }
 
   p:last-child {
@@ -698,6 +707,7 @@ Custom Row
 
   [data-black-overlay]:before {
     background-color: #04102d;
+    border-radius: 10px 0px 0px 0px;
   }
 
   [data-white-overlay]:before {
@@ -897,5 +907,21 @@ Custom Row
     background-color: #04102d;
     width: 0px;
     transition: width 7s ease-in-out;
+  }
+  .iwsContentCard {
+    background-color: #fff;
+    border: 2px solid #cc2f33;
+  }
+  .iwsContentCardTitle {
+    color: #04102d;
+  }
+  .iwsContentCardIcon {
+    color: #cc2f33;
+    background-color: #fff;
+  }
+  .iwsContentCardIcon::after {
+    border-bottom-color: #cc2f33;
+    border-left-color: #cc2f33;
+    border-right-color: #cc2f33;
   }
 }

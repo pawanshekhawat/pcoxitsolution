@@ -115,6 +115,7 @@ Footer Styles
     background-size: cover;
     background-position: center center;
     padding-left: 120px;
+    border-radius: 10px 0px 0px 0px;
 
     @media #{$lg-layout} {
         padding: 119px 21px;

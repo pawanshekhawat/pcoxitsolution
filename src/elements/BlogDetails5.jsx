@@ -1,4 +1,4 @@
-import React, { useState, useContext } from "react";
+import React, { useState, useContext, useEffect } from "react";
 
 import PageHelmet from "../component/common/Helmet";
 import { FiClock, FiUser, FiChevronUp } from "react-icons/fi";
@@ -13,7 +13,49 @@ import { useTranslation } from "react-i18next";
 const BlogDetails = () => {
   const { t } = useTranslation();
   const { isDark, toggleTheme } = useContext(ThemeContext);
+  const [loading, setLoading] = useState(true);
   
+    useEffect(() => {
+      // Dynamically append the new script for dotlottie-player
+      const script = document.createElement('script');
+      script.src = 'https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs';
+      script.type = 'module';
+      document.head.appendChild(script);
+  
+      // Cleanup when component unmounts
+      return () => {
+        document.head.removeChild(script);
+      };
+    }, []);
+  
+    useEffect(() => {
+      const fetchData = async () => {
+        await new Promise(resolve => setTimeout(resolve, 3000));
+        setLoading(false);
+      };
+  
+      fetchData();
+    }, []);
+  
+    if (loading) {
+      return (
+        <div className={isDark ? "active-dark" : "active-light"} >
+          {/* <div style={{ width: '100vw', height: "100vh", display: "grid", placeItems: "center" }}>
+            <img src={LoaderGif} />
+          </div> */}
+          <div style={{ width: '100vw', height: '100vh', display: 'grid', placeItems: 'center' }}>
+            <dotlottie-player
+              src="https://lottie.host/0544481e-fc88-4533-8112-736c6a8be8f8/zpUnJPdBr3.json"
+              background="transparent"
+              speed="1"
+              style={{ width: '300px', height: '300px' }}
+              loop
+              autoplay
+            ></dotlottie-player>
+          </div>
+        </div>
+      );
+    }  
   return (
     <div className={isDark ? "active-dark" : "active-light"}>
       <PageHelmet pageTitle={t('blog_byb_title1')} />
@@ -28,7 +70,7 @@ const BlogDetails = () => {
           <div className="row">
             <div className="col-lg-12">
               <div className="blog-single-page-title text-center pt--100">
-                <h2 className="title text-white">{t('blog_byb_title1')}</h2>
+                <h2 className="title section-title text-white">{t('blog_byb_title1')}</h2>
                 <ul className="blog-meta d-flex justify-content-center align-items-center">
                   <li>
                     <FiClock />
@@ -47,7 +89,7 @@ const BlogDetails = () => {
       {/* End Breadcrumb Area */}
 
       {/* Start Blog Details */}
-      <div className="rn-blog-details pt--110 pb--70 bg_color--1">
+      <div className="rn-blog-details pt--110 pb--70 bg_color--1 seprateBgSection">
         <div className="container">
           <div className="row">
             <div className="col-lg-12">

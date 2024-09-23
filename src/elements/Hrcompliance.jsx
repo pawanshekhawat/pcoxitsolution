@@ -94,7 +94,7 @@ const ServiceDetails = () => {
                             <div className="service-details-inner">
                                 <div className="inner">
                                     {/* Start Single Area */}
-                                    <div className="row sercice-details-content pb--80 align-items-center">
+                                    <div className="row sercice-details-content pb--30 align-items-center">
                                         <div className="col-lg-6 col-12">
                                             <div className="thumb">
                                                 <img className="w-100" src="/assets/images/service/HR Compliance and Legal Support-02-min.JPG" alt="Service Images" />

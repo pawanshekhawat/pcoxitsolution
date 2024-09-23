@@ -101,7 +101,7 @@ class PersonalPortfolio extends Component{
                 {/* End Brand Area */}
 
                 {/* Start Portfolio Area */}
-                <div className="portfolio-area pb--60 bg_color--1">
+                <div className="portfolio-area pb--30 bg_color--1">
                     <div className="portfolio-sacousel-inner mb--55 mb_sm--0">
                         <div className="container">
                             <div className="row">

@@ -113,7 +113,7 @@ class CreativeAgency extends Component{
                             <div className="row">
                                 <div className="col-lg-6">
                                     <div className="section-title service-style--3 text-left mb--15 mb_sm--0">
-                                        <h2 className="title">Our Portfolio</h2>
+                                        <h2 className="title section-title">Our Portfolio</h2>
                                         <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.</p>
                                     </div>
                                 </div>
@@ -172,7 +172,7 @@ class CreativeAgency extends Component{
                         <div className="row">
                             <div className="col-lg-6">
                                 <div className="section-title service-style--3 text-left mb--25 mb_sm--0">
-                                    <h2 className="title">Skilled Team</h2>
+                                    <h2 className="title section-title">Skilled Team</h2>
                                     <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.</p>
                                 </div>
                             </div>

@@ -96,7 +96,7 @@ const InteractiveAgency = () => {
                             <div className="col-lg-7">
                                 <div className="about-inner inner">
                                     <div className="section-title">
-                                        <h2 className="title">What do we do?</h2>
+                                        <h2 className="title section-title">What do we do?</h2>
                                         <p className="description">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which dont look even slightly believable.</p>
                                     </div>
                                     <div className="row mt--30">

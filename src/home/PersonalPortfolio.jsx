@@ -66,7 +66,7 @@ class PersonalPortfolio extends Component{
                                 <div className="col-lg-7">
                                     <div className="about-inner inner pt--100">
                                         <div className="section-title">
-                                            <h2 className="title">{title}</h2>
+                                            <h2 className="title section-title">{title}</h2>
                                             <p className="description">{description}</p>
                                         </div>
                                         <div className="row mt--30">
@@ -86,7 +86,7 @@ class PersonalPortfolio extends Component{
                         <div className="row">
                             <div className="col-lg-12">
                                 <div className="section-title text-center service-style--3 mb--30">
-                                    <h2 className="title">My Best Client</h2>
+                                    <h2 className="title section-title">My Best Client</h2>
                                     <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.</p>
                                 </div>
                             </div>
@@ -107,7 +107,7 @@ class PersonalPortfolio extends Component{
                             <div className="row">
                                 <div className="col-lg-12">
                                     <div className="section-title text-center service-style--3 mb--30 mb_sm--0">
-                                        <h2 className="title">My Latest Project</h2>
+                                        <h2 className="title section-title">My Latest Project</h2>
                                         <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.</p>
                                     </div>
                                 </div>

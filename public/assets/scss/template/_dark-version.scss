@@ -3,6 +3,61 @@
 ----------------------------*/
 .active-dark {
   background: #04102d;
+
+  /*=============================
+	Overlay styles 
+==============================*/
+
+  [data-overlay],
+  [data-black-overlay],
+  [data-white-overlay] {
+    position: relative;
+    z-index: 1;
+  }
+
+  [data-overlay] > div,
+  [data-overlay] > *,
+  [data-black-overlay] > div,
+  [data-black-overlay] > *,
+  [data-white-overlay] > div,
+  [data-white-overlay] > * {
+    position: relative;
+    z-index: 1;
+  }
+
+  [data-overlay]:before,
+  [data-black-overlay]:before,
+  [data-white-overlay]:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+  }
+
+  [data-overlay]:before {
+    background-color: $theme-color;
+  }
+
+  [data-black-overlay]:before {
+    background-color: #04102d;
+    border-radius: 10px 0px 0px 0px;
+  }
+
+  [data-white-overlay]:before {
+    background-color: #b4abab;
+  }
+
+  @for $i from 1 through 10 {
+    [data-overlay="#{$i}"]:before,
+    [data-black-overlay="#{$i}"]:before,
+    [data-white-overlay="#{$i}"]:before {
+      opacity: #{$i * 0.1};
+    }
+  }
+
   [data-overlay="6"]:before,
   [data-black-overlay="6"]:before,
   [data-white-overlay="6"]:before {
@@ -21,9 +76,14 @@
     color: #04102d;
   }
 
-  .inner p {
-    font-size: 20px !important;
-    font-weight: normal;
+  .iwsContentCard {
+    background-color: #04102d;
+    border: 2px solid rgba(255, 255, 255, 0.336);
+  }
+
+  .iwsContentCardIcon {
+    color: #cc2f33;
+    background-color: #04102d;
   }
 
   .inner h4 a {
@@ -40,8 +100,13 @@
     z-index: 999999 !important;
   }
 
-  .custom_homePageHeroTitles__30Lky {
-    color: #ffffff !important;
+  .mainContactCards {
+    background-color: #04102d;
+    border: 1px solid #ffffffaf;
+  }
+
+  .mainContactCardText {
+    color: #fff !important;
   }
 
   .modal {
@@ -159,6 +224,7 @@
   }
   .creative-service-wrapper .row.creative-service .service.service__style--2 {
     background: #04102d;
+    border: 1px solid #ffffff56 !important;
   }
   .contact-form--1 input,
   .contact-form--1 textarea,
@@ -185,7 +251,6 @@
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    opacity: 0.4;
   }
   .backto-top > div {
     background-color: #000;
@@ -289,6 +354,43 @@
     background-color: transparent !important;
     color: #fff !important;
   }
+  .seprateBgSection {
+    background-color: #041235 !important;
+  }
+
+  .themeText {
+    color: #cc2f33;
+  }
+
+  .themeBg {
+    background-color: #cc2f33;
+  }
+  .themeBgCircle {
+    background-color: #cc2f33;
+  }
+
+  .serviceCardProcess {
+    border: 0 !important;
+    background-color: #04102d !important;
+    border: 1px solid #ffffff56 !important;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px !important;
+    transition: all 0.3s;
+  }
+  .serviceCardProcess:hover .serviceCardProcessTitle {
+    color: #fff !important;
+  }
+
+  .serviceCardProcess:hover {
+    background-color: #cc2f33 !important;
+  }
+  .serviceCardProcess:hover .themeBgCircle {
+    background-color: #fff !important;
+    color: #000 !important;
+  }
+
+  .contactNum{
+    color: #fff;
+  }
 }
 
 .active-light {
@@ -306,7 +408,7 @@ font-family: 'Poppins', sans-serif;
 
 -------------------------------------*/
 
-@media #{$laptop-device} {
+  @media #{$laptop-device} {
     .content .inner > p {
       font-size: 24px !important;
     }
@@ -452,10 +554,6 @@ font-family: 'Poppins', sans-serif;
   p {
     font-size: 18px;
     line-height: 30px;
-    @media #{$sm-layout} {
-      font-size: 12px !important;
-      line-height: 24px !important;
-    }
   }
 
   p:last-child {
@@ -699,6 +797,7 @@ Custom Row
 
   [data-black-overlay]:before {
     background-color: #04102d;
+    border-radius: 10px 0px 0px 0px;
   }
 
   [data-white-overlay]:before {
@@ -898,5 +997,54 @@ Custom Row
     background-color: #04102d;
     width: 0px;
     transition: width 7s ease-in-out;
+  }
+  .iwsContentCard {
+    background-color: #fff;
+    border: 2px solid #cc2f33;
+  }
+  .iwsContentCardTitle {
+    color: #04102d;
+  }
+  .iwsContentCardIcon {
+    color: #cc2f33;
+    background-color: #fff;
+  }
+  .iwsContentCardIcon::after {
+    border-bottom-color: #cc2f33;
+    border-left-color: #cc2f33;
+    border-right-color: #cc2f33;
+  }
+
+  .themeText {
+    color: #cc2f33;
+  }
+
+  .themeBg {
+    background-color: #cc2f33;
+  }
+  .themeBgCircle {
+    background-color: #cc2f33;
+  }
+
+  .serviceCardProcess {
+    border: 0 !important;
+    background-color: #fff !important;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px !important;
+    transition: all 0.3s;
+  }
+  .serviceCardProcess:hover .serviceCardProcessTitle {
+    color: #fff !important;
+  }
+
+  .serviceCardProcess:hover {
+    background-color: #cc2f33 !important;
+  }
+  .serviceCardProcess:hover .themeBgCircle {
+    background-color: #fff !important;
+    color: #000 !important;
+  }
+
+  .contactNum{
+    color: #fff;
   }
 }

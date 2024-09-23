@@ -1,4 +1,4 @@
-import React, { useState, useContext } from "react";
+import React, { useState, useContext, useEffect } from "react";
 import ScrollToTop from "react-scroll-up";
 import { FiChevronUp } from "react-icons/fi";
 import Helmet from "../component/common/Helmet";
@@ -33,6 +33,7 @@ const SlideList = [
 
 const PortfolioLanding = () => {
   const { isDark, toggleTheme } = useContext(ThemeContext);
+  const [loading, setLoading] = useState(true);
 
   const { t } = useTranslation();
   const BlogContent = [
@@ -62,6 +63,48 @@ const PortfolioLanding = () => {
 
   // const preference = window.matchMedia("(prefers-color-scheme: dark)").matches;
 
+  useEffect(() => {
+    // Dynamically append the new script for dotlottie-player
+    const script = document.createElement('script');
+    script.src = 'https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs';
+    script.type = 'module';
+    document.head.appendChild(script);
+
+    // Cleanup when component unmounts
+    return () => {
+      document.head.removeChild(script);
+    };
+  }, []);
+
+  useEffect(() => {
+    const fetchData = async () => {
+      await new Promise(resolve => setTimeout(resolve, 3000));
+      setLoading(false);
+    };
+
+    fetchData();
+  }, []);
+
+  if (loading) {
+    return (
+      <div className={isDark ? "active-dark" : "active-light"} >
+        {/* <div style={{ width: '100vw', height: "100vh", display: "grid", placeItems: "center" }}>
+            <img src={LoaderGif} />
+          </div> */}
+        <div style={{ width: '100vw', height: '100vh', display: 'grid', placeItems: 'center' }}>
+          <dotlottie-player
+            src="https://lottie.host/0544481e-fc88-4533-8112-736c6a8be8f8/zpUnJPdBr3.json"
+            background="transparent"
+            speed="1"
+            style={{ width: '300px', height: '300px' }}
+            loop
+            autoplay
+          ></dotlottie-player>
+        </div>
+      </div>
+    );
+  }
+
   return (
     <div className={isDark ? "active-dark" : "active-light"}>
       <Helmet pageTitle="PCOX Internet Pvt. Ltd." />
@@ -73,36 +116,39 @@ const PortfolioLanding = () => {
         <div className="slider-wrapper">
           {/* Start Single Slide */}
           {SlideList.map((value, index) => (
-            <div
-              className="slide personal-portfolio-slider slider-paralax slider-style-3 d-flex align-items-center justify-content-center bg_image bg_image--25"
-              key={index}
-            >
-              <div className="container">
-                <div className="row">
-                  <div className="col-lg-12">
-                    <div className={`inner ${value.textPosition}`}>
-                      {value.category ? (
-                        <span className="homePageHeroTitlesSpan title text-white">
-                          {t("home_hero_sec_desc")}
-                        </span>
-                      ) : (
-                        ""
-                      )}
-                      <h1 className="homePageHeroTitles title">
-                        {t("home_hero_sec_title")} <br />
-                        <TextLoop>
-                          <span className="homePageLoopText">
-                            {t("Software-Development")}
+            <div className="home-overlay">
+              <div
+                className="slide personal-portfolio-slider slider-paralax slider-style-3 d-flex align-items-center justify-content-center bg_image bg_image--25"
+                key={index}
+              >
+                <div className="container">
+
+                  <div className="row">
+                    <div className="col-lg-12">
+                      <div className={`inner ${value.textPosition}`}>
+                        {value.category ? (
+                          <span className="homePageHeroTitlesSpan title text-white">
+                            {t("home_hero_sec_desc")}
                           </span>
-                          <span className="homePageLoopText">
-                            {t("home_hero_sec_loop2")}
-                          </span>
-                          <span className="homePageLoopText">
-                            {t("home_hero_sec_loop3_1")} <br />
-                            {t("home_hero_sec_loop3_2")}
-                          </span>
-                        </TextLoop>
-                      </h1>
+                        ) : (
+                          ""
+                        )}
+                        <h1 className="homePageHeroTitles title">
+                          {t("home_hero_sec_title")} <br />
+                          <TextLoop>
+                            <span className="homePageLoopText">
+                              {t("Software-Development")}
+                            </span>
+                            <span className="homePageLoopText">
+                              {t("home_hero_sec_loop2")}
+                            </span>
+                            <span className="homePageLoopText">
+                              {t("home_hero_sec_loop3_1")} <br />
+                              {t("home_hero_sec_loop3_2")}
+                            </span>
+                          </TextLoop>
+                        </h1>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -118,7 +164,7 @@ const PortfolioLanding = () => {
       {/* <MultiLang /> */}
 
       {/* Start About Area */}
-      <div id="about" className="fix">
+      {/* <div id="about" className="fix">
         <div className="about-area ptb--120  bg_color--1">
           <div className="about-wrapper">
             <div className="container">
@@ -135,7 +181,7 @@ const PortfolioLanding = () => {
                 <div className="col-lg-6">
                   <div className="about-inner inner">
                     <div className="section-title">
-                      <h2 className="title">{t("about_us")}</h2>
+                      <h2 className="title section-title">{t("about_us")}</h2>
                       <p className="description">{t("about_desc_1")}</p>
                       <p className="description">{t("about_desc_2")}</p>
                     </div>
@@ -148,18 +194,18 @@ const PortfolioLanding = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
 
       {/* End About Area */}
 
       {/* Start Service Area  */}
       <div id="service" className="fix">
-        <div className="service-area creative-service-wrapper ptb--120 bg_color--5">
+        <div className="service-area creative-service-wrapper ptb--120  bg_color--5 seprateBgSection">
           <div className="container">
             <div className="row">
               <div className="col-lg-12">
                 <div className="section-title text-center service-style--3 mb--30 mb_sm--0">
-                  <h2 className="title">{t("our_services")}</h2>
+                  <h2 className="title section-title">{t("our_services")}</h2>
                   <p>{t("our_services_message")}</p>
                 </div>
               </div>
@@ -185,7 +231,7 @@ const PortfolioLanding = () => {
               <div className="row">
                 <div className="col-lg-12">
                   <div className="section-title text-center service-style--3 mb--30 mb_sm--0">
-                    <h2 className="title">{t("industries_we_serve")}</h2>
+                    <h2 className="title section-title">{t("industries_we_serve")}</h2>
                     <p>{t("industries_we_serve_message")}</p>
                   </div>
                 </div>
@@ -205,7 +251,7 @@ const PortfolioLanding = () => {
 
       {/* Start Blog Area */}
       <div id="blog" className="fix">
-        <div className="rn-blog-area ptb--120 bg_color--5 mb-dec--30">
+        <div className="rn-blog-area ptb--120 bg_color--5 mb-dec--30 seprateBgSection">
           <div className="container">
             <div className="row align-items-end">
               <div className="col-lg-12 col-md-12 col-sm-12 col-12">
@@ -222,7 +268,7 @@ const PortfolioLanding = () => {
               {PostList.map((value, i) => (
                 <div className="col-lg-4 col-md-6 col-12" key={i}>
                   <div className="blog blog-style--1">
-                    <div className="thumbnail">
+                    <div className="thumbnail blogImageBox">
                       <a href={`${value.bloglink}`}>
                         <img
                           className="w-100"
@@ -232,10 +278,10 @@ const PortfolioLanding = () => {
                       </a>
                     </div>
                     <div className="content">
-                      <p className="blogtype">{value.category}</p>
                       <h4 className="title">
                         <a href={`${value.bloglink}`}>{value.title}</a>
                       </h4>
+                      <p className="blogtype">{value.category}</p>
                       <div className="blog-btn">
                         <a
                           className="rn-btn text-white"

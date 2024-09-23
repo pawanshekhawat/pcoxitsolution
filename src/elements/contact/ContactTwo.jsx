@@ -14,7 +14,7 @@ class ContactTwo extends Component {
                     <div className="row row--35 align-items-start">
                         <div className="col-lg-6 order-2 order-lg-1">
                             <div className="section-title text-left mb--50">
-                                <h2 className="title"  >Hear from us.</h2>
+                                <h2 className="title section-title"  >Hear from us.</h2>
                                 <p className="description"  >Please fill out the following contact form, and one of our dedicated HR professionals will get in touch with you shortly to discuss how we can add value to your business.</p>
                             </div>
                             <div className="form-wrapper">

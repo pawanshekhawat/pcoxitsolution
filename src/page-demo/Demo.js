@@ -800,7 +800,7 @@ class Demo extends Component {
                                 
                                 <div className="col-lg-6 col-md-12 col-12">
                                     <div className="inner">
-                                        <h2 className="title">Trydo <br />Performance</h2>
+                                        <h2 className="title section-title">Trydo <br />Performance</h2>
                                         <p>Trydo Page speed is so faster and takes byte times for load each page.
                                             It's is very easy to use, loads faster and provides better performance for your
                                             wedsite.</p>
@@ -847,7 +847,7 @@ class Demo extends Component {
                                 <div className="col-lg-12 col-xl-6 offset-xl-6">
                                     <div className="inner">
                                         <div className="section-title">
-                                            <h2 className="title theme-gradient">Trydo works perfectly on any device.</h2>
+                                            <h2 className="title section-title theme-gradient">Trydo works perfectly on any device.</h2>
                                             <p>Trydo site works seamlessly on any device without a single compromise, will
                                                 always looks cool and great on any
                                                 mobile device or browsers. Its easily adapt your content for mobile, tablet
@@ -887,7 +887,7 @@ class Demo extends Component {
                             <div className="row row--35">
                                 <div className="col-lg-8 col-sm-12">
                                     <div className="section-title text-left mb--30">
-                                        <h2 className="title">Have a <span className="theme-color">Question?</span>
+                                        <h2 className="title section-title">Have a <span className="theme-color">Question?</span>
                                         </h2>
                                         <p>Check out our FAQ section to see if we can help.</p>
                                     </div>
@@ -1037,7 +1037,7 @@ class Demo extends Component {
                         <div className="row">
                             <div className="col-lg-12">
                                 <div className="section-title text-center text-white">
-                                    <h2 className="title theme-gradient">Say Hello To <br />Trydo Elements</h2>
+                                    <h2 className="title section-title theme-gradient">Say Hello To <br />Trydo Elements</h2>
                                     <p className="text-white">Our Fantastic Trydo Template Elements</p>
                                 </div>
                             </div>
@@ -1059,7 +1059,7 @@ class Demo extends Component {
                             <div className="row">
                                 <div className="col-lg-12">
                                     <div className="section-title text-center mb--30">
-                                        <h2 className="title theme-gradient">Our Customer feedback</h2>
+                                        <h2 className="title section-title theme-gradient">Our Customer feedback</h2>
                                         <p>Our Fantastic Envato Customers Reviews</p>
                                     </div>
                                 </div>

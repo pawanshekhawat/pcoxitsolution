@@ -589,7 +589,7 @@ a {
         line-height: 61px;
       }
       @media #{$sm-layout} {
-        font-size: 30px;
+        font-size: 30px !important;
         line-height: 50px;
       }
     }
@@ -915,7 +915,7 @@ gt matrik score area
 }
 
 .homePageHeroTitles {
-  color: #d4d4d4 !important;
+  color: #fff !important;
   max-width: 600px;
 }
 
@@ -953,11 +953,11 @@ gt matrik score area
 /* BreadCrumb  */
 .overlayServices {
   background-color: #00000094 !important;
-  height: 600px !important;
+  height: 600px;
 }
 .home-overlay {
-  background-color: #000 !important;
-  height: 100vh !important;
+  background-color: #000000 !important;
+  // height: 100vh !important;
 }
 
 .cardBtn2 {
@@ -1047,7 +1047,7 @@ gt matrik score area
 }
 
 .rn-address {
-  height: 100%!important;
+  height: 100% !important;
 }
 
 // Responsive
@@ -1058,31 +1058,72 @@ gt matrik score area
 }
 
 @media #{$lg-layout} {
+  .overlayServices {
+    height: 600px !important;
+  }
+  .blogImageBox {
+    height: 532px !important;
+  }
+  
+  .blogImageBox a img {
+    width: 100%;
+    height: 532px;
+    object-fit: cover;
+  }  
 }
 
 @media #{$md-layout} {
+  .overlayServices {
+    height: auto !important;
+  }
+
+  .blogImageBox {
+    height: 432px !important;
+  }
+  
+  .blogImageBox a img {
+    width: 100%;
+    height: 432px;
+    object-fit: cover;
+  } 
 }
 
 @media #{$sm-layout} {
-  //Navbar
-  // .homeLogo{
-  //   height: 40px;
-  // }
-
+  .personal-portfolio-slider .container{
+    margin: 0px 20px;
+    width:450px;
+  }
+  
   //Hero Section
   .personal-portfolio-slider {
-    height: 400px!important;
+    height: 500px !important;
   }
-  .homePageHeroTitlesSpan{
-    font-size: 10px!important;
+  .homePageHeroTitlesSpan {
+    margin-top: 80px;
+    font-size: 10px !important;
   }
   .homePageHeroTitles {
-    font-size: 24px!important;
-    line-height: 34px!important;
+    margin-bottom: 80px !important;
+    font-size: 40px !important;
+    line-height: 44px !important;
   }
   .homePageLoopText {
-    font-size: 20px!important;
+    font-size: 30px !important;
   }
+
+  .overlayServices {
+    height: auto !important;
+  }
+
+  .blogImageBox {
+    height: 400px !important;
+  }
+  
+  .blogImageBox a img {
+    width: 100%;
+    height: 432px;
+    object-fit: cover;
+  } 
 
   //Home about us
   .about-inner .section-title h2.title {
@@ -1092,63 +1133,118 @@ gt matrik score area
   .row--35 {
     text-align: center;
   }
-  .about-inner .section-title .description  {
-    font-size: 14px!important;
-  } 
+  .about-inner .section-title .description {
+    font-size: 14px !important;
+  }
   .single-tab-content p {
-    font-size: 14px!important;
+    font-size: 14px !important;
   }
   .section-title title {
-    font-size: 24px!important;
+    font-size: 24px !important;
   }
 
   //services
   .rn-page-title-area {
-    padding-bottom: 80px!important;
+    padding-bottom: 80px !important;
   }
-  .rn-service-details{
-    padding-top: 40px!important;
-
+  .rn-service-details {
+    padding-top: 40px !important;
   }
-  .serviceHead{
-    font-size: 24px!important;
+  .serviceHead {
+    font-size: 24px !important;
   }
-  .serviceCardTitle{
-    font-size: 18px!important;
+  .serviceCardTitle {
+    font-size: 18px !important;
   }
   .reactIcons {
     width: 38px;
     height: 38px;
   }
   .cardBtn {
-    font-size: 10px!important;
+    font-size: 10px !important;
   }
-  .serviceInTitile{
-    font-size: 28px!important;
-    padding: 0px 10px!important ;
+  .serviceInTitile {
+    font-size: 28px !important;
+    padding: 0px 10px !important ;
   }
-  .serviceInPara{
-    font-size: 14px!important;
-    padding: 0px 10px!important ;
+  .serviceInPara {
+    font-size: 14px !important;
+    padding: 0px 10px !important ;
   }
   .getStBtn {
     font-size: 12px;
   }
-  .DevProgTilte{
-    font-size: 28px!important;
+  .DevProgTilte {
+    font-size: 28px !important;
   }
-  .serviceProcHead{
+  .serviceProcHead {
     font-size: 16px;
   }
-  .DevProg{
-    padding: 15px!important;
+  .DevProg {
+    padding: 15px !important;
   }
   .cardBtn2 {
-    font-size: 14px!important;
-    padding: 5px!important;
+    font-size: 14px !important;
+    padding: 5px !important;
   }
   .contactBlogBtn {
-    font-size: 12px!important;
-    padding: 0px 15px!important;
+    font-size: 12px !important;
+    padding: 0px 15px !important;
+  }
+}
+
+.iwsContentCard {
+  background-color: rgba(4, 16, 45);
+  border-radius: 12px;
+  border: 2px solid #ffffff56;
+  padding: 15px;
+}
+
+.iwsContentCardIcon {
+  height: 70px;
+  width: 70px;
+  display: grid;
+  place-items: center;
+  position: relative;
+  top: 27px;
+  left: 5%;
+  border-radius: 50%;
+  background-color: #ebecee;
+}
+.iwsContentCardIcon::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  border: 2px solid transparent;
+  border-bottom-color: #ffffff56;
+  border-left-color: #ffffff56;
+  border-right-color: #ffffff56;
+  transform: rotate(180deg);
+}
+
+.iwsContentCardTitle {
+  font-size: 20px;
+  margin: 0;
+}
+
+.iwsContentCardPara {
+  font-size: 16px;
+  text-align: left;
+  font-weight: 400;
+  color: #000 !important;
+}
+
+.iwsContentCardMainIcon {
+  font-size: 30px;
+}
+
+.testimonialTitle {
+  margin: 60px 0px !important;
+  @media #{$sm-layout} {
+    margin: 0px 0px !important;
   }
 }

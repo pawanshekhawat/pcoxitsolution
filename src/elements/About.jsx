@@ -1,4 +1,4 @@
-import React, { useState, useContext } from "react";
+import React, { useState, useContext, useEffect } from "react";
 
 import PageHelmet from "../component/common/Helmet";
 import Breadcrumb from "../elements/common/Breadcrumb";
@@ -20,9 +20,51 @@ const About = () => {
 
     const { t } = useTranslation();
 
-    let title =`${t('about_us')}`
-     const { isDark, toggleTheme } = useContext(ThemeContext);
+    let title = `${t('about_us')}`
+    const { isDark, toggleTheme } = useContext(ThemeContext);
+    const [loading, setLoading] = useState(true);
 
+    useEffect(() => {
+        // Dynamically append the new script for dotlottie-player
+        const script = document.createElement('script');
+        script.src = 'https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs';
+        script.type = 'module';
+        document.head.appendChild(script);
+
+        // Cleanup when component unmounts
+        return () => {
+            document.head.removeChild(script);
+        };
+    }, []);
+
+    useEffect(() => {
+        const fetchData = async () => {
+            await new Promise(resolve => setTimeout(resolve, 3000));
+            setLoading(false);
+        };
+
+        fetchData();
+    }, []);
+
+    if (loading) {
+        return (
+            <div className={isDark ? "active-dark" : "active-light"} >
+                {/* <div style={{ width: '100vw', height: "100vh", display: "grid", placeItems: "center" }}>
+            <img src={LoaderGif} />
+          </div> */}
+                <div style={{ width: '100vw', height: '100vh', display: 'grid', placeItems: 'center' }}>
+                    <dotlottie-player
+                        src="https://lottie.host/0544481e-fc88-4533-8112-736c6a8be8f8/zpUnJPdBr3.json"
+                        background="transparent"
+                        speed="1"
+                        style={{ width: '300px', height: '300px' }}
+                        loop
+                        autoplay
+                    ></dotlottie-player>
+                </div>
+            </div>
+        );
+    }
 
     return (
 
@@ -31,14 +73,14 @@ const About = () => {
 
             <HeaderThree homeLink="/" logo="symbol-dark" color="color-black" />
             {/* Start Breadcrump Area */}
-            <Breadcrumb title={t('about')} />
+            <Breadcrumb title={t('About us')} />
             {/* End Breadcrump Area */}
 
             {/* Start About Area  */}
-            <div className="rn-about-area ptb--120 bg_color--1">
+            <div className="rn-about-area ptb--120 bg_color--1 seprateBgSection">
                 <div className="rn-about-wrapper">
                     <div className="container">
-                        <div className="row row--35 align-items-center">
+                        <div className="row align-items-center">
                             <div className="col-lg-6">
                                 <div className="thumbnail">
                                     <img className="w-100" src="/assets/images/about/about-3.jpg" alt="About Images" />
@@ -47,7 +89,7 @@ const About = () => {
                             <div className="col-lg-6">
                                 <div className="about-inner inner">
                                     <div className="section-title">
-                                        <h2 className="title">{title}</h2>
+                                        <h2 className="title section-title">{title}</h2>
                                         <p className="description">{t('about_desc_1')}.
                                             <br />  <br />
                                             {t('about_desc_3')}
@@ -57,19 +99,17 @@ const About = () => {
                             </div>
                         </div>
                         <div className="row mt--30">
-                                        <div className="col-lg-6 col-md-12 col-sm-12 col-12">
-                                            <div className="about-us-list">
-                                                {/* <h3 className="title" style={{color:"#fff"}}>Who we are</h3> */}
-                                                <p>{t('about_desc_2')}</p>
-                                            </div>
-                                        </div>
-                                        <div className="col-lg-6 col-md-12 col-sm-12 col-12">
-                                            <div className="about-us-list">
-                                                {/* <h3 className="title" style={{color:"#fff"}}>Who we are</h3> */}
-                                                <p>{t('about_desc_4')}</p>
-                                            </div>
-                                        </div>
-                                    </div>
+                            <div className="col-lg-6 col-md-12 col-sm-12 col-12">
+                                <div className="about-us-list">
+                                    <p>{t('about_desc_2')}</p>
+                                </div>
+                            </div>
+                            <div className="col-lg-6 col-md-12 col-sm-12 col-12">
+                                <div className="about-us-list">
+                                    <p>{t('about_desc_4')}</p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -90,10 +130,10 @@ const About = () => {
             </div>
             {/* End CounterUp Area */}
 
-    
 
-              {/* Start Testimonial Area */}
-            <div className="rn-testimonial-area bg_color--5 ptb--120">
+
+            {/* Start Testimonial Area */}
+            <div className="rn-testimonial-area bg_color--5 ptb--120 seprateBgSection">
                 <div className="container">
                     <Testimonial />
                 </div>
@@ -106,7 +146,7 @@ const About = () => {
                     <div className="row">
                         <div className="col-lg-12">
                             <div className="section-title service-style--3 text-center mb--25">
-                                <h2 className="title">Skilled Team</h2>
+                                <h2 className="title section-title">Skilled Team</h2>
                                 <p>Meet our exceptional team of dedicated professionals, each bringing a unique set of skills and expertise to the table. Together, we strive towards excellence, innovation, and a shared commitment to exceeding expectations.</p>
                             </div>
                         </div>
@@ -177,7 +217,7 @@ const About = () => {
             </div> */}
             {/* End Team Area  */}
 
-          
+
 
             {/* Start Brand Area */}
             {/* <div className="rn-brand-area brand-separation bg_color--5 ptb--120">
@@ -201,7 +241,7 @@ const About = () => {
 
             <div className="toggle-button">
 
-          <Toggle isChecked={isDark} handleChange={toggleTheme} />
+                <Toggle isChecked={isDark} handleChange={toggleTheme} />
             </div>
 
 

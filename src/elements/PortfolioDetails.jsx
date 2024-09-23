@@ -39,7 +39,7 @@ class PortfolioDetails extends Component{
                         <div className="row">
                             <div className="col-lg-12">
                                 <div className="rn-page-title text-center pt--100">
-                                    <h2 className="title theme-gradient">Getting tickets to the big show</h2>
+                                    <h2 className="title section-title theme-gradient">Getting tickets to the big show</h2>
                                     <p>Contrary to popular belief, Lorem Ipsum is not simply random text. </p>
                                 </div>
                             </div>

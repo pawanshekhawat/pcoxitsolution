@@ -120,7 +120,7 @@ class Business extends Component{
                         <div className="row">
                             <div className="col-lg-12">
                                 <div className="section-title service-style--3 text-center mb--30 mb_sm--0">
-                                    <h2 className="title">Our Service</h2>
+                                    <h2 className="title section-title">Our Service</h2>
                                     <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.</p>
                                 </div>
                             </div>
@@ -146,7 +146,7 @@ class Business extends Component{
                             <div className="col-lg-6">
                                 <div className="about-inner inner">
                                     <div className="section-title">
-                                        <h2 className="title">Working Process</h2>
+                                        <h2 className="title section-title">Working Process</h2>
                                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim exercitationem impedit iure quia quo recusandae?</p>
                                     </div>
                                     <div className="accordion-wrapper mt--30">
@@ -169,7 +169,7 @@ class Business extends Component{
                             <div className="col-lg-6 order-2 order-lg-1">
                                 <div className="about-inner inner">
                                     <div className="section-title">
-                                        <h2 className="title">About</h2>
+                                        <h2 className="title section-title">About</h2>
                                         <p className="description">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which dont look even slightly believable.</p>
                                     </div>
                                     <div className="mt--30">
@@ -209,7 +209,7 @@ class Business extends Component{
                             <div className="row">
                                 <div className="col-lg-12">
                                     <div className="section-title text-center service-style--3 mb--30 mb_sm--0">
-                                        <h2 className="title">Our Project</h2>
+                                        <h2 className="title section-title">Our Project</h2>
                                         <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.</p>
                                     </div>
                                 </div>
@@ -235,7 +235,7 @@ class Business extends Component{
                         <div className="row">
                             <div className="col-lg-12">
                                 <div className="section-title service-style--3 text-center mb--25 mb_sm--0">
-                                    <h2 className="title">Skilled Team</h2>
+                                    <h2 className="title section-title">Skilled Team</h2>
                                     <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.</p>
                                 </div>
                             </div>
@@ -254,7 +254,7 @@ class Business extends Component{
                         <div className="row align-items-end">
                             <div className="col-lg-12">
                                 <div className="section-title service-style--3 text-center">
-                                    <h2 className="title">Latest News</h2>
+                                    <h2 className="title section-title">Latest News</h2>
                                     <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.</p>
                                 </div>
                             </div>

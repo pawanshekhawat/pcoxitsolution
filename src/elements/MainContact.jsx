@@ -1,4 +1,4 @@
-import React, { useContext, useState } from "react";
+import React, { useContext, useState, useEffect } from "react";
 import PageHelmet from "../component/common/Helmet";
 import { FiHeadphones, FiMail, FiMapPin } from "react-icons/fi";
 import GoogleMapReact from "google-map-react";
@@ -9,21 +9,19 @@ import { FiChevronUp } from "react-icons/fi";
 import HeaderThree from "../component/header/HeaderThree";
 import Footer from "../component/footer/Footer";
 import { Background } from "react-parallax";
-import axios from 'axios';
+import axios from "axios";
 
 import Toggle from "../component/Toggle/Toggle";
 import { useTranslation } from "react-i18next";
-
 import { ThemeContext } from "../ThemeContext";
 
 const AnyReactComponent = ({ text }) => <div>{text}</div>;
 
 const MainContact = () => {
-  const { t } = useTranslation();
-
+  // Move all hooks, including useTranslation, to the top level
+  const { t } = useTranslation(); // Use at the top, not inside conditions
   const { isDark, toggleTheme } = useContext(ThemeContext);
-
-  // State for form fields
+  const [loading, setLoading] = useState(true);
   const [formData, setFormData] = useState({
     fname: "",
     lname: "",
@@ -31,11 +29,30 @@ const MainContact = () => {
     phone: "",
     message: "",
   });
-
-  // State for form submission status
   const [status, setStatus] = useState("");
 
-  // Handle input change
+  // Effect for dotlottie-player script
+  useEffect(() => {
+    const script = document.createElement("script");
+    script.src = "https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs";
+    script.type = "module";
+    document.head.appendChild(script);
+
+    return () => {
+      document.head.removeChild(script);
+    };
+  }, []);
+
+  // Simulate loading for 3 seconds
+  useEffect(() => {
+    const fetchData = async () => {
+      await new Promise((resolve) => setTimeout(resolve, 3000));
+      setLoading(false);
+    };
+    fetchData();
+  }, []);
+
+  // Handle input change for form fields
   const handleInputChange = (e) => {
     const { name, value } = e.target;
     setFormData({
@@ -51,7 +68,6 @@ const MainContact = () => {
       const response = await axios.post("/api/register-contact", formData);
       if (response.status === 201) {
         setStatus("Success");
-        // Clear the form fields
         setFormData({
           fname: "",
           lname: "",
@@ -65,58 +81,71 @@ const MainContact = () => {
     }
   };
 
+  if (loading) {
+    return (
+      <div className={isDark ? "active-dark" : "active-light"}>
+        <div style={{ width: "100vw", height: "100vh", display: "grid", placeItems: "center" }}>
+          <dotlottie-player
+            src="https://lottie.host/0544481e-fc88-4533-8112-736c6a8be8f8/zpUnJPdBr3.json"
+            background="transparent"
+            speed="1"
+            style={{ width: "300px", height: "300px" }}
+            loop
+            autoplay
+          ></dotlottie-player>
+        </div>
+      </div>
+    );
+  }
+
   return (
     <div className={isDark ? "active-dark" : "active-light"}>
       <PageHelmet pageTitle="Contact" />
-
-      {/* Start Breadcrump Aresa */}
       <HeaderThree homeLink="/" logo="symbol-dark" color="color-dark" />
-      <div className="breadcrumb-area rn-bg-color ptb--120 bg_image bg_image--1">
+      <div className="breadcrumb-area rn-bg-color ptb--180 bg_image bg_image--1">
         <div className="container">
           <div className="row">
-            {/* Start Single Address  */}
             <div className="col-lg-4 col-md-6 col-sm-6 col-12">
-              <div className="rn-address">
+              <div className="rn-address mainContactCards">
                 <div className="icon">
                   <FiHeadphones />
                 </div>
                 <div className="inner">
-                  <h4 className="title title1">{t("contact_num")}</h4>
+                  <h4 className="title title1 mainContactCardText">{t("contact_num")}</h4>
                   <p>
-                    <a href="tel:+91 7022987604">Mobile: +91-7022987604</a>
+                    <a className="mainContactCardText" href="tel:+91 7022987604">
+                      Mobile: +91-7022987604
+                    </a>
                   </p>
                 </div>
               </div>
             </div>
-            {/* End Single Address  */}
 
-            {/* Start Single Address  */}
             <div className="col-lg-4 col-md-6 col-sm-6 col-12 mt_mobile--50">
-              <div className="rn-address">
+              <div className="rn-address mainContactCards">
                 <div className="icon">
                   <FiMail />
                 </div>
                 <div className="inner">
-                  <h4 className="title title1">{t("email_add")}</h4>
+                  <h4 className="title title1 mainContactCardText">{t("email_add")}</h4>
                   <p>
-                    <a href="support@pcoxgroup.in">support@pcoxgroup.in</a>
+                    <a className="mainContactCardText" href="support@pcoxgroup.in">
+                      support@pcoxgroup.in
+                    </a>
                   </p>
                 </div>
               </div>
             </div>
-            {/* End Single Address  */}
 
-            {/* Start Single Address  */}
             <div className="col-lg-4 col-md-6 col-sm-6 col-12 mt_md--50 mt_sm--50">
-              <div className="rn-address">
+              <div className="rn-address mainContactCards">
                 <div className="icon">
                   <FiMapPin />
                 </div>
                 <div className="inner">
-                  <h4 className="title title1">{t("location")}</h4>
-
+                  <h4 className="title title1 mainContactCardText">{t("location")}</h4>
                   <p>
-                    <a href="#" target="_blank">
+                    <a className="mainContactCardText" href="https://maps.app.goo.gl/oizfgAiWvUE7hAca9" target="_blank">
                       Ilnnov8 Mantri commercio, 5th Floor, Tower-A
                       Bellandur ORR, Bengaluru, Karnataka 560103
                     </a>
@@ -124,25 +153,23 @@ const MainContact = () => {
                 </div>
               </div>
             </div>
-            {/* End Single Address  */}
           </div>
         </div>
       </div>
-      <div className="rn-contact-page ptb--120 bg_color--1">
+
+      <div className="rn-contact-page ptb--120 bg_color--1 seprateBgSection">
         <ContactFour />
       </div>
-      {/* End Brand Area */}
 
-      {/* Start Back To Top */}
       <div className="backto-top">
         <ScrollToTop showUnder={160}>
           <FiChevronUp />
         </ScrollToTop>
       </div>
-      {/* End Back To Top */}
 
       <div className="toggle-button">
-        <Toggle isChecked={isDark} handleChange={toggleTheme} />      </div>
+        <Toggle isChecked={isDark} handleChange={toggleTheme} />
+      </div>
 
       <Footer />
     </div>

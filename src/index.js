@@ -256,9 +256,4 @@ root.render(
 
 );
 
-// ReactDOM.render(
-//     <Suspense fallback={loadingMarkup}>
-//         <Root />
-//     </Suspense>
-//     , document.getElementById('root'));
 serviceWorker.register();

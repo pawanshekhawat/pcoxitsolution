@@ -20,7 +20,7 @@ class About extends Component{
                             <div className="col-lg-7 col-md-12">
                                 <div className="about-inner inner">
                                     <div className="section-title">
-                                        <h2 className="title">{title}</h2>
+                                        <h2 className="title section-title">{title}</h2>
                                         <p className="description">{description}</p>
                                     </div>
                                     <div className="row mt--30 mt_sm--10">

@@ -207,7 +207,7 @@ class CreativeLanding extends Component{
                                 <div className="col-lg-7">
                                     <div className="about-inner inner">
                                         <div className="section-title">
-                                            <h2 className="title">About Us</h2>
+                                            <h2 className="title section-title">About Us</h2>
                                             <p className="description">There are many variations of passages of Lorem Ipsum available, but the majority have suffered <a href="#alteration">alteration</a> in some form, by injected humour, or randomised words which dont look even slightly believable. If you are going to use a passage of Lorem Ipsum,</p>
                                         </div>
                                         <div className="row mt--30">
@@ -239,7 +239,7 @@ class CreativeLanding extends Component{
                             <div className="row">
                                 <div className="col-lg-6">
                                     <div className="section-title service-style--3 text-left mb--15 mb_sm--0">
-                                        <h2 className="title">Our Portfolio</h2>
+                                        <h2 className="title section-title">Our Portfolio</h2>
                                         <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.</p>
                                     </div>
                                 </div>
@@ -298,7 +298,7 @@ class CreativeLanding extends Component{
                         <div className="row">
                             <div className="col-lg-6">
                                 <div className="section-title service-style--3 text-left mb--25 mb_sm--0">
-                                    <h2 className="title">Skilled Team</h2>
+                                    <h2 className="title section-title">Skilled Team</h2>
                                     <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.</p>
                                 </div>
                             </div>

@@ -165,6 +165,7 @@ font-family: 'Poppins', sans-serif;
   .bg_image--#{$i} {
     background-image: url(/assets/images/bg/bg-image-#{$i}.jpg) !important;
     opacity: 0.8;
+    background-color: #b4abab !important;
   }
 }
 

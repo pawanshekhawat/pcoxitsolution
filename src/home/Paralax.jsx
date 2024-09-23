@@ -117,7 +117,7 @@ class Paralax extends Component{
 
                 {/* Start Service Area  */}
                 <Parallax className="rn-paralax-portfolio"  bgImage={image2} strength={500} >
-                    <div className="portfolio-area ptb--120" data-black-overlay="6">
+                    <div className="portfolio-area ptb--120" data-black-overlay="8">
                         <div className="container">
                             <div className="row">
                                 <div className="col-lg-12">
@@ -176,7 +176,7 @@ class Paralax extends Component{
 
                 {/* Start Testimonial Area */}
                 <Parallax className="rn-testimonial-area rn-paralax-testimonial  rn-testimonial-light" bgImage={image7} strength={500} data-black-overlay="5">
-                    <div className="testimonial-area ptb--120" data-black-overlay="6">
+                    <div className="testimonial-area ptb--120" data-black-overlay="8">
                         <div className="container">
                             <Testimonial />
                         </div>
@@ -186,7 +186,7 @@ class Paralax extends Component{
 
                 {/* Start Blog Area */}
                 <Parallax className="rn-blog-area rn-testimonial-light" bgImage={image8} strength={700} data-black-overlay="7">
-                    <div className="blog-area ptb--120" data-black-overlay="6">
+                    <div className="blog-area ptb--120" data-black-overlay="8">
                         <div className="container">
                             <div className="row">
                                 <div className="col-lg-12">

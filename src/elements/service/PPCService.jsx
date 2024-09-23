@@ -158,7 +158,7 @@ const PPCService = () => {
                   <h3 className="h3 font-weight-bold serviceProcHead">
                     {t("ppc_advertising_process1_4_title")}
                   </h3>
-                  <p>{t("ppc_advertising_process1_4_desc")}</p>
+                  <p  id="redirect">{t("ppc_advertising_process1_4_desc")}</p>
                 </div>
               </div>
             </div>

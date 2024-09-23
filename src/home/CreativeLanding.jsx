@@ -161,7 +161,7 @@ class CreativeLanding extends Component{
 
                 {/* Start Slider Area   */}
                 <div className="slider-activation slider-creative-agency" id="home">
-                    <div className="bg_image bg_image--26" data-black-overlay="6">
+                    <div className="bg_image bg_image--26" data-black-overlay="8">
                         {SlideList.map((value , index) => (
                             <div className="slide slide-style-2 slider-paralax d-flex align-items-center justify-content-center" key={index}>
                                 <div className="container">

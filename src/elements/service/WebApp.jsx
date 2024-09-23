@@ -157,7 +157,7 @@ const WebApp = () => {
                   <h3 className="h3 font-weight-bold serviceProcHead">
                     {t("wd_process1_4_title")}
                   </h3>
-                  <p>{t("wd_process1_4_desc")}</p>
+                  <p id="redirect">{t("wd_process1_4_desc")}</p>
                 </div>
               </div>
             </div>

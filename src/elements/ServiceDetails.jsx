@@ -217,7 +217,7 @@ const ServiceDetails = () => {
                               Specialized Cargo Handling
                             </li>
                           </ul>
-                          <div className="row mb-4 g-4">
+                          <div className="row mb-4 g-4 align-items-center">
                             <div className="col-md-6">
                               <div className="serviceCardProcess bg-light p-4 rounded">
                                 <h3 className="h5 fw-semibold mb-3 serviceCardProcessTitle">Our Process</h3>
@@ -241,12 +241,11 @@ const ServiceDetails = () => {
                                 </ul>
                               </div>
                             </div>
-                            <div className="col-md-6 my-2">
+                            <div className="col-md-6">
                               <a href="tel:+91 7022987604">
                                 <div className="themeBg text-white p-4 rounded">
-                                  <h3 className="h5 fw-semibold mb-3 text-white">Get more details!</h3>
-                                  <div className="h3 fw-bold mb-2 text-white">Call now</div>
-                                  <p className="contactNum">+91-7022987604</p>
+                                  <p className="h5 font-weight-lighter contactNum">Reach out for tailored land transportation solutions, from fleet management to cross-border services.</p>
+                                  <div className="h3 fw-bold mb-0 text-white">Get in touch!</div>
                                 </div>
                               </a>
                             </div>
@@ -326,12 +325,11 @@ const ServiceDetails = () => {
                                 </ul>
                               </div>
                             </div>
-                            <div className="col-md-6 my-2">
+                            <div className="col-md-6">
                               <a href="tel:+91 7022987604">
                                 <div className="themeBg text-white p-4 rounded">
-                                  <h3 className="h5 fw-semibold mb-3 text-white">Get more details!</h3>
-                                  <div className="h3 fw-bold mb-2 text-white">Call now</div>
-                                  <p className="contactNum">+91-7022987604</p>
+                                  <p className="h5 font-weight-lighter contactNum">Contact us for dependable sea transportation services and smooth customs clearance for your cargo.</p>
+                                  <div className="h3 fw-bold mb-0 text-white">Get in touch!</div>
                                 </div>
                               </a>
                             </div>
@@ -410,12 +408,11 @@ const ServiceDetails = () => {
                                 </ul>
                               </div>
                             </div>
-                            <div className="col-md-6 my-2">
+                            <div className="col-md-6">
                               <a href="tel:+91 7022987604">
                                 <div className="themeBg text-white p-4 rounded">
-                                  <h3 className="h5 fw-semibold mb-3 text-white">Get more details!</h3>
-                                  <div className="h3 fw-bold mb-2 text-white">Call now</div>
-                                  <p className="contactNum">+91-7022987604</p>
+                                  <p className="h5 font-weight-lighter contactNum">Need fast air transport? Contact us for express delivery and real-time tracking for your urgent shipping needs.</p>
+                                  <div className="h3 fw-bold mb-0 text-white">Get in touch!</div>
                                 </div>
                               </a>
                             </div>

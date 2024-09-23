@@ -30,7 +30,7 @@ class HomePortfolio extends Component{
                 <div className="slider-wrapper">
                     {/* Start Single Slide */}
                     {SlideList.map((value , index) => (
-                        <div className="slide slide-style-2 fullscreen d-flex align-items-center justify-content-center bg_image bg_image--24" key={index} data-black-overlay="6">
+                        <div className="slide slide-style-2 fullscreen d-flex align-items-center justify-content-center bg_image bg_image--24" key={index} data-black-overlay="8">
                             <div className="container">
                                 <div className="row">
                                     <div className="col-lg-12">

@@ -20,6 +20,9 @@
     @media #{$sm-layout} {
         min-height: 400px;
     }
+    @media  #{$small-mobile} {
+        min-height: 300px;
+    }
     .thumbnail-inner{
         transition: transform .28s ease;
         z-index: 9;

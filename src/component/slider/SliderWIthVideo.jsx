@@ -6,7 +6,7 @@ class SliderWithVideo extends Component {
     return (
         <div className="slider-activation color-white">
             {/* Start Single Slide */}
-            <div className="slide slide-style-1 slider-fixed--height d-flex align-items-center bg_image bg_image--1" data-black-overlay="6">
+            <div className="slide slide-style-1 slider-fixed--height d-flex align-items-center bg_image bg_image--1" data-black-overlay="8">
                 <div className="container position-relative">
                     <div className="row">
                         <div className="col-lg-7">

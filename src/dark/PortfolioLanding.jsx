@@ -135,7 +135,7 @@ const PortfolioLanding = () => {
                         )}
                         <h1 className="homePageHeroTitles title">
                           {t("home_hero_sec_title")} <br />
-                          <TextLoop>
+                          <TextLoop className="loopTextBox">
                             <span className="homePageLoopText">
                               {t("Software-Development")}
                             </span>
@@ -143,8 +143,7 @@ const PortfolioLanding = () => {
                               {t("home_hero_sec_loop2")}
                             </span>
                             <span className="homePageLoopText">
-                              {t("home_hero_sec_loop3_1")} <br />
-                              {t("home_hero_sec_loop3_2")}
+                              {t("home_hero_sec_loop3")}
                             </span>
                           </TextLoop>
                         </h1>

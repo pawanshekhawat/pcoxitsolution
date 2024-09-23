@@ -43,7 +43,6 @@
 
   [data-black-overlay]:before {
     background-color: #04102d;
-    border-radius: 10px 0px 0px 0px;
   }
 
   [data-white-overlay]:before {
@@ -59,7 +58,7 @@
   }
 
   [data-overlay="6"]:before,
-  [data-black-overlay="6"]:before,
+  [data-black-overlay="8"]:before,
   [data-white-overlay="6"]:before {
     display: none;
   }
@@ -797,7 +796,6 @@ Custom Row
 
   [data-black-overlay]:before {
     background-color: #04102d;
-    border-radius: 10px 0px 0px 0px;
   }
 
   [data-white-overlay]:before {

@@ -50,7 +50,7 @@ class StudioAgency extends Component{
                 <div className="slider-wrapper">
                     {/* Start Single Slide */}
                     {SlideList.map((value , index) => (
-                        <div className="slide slide-style-2 slider-video-bg d-flex align-items-center justify-content-center" key={index} data-black-overlay="6">
+                        <div className="slide slide-style-2 slider-video-bg d-flex align-items-center justify-content-center" key={index} data-black-overlay="8">
                             <div className="container">
                                 <div className="row align-items-center">
                                     <div className="col-lg-8">

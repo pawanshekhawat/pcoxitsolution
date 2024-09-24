@@ -102,20 +102,12 @@ const ServiceDetails = () => {
                                         </div>
                                         <div className="col-lg-6 col-12">
                                             <div className="title">
-
                                                 <p>{t('hr_busi_1')}</p>
-
                                                 <p>{t('hr_busi_2')}</p>
-
-
                                             </div>
                                         </div>
                                     </div>
                                     {/* End Single Area */}
-
-
-
-
                                 </div>
                             </div>
                         </div>

@@ -186,7 +186,6 @@
   .single-tab-content ul li a,
   .single-tab-content ul li {
     color: rgba(198, 201, 216, 0.75);
-    
   }
 
   ul.tab-style--1 li::before {
@@ -387,7 +386,7 @@
     color: #000 !important;
   }
 
-  .contactNum{
+  .contactNum {
     color: #fff;
   }
 }
@@ -552,7 +551,6 @@ font-family: 'Poppins', sans-serif;
 
   p {
     font-size: 18px;
-    line-height: 30px;
   }
 
   p:last-child {
@@ -1042,7 +1040,19 @@ Custom Row
     color: #000 !important;
   }
 
-  .contactNum{
+  .contactNum {
     color: #fff;
+  }
+
+  @media #{$sm-layout} {
+    .service.service__style--2 .content p {
+      color: #000;
+    }
+  }
+
+  @media #{$large-mobile} {
+    .service.service__style--2 .content p {
+      color: #fff;
+    }
   }
 }

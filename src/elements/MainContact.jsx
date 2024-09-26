@@ -102,7 +102,7 @@ const MainContact = () => {
     <div className={isDark ? "active-dark" : "active-light"}>
       <PageHelmet pageTitle="Contact" />
       <HeaderThree homeLink="/" logo="symbol-dark" color="color-dark" />
-      <div className="breadcrumb-area rn-bg-color ptb--180 bg_image">
+      <div className="breadcrumb-area rn-bg-color ptb--180 bg_image" data-black-overlay="8">
         <div className="container">
           <div className="row">
             <div className="col-lg-4 col-md-6 col-sm-6 col-12">

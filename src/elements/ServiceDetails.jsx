@@ -241,11 +241,11 @@ const ServiceDetails = () => {
                                 </ul>
                               </div>
                             </div>
-                            <div className="col-md-6">
-                              <a href="tel:+91 7022987604">
+                            <div className="col-md-6 mt-lg-0 my-md-0 mt-sm-3">
+                              <a href="/contact">
                                 <div className="themeBg text-white p-4 rounded">
                                   <p className="h5 font-weight-lighter contactNum">Reach out for tailored land transportation solutions, from fleet management to cross-border services.</p>
-                                  <div className="h3 fw-bold mb-0 text-white">Get in touch!</div>
+                                  <div id="st" className="h3 fw-bold mb-0 text-white">Get in touch!</div>
                                 </div>
                               </a>
                             </div>
@@ -255,7 +255,6 @@ const ServiceDetails = () => {
                     </div>
                   </section>
                   {/* End Single Area */}
-
 
                   {/* Start Single Area */}
                   <section className="py-5">
@@ -325,11 +324,11 @@ const ServiceDetails = () => {
                                 </ul>
                               </div>
                             </div>
-                            <div className="col-md-6">
-                              <a href="tel:+91 7022987604">
+                            <div className="col-md-6 mt-lg-0 my-md-0 mt-sm-3">
+                              <a href="/contact">
                                 <div className="themeBg text-white p-4 rounded">
                                   <p className="h5 font-weight-lighter contactNum">Contact us for dependable sea transportation services and smooth customs clearance for your cargo.</p>
-                                  <div className="h3 fw-bold mb-0 text-white">Get in touch!</div>
+                                  <div id="at" className="h3 fw-bold mb-0 text-white">Get in touch!</div>
                                 </div>
                               </a>
                             </div>
@@ -408,10 +407,10 @@ const ServiceDetails = () => {
                                 </ul>
                               </div>
                             </div>
-                            <div className="col-md-6">
-                              <a href="tel:+91 7022987604">
+                            <div className="col-md-6 mt-lg-0 my-md-0 mt-sm-3">
+                              <a href="/contact">
                                 <div className="themeBg text-white p-4 rounded">
-                                  <p className="h5 font-weight-lighter contactNum">Need fast air transport? Contact us for express delivery and real-time tracking for your urgent shipping needs.</p>
+                                  <p className="h6 font-weight-lighter contactNum">Need fast air transport? Contact us for express delivery and real-time tracking for your urgent shipping needs.</p>
                                   <div className="h3 fw-bold mb-0 text-white">Get in touch!</div>
                                 </div>
                               </a>
@@ -440,7 +439,8 @@ const ServiceDetails = () => {
       {/* End Back To Top */}
 
       <div className="toggle-button">
-        <Toggle isChecked={isDark} handleChange={toggleTheme} />      </div>
+        <Toggle isChecked={isDark} handleChange={toggleTheme} />
+      </div>
 
       <Footer />
     </div>

@@ -79,9 +79,9 @@ const ServiceDetails = () => {
 
       {/* Start Breadcrump Area */}
       <div
-        className="rn-page-title-area bg_image bg_image-service2"
+        className="breadcrumb-area rn-bg-color bg_image bg_image-service1"
       >
-        <div className="overlayServices pt--120">
+        <div className="ptb--120 overlayServices">
           <div className="container">
             <div className="row">
               <div className="col-lg-12">

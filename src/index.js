@@ -89,7 +89,7 @@ import Cursor from './component/Cursor/Cursor'
 
 import Toggle from './component/Toggle/Toggle';
 import MainContact from './elements/MainContact';
-import GoogleTagManager from './component/common/GoogleTag';
+// import GoogleTagManager from './component/common/GoogleTag';
 
 
 // functions or methods to change the languages 
@@ -135,7 +135,7 @@ class Root extends Component {
             <ThemeProvider>
             <BrowserRouter basename={'/'}>
                 <PageScrollTop>
-                    <GoogleTagManager />
+                    {/* <GoogleTagManager /> */}
                     <Cursor  className="cursor" />
                     <Switch>
 

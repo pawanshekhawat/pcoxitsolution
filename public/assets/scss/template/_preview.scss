@@ -960,18 +960,18 @@ gt matrik score area
 }
 
 .cardBtn2 {
-  background-color: #fff !important;
-  border: 1px solid #cc2f33;
-  color: #000 !important;
+  background-color: #cc2f33 !important;
+  border: 1px solid #fff;
+  color: #fff !important;
   font-size: 18px !important;
   transition: all 0.3s;
 }
 .cardBtn2:hover {
-  color: #fff !important;
   transform: translateZ(-5px);
   font-size: 18px !important;
-  background-color: #cc2f33 !important;
-  border: 1px solid #fff;
+  background-color: #fff !important;
+  border: 1px solid #cc2f33;
+  color: #000 !important;
 }
 
 .DevProg {
@@ -1253,6 +1253,10 @@ gt matrik score area
 
   .slide.slider-style-3 .inner h1.title {
     width: 250px;
+  }
+
+  .blogtype {
+    font-size: 14px !important;
   }
 
 }

@@ -1,7 +1,9 @@
 import React, { useState } from 'react';
 import emailjs from 'emailjs-com';
 import { useTranslation } from 'react-i18next';
-// import ContactPopUp from './ContactPopUp'; // Import the popup component
+// import ContactPopUp from './ContactPopUp'; // Import the popup component'
+import PhoneInput from 'react-phone-input-2'
+import 'react-phone-input-2/lib/style.css'
 
 const Result = () => {
     return (
@@ -10,6 +12,8 @@ const Result = () => {
 };
 
 function MainForm({ props }) {
+    const [value, setValue] = useState();
+    const [error, setError] = useState(false);
     const [result, showResult] = useState(false);
     // const [showPopup, setShowPopup] = useState(false); // State to show/hide the popup
     const [FormData, setFormData] = useState({
@@ -21,11 +25,18 @@ function MainForm({ props }) {
     });
 
     const handleInputChange = (e) => {
-        const { name, value } = e.target;
-        setFormData((prevData) => ({
-            ...prevData,
-            [name]: value,
-        }));
+        // Check if the event is from PhoneInput (it might not have 'e.target')
+        if (typeof e === 'string') {
+            // This is the phone input case, where 'e' is the phone number string
+            setFormData({ ...FormData, phone: e });
+        } else {
+            // For regular inputs, handle like normal
+            const { name, value } = e.target;
+            setFormData((prevData) => ({
+                ...prevData,
+                [name]: value,
+            }));
+        }
     };
 
     const sendEmail = async (e) => {
@@ -46,7 +57,7 @@ function MainForm({ props }) {
 
                     setTimeout(() => {
                         window.location.reload();
-                    }, 2000);                    
+                    }, 2000);
                 },
                 (error) => {
                     console.log(error.text);
@@ -54,7 +65,7 @@ function MainForm({ props }) {
             );
 
         e.target.reset();
-        setFormData={
+        setFormData = {
             fname: "",
             lname: "",
             email: "",
@@ -101,12 +112,17 @@ function MainForm({ props }) {
                 </div>
 
                 <div className="rn-form-group">
-                    <input
+                    <PhoneInput className="phoneInput"
+                        country={"in"}
                         type="text"
-                        name="phone"
                         value={FormData.phone}
+                        autoFormat={true}
+                        // onlyCountries={["in", "us", "gb", "ae"]}
+                        
+                        inputClass="w"
                         placeholder="Phone number with country code"
                         required
+                        name="phone"
                         onChange={handleInputChange}
                     />
                 </div>

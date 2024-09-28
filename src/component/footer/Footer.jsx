@@ -87,16 +87,19 @@ const Footer = () => {
                         </li>
                       </ul>
                     </div>
-
-                    <div className="social-share-inner ">
-                      <ul className="social-share social-style--2 color-white d-flex justify-content-start liststyle align-items-center">
-                        {/* <MultiLang /> */}
-                        {SocialShare.map((val, i) => (
-                                <li key={i}><a href={`${val.link}`}>{val.Social}</a></li>
-                            ))}
-                      </ul>
+                    <div className="social-share-inner">
+                      <div className="footer-link">
+                        {/* <h4 className="mt-4">{t("social_connect")}</h4> */}
+                        <ul className="mt-4 social-share social-style--2 color-white d-flex justify-content-start liststyle align-items-center">
+                          {/* <MultiLang /> */}
+                          {SocialShare.map((val, i) => (
+                            <li key={i}><a href={`${val.link}`}>{val.Social}</a></li>
+                          ))}
+                        </ul>
+                      </div>
                     </div>
                   </div>
+
                   {/* End Single Widget  */}
 
                   <div className="col-lg-12">

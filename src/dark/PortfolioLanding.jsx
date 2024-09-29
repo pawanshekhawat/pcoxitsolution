@@ -1,4 +1,5 @@
 import React, { useState, useContext, useEffect } from "react";
+import Slider from "react-slick";
 import ScrollToTop from "react-scroll-up";
 import { FiChevronUp } from "react-icons/fi";
 import Helmet from "../component/common/Helmet";
@@ -9,6 +10,10 @@ import TabTwo from "../elements/tab/TabTwo";
 import ContactThree from "../elements/contact/ContactThree";
 import PortfolioList from "../elements/portfolio/PortfolioList";
 import ServiceList from "../elements/service/ServiceList";
+
+// Import slick-carousel styles
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 // import BlogContent from "../elements/blog/BlogContent";
 // import MultiLang from '../component/MultiLang/MultiLang';
@@ -34,6 +39,13 @@ const SlideList = [
 const PortfolioLanding = () => {
   const { isDark, toggleTheme } = useContext(ThemeContext);
   const [loading, setLoading] = useState(true);
+
+  const [isMobile, setIsMobile] = useState(false);
+
+  // Function to handle screen size changes
+  const handleResize = () => {
+    setIsMobile(window.innerWidth <= 600); // Set mobile if screen size is <= 600px
+  };
 
   const { t } = useTranslation();
   const BlogContent = [
@@ -84,6 +96,28 @@ const PortfolioLanding = () => {
 
     fetchData();
   }, []);
+
+    // Add resize event listener
+    useEffect(() => {
+      handleResize(); // Initial check
+      window.addEventListener("resize", handleResize); // Listen to resize events
+  
+      return () => {
+        window.removeEventListener("resize", handleResize); // Cleanup on unmount
+      };
+    }, []);
+
+     // Slider settings
+  const sliderSettings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1, // Only show 1 slide on mobile screens
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 3000,      // Set to 3 seconds (3000ms) between scrolls
+
+  };
 
   if (loading) {
     return (
@@ -235,7 +269,7 @@ const PortfolioLanding = () => {
                   </div>
                 </div>
               </div>
-              <div className="row">
+              <div>
                 <PortfolioList
                   styevariation="text-center mt--40"
                   column="col-lg-4 col-md-6 col-sm-6 col-12"
@@ -263,7 +297,10 @@ const PortfolioLanding = () => {
                 </div>
               </div>
             </div>
-            <div className="row mt--60 mt_sm--40 h-full">
+
+            {isMobile ? (
+              <div className="mt--60 mt_sm--40 h-full">
+            <Slider {...sliderSettings}>
               {PostList.map((value, i) => (
                 <div className="col-lg-4 col-md-6 col-12" key={i}>
                   <div className="blog blog-style--1">
@@ -293,7 +330,44 @@ const PortfolioLanding = () => {
                   </div>
                 </div>
               ))}
+              </Slider>
             </div>
+            ):(
+              <div className="row mt--60 mt_sm--40 h-full">
+          
+              {PostList.map((value, i) => (
+                <div className="col-lg-4 col-md-6 col-12" key={i}>
+                  <div className="blog blog-style--1">
+                    <div className="thumbnail blogImageBox">
+                      <a href={`${value.bloglink}`}>
+                        <img
+                          className="w-100"
+                          src={`/assets/images/blog/blog-${value.images}.jpg`}
+                          alt="Blog Images"
+                        />
+                      </a>
+                    </div>
+                    <div className="content">
+                      <h4 className="title">
+                        <a href={`${value.bloglink}`}>{value.title}</a>
+                      </h4>
+                      <p className="blogtype">{value.category}</p>
+                      <div className="blog-btn">
+                        <a
+                          className="rn-btn text-white"
+                          href={`${value.bloglink}`}
+                        >
+                          Read More
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              ))}
+            
+            </div>
+            )}
+            
           </div>
         </div>
       </div>

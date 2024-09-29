@@ -79,7 +79,7 @@ const ServiceDetails = () => {
 
       {/* Start Breadcrump Area */}
       <div
-        className="breadcrumb-area rn-bg-color bg_image bg_image-service1"
+        className="breadcrumb-area rn-bg-color bg_image bg_image-service2"
       >
         <div className="ptb--120 overlayServices">
           <div className="container">

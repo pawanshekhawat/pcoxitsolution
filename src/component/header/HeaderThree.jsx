@@ -103,25 +103,15 @@ const HeaderThree = (props) => {
                     </nav>
                 </div>
                 <div className="header-right">
-                    <div className="social-share-inner ">
+                    <div className="social-share-inner">
                         <ul className="social-share social-style--2 color-white d-flex justify-content-start liststyle align-items-center">
                             <MultiLang />
-                            {/* Assuming SocialShare is an array of objects with 'link' and 'Social' properties */}
-                            {SocialShare.map((val, i) => (
+                            {/* {SocialShare.map((val, i) => (
                                 <li key={i}><a href={`${val.link}`}>{val.Social}</a></li>
-                            ))}
+                            ))} */}
                         </ul>
                     </div>
-                    {/* <div className="header-btn">
-                        <Link className="rn-btn" to="/jobseekers">
-                            <span>{t('for_job_seekers')}</span>
-                        </Link>
-                    </div>
-                    <div className="header-btn">
-                        <Link className="rn-btn" to="/clientcontact">
-                            <span>{t('for_client')}</span>
-                        </Link>
-                    </div> */}
+                  
                     <div className="humberger-menu d-block d-lg-none pl--20">
                         <span onClick={menuTrigger} className="menutrigger text-white"><FiMenu className="hamBurger" /></span>
                     </div>

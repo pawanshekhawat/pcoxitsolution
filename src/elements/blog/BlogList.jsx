@@ -1,72 +1,134 @@
-import React, { Fragment } from "react";
-import BlogContent from "./BlogContent";
+import React, { Fragment, useState, useEffect } from "react";
+import Slider from "react-slick"; // Import Slider component from react-slick
 import { useTranslation } from "react-i18next";
 
+// Import slick-carousel styles
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+
 const BLogList = () => {
-    const { t } = useTranslation(); // Use the useTranslation hook
+  const { t } = useTranslation(); // Use the useTranslation hook
 
-    return (
-        <Fragment>
-            <div className="row">
-                <div className="col-lg-4 col-md-6 col-sm-6 col-12">
-                    <div className="blog blog-style--1">
-                        <div className="thumbnail blogImageBox">
-                            <a href="/navigating-global-trade">
-                                <img className="w-100" src={`/assets/images/blog/blog-01.jpg`} alt="Blog Images"/>
-                            </a>
-                        </div>
-                        <div className="content">
-                            <p className="blogtype">{t("blog_author")}</p>
-                            <h4 className="title">
-                                <a href="/navigating-global-trade">{t("blog_title")}</a>
-                            </h4>
-                            <div className="blog-btn">
-                                <a className="rn-btn text-white" href="/navigating-global-trade">Read More</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+  const [isMobile, setIsMobile] = useState(false);
 
-                <div className="col-lg-4 col-md-6 col-sm-6 col-12">
-                    <div className="blog blog-style--1">
-                        <div className="thumbnail blogImageBox">
-                            <a href="/">
-                                <img className="w-100 " src={`/assets/images/blog/blog-02.jpg`} alt="Blog Images"/>
-                            </a>
-                        </div>
-                        <div className="content">
-                            <p className="blogtype">{t("blog_author1")}</p>
-                            <h4 className="title">
-                                <a href="/">{t("blog_title1")}</a>
-                            </h4>
-                            <div className="blog-btn">
-                                <a className="rn-btn text-white" href="/why-your-business-needs-custom-software">Read More</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+  // Function to handle screen size changes
+  const handleResize = () => {
+    setIsMobile(window.innerWidth <= 600); // Set mobile if screen size is <= 600px
+  };
 
-                <div className="col-lg-4 col-md-6 col-sm-6 col-12">
-                    <div className="blog blog-style--1">
-                        <div className="thumbnail blogImageBox">
-                            <a href="/">
-                                <img className="w-100" src={`/assets/images/blog/blog-03.jpg`} alt="Blog Images"/>
-                            </a>
-                        </div>
-                        <div className="content">
-                            <p className="blogtype">{t("blog_author1")}</p>
-                            <h4 className="title">
-                                <a href="/">{t("blog_byb_title1")}</a>
-                            </h4>
-                            <div className="blog-btn">
-                                <a className="rn-btn text-white" href="/boost-your-brand">Read More</a>
-                            </div>
-                        </div>
+  // Add resize event listener
+  useEffect(() => {
+    handleResize(); // Initial check
+    window.addEventListener("resize", handleResize); // Listen to resize events
+
+    return () => {
+      window.removeEventListener("resize", handleResize); // Cleanup on unmount
+    };
+  }, []);
+
+  // Slider settings
+  const sliderSettings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: isMobile ? 1 : 3, // Show 1 slide on mobile, 3 on larger screens
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 3000, // Set to 3 seconds (3000ms) between scrolls
+  };
+
+  // Array of blog data
+  const blogs = [
+    {
+      id: 1,
+      image: "/assets/images/blog/blog-01.jpg",
+      author: t("blog_author"),
+      title: t("blog_title"),
+      link: "/navigating-global-trade",
+    },
+    {
+      id: 2,
+      image: "/assets/images/blog/blog-02.jpg",
+      author: t("blog_author1"),
+      title: t("blog_title1"),
+      link: "/why-your-business-needs-custom-software",
+    },
+    {
+      id: 3,
+      image: "/assets/images/blog/blog-03.jpg",
+      author: t("blog_author1"),
+      title: t("blog_byb_title1"),
+      link: "/boost-your-brand",
+    },
+  ];
+
+  return (
+    <Fragment>
+      {isMobile ? (
+        <div>
+          <Slider {...sliderSettings}>
+            {blogs.map((blog) => (
+              <div className="col-lg-4 col-md-6 col-sm-6 col-12" key={blog.id}>
+                <div className="blog blog-style--1">
+                  <div className="thumbnail blogImageBox">
+                    <a href={blog.link}>
+                      <img
+                        className="w-100"
+                        src={blog.image}
+                        alt="Blog Images"
+                      />
+                    </a>
+                  </div>
+                  <div className="content">
+                    <p className="blogtype">{blog.author}</p>
+                    <h4 className="title">
+                      <a href={blog.link}>{blog.title}</a>
+                    </h4>
+                    <div className="blog-btn">
+                      <a className="rn-btn text-white" href={blog.link}>
+                        Read More
+                      </a>
                     </div>
+                  </div>
                 </div>
-            </div>
-        </Fragment>
-    );
+              </div>
+            ))}
+          </Slider>
+        </div>
+      ) : (
+        <div className="row">
+       
+            {blogs.map((blog) => (
+              <div className="col-lg-4 col-md-6 col-sm-6 col-12" key={blog.id}>
+                <div className="blog blog-style--1">
+                  <div className="thumbnail blogImageBox">
+                    <a href={blog.link}>
+                      <img
+                        className="w-100"
+                        src={blog.image}
+                        alt="Blog Images"
+                      />
+                    </a>
+                  </div>
+                  <div className="content">
+                    <p className="blogtype">{blog.author}</p>
+                    <h4 className="title">
+                      <a href={blog.link}>{blog.title}</a>
+                    </h4>
+                    <div className="blog-btn">
+                      <a className="rn-btn text-white" href={blog.link}>
+                        Read More
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            ))}
+
+        </div>
+      )}
+    </Fragment>
+  );
 };
 
 export default BLogList;

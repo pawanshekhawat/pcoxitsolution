@@ -116,9 +116,7 @@ function MainForm({ props }) {
                         country={"in"}
                         type="text"
                         value={FormData.phone}
-                        autoFormat={true}
-                        // onlyCountries={["in", "us", "gb", "ae"]}
-                        
+                        autoFormat={true}                        
                         inputClass="w"
                         placeholder="Phone number with country code"
                         required

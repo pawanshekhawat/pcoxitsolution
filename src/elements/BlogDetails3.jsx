@@ -63,7 +63,7 @@ const BlogDetails = () => {
 
       {/* Start Breadcrumb Area */}
       <div
-        className="rn-page-title-area pt--120 pb--190"
+        className="rn-page-title-area pt--40 pb--190"
         data-black-overlay="7"
       >
         <div className="container">

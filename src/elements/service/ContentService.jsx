@@ -105,7 +105,7 @@ const ContentService = () => {
               </p>
               <div className="d-flex justify-content-center mb-4">
                 <a
-                  href="#redirect"
+                  href="/contact"
                   className="getStBtn btn px-4 py-2 mt-3 rounded text-white"
                 >
                   Get Started
@@ -114,7 +114,7 @@ const ContentService = () => {
             </div>
           </div>
         </div>
-        <div className="container pt--120">
+        <div className="container aboutRspnContainer pt--40">
           <div className="bg_color--1 py-5">
             <h2 className="display-4 text-center font-weight-normal mb-5 DevProgTilte">
               {t("content_marketing_process1_main_title")}

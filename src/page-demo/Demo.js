@@ -725,7 +725,7 @@ class Demo extends Component {
                     {/* End Main Demo Area  */}
 
                     {/* Start Main Demo  */}
-                    <div className="home-demo-area bg_color--3 pt--120 pb--130 pt_md--80 pb_md--90 pt_sm--80 pb_sm--90">
+                    <div className="home-demo-area bg_color--3 pt--40 pb--130 pt_md--80 pb_md--90 pt_sm--80 pb_sm--90">
                         <div className="wrapper plr--120">
                             <div className="row">
                                 <div className="col-lg-12">
@@ -1033,7 +1033,7 @@ class Demo extends Component {
 
                     
                     {/* Start Gallery Area  */}
-                    <div className="rn-gallery-area bg_image--35 pt--120 pb--70">
+                    <div className="rn-gallery-area bg_image--35 pt--40 pb--70">
                         <div className="row">
                             <div className="col-lg-12">
                                 <div className="section-title text-center text-white">
@@ -1054,7 +1054,7 @@ class Demo extends Component {
                     {/* End Gallery Area  */}   
 
 
-                    <div className="testimonial-area bg_color--1 pt--120 pb--150 pt_md--80 pb_md--110 pt_sm--80 pb_sm--110">
+                    <div className="testimonial-area bg_color--1 pt--40 pb--150 pt_md--80 pb_md--110 pt_sm--80 pb_sm--110">
                         <div className="container">
                             <div className="row">
                                 <div className="col-lg-12">

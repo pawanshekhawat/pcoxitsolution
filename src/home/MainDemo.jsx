@@ -74,7 +74,7 @@ class MainDemo extends Component{
                 {/* End Testimonial Area */}
 
                 {/* Start Blog Area */}
-                <div className="rn-blog-area pt--120 bg_color--1 mb-dec--30">
+                <div className="rn-blog-area pt--40 bg_color--1 mb-dec--30">
                     <div className="container">
                         <div className="row align-items-end">
                             <div className="col-lg-6 col-md-12 col-sm-12 col-12">

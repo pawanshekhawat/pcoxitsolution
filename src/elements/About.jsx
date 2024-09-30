@@ -79,7 +79,7 @@ const About = () => {
             {/* Start About Area  */}
             <div className="rn-about-area ptb--120 bg_color--1 seprateBgSection">
                 <div className="rn-about-wrapper">
-                    <div className="container">
+                    <div className="container aboutRspnContainer">
                         <div className="row align-items-center">
                             <div className="col-lg-6">
                                 <div className="thumbnail">
@@ -90,7 +90,7 @@ const About = () => {
                                 <div className="about-inner inner">
                                     <div className="section-title">
                                         <h2 className="title section-title">{title}</h2>
-                                        <p className="description">{t('about_desc_1')}.
+                                        <p className="description aboutParaRspn">{t('about_desc_1')}.
                                             <br />  <br />
                                             {t('about_desc_3')}
                                             <br /> </p>
@@ -98,15 +98,15 @@ const About = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="row mt--30">
+                        <div className="row mt--30 aboutOtherParaContent">
                             <div className="col-lg-6 col-md-12 col-sm-12 col-12">
                                 <div className="about-us-list">
-                                    <p>{t('about_desc_2')}</p>
+                                    <p className="aboutParaRspn">{t('about_desc_2')}</p>
                                 </div>
                             </div>
                             <div className="col-lg-6 col-md-12 col-sm-12 col-12">
                                 <div className="about-us-list">
-                                    <p>{t('about_desc_4')}</p>
+                                    <p className="aboutParaRspn">{t('about_desc_4')}</p>
                                 </div>
                             </div>
                         </div>
@@ -120,7 +120,7 @@ const About = () => {
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-12">
-                            <div className="section-title text-center" style={{ marginTop: "60px" }}>
+                            <div className="section-title text-center achivementAboutRspn" style={{ marginTop: "60px" }}>
                                 <h3 className="fontWeight500">{t('our_achiev')}</h3>
                             </div>
                         </div>

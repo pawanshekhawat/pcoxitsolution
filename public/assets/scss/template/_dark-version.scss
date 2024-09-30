@@ -397,6 +397,48 @@
   .contactNum {
     color: #fff;
   }
+
+  .phoneInput input {
+    display: block;
+    width: 100%;
+    // border: 2px solid #cc2f33;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    height: 50px;
+    line-height: 46px;
+    margin-bottom: 20px;
+    outline: none;
+    background-color: transparent;
+    font-size: 15px;
+    letter-spacing: 0.1px;
+  }
+  .phoneInput {
+    margin-bottom: 20px !important;
+  }
+  // .phoneInput input::placeholder {
+  //   color: rgba(198, 201, 216, 0.75) !important;
+  // }
+  .contact-form--1 .flag-dropdown {
+    border: 2px solid rgba(255, 255, 255, 0.2) !important;
+    border-right: none !important;
+    background-color: #b4abab;
+  }
+
+  .service.service__style--2 .content h3.title {
+    color: #fff;
+  }
+  .slick-arrow {
+    display: none !important;
+  }
+  .service__style--2 .content p{
+    font-size: 14px !important;
+    line-height: 20px !important;
+  }
+  .service__style--2 .content h3{
+    font-size: 18px !important;
+    margin-bottom: 10px !important;
+  }
+
 }
 
 .active-light {
@@ -429,9 +471,9 @@ font-family: 'Poppins', sans-serif;
   .hidden {
     display: none;
   }
-  .fix {
-    overflow: hidden;
-  }
+  // .fix {
+  //   overflow: hidden;
+  // }
 
   .visuallyhidden {
     border: 0;
@@ -904,7 +946,7 @@ Custom Row
       color: #c6c9d8 !important;
     }
     .service.service__style--2 .content p {
-      color: #fff;
+      color: #000;
     }
     .header-area .header-wrapper .mainmenunav ul.mainmenu li a {
       color: #000 !important;
@@ -1051,7 +1093,26 @@ Custom Row
   .contactNum {
     color: #fff;
   }
+  .section-title.service-style--3 h2 {
+    color: #000;
+  }
 
+  .slick-center {
+    .service__style--2 {
+      filter: none !important; // Remove lur from the active slide
+      background-color: #cc2f33 !important;
+      transform: scale(1.1) !important; //Scale up to look like a pop-up
+      z-index: 10 !important; // ring the active slide to the front
+      transition: all 0.3s ease !important;
+    }
+    .service__style--2 .content p  {
+      color: #fff !important;
+    }
+    .service__style--2 .content h3  {
+      color: #fff !important;
+    }
+  }
+  
   @media #{$sm-layout} {
     .service.service__style--2 .content p {
       color: #000;
@@ -1060,7 +1121,7 @@ Custom Row
 
   @media #{$large-mobile} {
     .service.service__style--2 .content p {
-      color: #fff;
+      color: #000;
     }
   }
 }

@@ -107,7 +107,7 @@ class CreativeAgency extends Component{
                 {/* End Service Area  */} 
 
                 {/* Start Portfolio Area */}
-                <div className="portfolio-area pt--120 pb--140 bg_color--5">
+                <div className="portfolio-area pt--40 pb--140 bg_color--5">
                     <div className="rn-slick-dot">
                         <div className="container">
                             <div className="row">
@@ -194,7 +194,7 @@ class CreativeAgency extends Component{
                 
 
                 {/* Start Blog Area */}
-                <div className="rn-blog-area pt--120 pb--140 bg_color--5">
+                <div className="rn-blog-area pt--40 pb--140 bg_color--5">
                     <div className="container">
                         <div className="row align-items-end">
                             <div className="col-lg-6">

@@ -93,7 +93,7 @@ const ServiceDetails = () => {
       {/* End Breadcrump Area */}
 
       {/* Start Page Wrapper */}
-      <div className="rn-service-details ptb--120 bg_color--1">
+      <div className="rn-service-details ptb--120 bg_color--1 rn-about-area">
         <div>
           {/* Start Service Card Area */}
           <div className="container">
@@ -169,12 +169,12 @@ const ServiceDetails = () => {
           </div>
           {/* End Service Card Area */}
 
-          <div className="row pt--120" id="lt">
+          <div className="row pt--40 rn-about-area" id="lt">
             <div className="col-lg-12">
               <div className="service-details-inner">
                 <div className="inner">
                   {/* Start Single Area */}
-                  <section className="py-5 seprateBgSection">
+                  <section className=" seprateBgSection">
                     <div className="container px-4">
                       <div className="row g-4 align-items-center">
                         <div className="col-lg-6 order-lg-2">
@@ -187,7 +187,7 @@ const ServiceDetails = () => {
                           </div>
                         </div>
                         <div className="col-lg-6 order-lg-1">
-                          <h2 className="h3 fw-bold mb-4">Land Transportation Services</h2>
+                          <h2 className="h3 fw-bold mb-4 serviceHeading">Land Transportation Services</h2>
                           <p className="text-muted mb-4">
                             At PCOX Internet Pvt Limited, We specialize in providing efficient and reliable land transportation solutions tailored to meet your specific logistics needs.
                           </p>
@@ -241,7 +241,7 @@ const ServiceDetails = () => {
                                 </ul>
                               </div>
                             </div>
-                            <div className="col-md-6 mt-lg-0 my-md-0 mt-sm-3">
+                            <div className="col-md-6 mt-lg-0 my-md-0 mt-sm-3 mt-3">
                               <a href="/contact">
                                 <div className="themeBg text-white p-4 rounded">
                                   <p className="h5 font-weight-lighter contactNum">Reach out for tailored land transportation solutions, from fleet management to cross-border services.</p>
@@ -257,10 +257,10 @@ const ServiceDetails = () => {
                   {/* End Single Area */}
 
                   {/* Start Single Area */}
-                  <section className="py-5">
+                  <section className="">
                     <div className="container px-4">
                       <div className="row g-4 align-items-center">
-                        <div className="col-lg-6 d-none d-md-block">
+                        <div className="col-lg-6 d-md-block">
                           <div className="position-relative h-100">
                             <img
                               className="img-fluid rounded my-3"
@@ -270,7 +270,7 @@ const ServiceDetails = () => {
                           </div>
                         </div>
                         <div className="col-lg-6">
-                          <h2 className="h3 fw-bold mb-4">Sea Transportation Services</h2>
+                          <h2 className="h3 fw-bold mb-4 serviceHeading">Sea Transportation Services</h2>
                           <p className="text-muted mb-4">
                             At PCOX Internet Pvt Limited, we provide reliable and efficient sea transportation solutions, ensuring your cargo reaches its destination safely and on time.
                           </p>
@@ -324,7 +324,7 @@ const ServiceDetails = () => {
                                 </ul>
                               </div>
                             </div>
-                            <div className="col-md-6 mt-lg-0 my-md-0 mt-sm-3">
+                            <div className="col-md-6 mt-lg-0 my-md-0 mt-sm-3 mt-3">
                               <a href="/contact">
                                 <div className="themeBg text-white p-4 rounded">
                                   <p className="h5 font-weight-lighter contactNum">Contact us for dependable sea transportation services and smooth customs clearance for your cargo.</p>
@@ -340,7 +340,7 @@ const ServiceDetails = () => {
                   {/* End Single Area */}
 
                   {/* Start Single Area */}
-                  <section className="py-5 seprateBgSection">
+                  <section className=" seprateBgSection">
                     <div className="container px-4">
                       <div className="row g-4 align-items-center">
                         <div className="col-lg-6 order-lg-2">
@@ -353,7 +353,7 @@ const ServiceDetails = () => {
                           </div>
                         </div>
                         <div className="col-lg-6 order-lg-1">
-                          <h2 className="h3 fw-bold mb-4">Air Transportation Services</h2>
+                          <h2 className="h3 fw-bold mb-4 serviceHeading">Air Transportation Services</h2>
                           <p className="text-muted mb-4">
                             At PCOX Internet Pvt Limited, we offer fast and efficient air transportation solutions for your urgent shipping needs, ensuring timely delivery worldwide.
                           </p>
@@ -407,7 +407,7 @@ const ServiceDetails = () => {
                                 </ul>
                               </div>
                             </div>
-                            <div className="col-md-6 mt-lg-0 my-md-0 mt-sm-3">
+                            <div className="col-md-6 mt-lg-0 my-md-0 mt-sm-3 mt-3">
                               <a href="/contact">
                                 <div className="themeBg text-white p-4 rounded">
                                   <p className="h6 font-weight-lighter contactNum">Need fast air transport? Contact us for express delivery and real-time tracking for your urgent shipping needs.</p>

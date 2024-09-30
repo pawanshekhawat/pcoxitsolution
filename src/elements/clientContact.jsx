@@ -79,7 +79,7 @@ const Contact = () => {
             {/* Start Breadcrump Aresa */}
             <HeaderThree homeLink="/" logo="symbol-dark" color="color-dark" />
 
-            {/* <div className="rn-page-title-area pt--120 pb--190" data-black-overlay="0">
+            {/* <div className="rn-page-title-area pt--40 pb--190" data-black-overlay="0">
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-12">

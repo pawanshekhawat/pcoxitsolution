@@ -114,7 +114,7 @@ const Service = () => {
 
             {/* Start Service Area */}
             <div className="service-area ptb--120 seprateBgSection">
-                <div className="container">
+                <div className="container aboutRspnContainer">
                     <div className="row">
                         <div className="col-lg-12">
                             <div className="section-title text-center mb--30">

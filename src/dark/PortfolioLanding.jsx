@@ -44,7 +44,7 @@ const PortfolioLanding = () => {
 
   // Function to handle screen size changes
   const handleResize = () => {
-    setIsMobile(window.innerWidth <= 600); // Set mobile if screen size is <= 600px
+    setIsMobile(window.innerWidth <= 575); // Set mobile if screen size
   };
 
   const { t } = useTranslation();
@@ -52,20 +52,20 @@ const PortfolioLanding = () => {
     {
       images: "01",
       title: `${t("securty")}`,
-      category: `${t("securty_message")}`,
+      category: `${t("blog_author")}`,
       bloglink: "/navigating-global-trade",
     },
     {
       images: "02",
       title: `${t("management")}`,
-      category: `${t("management_message")}`,
+      category: `${t("blog_author")}`,
       bloglink: "/why-your-business-needs-custom-software",
     },
 
     {
       images: "03",
       title: `${t("design")}`,
-      category: `${t("desing_message")}`,
+      category: `${t("blog_author")}`,
       bloglink: "/boost-your-brand",
     },
   ];
@@ -97,26 +97,28 @@ const PortfolioLanding = () => {
     fetchData();
   }, []);
 
-    // Add resize event listener
-    useEffect(() => {
-      handleResize(); // Initial check
-      window.addEventListener("resize", handleResize); // Listen to resize events
-  
-      return () => {
-        window.removeEventListener("resize", handleResize); // Cleanup on unmount
-      };
-    }, []);
+  // Add resize event listener
+  useEffect(() => {
+    handleResize(); // Initial check
+    window.addEventListener("resize", handleResize); // Listen to resize events
 
-     // Slider settings
-  const sliderSettings = {
+    return () => {
+      window.removeEventListener("resize", handleResize); // Cleanup on unmount
+    };
+  }, []);
+
+  // Slider settings
+  const sliderServiceSettings = {
     dots: true,
+    className: "center",
+    centerMode: true,
     infinite: true,
-    speed: 500,
-    slidesToShow: 1, // Only show 1 slide on mobile screens
+    centerPadding: "60px",
+    speed: 500,  
+    slidesToShow: 1, 
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 3000,      // Set to 3 seconds (3000ms) between scrolls
-
+    autoplaySpeed: 3000,
   };
 
   if (loading) {
@@ -233,13 +235,13 @@ const PortfolioLanding = () => {
 
       {/* Start Service Area  */}
       <div id="service" className="fix">
-        <div className="service-area creative-service-wrapper ptb--120  bg_color--5 seprateBgSection">
-          <div className="container">
+        <div className="service-area creative-service-wrapper ptb--120  bg_color--5 seprateBgSection ptb-sm--80">
+          <div className="containerService container">
             <div className="row">
               <div className="col-lg-12">
                 <div className="section-title text-center service-style--3 mb--30 mb_sm--0">
                   <h2 className="title section-title">{t("our_services")}</h2>
-                  <p>{t("our_services_message")}</p>
+                  <p className="homeServiceP">{t("our_services_message")}</p>
                 </div>
               </div>
             </div>
@@ -260,12 +262,12 @@ const PortfolioLanding = () => {
       <div id="portfolio" className="fix">
         <div className="portfolio-area ptb--120 bg_color--1">
           <div className="portfolio-sacousel-inner">
-            <div className="container">
+            <div className="container aboutRspnContainer">
               <div className="row">
                 <div className="col-lg-12">
                   <div className="section-title text-center service-style--3 mb--30 mb_sm--0">
                     <h2 className="title section-title">{t("industries_we_serve")}</h2>
-                    <p>{t("industries_we_serve_message")}</p>
+                    <p className="iwsParaRspn">{t("industries_we_serve_message")}</p>
                   </div>
                 </div>
               </div>
@@ -285,12 +287,12 @@ const PortfolioLanding = () => {
       {/* Start Blog Area */}
       <div id="blog" className="fix">
         <div className="rn-blog-area ptb--120 bg_color--5 mb-dec--30 seprateBgSection">
-          <div className="container">
+          <div className="container portBlogArea">
             <div className="row align-items-end">
               <div className="col-lg-12 col-md-12 col-sm-12 col-12">
                 <div className="section-title text-center">
                   <h2>{t("latest_blog")}</h2>
-                  <p>
+                  <p className="blogParaRspn">
                     {t("latest_blog_message_1")} <br />
                     {t("latest_blog_message_2")}
                   </p>
@@ -299,75 +301,75 @@ const PortfolioLanding = () => {
             </div>
 
             {isMobile ? (
-              <div className="mt--60 mt_sm--40 h-full">
-            <Slider {...sliderSettings}>
-              {PostList.map((value, i) => (
-                <div className="col-lg-4 col-md-6 col-12" key={i}>
-                  <div className="blog blog-style--1">
-                    <div className="thumbnail blogImageBox">
-                      <a href={`${value.bloglink}`}>
-                        <img
-                          className="w-100"
-                          src={`/assets/images/blog/blog-${value.images}.jpg`}
-                          alt="Blog Images"
-                        />
-                      </a>
-                    </div>
-                    <div className="content">
-                      <h4 className="title">
-                        <a href={`${value.bloglink}`}>{value.title}</a>
-                      </h4>
-                      <p className="blogtype">{value.category}</p>
-                      <div className="blog-btn">
-                        <a
-                          className="rn-btn text-white"
-                          href={`${value.bloglink}`}
-                        >
-                          Read More
-                        </a>
+              <div className="">
+                <Slider {...sliderServiceSettings}>
+                  {PostList.map((value, i) => (
+                    <div className="col-lg-4 col-md-6 col-sm-6 col-12" key={i}>
+                      <div className="blog blog-style--1 Blogblur">
+                        <div className="thumbnail blogImageBox">
+                          <a href={`${value.bloglink}`}>
+                            <img
+                              className="w-100"
+                              src={`/assets/images/blog/blog-${value.images}.jpg`}
+                              alt="Blog Images"
+                            />
+                          </a>
+                        </div>
+                        <div className="content">
+                          <h4 className="title blogHomeTitle">
+                            <a href={`${value.bloglink}`}>{value.title}</a>
+                          </h4>
+                          <p className="blogtype blogHomeTitleAuth">{value.category}</p>
+                          <div className="blog-btn blogHomeBtnBox">
+                            <a
+                              className="rn-btn text-white blogHomeBtn"
+                              href={`${value.bloglink}`}
+                            >
+                              Read More
+                            </a>
+                          </div>
+                        </div>
                       </div>
                     </div>
-                  </div>
-                </div>
-              ))}
-              </Slider>
-            </div>
-            ):(
+                  ))}
+                </Slider>
+              </div>
+            ) : (
               <div className="row mt--60 mt_sm--40 h-full">
-          
-              {PostList.map((value, i) => (
-                <div className="col-lg-4 col-md-6 col-12" key={i}>
-                  <div className="blog blog-style--1">
-                    <div className="thumbnail blogImageBox">
-                      <a href={`${value.bloglink}`}>
-                        <img
-                          className="w-100"
-                          src={`/assets/images/blog/blog-${value.images}.jpg`}
-                          alt="Blog Images"
-                        />
-                      </a>
-                    </div>
-                    <div className="content">
-                      <h4 className="title">
-                        <a href={`${value.bloglink}`}>{value.title}</a>
-                      </h4>
-                      <p className="blogtype">{value.category}</p>
-                      <div className="blog-btn">
-                        <a
-                          className="rn-btn text-white"
-                          href={`${value.bloglink}`}
-                        >
-                          Read More
+
+                {PostList.map((value, i) => (
+                  <div className="col-lg-4 col-md-6 col-12" key={i}>
+                    <div className="blog blog-style--1">
+                      <div className="thumbnail blogImageBox">
+                        <a href={`${value.bloglink}`}>
+                          <img
+                            className="w-100"
+                            src={`/assets/images/blog/blog-${value.images}.jpg`}
+                            alt="Blog Images"
+                          />
                         </a>
+                      </div>
+                      <div className="content">
+                        <h4 className="title">
+                          <a href={`${value.bloglink}`}>{value.title}</a>
+                        </h4>
+                        <p className="blogtype">{value.category}</p>
+                        <div className="blog-btn">
+                          <a
+                            className="rn-btn text-white"
+                            href={`${value.bloglink}`}
+                          >
+                            Read More
+                          </a>
+                        </div>
                       </div>
                     </div>
                   </div>
-                </div>
-              ))}
-            
-            </div>
+                ))}
+
+              </div>
             )}
-            
+
           </div>
         </div>
       </div>

@@ -44,7 +44,7 @@ const CounterOne = () => {
                                 <CountUp end={didViewCountUp ? value.countNum : 0} />
                             </VisibilitySensor>
                         </h5>
-                        <p className="description" style={{ color: "#fff" }}>{value.countTitle}</p>
+                        <p className="description">{value.countTitle}</p>
                     </div>
                 ))}
             </div>

@@ -7,13 +7,13 @@ import ScrollToTop from 'react-scroll-up';
 import { FiChevronUp } from "react-icons/fi";
 import HeaderThree from "../component/header/HeaderThree";
 import Footer from "../component/footer/Footer";
+import { useTranslation } from "react-i18next";
 
 import Toggle from "../component/Toggle/Toggle";
 
 import { ThemeContext } from '../ThemeContext';
 
 const Blog = () => {
-
     const { isDark, toggleTheme } = useContext(ThemeContext);
     const [loading, setLoading] = useState(true);
 
@@ -38,6 +38,32 @@ const Blog = () => {
 
         fetchData();
     }, []);
+
+    const { t } = useTranslation(); // Use the useTranslation hook
+    // Array of blog data
+    const blogs = [
+        {
+            id: 1,
+            image: "/assets/images/blog/blog-01.jpg",
+            author: t("blog_author"),
+            title: t("blog_title"),
+            link: "/navigating-global-trade",
+        },
+        {
+            id: 2,
+            image: "/assets/images/blog/blog-02.jpg",
+            author: t("blog_author1"),
+            title: t("blog_title1"),
+            link: "/why-your-business-needs-custom-software",
+        },
+        {
+            id: 3,
+            image: "/assets/images/blog/blog-03.jpg",
+            author: t("blog_author1"),
+            title: t("blog_byb_title1"),
+            link: "/boost-your-brand",
+        },
+    ];
 
     if (loading) {
         return (
@@ -70,8 +96,37 @@ const Blog = () => {
 
             {/* Start Blog Area */}
             <div className="rn-blog-area ptb--120 bg_color--1 seprateBgSection">
-                <div className="container">
-                    <BlogList />
+                <div className="container aboutRspnContainer">
+                    <div className="row">
+
+                        {blogs.map((blog) => (
+                            <div className="col-lg-4 col-md-6 col-sm-6 col-12 blogPageBox" key={blog.id}>
+                                <div className="blog blog-style--1">
+                                    <div className="thumbnail blogImageBox">
+                                        <a href={blog.link}>
+                                            <img
+                                                className="w-100"
+                                                src={blog.image}
+                                                alt="Blog Images"
+                                            />
+                                        </a>
+                                    </div>
+                                    <div className="content">
+                                        <p className="blogtype">{blog.author}</p>
+                                        <h4 className="title">
+                                            <a href={blog.link}>{blog.title}</a>
+                                        </h4>
+                                        <div className="blog-btn">
+                                            <a className="rn-btn text-white" href={blog.link}>
+                                                Read More
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        ))}
+
+                    </div>
                     <div className="row mt--20">
                         <div className="col-lg-12">
                             {/* Start Pagination Area */}

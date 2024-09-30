@@ -135,7 +135,9 @@ Footer Styles
             margin-bottom: 30px;
             opacity: 0.75;
             @media #{$sm-layout} {
-                margin-bottom: 14px;
+                margin: 14px 0px;
+                color: #cc2f33;
+                font-weight: 800;
             }
         }
         ul {

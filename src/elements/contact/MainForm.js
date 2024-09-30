@@ -130,6 +130,7 @@ function MainForm({ props }) {
                 <div className="rn-form-group">
                     <textarea
                         name="message"
+                        className='textAreaPadd'
                         value={FormData.message}
                         placeholder="Enter your message"
                         required

@@ -104,7 +104,7 @@ const WebApp = () => {
               <p className="text-white mb-8">{t("wd_main_desc")}</p>
               <div className="d-flex justify-content-center mb-4">
                 <a
-                  href="#redirect"
+                  href="/contact"
                   className="getStBtn btn px-4 py-2 mt-3 rounded text-white"
                 >
                   {t("get_started")}
@@ -113,8 +113,8 @@ const WebApp = () => {
             </div>
           </div>
         </div>
-        <div className="container pt--120">
-          <div className="bg_color--1 py-5">
+        <div className="container aboutRspnContainer sdPadding pt--40">
+          <div className="bg_color--1 py-3">
             <h2 className="display-4 text-center font-weight-normal mb-5 DevProgTilte">
               {t("wd_process1_main_title")}
             </h2>
@@ -163,7 +163,7 @@ const WebApp = () => {
             </div>
           </div>
 
-          <div className="py-5">
+          <div className="py-3">
             <h2 className="display-4 text-center mb-5 DevProgTilte">
               {t("wd_solution1_title")}
             </h2>
@@ -233,7 +233,7 @@ const WebApp = () => {
         </div>
       </div>
 
-      <div className="py-5 text-center">
+      <div className="py-3 text-center">
         <h2 className="display-4 mb-4 DevProgTilte">{t("contact_us_bottom_title")}</h2>
         <p className=" mb-5">{t("contact_us_bottom_desc")}</p>
         <a

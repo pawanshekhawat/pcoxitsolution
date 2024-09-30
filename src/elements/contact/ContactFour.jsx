@@ -8,10 +8,10 @@ const ContactFour = () => {
     const { t } = useTranslation();
     return (
         <div className="contact-form--1">
-            <div className="container">
+            <div className="container aboutRspnContainer">
                 <div className="row row--35 align-items-start">
                     <div className="col-lg-6 order-2 order-lg-1">
-                        <div className="section-title text-left mb--50">
+                        <div className="contactHeadTitleForm section-title text-left mb--50 sm-mb-0">
                             <h2 className="title section-title">{t('formcont1')}</h2>
                             <p className="description">{t('formdesc')}</p>
                         </div>

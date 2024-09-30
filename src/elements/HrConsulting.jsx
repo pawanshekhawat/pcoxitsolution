@@ -16,6 +16,11 @@ import { BiSupport } from "react-icons/bi";
 
 import { useTranslation } from "react-i18next";
 import { ThemeContext } from "../ThemeContext";
+import Slider from "react-slick"; // Import Slider component from react-slick
+
+// Import slick-carousel styles
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 const ServiceDetails = () => {
   const { t } = useTranslation();
@@ -82,7 +87,7 @@ const ServiceDetails = () => {
         className="breadcrumb-area rn-bg-color bg_image bg_image-service2"
       >
         <div className="ptb--120 overlayServices">
-          <div className="container">
+          <div className="container portBlogArea">
             <div className="row">
               <div className="col-lg-12">
                 <div className="rn-page-title text-center pt--100">
@@ -96,8 +101,8 @@ const ServiceDetails = () => {
       {/* End Breadcrump Area */}
 
       {/* Start Page Wrapper */}
-      <div className="rn-service-details pt--120 pb--120 bg_color--1">
-        <div className="container">
+      <div className="rn-service-details pt--40 pb--120 bg_color--1">
+        <div className="container portBlogArea">
           {/* Start Service Card Area */}
           <h3 className="serviceHead">{t("software_dev_0_title")}</h3>
           <div className="serviceCards row">

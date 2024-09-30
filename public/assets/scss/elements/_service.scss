@@ -105,7 +105,7 @@
                 margin-bottom: 11px;
             }
             @media #{$large-mobile} {
-                color: #ffffff;
+                color: #de2828;
             }
            svg {
                 stroke-width: 1 !important;
@@ -127,12 +127,12 @@
                         margin-bottom: 8px;
                     }
                     @media #{$large-mobile} {
-                        color: #ffffff;
+                        color: #000;
                     }
                     a {
                         color: inherit;
                         @media #{$large-mobile} {
-                            color: #ffffff;
+                            color: #000;
                         }
                     }
                 }
@@ -141,7 +141,7 @@
                 @extend %transition;
                 color: rgba(29,29,36,0.75);
                 @media #{$large-mobile} {
-                    color: #ffffff;
+                    color: #000;
                 }
 
             }
@@ -150,6 +150,7 @@
         &:hover{
             box-shadow: 0 10px 25px 10px rgba(0, 0, 0, 0.1);
             transform: translateY(-5px);
+            background-color: #de2828 !important;
             &::before {
                 opacity: 1;
                 visibility: visible;
@@ -158,13 +159,19 @@
                 color: #ffffff;
             }
             .content{
+                color: #ffffff !important;
                 h3 {
                     &.title{
                         @extend %textwhite;        
                     }
                 }
-                p{
-                    @extend %textwhite;  
+                p {
+                    @extend %transition;
+                    color: #fff !important;
+                    @media #{$large-mobile} {
+                        color: #fff !important;
+                    }
+
                 }
             }
         }

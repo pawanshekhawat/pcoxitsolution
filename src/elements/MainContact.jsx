@@ -102,8 +102,8 @@ const MainContact = () => {
     <div className={isDark ? "active-dark" : "active-light"}>
       <PageHelmet pageTitle="Contact" />
       <HeaderThree homeLink="/" logo="symbol-dark" color="color-dark" />
-      <div className="breadcrumb-area rn-bg-color ptb--180 bg_image" data-black-overlay="8">
-        <div className="container">
+      <div className="breadcrumb-area rn-bg-color ptb--180 bg_image contactUsBanner" data-black-overlay="8">
+        <div className="container aboutRspnContainer">
           <div className="row">
             <div className="col-lg-4 col-md-6 col-sm-6 col-12">
               <div className="rn-address mainContactCards">
@@ -121,7 +121,7 @@ const MainContact = () => {
               </div>
             </div>
 
-            <div className="col-lg-4 col-md-6 col-sm-6 col-12 mt_mobile--50">
+            <div className="col-lg-4 col-md-6 col-sm-6 col-12 mt_mobile--60">
               <div className="rn-address mainContactCards">
                 <div className="icon">
                   <FiMail />
@@ -137,7 +137,7 @@ const MainContact = () => {
               </div>
             </div>
 
-            <div className="col-lg-4 col-md-6 col-sm-6 col-12 mt_md--50 mt_sm--50">
+            <div className="col-lg-4 col-md-6 col-sm-6 col-12 mt_md--50 mt_sm--60">
               <div className="rn-address mainContactCards">
                 <div className="icon">
                   <FiMapPin />

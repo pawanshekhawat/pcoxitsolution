@@ -139,13 +139,13 @@ const PortfolioLanding = () => {
             {/* End Portfolio Area */}
 
             {/* Start Blog Area */}
-            <div id="blog" className="fix">
+            <div id="blog" className="fix" >
                 <div className="rn-blog-area ptb--120 bg_color--5 mb-dec--30">
                     <div className="container">
                         <div className="row align-items-end">
                             <div className="col-lg-12 col-md-12 col-sm-12 col-12">
                                 <div className="section-title text-center">
-                                    <h2>{t('latest_blog')}</h2>
+                                    <h2 style={{ marginTop: '10px' }}>{t('latest_blog')}</h2>
                                     <p>{t('latest_blog_messaxge_1')} <br /> {t('latest_blog_message_2')}</p>
                                 </div>
                             </div>

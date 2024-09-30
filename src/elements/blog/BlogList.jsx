@@ -13,7 +13,7 @@ const BLogList = () => {
 
   // Function to handle screen size changes
   const handleResize = () => {
-    setIsMobile(window.innerWidth <= 600); // Set mobile if screen size is <= 600px
+    setIsMobile(window.innerWidth <= 575); // Set mobile if screen size 
   };
 
   // Add resize event listener
@@ -31,7 +31,7 @@ const BLogList = () => {
     dots: true,
     infinite: true,
     speed: 500,
-    slidesToShow: isMobile ? 1 : 3, // Show 1 slide on mobile, 3 on larger screens
+    slidesToShow: isMobile ? 0.8 : 3, // Show 1 slide on mobile, 3 on larger screens
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 3000, // Set to 3 seconds (3000ms) between scrolls

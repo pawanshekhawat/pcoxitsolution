@@ -1,13 +1,31 @@
-import React, { Component, useState, useContext } from "react";
+import React, { Component, useState, useContext, useEffect } from "react";
 
 import { useTranslation } from "react-i18next";
 import { FiBox, FiLayers, FiGlobe, FiMonitor } from "react-icons/fi";
+import Slider from "react-slick"
 
-
-
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 const ServiceThree = (props) => {
     const { t } = useTranslation();
+    const [isMobile, setIsMobile] = useState(false);
+
+    // Function to handle screen size changes
+    const handleResize = () => {
+        setIsMobile(window.innerWidth <= 575); // Set mobile if screen size 
+    };
+
+    // Add resize event listener
+    useEffect(() => {
+        handleResize(); // Initial check
+        window.addEventListener("resize", handleResize); // Listen to resize events
+
+        return () => {
+            window.removeEventListener("resize", handleResize); // Cleanup on unmount
+        };
+    }, []);
+
     const ServiceList = [
         {
             icon: <FiBox />,
@@ -22,33 +40,67 @@ const ServiceThree = (props) => {
             path: '/software-development'
         },
         {
-            icon: <FiGlobe/>,
+            icon: <FiGlobe />,
             title: `${t('hr_third_party_payroll_services')}`,
             description: `${t('hr_third_party_payroll_services_message')}`,
             path: '/digital-marketing'
         },
-    
     ];
     const { column, item } = props;
     const ServiceContent = ServiceList.slice(0, item);
 
+
+
+    const sliderServiceSettings = {
+        dots: true,
+        className: "center",
+        centerMode: true,
+        infinite: true,
+        centerPadding: "60px",
+        slidesToShow: 3,
+        speed: 500,    // Set to 3 seconds (3000ms) between scrolls
+        slidesToShow: 1, // Only show 1 slide on mobile screens
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 3000,
+    };
+
+
     return (
         <React.Fragment>
-            <div className="row">
-                {ServiceContent.map((val, i) => (
-                    <div className={`${column}`} key={i}>
-                        <a href={val.path}>
-                            <div className="service service__style--2 shadow-lg">
-                                <div className="icon">{val.icon}</div>
-                                <div className="content">
-                                    <h3 className="title">{val.title}</h3>
-                                    <p>{val.description}</p>
+            {isMobile ? (
+                <Slider {...sliderServiceSettings}>
+                    {ServiceContent.map((val, i) => (
+                        <div className={`${column}`} key={i}>
+                            <a href={val.path}>
+                                <div className="service service__style--2 blur shadow-lg">
+                                    <div className="icon">{val.icon}</div>
+                                    <div className="content">
+                                        <h3 className="title">{val.title}</h3>
+                                        <p>{val.description}</p>
+                                    </div>
                                 </div>
-                            </div>
-                        </a>
-                    </div>
-                ))}
-            </div>
+                            </a>
+                        </div>
+                    ))}
+                </Slider>
+            ) : (
+                <div className="row">
+                    {ServiceContent.map((val, i) => (
+                        <div className={`${column}`} key={i}>
+                            <a href={val.path}>
+                                <div className="service service__style--2  shadow-lg">
+                                    <div className="icon">{val.icon}</div>
+                                    <div className="content">
+                                        <h3 className="title">{val.title}</h3>
+                                        <p>{val.description}</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    ))}
+                </div>
+            )}
         </React.Fragment>
     );
 };

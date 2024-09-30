@@ -313,7 +313,7 @@ class HomeParticles extends Component{
                 {/* End About Area */}
 
                 {/* Start Portfolio Area */}
-                <div className="portfolio-area pt--120 pb--140 bg_color--1" id="portfolio">
+                <div className="portfolio-area pt--40 pb--140 bg_color--1" id="portfolio">
                     <div className="rn-slick-dot">
                         <div className="container">
                             <div className="row">
@@ -399,7 +399,7 @@ class HomeParticles extends Component{
                 
 
                 {/* Start Blog Area */}
-                <div className="rn-blog-area pt--120 pb--140 bg_color--1" id="blog">
+                <div className="rn-blog-area pt--40 pb--140 bg_color--1" id="blog">
                     <div className="container">
                         <div className="row align-items-end">
                             <div className="col-lg-6">

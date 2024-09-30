@@ -36,7 +36,7 @@ const Testimonial = () => {
             <div className="section-title text-center testimonialTitle">
                 <h3 className="fontWeight500 mb-40" style={{ position: 'relative', zIndex: "6"}}>{t('testimonials_head')}</h3>
             </div>
-            <div className="row" style={{ position: 'relative', height: '300px' }}>
+            <div className="row testimonialsRspn" style={{ position: 'relative' }}>
                 <div className="col-lg-12">
                     <Tabs selectedIndex={activeIndex} onSelect={index => setActiveIndex(index)}>
                         {Array.from({ length: testimonialsLength }).map((_, index) => (

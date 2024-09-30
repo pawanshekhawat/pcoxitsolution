@@ -94,7 +94,7 @@ const SoftDev = () => {
               <p className="text-white mb-8 serviceInPara">{t("sd_main_desc")}</p>
               <div className="d-flex justify-content-center mb-4">
                 <a
-                  href="#redirect"
+                  href="/contact"
                   className="getStBtn btn px-4 py-2 mt-3 rounded text-white"
                 >
                   {t("get_started")}
@@ -103,8 +103,8 @@ const SoftDev = () => {
             </div>
           </div>
         </div>
-        <div className="container pt--120">
-          <div className="bg_color--1 py-5">
+        <div className="container portBlogArea sdPadding pt--40">
+          <div className="bg_color--1">
             <h2 className="display-4 text-center font-weight-normal mb-5 DevProgTilte DevProgTilte">
               {t("sd_process1_main_title")}
             </h2>
@@ -144,7 +144,7 @@ const SoftDev = () => {
             </div>
           </div>
 
-          <div className="py-5">
+          <div className="mt-3">
             <h2 className="display-4 text-center mb-5 DevProgTilte">
               {t("sd_solution1_title")}
             </h2>
@@ -212,9 +212,9 @@ const SoftDev = () => {
             </div>
           </div>
 
-          <div className="py-5 text-center">
+          <div className=" text-center">
             <h2 className="display-4 mb-4 DevProgTilte">{t("contact_us_bottom_title")}</h2>
-            <p className="mb-5">{t("contact_us_bottom_desc")}</p>
+            <p className="mb-2">{t("contact_us_bottom_desc")}</p>
             <a
               href="/contact"
               className="btn blog-btn rn-btn px-5 h3 font-weight-bold contactBlogBtn"

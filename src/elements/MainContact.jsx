@@ -121,7 +121,7 @@ const MainContact = () => {
               </div>
             </div>
 
-            <div className="col-lg-4 col-md-6 col-sm-6 col-12 mt_mobile--60">
+            <div className="col-lg-4 col-md-6 col-sm-6 col-12 mt_mobile--20">
               <div className="rn-address mainContactCards">
                 <div className="icon">
                   <FiMail />
@@ -137,7 +137,7 @@ const MainContact = () => {
               </div>
             </div>
 
-            <div className="col-lg-4 col-md-6 col-sm-6 col-12 mt_md--50 mt_sm--60">
+            <div className="col-lg-4 col-md-6 col-sm-6 col-12 mt_md--50 mt_sm--20">
               <div className="rn-address mainContactCards">
                 <div className="icon">
                   <FiMapPin />

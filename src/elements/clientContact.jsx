@@ -133,7 +133,7 @@ const Contact = () => {
                                     <FiHeadphones />
                                 </div>
                                 <div className="inner">
-                                    <h4 className="title">Contact With Phone Number</h4>
+                                    <h4 className="title">Contact Number</h4>
                                     <p><a href="tel:+91 7022987604">Mobile: +91-7022987604</a></p>
                                     {/* <p><a href="tel:+057 254 365 456">Landline: +971-04-313-2481 </a></p> */}
 

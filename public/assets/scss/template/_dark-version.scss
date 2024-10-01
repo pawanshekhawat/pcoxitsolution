@@ -351,16 +351,16 @@
   }
 
   .cardBtn2 {
-    background-color: #cc2f33 !important;
-    border: 1px solid #fff;
-    color: #fff !important;
-    font-size: 18px !important;
+    background-color: transparent !important;
+    color: #fff ;
+    font-size: 18px;
     transition: all 0.3s;
   }
-
+  
   .cardBtn2:hover {
-    background-color: transparent !important;
-    color: #fff !important;
+    background-color: #cc2f33 !important;
+    border: 1px solid #fff;
+    color: #fff ;
   }
   .seprateBgSection {
     background-color: #041235 !important;
@@ -431,14 +431,6 @@
   }
   .slick-arrow {
     display: none !important;
-  }
-  .service__style--2 .content p{
-    font-size: 14px !important;
-    line-height: 20px !important;
-  }
-  .service__style--2 .content h3{
-    font-size: 18px !important;
-    margin-bottom: 10px !important;
   }
 
 }

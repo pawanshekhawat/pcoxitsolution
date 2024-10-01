@@ -75,7 +75,7 @@ const SoftDev = () => {
       <div className="bg_color--1">
         <div
           style={{
-            height: "600px",
+            height: "400px",
             backgroundImage: `url(${backgroundImage})`,
             backgroundSize: "cover",
             backgroundPosition: "center",
@@ -84,7 +84,7 @@ const SoftDev = () => {
           <div className="overlayServices">
             <div
               style={{
-                height: "600px",
+                height: "400px",
               }}
               className="d-flex flex-column align-items-center justify-content-center text-dark text-center"
             >

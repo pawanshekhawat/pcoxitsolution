@@ -114,8 +114,8 @@ const PPCService = () => {
             </div>
           </div>
         </div>
-        <div className="container aboutRspnContainer pt--40">
-          <div className="bg_color--1 py-5">
+        <div className="container aboutRspnContainer pt--40 sdPadding">
+          <div className="bg_color--1 py-3">
             <h2 className="display-4 text-center font-weight-normal mb-5 DevProgTilte">
               {t("ppc_advertising_process1_main_title")}
             </h2>
@@ -164,7 +164,7 @@ const PPCService = () => {
             </div>
           </div>
 
-          <div className="py-5">
+          <div className="py-3">
             <h2 className="display-4 text-center mb-5 DevProgTilte">
               {t("ppc_advertising_solution1_title")}
             </h2>
@@ -199,7 +199,7 @@ const PPCService = () => {
         </div>
       </div>
 
-      <div className="py-5 text-center bg_color--1">
+      <div className="py-3 text-center bg_color--1">
         <h2 className="display-4 mb-4 DevProgTilte">
           {t("ppc_contact_title")}
         </h2>

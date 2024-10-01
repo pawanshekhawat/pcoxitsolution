@@ -11,7 +11,7 @@
   .phoneInput input {
     display: block;
     width: 100%;
-    border: 2px solid #cc2f33;
+    border: 2px solid #cc2f347e;
     border-radius: 5px;
     transition: all 0.3s ease;
     height: 50px;
@@ -26,8 +26,14 @@
     margin-bottom: 20px !important;
   }
   .flag-dropdown {
-    border: 2px solid #cc2f33 !important;
+    border: 2px solid #cc2f347e !important;
     border-right: none !important;
+  }
+  .flag-dropdown .country {
+    color: #000;
+  }
+  .flag-dropdown .country .dial-code {
+    color: #000000c4 !important;
   }
   .phoneInput input:focus {
     border-color: #cc2f33;

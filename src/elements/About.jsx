@@ -79,7 +79,7 @@ const About = () => {
             {/* Start About Area  */}
             <div className="rn-about-area ptb--120 bg_color--1 seprateBgSection">
                 <div className="rn-about-wrapper">
-                    <div className="container aboutRspnContainer">
+                    <div className="container aboutRspnContainer sdPadding">
                         <div className="row align-items-center">
                             <div className="col-lg-6">
                                 <div className="thumbnail">
@@ -90,7 +90,7 @@ const About = () => {
                                 <div className="about-inner inner">
                                     <div className="section-title">
                                         <h2 className="title section-title">{title}</h2>
-                                        <p className="description aboutParaRspn">{t('about_desc_1')}.
+                                        <p className="aboutParaRspn">{t('about_desc_1')}.
                                             <br />  <br />
                                             {t('about_desc_3')}
                                             <br /> </p>

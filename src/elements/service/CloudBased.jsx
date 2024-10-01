@@ -112,7 +112,7 @@ const CloudBased = () => {
           </div>
         </div>
         <div className="container aboutRspnContainer pt--40">
-          <div className="bg_color--1 py-5">
+          <div className="bg_color--1 py-3">
             <h2 className="display-4 text-center font-weight-normal mb-5 DevProgTilte">
               {t("cb_process1_main_title")}
             </h2>
@@ -161,7 +161,7 @@ const CloudBased = () => {
           </div>
 
           {/* Added section */}
-          <div className="py-5">
+          <div className="py-3">
             <h2 className="display-4 text-center mb-5 DevProgTilte">
               {t("cb_solution1_title")}
             </h2>
@@ -189,7 +189,7 @@ const CloudBased = () => {
             </div>
           </div>
 
-          <div className="py-5 text-center">
+          <div className="py-3 text-center">
             <h2 className="display-4 mb-4 DevProgTilte">{t("contact_us_bottom_title")}</h2>
             <p className="mb-5">{t("contact_us_bottom_desc")}</p>
             <a

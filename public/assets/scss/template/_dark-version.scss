@@ -102,6 +102,8 @@
   .mainContactCards {
     background-color: #04102d;
     border: 1px solid #ffffffaf;
+    display: grid;
+    align-items: center;
   }
 
   .mainContactCardText {

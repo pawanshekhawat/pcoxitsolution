@@ -104,23 +104,7 @@ const MainContact = () => {
       <HeaderThree homeLink="/" logo="symbol-dark" color="color-dark" />
       <div className="breadcrumb-area rn-bg-color ptb--180 bg_image contactUsBanner" data-black-overlay="8">
         <div className="container aboutRspnContainer">
-          <div className="row">
-            <div className="col-lg-4 col-md-6 col-sm-6 col-12">
-              <div className="rn-address mainContactCards">
-                <div className="icon">
-                  <FiHeadphones />
-                </div>
-                <div className="inner">
-                  <h4 className="title title1 mainContactCardText">{t("contact_num")}</h4>
-                  <p>
-                    <a className="mainContactCardText" href="tel:+91 7022987604">
-                      Mobile: +91-7022987604
-                    </a>
-                  </p>
-                </div>
-              </div>
-            </div>
-
+          <div className="row justify-content-center">
             <div className="col-lg-4 col-md-6 col-sm-6 col-12 mt_mobile--20">
               <div className="rn-address mainContactCards">
                 <div className="icon">
@@ -129,8 +113,8 @@ const MainContact = () => {
                 <div className="inner">
                   <h4 className="title title1 mainContactCardText">{t("email_add")}</h4>
                   <p>
-                    <a className="mainContactCardText" href="support@pcoxgroup.in">
-                      support@pcoxgroup.in
+                    <a className="mainContactCardText" href="mailto:support@pcoxgroup.com">
+                      support@pcoxgroup.com
                     </a>
                   </p>
                 </div>

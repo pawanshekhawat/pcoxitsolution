@@ -9,9 +9,9 @@ import Footer from "../component/footer/FooterTwo";
     render() {
         return (
             <>
-                <Header headerPosition="header--transparent" color="color-white" logo="logo-light" />
+                {/* <Header headerPosition="header--transparent" color="color-white" logo="logo-light" /> */}
                 {/* Start Page Error  */}
-                <div className="error-page-inner bg_color--4">
+                <div className="error-page-inner bg_color--4 h-full">
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-12">
@@ -30,14 +30,14 @@ import Footer from "../component/footer/FooterTwo";
                 {/* End Page Error  */}
 
                 {/* Start Back To Top */}
-                <div className="backto-top">
+                {/* <div className="backto-top">
                     <ScrollToTop showUnder={160}>
                         <FiChevronUp />
                     </ScrollToTop>
-                </div>
+                </div> */}
                 {/* End Back To Top */}
                 
-                <Footer /> 
+                {/* <Footer />  */}
             </>
         )
     }

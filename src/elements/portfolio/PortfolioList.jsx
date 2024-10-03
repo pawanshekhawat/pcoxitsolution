@@ -77,11 +77,10 @@ function PortfolioList(props) {
     dots: true,
     infinite: true,
     speed: 500,
-    slidesToShow: 1, // Only show 1 slide on mobile screens
+    slidesToShow: 1.04, // Only show 1 slide on mobile screens
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 3000,      // Set to 3 seconds (3000ms) between scrolls
-
+    autoplaySpeed: 3000, // Set to 3 seconds (3000ms) between scrolls
   };
 
   return (
@@ -90,19 +89,23 @@ function PortfolioList(props) {
         // Show slider on mobile
         <Slider {...sliderSettings}>
           {list.map((value, index) => (
-            <div key={index}>
-              <div className={`portfolio ${styevariation}`}>
-                <div className="thumbnail-inner">
-                  <div className={`thumbnail ${value.image}`}></div>
-                  <div className={`bg-blr-image ${value.image}`}></div>
-                </div>
-                <div className="content">
-                  <p className="iwsContentCardIcon">{value.icon}</p>
-                  <div className="inner iwsContentCard">
-                    <h3 className="iwsContentCardTitle">
-                      {value.category} <br />
-                    </h3>
-                  </div>
+            <div
+              className="serviceCard portCardIWS card col-12 col-md-6 col-lg-3 m-4"
+              key={index}
+            >
+              <div className="card-body">
+                <a
+                  href="/service/web-app"
+                  className="card-title h3 text-white serviceCardTitle"
+                >
+                  <p className="portContentCardIcon">{value.icon}</p>
+                  <br />
+                  {value.category}
+                </a>
+                <div className="btmBtn mt-3 d-flex">
+                  <a href="/contact" className="cardBtn btn">
+                    {t("services_wwp_card_btn1")}
+                  </a>
                 </div>
               </div>
             </div>
@@ -111,27 +114,30 @@ function PortfolioList(props) {
       ) : (
         // Show normal grid for larger screens
 
-       
-        <div className="row">
-            {list.map((value, index) => (
-                <div className={`${column}`} key={index}>
-                    <div className={`portfolio ${styevariation}`}>
-                        <div className="thumbnail-inner">
-                            <div className={`thumbnail ${value.image}`}></div>
-                            <div className={`bg-blr-image ${value.image}`}></div>
-                        </div>
-                        <div className="content ">
-                            <p className="iwsContentCardIcon">{value.icon}</p>
-                            <div className="inner iwsContentCard">
-                                <h3 className="iwsContentCardTitle">{value.category} <br />
-                                    {/* <p className="iwsContentCardPara">{value.title}</p> */}
-                                </h3>
-                            </div>
-                        </div>
-                    </div>
+        <div className="row justify-content-center align-items-center">
+          {list.map((value, index) => (
+            <div
+              className="serviceCard portCardIWS card col-12 col-md-6 col-lg-3 m-4"
+              key={index}
+            >
+              <div className="card-body">
+                <a
+                  href="/service/web-app"
+                  className="card-title h3 text-white serviceCardTitle"
+                >
+                  <p className="portContentCardIcon">{value.icon}</p>
+                  <br />
+                  {value.category}
+                </a>
+                <div className="btmBtn mt-3 d-flex">
+                  <a href="/contact" className="cardBtn btn">
+                    {t("services_wwp_card_btn1")}
+                  </a>
                 </div>
-            ))}
+              </div>
             </div>
+          ))}
+        </div>
       )}
     </div>
   );

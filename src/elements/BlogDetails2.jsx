@@ -100,14 +100,14 @@ const BlogDetails = () => {
                     The EU’s recently adopted Directive on Transparent and Predictable Working Conditions requires each worker to be informed of any essential aspects of their employment, including project work and changes to working conditions, well in advance. This includes a requirement for employers to provide information to workers sent to a different Member State before their departure to their intended destination.</p>
 
 
-                  <h2 className="mt--25 mt_sm--5">What is a posted worker?</h2>
-                  <p className="mt--25 mt_sm--5">A posted worker is a UK-based employee sent out to an EU Member State, or between multiple Member States, such as France or Italy, on a temporary basis. Typically, they will carry out a service on behalf of their organization during this time.</p>
+                  <h2 className="mt--25 mt_sm--5 blogDetailTitle">What is a posted worker?</h2>
+                  <p className="mt--25 mt_sm--5 blogDetailTitle">A posted worker is a UK-based employee sent out to an EU Member State, or between multiple Member States, such as France or Italy, on a temporary basis. Typically, they will carry out a service on behalf of their organization during this time.</p>
 
-                  <h2 className="mt--25 mt_sm--5">What is an A1 certificate?</h2>
-                  <p className="mt--25 mt_sm--5">An A1 certificate confirms which of a country or Member State’s social security laws apply to employees temporarily working in another EEA member country. They also ensure that posted workers only remain subject to social security in their home country. UK employees must hold a relevant A1 certificate to conduct business overseas, especially if it lasts more than eight days. The A1 form is also designed to provide security, minimizing the number of fraud cases relating to social security contributions.</p>
+                  <h2 className="mt--25 mt_sm--5 blogDetailTitle">What is an A1 certificate?</h2>
+                  <p className="mt--25 mt_sm--5 blogDetailTitle">An A1 certificate confirms which of a country or Member State’s social security laws apply to employees temporarily working in another EEA member country. They also ensure that posted workers only remain subject to social security in their home country. UK employees must hold a relevant A1 certificate to conduct business overseas, especially if it lasts more than eight days. The A1 form is also designed to provide security, minimizing the number of fraud cases relating to social security contributions.</p>
 
-                  <h2 className="mt--25 mt_sm--5">Do I need an A1 certificate for every trip?</h2>
-                  <p className="mt--25 mt_sm--5">Yes, unless you’re visiting the EU for short trips amounting to less than eight days. A1 certificates are usually valid for up to two years or the duration of the business trip, depending on the issuing state. If an employee will be traveling to member states on a regular basis, employers can apply for A1 certificates valid for up to two years.</p>
+                  <h2 className="mt--25 mt_sm--5 blogDetailTitle">Do I need an A1 certificate for every trip?</h2>
+                  <p className="mt--25 mt_sm--5 blogDetailTitle">Yes, unless you’re visiting the EU for short trips amounting to less than eight days. A1 certificates are usually valid for up to two years or the duration of the business trip, depending on the issuing state. If an employee will be traveling to member states on a regular basis, employers can apply for A1 certificates valid for up to two years.</p>
 
 
 

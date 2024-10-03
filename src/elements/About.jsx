@@ -73,7 +73,7 @@ const About = () => {
 
             <HeaderThree homeLink="/" logo="symbol-dark" color="color-black" />
             {/* Start Breadcrump Area */}
-            <Breadcrumb title={t('About us')} />
+            <Breadcrumb title={t('about_us')} />
             {/* End Breadcrump Area */}
 
             {/* Start About Area  */}

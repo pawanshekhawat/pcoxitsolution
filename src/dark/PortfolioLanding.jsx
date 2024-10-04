@@ -325,7 +325,7 @@ const PortfolioLanding = () => {
                               className="rn-btn text-white blogHomeBtn"
                               href={`${value.bloglink}`}
                             >
-                              Read More
+                              {t("read_more")}
                             </a>
                           </div>
                         </div>
@@ -359,7 +359,7 @@ const PortfolioLanding = () => {
                             className="rn-btn text-white"
                             href={`${value.bloglink}`}
                           >
-                            Read More
+                            {t("read_more")}
                           </a>
                         </div>
                       </div>

@@ -84,7 +84,7 @@ const HeaderThree = (props) => {
     const { t } = useTranslation();
 
     return (
-        <header className={`header-area header-style-two header--fixed ${color}`}>
+        <header className={`header-area header-style-two header--fixed ${color} px--120`}>
             <div className="header-wrapper">
                 <div className="header-left d-flex align-items-center">
                     <div className="logo">

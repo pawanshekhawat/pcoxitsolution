@@ -1,11 +1,17 @@
-import React, { Component, useState, useContext } from "react";
-
+import React, { Component } from "react";
 import { Link } from "react-router-dom";
+import { useTranslation } from 'react-i18next';
 
-class Breadcrumb extends Component{
-    render(){
-        const { title , parent} = this.props;
-        return(
+// Functional wrapper to use useTranslation
+const BreadcrumbWrapper = (props) => {
+  const { t } = useTranslation();  // This ensures that t is properly fetched
+  return <Breadcrumb t={t} {...props} />;  // Pass t as a prop to the class component
+}
+
+class Breadcrumb extends Component {
+    render() {
+        const { title, parent, t } = this.props;  // Ensure t is destructured from props
+        return (
             <React.Fragment>
                 <div className="breadcrumb-area rn-bg-color ptb--120 bg_image" data-black-overlay="8">
                     <div className="container">
@@ -14,8 +20,10 @@ class Breadcrumb extends Component{
                                 <div className="breadcrumb-inner pt--100">
                                     <h2 className="title section-title">{title}</h2>
                                     <ul className="page-list">
-                                        <li className="breadcrumb-item"><Link to={`${process.env.PUBLIC_URL}`}>Home</Link></li>
-                                        {parent? <li className="breadcrumb-item">{parent}</li>:''}
+                                        <li className="breadcrumb-item">
+                                            <Link to={`${process.env.PUBLIC_URL}`}>{t("home")}</Link>
+                                        </li>
+                                        {parent ? <li className="breadcrumb-item">{parent}</li> : ''}
                                         <li className="breadcrumb-item active">{title}</li>
                                     </ul>
                                 </div>
@@ -28,5 +36,4 @@ class Breadcrumb extends Component{
     }
 }
 
-export default Breadcrumb;
-
+export default BreadcrumbWrapper;

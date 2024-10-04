@@ -98,24 +98,24 @@ const BlogDetails = () => {
                   <p className="mt--40">In today's fast-paced digital landscape, the Bring Your Own Device (BYOD) trend has become increasingly prevalent in workplaces worldwide. While BYOD offers flexibility and convenience, it also presents significant security challenges for businesses. Establishing a robust BYOD security policy is paramount to safeguard sensitive data, protect against cyber threats, and maintain the integrity of your organization. In this blog post, we'll delve into the best practices that businesses should adopt when formulating their BYOD security policies. </p>
 
 
-                  <h2 className="mt--25 mt_sm--5">1. Educate Employees:</h2>
-                  <p className="mt--25 mt_sm--5">Begin by educating employees about the potential risks associated with using personal devices for work purposes. Conduct regular training sessions to raise awareness about phishing attacks, secure Wi-Fi usage, and the importance of strong, unique passwords.</p>
+                  <h2 className="mt--25 mt_sm--5 blogDetailTitle">1. Educate Employees:</h2>
+                  <p className="mt--25 mt_sm--5 blogDetailTitle">Begin by educating employees about the potential risks associated with using personal devices for work purposes. Conduct regular training sessions to raise awareness about phishing attacks, secure Wi-Fi usage, and the importance of strong, unique passwords.</p>
 
-                  <h2 className="mt--25 mt_sm--5">2. Implement Strong Authentication:</h2>
-                  <p className="mt--25 mt_sm--5">Enforce multi-factor authentication (MFA) to add an extra layer of security. Require employees to authenticate their identity through multiple methods, such as passwords, biometrics, or security tokens, before accessing sensitive company data.</p>
+                  <h2 className="mt--25 mt_sm--5 blogDetailTitle">2. Implement Strong Authentication:</h2>
+                  <p className="mt--25 mt_sm--5 blogDetailTitle">Enforce multi-factor authentication (MFA) to add an extra layer of security. Require employees to authenticate their identity through multiple methods, such as passwords, biometrics, or security tokens, before accessing sensitive company data.</p>
 
-                  <h2 className="mt--25 mt_sm--5">3. Mobile Device Management (MDM) Solutions:</h2>
-                  <p className="mt--25 mt_sm--5">Invest in reliable Mobile Device Management solutions that allow IT administrators to monitor, manage, and secure mobile devices remotely. MDM tools enable businesses to enforce security policies, track devices, and remotely wipe data in case of loss or theft.</p>
+                  <h2 className="mt--25 mt_sm--5 blogDetailTitle">3. Mobile Device Management (MDM) Solutions:</h2>
+                  <p className="mt--25 mt_sm--5 blogDetailTitle">Invest in reliable Mobile Device Management solutions that allow IT administrators to monitor, manage, and secure mobile devices remotely. MDM tools enable businesses to enforce security policies, track devices, and remotely wipe data in case of loss or theft.</p>
 
-                  <h2 className="mt--25 mt_sm--5">4. Regular Software Updates:</h2>
-                  <p className="mt--25 mt_sm--5">Encourage employees to keep their devices' operating systems and applications up-to-date. Regular software updates often contain security patches that protect against known vulnerabilities, reducing the risk of exploitation by malicious entities. </p>
+                  <h2 className="mt--25 mt_sm--5 blogDetailTitle">4. Regular Software Updates:</h2>
+                  <p className="mt--25 mt_sm--5 blogDetailTitle">Encourage employees to keep their devices' operating systems and applications up-to-date. Regular software updates often contain security patches that protect against known vulnerabilities, reducing the risk of exploitation by malicious entities. </p>
 
-                  <h2 className="mt--25 mt_sm--5">5. Data Encryption:</h2>
-                  <p className="mt--25 mt_sm--5">Enforce encryption on both devices and data transmissions. Utilize Virtual Private Networks (VPNs) to secure internet connections, ensuring that data transferred between the device and company servers remains encrypted and protected from interception. </p>
+                  <h2 className="mt--25 mt_sm--5 blogDetailTitle">5. Data Encryption:</h2>
+                  <p className="mt--25 mt_sm--5 blogDetailTitle">Enforce encryption on both devices and data transmissions. Utilize Virtual Private Networks (VPNs) to secure internet connections, ensuring that data transferred between the device and company servers remains encrypted and protected from interception. </p>
 
 
-                  <h2 className="mt--25 mt_sm--5">6. Secure Wi-Fi Usage:</h2>
-                  <p className="mt--25 mt_sm--5">Advise employees to avoid public Wi-Fi networks for work-related tasks whenever possible. If necessary, require the use of Virtual Private Networks (VPNs) to establish secure connections when accessing company resources over public Wi-Fi. </p>
+                  <h2 className="mt--25 mt_sm--5 blogDetailTitle">6. Secure Wi-Fi Usage:</h2>
+                  <p className="mt--25 mt_sm--5 blogDetailTitle">Advise employees to avoid public Wi-Fi networks for work-related tasks whenever possible. If necessary, require the use of Virtual Private Networks (VPNs) to establish secure connections when accessing company resources over public Wi-Fi. </p>
                 </div>
               </div>
             </div>

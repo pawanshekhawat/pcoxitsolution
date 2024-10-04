@@ -95,28 +95,28 @@ const BlogDetails = () => {
             <div className="col-lg-12">
               <div className="inner-wrapper">
                 <div className="section-title">
-                  <h2 className="mt--25 mt_sm--5">{t('section1_byb_title1')}</h2>
-                  <p className="mt--25">
+                  <h2 className="mt--25 mt_sm--5 blogDetailTitle">{t('section1_byb_title1')}</h2>
+                  <p>
                     {t('section1_byb_desc1')}
                   </p>
 
-                  <h2 className="mt--25 mt_sm--5">{t('section2_byb_title1')}</h2>
-                  <p className="mt--25">
+                  <h2 className="mt--25 mt_sm--5 blogDetailTitle">{t('section2_byb_title1')}</h2>
+                  <p>
                     {t('section2_byb_desc1')}
                   </p>
 
-                  <h2 className="mt--25 mt_sm--5">{t('section3_byb_title1')}</h2>
-                  <p className="mt--25">
+                  <h2 className="mt--25 mt_sm--5 blogDetailTitle">{t('section3_byb_title1')}</h2>
+                  <p>
                     {t('section3_byb_desc1')}
                   </p>
 
-                  <h2 className="mt--25 mt_sm--5">{t('section4_byb_title1')}</h2>
-                  <p className="mt--25">
+                  <h2 className="mt--25 mt_sm--5 blogDetailTitle">{t('section4_byb_title1')}</h2>
+                  <p>
                     {t('section4_byb_desc1')}
                   </p>
 
-                  <h2 className="mt--25 mt_sm--5">{t('section5_byb_title1')}</h2>
-                  <p className="mt--25">
+                  <h2 className="mt--25 mt_sm--5 blogDetailTitle">{t('section5_byb_title1')}</h2>
+                  <p>
                     {t('section5_byb_desc1')}
                   </p>
                 </div>

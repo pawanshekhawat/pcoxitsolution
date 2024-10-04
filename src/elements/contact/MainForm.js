@@ -84,7 +84,7 @@ function MainForm({ props }) {
                         type="text"
                         name="fname"
                         value={FormData.fname}
-                        placeholder="Enter your first name"
+                        placeholder={t("first_name_form")}
                         required
                         onChange={handleInputChange}
                     />
@@ -94,7 +94,7 @@ function MainForm({ props }) {
                         type="text"
                         name="lname"
                         value={FormData.lname}
-                        placeholder="Enter your last name"
+                        placeholder={t("last_name_form")}
                         required
                         onChange={handleInputChange}
                     />
@@ -105,7 +105,7 @@ function MainForm({ props }) {
                         type="email"
                         name="email"
                         value={FormData.email}
-                        placeholder="Enter your email address"
+                        placeholder={t("email_form")}
                         required
                         onChange={handleInputChange}
                     />
@@ -118,7 +118,7 @@ function MainForm({ props }) {
                         value={FormData.phone}
                         autoFormat={true}                        
                         inputClass="w"
-                        placeholder="Phone number with country code"
+                        placeholder={t("num_code_form")}
                         required
                         name="phone"
                         onChange={handleInputChange}
@@ -130,14 +130,14 @@ function MainForm({ props }) {
                         name="message"
                         className='textAreaPadd'
                         value={FormData.message}
-                        placeholder="Enter your message"
+                        placeholder={t("msg_form")}  
                         required
                         onChange={handleInputChange}
                     />
                 </div>
                 <div className="rn-form-group">
                     <button className="rn-button-style--2 btn-solid" type="submit" value="submit" name="submit" id="mc-embedded-subscribe">
-                        Submit Now
+                        {t("submit")}
                     </button>
                 </div>
                 <div className="rn-form-group">

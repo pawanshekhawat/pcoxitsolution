@@ -86,7 +86,7 @@ const BLogList = () => {
                     </h4>
                     <div className="blog-btn">
                       <a className="rn-btn text-white" href={blog.link}>
-                        Read More
+                      {t("read_more")}
                       </a>
                     </div>
                   </div>
@@ -117,7 +117,7 @@ const BLogList = () => {
                     </h4>
                     <div className="blog-btn">
                       <a className="rn-btn text-white" href={blog.link}>
-                        Read More
+                        {t("read_more")}
                       </a>
                     </div>
                   </div>

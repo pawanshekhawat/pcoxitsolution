@@ -89,39 +89,39 @@ const BlogDetails = () => {
       {/* End Breadcrumb Area */}
 
       {/* Start Blog Details */}
-      <div className="rn-blog-details pt--110 pb--70 bg_color--1 seprateBgSection">
+      <div className="rn-blog-details pt--80 pb--70 bg_color--1 seprateBgSection">
         <div className="container">
           <div className="row">
             <div className="col-lg-12">
               <div className="inner-wrapper">
                 <div className="section-title">
-                  <h2 className="mt--25 mt_sm--5">{t('section1_title')}</h2>
-                  <p className="mt--25">
+                  <h2 className="mt--25 mt_sm--5 blogDetailTitle">{t('section1_title')}</h2>
+                  <p className="">
                     {t('section1_desc')}
                   </p>
 
-                  <h2 className="mt--25 mt_sm--5">{t('section2_title')}</h2>
-                  <p className="mt--25">
+                  <h2 className="mt--25 mt_sm--5 blogDetailTitle">{t('section2_title')}</h2>
+                  <p>
                     {t('section2_desc')}
                   </p>
 
-                  <h2 className="mt--25 mt_sm--5">{t('section3_title')}</h2>
-                  <p className="mt--25">
+                  <h2 className="mt--25 mt_sm--5 blogDetailTitle">{t('section3_title')}</h2>
+                  <p>
                     {t('section3_desc')}
                   </p>
 
-                  <h2 className="mt--25 mt_sm--5">{t('section4_title')}</h2>
-                  <p className="mt--25">
+                  <h2 className="mt--25 mt_sm--5 blogDetailTitle">{t('section4_title')}</h2>
+                  <p>
                     {t('section4_desc')}
                   </p>
 
-                  <h2 className="mt--25 mt_sm--5">{t('section5_title')}</h2>
-                  <p className="mt--25">
+                  <h2 className="mt--25 mt_sm--5 blogDetailTitle">{t('section5_title')}</h2>
+                  <p>
                     {t('section5_desc')}
                   </p>
 
-                  <h2 className="mt--25 mt_sm--5">{t('section6_title')}</h2>
-                  <p className="mt--25">
+                  <h2 className="mt--25 mt_sm--5 blogDetailTitle">{t('section6_title')}</h2>
+                  <p>
                     {t('section6_desc')}
                   </p>
                 </div>

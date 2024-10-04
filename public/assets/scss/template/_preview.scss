@@ -1583,3 +1583,45 @@ gt matrik score area
     margin: 40px !important;
   }
 }
+
+.header-area.header--fixed {
+  padding-left: 125px;
+  padding-right: 125px;
+}
+
+.portContentCardIcon {
+  height: 70px;
+  width: 70px;
+  display: grid;
+  place-items: center;
+  position: relative;
+  top: 27px;
+  border-radius: 50%;
+  background-color: transparent;
+  color: #cc2f33;
+  margin: auto;
+  transition: 0.3s ease;
+}
+.portContentCardIcon svg {
+  font-size: 50px;
+}
+
+.portCardIWS:hover .portContentCardIcon {
+  color: #fff;
+}
+
+.dropDownContentLang {
+  color: #fff !important;
+  transform: translateY(0px);
+}
+.dropDownContentLang:hover {
+  color: #cc2f33 !important;
+  // transform: translateY(-2px);
+  scale: 1.1;
+}
+.dropdown-content {
+  padding: 10px 0px;
+}
+.dropdown-content::-webkit-scrollbar {
+  display: none;
+}

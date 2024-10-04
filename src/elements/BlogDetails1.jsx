@@ -99,32 +99,32 @@ const BlogDetails = () => {
                     Announced in April 2023, the EU Council has produced new rules to confront gender pay discrimination head-on. As a result, companies will need to implement concrete measures to close the gender pay gap within their organizations to support the EU in driving gender equality. By 2026, this should affect medium and large corporations first.</p>
 
 
-                  <h2 className="mt--25 mt_sm--5">What is the EU Pay Transparency Directive?</h2>
-                  <p className="mt--25 mt_sm--5">The EU’s Pay Transparency Directive enables employees to request information regarding their salary level and the average salary of employees doing the same work. It is broken down based on gender and requires companies to report on pay between men and women.
+                  <h2 className="mt--25 mt_sm--5 blogDetailTitle">What is the EU Pay Transparency Directive?</h2>
+                  <p className="mt--25 mt_sm--5 blogDetailTitle">The EU’s Pay Transparency Directive enables employees to request information regarding their salary level and the average salary of employees doing the same work. It is broken down based on gender and requires companies to report on pay between men and women.
 
                     The Directive will deliver significant changes by 2026, with invasive actions if EU-registered companies allow their gender pay gap to exceed by more than 5%. As a result, organizations have up to three years to prepare for these changes to transpose into their country’s law.</p>
 
-                  <h2 className="mt--25 mt_sm--5">When will it be implemented into legislation?</h2>
-                  <p className="mt--25 mt_sm--5">Legislation is already in effect and has been since 6th June 2023. However, EU member states have until 7th June 2026 to ensure all changes transpose into national laws. After this date, the first reports must be published by 2027 for companies with 150-250+ employees. From 2030 onwards, the threshold will be lower to include employers with 100 or more workers.</p>
+                  <h2 className="mt--25 mt_sm--5 blogDetailTitle">When will it be implemented into legislation?</h2>
+                  <p className="mt--25 mt_sm--5 blogDetailTitle">Legislation is already in effect and has been since 6th June 2023. However, EU member states have until 7th June 2026 to ensure all changes transpose into national laws. After this date, the first reports must be published by 2027 for companies with 150-250+ employees. From 2030 onwards, the threshold will be lower to include employers with 100 or more workers.</p>
 
-                  <h2 className="mt--25 mt_sm--5">Who will the EU Pay Directive Law affect?</h2>
-                  <p className="mt--25 mt_sm--5">First, the Directive will only affect businesses with 150-249 employees and those with 250+ employees. By 2027, organizations with 250 or more workers must have produced their first gender pay report and identified actions to minimize the gender gap. They will continue to do so annually after the first report is produced. Likewise, for companies with 150-249 workers, their first report is due in 2027, but they are required to report once every three years thereafter.
+                  <h2 className="mt--25 mt_sm--5 blogDetailTitle">Who will the EU Pay Directive Law affect?</h2>
+                  <p className="mt--25 mt_sm--5 blogDetailTitle">First, the Directive will only affect businesses with 150-249 employees and those with 250+ employees. By 2027, organizations with 250 or more workers must have produced their first gender pay report and identified actions to minimize the gender gap. They will continue to do so annually after the first report is produced. Likewise, for companies with 150-249 workers, their first report is due in 2027, but they are required to report once every three years thereafter.
 
                     Smaller employers (100 employees) will need to report every three years on their gender pay gap from 2030 onwards, with the first reports due in 2031..</p>
 
-                  <h2 className="mt--25 mt_sm--5">Are the UK and Northern Ireland affected?</h2>
-                  <p className="mt--25 mt_sm--5">Since the UK is no longer part of the EU, there are no direct changes that will affect any UK-based companies. If you have operations both in the EU and outside of the EU, you’ll need to cater your policies to affected countries.
+                  <h2 className="mt--25 mt_sm--5 blogDetailTitle">Are the UK and Northern Ireland affected?</h2>
+                  <p className="mt--25 mt_sm--5 blogDetailTitle">Since the UK is no longer part of the EU, there are no direct changes that will affect any UK-based companies. If you have operations both in the EU and outside of the EU, you’ll need to cater your policies to affected countries.
 
                     Employers with over 250 employees must public any data relating to pay and bonuses, alongside any correlating information around gender. This consideration was first introduced in 2018.</p>
 
-                  <h2 className="mt--25 mt_sm--5">Why are changes to pay transparency coming in?</h2>
-                  <p className="mt--25 mt_sm--5">Pay transparency can positively impact business, from employee loyalty to decreased turnover. While companies might experience significant improvements in productivity and reduced expenditure for the rehiring process, its purpose goes beyond the organization and contributes a resolution to a much wider issue. The Directive for Pay Transparency sheds a light on pay inequality across EU member states and the companies that operate within them.
+                  <h2 className="mt--25 mt_sm--5 blogDetailTitle">Why are changes to pay transparency coming in?</h2>
+                  <p className="mt--25 mt_sm--5 blogDetailTitle">Pay transparency can positively impact business, from employee loyalty to decreased turnover. While companies might experience significant improvements in productivity and reduced expenditure for the rehiring process, its purpose goes beyond the organization and contributes a resolution to a much wider issue. The Directive for Pay Transparency sheds a light on pay inequality across EU member states and the companies that operate within them.
 
                     Implementing pay transparency is also beneficial for country-specific objectives. For example, the EU will require businesses to act when their gender pay gap exceeds 5%. Once an organization has intervened and aligned pay or put acceptable steps in place for future alignment, it will contribute to the country’s overall gender pay gap score. </p>
 
 
-                  <h2 className="mt--25 mt_sm--5">What should you do if your organization already has gender pay reporting in place?</h2>
-                  <p className="mt--25 mt_sm--5">Many organizations already practice gender pay reporting, making the information available to their employees, authorities and the wider public. While these businesses won’t need to adapt per se, they may need to alter the reporting process to meet nuances laid out by this new legislation. This could include actions, such as communicating with new reporting bodies or measuring different criteria. With the process to measure and record data already in place, this adjustment should be easy for companies to adapt to.</p>
+                  <h2 className="mt--25 mt_sm--5 blogDetailTitle">What should you do if your organization already has gender pay reporting in place?</h2>
+                  <p className="mt--25 mt_sm--5 blogDetailTitle">Many organizations already practice gender pay reporting, making the information available to their employees, authorities and the wider public. While these businesses won’t need to adapt per se, they may need to alter the reporting process to meet nuances laid out by this new legislation. This could include actions, such as communicating with new reporting bodies or measuring different criteria. With the process to measure and record data already in place, this adjustment should be easy for companies to adapt to.</p>
 
                 </div>
               </div>

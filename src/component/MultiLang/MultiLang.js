@@ -103,7 +103,7 @@ export default function MultiLang() {
           <a
             key={country_code}
             href="#"
-            className={classNames('', {
+            className={classNames('dropDownContentLang', {
               disabled: currentLanguageCode === code,
             })}
             onClick={(e) => {

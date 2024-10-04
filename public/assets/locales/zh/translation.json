@@ -1,124 +1,91 @@
 {
   "home": "主页",
-  "about": "关于",
+  "about": "关于我们",
   "services": "服务",
   "blog": "博客",
-  "contact": "联系方式",
+  "contact": "联系我们",
   "for_job_seekers": "求职者",
   "for_client": "客户",
   "about_us": "关于我们",
-  "about_desc_1": "PCOX Internet Pvt. Ltd. 是一家充满活力和创新精神的 IT 解决方案公司，致力于帮助企业在数字领域中导航和发展。我们成立的愿景是通过技术赋能企业，我们专门提供网站开发、软件开发、数字营销以及数字贸易和物流平台方面的综合服务。我们的目标很简单：提供创新、可扩展和定制的数字解决方案，以推动增长和效率。",
+  "about_desc_1": "PCOX Internet Pvt. Ltd. 是一家充满活力和创新精神的 IT 解决方案公司，致力于帮助企业在数字领域中导航和发展。我们成立的愿景是通过技术赋能企业，我们专门提供全面的 Web 开发、软件开发、数字营销以及数字贸易和物流平台服务。我们的目标很简单：提供创新、可扩展和定制的数字解决方案，以推动增长和效率。",
   "about_desc_2": "我们的团队由经验丰富的专业人士组成，他们是各自领域的专家。从创意设计师和开发人员到战略数字营销人员和物流专家，我们汇集了各种技能和专业知识，以提供全面的解决方案。在 PCOX Internet Pvt. Ltd.，我们相信员工是我们最大的财富，我们投资于他们的成长和发展，以保持领先地位。",
-  "about_desc_3": "在 PCOX Internet Pvt. Ltd.，我们相信通过了解客户的独特需求并提供超出预期的解决方案，与客户建立长期合作伙伴关系。这就是我们的与众不同之处",
+  "about_desc_3": "在 PCOX Internet Pvt. Ltd.，我们相信通过了解客户的独特需求并提供超出预期的解决方案，与客户建立长期合作伙伴关系。这就是我们的与众不同之处。",
   "about_desc_4": "我们以我们的专业精神、诚信和道德行为为荣。我们遵守最高标准的商业惯例，确保整个招聘流程的透明度、保密性和公平性。我们的目标是与客户和候选人建立长期关系，以信任、相互尊重和共同成功为基础。",
   "our_achiev": "我们的成就",
   "teams": "团队",
   "country": "服务国家",
   "promise": "兑现承诺",
   "mission": "使命",
-
-  "home_hero_sec_title": "赋能您的数字之旅",
-  "home_hero_sec_desc": "受到 400 多家公司的信赖",
-  "home_hero_sec_l​​oop1": "软件开发",
-  "home_hero_sec_l​​oop2": "数字营销",
-  "home_hero_sec_l​​oop3_1": "进出口服务和",
-  "home_hero_sec_l​​oop3_2": "物流解决方案",
-
-  "testimonials_head": "客户评价",
-
+  "home_hero_sec_title": "为您的旅程赋能",
+  "home_hero_sec_desc": "受到 400 多家公司的信任",
+  "Software-Development": "软件开发",
+  "home_hero_sec_loop2": "数字营销",
+  "home_hero_sec_loop3": "进出口服务和物流解决方案",
+  "testimonials_head": "推荐",
   "testimonials_desc1": "PCOX Internet Pvt. Ltd. 通过其创新解决方案改变了我们的数字形象。他们的数字贸易和物流平台简化了我们的进出口业务，为我们节省了时间和金钱！",
-  "testimonials_client1": "Edawrd Blinkin",
-
-  "testimonials_desc2": "与 PCOX Internet Pvt. Ltd. 合作改变了我们的业务。他们在网络开发和数字营销方面的专业知识帮助我们开拓新市场并显著扩大了我们的客户群。",
+  "testimonials_client1": "Edawrd blinkin",
+  "testimonials_desc2": "与 PCOX Internet Pvt. Ltd. 合作改变了我们的业务。他们在网络开发和数字营销方面的专业知识帮助我们开拓新市场，并显著扩大了我们的客户群。",
   "testimonials_client2": "Kelvin Thomas",
-
-  "testimonials_desc3": "在与 PCOX Internet Pvt. Ltd. 合作之前，我们一直在努力实现供应链可视性。他们的平台提供了无与伦比的效率和实时数据，彻底改变了我们的物流管理。",
+  "testimonials_desc3": "在与 PCOX Internet Pvt. Ltd. 合作之前，我们一直在努力实现供应链的可视性。他们的平台提供了无与伦比的效率和实时数据，彻底改变了我们的物流管理。",
   "testimonials_client3": "Hileri Andrew",
-
-  "testimonials_desc4": "PCOX Internet Pvt. Ltd. 为我们提供了卓越的软件开发服务，完全符合我们的业务需求。他们的团队专业、反应迅速，从第一天起就致力于我们的成功。",
+  "testimonials_desc4": "PCOX Internet Pvt. Ltd. 为我们提供了出色的软件开发服务，完全符合我们的业务需求。他们的团队非常专业，反应迅速，从第一天起就致力于我们的成功。",
   "testimonials_client4": "Aklima",
-
-  "testimonials_desc5": "PCOX Internet Pvt. Ltd. 制定的数字营销策略非常有效。我们的在线参与度飙升，我们的潜在客户和转化率显著增加！",
-  "testimonials_client5": "Jelia Trump",
-
-  "mission_desc_1": "在 PCOX Internet Pvt. Ltd.，我们的使命是通过创新的数字解决方案为企业提供支持，从而促进增长、效率和客户参与度。我们努力成为值得信赖的合作伙伴，提供量身定制的高质量网络开发、软件开发、数字营销和数字贸易与物流服务，确保我们的客户在不断发展的数字环境中蓬勃发展。",
-
+  "testimonials_desc5": "PCOX Internet Pvt. Ltd. 制定的数字营销策略非常有效。我们的在线参与度飙升，潜在客户和转化率也显著增加！",
+  "testimonials_client5": "Jelia trump",
+  "mission_desc_1": "在 PCOX Internet Pvt. Ltd.，我们的使命是通过创新的数字解决方案为企业提供支持，以促进增长、效率和客户参与度。我们努力成为值得信赖的合作伙伴，提供量身定制的高质量网络开发、软件开发、数字营销和数字贸易与物流服务，确保我们的客户在不断发展的数字环境中蓬勃发展。",
   "vision": "愿景",
-  "vision_desc_1": "我们的愿景是成为数字化转型的全球领导者，以对创新、卓越和客户成功的承诺而闻名。我们的目标是重新定义全球企业的数字体验，使他们能够通过尖端技术和战略数字解决方案充分发挥潜力。",
-
+  "vision_desc_1": "我们的愿景是成为数字化转型领域的全球领导者，以对创新、卓越和客户成功的承诺而闻名。我们的目标是重新定义全球企业的数字体验，使他们能够通过尖端技术和战略数字解决方案充分发挥潜力。",
   "value": "价值",
-  "value_desc_1": "客户关注：我们将客户放在我们所做的一切的中心，与他们密切合作，了解他们的独特需求，并提供推动成功的定制解决方案。",
-  "value_desc_2": "创新：我们不断寻求解决问题的新方法和创造性方法，拥抱变化并采用最新技术提供最佳结果。",
-  "value_desc_3": "诚信：我们在所有互动和业务实践中都坚持最高标准的诚实、透明和道德行为。",
-
+  "value_desc_1": "客户关注：我们将客户置于我们所做的一切的中心，与他们密切合作，了解他们的独特需求，并提供推动成功的定制解决方案。",
+  "value_desc_2": "创新：我们不断寻求解决问题的新方法和创造性方法，拥抱变化并采用最新技术来提供最佳结果。",
+  "value_desc_3": "诚信：我们在所有互动和商业实践中坚持最高标准的诚实、透明和道德行为。",
   "our_services": "我们的服务",
   "our_services_message": "全面的网站开发、软件开发、数字营销、进出口和物流解决方案，助力您的业务成功。",
-
   "hr_services": "进出口服务和物流解决方案",
   "hr_services_message": "通过专家采购、合规性和高效物流简化全球贸易，确保及时、安全地在国际市场上交付。",
-
   "hr_consulting": "软件开发",
   "software_dev_message": "根据您的业务需求提供定制软件解决方案，通过创新、安全和高效的技术提高生产力、可扩展性和增长。",
-
   "hr_third_party_payroll_services": "数字营销",
   "hr_third_party_payroll_services_message": "通过战略性 SEO、社交媒体、内容营销和 PPC 提升您的品牌，推动参与度、流量和转化，以实现您的业务增长目标。",
-
   "business_consulting": "人力资源业务咨询",
   "business_consulting_message": "欢迎使用我们的人力资源业务咨询服务！我们专门为企业提供专家指导，帮助他们导航...",
-
   "employment_training_and_development": "员工培训和发展",
   "employment_training_and_development_message": "通过我们的定制培训计划投资您的员工队伍。从技能发展研讨会到领导力培训...",
-
   "hr_compilance_and_legal_support": "人力资源合规和法律支持",
-  "hr_compilance_and_legal_support_message": "遵守不断变化的就业法律法规，我们的人力资源专家提供法律事务指导...",
-
+  "hr_compilance_and_legal_support_message": "遵守不断变化的就业法律法规我们的人力资源专家提供法律事务指导...",
   "industries_we_serve": "我们服务的行业",
-  "industries_we_serve_message": "我们为各行各业提供创新的解决方案和服务而感到自豪",
-
+  "industries_we_serve_message": "我们为各行各业提供创新解决方案和服务而感到自豪。",
   "building_construction": "电子商务",
   "building_construction_message": "通过网站开发、数字营销和高效物流增强在线购物体验。",
-
   "road_construction": "医疗保健",
   "road_construction_message": "开发用于患者管理的定制软件、营销医疗保健服务并确保医疗用品的顺畅物流。",
-
   "oil_and_gas": "制造业",
-  "oil_and_gas_message": "简化供应链、改善物流并实施定制软件解决方案以提高生产效率。",
-
+  "oil_and_gas_message": "精简供应链，改善物流，并实施定制软件解决方案以提高生产效率。",
   "facility_management": "金融服务",
-  "facility_management_message": "提供用于金融交易的安全软件开发、用于客户参与的数字营销以及用于安全文档处理的物流解决方案。",
-
-  "security": "零售",
-  "security_message": "通过网络和数字营销优化在线形象策略，以及管理库存和供应品的进出口物流。",
-
+  "facility_management_message": "提供安全的金融交易软件开发、客户互动数字营销以及安全文档处理的物流解决方案。",
   "mep": "教育",
   "mep_message": "开发定制教育软件，为机构实施数字营销策略，以及管理教育资源和材料的物流。",
-
   "latest_blog": "最新博客",
-  "latest_blog_message_1": "发现有关进出口业务的专家见解和宝贵提示，",
-  "latest_blog_message_2": "在我们信息丰富的博客部分中了解技术趋势和商业策略。",
-
-  "securty": "驾驭全球贸易：2024 年进出口战略",
-  "securty_message": "探索最新策略和最佳实践，以优化您的进出口业务，最大限度地降低风险，并利用新兴的全球市场。",
-
-  "management": "您的企业为何需要定制软件",
-  "management_message": "了解定制软件解决方案如何简化运营、降低成本并提供量身定制的功能以满足您独特的业务需求。",
-
-  "design": "提升你的品牌",
-  "desing_message": "发现有效的数字营销策略，从搜索引擎优化到社交媒体策略，可以提升您的品牌并在竞争激烈的市场中提高投资回报率。",
-
+  "latest_blog_message_1": "发现有关进出口业务的专家见解和宝贵技巧，",
+  "latest_blog_message_2": "在我们的信息丰富的博客部分中了解技术趋势和商业策略。",
+  "security": "驾驭全球贸易：进出口策略",
+  "security_message": "探索最新策略和最佳实践，以优化您的进出口业务，最大限度地降低风险，并利用新兴的全球市场。",
+  "management": "您的企业为什么需要定制软件",
+  "management_message": "了解定制软件解决方案如何简化运营，降低成本，并提供量身定制的功能以满足您独特的业务需求。",
+  "design": "提升您的品牌",
+  "design_message": "发现有效的数字营销策略，从搜索引擎优化到社交媒体策略，可以提升您的品牌并在竞争激烈的市场中提高投资回报率。",
   "user_indication_title": "让我们了解您的需求",
   "user_indication_title_message": "请分享您的详细信息，我们的一位专家将很快与您联系。",
-
   "ready_to_do_this": "准备好了",
   "lets_get_to_work": "让我们开始工作",
+  "social_connect": "在社交媒体上关注我们",
   "submit": "提交",
   "contact_us": "联系我们",
   "find_jobs": "找工作",
-
   "Job_abu_dhabi": "阿布扎比的工作",
   "Job_dubai": "迪拜的工作",
   "Job_algeria": "阿尔及利亚的工作",
-  "Job_behrain": "贝林的工作",
+  "Job_bahrain": "巴林的工作",
   "Job_egypt": "埃及的工作",
   "Job_india": "印度的工作",
   "Job_iraq": "伊拉克的工作",
@@ -127,65 +94,56 @@
   "Job_lebanon": "黎巴嫩的工作",
   "Job_libya": "利比亚的工作",
   "Job_morocco": "摩洛哥的工作",
-
-  "copyright": "版权所有 © 2023-24 PCOX Internet Pvt. Ltd. 保留所有权利",
-  "contact_num": "联系电话号码",
+  "copyright": "版权所有 © 2023-24 PCOX Internet Pvt. Ltd. 保留所有权利。",
+  "contact_num": "联系电话",
   "email_add": "电子邮件地址",
   "location": "位置",
-
   "formcont1": "联系我们",
-  "formdesc": "为了帮助我们为您的业务提供最佳解决方案，请填写以下表格并注明您的具体要求。",
-
-  "services_wwp_card_btn1": "立即申请",
+  "formdesc": "为了帮助我们为您的业务提供量身定制的最佳解决方案，请填写以下表格并说明您的具体要求。",
+  "services_wwp_card_btn1": "立即购买",
   "services_wwp_card_btn2": "了解更多",
-
   "impo_expo_services_0": "我们的进出口服务和物流解决方案",
-
   "impo_expo_services_wwp_title": "我们提供以下类型的运输服务",
   "impo_expo_services_wwp_card1_title": "陆路运输",
   "impo_expo_services_wwp_card2_title": "海上运输",
   "impo_expo_services_wwp_card3_title": "航空运输",
-
-  "impo_expo_services_1_head": "陆运服务",
-  "impo_expo_services_1_desc": "在 PCOX Internet Pvt Limited，我们致力于提供一流的陆运服务，优先考虑效率、可靠性和速度。我们的解决方案经过精心设计，可满足企业不断变化的需求，确保货物在本地和国际边界之间无缝流动。无论您运输的是小包裹还是大件货物，我们都拥有处理精确物流的专业知识和资源。我们拥有大量配备最新技术的车辆，可确保您的货物无论距离多远都能安全高效地运输。有了实时跟踪和监控系统，您可以放心，因为您的货物在运输的每一步都受到密切监控。我们还提供灵活的交货时间表和路线，以满足您的特定需求，确保您的货物每次都能准时到达目的地。",
-  "impo_expo_services_1_li1": "1. 陆地运输优化：我们的专家设计优化的陆地运输路线，以减少运输时间、最大限度地降低燃料消耗并降低总体成本。",
-  "impo_expo_services_1_li2": "2. 跨境解决方案：通过利用先进的物流规划工具、实时车辆跟踪和高效的路线管理，我们确保您的货物能够精准交付。",
-  "impo_expo_services_1_li3": "3. 专用车队管理：对于有经常性运输需求的企业，我们提供专用车队管理服务，以确保一致、可靠的交付时间表。",
-  "impo_expo_services_1_li4": "4. 专门货物处理：我们还为超大、危险或易碎货物提供专门的运输解决方案。通过专业处理和适当的设备。",
+  "impo_expo_services_1_head": "陆路运输服务",
+  "impo_expo_services_1_desc": "在 PCOX Internet Pvt Limited，我们致力于提供一流的陆路运输服务，优先考虑效率、可靠性和速度。我们的解决方案经过精心设计，以满足不断变化的业务需求，确保货物在本地和国际边界之间无缝流动。",
+  "impo_expo_services_1_li1": "1. 陆路运输优化",
+  "impo_expo_services_1_li2": "2. 跨境解决方案",
+  "impo_expo_services_1_li3": "3. 专用车队管理",
+  "impo_expo_services_1_li4": "4. 专业货物处理",
 
   "impo_expo_services_2_head": "海上运输服务",
-  "impo_expo_services_2_desc": "在 PCOX Internet Pvt Limited，我们的海上运输服务旨在确保全球水域的高效、可靠运输。我们提供全面的解决方案，利用与全球主要承运商和港口的战略合作伙伴关系，安全、准时地运送您的货物。",
+  "impo_expo_services_2_desc": "在 PCOX Internet Pvt Limited，我们的海上运输服务旨在确保全球水域的高效可靠运输。我们提供全面的解决方案，以安全、准时地运输您的货物，并利用与全球主要承运人和港口的战略合作伙伴关系。",
   "impo_expo_services_2_li1": "1. 海运优化：我们的团队专门优化海运路线，以减少运输时间和成本。我们与航运公司密切合作，提供具有竞争力的价格和灵活的运输时间表，以满足您的业务需求。",
-  "impo_expo_services_2_li2": "2. 整箱装载 (FCL) 和拼箱装载 (LCL)：我们根据您的货物大小提供 FCL 和 LCL 选项。无论您有整箱还是小件货物，我们都确保您的货物得到安全包装和高效运输。",
+  "impo_expo_services_2_li2": "2. 整箱装载 (FCL) 和拼箱装载 (LCL)：我们根据您的货物大小提供 FCL 和 LCL 选项。无论您是整批货物还是小批货物，我们都能确保您的货物得到安全包装和高效运输。",
   "impo_expo_services_2_li3": "3. 海关和文件：我们的海运服务包括全面的海关清关和所有文件的管理，包括提单、出口申报单和原产地证书，确保符合国际贸易法规。",
-  "impo_expo_services_2_li4": "4. 温控运输：我们为对温度敏感的货物提供冷藏集装箱服务，确保食品和药品等易腐物品在整个运输过程中保持在所需的条件下。",
-  "impo_expo_services_2_li5": "5. 特殊货物处理：对于超大或特殊货物，我们提供定制的海运解决方案，包括项目货物和重型起重服务。我们的团队确保正确装载、固定和卸载，以保证安全交付。",
+  "impo_expo_services_2_li4": "4. 温控运输：我们为温度敏感型货物提供冷藏集装箱服务，确保易腐烂物品（如食品和药品）在整个运输过程中保持所需的条件。",
+  "impo_expo_services_2_li5": "5. 专业货物处理：对于超大或特殊货物，我们提供定制的海上运输解决方案，包括项目货物和重型起重服务。我们的团队确保正确装载、固定和卸载，以保证安全交付。",
 
   "impo_expo_services_3_head": "航空运输服务",
-  "impo_expo_services_3_desc": "在 PCOX Internet Pvt Limited，我们的航空运输服务旨在为您的时间敏感型货物提供快速、可靠和安全的运输服务。我们利用全球航空公司和货运公司网络确保您的货物迅速安全地到达目的地。",
-  "impo_expo_services_3_li1": "1. 空运优化：我们专注于优化空运路线，以提供最快的运输时间和具有成本效益的解决方案。我们与主要航空公司的合作伙伴关系使我们能够为您的所有航空运输需求提供灵活的调度和有竞争力的价格。",
-  "impo_expo_services_3_li2": "2. 快递和标准空运：无论您需要加急送货还是标准空运服务，我们都提供满足您的紧迫性和预算的选项。我们的解决方案确保您的货物得到妥善处理并准时到达。",
-  "impo_expo_services_3_li3": "3. 清关和文件：我们的航空运输服务包括全面的清关和文件管理。我们处理所有必要的文件，包括空运单和进出口申报单，以确保运输顺利合规。",
-  "impo_expo_services_3_li4": "4. 温控空运货物：对于药品或易腐货物等温度敏感物品，我们提供温控空运货物解决方案。我们的专用集装箱在整个飞行过程中保持所需的条件，保护您的贵重货物。",
-  "impo_expo_services_3_li5": "5. 优先和包机服务：我们为紧急或高价值货物提供优先空运和包机服务。我们量身定制的服务可确保及时安全地交付，并提供专门的支持来管理您空运需求的各个方面。",
-
+  "impo_expo_services_3_desc": "在 PCOX Internet Pvt Limited，我们的航空运输服务旨在为您的时间敏感型货物提供快速、可靠和安全的运输。我们利用全球航空公司和货运公司网络，确保您的货物迅速安全地到达目的地。",
+  "impo_expo_services_3_li1": "1. 空运优化：我们专注于优化空运路线，以提供最快捷的运输时间和经济高效的解决方案。我们与各大航空公司的合作使我们能够为您的所有空运需求提供灵活的调度和有竞争力的价格。",
+  "impo_expo_services_3_li2": "2. 快递和标准空运：无论您需要加急送货还是标准空运服务，我们都会提供满足您的紧急程度和预算的选项。我们的解决方案可确保您的货物得到妥善处理并准时到达。",
+  "impo_expo_services_3_li3": "3. 清关和文件：我们的空运服务包括全面的清关和文件管理。我们处理所有必要的文件，包括空运单和进出口申报单，以确保运输顺利合规。",
+  "impo_expo_services_3_li4": "4. 温控空运：对于药品或易腐货物等对温度敏感的物品，我们提供温控空运解决方案。我们的专用集装箱在整个飞行过程中保持所需的状态，保护您的贵重货物。",
+  "impo_expo_services_3_li5": "5. 优先和包机服务：我们为紧急或高价值货物提供优先空运和包机服务。我们的定制服务确保及时、安全交付，并提供专门的支持来管理您空运需求的各个方面。",
   "software_dev_0": "我们的软件开发服务",
-
   "software_dev_0_title": "我们提供各种服务",
-
   "get_started": "开始",
   "software_dev_1_head": "软件开发",
-  "sd_main_desc": "量身定制的解决方案，以满足您业务的独特需求，从概念到部署",
+  "sd_main_desc": "量身定制的解决方案，满足您业务的独特需求，从概念到部署",
 
   "sd_process1_main_title": "我们的开发流程",
   "sd_process1_1_title": "1. 需求分析",
-  "sd_process1_1_desc": "我们首先对您的业务需求进行详细分析，以确保软件解决方案满足您的特定要求",
+  "sd_process1_1_desc": "我们从对您的业务需求的详细分析开始，以确保软件解决方案满足您的特定要求",
   "sd_process1_2_title": "2. 设计和原型设计",
   "sd_process1_2_desc": "我们的团队创建详细的设计文档和原型，以可视化软件的功能和用户界面",
   "sd_process1_3_title": "3. 开发和测试",
-  "sd_process1_3_desc": "我们使用行业最佳实践来构建强大、可扩展的软件，并进行彻底的测试以确保质量",
+  "sd_process1_3_desc": "我们使用行业最佳实践来构建强大、可扩展的软件，并进行全面测试以确保质量",
   "sd_process1_4_title": "4. 部署和支持",
-  "sd_process1_4_desc": "我们处理部署并提供持续的支持和维护以确保最佳性能",
+  "sd_process1_4_desc": "我们负责部署并提供持续的支持和维护以确保最佳性能",
 
   "sd_solution1_title": "我们提供的软件解决方案",
   "sd_solution1_1": "ERP 系统",
@@ -202,8 +160,7 @@
   "sd_solution1_12": "帮助台解决方案",
 
   "web_dev_1_head": "Web 应用程序开发",
-  "wd_main_desc": "我们使用最新技术来构建功能强大且用户友好的应用程序",
-
+  "wd_main_desc": "我们使用最新技术来构建既实用又用户友好的应用程序",
   "wd_process1_main_title": "我们的开发流程",
   "wd_process1_1_title": "1. 前端开发",
   "wd_process1_1_desc": "我们设计和开发直观且响应迅速的用户界面，以在所有设备上提供无缝的用户体验。",
@@ -212,7 +169,7 @@
   "wd_process1_3_title": "3. 数据库设计和管理",
   "wd_process1_3_desc": "我们实施安全高效的数据库来支持您的 Web 应用程序的数据存储和检索需求，确保高性能和可靠性。",
   "wd_process1_4_title": "4. API 开发",
-  "wd_process1_4_desc": "我们创建并集成 API，以促进您的 Web 应用程序与其他服务之间的通信，确保数据交换顺畅高效。",
+  "wd_process1_4_desc": "我们创建和集成 API，以促进您的 Web 应用程序与其他服务之间的通信，确保数据交换顺畅高效。",
 
   "wd_solution1_title": "我们使用的技术",
   "wd_solution1_1": "React",
@@ -227,18 +184,17 @@
   "wd_solution1_10": "MySQL",
   "wd_solution1_11": "Firebase",
   "wd_solution1_12": "GraphQL",
-
-  "mob_dev_1_head": "移动应用开发",
-  "md_main_desc": "我们为 iOS 和 Android 平台提供全面的移动应用开发服务。",
+  "mob_dev_1_head": "移动应用程序开发",
+  "md_main_desc": "我们为 IOS 和 Android 平台提供全面的移动应用程序开发服务。",
 
   "md_process1_main_title": "我们的开发流程",
-  "md_process1_1_title": "1. 原生应用开发",
-  "md_process1_1_desc": "我们根据 iOS 和 Android 平台的具体要求开发原生应用，确保最佳性能和用户体验。",
-  "md_process1_2_title": "2. 混合应用开发",
-  "md_process1_2_desc": "我们的混合应用解决方案结合了原生和 Web 技术，提供具有广泛平台兼容性的经济高效的选择。",
+  "md_process1_1_title": "1. 原生应用程序开发",
+  "md_process1_1_desc": "我们根据 iOS 和 Android 平台的具体要求开发原生应用程序，确保最佳性能和用户体验。",
+  "md_process1_2_title": "2. 混合应用程序开发",
+  "md_process1_2_desc": "我们的混合应用程序解决方案结合了原生和 Web 技术，提供具有广泛平台兼容性的经济高效的选项。",
   "md_process1_3_title": "3. UI/UX 设计",
-  "md_process1_3_desc": "我们为移动应用设计引人入胜且用户友好的界面，注重可用性和视觉吸引力，以提高用户满意度。",
-  "md_process1_4_title": "4. 应用测试和优化",
+  "md_process1_3_desc": "我们为移动应用程序设计引人入胜且用户友好的界面，注重可用性和视觉吸引力，以提高用户满意度。",
+  "md_process1_4_title": "4. 应用程序测试和优化",
   "md_process1_4_desc": "我们进行广泛的测试和优化，以确保您的应用在不同设备和操作系统上顺利运行。",
 
   "md_solution1_title": "我们使用的技术",
@@ -249,13 +205,13 @@
   "md_solution1_5": "Xamarin",
 
   "sis_dev_1_head": "软件集成",
-  "sis_main_desc": "我们的软件集成服务可帮助您连接各种系统和应用程序，从而简化您的操作。",
+  "sis_main_desc": "我们的软件集成服务可帮助您连接各种系统和应用程序，以简化您的操作。",
 
   "sis_process1_main_title": "我们的集成流程",
   "sis_process1_1_title": "1. 系统分析",
   "sis_process1_1_desc": "我们分析您现有的系统，以确定集成点和要求，设计满足您特定需求的解决方案。",
   "sis_process1_2_title": "2. 中间件开发",
-  "sis_process1_2_desc": "我们创建中间件解决方案，以促进不同系统之间的通信，确保顺畅的数据交换和系统互操作性。",
+  "sis_process1_2_desc": "我们创建中间件解决方案，促进不同系统之间的通信，确保顺畅的数据交换和系统互操作性。",
   "sis_process1_3_title": "3. 数据迁移",
   "sis_process1_3_desc": "我们管理系统之间的数据迁移，确保准确性和完整性，同时最大限度地减少对您业务的干扰。",
   "sis_process1_4_title": "4. 集成测试",
@@ -267,9 +223,8 @@
   "sis_solution1_3": "OAuth 2.0",
   "sis_solution1_4": "GraphQL",
   "sis_solution1_5": "Zapier",
-
   "cb_dev_1_head": "基于云的解决方案",
-  "cb_main_desc": "针对云基础设施和服务量身定制的解决方案，增强您的业务敏捷性。",
+  "cb_main_desc": "为云基础设施和服务量身定制的解决方案，增强您的业务敏捷性。",
 
   "cb_process1_main_title": "我们的基于云的解决方案",
   "cb_process1_1_title": "1. 云应用程序开发",
@@ -288,17 +243,17 @@
   "cb_solution1_4": "Cloudflare",
 
   "sm_dev_1_head": "软件管理解决方案",
-  "sm_main_desc": "高效管理软件系统，优化性能，提高生产力。",
+  "sm_main_desc": "高效管理软件系统以优化性能并提高生产力。",
 
   "sm_process1_main_title": "我们的软件管理服务",
   "sm_process1_1_title": "1. 软件生命周期管理",
-  "sm_process1_1_desc": "我们确保软件开发从规划到部署的顺畅和结构化方法。",
+  "sm_process1_1_desc": "我们确保从规划到部署的软件开发方法顺畅且结构化。",
   "sm_process1_2_title": "2. 版本控制和更新",
   "sm_process1_2_desc": "使用我们的版本管理服务，让您的软件保持最新功能和安全补丁。",
   "sm_process1_3_title": "3. 错误跟踪和解决",
-  "sm_process1_3_desc": "有效跟踪、优先处理和解决错误，确保无缝的软件体验。",
+  "sm_process1_3_desc": "高效跟踪、优先处理和解决错误，确保无缝的软件体验。",
   "sm_process1_4_title": "4. 性能监控",
-  "sm_process1_4_desc": "实时监控软件性能，尽早发现并解决潜在问题。",
+  "sm_process1_4_desc": "实时监控软件性能，尽早发现和解决潜在问题。",
 
   "sm_solution1_title": "我们使用的软件管理工具",
   "sm_solution1_1": "Jira",
@@ -317,18 +272,18 @@
   "software_dev_6_head": "软件维护",
 
   "thirt_party_0": "数字营销服务",
-  "thirt_party_1_head": "搜索引擎优化 (SEO)",
 
+  "thirt_party_1_head": "搜索引擎优化 (SEO)",
   "seo_dev_1_head": "搜索引擎优化 (SEO)",
   "seo_main_desc": "我们使用数据驱动的方法来增强您的在线形象并推动自然流量。",
 
   "seo_process1_main_title": "我们的 SEO 策略",
-  "seo_process1_1_title": "1. 关键字研究",
-  "seo_process1_1_desc": "我们进行彻底的关键字研究，以确定最相关的以及适合您业务的高流量关键字，优化您的内容以获得更好的搜索引擎排名。",
+  "seo_process1_1_title": "1. 关键词研究",
+  "seo_process1_1_desc": "我们进行彻底的关键词研究，以确定与您的业务最相关且流量最高的关键词，优化您的内容以获得更好的搜索引擎排名。",
   "seo_process1_2_title": "2. 页面优化",
   "seo_process1_2_desc": "我们的团队会优化您网站的结构、元标记和内容，以确保其对搜索引擎友好并提供卓越的用户体验。",
   "seo_process1_3_title": "3. 链接建设",
-  "seo_process1_3_desc": "我们制定了一项战略性的链接建设活动，以提高您网站的权威性和可信度，提高您在搜索结果中排名更高的机会。",
+  "seo_process1_3_desc": "我们制定了一项战略性链接建设活动，以提高您网站的权威性和可信度，从而提高您在搜索结果中排名更高的机会。",
   "seo_process1_4_title": "4. 绩效跟踪",
   "seo_process1_4_desc": "我们持续监控您的 SEO 绩效，使用分析来跟踪进度，确定需要改进的领域，并根据需要调整策略。",
 
@@ -344,15 +299,14 @@
   "seo_contact_btn": "联系我们",
 
   "thirt_party_2_head": "内容营销",
-
   "content_marketing_head": "内容营销",
-  "content_marketing_main_desc": "我们的内容营销服务专注于创建有价值的相关内容，以吸引、吸引和留住您的目标受众。",
+  "content_marketing_main_desc": "我们的内容营销服务专注于创建有价值、相关的内容，以吸引、吸引和留住您的目标受众。",
 
   "content_marketing_process1_main_title": "我们的内容营销策略",
   "content_marketing_process1_1_title": "1. 内容规划",
   "content_marketing_process1_1_desc": "我们制定全面的内容策略，以符合您的业务目标、受众需求和行业趋势。",
   "content_marketing_process1_2_title": "2. 内容创作",
-  "content_marketing_process1_2_desc": "我们的团队制作高质量的内容，包括博客、文章、视频和信息图表，以与您的受众对话并推动参与。",
+  "content_marketing_process1_2_desc": "我们的团队制作高质量的内容，包括博客、文章、视频和信息图表，以吸引您的受众并推动参与。",
   "content_marketing_process1_3_title": "3. 内容分发",
   "content_marketing_process1_3_desc": "我们在各个平台上战略性地分发您的内容，以最大限度地提高覆盖面和知名度。",
   "content_marketing_process1_4_title": "4. 绩效跟踪",
@@ -368,7 +322,6 @@
   "content_marketing_contact_title": "准备好提升您的内容策略了吗？",
   "content_marketing_contact_desc": "让我们讨论一下我们的内容营销服务如何推动参与度并扩大您的受众群体。",
   "content_marketing_contact_btn": "联系我们",
-
   "thirt_party_3_head": "社交媒体营销",
   "social_media_marketing_head": "社交媒体营销",
   "social_media_marketing_main_desc": "我们的社交媒体营销服务可帮助企业建立强大的在线形象、吸引受众并推动转化。",
@@ -404,10 +357,9 @@
   "ppc_advertising_process1_2_title": "2. 广告制作",
   "ppc_advertising_process1_2_desc": "我们的团队设计引人注目的广告，具有说服力的文案和吸引人的视觉效果，可以吸引注意力并推动转化。",
   "ppc_advertising_process1_3_title": "3. 出价管理",
-  "ppc_advertising_process1_3_desc": "我们管理您的出价，以优化广告展示位置并确保根据效果数据进行具有成本效益的支出。",
-  "ppc_advertising_process1_4_title": "4. 绩效监控",
-  "ppc_advertising_process1_4_desc": "我们持续监控您的 PPC 活动，分析关键指标以改进策略并随着时间的推移提高投资回报率。",
-
+  "ppc_advertising_process1_3_desc": "我们管理您的出价以优化广告展示位置并确保根据效果数据进行具有成本效益的支出。",
+  "ppc_advertising_process1_4_title": "4. 效果监控",
+  "ppc_advertising_process1_4_desc": "我们持续监控您的 PPC 活动，分析关键指标以改进策略并随着时间的推移提高投资回报率.",
   "ppc_advertising_solution1_title": "我们擅长的 PPC 平台",
   "ppc_advertising_solution1_1": "Google 广告",
   "ppc_advertising_solution1_2": "Bing 广告",
@@ -415,17 +367,16 @@
   "ppc_advertising_solution1_4": "LinkedIn 广告",
   "ppc_advertising_solution1_5": "Twitter 广告",
 
-  "ppc_contact_title": "准备好使用 PPC 提升您的流量了吗？",
-  "ppc_contact_desc": "让我们讨论一下我们的 PPC 服务如何增强您的在线形象。",
+  "ppc_contact_title": "准备好使用 PPC 提升流量了吗？",
+  "ppc_contact_desc": "让我们讨论一下我们的 PPC 服务如何提升您的在线形象。",
   "ppc_contact_btn": "联系我们",
-
   "blog_title": "驾驭全球贸易：2024 年进出口战略",
   "blog_date": "2024 年 9 月 9 日",
   "blog_author": "全球贸易洞察",
   "blog_intro": "在不断变化的全球贸易格局中，2024 年带来了新的挑战和机遇。从供应链中断到贸易战和不断变化的法规，从事进出口的企业必须敏捷且积极主动。在本博客中，我们将探讨优化进出口业务、降低风险和抓住新兴市场机遇的关键策略。",
 
   "section1_title": "为稳定而实现供应链多元化",
-  "section1_desc": "随着地缘政治紧张局势和贸易限制的加剧，供应链多元化至关重要。公司应探索从多个国家采购，以最大限度地减少中断并确保货物稳定流通。通过利用自由贸易协定和建立新的伙伴关系，您可以保护您的运营免受意外中断的影响。",
+  "section1_desc": "随着地缘政治紧张局势和贸易限制的加剧，实现供应链多元化至关重要。公司应探索从多个国家采购，以最大限度地减少中断并确保货物稳定流动。通过利用自由贸易协定和建立新的伙伴关系，您可以保护您的运营免受意外中断的影响。",
 
   "section2_title": "利用技术提高贸易效率",
   "section2_desc": "数字解决方案正在改变我们的贸易方式。从确保交易透明度的区块链技术到预测市场趋势的人工智能驱动分析，拥抱技术创新的公司将获得竞争优势。实施实时跟踪和数字海关处理可以简化您的进出口活动。",
@@ -440,39 +391,38 @@
   "section5_desc": "国际贸易环境充满风险，包括货币价值波动、政治不稳定和物流挑战。公司应实施风险管理策略，例如对冲货币波动、分散客户群和获得贸易信用保险，以最大限度地减少潜在损失。",
 
   "section6_title": "可持续性和道德采购",
-  "section6_desc": "消费者和政府越来越重视可持续性和道德采购。采用环保做法（例如减少运输过程中的碳排放和从道德供应商处采购）的公司不仅会遵守法规，还会提高其品牌声誉并吸引有意识的消费者。",
-
-  "blog_title1": "您的企业为什么需要定制软件",
+  "section6_desc": "消费者和政府越来越重视可持续性和道德采购。采用环保做法（例如减少运输中的碳排放和从道德供应商处采购）的公司不仅会遵守法规，还会提高其品牌声誉并吸引有意识的消费者。",
+  "blog_title1": "您的企业为何需要定制软件",
   "blog_author1": "技术解决方案",
   "blog_date1": "2024 年 9 月 9 日",
-  "blog_intro1": "在当今快节奏的商业环境中，现成的软件解决方案往往无法满足个别企业的独特需求。定制软件开发提供量身定制的方法，提供专门为满足您公司的需求而设计的解决方案。在此博客中，我们将深入探讨定制软件如何简化运营、降低成本并提供竞争优势。",
+  "blog_intro1": "在当今快节奏的商业环境中，现成的软件解决方案往往无法满足各个企业的独特需求。定制软件开发提供量身定制的方法，提供专门为满足您公司的需求而设计的解决方案。在这篇博客中，我们将深入探讨定制软件如何简化运营、降低成本并提供竞争优势。",
 
   "section1_title1": "简化运营",
-  "section1_desc1": "定制软件旨在与您现有的工作流程和流程保持一致，消除通用软件中不必要的功能和复杂性。这种协调可提高效率，因为员工花在浏览不相关功能上的时间更少，而花在生产性任务上的时间更多。与现有系统的集成可确保跨部门的无缝数据流，从而进一步提高运营效率。",
+  "section1_desc1": "定制软件旨在与您现有的工作流程和流程保持一致，消除通用软件中不必要的功能和复杂性。这种一致性可以提高效率，因为员工花更少的时间浏览不相关的功能，而花更多的时间完成生产性任务。与现有系统的集成可确保跨部门的无缝数据流，从而进一步提高运营效率。",
 
   "section2_title1": "从长远来看降低成本",
-  "section2_desc1": "虽然与现成的选项相比，定制软件的初始投资似乎更高，但从长远来看，它通常会节省成本。定制解决方案消除了对多个软件许可证的需求，并降低了在多个平台上培训员工的相关成本。此外，定制软件可以随着业务的增长而扩展和更新，从而避免昂贵的大修或迁移到新系统。",
+  "section2_desc1": "虽然与现成的选项相比，定制软件的初始投资似乎更高，但随着时间的推移，它通常会节省成本。定制解决方案消除了对多个软件许可证的需求，并降低了在多个平台上培训员工的相关成本。此外，定制软件可以随着业务的增长而扩展和更新，从而避免昂贵的大修或迁移到新系统。",
 
   "section3_title1": "针对独特需求的定制功能",
-  "section3_desc1": "每个企业都有独特的流程和要求，通用软件无法完全满足这些要求。定制软件开发允许您定义满足您业务模式的特定特性和功能。无论是独特的客户关系管理系统还是专门的库存跟踪，定制解决方案都能确保您运营的各个方面都得到支持。",
+  "section3_desc1": "每个企业都有独特的流程和要求，通用软件无法完全满足这些要求。定制软件开发允许您定义满足您业务模式的特定特性和功能。无论是独特的客户关系管理系统还是专门的库存跟踪，定制解决方案都可以确保您运营的各个方面都得到支持。",
 
   "section4_title1": "增强安全性",
-  "section4_desc1": "安全是企业的首要关注点，尤其是在处理敏感数据时。定制软件降低了广泛使用的现成应用程序中常见的安全漏洞风险。使用定制解决方案，可以根据您的特定需求定制安全协议，并且您可以完全控制数据的存储和访问方式。",
+  "section4_desc1": "安全性是企业的首要关注点，尤其是在处理敏感数据时。定制软件可降低广泛使用的现成应用程序中常见的安全漏洞风险。使用定制解决方案，可以根据您的特定需求定制安全协议，并且您可以完全控制数据的存储和访问方式。",
 
   "section5_title1": "获得竞争优势",
-  "section5_desc1": "通过实施专为您的业务设计的软件，您可以获得显着的竞争优势。定制软件使您能够创新并提供使用通用软件的竞争对手无法提供的服务和产品。它允许更大的灵活性和对市场变化的响应能力，使您的企业成为行业领导者。",
+  "section5_desc1": "通过实施专为您的业务设计的软件，您可以获得显着的竞争优势。定制软件使您能够创新并提供使用通用软件的竞争对手无法提供的服务和产品。它允许更大的灵活性和对市场变化的响应能力，使您的业务成为行业领导者。",
 
   "section6_title1": "为您的业务做好未来准备",
-  "section6_desc1": "技术发展迅速，企业需要能够适应这些变化的解决方案。定制软件在设计时可以考虑可扩展性，确保它与您的业务一起成长。可以根据需要添加更新和新功能，使您的软件保持相关性和高效性，而无需完全替换。",
-
+  "section6_desc1": "技术发展迅速，企业需要能够适应这些变化的解决方案。定制软件在设计时可以考虑可扩展性，确保它与您的业务一起成长。可以根据需要添加更新和新功能，使您的软件保持相关性和效率，而无需完全替换。",
   "blog_byb_title1": "提升您的品牌",
-  "blog_byb_author1": "Tech Solutions",
-  "blog_byb_date1": "July 19, 2024",
+  "blog_byb_author1": "技术解决方案",
+  "blog_byb_date1": "2024 年 7 月 19 日",
+
   "section1_byb_title1": "了解品牌标识",
   "section1_byb_desc1": "品牌标识对于在市场上留下难忘的印象至关重要。它包含徽标、配色方案和整体设计等元素，这些元素有助于塑造您的品牌形象。建立强大的品牌标识有助于在目标受众中建立信任和信誉。",
 
   "section2_byb_title1": "创建独特的价值主张",
-  "section2_byb_desc1": "独特的价值主张 (UVP) 明确定义了是什么让您的品牌从竞争对手中脱颖而出。它突出了客户将获得的好处和价值，帮助您吸引和留住忠诚的客户群。制定引人注目的 UVP 需要了解受众的需求，并使您的产品与这些需求保持一致。",
+  "section2_byb_desc1": "独特的价值主张 (UVP) 明确定义了是什么让您的品牌在竞争对手中脱颖而出。它突出了客户将获得的好处和价值，帮助您吸引和留住忠诚的客户群。制定引人注目的 UVP 需要了解受众的需求并使您的产品与这些需求保持一致。",
 
   "section3_byb_title1": "利用社交媒体促进品牌发展",
   "section3_byb_desc1": "社交媒体平台为扩大品牌影响力和参与度提供了强大的工具。通过创建和分享有价值的内容、与受众互动以及开展有针对性的广告活动，您可以提高品牌知名度并培养品牌拥护者社区。",
@@ -481,18 +431,80 @@
   "section4_byb_desc1": "优质内容是有效品牌推广的基石。它不仅可以吸引和留住客户，还可以确立您的品牌在行业中的权威地位。投资专业内容创作，包括博客、视频和信息图表，可以显著影响您品牌的声誉和成功。",
 
   "section5_byb_title1": "监控和调整您的品牌战略",
-  "section5_byb_desc1": "持续监控和调整您的品牌战略对于长期成功至关重要。分析关键绩效指标、收集客户反馈并随时了解市场趋势将帮助您改进方法并确保您的品牌保持相关性和竞争力。",
+  "section5_byb_desc1": "持续监控和调整您的品牌战略对于长期成功至关重要。分析关键绩效指标、收集客户反馈并及时了解市场趋势将帮助您改进方法并确保您的品牌保持相关性和竞争力。",
 
   "hr_busi_0": "人力资源业务咨询",
-  "hr_busi_1": "欢迎来到我们的人力资源业务咨询服务，在这里，专业知识与创新相遇！在我们公司，我们了解企业在当今竞争环境中面临的动态挑战。凭借一支经验丰富的顾问团队，我们提供针对您特定需求的战略指导。无论您是希望建立市场影响力的初创公司，还是旨在实现卓越运营的成熟公司，我们的综合解决方案都能帮助您实现目标。",
+  "hr_busi_1": "欢迎使用我们的人力资源业务咨询服务，在这里专业知识与创新相结合！在我们公司，我们了解企业在当今竞争环境中面临的动态挑战。凭借一支经验丰富的顾问团队，我们提供针对您特定需求的战略指导。无论您是希望建立市场影响力的初创公司，还是旨在实现卓越运营的成熟公司，我们的综合解决方案都可以帮助您实现目标。",
+
   "hr_busi_2": "在人力资源业务咨询领域，我们重新定义了可能性。我们敬业的专业团队将行业见解与创造力相结合，提供推动业务增长的创新解决方案。我们相信不仅要满足客户期望，还要超越客户期望。通过利用我们在市场研究、战略规划和组织发展等领域的专业知识，我们帮助企业做出明智的决策并保持竞争优势。让我们成为您的战略合作伙伴，引领您走向无与伦比的成功和成长的未来。",
 
-  "emp_tr_0": "员工培训和发展",
-  "emp_tr_1": "我们提供各种培训模块，专门针对特定行业挑战和个人技能差距。从技术能力到软技能，我们经验丰富的培训师提供实践互动课程，促进持续学习。我们的目标不仅是弥补您组织内现有的技能差距，而且还要培养创新和适应性文化。",
-  "emp_tr_2": "通过投资我们的员工培训和发展计划，您不仅可以增强团队的能力；还可以培养一支敏捷、积极主动、随时准备应对任何挑战的员工队伍。与我们合作，充分发挥员工的潜力，推动您的业务实现可持续增长和成功。",
+  "emp_tr_0": "员工培训与发展",
+  "emp_tr_1": "我们提供各种培训模块，专门针对特定行业挑战和个人技能差距进行量身定制。从技术能力到软技能，我们经验丰富的培训师提供实践互动课程，促进持续学习。我们的目标不仅是弥补组织内现有的技能差距，还要培养创新和适应性文化。",
+
+  "emp_tr_2": "通过投资我们的员工培训和发展计划，您不仅可以提高团队的能力；还可以培养一支敏捷、积极主动、随时准备应对任何挑战的员工队伍。与我们合作，充分发挥员工的潜力，推动您的业务实现可持续增长和成功。",
 
   "hr_comp_0": "人力资源合规和法律支持",
-  "hr_comp_1": "驾驭复杂的人力资源合规和法律法规环境对任何企业都至关重要。我们的人力资源合规和法律支持服务旨在为您提供专业指导和安心。我们随时了解最新的就业法律法规，确保您的公司政策和实践与法律要求无缝衔接。",
+
+  "hr_comp_1": "驾驭复杂的人力资源合规和法律法规环境对任何企业都至关重要。我们的人力资源合规和法律支持服务旨在为您提供专家指导和安心。我们紧跟最新的就业法律法规，确保贵公司的政策和实践与法律要求无缝衔接。",
+
   "hr_comp_2": "我们专业的团队在起草、审查和更新人力资源政策和程序方面提供全面支持。我们会进行彻底的审计，以确定潜在的风险领域，并指导您采取最佳实践来缓解法律挑战。无论是雇佣合同、反歧视政策还是工作场所安全指南，我们都会根据您的特定行业需求量身定制服务，确保遵守当地、州和联邦法律。",
-  "hr_comp_3": "通过与我们合作获得人力资源合规和法律支持，您可以专注于您的核心业务活动，并确信您的人力资源实践符合法律规定。领先于监管变化，最大限度地降低法律风险，营造一个既符合法律规定又符合道德诚信的工作环境。让我们成为您值得信赖的合作伙伴，为您的员工确保一个安全合规的工作场所。"
+
+  "hr_comp_3": "通过与我们合作获得人力资源合规和法律支持，您可以专注于您的核心业务活动，并确信您的人力资源实践符合法律规定。领先于监管变化，最大限度地降低法律风险，并营造一个既能促进法律合规又能促进道德诚信的工作环境。让我们成为您值得信赖的合作伙伴，为您的员工提供安全合规的工作场所。",
+
+  "read_more": "阅读更多",
+
+  "first_name_form": "输入您的名字",
+  "last_name_form": "输入您的名字",
+  "email_form": "输入您的电子邮件地址",
+  "num_code_form": "带国家代码的电话号码",
+  "msg_form": "带国家代码的电话号码",
+
+  "landTransportationHeading": "陆路运输服务",
+  "landTransportationDescription": "在 PCOX Internet Pvt Limited，我们专门提供高效可靠的陆路运输解决方案，以满足您的特定物流需求。",
+
+  "landTransportationFeature1": "陆路运输优化",
+  "landTransportationFeature2": "跨境解决方案",
+  "landTransportationFeature3": "专用车队管理",
+  "landTransportationFeature4": "专业货物处理",
+
+  "landTransportationProcess1": "提货和包装",
+  "landTransportationProcess2": "路线规划",
+  "landTransportationProcess3": "运输",
+  "landTransportationProcess4": "仓储",
+
+  "landTransportationContact": "获取量身定制的陆路运输解决方案，从车队管理到跨境服务。",
+  "landTransportationContactLink": "联系我们！",
+  "seaTransportationHeading": "海上运输服务",
+  "seaTransportationDescription": "在 PCOX Internet Pvt Limited，我们提供可靠、高效的海上运输解决方案，确保您的货物安全准时到达目的地。",
+
+  "seaTransportationFeature1": "全球航运解决方案",
+  "seaTransportationFeature2": "集装箱管理",
+  "seaTransportationFeature3": "清关",
+  "seaTransportationFeature4": "货物追踪",
+
+  "seaTransportationProcess1": "提货和包装",
+  "seaTransportationProcess2": "路线规划",
+  "seaTransportationProcess3": "运输",
+  "seaTransportationProcess4": "仓储",
+
+  "seaTransportationContact": "联系我们，获取可靠的海上运输服务，让您的货物顺利清关。",
+  "seaTransportationContactLink": "联系我们！",
+
+  "airTransportationHeading": "航空运输服务",
+  "airTransportationDescription": "在 PCOX Internet Pvt Limited，我们为您的紧急运输需求提供快速高效的空运解决方案，确保及时在全球范围内交付。",
+
+  "airTransportationFeature1": "快递",
+  "airTransportationFeature2": "全球货运解决方案",
+  "airTransportationFeature3": "危险品处理",
+  "airTransportationFeature4": "实时跟踪",
+
+  "airTransportationProcess1": "提货和包装",
+  "airTransportationProcess2": "路线规划",
+  "airTransportationProcess3": "运输",
+  "airTransportationProcess4": "仓储",
+
+  "airTransportationContact": "需要快速空运？请联系我们，我们将为您提供快递和实时跟踪服务，满足您的紧急运输需求。",
+  "airTransportationContactLink": "联系我们！",
+
+  "landTransportationProcessTitle": "我们的流程"
 }

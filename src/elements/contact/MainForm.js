@@ -23,6 +23,10 @@ function MainForm({ props }) {
         phone: "",
         message: ""
     });
+    const { t, i18n } = useTranslation();
+
+    // Check if the current language is Arabic
+    const isArabic = i18n.language === 'ar';
 
     const handleInputChange = (e) => {
         // Check if the event is from PhoneInput (it might not have 'e.target')
@@ -74,8 +78,6 @@ function MainForm({ props }) {
         }
     };
 
-    const { t } = useTranslation();
-
     return (
         <>
             <form method="POST" onSubmit={sendEmail}>
@@ -111,14 +113,15 @@ function MainForm({ props }) {
                     />
                 </div>
 
-                <div className="rn-form-group">
-                    <PhoneInput className="phoneInput"
+                <div className={`rn-form-group ${isArabic ? 'rtl-flag' : ''}`}>
+                    <PhoneInput
+                        className={`phoneInput ${isArabic ? 'text-right' : ''}`}
                         country={"in"}
                         type="text"
                         value={FormData.phone}
-                        autoFormat={true}                        
-                        inputClass="w"
-                        placeholder={t("num_code_form")}
+                        autoFormat={true}
+                        inputClass={`w ${isArabic ? 'rtl-input' : ''}`} // Conditional RTL class
+                        placeholder={t("num_code_form")}  // Translated placeholder
                         required
                         name="phone"
                         onChange={handleInputChange}
@@ -130,7 +133,7 @@ function MainForm({ props }) {
                         name="message"
                         className='textAreaPadd'
                         value={FormData.message}
-                        placeholder={t("msg_form")}  
+                        placeholder={t("msg_form")}
                         required
                         onChange={handleInputChange}
                     />

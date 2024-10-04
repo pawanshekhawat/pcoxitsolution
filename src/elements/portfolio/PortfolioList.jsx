@@ -94,14 +94,14 @@ function PortfolioList(props) {
               key={index}
             >
               <div className="card-body">
-                <a
-                  href="/service/web-app"
+                <span
+                  
                   className="card-title h3 text-white serviceCardTitle"
                 >
                   <p className="portContentCardIcon">{value.icon}</p>
                   <br />
                   {value.category}
-                </a>
+                </span>
                 <div className="btmBtn mt-3 d-flex">
                   <a href="/contact" className="cardBtn btn">
                     {t("services_wwp_card_btn1")}
@@ -121,14 +121,14 @@ function PortfolioList(props) {
               key={index}
             >
               <div className="card-body">
-                <a
-                  href="/service/web-app"
+                <span
+                  
                   className="card-title h3 text-white serviceCardTitle"
                 >
                   <p className="portContentCardIcon">{value.icon}</p>
                   <br />
                   {value.category}
-                </a>
+                </span>
                 <div className="btmBtn mt-3 d-flex">
                   <a href="/contact" className="cardBtn btn">
                     {t("services_wwp_card_btn1")}

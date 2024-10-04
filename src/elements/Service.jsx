@@ -36,27 +36,6 @@ const Service = () => {
             description: `${t('hr_third_party_payroll_services_message')}`,
             path: '/digital-marketing'
         },
-
-        // {
-        //     icon: <FiMonitor />,
-        //     title: `${t('business_consulting')}`,
-        //     description: `${t('business_consulting_message')}`,
-        //     path: '/business-consulting'
-
-        // },
-        // {
-        //     icon: <FiUsers />,
-        //     title: `${t('employment_training_and_development')}`,
-        //     description: `${t('employment_training_and_development_message')}`,
-        //     path: '/employee-training'
-        // },
-        // {
-        //     icon: <FiMonitor />,
-        //     title: `${t('hr_compilance_and_legal_support')}`,
-        //     description: `${t('hr_compilance_and_legal_support_message')}`,
-        //     path: '/hr-compliance'
-
-        // }
     ];
 
     const { isDark, toggleTheme } = useContext(ThemeContext);
@@ -87,9 +66,6 @@ const Service = () => {
     if (loading) {
         return (
             <div className={isDark ? "active-dark" : "active-light"} >
-                {/* <div style={{ width: '100vw', height: "100vh", display: "grid", placeItems: "center" }}>
-            <img src={LoaderGif} />
-          </div> */}
                 <div style={{ width: '100vw', height: '100vh', display: 'grid', placeItems: 'center' }}>
                     <dotlottie-player
                         src="https://lottie.host/0544481e-fc88-4533-8112-736c6a8be8f8/zpUnJPdBr3.json"
@@ -109,7 +85,7 @@ const Service = () => {
             <HeaderThree homeLink="/" logo="symbol-dark" color="color-black" />
 
             {/* Start Breadcrump Area */}
-            <Breadcrumb title={'Service'} />
+            <Breadcrumb title={t('services')} />
             {/* End Breadcrump Area */}
 
             {/* Start Service Area */}

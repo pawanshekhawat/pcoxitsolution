@@ -24,6 +24,7 @@ class Breadcrumb extends Component {
                                             <Link to={`${process.env.PUBLIC_URL}`}>{t("home")}</Link>
                                         </li>
                                         {parent ? <li className="breadcrumb-item">{parent}</li> : ''}
+                                        <b className="mx-3">/</b>
                                         <li className="breadcrumb-item active">{title}</li>
                                     </ul>
                                 </div>

@@ -506,5 +506,22 @@
   "airTransportationContact": "需要快速空运？请联系我们，我们将为您提供快递和实时跟踪服务，满足您的紧急运输需求。",
   "airTransportationContactLink": "联系我们！",
 
-  "landTransportationProcessTitle": "我们的流程"
+  "landTransportationProcessTitle": "我们的流程",
+
+  "pageTitle": "HR 第三方薪资服务",
+  "breadcrumbTitle": "thirt_party_0",
+  "serviceDetailsHeader": "在数字营销方面，我们提供以下服务",
+  "serviceCard1Title": "搜索引擎优化 (SEO)",
+  "serviceCard1Icon": "RiSeoLine",
+  "serviceCard1Contact": "services_wwp_card_btn1",
+  "serviceCard1ServicePage": "services_wwp_card_btn2",
+  "serviceCard2Title": "战略内容营销",
+  "serviceCard2Icon": "BiBookContent",
+  "serviceCard2Contact": "services_wwp_card_btn1",
+  "serviceCard2ServicePage": "services_wwp_card_btn2",
+  "serviceCard3Title": "社交媒体营销",
+  "serviceCard3Icon": "IoShareSocialSharp",
+  "serviceCard3Contact": "services_wwp_card_btn1",
+  "serviceCard3ServicePage": "services_wwp_card_btn2",
+  "serviceCard4Title": "按点击付费 (PPC) 广告"
 }

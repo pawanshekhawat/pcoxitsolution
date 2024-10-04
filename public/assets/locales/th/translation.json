@@ -503,5 +503,22 @@
   "airTransportationContact": "ต้องการการขนส่งทางอากาศที่รวดเร็วหรือไม่? ติดต่อเราสำหรับการจัดส่งด่วนและการติดตามแบบเรียลไทม์สำหรับความต้องการการจัดส่งเร่งด่วนของคุณ",
   "airTransportationContactLink": "ติดต่อเรา!",
 
-  "landTransportationProcessTitle": "กระบวนการของเรา"
+  "landTransportationProcessTitle": "กระบวนการของเรา",
+
+  "pageTitle": "บริการด้านเงินเดือนของบุคคลภายนอก",
+  "breadcrumbTitle": "thirt_party_0",
+  "serviceDetailsHeader": "ในด้านการตลาดดิจิทัล นี่คือสิ่งที่เรามอบให้",
+  "serviceCard1Title": "การเพิ่มประสิทธิภาพเครื่องมือค้นหา (SEO)",
+  "serviceCard1Icon": "RiSeoLine",
+  "serviceCard1Contact": "services_wwp_card_btn1",
+  "serviceCard1ServicePage": "services_wwp_card_btn2",
+  "serviceCard2Title": "การตลาดเนื้อหาเชิงกลยุทธ์",
+  "serviceCard2Icon": "BiBookContent",
+  "serviceCard2Contact": "services_wwp_card_btn1",
+  "serviceCard2ServicePage": "services_wwp_card_btn2",
+  "serviceCard3Title": "การตลาดโซเชียลมีเดีย",
+  "serviceCard3Icon": "IoShareSocialSharp",
+  "serviceCard3Contact": "services_wwp_card_btn1",
+  "serviceCard3ServicePage": "services_wwp_card_btn2",
+  "serviceCard4Title": "การโฆษณาแบบจ่ายต่อคลิก (PPC)"
 }

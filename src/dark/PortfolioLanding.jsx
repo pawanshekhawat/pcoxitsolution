@@ -52,7 +52,7 @@ const PortfolioLanding = ({ value }) => {
   const BlogContent = [
     {
       images: "01",
-      title: `${t("securty")}`,
+      title: `${t("blog_title")}`,
       category: `${t("blog_author")}`,
       bloglink: "/navigating-global-trade",
     },

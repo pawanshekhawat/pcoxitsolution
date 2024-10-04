@@ -503,5 +503,22 @@
   "airTransportationContact": "هل تحتاج إلى نقل جوي سريع؟ اتصل بنا للحصول على خدمة الشحن السريع والتتبع في الوقت الفعلي لاحتياجات الشحن الخاصة بك.",
   "airTransportationContactLink": "تواصل معنا!",
 
-  "landTransportationProcessTitle": "عمليتنا"
+  "landTransportationProcessTitle": "عمليتنا",
+
+  "pageTitle": "خدمات الرواتب من جهات خارجية للموارد البشرية",
+  "breadcrumbTitle": "thirt_party_0",
+  "serviceDetailsHeader": "في التسويق الرقمي، إليك ما نقدمه",
+  "serviceCard1Title": "تحسين محركات البحث (SEO)",
+  "serviceCard1Icon": "RiSeoLine",
+  "serviceCard1Contact": "services_wwp_card_btn1",
+  "serviceCard1ServicePage": "services_wwp_card_btn2",
+  "serviceCard2Title": "التسويق الاستراتيجي للمحتوى",
+  "serviceCard2Icon": "BiBookContent",
+  "serviceCard2Contact": "services_wwp_card_btn1",
+  "serviceCard2ServicePage": "services_wwp_card_btn2",
+  "serviceCard3Title": "التسويق عبر وسائل التواصل الاجتماعي",
+  "serviceCard3Icon": "IoShareSocialSharp",
+  "serviceCard3Contact": "services_wwp_card_btn1",
+  "serviceCard3ServicePage": "services_wwp_card_btn2",
+  "serviceCard4Title": "الإعلان بالدفع لكل نقرة (PPC)"
 }

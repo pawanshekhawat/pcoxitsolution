@@ -1629,3 +1629,31 @@ gt matrik score area
 .dropdown-content::-webkit-scrollbar {
   display: none;
 }
+.rtl-input {
+  direction: rtl !important; /* Right to left text direction */
+  padding-right: 50px;
+}
+.rtl-input .flag-dropdown {
+  border: 2px solid rgba(204, 47, 52, .4941176471) !important;
+  border-left: none !important;
+}
+
+.text-right {
+  text-align: right !important; /* Aligns text to the right */
+}
+
+.rtl-flag .selected-flag {
+  width: 45px !important; /* Force width to 45px */
+}
+
+.rtl-flag .flag.in {
+  left: 5px !important; /* Adjust flag position */
+}
+/* In your CSS file */
+.ltr {
+  direction: ltr;
+}
+
+[dir=rtl] .slick-slide {
+  float: left !important;
+}

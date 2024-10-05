@@ -508,5 +508,22 @@
   "airTransportationContact": "Bạn cần vận tải hàng không nhanh chóng? Liên hệ với chúng tôi để được giao hàng nhanh và theo dõi thời gian thực cho nhu cầu vận chuyển khẩn cấp của bạn.",
   "airTransportationContactLink": "Liên hệ!",
 
-  "landTransportationProcessTitle": "Quy trình của chúng tôi"
+  "landTransportationProcessTitle": "Quy trình của chúng tôi",
+
+  "pageTitle": "Dịch vụ tính lương của bên thứ ba về HR",
+  "breadcrumbTitle": "thirt_party_0",
+  "serviceDetailsHeader": "Trong Tiếp thị kỹ thuật số, đây là những gì chúng tôi cung cấp",
+  "serviceCard1Title": "Tối ưu hóa công cụ tìm kiếm (SEO)",
+  "serviceCard1Icon": "RiSeoLine",
+  "serviceCard1Contact": "services_wwp_card_btn1",
+  "serviceCard1ServicePage": "services_wwp_card_btn2",
+  "serviceCard2Title": "Tiếp thị nội dung chiến lược",
+  "serviceCard2Icon": "BiBookContent",
+  "serviceCard2Contact": "services_wwp_card_btn1",
+  "serviceCard2ServicePage": "services_wwp_card_btn2",
+  "serviceCard3Title": "Tiếp thị truyền thông xã hội",
+  "serviceCard3Icon": "IoShareSocialSharp",
+  "serviceCard3Contact": "services_wwp_card_btn1",
+  "serviceCard3ServicePage": "services_wwp_card_btn2",
+  "serviceCard4Title": "Quảng cáo trả tiền cho mỗi lần nhấp (PPC)"
 }

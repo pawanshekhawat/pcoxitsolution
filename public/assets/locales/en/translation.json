@@ -509,5 +509,22 @@
   "airTransportationContact": "Need fast air transport? Contact us for express delivery and real-time tracking for your urgent shipping needs.",
   "airTransportationContactLink": "Get in touch!",
 
-  "landTransportationProcessTitle": "Our Process"
+  "landTransportationProcessTitle": "Our Process",
+
+  "pageTitle": "HR Third Party Payroll Services",
+  "breadcrumbTitle": "thirt_party_0",
+  "serviceDetailsHeader": "In Digital Marketing, Here's what we provide",
+  "serviceCard1Title": "Search Engine Optimization (SEO)",
+  "serviceCard1Icon": "RiSeoLine",
+  "serviceCard1Contact": "services_wwp_card_btn1",
+  "serviceCard1ServicePage": "services_wwp_card_btn2",
+  "serviceCard2Title": "Strategic Content Marketing",
+  "serviceCard2Icon": "BiBookContent",
+  "serviceCard2Contact": "services_wwp_card_btn1",
+  "serviceCard2ServicePage": "services_wwp_card_btn2",
+  "serviceCard3Title": "Social Media Marketing",
+  "serviceCard3Icon": "IoShareSocialSharp",
+  "serviceCard3Contact": "services_wwp_card_btn1",
+  "serviceCard3ServicePage": "services_wwp_card_btn2",
+  "serviceCard4Title": "Pay-Per-Click (PPC) Advertising"
 }

@@ -90,7 +90,7 @@ const Blog = () => {
 
             <HeaderThree homeLink="/" logo="symbol-dark" color="color-black" />
             {/* Start Breadcrump Area */}
-            <Breadcrumb title={'Our Blogs'} />
+            <Breadcrumb title={t('blog')} />
             {/* End Breadcrump Area */}
 
 

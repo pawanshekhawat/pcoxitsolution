@@ -108,7 +108,7 @@ const PPCService = () => {
                   href="/contact"
                   className="getStBtn btn px-4 py-2 mt-3 rounded text-white"
                 >
-                  Get Started
+                  {t("get_started")}
                 </a>
               </div>
             </div>

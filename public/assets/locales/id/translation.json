@@ -535,5 +535,22 @@
   "airTransportationContact": "Butuh transportasi udara cepat? Hubungi kami untuk pengiriman ekspres dan pelacakan waktu nyata untuk kebutuhan pengiriman mendesak Anda.",
   "airTransportationContactLink": "Hubungi kami!",
 
-  "landTransportationProcessTitle": "Proses Kami"
+  "landTransportationProcessTitle": "Proses Kami",
+
+  "pageTitle": "Layanan Penggajian Pihak Ketiga SDM",
+  "breadcrumbTitle": "thirt_party_0",
+  "serviceDetailsHeader": "Dalam Pemasaran Digital, Berikut adalah apa yang kami sediakan",
+  "serviceCard1Title": "Optimalisasi Mesin Pencari (SEO)",
+  "serviceCard1Icon": "RiSeoLine",
+  "serviceCard1Contact": "services_wwp_card_btn1",
+  "serviceCard1ServicePage": "services_wwp_card_btn2",
+  "serviceCard2Title": "Pemasaran Konten Strategis",
+  "serviceCard2Icon": "BiBookContent",
+  "serviceCard2Contact": "services_wwp_card_btn1",
+  "serviceCard2ServicePage": "services_wwp_card_btn2",
+  "serviceCard3Title": "Pemasaran Media Sosial",
+  "serviceCard3Icon": "IoShareSocialSharp",
+  "serviceCard3Contact": "services_wwp_card_btn1",
+  "serviceCard3ServicePage": "services_wwp_card_btn2",
+  "serviceCard4Title": "Iklan Bayar-Per-Klik (PPC)"
 }

@@ -36,7 +36,9 @@ const SlideList = [
   },
 ];
 
-const PortfolioLanding = () => {
+const PortfolioLanding = ({ value }) => {
+  const { t, i18n } = useTranslation();
+  const isArabic = i18n.language === "ar";
   const { isDark, toggleTheme } = useContext(ThemeContext);
   const [loading, setLoading] = useState(true);
 
@@ -47,11 +49,10 @@ const PortfolioLanding = () => {
     setIsMobile(window.innerWidth <= 575); // Set mobile if screen size
   };
 
-  const { t } = useTranslation();
   const BlogContent = [
     {
       images: "01",
-      title: `${t("securty")}`,
+      title: `${t("blog_title")}`,
       category: `${t("blog_author")}`,
       bloglink: "/navigating-global-trade",
     },
@@ -77,9 +78,10 @@ const PortfolioLanding = () => {
 
   useEffect(() => {
     // Dynamically append the new script for dotlottie-player
-    const script = document.createElement('script');
-    script.src = 'https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs';
-    script.type = 'module';
+    const script = document.createElement("script");
+    script.src =
+      "https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs";
+    script.type = "module";
     document.head.appendChild(script);
 
     // Cleanup when component unmounts
@@ -90,7 +92,7 @@ const PortfolioLanding = () => {
 
   useEffect(() => {
     const fetchData = async () => {
-      await new Promise(resolve => setTimeout(resolve, 3000));
+      await new Promise((resolve) => setTimeout(resolve, 3000));
       setLoading(false);
     };
 
@@ -114,8 +116,8 @@ const PortfolioLanding = () => {
     centerMode: true,
     infinite: true,
     centerPadding: "60px",
-    speed: 500,  
-    slidesToShow: 1, 
+    speed: 500,
+    slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 3000,
@@ -123,16 +125,23 @@ const PortfolioLanding = () => {
 
   if (loading) {
     return (
-      <div className={isDark ? "active-dark" : "active-light"} >
+      <div className={isDark ? "active-dark" : "active-light"}>
         {/* <div style={{ width: '100vw', height: "100vh", display: "grid", placeItems: "center" }}>
             <img src={LoaderGif} />
           </div> */}
-        <div style={{ width: '100vw', height: '100vh', display: 'grid', placeItems: 'center' }}>
+        <div
+          style={{
+            width: "100vw",
+            height: "100vh",
+            display: "grid",
+            placeItems: "center",
+          }}
+        >
           <dotlottie-player
             src="https://lottie.host/0544481e-fc88-4533-8112-736c6a8be8f8/zpUnJPdBr3.json"
             background="transparent"
             speed="1"
-            style={{ width: '300px', height: '300px' }}
+            style={{ width: "300px", height: "300px" }}
             loop
             autoplay
           ></dotlottie-player>
@@ -158,20 +167,35 @@ const PortfolioLanding = () => {
                 key={index}
               >
                 <div className="container">
-
                   <div className="row">
                     <div className="col-lg-12">
-                      <div className={`inner ${value.textPosition}`}>
+                      <div
+                        className={`inner ${value.textPosition} ${
+                          isArabic ? "text-right" : ""
+                        }`}
+                      >
                         {value.category ? (
-                          <span className="homePageHeroTitlesSpan title text-white">
+                          <span
+                            className={`homePageHeroTitlesSpan title text-white ${
+                              isArabic ? "text-right" : ""
+                            }`}
+                          >
                             {t("home_hero_sec_desc")}
                           </span>
                         ) : (
                           ""
                         )}
-                        <h1 className="homePageHeroTitles title">
+                        <h1
+                          className={`homePageHeroTitles title ${
+                            isArabic ? "text-right" : ""
+                          }`}
+                        >
                           {t("home_hero_sec_title")} <br />
-                          <TextLoop className="loopTextBox">
+                          <TextLoop
+                            className={`loopTextBox ${
+                              isArabic ? "text-right" : ""
+                            }`}
+                          >
                             <span className="homePageLoopText">
                               {t("Software-Development")}
                             </span>
@@ -197,41 +221,6 @@ const PortfolioLanding = () => {
       {/* End Slider Area   */}
 
       {/* <MultiLang /> */}
-
-      {/* Start About Area */}
-      {/* <div id="about" className="fix">
-        <div className="about-area ptb--120  bg_color--1">
-          <div className="about-wrapper">
-            <div className="container">
-              <div className="row row--35 align-items-start">
-                <div className="col-lg-6">
-                  <div className="thumbnail">
-                    <img
-                      className="w-100"
-                      src="/assets/images/about/about-8.jpg"
-                      alt="About Images"
-                    />
-                  </div>
-                </div>
-                <div className="col-lg-6">
-                  <div className="about-inner inner">
-                    <div className="section-title">
-                      <h2 className="title section-title">{t("about_us")}</h2>
-                      <p className="description">{t("about_desc_1")}</p>
-                      <p className="description">{t("about_desc_2")}</p>
-                    </div>
-                    <div className="row mt--30">
-                      <TabTwo tabStyle="tab-style--1" />
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div> */}
-
-      {/* End About Area */}
 
       {/* Start Service Area  */}
       <div id="service" className="fix">
@@ -266,8 +255,12 @@ const PortfolioLanding = () => {
               <div className="row">
                 <div className="col-lg-12">
                   <div className="section-title text-center service-style--3 mb--30 mb_sm--0">
-                    <h2 className="title section-title">{t("industries_we_serve")}</h2>
-                    <p className="iwsParaRspn">{t("industries_we_serve_message")}</p>
+                    <h2 className="title section-title">
+                      {t("industries_we_serve")}
+                    </h2>
+                    <p className="iwsParaRspn">
+                      {t("industries_we_serve_message")}
+                    </p>
                   </div>
                 </div>
               </div>
@@ -319,7 +312,9 @@ const PortfolioLanding = () => {
                           <h4 className="title blogHomeTitle">
                             <a href={`${value.bloglink}`}>{value.title}</a>
                           </h4>
-                          <p className="blogtype blogHomeTitleAuth">{value.category}</p>
+                          <p className="blogtype blogHomeTitleAuth">
+                            {value.category}
+                          </p>
                           <div className="blog-btn blogHomeBtnBox">
                             <a
                               className="rn-btn text-white blogHomeBtn"
@@ -336,7 +331,6 @@ const PortfolioLanding = () => {
               </div>
             ) : (
               <div className="row mt--60 mt_sm--40 h-full">
-
                 {PostList.map((value, i) => (
                   <div className="col-lg-4 col-md-6 col-12" key={i}>
                     <div className="blog blog-style--1">
@@ -366,10 +360,8 @@ const PortfolioLanding = () => {
                     </div>
                   </div>
                 ))}
-
               </div>
             )}
-
           </div>
         </div>
       </div>

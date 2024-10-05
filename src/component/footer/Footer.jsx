@@ -16,7 +16,8 @@ const SocialShare = [
 ];
 
 const Footer = () => {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
+  const isRTL = i18n.dir() === 'rtl';
   return (
     <React.Fragment>
       <footer className="footer-area">
@@ -89,11 +90,17 @@ const Footer = () => {
                     </div>
                     <div className="social-share-inner">
                       <div className="footer-link">
-                        {/* <h4 className="mt-4">{t("social_connect")}</h4> */}
-                        <ul className="mt-4 social-share social-style--2 color-white d-flex justify-content-start liststyle align-items-center">
-                          {/* <MultiLang /> */}
+                        <ul
+                          className={`mt-4 social-share social-style--2 color-white d-flex liststyle align-items-center ${
+                            isRTL
+                              ? "justify-content-end"
+                              : "justify-content-start"
+                          }`}
+                        >
                           {SocialShare.map((val, i) => (
-                            <li key={i}><a href={`${val.link}`}>{val.Social}</a></li>
+                            <li key={i}>
+                              <a href={`${val.link}`}>{val.Social}</a>
+                            </li>
                           ))}
                         </ul>
                       </div>

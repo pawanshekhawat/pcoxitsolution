@@ -512,5 +512,22 @@
   "airTransportationContact": "Kailangan ng mabilis na sasakyang panghimpapawid? Makipag-ugnayan sa amin para sa express delivery at real-time na pagsubaybay para sa iyong agarang mga pangangailangan sa pagpapadala.",
   "airTransportationContactLink": "Makipag-ugnayan!",
 
-  "landTransportationProcessTitle": "Aming Proseso"
+  "landTransportationProcessTitle": "Aming Proseso",
+
+  "pageTitle": "Mga Serbisyo sa Payroll ng Third Party ng HR",
+  "breadcrumbTitle": "thirt_party_0",
+  "serviceDetailsHeader": "Sa Digital Marketing, Narito ang ibinibigay namin",
+  "serviceCard1Title": "Search Engine Optimization (SEO)",
+  "serviceCard1Icon": "RiSeoLine",
+  "serviceCard1Contact": "services_wwp_card_btn1",
+  "serviceCard1ServicePage": "services_wwp_card_btn2",
+  "serviceCard2Title": "Strategic na Content Marketing",
+  "serviceCard2Icon": "BiBookContent",
+  "serviceCard2Contact": "services_wwp_card_btn1",
+  "serviceCard2ServicePage": "services_wwp_card_btn2",
+  "serviceCard3Title": "Social Media Marketing",
+  "serviceCard3Icon": "IoShareSocialSharp",
+  "serviceCard3Contact": "services_wwp_card_btn1",
+  "serviceCard3ServicePage": "services_wwp_card_btn2",
+  "serviceCard4Title": "Pay-Per-Click (PPC) Advertising"
 }

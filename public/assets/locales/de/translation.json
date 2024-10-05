@@ -515,5 +515,22 @@
   "airTransportationContact": "Benötigen Sie schnellen Lufttransport? Kontaktieren Sie uns für Expresslieferung und Echtzeitverfolgung für Ihre dringenden Versandanforderungen.",
   "airTransportationContactLink": "Nehmen Sie Kontakt auf!",
 
-  "landTransportationProcessTitle": "Unser Prozess"
+  "landTransportationProcessTitle": "Unser Prozess",
+
+  "pageTitle": "HR-Lohn- und Gehaltsabrechnungsdienste von Drittanbietern",
+  "breadcrumbTitle": "thirt_party_0",
+  "serviceDetailsHeader": "Im Bereich digitales Marketing bieten wir Folgendes",
+  "serviceCard1Title": "Suchmaschinenoptimierung (SEO)",
+  "serviceCard1Icon": "RiSeoLine",
+  "serviceCard1Contact": "services_wwp_card_btn1",
+  "serviceCard1ServicePage": "services_wwp_card_btn2",
+  "serviceCard2Title": "Strategisches Content-Marketing",
+  "serviceCard2Icon": "BiBookContent",
+  "serviceCard2Contact": "services_wwp_card_btn1",
+  "serviceCard2ServicePage": "services_wwp_card_btn2",
+  "serviceCard3Title": "Social-Media-Marketing",
+  "serviceCard3Icon": "IoShareSocialSharp",
+  "serviceCard3Contact": "services_wwp_card_btn1",
+  "serviceCard3ServicePage": "services_wwp_card_btn2",
+  "serviceCard4Title": "Pay-Per-Click (PPC)-Werbung"
 }

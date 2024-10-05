@@ -121,7 +121,7 @@ const ServiceDetails = () => {
                   </a>
                   <a
                     href="/service/software-development"
-                    className="cardBtn btn ml-4"
+                    className="cardBtn btn mx-2"
                   >
                     {t("services_wwp_card_btn2")}
                   </a>
@@ -141,7 +141,7 @@ const ServiceDetails = () => {
                   <a href="/contact" className="cardBtn btn">
                     {t("services_wwp_card_btn1")}
                   </a>
-                  <a href="/service/web-app" className="cardBtn btn ml-4">
+                  <a href="/service/web-app" className="cardBtn btn mx-2">
                     {t("services_wwp_card_btn2")}
                   </a>
                 </div>
@@ -161,7 +161,7 @@ const ServiceDetails = () => {
                   <a href="/contact" className="cardBtn btn">
                     {t("services_wwp_card_btn1")}
                   </a>
-                  <a href="/service/mobile-app" className="cardBtn btn ml-4">
+                  <a href="/service/mobile-app" className="cardBtn btn mx-2">
                     {t("services_wwp_card_btn2")}
                   </a>
                 </div>
@@ -182,7 +182,7 @@ const ServiceDetails = () => {
                   </a>
                   <a
                     href="/service/software-integration"
-                    className="cardBtn btn ml-4"
+                    className="cardBtn btn mx-2"
                   >
                     {t("services_wwp_card_btn2")}
                   </a>
@@ -204,7 +204,7 @@ const ServiceDetails = () => {
                   </a>
                   <a
                     href="/service/cloud-based-solutions"
-                    className="cardBtn btn ml-4"
+                    className="cardBtn btn mx-2"
                   >
                     {t("services_wwp_card_btn2")}
                   </a>
@@ -226,7 +226,7 @@ const ServiceDetails = () => {
                   </a>
                   <a
                     href="/service/software-maintenance"
-                    className="cardBtn btn ml-4"
+                    className="cardBtn btn mx-2"
                   >
                     {t("services_wwp_card_btn2")}
                   </a>

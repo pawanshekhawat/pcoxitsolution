@@ -188,6 +188,7 @@ Footer Styles
 .copyright-text {
     position: absolute;
     bottom: -114px;
+    margin: 10px 0px;
 
     @media #{$sm-layout} {
         position: static;

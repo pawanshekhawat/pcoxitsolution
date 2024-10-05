@@ -1252,6 +1252,10 @@ gt matrik score area
   .header-area.header--fixed {
     padding: 0px 40px !important;
   }
+  .cardPadAlign {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
 }
 
 @media #{$small-mobile} {

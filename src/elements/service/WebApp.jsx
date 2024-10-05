@@ -119,7 +119,7 @@ const WebApp = () => {
               {t("wd_process1_main_title")}
             </h2>
             <div className="row mx-auto">
-              <div className="col-md-6 col-lg-6 mb-4">
+              <div className="col-md-6 col-lg-6 mb-4 cardPadAlign">
                 <div
                   className="DevProg p-4 bg_color--5 rounded shadow-sm"
                 >
@@ -129,7 +129,7 @@ const WebApp = () => {
                   <p>{t("wd_process1_1_desc")}</p>
                 </div>
               </div>
-              <div className="col-md-6 col-lg-6 mb-4">
+              <div className="col-md-6 col-lg-6 mb-4 cardPadAlign">
                 <div
                   className="DevProg p-4 bg_color--5 rounded shadow-sm"
                 >
@@ -139,7 +139,7 @@ const WebApp = () => {
                   <p>{t("wd_process1_2_desc")}</p>
                 </div>
               </div>
-              <div className="col-md-6 col-lg-6 mb-4">
+              <div className="col-md-6 col-lg-6 mb-4 cardPadAlign">
                 <div
                   className="DevProg p-4 bg_color--5 rounded shadow-sm"
                 >
@@ -150,7 +150,7 @@ const WebApp = () => {
                 </div>
               </div>
 
-              <div className="col-md-6 col-lg-6 mb-4">
+              <div className="col-md-6 col-lg-6 mb-4 cardPadAlign">
                 <div
                   className="DevProg p-4 bg_color--5 rounded shadow-sm"
                 >

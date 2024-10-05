@@ -247,7 +247,7 @@
   }
   .bg_image--25 {
     background-color: #000 !important;
-    background-image: url(/assets/images/bg/pcoxgrp.mp4) !important;
+    background-image: url(/assets/images/bg/pcoxgrp.gif) !important;
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -583,7 +583,7 @@ font-family: 'Poppins', sans-serif;
 
   @for $i from 1 through 36 {
     .bg_image--#{$i} {
-      background-image: url(/assets/images/bg/pcoxgrp.mp4) !important;
+      background-image: url(/assets/images/bg/pcoxgrp.gif) !important;
     }
   }
 

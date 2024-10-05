@@ -1,5 +1,5 @@
 {
-  "home": "Home",
+  "home": "bahay",
   "about": "Tungkol sa amin",
   "services": "Serbisyo",
   "blog": "Mga Blog",
@@ -19,9 +19,9 @@
 
   "home_hero_sec_title": "Pagpapalakas sa Iyong Paglalakbay kasama",
   "home_hero_sec_desc": "Pinagkakatiwalaan ng mahigit 400+ kumpanya",
-  "Software-Development": "Software Development",
+  "Software-Development": "Pagbuo ng Software",
   "home_hero_sec_loop2": " Digital Marketing",
-  "home_hero_sec_loop3": "Import-Export Services at Logistics Solutions",
+  "home_hero_sec_loop3": "Import-Export Services sa Logistics Solutions",
 
   "testimonials_head": "Mga testimonial",
 
@@ -50,7 +50,7 @@
 
   "our_services": "Aming Serbisyo",
   "our_services_message": "Mga komprehensibong solusyon sa web development, software development, digital marketing, import-export, at logistics upang himukin ang tagumpay ng iyong negosyo.",
-  "hr_services": " Import-Export Services at Logistics Solutions",
+  "hr_services": " Import-Export Services sa Logistics Solutions",
   "hr_services_message": "Pag-streamline ng pandaigdigang kalakalan gamit ang ekspertong paghanap, pagsunod, at mahusay na logistik, tinitiyak ang napapanahon, secure na paghahatid sa mga internasyonal na merkado.",
   "hr_consulting": "Pagpapaunlad ng Software",
   "software_dev_message": "Paghahatid ng mga custom na solusyon sa software na iniayon sa iyong mga pangangailangan sa negosyo, pagpapahusay sa pagiging produktibo, scalability, at paglago sa pamamagitan ng mga makabago, secure, at mahusay na teknolohiya.",
@@ -115,7 +115,7 @@
   "services_wwp_card_btn1": "Humiling Ngayon",
   "services_wwp_card_btn2": "Maraming Higit Pa",
 
-  "impo_expo_services_0": "Aming Import-Export Services at Logistics Solutions",
+  "impo_expo_services_0": "Aming Import-Export Services sa Logistics Solutions",
 
   "impo_expo_services_wwp_title": "Nagbibigay kami ng mga ganitong uri ng serbisyo sa transportasyon",
   "impo_expo_services_wwp_card1_title": "Transportasyon sa Lupa",
@@ -465,7 +465,7 @@
   "hr_comp_2": "Ang aming nakatuong pangkat ng mga propesyonal ay nag-aalok ng komprehensibong suporta sa pagbalangkas, pagsusuri, at pag-update ng mga patakaran at pamamaraan ng HR. Nagsasagawa kami ng masusing pag-audit upang matukoy ang mga potensyal na lugar ng panganib at gabayan ka sa mga pinakamahusay na kasanayan upang mapagaan ang mga legal na hamon. Maging ito ay mga kontrata sa pagtatrabaho , mga patakaran laban sa diskriminasyon, o mga alituntunin sa kaligtasan sa lugar ng trabaho, iniangkop namin ang aming mga serbisyo sa iyong partikular na pangangailangan sa industriya, na tinitiyak ang pagsunod sa mga lokal, estado, at pederal na batas.",
   "hr_comp_3": "Sa pamamagitan ng pakikipagsosyo sa amin para sa HR Compliance at Legal Support, maaari kang tumuon sa iyong mga pangunahing aktibidad sa negosyo, kumpiyansa na ang iyong mga gawi sa HR ay naaayon sa batas. Manatiling nangunguna sa mga pagbabago sa regulasyon, bawasan ang mga legal na panganib, at pagyamanin ang isang kapaligiran sa trabaho na nagtataguyod ng parehong legal na pagsunod at etikal na integridad.",
 
-  "read_more": "Read More",
+  "read_more": "Magbasa pa",
 
   "first_name_form": "Ilagay ang iyong pangalan",
   "last_name_form": "Ilagay ang iyong pangalan",

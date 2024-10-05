@@ -120,7 +120,7 @@ const ServiceDetails = () => {
                     <a href="/contact" className="cardBtn btn">
                       {t("services_wwp_card_btn1")}
                     </a>
-                    <a href="#lt" className="cardBtn btn ml-4">
+                    <a href="#lt" className="cardBtn btn mx-2">
                       {t("services_wwp_card_btn2")}
                     </a>
                   </div>
@@ -139,7 +139,7 @@ const ServiceDetails = () => {
                     <a href="/contact" className="cardBtn btn">
                       {t("services_wwp_card_btn1")}
                     </a>
-                    <a href="#st" className="cardBtn btn ml-4">
+                    <a href="#st" className="cardBtn btn mx-2">
                       {t("services_wwp_card_btn2")}
                     </a>
                   </div>
@@ -159,7 +159,7 @@ const ServiceDetails = () => {
                     <a href="/contact" className="cardBtn btn">
                       {t("services_wwp_card_btn1")}
                     </a>
-                    <a href="#at" className="cardBtn btn ml-4">
+                    <a href="#at" className="cardBtn btn mx-2">
                       {t("services_wwp_card_btn2")}
                     </a>
                   </div>

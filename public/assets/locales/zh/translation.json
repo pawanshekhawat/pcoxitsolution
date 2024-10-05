@@ -7,7 +7,7 @@
   "for_job_seekers": "求职者",
   "for_client": "客户",
   "about_us": "关于我们",
-  "about_desc_1": "PCOX Internet Pvt. Ltd. 是一家充满活力和创新精神的 IT 解决方案公司，致力于帮助企业在数字领域中导航和发展。我们成立的愿景是通过技术赋能企业，我们专门提供全面的 Web 开发、软件开发、数字营销以及数字贸易和物流平台服务。我们的目标很简单：提供创新、可扩展和定制的数字解决方案，以推动增长和效率。",
+  "about_desc_1": "PCOX Internet Pvt. Ltd. 是一家充满活力和创新精神的 IT 解决方案公司，致力于帮助企业在数字领域中导航和发展。我们成立的愿景是通过技术赋能企业，我们专门提供全面的 卷筒纸 开发、软件开发、数字营销以及数字贸易和物流平台服务。我们的目标很简单：提供创新、可扩展和定制的数字解决方案，以推动增长和效率。",
   "about_desc_2": "我们的团队由经验丰富的专业人士组成，他们是各自领域的专家。从创意设计师和开发人员到战略数字营销人员和物流专家，我们汇集了各种技能和专业知识，以提供全面的解决方案。在 PCOX Internet Pvt. Ltd.，我们相信员工是我们最大的财富，我们投资于他们的成长和发展，以保持领先地位。",
   "about_desc_3": "在 PCOX Internet Pvt. Ltd.，我们相信通过了解客户的独特需求并提供超出预期的解决方案，与客户建立长期合作伙伴关系。这就是我们的与众不同之处。",
   "about_desc_4": "我们以我们的专业精神、诚信和道德行为为荣。我们遵守最高标准的商业惯例，确保整个招聘流程的透明度、保密性和公平性。我们的目标是与客户和候选人建立长期关系，以信任、相互尊重和共同成功为基础。",
@@ -159,7 +159,7 @@
   "sd_solution1_11": "电子商务平台",
   "sd_solution1_12": "帮助台解决方案",
 
-  "web_dev_1_head": "Web 应用程序开发",
+  "web_dev_1_head": "卷筒纸 应用程序开发",
   "wd_main_desc": "我们使用最新技术来构建既实用又用户友好的应用程序",
   "wd_process1_main_title": "我们的开发流程",
   "wd_process1_1_title": "1. 前端开发",
@@ -167,9 +167,9 @@
   "wd_process1_2_title": "2. 后端开发",
   "wd_process1_2_desc": "我们的团队构建了强大的服务器端系统，可以高效处理数据处理和集成，确保应用程序可靠且可扩展。",
   "wd_process1_3_title": "3. 数据库设计和管理",
-  "wd_process1_3_desc": "我们实施安全高效的数据库来支持您的 Web 应用程序的数据存储和检索需求，确保高性能和可靠性。",
+  "wd_process1_3_desc": "我们实施安全高效的数据库来支持您的 卷筒纸 应用程序的数据存储和检索需求，确保高性能和可靠性。",
   "wd_process1_4_title": "4. API 开发",
-  "wd_process1_4_desc": "我们创建和集成 API，以促进您的 Web 应用程序与其他服务之间的通信，确保数据交换顺畅高效。",
+  "wd_process1_4_desc": "我们创建和集成 API，以促进您的 卷筒纸 应用程序与其他服务之间的通信，确保数据交换顺畅高效。",
 
   "wd_solution1_title": "我们使用的技术",
   "wd_solution1_1": "React",
@@ -191,7 +191,7 @@
   "md_process1_1_title": "1. 原生应用程序开发",
   "md_process1_1_desc": "我们根据 iOS 和 Android 平台的具体要求开发原生应用程序，确保最佳性能和用户体验。",
   "md_process1_2_title": "2. 混合应用程序开发",
-  "md_process1_2_desc": "我们的混合应用程序解决方案结合了原生和 Web 技术，提供具有广泛平台兼容性的经济高效的选项。",
+  "md_process1_2_desc": "我们的混合应用程序解决方案结合了原生和 卷筒纸 技术，提供具有广泛平台兼容性的经济高效的选项。",
   "md_process1_3_title": "3. UI/UX 设计",
   "md_process1_3_desc": "我们为移动应用程序设计引人入胜且用户友好的界面，注重可用性和视觉吸引力，以提高用户满意度。",
   "md_process1_4_title": "4. 应用程序测试和优化",
@@ -265,7 +265,7 @@
   "contact_us_bottom_desc": "让我们讨论一下我们的软件解决方案如何推动您的成功。",
   "contact_us_bottom_btn": "联系我们",
 
-  "software_dev_2_head": "Web 应用程序开发",
+  "software_dev_2_head": "卷筒纸 应用程序开发",
   "software_dev_3_head": "移动应用程序开发",
   "software_dev_4_head": "软件集成服务",
   "software_dev_5_head": "基于云的解决方案",
@@ -523,5 +523,7 @@
   "serviceCard3Icon": "IoShareSocialSharp",
   "serviceCard3Contact": "services_wwp_card_btn1",
   "serviceCard3ServicePage": "services_wwp_card_btn2",
-  "serviceCard4Title": "按点击付费 (PPC) 广告"
+  "serviceCard4Title": "按点击付费 (PPC) 广告",
+
+  "company_address": "Ilnnov8 Mantri commercio, 5th Floor, Tower-A Bellandur ORR, 班加罗尔, 卡纳塔克邦 560103"
 }

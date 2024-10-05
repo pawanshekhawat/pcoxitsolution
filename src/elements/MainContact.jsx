@@ -130,8 +130,7 @@ const MainContact = () => {
                   <h4 className="title title1 mainContactCardText">{t("location")}</h4>
                   <p>
                     <a className="mainContactCardText" href="https://maps.app.goo.gl/oizfgAiWvUE7hAca9" target="_blank">
-                      Ilnnov8 Mantri commercio, 5th Floor, Tower-A
-                      Bellandur ORR, Bengaluru, Karnataka 560103
+                      {t("company_address")}
                     </a>
                   </p>
                 </div>

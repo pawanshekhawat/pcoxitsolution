@@ -1,5 +1,5 @@
 // ThemeContext.js
-import React, { createContext, useState, useEffect } from 'react';
+import React, { createContext, useState } from 'react';
 
 // Create the context
 export const ThemeContext = createContext();

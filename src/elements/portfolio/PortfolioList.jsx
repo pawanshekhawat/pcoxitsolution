@@ -69,7 +69,7 @@ function PortfolioList(props) {
     },
   ];
 
-  const { column, styevariation, item } = props;
+  const { item } = props;
   const list = PortfolioListContent.slice(0, item);
 
   // Slider settings

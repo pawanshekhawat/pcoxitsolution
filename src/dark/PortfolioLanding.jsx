@@ -1,30 +1,20 @@
-import React, { useState, useContext, useEffect } from "react";
+import React, { useState, useContext, useEffect, lazy, Suspense } from "react";
 import Slider from "react-slick";
 import ScrollToTop from "react-scroll-up";
 import { FiChevronUp } from "react-icons/fi";
 import Helmet from "../component/common/Helmet";
 import TextLoop from "react-text-loop";
-import HeaderThree from "../component/header/HeaderThree";
-import Footer from "../component/footer/Footer";
-import TabTwo from "../elements/tab/TabTwo";
-import ContactThree from "../elements/contact/ContactThree";
-import PortfolioList from "../elements/portfolio/PortfolioList";
-import ServiceList from "../elements/service/ServiceList";
-
-// Import slick-carousel styles
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
-
-// import BlogContent from "../elements/blog/BlogContent";
-// import MultiLang from '../component/MultiLang/MultiLang';
-
 import Toggle from "../component/Toggle/Toggle";
 import { useTranslation } from "react-i18next";
 import { ThemeContext } from "../ThemeContext";
-import MainContact from "../elements/MainContact";
-import ContactFour from "../elements/contact/ContactFour";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
-// import { UsageState } from 'webpack'
+const HeaderThree = lazy(() => import("../component/header/HeaderThree"));
+const Footer = lazy(() => import("../component/footer/Footer"));
+const PortfolioList = lazy(() => import("../elements/portfolio/PortfolioList"));
+const ServiceList = lazy(() => import("../elements/service/ServiceList"));
+const ContactFour = lazy(() => import("../elements/contact/ContactFour"));
 
 const SlideList = [
   {
@@ -51,12 +41,14 @@ const PortfolioLanding = ({ value }) => {
 
   const BlogContent = [
     {
+      id: "1",
       images: "01",
       title: `${t("blog_title")}`,
       category: `${t("blog_author")}`,
       bloglink: "/navigating-global-trade",
     },
     {
+      id: "2",
       images: "02",
       title: `${t("management")}`,
       category: `${t("blog_author")}`,
@@ -64,13 +56,13 @@ const PortfolioLanding = ({ value }) => {
     },
 
     {
+      id: "3",
       images: "03",
       title: `${t("design")}`,
       category: `${t("blog_author")}`,
       bloglink: "/boost-your-brand",
     },
   ];
-  let title = "About Us";
   // description = `Welcome to our overseas recruitment company! We are a leading global HR recruitment company that specializes in connecting talented individuals with exciting job opportunities overseas. At our company, we understand the challenges and complexities of finding the right talent for international positions. That's why we are here to simplify the process and help both employers and job seekers navigate the global job market with ease.`;
   const PostList = BlogContent.slice(0, 3);
 
@@ -153,10 +145,12 @@ const PortfolioLanding = ({ value }) => {
   return (
     <div className={isDark ? "active-dark" : "active-light"}>
       <Helmet pageTitle="PCOX Internet Pvt. Ltd." />
-
-      <HeaderThree homeLink="/" logo="symbol-dark" color="color-black" />
-      {/* Start Slider Area   */}
-
+      <Suspense fallback={<div>Loading...</div>}>
+              <Suspense fallback={<div>Loading...</div>}>
+        <HeaderThree homeLink="/" logo="symbol-dark" color="color-black" />
+      </Suspense>
+        {/* Start Slider Area   */}
+      </Suspense>
       <div id="home" className="fix">
         <div className="slider-wrapper">
           {/* Start Single Slide */}
@@ -236,10 +230,12 @@ const PortfolioLanding = ({ value }) => {
             </div>
             <div className="row creative-service">
               <div className="col-lg-12">
-                <ServiceList
-                  item="6"
-                  column="col-lg-4 col-md-6 col-sm-6 col-12 text-left"
-                />
+                <Suspense fallback={<div>Loading...</div>}>
+                  <ServiceList
+                    item="6"
+                    column="col-lg-4 col-md-6 col-sm-6 col-12 text-left"
+                  />
+                </Suspense>
               </div>
             </div>
           </div>
@@ -265,11 +261,13 @@ const PortfolioLanding = ({ value }) => {
                 </div>
               </div>
               <div>
-                <PortfolioList
-                  styevariation="text-center mt--40"
-                  column="col-lg-4 col-md-6 col-sm-6 col-12"
-                  item="6"
-                />
+                <Suspense fallback={<div>Loading...</div>}>
+                  <PortfolioList
+                    styevariation="text-center mt--40"
+                    column="col-lg-4 col-md-6 col-sm-6 col-12"
+                    item="6"
+                  />
+                </Suspense>
               </div>
             </div>
           </div>
@@ -296,8 +294,8 @@ const PortfolioLanding = ({ value }) => {
             {isMobile ? (
               <div className="">
                 <Slider {...sliderServiceSettings}>
-                  {PostList.map((value, i) => (
-                    <div className="col-lg-4 col-md-6 col-sm-6 col-12" key={i}>
+                  {PostList.map((value) => (
+                    <div className="col-lg-4 col-md-6 col-sm-6 col-12" key={value.id}>
                       <div className="blog blog-style--1 Blogblur">
                         <div className="thumbnail blogImageBox">
                           <a href={`${value.bloglink}`}>
@@ -374,8 +372,9 @@ const PortfolioLanding = ({ value }) => {
         </div>
       </div>
       {/* End COntact Area */}
-
-      <Footer />
+      <Suspense fallback={<div>Loading...</div>}>
+        <Footer />
+      </Suspense>
       {/* Start Back To Top */}
       <div className="backto-top">
         <ScrollToTop showUnder={160}>

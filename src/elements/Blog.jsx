@@ -1,18 +1,16 @@
-import React, { useContext, useState, useEffect } from "react";
+import React, { useState, useContext, useEffect, lazy, Suspense } from "react";
 import PageHelmet from "../component/common/Helmet";
 import Breadcrumb from "../elements/common/Breadcrumb";
-import Pagination from "../elements/common/Pagination";
-import BlogList from "../elements/blog/BlogList";
 import ScrollToTop from 'react-scroll-up';
 import { FiChevronUp } from "react-icons/fi";
-import HeaderThree from "../component/header/HeaderThree";
-import Footer from "../component/footer/Footer";
 import { useTranslation } from "react-i18next";
+import Footer from "../component/footer/Footer";
 
 import Toggle from "../component/Toggle/Toggle";
 
 import { ThemeContext } from '../ThemeContext';
 
+const HeaderThree = lazy(() => import("../component/header/HeaderThree"));
 const Blog = () => {
     const { isDark, toggleTheme } = useContext(ThemeContext);
     const [loading, setLoading] = useState(true);
@@ -88,7 +86,9 @@ const Blog = () => {
         <div className={isDark ? "active-dark" : "active-light"}>
             <PageHelmet pageTitle='Blog' />
 
-            <HeaderThree homeLink="/" logo="symbol-dark" color="color-black" />
+                  <Suspense fallback={<div>Loading...</div>}>
+        <HeaderThree homeLink="/" logo="symbol-dark" color="color-black" />
+      </Suspense>
             {/* Start Breadcrump Area */}
             <Breadcrumb title={t('blog')} />
             {/* End Breadcrump Area */}

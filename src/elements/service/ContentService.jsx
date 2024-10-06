@@ -1,26 +1,22 @@
-import React, { useState, useContext, useEffect } from "react";
+import React, { useState, useContext, useEffect, lazy, Suspense } from "react";
 
 import PageHelmet from "../../component/common/Helmet";
-import HeaderThree from "../../component/header/HeaderThree";
 import Footer from "../../component/footer/Footer";
 import Toggle from "../../component/Toggle/Toggle";
 import ScrollToTop from "react-scroll-up";
 import { FiChevronUp } from "react-icons/fi";
- 
+
 import CMBredCrmb from "../../../public/assets/images/service/breadcrumbCM.jpg";
 
 import { useTranslation } from "react-i18next";
 
 import { ThemeContext } from '../../ThemeContext';
 
+const HeaderThree = lazy(() => import("../../component/header/HeaderThree"));
 const ContentService = () => {
   const { t } = useTranslation();
   
-  const [isOpen, setIsOpen] = useState(false);
-
-  const openModal = () => {
-    setIsOpen(true);
-  };
+ 
 
    const { isDark, toggleTheme } = useContext(ThemeContext);
   const [loading, setLoading] = useState(true);
@@ -80,7 +76,9 @@ const ContentService = () => {
       <PageHelmet pageTitle={pageTitle} />
       {/* End Pagehelmet */}
 
-      <HeaderThree homeLink="/" logo="symbol-dark" color="color-black" />
+            <Suspense fallback={<div>Loading...</div>}>
+        <HeaderThree homeLink="/" logo="symbol-dark" color="color-black" />
+      </Suspense>
       <div className="bg_color--1">
         <div
           style={{

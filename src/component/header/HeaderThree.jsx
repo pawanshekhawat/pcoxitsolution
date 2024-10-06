@@ -1,19 +1,10 @@
 import React from "react";
-import { FaTwitter, FaInstagram, FaFacebookF, FaLinkedinIn } from "react-icons/fa";
 import { FiX, FiMenu } from "react-icons/fi";
 import Scrollspy from 'react-scrollspy';
 import { Link } from 'react-router-dom';
-import { useState, useEffect } from "react";
+import { useEffect } from "react";
 import MultiLang from "../MultiLang/MultiLang";
 import { useTranslation } from "react-i18next";
-
-
-const SocialShare = [
-    { Social: <FaFacebookF />, link: 'https://www.facebook.com/' },
-    { Social: <FaLinkedinIn />, link: 'https://www.linkedin.com/' },
-    { Social: <FaInstagram />, link: 'https://www.instagram.com/alcaenat?igshid=MzRlODBiNWFlZA%3D%3D' },
-    { Social: <FaTwitter />, link: 'https://twitter.com/' },
-]
 
 const HeaderThree = (props) => {
     const { logo, color = 'default-color', homeLink } = props;

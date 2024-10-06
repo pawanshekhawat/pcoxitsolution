@@ -1,40 +1,25 @@
 import React, { useContext, useState, useEffect } from "react";
 import PageHelmet from "../component/common/Helmet";
-import { FiHeadphones, FiMail, FiMapPin } from "react-icons/fi";
-import GoogleMapReact from "google-map-react";
-import BrandTwo from "../elements/BrandTwo";
+import { FiMail, FiMapPin } from "react-icons/fi";
 import ContactFour from "./contact/ContactFour";
 import ScrollToTop from "react-scroll-up";
 import { FiChevronUp } from "react-icons/fi";
 import HeaderThree from "../component/header/HeaderThree";
 import Footer from "../component/footer/Footer";
-import { Background } from "react-parallax";
-import axios from "axios";
-
 import Toggle from "../component/Toggle/Toggle";
 import { useTranslation } from "react-i18next";
 import { ThemeContext } from "../ThemeContext";
 
-const AnyReactComponent = ({ text }) => <div>{text}</div>;
-
 const MainContact = () => {
-  // Move all hooks, including useTranslation, to the top level
-  const { t } = useTranslation(); // Use at the top, not inside conditions
+  const { t } = useTranslation();
   const { isDark, toggleTheme } = useContext(ThemeContext);
   const [loading, setLoading] = useState(true);
-  const [formData, setFormData] = useState({
-    fname: "",
-    lname: "",
-    email: "",
-    phone: "",
-    message: "",
-  });
-  const [status, setStatus] = useState("");
 
   // Effect for dotlottie-player script
   useEffect(() => {
     const script = document.createElement("script");
-    script.src = "https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs";
+    script.src =
+      "https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs";
     script.type = "module";
     document.head.appendChild(script);
 
@@ -52,39 +37,17 @@ const MainContact = () => {
     fetchData();
   }, []);
 
-  // Handle input change for form fields
-  const handleInputChange = (e) => {
-    const { name, value } = e.target;
-    setFormData({
-      ...formData,
-      [name]: value,
-    });
-  };
-
-  // Handle form submission
-  const handleSubmit = async (e) => {
-    e.preventDefault();
-    try {
-      const response = await axios.post("/api/register-contact", formData);
-      if (response.status === 201) {
-        setStatus("Success");
-        setFormData({
-          fname: "",
-          lname: "",
-          email: "",
-          phone: "",
-          message: "",
-        });
-      }
-    } catch (error) {
-      setStatus("Error: " + error.response.data.message);
-    }
-  };
-
   if (loading) {
     return (
       <div className={isDark ? "active-dark" : "active-light"}>
-        <div style={{ width: "100vw", height: "100vh", display: "grid", placeItems: "center" }}>
+        <div
+          style={{
+            width: "100vw",
+            height: "100vh",
+            display: "grid",
+            placeItems: "center",
+          }}
+        >
           <dotlottie-player
             src="https://lottie.host/0544481e-fc88-4533-8112-736c6a8be8f8/zpUnJPdBr3.json"
             background="transparent"
@@ -102,7 +65,10 @@ const MainContact = () => {
     <div className={isDark ? "active-dark" : "active-light"}>
       <PageHelmet pageTitle="Contact" />
       <HeaderThree homeLink="/" logo="symbol-dark" color="color-dark" />
-      <div className="breadcrumb-area rn-bg-color ptb--180 bg_image contactUsBanner" data-black-overlay="8">
+      <div
+        className="breadcrumb-area rn-bg-color ptb--180 bg_image contactUsBanner"
+        data-black-overlay="8"
+      >
         <div className="container aboutRspnContainer">
           <div className="row justify-content-center">
             <div className="col-lg-4 col-md-6 col-sm-6 col-12 mt_mobile--20">
@@ -111,9 +77,14 @@ const MainContact = () => {
                   <FiMail />
                 </div>
                 <div className="inner">
-                  <h4 className="title title1 mainContactCardText">{t("email_add")}</h4>
+                  <h4 className="title title1 mainContactCardText">
+                    {t("email_add")}
+                  </h4>
                   <p>
-                    <a className="mainContactCardText" href="mailto:support@pcoxgroup.com">
+                    <a
+                      className="mainContactCardText"
+                      href="mailto:support@pcoxgroup.com"
+                    >
                       support@pcoxgroup.com
                     </a>
                   </p>
@@ -127,9 +98,16 @@ const MainContact = () => {
                   <FiMapPin />
                 </div>
                 <div className="inner">
-                  <h4 className="title title1 mainContactCardText">{t("location")}</h4>
+                  <h4 className="title title1 mainContactCardText">
+                    {t("location")}
+                  </h4>
                   <p>
-                    <a className="mainContactCardText" href="https://maps.app.goo.gl/oizfgAiWvUE7hAca9" target="_blank">
+                    <a
+                      className="mainContactCardText"
+                      href="https://maps.app.goo.gl/oizfgAiWvUE7hAca9"
+                      target="_blank"
+                      rel="noopener noreferrer" // Add this to fix the security issue
+                    >
                       {t("company_address")}
                     </a>
                   </p>

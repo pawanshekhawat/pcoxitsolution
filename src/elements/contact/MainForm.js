@@ -1,9 +1,8 @@
 import React, { useState } from 'react';
 import emailjs from 'emailjs-com';
 import { useTranslation } from 'react-i18next';
-// import ContactPopUp from './ContactPopUp'; // Import the popup component'
-import PhoneInput from 'react-phone-input-2'
-import 'react-phone-input-2/lib/style.css'
+import PhoneInput from 'react-phone-input-2';
+import 'react-phone-input-2/lib/style.css';
 
 const Result = () => {
     return (
@@ -12,10 +11,7 @@ const Result = () => {
 };
 
 function MainForm({ props }) {
-    const [value, setValue] = useState();
-    const [error, setError] = useState(false);
     const [result, showResult] = useState(false);
-    // const [showPopup, setShowPopup] = useState(false); // State to show/hide the popup
     const [FormData, setFormData] = useState({
         fname: "",
         lname: "",
@@ -57,7 +53,6 @@ function MainForm({ props }) {
                 (result) => {
                     console.log(result.text);
                     showResult(true);
-                    // setShowPopup(true); 
 
                     setTimeout(() => {
                         window.location.reload();
@@ -69,13 +64,14 @@ function MainForm({ props }) {
             );
 
         e.target.reset();
-        setFormData = {
+        // Reset form data properly
+        setFormData({
             fname: "",
             lname: "",
             email: "",
             phone: "",
             message: ""
-        }
+        });
     };
 
     return (
@@ -131,7 +127,7 @@ function MainForm({ props }) {
                 <div className="rn-form-group">
                     <textarea
                         name="message"
-                        className='textAreaPadd'
+                        className="textAreaPadd"
                         value={FormData.message}
                         placeholder={t("msg_form")}
                         required
@@ -147,12 +143,6 @@ function MainForm({ props }) {
                     {result ? <Result /> : null}
                 </div>
             </form>
-
-            {/* Show popup when form is submitted successfully */}
-            {/* <ContactPopUp isOpen={showPopup} onClose={() => setShowPopup(false)}>
-                <p>Thanks for reaching out! <br/>
-                Your response has been successfully recorded</p>
-            </ContactPopUp> */}
         </>
     );
 }

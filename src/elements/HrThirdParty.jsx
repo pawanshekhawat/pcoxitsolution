@@ -1,7 +1,6 @@
-import React, { useState, useContext, useEffect } from "react";
+import React, { useState, useContext, useEffect, lazy, Suspense } from "react";
 
 import PageHelmet from "../component/common/Helmet";
-import ModalVideo from "react-modal-video";
 import ScrollToTop from "react-scroll-up";
 import { FiChevronUp } from "react-icons/fi";
 import HeaderThree from "../component/header/HeaderThree";
@@ -18,11 +17,7 @@ import { ThemeContext } from "../ThemeContext";
 const ServiceDetails = () => {
   const { t } = useTranslation();
 
-  const [isOpen, setIsOpen] = useState(false);
-
-  const openModal = () => {
-    setIsOpen(true);
-  };
+ 
 
   const { isDark, toggleTheme } = useContext(ThemeContext);
   const [loading, setLoading] = useState(true);
@@ -79,7 +74,9 @@ const ServiceDetails = () => {
   return (
     <div className={isDark ? "active-dark" : "active-light"}>
       <PageHelmet pageTitle={t("pageTitle")} />
-      <HeaderThree homeLink="/" logo="symbol-dark" color="color-black" />
+            <Suspense fallback={<div>Loading...</div>}>
+        <HeaderThree homeLink="/" logo="symbol-dark" color="color-black" />
+      </Suspense>
 
       <div className="breadcrumb-area rn-bg-color bg_image bg_image-service3">
         <div className="overlayServices ptb--120">

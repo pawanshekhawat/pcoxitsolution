@@ -1,7 +1,7 @@
-import React, { Component, useState, useContext, useEffect } from "react";
+import React, { useState, useEffect } from "react";
 
 import { useTranslation } from "react-i18next";
-import { FiBox, FiLayers, FiGlobe, FiMonitor } from "react-icons/fi";
+import { FiBox, FiGlobe, FiMonitor } from "react-icons/fi";
 import Slider from "react-slick"
 
 import "slick-carousel/slick/slick.css";
@@ -57,7 +57,6 @@ const ServiceThree = (props) => {
         centerMode: true,
         infinite: true,
         centerPadding: "60px",
-        slidesToShow: 3,
         speed: 500,    // Set to 3 seconds (3000ms) between scrolls
         slidesToShow: 1, // Only show 1 slide on mobile screens
         slidesToScroll: 1,

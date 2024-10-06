@@ -1,8 +1,7 @@
-import React, { useState, useContext, useEffect } from "react";
+import React, { useState, useContext, useEffect, lazy, Suspense } from "react";
 
 import PageHelmet from "../component/common/Helmet";
 import { FiClock, FiUser, FiChevronUp } from "react-icons/fi";
-import { Link } from "react-router-dom";
 import ScrollToTop from "react-scroll-up";
 import HeaderThree from "../component/header/HeaderThree";
 import Footer from "../component/footer/Footer";
@@ -59,7 +58,9 @@ const BlogDetails = () => {
   return (
     <div className={isDark ? "active-dark" : "active-light"}>
       <PageHelmet pageTitle={t('blog_byb_title1')} />
-      <HeaderThree homeLink="/" logo="symbol-dark" color="color-black" />
+            <Suspense fallback={<div>Loading...</div>}>
+        <HeaderThree homeLink="/" logo="symbol-dark" color="color-black" />
+      </Suspense>
 
       {/* Start Breadcrumb Area */}
       <div

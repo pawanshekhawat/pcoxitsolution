@@ -102,9 +102,9 @@ const Service = () => {
                     </div>
                     <div className="row service-one-wrapper">
                         {ServiceList.map((val, i) => (
-                            <div className=" col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12" key={i}>
+                            <div className="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12 my-3" key={i}>
                                 <a href={val.path}>
-                                    <div className="serviceCard service service__style--2  bg_color--5 shadow-lg">
+                                    <div className="serviceCard service service__style--2 bg_color--5 shadow-lg h-100">
                                         <div className="icon">
                                             {val.icon}
                                         </div>

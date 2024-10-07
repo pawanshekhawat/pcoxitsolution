@@ -1,7 +1,6 @@
-import React, { useState, useContext, useEffect } from "react";
+import React, { useState, useContext, useEffect, lazy, Suspense } from "react";
 
 import PageHelmet from "../component/common/Helmet";
-import ModalVideo from "react-modal-video";
 import ScrollToTop from "react-scroll-up";
 import { FiChevronUp } from "react-icons/fi";
 import HeaderThree from "../component/header/HeaderThree";
@@ -16,7 +15,6 @@ import { BiSupport } from "react-icons/bi";
 
 import { useTranslation } from "react-i18next";
 import { ThemeContext } from "../ThemeContext";
-import Slider from "react-slick"; // Import Slider component from react-slick
 
 // Import slick-carousel styles
 import "slick-carousel/slick/slick.css";
@@ -24,11 +22,7 @@ import "slick-carousel/slick/slick-theme.css";
 
 const ServiceDetails = () => {
   const { t } = useTranslation();
-  const [isOpen, setIsOpen] = useState(false);
-
-  const openModal = () => {
-    setIsOpen(true);
-  };
+ 
 
   const { isDark, toggleTheme } = useContext(ThemeContext);
   const [loading, setLoading] = useState(true);
@@ -80,7 +74,9 @@ const ServiceDetails = () => {
       <PageHelmet pageTitle="Software Development" />
       {/* End Pagehelmet  */}
 
-      <HeaderThree homeLink="/" logo="symbol-dark" color="color-black" />
+            <Suspense fallback={<div>Loading...</div>}>
+        <HeaderThree homeLink="/" logo="symbol-dark" color="color-black" />
+      </Suspense>
 
       {/* Start Breadcrump Area */}
       <div

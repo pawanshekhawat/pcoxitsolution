@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { Tab, Tabs, TabPanel } from 'react-tabs';
+import { Tabs, TabPanel } from 'react-tabs';
 import { useTranslation } from 'react-i18next';
 
 const Testimonial = () => {
@@ -26,10 +26,10 @@ const Testimonial = () => {
         transition: 'opacity 1s ease-in-out',
     };
 
-    const activeTabPanelStyle = {
-        ...tabPanelStyle,
-        opacity: 1,
-    };
+    // const activeTabPanelStyle = {
+    //     ...tabPanelStyle,
+    //     opacity: 1,
+    // };
 
     return (
         <>

@@ -17,7 +17,7 @@ const FooterTwo = () => {
                         <div className="inner">
                             <div className="logo text-center text-sm-left mb_sm--20">
                                 <a href="/home-one">
-                                    <img src="/assets/images/logo/logo.png" alt="Logo images"/>
+                                    <img loading="lazy" src="/assets/images/logo/logo.png" alt="Logo images"/>
                                 </a>
                             </div>
                         </div>

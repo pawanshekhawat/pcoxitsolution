@@ -1,9 +1,8 @@
-import React, { useContext, useState, useEffect } from "react";
+import React, { useState, useContext, useEffect, lazy, Suspense } from "react";
 import PageHelmet from "../component/common/Helmet";
 import Breadcrumb from "../elements/common/Breadcrumb";
 import { FiBox, FiGlobe, FiMonitor, FiChevronUp } from "react-icons/fi";
 import ScrollToTop from 'react-scroll-up';
-import HeaderThree from "../component/header/HeaderThree";
 import Footer from "../component/footer/Footer";
 
 import Toggle from "../component/Toggle/Toggle";
@@ -11,6 +10,7 @@ import { useTranslation } from 'react-i18next';
 import { ThemeContext } from '../ThemeContext';
 
 
+const HeaderThree = lazy(() => import("../component/header/HeaderThree"));
 
 
 const Service = () => {
@@ -82,7 +82,9 @@ const Service = () => {
     return (
         <div className={isDark ? "active-dark" : "active-light"}>
             <PageHelmet pageTitle='Service' />
-            <HeaderThree homeLink="/" logo="symbol-dark" color="color-black" />
+                  <Suspense fallback={<div>Loading...</div>}>
+        <HeaderThree homeLink="/" logo="symbol-dark" color="color-black" />
+      </Suspense>
 
             {/* Start Breadcrump Area */}
             <Breadcrumb title={t('services')} />

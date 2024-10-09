@@ -85,11 +85,11 @@ const HeaderThree = (props) => {
                     </div>
                     <nav className="mainmenunav d-lg-block ml--50">
                         <Scrollspy className="mainmenu" items={['home', 'about', 'service', 'blog', 'contact']} currentClassName="is-current" offset={-200}>
-                            <li><Link to="/">{t('home')}</Link></li>
-                            <li><Link to="/about">{t('about')}</Link></li>
-                            <li><Link to="/service">{t('services')}</Link></li>
-                            <li><Link to="/blog">{t('blog')}</Link></li>
-                            <li><Link to="/contact">{t('contact')}</Link></li>
+                            <li><a href="/">{t('home')}</a></li>
+                            <li><a href="/about">{t('about')}</a></li>
+                            <li><a href="/service">{t('services')}</a></li>
+                            <li><a href="/blog">{t('blog')}</a></li>
+                            <li><a href="/contact">{t('contact')}</a></li>
                         </Scrollspy>
                     </nav>
                 </div>

@@ -8,22 +8,13 @@ Footer Styles
 
 .footer-left {
   background: linear-gradient(145deg, #cc2f33 0%, #e4c600 100%);
-  padding: 120px 120px;
+  display: grid;
+  place-items: center;
+
   position: relative;
   z-index: 2;
   margin-right: -15px;
-  // border-top-right-radius: 6px;
-
-  @media #{$lg-layout} {
-    padding: 120px 80px;
-  }
-  @media #{$md-layout} {
-    padding: 60px 70px;
-  }
-
-  @media #{$sm-layout} {
-    padding: 60px 30px;
-  }
+  height: 100%;
 
   &::before {
     position: absolute;
@@ -112,27 +103,15 @@ Footer Styles
 
 .footer-right {
   background-image: url(/assets/images/bg/bg-image-8.jpg);
-  padding: 112px 70px;
   width: 100%;
+  height: 100%;
+  display: grid;
+  place-items: center;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  padding-left: 120px;
   // border-radius: 10px 0px 0px 0px;
 
-  @media (max-width: 1830px) {
-    padding: 157px 80px;
-  }
-  @media #{$lg-layout} {
-    padding: 128px 80px;
-  }
-  @media #{$md-layout} {
-    padding: 60px 70px;
-  }
-
-  @media #{$sm-layout} {
-    padding: 60px 30px;
-  }
   .footer-link {
     h4 {
       color: #c6c9d8;
@@ -204,4 +183,23 @@ Footer Styles
     font-size: 14px;
     opacity: 0.75;
   }
+}
+
+.fHeight {
+  height: 550px;
+  @media (max-width: 1830px) {
+    height: 550px;
+  }
+  @media #{$lg-layout} {
+    height: 500px;
+  }
+  @media #{$md-layout} {
+    height: 500px;
+  }
+  @media #{$sm-layout} {
+    height: 400px;
+  }
+}
+.lFooterTitle {
+  margin: 0px 15px;
 }

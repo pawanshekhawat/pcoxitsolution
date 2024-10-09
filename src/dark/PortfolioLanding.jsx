@@ -157,10 +157,7 @@ const PortfolioLanding = ({ value }) => {
           {/* Start Single Slide */}
           {SlideList.map((value, index) => (
             <div className="home-overlay">
-              <div
-                className="slide personal-portfolio-slider slider-paralax slider-style-3 d-flex align-items-center justify-content-center bg_image"
-                key={index}
-              >
+              <div className="slide personal-portfolio-slider slider-paralax slider-style-3 d-flex align-items-center justify-content-center bg_image" key={index}>
                 <video src={BgVid} autoPlay loop muted className="homeBGvid"></video>
                 <div className="container homeHeroContent">
                   <div className="row">

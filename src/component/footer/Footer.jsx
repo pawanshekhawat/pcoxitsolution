@@ -36,7 +36,7 @@ const Footer = () => {
             </div>
             <div className="col-lg-6 fHeight">
               <div className="footer-right" data-black-overlay="8">
-                <div className="row">
+                <div className="row" style={{padding: "0px 40px"}}>
                   {/* Start Single Widget  */}
                   <div className="col-lg-6 col-sm-6 col-12">
                     <div className="footer-link">

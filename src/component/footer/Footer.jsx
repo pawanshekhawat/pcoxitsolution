@@ -23,9 +23,9 @@ const Footer = () => {
       <footer className="footer-area">
         <div className="footer-wrapper">
           <div className="row align-items-end row--0">
-            <div className="col-lg-6">
+            <div className="col-lg-6 fHeight">
               <div className="footer-left">
-                <div className="inner">
+                <div className="inner lFooterTitle">
                   <span>{t("ready_to_do_this")}</span>
                   <h2>{t("lets_get_to_work")}</h2>
                   <a className="rn-button-style--2" href="/contact">
@@ -34,7 +34,7 @@ const Footer = () => {
                 </div>
               </div>
             </div>
-            <div className="col-lg-6">
+            <div className="col-lg-6 fHeight">
               <div className="footer-right" data-black-overlay="8">
                 <div className="row">
                   {/* Start Single Widget  */}

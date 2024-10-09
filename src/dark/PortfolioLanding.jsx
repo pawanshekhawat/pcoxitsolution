@@ -9,6 +9,7 @@ import { useTranslation } from "react-i18next";
 import { ThemeContext } from "../ThemeContext";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import BgVid from "../../public/assets/images/bg/homeBGVid.mp4";
 
 const HeaderThree = lazy(() => import("../component/header/HeaderThree"));
 const Footer = lazy(() => import("../component/footer/Footer"));
@@ -157,10 +158,11 @@ const PortfolioLanding = ({ value }) => {
           {SlideList.map((value, index) => (
             <div className="home-overlay">
               <div
-                className="slide personal-portfolio-slider slider-paralax slider-style-3 d-flex align-items-center justify-content-center bg_image bg_image--25"
+                className="slide personal-portfolio-slider slider-paralax slider-style-3 d-flex align-items-center justify-content-center bg_image"
                 key={index}
               >
-                <div className="container">
+                <video src={BgVid} autoPlay loop muted className="homeBGvid"></video>
+                <div className="container homeHeroContent">
                   <div className="row">
                     <div className="col-lg-12">
                       <div

@@ -5,7 +5,7 @@ import Toggle from "../../component/Toggle/Toggle";
 import ScrollToTop from "react-scroll-up";
 import { FiChevronUp } from "react-icons/fi";
 
-import SMBredCrmb from "../../../public/assets/images/service/breadcrumbSM.jpg";
+import SMBredCrmb from "../../../public/assets/images/service/breadcrumbSM.webp";
 
 import { useTranslation } from "react-i18next";
 

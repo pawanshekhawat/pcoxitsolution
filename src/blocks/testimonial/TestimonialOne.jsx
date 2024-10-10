@@ -12,6 +12,8 @@ const TestimonialOne = () => {
                             </div>
                             <div className="author-info">
                                 <h6><span>Aklima </span> - COO, AMERIMAR ENTERPRISES, INC.</h6>
+
+                                   {/*hello */}
                             </div>
                         </div>
                     </TabPanel>

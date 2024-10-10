@@ -41,21 +41,21 @@ const BLogList = () => {
   const blogs = [
     {
       id: 1,
-      image: "/assets/images/blog/blog-01.jpg",
+      image: "/assets/images/blog/blog-01.webp",
       author: t("blog_author"),
       title: t("blog_title"),
       link: "/navigating-global-trade",
     },
     {
       id: 2,
-      image: "/assets/images/blog/blog-02.jpg",
+      image: "/assets/images/blog/blog-02.webp",
       author: t("blog_author1"),
       title: t("blog_title1"),
       link: "/why-your-business-needs-custom-software",
     },
     {
       id: 3,
-      image: "/assets/images/blog/blog-03.jpg",
+      image: "/assets/images/blog/blog-03.webp",
       author: t("blog_author1"),
       title: t("blog_byb_title1"),
       link: "/boost-your-brand",

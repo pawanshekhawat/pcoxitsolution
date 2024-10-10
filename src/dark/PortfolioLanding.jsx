@@ -9,7 +9,7 @@ import { useTranslation } from "react-i18next";
 import { ThemeContext } from "../ThemeContext";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import BgVid from "../../public/assets/images/bg/homeBGVid.mp4";
+import BgVid from "../../public/assets/images/bg/homeBGVid2.mp4";
 
 const HeaderThree = lazy(() => import("../component/header/HeaderThree"));
 const Footer = lazy(() => import("../component/footer/Footer"));
@@ -300,7 +300,7 @@ const PortfolioLanding = ({ value }) => {
                           <a href={`${value.bloglink}`}>
                             <img
                               className="w-100"
-                              src={`/assets/images/blog/blog-${value.images}.jpg`}
+                              src={`/assets/images/blog/blog-${value.images}.webp`}
                               alt="Blog Images"
                             />
                           </a>
@@ -335,7 +335,7 @@ const PortfolioLanding = ({ value }) => {
                         <a href={`${value.bloglink}`}>
                           <img
                             className="w-100"
-                            src={`/assets/images/blog/blog-${value.images}.jpg`}
+                            src={`/assets/images/blog/blog-${value.images}.webp`}
                             alt="Blog Images"
                           />
                         </a>

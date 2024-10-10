@@ -61,15 +61,15 @@ const HeaderThree = (props) => {
     const getMenuUrl = () => {
         switch (logo) {
             case 'light':
-                return '/assets/images/logo/white-trans.png';
+                return '/assets/images/logo/white-trans.webp';
             case 'dark':
-                return '/assets/images/logo/white-trans.png';
+                return '/assets/images/logo/white-trans.webp';
             case 'symbol-dark':
-                return '/assets/images/logo/white-trans.png';
+                return '/assets/images/logo/white-trans.webp';
             case 'symbol-light':
-                return '/assets/images/logo/white-trans.png';
+                return '/assets/images/logo/white-trans.webp';
             default:
-                return '/assets/images/logo/white-trans.png';
+                return '/assets/images/logo/white-trans.webp';
         }
     };
     const { t } = useTranslation();

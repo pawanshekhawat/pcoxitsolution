@@ -178,7 +178,7 @@ const ServiceDetails = () => {
                           <div className="position-relative h-100">
                             <img
                               className="img-fluid rounded my-3"
-                              src="/assets/images/service/hrservice01.JPG"
+                              src="/assets/images/service/hrservice01.webp"
                               alt="Service Images"
                             />
                           </div>
@@ -344,7 +344,7 @@ const ServiceDetails = () => {
                           <div className="position-relative h-100">
                             <img
                               className="img-fluid rounded my-3"
-                              src="/assets/images/service/hrservice02.JPG"
+                              src="/assets/images/service/hrservice02.webp"
                               alt="Sea Transportation"
                             />
                           </div>
@@ -509,7 +509,7 @@ const ServiceDetails = () => {
                           <div className="position-relative h-100">
                             <img
                               className="img-fluid rounded my-3"
-                              src="/assets/images/service/hrservice03.JPG"
+                              src="/assets/images/service/hrservice03.webp"
                               alt="Air Transportation"
                             />
                           </div>

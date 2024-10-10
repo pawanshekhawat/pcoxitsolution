@@ -88,7 +88,7 @@ const About = () => {
                 <div className="thumbnail">
                   <img
                     className="w-100"
-                    src="/assets/images/about/about-3.jpg"
+                    src="/assets/images/about/about-3.webp"
                     alt="About Images"
                   />
                 </div>

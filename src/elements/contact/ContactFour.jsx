@@ -4,14 +4,15 @@ import MainForm from "./MainForm";
 import { useTranslation } from 'react-i18next';
 
 const ContactFour = () => {
-
-    const { t } = useTranslation();
+    
+    const { t,i18n } = useTranslation();
+    const isArabic = i18n.language === 'ar';
     return (
         <div className="contact-form--1">
             <div className="container aboutRspnContainer">
                 <div className="row row--35 align-items-start">
                     <div className="col-lg-6 order-2 order-lg-1">
-                        <div className="contactHeadTitleForm section-title text-left mb--50 sm-mb-0">
+                        <div className="contactHeadTitleForm section-title mb--50 sm-mb-0" style={{ textAlign: isArabic ? 'right' : 'left' }}>
                             <h2 className="title section-title">{t('formcont1')}</h2>
                             <p className="description">{t('formdesc')}</p>
                         </div>

@@ -1,43 +1,37 @@
 import React, { Fragment, useState, useEffect } from "react";
-import Slider from "react-slick"; // Import Slider component from react-slick
+import Slider from "react-slick";
 import { useTranslation } from "react-i18next";
-
-// Import slick-carousel styles
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 const BLogList = () => {
-  const { t } = useTranslation(); // Use the useTranslation hook
+  const { t, i18n } = useTranslation();
 
   const [isMobile, setIsMobile] = useState(false);
 
-  // Function to handle screen size changes
   const handleResize = () => {
-    setIsMobile(window.innerWidth <= 575); // Set mobile if screen size 
+    setIsMobile(window.innerWidth <= 575); 
   };
 
-  // Add resize event listener
   useEffect(() => {
-    handleResize(); // Initial check
-    window.addEventListener("resize", handleResize); // Listen to resize events
+    handleResize();
+    window.addEventListener("resize", handleResize);
 
     return () => {
-      window.removeEventListener("resize", handleResize); // Cleanup on unmount
+      window.removeEventListener("resize", handleResize);
     };
   }, []);
 
-  // Slider settings
   const sliderSettings = {
     dots: true,
     infinite: true,
     speed: 500,
-    slidesToShow: isMobile ? 0.8 : 3, // Show 1 slide on mobile, 3 on larger screens
+    slidesToShow: isMobile ? 0.8 : 3,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 3000, // Set to 3 seconds (3000ms) between scrolls
+    autoplaySpeed: 3000,
   };
 
-  // Array of blog data
   const blogs = [
     {
       id: 1,
@@ -62,6 +56,8 @@ const BLogList = () => {
     },
   ];
 
+  const isArabic = i18n.language === 'ar';
+
   return (
     <Fragment>
       {isMobile ? (
@@ -79,7 +75,7 @@ const BLogList = () => {
                       />
                     </a>
                   </div>
-                  <div className="content">
+                  <div className="content" style={{ textAlign: isArabic ? 'right' : 'left' }}>
                     <p className="blogtype">{blog.author}</p>
                     <h4 className="title">
                       <a href={blog.link}>{blog.title}</a>
@@ -110,7 +106,7 @@ const BLogList = () => {
                       />
                     </a>
                   </div>
-                  <div className="content">
+                  <div className="content" style={{ textAlign: isArabic ? 'right' : 'left' }}>
                     <p className="blogtype">{blog.author}</p>
                     <h4 className="title">
                       <a href={blog.link}>{blog.title}</a>

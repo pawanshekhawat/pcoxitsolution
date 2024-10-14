@@ -40,19 +40,13 @@ const Cursor = () => {
                     color="204, 47, 51"
                     outerAlpha={0.3}
                     innerScale={0.7}
-                    outerScale={5}
+                    outerScale={3}
                     clickables={[
                         "a",
-                        'input[type="text"]',
-                        'input[type="email"]',
-                        'input[type="number"]',
-                        'input[type="submit"]',
-                        'input[type="image"]',
-                        'label[for]',
                         "select",
-                        "textarea",
                         "button",
                         ".link",
+                        ".dropbtn",
                     ]}
                 />
             )}

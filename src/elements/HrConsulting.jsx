@@ -1,4 +1,4 @@
-import React, { useState, useContext, useEffect, lazy, Suspense } from "react";
+import React, { useState, useContext, useEffect, Suspense } from "react";
 
 import PageHelmet from "../component/common/Helmet";
 import ScrollToTop from "react-scroll-up";
@@ -12,6 +12,7 @@ import { TbDeviceMobileCharging } from "react-icons/tb";
 import { IoIosAddCircleOutline } from "react-icons/io";
 import { IoCloudCircleOutline } from "react-icons/io5";
 import { BiSupport } from "react-icons/bi";
+import DotlottieLoad from "../Dotlottie/Dotlottie.jsx";
 
 import { useTranslation } from "react-i18next";
 import { ThemeContext } from "../ThemeContext";
@@ -50,23 +51,7 @@ const ServiceDetails = () => {
   }, []);
 
   if (loading) {
-    return (
-      <div className={isDark ? "active-dark" : "active-light"} >
-        {/* <div style={{ width: '100vw', height: "100vh", display: "grid", placeItems: "center" }}>
-            <img src={LoaderGif} />
-          </div> */}
-        <div style={{ width: '100vw', height: '100vh', display: 'grid', placeItems: 'center' }}>
-          <dotlottie-player
-            src="https://lottie.host/0544481e-fc88-4533-8112-736c6a8be8f8/zpUnJPdBr3.json"
-            background="transparent"
-            speed="1"
-            style={{ width: '300px', height: '300px' }}
-            loop
-            autoplay
-          ></dotlottie-player>
-        </div>
-      </div>
-    );
+    return <DotlottieLoad />;
   }
   return (
     <div className={isDark ? "active-dark" : "active-light"}>
@@ -74,7 +59,7 @@ const ServiceDetails = () => {
       <PageHelmet pageTitle="Software Development" />
       {/* End Pagehelmet  */}
 
-            <Suspense fallback={<div>Loading...</div>}>
+            <Suspense fallback={<DotlottieLoad />}>
         <HeaderThree homeLink="/" logo="symbol-dark" color="color-black" />
       </Suspense>
 

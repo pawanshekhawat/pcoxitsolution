@@ -5,7 +5,6 @@ import React, { Component } from 'react';
     render() {
         return (
             <>
-                {/* <Header headerPosition="header--transparent" color="color-white" logo="logo-light" /> */}
                 {/* Start Page Error  */}
                 <div className="error-page-inner bg_color--4 h-full">
                     <div className="container">
@@ -24,16 +23,6 @@ import React, { Component } from 'react';
                     </div>
                 </div>
                 {/* End Page Error  */}
-
-                {/* Start Back To Top */}
-                {/* <div className="backto-top">
-                    <ScrollToTop showUnder={160}>
-                        <FiChevronUp />
-                    </ScrollToTop>
-                </div> */}
-                {/* End Back To Top */}
-                
-                {/* <Footer />  */}
             </>
         )
     }

@@ -9,9 +9,10 @@ import Footer from "../component/footer/Footer";
 import Toggle from "../component/Toggle/Toggle";
 import { useTranslation } from "react-i18next";
 import { ThemeContext } from "../ThemeContext";
+import DotlottieLoad from "../Dotlottie/Dotlottie.jsx";
 
 const MainContact = () => {
-  const { t } = useTranslation();
+  const { t, i18n  } = useTranslation();
   const { isDark, toggleTheme } = useContext(ThemeContext);
   const [loading, setLoading] = useState(true);
 
@@ -38,29 +39,10 @@ const MainContact = () => {
   }, []);
 
   if (loading) {
-    return (
-      <div className={isDark ? "active-dark" : "active-light"}>
-        <div
-          style={{
-            width: "100vw",
-            height: "100vh",
-            display: "grid",
-            placeItems: "center",
-          }}
-        >
-          <dotlottie-player
-            src="https://lottie.host/0544481e-fc88-4533-8112-736c6a8be8f8/zpUnJPdBr3.json"
-            background="transparent"
-            speed="1"
-            style={{ width: "300px", height: "300px" }}
-            loop
-            autoplay
-          ></dotlottie-player>
-        </div>
-      </div>
-    );
+    return <DotlottieLoad />;
   }
 
+  const isArabic = i18n.language === 'ar';
   return (
     <div className={isDark ? "active-dark" : "active-light"}>
       <PageHelmet pageTitle="Contact" />
@@ -70,7 +52,7 @@ const MainContact = () => {
         data-black-overlay="8"
       >
         <div className="container aboutRspnContainer">
-          <div className="row justify-content-center">
+          <div className="row justify-content-center" style={{ textAlign: isArabic ? 'right' : 'left' }}>
             <div className="col-lg-4 col-md-6 col-sm-6 col-12 mt_mobile--20">
               <div className="rn-address mainContactCards">
                 <div className="icon">

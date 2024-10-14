@@ -8,7 +8,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 const ServiceThree = (props) => {
-    const { t } = useTranslation();
+    const { t, i18n } = useTranslation();
     const [isMobile, setIsMobile] = useState(false);
 
     // Function to handle screen size changes
@@ -64,6 +64,7 @@ const ServiceThree = (props) => {
         autoplaySpeed: 3000,
     };
 
+    const isArabic = i18n.language === 'ar';
 
     return (
         <React.Fragment>
@@ -72,7 +73,7 @@ const ServiceThree = (props) => {
                     {ServiceContent.map((val, i) => (
                         <div className={`${column}`} key={i}>
                             <a href={val.path}>
-                                <div className="service service__style--2 blur shadow-lg">
+                                <div className="service service__style--2 blur shadow-lg" style={{ textAlign: isArabic ? 'right' : 'left' }}>
                                     <div className="icon">{val.icon}</div>
                                     <div className="content">
                                         <h3 className="title">{val.title}</h3>
@@ -88,7 +89,7 @@ const ServiceThree = (props) => {
                     {ServiceContent.map((val, i) => (
                         <div className={`${column}`} key={i}>
                             <a href={val.path}>
-                                <div className="service service__style--2  shadow-lg">
+                                <div className="service service__style--2  shadow-lg" style={{ textAlign: isArabic ? 'right' : 'left' }}>
                                     <div className="icon">{val.icon}</div>
                                     <div className="content">
                                         <h3 className="title">{val.title}</h3>

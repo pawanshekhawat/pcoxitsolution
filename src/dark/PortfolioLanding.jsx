@@ -9,8 +9,9 @@ import { useTranslation } from "react-i18next";
 import { ThemeContext } from "../ThemeContext";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import BgVid from "../../public/assets/images/bg/homeBGVid2.mp4";
+import BgVid from "../../public/assets/images/bg/homeBGVid.mp4";
 
+const DotlottieLoad = lazy(() => import("../Dotlottie/Dotlottie.jsx"));
 const HeaderThree = lazy(() => import("../component/header/HeaderThree"));
 const Footer = lazy(() => import("../component/footer/Footer"));
 const PortfolioList = lazy(() => import("../elements/portfolio/PortfolioList"));
@@ -102,6 +103,10 @@ const PortfolioLanding = ({ value }) => {
     };
   }, []);
 
+  if (loading) {
+    return <DotlottieLoad />;
+  }
+
   // Slider settings
   const sliderServiceSettings = {
     dots: true,
@@ -116,40 +121,13 @@ const PortfolioLanding = ({ value }) => {
     autoplaySpeed: 3000,
   };
 
-  if (loading) {
-    return (
-      <div className={isDark ? "active-dark" : "active-light"}>
-        {/* <div style={{ width: '100vw', height: "100vh", display: "grid", placeItems: "center" }}>
-            <img src={LoaderGif} />
-          </div> */}
-        <div
-          style={{
-            width: "100vw",
-            height: "100vh",
-            display: "grid",
-            placeItems: "center",
-          }}
-        >
-          <dotlottie-player
-            src="https://lottie.host/0544481e-fc88-4533-8112-736c6a8be8f8/zpUnJPdBr3.json"
-            background="transparent"
-            speed="1"
-            style={{ width: "300px", height: "300px" }}
-            loop
-            autoplay
-          ></dotlottie-player>
-        </div>
-      </div>
-    );
-  }
-
   return (
     <div className={isDark ? "active-dark" : "active-light"}>
       <Helmet pageTitle="PCOX Internet Pvt. Ltd." />
-      <Suspense fallback={<div>Loading...</div>}>
-              <Suspense fallback={<div>Loading...</div>}>
-        <HeaderThree homeLink="/" logo="symbol-dark" color="color-black" />
-      </Suspense>
+      <Suspense fallback={<DotlottieLoad />}>
+        <Suspense fallback={<DotlottieLoad />}>
+          <HeaderThree homeLink="/" logo="symbol-dark" color="color-black" />
+        </Suspense>
         {/* Start Slider Area   */}
       </Suspense>
       <div id="home" className="fix">
@@ -157,8 +135,18 @@ const PortfolioLanding = ({ value }) => {
           {/* Start Single Slide */}
           {SlideList.map((value, index) => (
             <div className="home-overlay">
-              <div className="slide personal-portfolio-slider slider-paralax slider-style-3 d-flex align-items-center justify-content-center bg_image" key={index}>
-                <video src={BgVid} autoPlay loop muted className="homeBGvid"></video>
+              <div
+                className="slide personal-portfolio-slider slider-paralax slider-style-3 d-flex align-items-center justify-content-center bg_image"
+                key={index}
+              >
+                <video
+                  loading="lazy"
+                  src={BgVid}
+                  autoPlay
+                  loop
+                  muted
+                  className="homeBGvid"
+                ></video>
                 <div className="container homeHeroContent">
                   <div className="row">
                     <div className="col-lg-12">
@@ -229,7 +217,7 @@ const PortfolioLanding = ({ value }) => {
             </div>
             <div className="row creative-service">
               <div className="col-lg-12">
-                <Suspense fallback={<div>Loading...</div>}>
+                <Suspense fallback={<DotlottieLoad />}>
                   <ServiceList
                     item="6"
                     column="col-lg-4 col-md-6 col-sm-6 col-12 text-left"
@@ -260,7 +248,7 @@ const PortfolioLanding = ({ value }) => {
                 </div>
               </div>
               <div>
-                <Suspense fallback={<div>Loading...</div>}>
+                <Suspense fallback={<DotlottieLoad />}>
                   <PortfolioList
                     styevariation="text-center mt--40"
                     column="col-lg-4 col-md-6 col-sm-6 col-12"
@@ -294,7 +282,10 @@ const PortfolioLanding = ({ value }) => {
               <div className="">
                 <Slider {...sliderServiceSettings}>
                   {PostList.map((value) => (
-                    <div className="col-lg-4 col-md-6 col-sm-6 col-12" key={value.id}>
+                    <div
+                      className="col-lg-4 col-md-6 col-sm-6 col-12"
+                      key={value.id}
+                    >
                       <div className="blog blog-style--1 Blogblur">
                         <div className="thumbnail blogImageBox">
                           <a href={`${value.bloglink}`}>
@@ -340,7 +331,7 @@ const PortfolioLanding = ({ value }) => {
                           />
                         </a>
                       </div>
-                      <div className="content">
+                      <div className="content" style={{ textAlign: isArabic ? 'right' : 'left' }}>
                         <h4 className="title">
                           <a href={`${value.bloglink}`}>{value.title}</a>
                         </h4>
@@ -371,7 +362,7 @@ const PortfolioLanding = ({ value }) => {
         </div>
       </div>
       {/* End COntact Area */}
-      <Suspense fallback={<div>Loading...</div>}>
+      <Suspense fallback={<DotlottieLoad />}>
         <Footer />
       </Suspense>
       {/* Start Back To Top */}

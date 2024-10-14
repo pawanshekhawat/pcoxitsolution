@@ -17,7 +17,8 @@ const SocialShare = [
 
 const Footer = () => {
   const { t, i18n } = useTranslation();
-  const isRTL = i18n.dir() === 'rtl';
+  const isArabic = i18n.language === 'ar';
+
   return (
     <React.Fragment>
       <footer className="footer-area">
@@ -25,7 +26,7 @@ const Footer = () => {
           <div className="row align-items-end row--0">
             <div className="col-lg-6 fHeight">
               <div className="footer-left">
-                <div className="inner lFooterTitle">
+                <div className="inner lFooterTitle" style={{ textAlign: isArabic ? 'right' : 'left' }}>
                   <span>{t("ready_to_do_this")}</span>
                   <h2>{t("lets_get_to_work")}</h2>
                   <a className="rn-button-style--2" href="/contact">
@@ -39,7 +40,7 @@ const Footer = () => {
                 <div className="row" style={{padding: "0px 40px"}}>
                   {/* Start Single Widget  */}
                   <div className="col-lg-6 col-sm-6 col-12">
-                    <div className="footer-link">
+                    <div className="footer-link" style={{ textAlign: isArabic ? 'right' : 'left' }}>
                       <h4>{t("contact_us")}</h4>
                       <ul className="ft-link">
                         <li>
@@ -62,7 +63,7 @@ const Footer = () => {
                   </div>
 
                   <div className="col-lg-6 col-sm-6 col-12">
-                    <div className="footer-link">
+                    <div className="footer-link" style={{ textAlign: isArabic ? 'right' : 'left' }}>
                       <h4>{t("our_services")}</h4>
                       <ul className="ft-link">
                         <li>
@@ -91,11 +92,8 @@ const Footer = () => {
                     <div className="social-share-inner">
                       <div className="footer-link">
                         <ul
-                          className={`mt-4 social-share social-style--2 color-white d-flex liststyle align-items-center ${
-                            isRTL
-                              ? "justify-content-end"
-                              : "justify-content-start"
-                          }`}
+                          className={`mt-4 social-share social-style--2 color-white d-flex liststyle align-items-center`}
+                          style={{ textAlign: isArabic ? 'right' : 'left' }}
                         >
                           {SocialShare.map((val, i) => (
                             <li key={i}>

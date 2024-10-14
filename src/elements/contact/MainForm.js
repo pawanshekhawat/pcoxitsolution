@@ -134,7 +134,7 @@ function MainForm({ props }) {
                         onChange={handleInputChange}
                     />
                 </div>
-                <div className="rn-form-group">
+                <div className="rn-form-group" style={{ textAlign: isArabic ? 'right' : 'left' }}>
                     <button className="rn-button-style--2 btn-solid" type="submit" value="submit" name="submit" id="mc-embedded-subscribe">
                         {t("submit")}
                     </button>

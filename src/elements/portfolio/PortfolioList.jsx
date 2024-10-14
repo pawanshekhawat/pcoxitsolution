@@ -90,7 +90,7 @@ function PortfolioList(props) {
         <Slider {...sliderSettings}>
           {list.map((value, index) => (
             <div
-              className="serviceCard portCardIWS card col-12 col-md-6 col-lg-3 m-4"
+              className="serviceCard portCardIWS card col-12 col-md-6 col-lg-3 m-4 px-0"
               key={index}
             >
               <div className="card-body">
@@ -117,7 +117,7 @@ function PortfolioList(props) {
         <div className="row justify-content-center align-items-center">
           {list.map((value, index) => (
             <div
-              className="serviceCard portCardIWS card col-12 col-md-6 col-lg-3 m-4"
+              className="serviceCard portCardIWS card col-12 col-md-6 col-lg-3 m-4 px-0"
               key={index}
             >
               <div className="card-body">

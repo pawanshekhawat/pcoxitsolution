@@ -5,6 +5,7 @@ import ScrollToTop from "react-scroll-up";
 import { FiChevronUp } from "react-icons/fi";
 import { useTranslation } from "react-i18next";
 import { ThemeContext } from "../ThemeContext";
+import DotlottieLoad from "../Dotlottie/Dotlottie.jsx";
 
 const CounterOne = lazy(() => import("../elements/counters/CounterOne"));
 const Testimonial = lazy(() => import("../elements/Testimonial"));
@@ -13,7 +14,7 @@ const Footer = lazy(() => import("../component/footer/Footer"));
 const Toggle = lazy(() => import("../component/Toggle/Toggle"));
 
 const About = () => {
-  const { t } = useTranslation();
+  const { t, i18n  } = useTranslation();
   const { isDark, toggleTheme } = useContext(ThemeContext);
   const [loading, setLoading] = useState(true);
   
@@ -49,33 +50,15 @@ const About = () => {
   }, []);
 
   if (loading) {
-    return (
-      <div className={isDark ? "active-dark" : "active-light"}>
-        <div
-          style={{
-            width: "100vw",
-            height: "100vh",
-            display: "grid",
-            placeItems: "center",
-          }}
-        >
-          <dotlottie-player
-            src="https://lottie.host/0544481e-fc88-4533-8112-736c6a8be8f8/zpUnJPdBr3.json"
-            background="transparent"
-            speed="1"
-            style={{ width: "300px", height: "300px" }}
-            loop
-            autoplay
-          ></dotlottie-player>
-        </div>
-      </div>
-    );
+    return <DotlottieLoad />;
   }
+
+  const isArabic = i18n.language === 'ar';
 
   return (
     <div className={isDark ? "active-dark" : "active-light"}>
       <PageHelmet pageTitle={t("about")} />
-      <Suspense fallback={<div>Loading...</div>}>
+      <Suspense fallback={<DotlottieLoad />}>
         <HeaderThree homeLink="/" logo="symbol-dark" color="color-black" />
       </Suspense>
       <Breadcrumb title={t("about_us")} />
@@ -94,7 +77,7 @@ const About = () => {
                 </div>
               </div>
               <div className="col-lg-6">
-                <div className="about-inner inner">
+                <div className="about-inner inner" style={{ textAlign: isArabic ? 'right' : 'left' }}>
                   <div className="section-title">
                     <h2 className="title section-title">{title}</h2>
                     <p className="aboutParaRspn">
@@ -108,7 +91,7 @@ const About = () => {
                 </div>
               </div>
             </div>
-            <div className="row mt--30 aboutOtherParaContent">
+            <div className="row mt--30 aboutOtherParaContent" style={{ textAlign: isArabic ? 'right' : 'left' }}>
               <div className="col-lg-6 col-md-12 col-sm-12 col-12">
                 <div className="about-us-list">
                   <p className="aboutParaRspn">{t("about_desc_2")}</p>
@@ -133,7 +116,7 @@ const About = () => {
               </div>
             </div>
           </div>
-          <Suspense fallback={<div>Loading...</div>}>
+          <Suspense fallback={<DotlottieLoad />}>
             <CounterOne />
           </Suspense>
         </div>
@@ -141,7 +124,7 @@ const About = () => {
 
       <div className="rn-testimonial-area bg_color--5 ptb--120 seprateBgSection">
         <div className="container">
-          <Suspense fallback={<div>Loading...</div>}>
+          <Suspense fallback={<DotlottieLoad />}>
             <Testimonial />
           </Suspense>
         </div>
@@ -154,7 +137,7 @@ const About = () => {
       </div>
 
       <div className="toggle-button">
-        <Suspense fallback={<div>Loading...</div>}>
+        <Suspense fallback={<DotlottieLoad />}>
           <Toggle isChecked={isDark} handleChange={toggleTheme} />
         </Suspense>
       </div>

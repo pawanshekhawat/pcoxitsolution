@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import { Link } from "react-router-dom";
 import { useTranslation } from 'react-i18next';
 
 // Functional wrapper to use useTranslation
@@ -21,7 +20,7 @@ class Breadcrumb extends Component {
                                     <h2 className="title section-title">{title}</h2>
                                     <ul className="page-list">
                                         <li className="breadcrumb-item">
-                                            <Link to={`${process.env.PUBLIC_URL}`}>{t("home")}</Link>
+                                            <a href={`${process.env.PUBLIC_URL}`}>{t("home")}</a>
                                         </li>
                                         {parent ? <li className="breadcrumb-item">{parent}</li> : ''}
                                         <b className="mx-3">/</b>

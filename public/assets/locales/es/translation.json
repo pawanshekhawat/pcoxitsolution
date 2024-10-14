@@ -21,7 +21,7 @@
   "home_hero_sec_desc": "Más de 400 empresas confían en nosotros",
   "Software-Development": "Desarrollo de software",
   "home_hero_sec_loop2": "Marketing digital",
-  "home_hero_sec_loop3": "Servicios de importación y exportación y soluciones logísticas",
+  "home_hero_sec_loop3": "Servicios de importación exportación y soluciones logísticas",
 
   "testimonials_head": "Testimonios",
 
@@ -87,8 +87,8 @@
   "desing_message": "Descubra tácticas de marketing digital efectivas, desde SEO hasta estrategias de redes sociales, que pueden elevar su marca y aumentar el ROI en el mercado competitivo.",
   "user_indication_title": "Permítanos comprender sus necesidades",
   "user_indication_title_message": "Comparta sus datos y uno de nuestros especialistas se comunicará con usted en breve",
-  "ready_to_do_this": "LISTO PARA HACERLO",
-  "lets_get_to_work": "Manos a la obra",
+  "ready_to_do_this": "¿Necesitar ayuda?",
+  "lets_get_to_work": "¡Estamos aquí para ti!",
   "social_connect": "Síganos en Redes sociales",
   "submit": "Enviar",
 
@@ -113,10 +113,10 @@
   "formcont1": "Contáctenos",
   "formdesc": "Para ayudarnos a brindar las mejores soluciones adaptadas a su negocio, complete el formulario a continuación con sus requisitos específicos.",
 
-  "services_wwp_card_btn1": "Realice una consulta ahora",
+  "services_wwp_card_btn1": "Consultar ahora",
   "services_wwp_card_btn2": "Conozca más",
 
-  "impo_expo_services_0": "Nuestros servicios de importación y exportación y soluciones logísticas",
+  "impo_expo_services_0": "Nuestros servicios de importación exportación y soluciones logísticas",
 
   "impo_expo_services_wwp_title": "Ofrecemos este tipo de servicios de transporte",
   "impo_expo_services_wwp_card1_title": "Transporte terrestre",
@@ -467,7 +467,7 @@
   "last_name_form": "Ingrese su nombre",
   "email_form": "Ingrese su dirección de correo electrónico",
   "num_code_form": "Número de teléfono con código de país",
-  "msg_form": "Número de teléfono con código de país",
+  "msg_form": "Escribe tu mensaje...",
 
   "landTransportationHeading": "Servicios de transporte terrestre",
   "landTransportationDescription": "En PCOX Internet Pvt Limited, nos especializamos en brindar soluciones de transporte terrestre eficientes y confiables diseñadas para satisfacer sus necesidades logísticas específicas",
@@ -480,7 +480,7 @@
   "landTransportationProcess3": "Transporte",
   "landTransportationProcess4": "Almacenamiento",
   "landTransportationContact": "Contacte con nosotros para obtener soluciones de transporte terrestre personalizadas, desde gestión de flotas hasta servicios transfronterizos.",
-  "landTransportationContactLink": "¡Póngase en contacto con nosotros!",
+  "landTransportationContactLink": "Contáctanos!",
 
   "seaTransportationHeading": "Servicios de transporte marítimo",
   "seaTransportationDescription": "En PCOX Internet Pvt Limited, ofrecemos soluciones de transporte marítimo confiables y eficientes, garantizando que su carga llegue a su destino de manera segura y a tiempo.",
@@ -493,7 +493,7 @@
   "seaTransportationProcess3": "Transporte",
   "seaTransportationProcess4": "Almacenamiento",
   "seaTransportationContact": "Contáctenos para obtener servicios de transporte marítimo confiables y un despacho de aduana sin problemas para su carga.",
-  "seaTransportationContactLink": "¡Póngase en contacto con nosotros!",
+  "seaTransportationContactLink": "Contáctanos!",
 
   "airTransportationHeading": "Servicios de transporte aéreo",
   "airTransportationDescription": "En PCOX Internet Pvt Limited, ofrecemos soluciones de transporte aéreo rápidas y eficientes para sus necesidades de envío urgente, garantizando una entrega oportuna en todo el mundo.",
@@ -506,7 +506,7 @@
   "airTransportationProcess3": "Transporte",
   "airTransportationProcess4": "Almacenamiento",
   "airTransportationContact": "¿Necesita transporte aéreo rápido? Contáctenos para entrega exprés y seguimiento en tiempo real para sus necesidades de envío urgente.",
-  "airTransportationContactLink": "Entrar ¡Toque!",
+  "airTransportationContactLink": "Contáctanos!",
 
   "landTransportationProcessTitle": "Nuestro proceso",
 

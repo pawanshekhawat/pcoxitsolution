@@ -17,11 +17,6 @@ const languages = [
     dir: 'rtl',
     country_code: 'sa',
   },
-  // {
-  //   code: 'ed',
-  //   name: 'German',
-  //   country_code: 'ed',
-  // },
   {
     code: 'zh',
     name: 'Chinese',
@@ -67,7 +62,6 @@ export default function MultiLang() {
   useEffect(() => {
     document.body.dir = currentLanguage.dir || 'ltr';
 
-    // Close the dropdown if the user clicks outside of it
     const handleClickOutside = (event) => {
       const dropdowns = document.getElementsByClassName("dropdown-content");
       if (!event.target.matches('.dropbtn')) {
@@ -97,10 +91,10 @@ export default function MultiLang() {
 
   return (
     <div className='dropdown'>
-      <button type='button' className='dropbtn' onClick={myFunction}>🌐</button>
+        <span role="img" aria-label="globe" className="dropbtn" onClick={myFunction}>🌐</span>
       <div id="myDropdown" className='dropdown-content'>
         {languages.map(({ code, name, country_code }) => (
-          <a
+          <p
             key={country_code}
             href="#"
             className={classNames('dropDownContentLang', {
@@ -118,7 +112,7 @@ export default function MultiLang() {
               }}
             ></span>
             {name}
-          </a>
+          </p>
         ))}
       </div>
     </div>

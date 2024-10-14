@@ -41,8 +41,6 @@ import * as serviceWorker from './serviceWorker';
 import Cursor from './component/Cursor/Cursor'
 
 import MainContact from './elements/MainContact';
-// import GoogleTagManager from './component/common/GoogleTag';
-
 
 // functions or methods to change the languages 
 import i18next from 'i18next'
@@ -87,7 +85,6 @@ class Root extends Component {
             <ThemeProvider>
                 <BrowserRouter basename={'/'}>
                     <PageScrollTop>
-                        {/* <GoogleTagManager /> */}
                         <Cursor className="cursor" />
                         <Switch>
                             {/* usable routes */}

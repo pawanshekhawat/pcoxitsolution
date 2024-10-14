@@ -5,17 +5,14 @@ import { useTranslation } from 'react-i18next';
 const Testimonial = () => {
     const { t } = useTranslation();
 
-    // State to manage the active tab index
     const [activeIndex, setActiveIndex] = useState(0);
-    const testimonialsLength = 5; // The number of testimonials you have
+    const testimonialsLength = 5;
 
     useEffect(() => {
-        // Automatically change the tab every 3 seconds (3000ms)
         const interval = setInterval(() => {
             setActiveIndex((prevIndex) => (prevIndex + 1) % testimonialsLength);
         }, 5000);
 
-        // Clear the interval when the component unmounts
         return () => clearInterval(interval);
     }, [testimonialsLength]);
 
@@ -25,11 +22,6 @@ const Testimonial = () => {
         opacity: 0,
         transition: 'opacity 1s ease-in-out',
     };
-
-    // const activeTabPanelStyle = {
-    //     ...tabPanelStyle,
-    //     opacity: 1,
-    // };
 
     return (
         <>

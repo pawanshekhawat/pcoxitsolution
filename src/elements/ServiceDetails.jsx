@@ -1,4 +1,4 @@
-import React, { useState, useContext, useEffect, lazy, Suspense } from "react";
+import React, { useState, useContext, useEffect, Suspense } from "react";
 
 import PageHelmet from "../component/common/Helmet";
 import ScrollToTop from "react-scroll-up";
@@ -9,13 +9,13 @@ import Toggle from "../component/Toggle/Toggle";
 import { AiOutlineTruck } from "react-icons/ai";
 import { LiaShipSolid } from "react-icons/lia";
 import { PiAirplaneTiltLight } from "react-icons/pi";
+import DotlottieLoad from "../Dotlottie/Dotlottie.jsx";
 
 import { useTranslation } from "react-i18next";
 import { ThemeContext } from "../ThemeContext";
 
 const ServiceDetails = () => {
-  const { t } = useTranslation();
- 
+  const { t,i18n } = useTranslation();
 
   const { isDark, toggleTheme } = useContext(ThemeContext);
   const [loading, setLoading] = useState(true);
@@ -44,38 +44,16 @@ const ServiceDetails = () => {
   }, []);
 
   if (loading) {
-    return (
-      <div className={isDark ? "active-dark" : "active-light"}>
-        {/* <div style={{ width: '100vw', height: "100vh", display: "grid", placeItems: "center" }}>
-            <img src={LoaderGif} />
-          </div> */}
-        <div
-          style={{
-            width: "100vw",
-            height: "100vh",
-            display: "grid",
-            placeItems: "center",
-          }}
-        >
-          <dotlottie-player
-            src="https://lottie.host/0544481e-fc88-4533-8112-736c6a8be8f8/zpUnJPdBr3.json"
-            background="transparent"
-            speed="1"
-            style={{ width: "300px", height: "300px" }}
-            loop
-            autoplay
-          ></dotlottie-player>
-        </div>
-      </div>
-    );
+    return <DotlottieLoad />;
   }
+  const isArabic = i18n.language === 'ar';
   return (
     <div className={isDark ? "active-dark" : "active-light"}>
       {/* Start Pagehelmet  */}
       <PageHelmet pageTitle=" Import-Export Services & Logistics Solutions" />
       {/* End Pagehelmet  */}
 
-            <Suspense fallback={<div>Loading...</div>}>
+      <Suspense fallback={<DotlottieLoad />}>
         <HeaderThree homeLink="/" logo="symbol-dark" color="color-black" />
       </Suspense>
 
@@ -168,7 +146,7 @@ const ServiceDetails = () => {
 
           <div className="row pt--40 rn-about-area" id="lt">
             <div className="col-lg-12">
-              <div className="service-details-inner">
+              <div className="service-details-inner" style={{ textAlign: isArabic ? 'right' : 'left' }}>
                 <div className="inner">
                   {/* Start Land Transportation Area */}
                   <section className="seprateBgSection">
@@ -268,7 +246,7 @@ const ServiceDetails = () => {
                               {t("landTransportationFeature4")}
                             </li>
                           </ul>
-                          <div className="row mb-4 g-4 align-items-center">
+                          <div className="row mb-4 g-4">
                             <div className="col-md-6">
                               <div className="serviceCardProcess bg-light p-4 rounded">
                                 <h3 className="h5 fw-semibold mb-3 serviceCardProcessTitle">
@@ -487,7 +465,7 @@ const ServiceDetails = () => {
                                     {t("seaTransportationContact")}
                                   </p>
                                   <div
-                                    id="st"
+                                    id="at"
                                     className="h3 fw-bold mb-0 text-white"
                                   >
                                     {t("seaTransportationContactLink")}

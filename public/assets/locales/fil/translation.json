@@ -70,7 +70,7 @@
   "road_construction_message": "Pagbuo ng custom na software para sa pamamahala ng pasyente, pagmemerkado ng mga serbisyo sa pangangalagang pangkalusugan, at pagtiyak ng maayos na logistik para sa mga medikal na suplay.",
   "oil_and_gas": "Paggawa",
   "oil_and_gas_message": "Pag-streamline ng mga supply chain, pagpapabuti ng logistik, at pagpapatupad ng mga custom na solusyon sa software para sa kahusayan sa produksyon.",
-  "facility_management": "Mga Serbisyong Pananalapi",
+  "facility_management": "Serbisyong pinansyal",
   "facility_management_message": "Nag-aalok ng secure na software development para sa mga transaksyong pinansyal, digital marketing para sa pakikipag-ugnayan ng kliyente, at mga solusyon sa logistik para sa secure na paghawak ng dokumento.",
   "security": "Pagtitingi",
   "security_message": "Pag-optimize ng online presence gamit ang web at digital na mga diskarte sa marketing, at pamamahala ng import-export logistics para sa imbentaryo at mga supply.",
@@ -87,8 +87,8 @@
   "desing_message": "Tuklasin ang mga epektibong taktika sa digital marketing, mula sa SEO hanggang sa mga diskarte sa social media, na maaaring magpataas ng iyong tatak at tumaas ang ROI sa mapagkumpitensyang merkado.",
   "user_indication_title": "Ipaalam sa Amin ang Iyong Mga Pangangailangan",
   "user_indication_title_message": "Pakibahagi ang iyong mga detalye at isa sa aming mga espesyalista ay makikipag-ugnayan sa iyo sa ilang sandali",
-  "ready_to_do_this": "HANDANG GAWIN ITO",
-  "lets_get_to_work": "Magtrabaho na tayo",
+  "ready_to_do_this": "Kailangan ng tulong?",
+  "lets_get_to_work": "Nandito kami para sa iyo!",
   "social_connect": "Sundan kami sa Social Media",
   "submit": "Isumite",
   "contact_us": "Makipag-ugnayan sa Amin",
@@ -112,8 +112,8 @@
   "formcont1": "Makipag-ugnayan sa Amin",
   "formdesc": "Upang matulungan kaming magbigay ng pinakamahusay na mga solusyon na angkop sa iyong negosyo, mangyaring punan ang form sa ibaba ng iyong mga partikular na kinakailangan.",
 
-  "services_wwp_card_btn1": "Humiling Ngayon",
-  "services_wwp_card_btn2": "Maraming Higit Pa",
+  "services_wwp_card_btn1": "Mag-inquire ngayon",
+  "services_wwp_card_btn2": "alam pa",
 
   "impo_expo_services_0": "Aming Import-Export Services sa Logistics Solutions",
 
@@ -471,7 +471,7 @@
   "last_name_form": "Ilagay ang iyong pangalan",
   "email_form": "Ilagay ang iyong email address",
   "num_code_form": "Numero ng telepono na may country code",
-  "msg_form": "Numero ng telepono na may code ng bansa",
+  "msg_form": "Isulat ang iyong mensahe...",
 
   "landTransportationHeading": "Mga Serbisyo sa Transportasyong Lupa",
   "landTransportationDescription": "Sa PCOX Internet Pvt Limited, Dalubhasa Kami sa pagbibigay ng mahusay at maaasahang mga solusyon sa transportasyon sa lupa na iniayon upang matugunan ang iyong mga partikular na pangangailangan sa logistik.",
@@ -509,7 +509,7 @@
   "airTransportationProcess2": "Pagpaplano ng Ruta",
   "airTransportationProcess3": "Transportasyon",
   "airTransportationProcess4": "Warehousing",
-  "airTransportationContact": "Kailangan ng mabilis na sasakyang panghimpapawid? Makipag-ugnayan sa amin para sa express delivery at real-time na pagsubaybay para sa iyong agarang mga pangangailangan sa pagpapadala.",
+  "airTransportationContact": "Kailangan mo ba ng mabilis na air transport? Makipag-ugnayan sa amin para sa express delivery at real-time tracking ng iyong agarang padala.",
   "airTransportationContactLink": "Makipag-ugnayan!",
 
   "landTransportationProcessTitle": "Aming Proseso",

@@ -1,4 +1,4 @@
-import React, { useState, useContext, useEffect, lazy, Suspense } from "react";
+import React, { useState, useContext, useEffect, Suspense } from "react";
 
 import PageHelmet from "../component/common/Helmet";
 import { FiClock, FiUser, FiChevronUp } from "react-icons/fi";
@@ -8,9 +8,10 @@ import Footer from "../component/footer/Footer";
 import Toggle from '../component/Toggle/Toggle';
 import { ThemeContext } from '../ThemeContext';
 import { useTranslation } from "react-i18next";
+import DotlottieLoad from "../Dotlottie/Dotlottie.jsx";
 
 const BlogDetails = () => {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
   const { isDark, toggleTheme } = useContext(ThemeContext);
   const [loading, setLoading] = useState(true);
 
@@ -37,28 +38,13 @@ const BlogDetails = () => {
   }, []);
 
   if (loading) {
-    return (
-      <div className={isDark ? "active-dark" : "active-light"} >
-        {/* <div style={{ width: '100vw', height: "100vh", display: "grid", placeItems: "center" }}>
-            <img src={LoaderGif} />
-          </div> */}
-        <div style={{ width: '100vw', height: '100vh', display: 'grid', placeItems: 'center' }}>
-          <dotlottie-player
-            src="https://lottie.host/0544481e-fc88-4533-8112-736c6a8be8f8/zpUnJPdBr3.json"
-            background="transparent"
-            speed="1"
-            style={{ width: '300px', height: '300px' }}
-            loop
-            autoplay
-          ></dotlottie-player>
-        </div>
-      </div>
-    );
+    return <DotlottieLoad />;
   }
+  const isArabic = i18n.language === 'ar';
   return (
     <div className={isDark ? "active-dark" : "active-light"}>
       <PageHelmet pageTitle={t('blog_title')} />
-            <Suspense fallback={<div>Loading...</div>}>
+            <Suspense fallback={<DotlottieLoad />}>
         <HeaderThree homeLink="/" logo="symbol-dark" color="color-black" />
       </Suspense>
 
@@ -90,7 +76,7 @@ const BlogDetails = () => {
       {/* End Breadcrumb Area */}
 
       {/* Start Blog Details */}
-      <div className="rn-blog-details pt--80 pb--70 bg_color--1 seprateBgSection">
+      <div className="rn-blog-details pt--80 pb--70 bg_color--1 seprateBgSection" style={{ textAlign: isArabic ? 'right' : 'left' }}>
         <div className="container">
           <div className="row">
             <div className="col-lg-12">

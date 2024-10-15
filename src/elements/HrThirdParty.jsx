@@ -1,10 +1,9 @@
-import React, { useState, useContext, useEffect, Suspense } from "react";
+import React, { useState, useContext, useEffect, Suspense, lazy } from "react";
 
 import PageHelmet from "../component/common/Helmet";
 import ScrollToTop from "react-scroll-up";
 import { FiChevronUp } from "react-icons/fi";
 import HeaderThree from "../component/header/HeaderThree";
-import Footer from "../component/footer/Footer";
 import Toggle from "../component/Toggle/Toggle";
 import { RiSeoLine } from "react-icons/ri";
 import { BiBookContent } from "react-icons/bi";
@@ -15,6 +14,7 @@ import DotlottieLoad from "../Dotlottie/Dotlottie.jsx";
 import { useTranslation } from "react-i18next";
 import { ThemeContext } from "../ThemeContext";
 
+const Footer = lazy(() => import("../component/footer/Footer"));
 const ServiceDetails = () => {
   const { t } = useTranslation();
 
@@ -86,10 +86,10 @@ const ServiceDetails = () => {
                   {t("serviceCard1Title")}
                 </a>
                 <div className="btmBtn mt-3 d-flex">
-                  <a href="/contact" className="cardBtn btn mx-2">
+                  <a href="/contact" className="cardBtn btn mx-1">
                     {t("services_wwp_card_btn1")}
                   </a>
-                  <a href="/service/search-engine-optimization" className="cardBtn btn mx-2">
+                  <a href="/service/search-engine-optimization" className="cardBtn btn mx-1">
                     {t("services_wwp_card_btn2")}
                   </a>
                 </div>
@@ -106,10 +106,10 @@ const ServiceDetails = () => {
                   {t("serviceCard2Title")}
                 </a>
                 <div className="btmBtn mt-3 d-flex">
-                  <a href="/contact" className="cardBtn btn mx-2">
+                  <a href="/contact" className="cardBtn btn mx-1">
                     {t("services_wwp_card_btn1")}
                   </a>
-                  <a href="/service/content-marketing" className="cardBtn btn mx-2">
+                  <a href="/service/content-marketing" className="cardBtn btn mx-1">
                     {t("services_wwp_card_btn2")}
                   </a>
                 </div>
@@ -126,10 +126,10 @@ const ServiceDetails = () => {
                   {t("serviceCard3Title")}
                 </a>
                 <div className="btmBtn mt-3 d-flex">
-                  <a href="/contact" className="cardBtn btn mx-2">
+                  <a href="/contact" className="cardBtn btn mx-1">
                     {t("services_wwp_card_btn1")}
                   </a>
-                  <a href="/service/social-media-marketing" className="cardBtn btn mx-2">
+                  <a href="/service/social-media-marketing" className="cardBtn btn mx-1">
                     {t("services_wwp_card_btn2")}
                   </a>
                 </div>
@@ -146,10 +146,10 @@ const ServiceDetails = () => {
                   {t("serviceCard4Title")}
                 </a>
                 <div className="btmBtn mt-3 d-flex">
-                  <a href="/contact" className="cardBtn btn mx-2">
+                  <a href="/contact" className="cardBtn btn mx-1">
                     {t("services_wwp_card_btn1")}
                   </a>
-                  <a href="/service/pay-per-click" className="cardBtn btn mx-2">
+                  <a href="/service/pay-per-click" className="cardBtn btn mx-1">
                     {t("services_wwp_card_btn2")}
                   </a>
                 </div>

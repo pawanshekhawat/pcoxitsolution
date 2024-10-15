@@ -1,10 +1,9 @@
-import React, { useState, useContext, useEffect, Suspense } from "react";
+import React, { useState, useContext, useEffect, Suspense, lazy } from "react";
 
 import PageHelmet from "../component/common/Helmet";
 import ScrollToTop from "react-scroll-up";
 import { FiChevronUp } from "react-icons/fi";
 import HeaderThree from "../component/header/HeaderThree";
-import Footer from "../component/footer/Footer";
 import Toggle from "../component/Toggle/Toggle";
 import { FaMedapps } from "react-icons/fa";
 import { SiAmazonwebservices } from "react-icons/si";
@@ -21,6 +20,7 @@ import { ThemeContext } from "../ThemeContext";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
+const Footer = lazy(() => import("../component/footer/Footer"));
 const ServiceDetails = () => {
   const { t } = useTranslation();
  

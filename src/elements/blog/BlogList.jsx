@@ -4,13 +4,15 @@ import { useTranslation } from "react-i18next";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
+const ImageWithPriority = lazy(() => import("../../component/common/ImageWithPriority"));
+
 const BLogList = () => {
   const { t, i18n } = useTranslation();
 
   const [isMobile, setIsMobile] = useState(false);
 
   const handleResize = () => {
-    setIsMobile(window.innerWidth <= 575); 
+    setIsMobile(window.innerWidth <= 575);
   };
 
   useEffect(() => {
@@ -68,38 +70,8 @@ const BLogList = () => {
                 <div className="blog blog-style--1">
                   <div className="thumbnail blogImageBox">
                     <a href={blog.link}>
-                      <img
-                        className="w-100"
-                        src={blog.image}
-                        alt="Blog Images"
-                      />
-                    </a>
-                  </div>
-                  <div className="content" style={{ textAlign: isArabic ? 'right' : 'left' }}>
-                    <p className="blogtype">{blog.author}</p>
-                    <h4 className="title">
-                      <a href={blog.link}>{blog.title}</a>
-                    </h4>
-                    <div className="blog-btn">
-                      <a className="rn-btn text-white" href={blog.link}>
-                      {t("read_more")}
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            ))}
-          </Slider>
-        </div>
-      ) : (
-        <div className="row">
-       
-            {blogs.map((blog) => (
-              <div className="col-lg-4 col-md-6 col-sm-6 col-12" key={blog.id}>
-                <div className="blog blog-style--1">
-                  <div className="thumbnail blogImageBox">
-                    <a href={blog.link}>
-                      <img
+                      <ImageWithPriority
+                        loading="eager"
                         className="w-100"
                         src={blog.image}
                         alt="Blog Images"
@@ -120,6 +92,38 @@ const BLogList = () => {
                 </div>
               </div>
             ))}
+          </Slider>
+        </div>
+      ) : (
+        <div className="row">
+
+          {blogs.map((blog) => (
+            <div className="col-lg-4 col-md-6 col-sm-6 col-12" key={blog.id}>
+              <div className="blog blog-style--1">
+                <div className="thumbnail blogImageBox">
+                  <a href={blog.link}>
+                    <ImageWithPriority
+                      loading="eager"
+                      className="w-100"
+                      src={blog.image}
+                      alt="Blog Images"
+                    />
+                  </a>
+                </div>
+                <div className="content" style={{ textAlign: isArabic ? 'right' : 'left' }}>
+                  <p className="blogtype">{blog.author}</p>
+                  <h4 className="title">
+                    <a href={blog.link}>{blog.title}</a>
+                  </h4>
+                  <div className="blog-btn">
+                    <a className="rn-btn text-white" href={blog.link}>
+                      {t("read_more")}
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          ))}
 
         </div>
       )}

@@ -1,20 +1,20 @@
-import React, { useState, useContext, useEffect, Suspense } from "react";
+import React, { useState, useContext, useEffect, Suspense, lazy } from "react";
 
 import PageHelmet from "../component/common/Helmet";
 import { FiClock, FiUser, FiChevronUp } from "react-icons/fi";
 import ScrollToTop from "react-scroll-up";
 import HeaderThree from "../component/header/HeaderThree";
-import Footer from "../component/footer/Footer";
 import Toggle from '../component/Toggle/Toggle';
 import { ThemeContext } from '../ThemeContext';
 import { useTranslation } from "react-i18next";
 import DotlottieLoad from "../Dotlottie/Dotlottie.jsx";
 
+const Footer = lazy(() => import("../component/footer/Footer"));
 const BlogDetails = () => {
   const { t, i18n } = useTranslation();
   const { isDark, toggleTheme } = useContext(ThemeContext);
   const [loading, setLoading] = useState(true);
-
+  
   useEffect(() => {
     // Dynamically append the new script for dotlottie-player
     const script = document.createElement('script');
@@ -44,7 +44,7 @@ const BlogDetails = () => {
   return (
     <div className={isDark ? "active-dark" : "active-light"}>
       <PageHelmet pageTitle={t('blog_title')} />
-            <Suspense fallback={<DotlottieLoad />}>
+      <Suspense fallback={<DotlottieLoad />}>
         <HeaderThree homeLink="/" logo="symbol-dark" color="color-black" />
       </Suspense>
 

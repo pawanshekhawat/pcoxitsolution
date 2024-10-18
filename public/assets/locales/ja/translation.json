@@ -488,9 +488,9 @@
 
   "read_more": "続きを読む",
 
-  "first_name_form": "名を入力してください",
+  "first_name_form": "名前を入力してください",
 
-  "last_name_form": "名を入力してください",
+  "last_name_form": "姓を入力してください",
 
   "email_form": "メールアドレスを入力してください",
 
@@ -538,5 +538,23 @@
   "airTransportationContactLink": "ご連絡ください。",
 
   "landTransportationProcessTitle": "当社のプロセス",
+
+  "pageTitle": "HR サードパーティ給与サービス",
+  "ブレッドクラムタイトル": "thirt_party_0",
+  "serviceDetailsHeader": "デジタル マーケティングで私たちが提供するものは次のとおりです",
+  "serviceCard1Title": "検索エンジン最適化 (SEO)",
+  "serviceCard1Icon": "リセオライン",
+  "serviceCard1Contact": "services_wwp_card_btn1",
+  "serviceCard1ServicePage": "services_wwp_card_btn2",
+  "serviceCard2Title": "戦略的コンテンツ マーケティング",
+  "serviceCard2Icon": "BiBookContent",
+  "serviceCard2Contact": "services_wwp_card_btn1",
+  "serviceCard2ServicePage": "services_wwp_card_btn2",
+  "serviceCard3Title": "ソーシャル メディア マーケティング",
+  "serviceCard3Icon": "IoShareSocialSharp",
+  "serviceCard3Contact": "services_wwp_card_btn1",
+  "serviceCard3ServicePage": "services_wwp_card_btn2",
+  "serviceCard4Title": "クリック課金型 (PPC) 広告",
+
   "company_address": "Innov8 Mantri commercio, 5th Floor, Tower-A Bellandur ORR, Bengaluru, Karnataka 560103"
 }

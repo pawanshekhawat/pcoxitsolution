@@ -295,8 +295,8 @@
 
   "thirt_party_0": "Mercadotecnia Digital",
 
-  "thirt_party_1_head": "Optimización de motores de búsqueda (SEO)",
-  "seo_dev_1_head": "Optimización de motores de búsqueda (SEO)",
+  "thirt_party_1_head": "Optimización de motores de búsqueda",
+  "seo_dev_1_head": "Optimización de motores de búsqueda",
   "seo_main_desc": "Usamos un enfoque basado en datos para mejorar su presencia en línea y generar tráfico orgánico.",
 
   "seo_process1_main_title": "Nuestra estrategia de SEO",
@@ -370,8 +370,8 @@
   "social_media_marketing_contact_desc": "Hablemos sobre cómo nuestros servicios de marketing en redes sociales pueden ayudarlo a interactuar con su audiencia y hacer crecer su marca",
   "social_media_marketing_contact_btn": "Contáctenos",
 
-  "thirt_party_4_head": "Publicidad de pago por clic (PPC)",
-  "ppc_advertising_head": "Publicidad de pago por clic (PPC)",
+  "thirt_party_4_head": "Publicidad de pago por clic",
+  "ppc_advertising_head": "Publicidad de pago por clic",
   "ppc_advertising_main_desc": "Nuestros servicios de publicidad PPC lo ayudan a generar tráfico dirigido a su sitio web a través de ubicaciones estratégicas de anuncios, maximizando el ROI con cada clic",
 
   "ppc_advertising_process1_main_title": "Nuestra estrategia de publicidad PPC",
@@ -463,8 +463,8 @@
 
   "read_more": "Leer más",
 
-  "first_name_form": "Ingrese su nombre",
-  "last_name_form": "Ingrese su nombre",
+  "first_name_form": "Ingresa tu nombre",
+  "last_name_form": "Ingresa tu apellido",
   "email_form": "Ingrese su dirección de correo electrónico",
   "num_code_form": "Número de teléfono con código de país",
   "msg_form": "Escribe tu mensaje...",
@@ -513,7 +513,7 @@
   "pageTitle": "Servicios de nómina de terceros para RR. HH.",
   "breadcrumbTitle": "thirt_party_0",
   "serviceDetailsHeader": "En marketing digital, esto es lo que ofrecemos",
-  "serviceCard1Title": "Optimización de motores de búsqueda (SEO)",
+  "serviceCard1Title": "Optimización de motores de búsqueda",
   "serviceCard1Icon": "RiSeoLine",
   "serviceCard1Contact": "services_wwp_card_btn1",
   "serviceCard1ServicePage": "services_wwp_card_btn2",
@@ -525,7 +525,7 @@
   "serviceCard3Icon": "IoShareSocialSharp",
   "serviceCard3Contact": "services_wwp_card_btn1",
   "serviceCard3ServicePage": "services_wwp_card_btn2",
-  "serviceCard4Title": "Publicidad de pago por clic (PPC)",
+  "serviceCard4Title": "Publicidad de pago por clic",
 
   "company_address": "Innov8 Mantri commercio, quinto piso, Torre-A Bellandur ORR, Bengaluru, Karnataka 560103"
 }

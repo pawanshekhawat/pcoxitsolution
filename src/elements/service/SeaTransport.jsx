@@ -15,7 +15,7 @@ const SeaTransport = () => {
                             loading="eager"
                             className="img-fluid rounded my-3"
                             src="/assets/images/service/hrservice02.webp"
-                            alt="Sea Transportation"
+                            alt="Marine Transportation"
                         />
                     </div>
                 </div>

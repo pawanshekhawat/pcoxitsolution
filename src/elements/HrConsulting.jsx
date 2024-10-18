@@ -118,7 +118,7 @@ const ServiceDetails = () => {
                   <SiAmazonwebservices className="reactIcons" /> <br />
                   {t("software_dev_2_head")}
                 </a>
-                <div className="btmBtn mt-3 d-flex">
+                <div className="btmBtn my-3 d-flex">
                   <a href="/contact" className="cardBtn btn">
                     {t("services_wwp_card_btn1")}
                   </a>
@@ -138,7 +138,7 @@ const ServiceDetails = () => {
                   <br />
                   {t("software_dev_3_head")}
                 </a>
-                <div className="btmBtn mt-3 d-flex">
+                <div className="btmBtn my-3 d-flex">
                   <a href="/contact" className="cardBtn btn">
                     {t("services_wwp_card_btn1")}
                   </a>
@@ -157,7 +157,7 @@ const ServiceDetails = () => {
                   <IoIosAddCircleOutline className="reactIcons" /> <br />
                   {t("software_dev_4_head")}
                 </a>
-                <div className="btmBtn mt-3 d-flex">
+                <div className="btmBtn my-3 d-flex">
                   <a href="/contact" className="cardBtn btn">
                     {t("services_wwp_card_btn1")}
                   </a>
@@ -179,7 +179,7 @@ const ServiceDetails = () => {
                   <IoCloudCircleOutline className="reactIcons" /> <br />
                   {t("software_dev_5_head")}
                 </a>
-                <div className="btmBtn mt-3 d-flex">
+                <div className="btmBtn my-3 d-flex">
                   <a href="/contact" className="cardBtn btn">
                     {t("services_wwp_card_btn1")}
                   </a>
@@ -201,7 +201,7 @@ const ServiceDetails = () => {
                   <BiSupport className="reactIcons" /> <br />
                   {t("software_dev_6_head")}
                 </a>
-                <div className="btmBtn mt-3 d-flex">
+                <div className="btmBtn my-3 d-flex">
                   <a href="/contact" className="cardBtn btn">
                     {t("services_wwp_card_btn1")}
                   </a>
@@ -245,7 +245,7 @@ const ServiceDetails = () => {
                   <SiAmazonwebservices className="reactIcons" /> <br />
                   {t("software_dev_2_head")}
                 </a>
-                <div className="btmBtn mt-3 d-flex">
+                <div className="btmBtn my-3 d-flex">
                   <a href="/contact" className="cardBtn btn">
                     {t("services_wwp_card_btn1")}
                   </a>
@@ -265,7 +265,7 @@ const ServiceDetails = () => {
                   <br />
                   {t("software_dev_3_head")}
                 </a>
-                <div className="btmBtn mt-3 d-flex">
+                <div className="btmBtn my-3 d-flex">
                   <a href="/contact" className="cardBtn btn">
                     {t("services_wwp_card_btn1")}
                   </a>
@@ -284,7 +284,7 @@ const ServiceDetails = () => {
                   <IoIosAddCircleOutline className="reactIcons" /> <br />
                   {t("software_dev_4_head")}
                 </a>
-                <div className="btmBtn mt-3 d-flex">
+                <div className="btmBtn my-3 d-flex">
                   <a href="/contact" className="cardBtn btn">
                     {t("services_wwp_card_btn1")}
                   </a>
@@ -306,7 +306,7 @@ const ServiceDetails = () => {
                   <IoCloudCircleOutline className="reactIcons" /> <br />
                   {t("software_dev_5_head")}
                 </a>
-                <div className="btmBtn mt-3 d-flex">
+                <div className="btmBtn my-3 d-flex">
                   <a href="/contact" className="cardBtn btn">
                     {t("services_wwp_card_btn1")}
                   </a>
@@ -328,7 +328,7 @@ const ServiceDetails = () => {
                   <BiSupport className="reactIcons" /> <br />
                   {t("software_dev_6_head")}
                 </a>
-                <div className="btmBtn mt-3 d-flex">
+                <div className="btmBtn my-3 d-flex">
                   <a href="/contact" className="cardBtn btn">
                     {t("services_wwp_card_btn1")}
                   </a>

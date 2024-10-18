@@ -1,17 +1,20 @@
 import React, { useState, useContext, useEffect, lazy, Suspense } from "react";
 import PageHelmet from "../component/common/Helmet";
-import Breadcrumb from "../elements/common/Breadcrumb";
 import ScrollToTop from "react-scroll-up";
 import { FiChevronUp } from "react-icons/fi";
 import { useTranslation } from "react-i18next";
-import Footer from "../component/footer/Footer";
 import DotlottieLoad from "../Dotlottie/Dotlottie.jsx";
 
 import Toggle from "../component/Toggle/Toggle";
 
 import { ThemeContext } from "../ThemeContext";
+// import ImageWithPriority from "../component/common/ImageWithPriority.jsx";
 
+import Breadcrumb from "../elements/common/Breadcrumb";
+const ImageWithPriority = lazy(() => import("../component/common/ImageWithPriority.jsx"));
 const HeaderThree = lazy(() => import("../component/header/HeaderThree"));
+const Footer = lazy(() => import("../component/footer/Footer"));
+
 const Blog = () => {
   const { isDark, toggleTheme } = useContext(ThemeContext);
   const [loading, setLoading] = useState(true);
@@ -23,6 +26,7 @@ const Blog = () => {
       "https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs";
     script.type = "module";
     document.head.appendChild(script);
+    console.log("blog useeffect1");
 
     // Cleanup when component unmounts
     return () => {
@@ -35,6 +39,7 @@ const Blog = () => {
       await new Promise((resolve) => setTimeout(resolve, 3000));
       setLoading(false);
     };
+    console.log("blog useeffect2");
 
     fetchData();
   }, []);
@@ -93,7 +98,8 @@ const Blog = () => {
                 <div className="blog blog-style--1">
                   <div className="thumbnail blogImageBox">
                     <a href={blog.link}>
-                      <img
+                      <ImageWithPriority
+                        loading="eager"
                         className="w-100"
                         src={blog.image}
                         alt="Blog Images"

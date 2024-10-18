@@ -1,4 +1,4 @@
-import React, { useState, useContext, useEffect, lazy, Suspense } from "react";
+import React, { useState, useContext, useEffect, lazy, Suspense, useMemo } from "react";
 import PageHelmet from "../component/common/Helmet";
 import Breadcrumb from "../elements/common/Breadcrumb";
 import ScrollToTop from "react-scroll-up";
@@ -6,6 +6,7 @@ import { FiChevronUp } from "react-icons/fi";
 import { useTranslation } from "react-i18next";
 import { ThemeContext } from "../ThemeContext";
 import DotlottieLoad from "../Dotlottie/Dotlottie.jsx";
+import ImageWithPriority from "../component/common/ImageWithPriority.jsx";
 
 const CounterOne = lazy(() => import("../elements/counters/CounterOne"));
 const Testimonial = lazy(() => import("../elements/Testimonial"));
@@ -14,10 +15,10 @@ const Footer = lazy(() => import("../component/footer/Footer"));
 const Toggle = lazy(() => import("../component/Toggle/Toggle"));
 
 const About = () => {
-  const { t, i18n  } = useTranslation();
+  const { t, i18n } = useTranslation();
   const { isDark, toggleTheme } = useContext(ThemeContext);
   const [loading, setLoading] = useState(true);
-  
+
   const title = `${t("about_us")}`;
 
   useEffect(() => {
@@ -30,7 +31,7 @@ const About = () => {
       script.id = scriptId;
       document.head.appendChild(script);
     }
-
+    console.log("about useeffect1");
     // Cleanup when component unmounts
     return () => {
       const existingScript = document.getElementById(scriptId);
@@ -45,7 +46,7 @@ const About = () => {
       await new Promise((resolve) => setTimeout(resolve, 3000));
       setLoading(false);
     };
-
+    console.log("homepage useeffect2");
     fetchData();
   }, []);
 
@@ -69,7 +70,8 @@ const About = () => {
             <div className="row align-items-center">
               <div className="col-lg-6">
                 <div className="thumbnail">
-                  <img
+                  <ImageWithPriority
+                    loading="eager"
                     className="w-100"
                     src="/assets/images/about/about-3.webp"
                     alt="About Images"

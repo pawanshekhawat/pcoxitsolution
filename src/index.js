@@ -69,11 +69,11 @@ i18next
         },
     })
 
-const loadingMarkup = (
-    <div className="py-4 text-center">
-        <h3>Loading..</h3>
-    </div>
-)
+// const loadingMarkup = (
+//     <div className="py-4 text-center">
+//         <h3>Loading..</h3>
+//     </div>
+// )
 
 
 
@@ -133,7 +133,7 @@ class Root extends Component {
 const container = document.getElementById('root');
 const root = createRoot(container); // createRoot(container!) if you use TypeScript
 root.render(
-    <Suspense fallback={loadingMarkup}>
+    <Suspense>
         <Root />
     </Suspense>
 

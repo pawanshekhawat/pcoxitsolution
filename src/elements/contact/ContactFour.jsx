@@ -1,11 +1,12 @@
-import React from "react";
-import MainForm from "./MainForm";
-
+import React, { lazy } from "react";
 import { useTranslation } from 'react-i18next';
 
+const MainForm = lazy(() => import("./MainForm"));
+const ImageWithPriority = lazy(() => import("../../component/common/ImageWithPriority"));
+
 const ContactFour = () => {
-    
-    const { t,i18n } = useTranslation();
+
+    const { t, i18n } = useTranslation();
     const isArabic = i18n.language === 'ar';
     return (
         <div className="contact-form--1">
@@ -22,7 +23,7 @@ const ContactFour = () => {
                     </div>
                     <div className="col-lg-6 order-1 order-lg-2">
                         <div className="thumbnail mb_md--30 mb_sm--30">
-                            <img loading="lazy" src="/assets/images/about/about-6.webp" alt="trydo" />
+                            <ImageWithPriority loading="eager" src="/assets/images/about/about-6.webp" alt="trydo" />
                         </div>
                     </div>
                 </div>

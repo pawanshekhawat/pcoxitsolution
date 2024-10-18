@@ -1,5 +1,4 @@
-import React, { useState, useContext, useEffect, lazy, Suspense } from "react";
-import Slider from "react-slick";
+import React, { useState, useContext, useEffect, lazy, Suspense, useMemo } from "react";
 import ScrollToTop from "react-scroll-up";
 import { FiChevronUp } from "react-icons/fi";
 import Helmet from "../component/common/Helmet";
@@ -11,6 +10,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import BgVid from "../../public/assets/images/bg/homeBGVid.mp4";
 
+const BlogSlider = lazy(() => import("../elements/blog/BlogSlider.jsx"));
 const DotlottieLoad = lazy(() => import("../Dotlottie/Dotlottie.jsx"));
 const HeaderThree = lazy(() => import("../component/header/HeaderThree"));
 const Footer = lazy(() => import("../component/footer/Footer"));
@@ -33,42 +33,19 @@ const PortfolioLanding = ({ value }) => {
   const isArabic = i18n.language === "ar";
   const { isDark, toggleTheme } = useContext(ThemeContext);
   const [loading, setLoading] = useState(true);
-
   const [isMobile, setIsMobile] = useState(false);
+
+  // Memoized values
+  const memoizedSlideList = useMemo(() => SlideList, []);
+  const memoizedClassName = useMemo(() => ({
+    containerClass: isDark ? "active-dark" : "active-light",
+    textDirection: isArabic ? "text-right" : ""
+  }), [isDark, isArabic]);
 
   // Function to handle screen size changes
   const handleResize = () => {
     setIsMobile(window.innerWidth <= 575); // Set mobile if screen size
   };
-
-  const BlogContent = [
-    {
-      id: "1",
-      images: "01",
-      title: `${t("blog_title")}`,
-      category: `${t("blog_author")}`,
-      bloglink: "/navigating-global-trade",
-    },
-    {
-      id: "2",
-      images: "02",
-      title: `${t("management")}`,
-      category: `${t("blog_author")}`,
-      bloglink: "/why-your-business-needs-custom-software",
-    },
-
-    {
-      id: "3",
-      images: "03",
-      title: `${t("design")}`,
-      category: `${t("blog_author")}`,
-      bloglink: "/boost-your-brand",
-    },
-  ];
-  // description = `Welcome to our overseas recruitment company! We are a leading global HR recruitment company that specializes in connecting talented individuals with exciting job opportunities overseas. At our company, we understand the challenges and complexities of finding the right talent for international positions. That's why we are here to simplify the process and help both employers and job seekers navigate the global job market with ease.`;
-  const PostList = BlogContent.slice(0, 3);
-
-  // const preference = window.matchMedia("(prefers-color-scheme: dark)").matches;
 
   useEffect(() => {
     // Dynamically append the new script for dotlottie-player
@@ -77,7 +54,7 @@ const PortfolioLanding = ({ value }) => {
       "https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs";
     script.type = "module";
     document.head.appendChild(script);
-
+    console.log("homepage useeffect1");
     // Cleanup when component unmounts
     return () => {
       document.head.removeChild(script);
@@ -89,6 +66,7 @@ const PortfolioLanding = ({ value }) => {
       await new Promise((resolve) => setTimeout(resolve, 3000));
       setLoading(false);
     };
+    console.log("homepage useeffect2");
 
     fetchData();
   }, []);
@@ -107,20 +85,6 @@ const PortfolioLanding = ({ value }) => {
     return <DotlottieLoad />;
   }
 
-  // Slider settings
-  const sliderServiceSettings = {
-    dots: true,
-    className: "center",
-    centerMode: true,
-    infinite: true,
-    centerPadding: "60px",
-    speed: 500,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    autoplay: true,
-    autoplaySpeed: 3000,
-  };
-
   return (
     <div className={isDark ? "active-dark" : "active-light"}>
       <Helmet pageTitle="PCOX Internet Pvt. Ltd." />
@@ -133,7 +97,7 @@ const PortfolioLanding = ({ value }) => {
       <div id="home" className="fix">
         <div className="slider-wrapper">
           {/* Start Single Slide */}
-          {SlideList.map((value, index) => (
+          {memoizedSlideList.map((value, index) => (
             <div className="home-overlay">
               <div
                 className="slide personal-portfolio-slider slider-paralax slider-style-3 d-flex align-items-center justify-content-center bg_image"
@@ -151,15 +115,13 @@ const PortfolioLanding = ({ value }) => {
                   <div className="row">
                     <div className="col-lg-12">
                       <div
-                        className={`inner ${value.textPosition} ${
-                          isArabic ? "text-right" : ""
-                        }`}
+                        className={`inner ${value.textPosition} ${memoizedClassName.textDirection}
+                          }`}
                       >
                         {value.category ? (
                           <span
-                            className={`homePageHeroTitlesSpan title text-white ${
-                              isArabic ? "text-right" : ""
-                            }`}
+                            className={`homePageHeroTitlesSpan title text-white ${memoizedClassName.textDirection}
+                              }`}
                           >
                             {t("home_hero_sec_desc")}
                           </span>
@@ -167,15 +129,13 @@ const PortfolioLanding = ({ value }) => {
                           ""
                         )}
                         <h1
-                          className={`homePageHeroTitles title ${
-                            isArabic ? "text-right" : ""
-                          }`}
+                          className={`homePageHeroTitles title ${memoizedClassName.textDirection}
+                            }`}
                         >
                           {t("home_hero_sec_title")} <br />
                           <TextLoop
-                            className={`loopTextBox ${
-                              isArabic ? "text-right" : ""
-                            }`}
+                            className={`loopTextBox ${memoizedClassName.textDirection}
+                              }`}
                           >
                             <span className="homePageLoopText">
                               {t("Software-Development")}
@@ -277,79 +237,7 @@ const PortfolioLanding = ({ value }) => {
                 </div>
               </div>
             </div>
-
-            {isMobile ? (
-              <div className="">
-                <Slider {...sliderServiceSettings}>
-                  {PostList.map((value) => (
-                    <div
-                      className="col-lg-4 col-md-6 col-sm-6 col-12"
-                      key={value.id}
-                    >
-                      <div className="blog blog-style--1 Blogblur">
-                        <div className="thumbnail blogImageBox">
-                          <a href={`${value.bloglink}`}>
-                            <img
-                              className="w-100"
-                              src={`/assets/images/blog/blog-${value.images}.webp`}
-                              alt="Blog Images"
-                            />
-                          </a>
-                        </div>
-                        <div className="content">
-                          <h4 className="title blogHomeTitle">
-                            <a href={`${value.bloglink}`}>{value.title}</a>
-                          </h4>
-                          <p className="blogtype blogHomeTitleAuth">
-                            {value.category}
-                          </p>
-                          <div className="blog-btn blogHomeBtnBox">
-                            <a
-                              className="rn-btn text-white blogHomeBtn"
-                              href={`${value.bloglink}`}
-                            >
-                              {t("read_more")}
-                            </a>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  ))}
-                </Slider>
-              </div>
-            ) : (
-              <div className="row mt--60 mt_sm--40 h-full">
-                {PostList.map((value, i) => (
-                  <div className="col-lg-4 col-md-6 col-12" key={i}>
-                    <div className="blog blog-style--1">
-                      <div className="thumbnail blogImageBox">
-                        <a href={`${value.bloglink}`}>
-                          <img
-                            className="w-100"
-                            src={`/assets/images/blog/blog-${value.images}.webp`}
-                            alt="Blog Images"
-                          />
-                        </a>
-                      </div>
-                      <div className="content" style={{ textAlign: isArabic ? 'right' : 'left' }}>
-                        <h4 className="title">
-                          <a href={`${value.bloglink}`}>{value.title}</a>
-                        </h4>
-                        <p className="blogtype">{value.category}</p>
-                        <div className="blog-btn">
-                          <a
-                            className="rn-btn text-white"
-                            href={`${value.bloglink}`}
-                          >
-                            {t("read_more")}
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                ))}
-              </div>
-            )}
+            <BlogSlider />
           </div>
         </div>
       </div>

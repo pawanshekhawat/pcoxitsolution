@@ -1,16 +1,16 @@
-import React, { useContext, useState, useEffect } from "react";
+import React, { useContext, useState, useEffect, lazy } from "react";
 import PageHelmet from "../component/common/Helmet";
 import { FiMail, FiMapPin } from "react-icons/fi";
 import ContactFour from "./contact/ContactFour";
 import ScrollToTop from "react-scroll-up";
 import { FiChevronUp } from "react-icons/fi";
 import HeaderThree from "../component/header/HeaderThree";
-import Footer from "../component/footer/Footer";
 import Toggle from "../component/Toggle/Toggle";
 import { useTranslation } from "react-i18next";
 import { ThemeContext } from "../ThemeContext";
 import DotlottieLoad from "../Dotlottie/Dotlottie.jsx";
 
+const Footer = lazy(() => import("../component/footer/Footer"));
 const MainContact = () => {
   const { t, i18n  } = useTranslation();
   const { isDark, toggleTheme } = useContext(ThemeContext);

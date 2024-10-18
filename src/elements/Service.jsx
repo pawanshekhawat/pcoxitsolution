@@ -3,7 +3,6 @@ import PageHelmet from "../component/common/Helmet";
 import Breadcrumb from "../elements/common/Breadcrumb";
 import { FiBox, FiGlobe, FiMonitor, FiChevronUp } from "react-icons/fi";
 import ScrollToTop from "react-scroll-up";
-import Footer from "../component/footer/Footer";
 
 import Toggle from "../component/Toggle/Toggle";
 import { useTranslation } from "react-i18next";
@@ -11,6 +10,7 @@ import { ThemeContext } from "../ThemeContext";
 import DotlottieLoad from "../Dotlottie/Dotlottie.jsx";
 
 const HeaderThree = lazy(() => import("../component/header/HeaderThree"));
+const Footer = lazy(() => import("../component/footer/Footer"));
 
 const Service = () => {
   const { t } = useTranslation();

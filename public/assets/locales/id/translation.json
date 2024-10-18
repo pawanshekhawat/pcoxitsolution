@@ -16,30 +16,22 @@
   "country": "Negara yang Dilayani",
   "promise": "Janji yang Ditepati",
   "mission": "Misi",
-
   "home_hero_sec_title": "Memberdayakan Perjalanan Anda dengan",
   "home_hero_sec_desc": "Dipercaya oleh lebih dari 400+ perusahaan",
   "Software-Development": "Pengembangan Perangkat Lunak",
   "home_hero_sec_loop2": " Pemasaran Digital",
   "home_hero_sec_loop3": "Layanan Impor-Ekspor & Solusi Logistik",
-
   "testimonials_head": "Testimonials",
-
   "testimonials_desc1": "PCOX Internet Pvt. Ltd. mengubah keberadaan digital kami dengan solusi inovatif mereka. Platform Perdagangan & Logistik Digital mereka telah menyederhanakan operasi impor-ekspor kami, menghemat waktu dan uang kami!",
   "testimonials_client1": "Edawrd blinkin",
-
   "testimonials_desc2": "Bekerja sama dengan PCOX Internet Pvt. Ltd. telah mengubah permainan bisnis kami. Keahlian mereka dalam pengembangan web dan pemasaran digital membantu kami menjangkau pasar baru dan mengembangkan basis klien kami secara signifikan.",
   "testimonials_client2": "Kelvin Thomas",
-
   "testimonials_desc3": "Kami berjuang dengan visibilitas rantai pasokan hingga kami bermitra dengan PCOX Internet Pvt. Ltd. Platform mereka telah memberikan efisiensi yang tak tertandingi dan data waktu nyata, merevolusi manajemen logistik kami.",
   "testimonials_client3": "Hileri Andrew",
-
   "testimonials_desc4": "PCOX Internet Pvt. Ltd. memberi kami layanan pengembangan perangkat lunak yang luar biasa yang sangat sesuai dengan kebutuhan bisnis kami. Tim mereka profesional, responsif, dan berkomitmen terhadap kesuksesan kami sejak hari pertama..",
   "testimonials_client4": "Aklima",
-
   "testimonials_desc5": "Strategi pemasaran digital yang dikembangkan oleh PCOX Internet Pvt. Ltd. sangat efektif. Keterlibatan online kami meningkat pesat, dan kami melihat peningkatan yang luar biasa dalam prospek dan konversi!",
   "testimonials_client5": "Jelia trump",
-
   "mission_desc_1": "Di PCOX Internet Pvt. Ltd., misi kami adalah memberdayakan bisnis dengan solusi digital inovatif yang meningkatkan pertumbuhan, efisiensi, dan keterlibatan pelanggan. Kami berusaha menjadi mitra tepercaya dengan memberikan layanan yang disesuaikan dan berkualitas tinggi dalam pengembangan web, pengembangan perangkat lunak, pemasaran digital, serta perdagangan & logistik digital, untuk memastikan klien kami berkembang pesat dalam lanskap digital yang terus berkembang.",
   "vision": "Visi",
   "vision_desc_1": "Visi kami adalah menjadi pemimpin global dalam transformasi digital, yang dikenal karena komitmen kami terhadap inovasi, keunggulan, dan keberhasilan klien. Kami bertujuan untuk mendefinisikan ulang pengalaman digital bagi bisnis di seluruh dunia, memungkinkan mereka untuk mencapai potensi penuh mereka melalui teknologi mutakhir dan solusi digital strategis.",
@@ -47,7 +39,6 @@
   "value_desc_1": "Fokus Klien: Kami menempatkan klien kami di pusat dari semua yang kami lakukan, bekerja sama erat dengan mereka untuk memahami kebutuhan unik mereka dan memberikan solusi khusus yang mendorong kesuksesan.",
   "value_desc_2": "Inovasi: Kami terus mencari cara baru dan kreatif untuk memecahkan masalah, merangkul perubahan dan mengadopsi teknologi terbaru untuk memberikan hasil terbaik.",
   "value_desc_3": "Integritas: Kami menjunjung tinggi standar kejujuran, transparansi, dan perilaku etis tertinggi dalam semua interaksi dan praktik bisnis kami.",
-
   "our_services": "Layanan Kami",
   "our_services_message": "Solusi komprehensif dalam pengembangan web, pengembangan perangkat lunak, pemasaran digital, impor-ekspor, dan logistik untuk mendorong keberhasilan bisnis Anda.",
   "hr_services": "Layanan Impor-Ekspor & Solusi Logistik",
@@ -75,7 +66,6 @@
   "security": "Ritel",
   "security_message": "Mengoptimalkan kehadiran daring dengan strategi pemasaran web dan digital, dan mengelola logistik impor-ekspor untuk inventaris dan persediaan.",
   "mep": "Pendidikan",
-
   "mep_message": "Mengembangkan perangkat lunak pendidikan khusus, menerapkan strategi pemasaran digital untuk lembaga, dan mengelola logistik untuk sumber daya dan materi pendidikan.",
   "latest_blog": "Blog Terbaru",
   "latest_blog_message_1": "Temukan wawasan ahli dan kiat berharga tentang operasi impor-ekspor,",
@@ -112,97 +102,62 @@
   "location": "Lokasi",
   "formcont1": "Hubungi Kami",
   "formdesc": "Untuk membantu kami menyediakan solusi terbaik yang disesuaikan dengan bisnis Anda, silakan isi formulir di bawah ini dengan persyaratan khusus Anda.",
-
   "services_wwp_card_btn1": "Tanyakan sekarang",
-
   "services_wwp_card_btn2": "Ketahui Lebih Lanjut",
-
   "impo_expo_services_0": "Layanan Impor-Ekspor & Solusi Logistik Kami",
-
   "impo_expo_services_wwp_title": "Kami menyediakan jenis layanan transportasi ini",
-
-  "impo_expo_services_wwp_card1_title": "Transportasi Darat",
-
-  "impo_expo_services_wwp_card2_title": "Transportasi Laut",
-
-  "impo_expo_services_wwp_card3_title": "Transportasi Udara",
-
-  "impo_expo_services_1_head": "Layanan Transportasi Darat",
-
-  "impo_expo_services_1_desc": "Di PCOX Internet Pvt Limited, kami berkomitmen untuk menyediakan layanan transportasi darat terbaik yang mengutamakan efisiensi, keandalan, dan kecepatan. Solusi kami dibuat dengan cermat untuk memenuhi tuntutan bisnis yang terus berkembang, memastikan pergerakan barang yang lancar melintasi batas lokal dan internasional.",
-  "impo_expo_services_1_li1": "1. Optimalisasi Transportasi Darat",
+  "impo_expo_services_wwp_card1_title": "Kargo Darat",
+  "impo_expo_services_wwp_card2_title": "Kargo Laut",
+  "impo_expo_services_wwp_card3_title": "Kargo Udara",
+  "impo_expo_services_1_head": "Kargo Darat",
+  "impo_expo_services_1_desc": "Di PCOX Internet Pvt Limited, kami berkomitmen untuk menyediakan layanan kargo darat terbaik yang mengutamakan efisiensi, keandalan, dan kecepatan. Solusi kami dibuat dengan cermat untuk memenuhi permintaan bisnis yang terus berkembang, memastikan pergerakan barang yang lancar melintasi batas lokal dan internasional.",
+  "impo_expo_services_1_li1": "1. Optimalisasi Kargo Darat",
   "impo_expo_services_1_li2": "2. Solusi Lintas Batas",
   "impo_expo_services_1_li3": "3. Manajemen Armada Khusus",
   "impo_expo_services_1_li4": "4. Penanganan Kargo Khusus",
-
-  "impo_expo_services_2_head": "Layanan Transportasi Laut",
-  "impo_expo_services_2_desc": "Di PCOX Internet Pvt Limited, layanan transportasi laut kami dirancang untuk memastikan pengiriman yang efisien dan andal melintasi perairan global. Kami menawarkan berbagai solusi komprehensif untuk memindahkan kargo Anda dengan aman dan sesuai jadwal, memanfaatkan kemitraan strategis dengan operator dan pelabuhan utama di seluruh dunia.",
+  "impo_expo_services_2_head": "Kargo Laut",
+  "impo_expo_services_2_desc": "Di PCOX Internet Pvt Limited, layanan kargo laut kami dirancang untuk memastikan pengiriman yang efisien dan andal di seluruh perairan global. Kami menawarkan berbagai solusi komprehensif untuk memindahkan kargo Anda dengan aman dan sesuai jadwal, memanfaatkan kemitraan strategis dengan operator dan pelabuhan utama di seluruh dunia.",
   "impo_expo_services_2_li1": "1. Optimalisasi Angkutan Laut: Tim kami mengkhususkan diri dalam mengoptimalkan rute angkutan laut untuk mengurangi waktu dan biaya transit. Kami bekerja sama erat dengan perusahaan pelayaran untuk memberikan tarif yang kompetitif dan jadwal pengiriman yang fleksibel yang disesuaikan dengan kebutuhan bisnis Anda.",
-  "impo_expo_services_2_li2": "2. Muatan Kontainer Penuh (FCL) dan Muatan Kurang dari Kontainer (LCL): Kami menyediakan opsi FCL dan LCL tergantung pada ukuran kargo Anda. Baik Anda memiliki pengiriman penuh atau yang lebih kecil, kami memastikan barang Anda dikemas dengan aman dan diangkut secara efisien.",
-  "impo_expo_services_2_li3": "3. Bea Cukai dan Dokumentasi: Layanan transportasi laut kami mencakup bea cukai penuh dan pengelolaan semua dokumentasi, termasuk bill of lading, deklarasi ekspor, dan sertifikat asal, yang memastikan kepatuhan terhadap peraturan perdagangan internasional.",
-  "impo_expo_services_2_li4": "4. Pengiriman dengan Kontrol Suhu: Kami menawarkan layanan kontainer berpendingin untuk barang-barang yang sensitif terhadap suhu, memastikan bahwa barang-barang yang mudah rusak seperti makanan dan farmasi tetap dalam kondisi yang diperlukan selama seluruh perjalanan.",
-  "impo_expo_services_2_li5": "5. Penanganan Kargo Khusus: Untuk kargo berukuran besar atau khusus, kami menyediakan solusi transportasi laut yang disesuaikan, termasuk kargo proyek dan layanan angkat berat. Tim kami memastikan pemuatan, pengamanan, dan pembongkaran yang tepat untuk menjamin pengiriman yang aman.",
-
-  "impo_expo_services_3_head": "Layanan Transportasi Udara",
-  "impo_expo_services_3_desc": "Di PCOX Internet Pvt Limited, layanan transportasi udara kami dirancang untuk menyediakan pengiriman yang cepat, andal, dan aman untuk kargo Anda yang sensitif terhadap waktu. Kami memanfaatkan jaringan maskapai penerbangan dan pengangkut barang global untuk memastikan barang Anda mencapai tujuan dengan cepat dan aman.",
-  "impo_expo_services_3_li1": "1. Optimalisasi Angkutan Udara: Kami mengkhususkan diri dalam mengoptimalkan rute angkutan udara untuk menawarkan waktu transit tercepat dan solusi hemat biaya. Kemitraan kami dengan maskapai penerbangan besar memungkinkan kami menyediakan penjadwalan yang fleksibel dan tarif yang kompetitif untuk semua kebutuhan transportasi udara Anda.",
+  "impo_expo_services_2_li2": "2. Full Container Load (FCL) dan Less-than-Container Load (LCL): Kami menyediakan opsi FCL dan LCL tergantung pada ukuran kargo Anda. Baik Anda memiliki pengiriman penuh atau yang lebih kecil, kami memastikan barang Anda dikemas dengan aman dan diangkut secara efisien.",
+  "impo_expo_services_2_li3": "3. Bea Cukai dan Dokumentasi: Layanan kargo laut kami mencakup bea cukai penuh dan pengelolaan semua dokumentasi, termasuk bill of lading, deklarasi ekspor, dan sertifikat asal, yang memastikan kepatuhan terhadap peraturan perdagangan internasional.",
+  "impo_expo_services_2_li4": "4. Pengiriman dengan Kontrol Suhu: Kami menawarkan layanan kontainer berpendingin untuk barang yang sensitif terhadap suhu, yang memastikan bahwa barang yang mudah rusak seperti makanan dan farmasi tetap dalam kondisi yang diperlukan selama seluruh perjalanan.",
+  "impo_expo_services_2_li5": "5. Penanganan Kargo Khusus: Untuk kargo berukuran besar atau khusus, kami menyediakan solusi kargo laut yang disesuaikan, termasuk kargo proyek dan layanan angkat berat. Tim kami memastikan pemuatan, pengamanan, dan pembongkaran yang tepat untuk menjamin pengiriman yang aman.",
+  "impo_expo_services_3_head": "Kargo Udara",
+  "impo_expo_services_3_desc": "Di PCOX Internet Pvt Limited, layanan kargo udara kami dirancang untuk menyediakan pengiriman yang cepat, andal, dan aman untuk kargo Anda yang sensitif terhadap waktu. Kami memanfaatkan jaringan maskapai penerbangan global dan pengangkut barang untuk memastikan barang Anda mencapai tujuan dengan cepat dan aman.",
+  "impo_expo_services_3_li1": "1. Optimalisasi Angkutan Udara: Kami mengkhususkan diri dalam mengoptimalkan rute angkutan udara untuk menawarkan waktu transit tercepat dan solusi hemat biaya. Kemitraan kami dengan maskapai penerbangan besar memungkinkan kami untuk menyediakan penjadwalan yang fleksibel dan tarif yang kompetitif untuk semua kebutuhan kargo udara Anda.",
   "impo_expo_services_3_li2": "2. Pengiriman Udara Ekspres dan Standar: Baik Anda memerlukan pengiriman cepat atau layanan angkutan udara standar, kami menyediakan opsi yang sesuai dengan urgensi dan anggaran Anda. Solusi kami memastikan kargo Anda ditangani dengan hati-hati dan tiba tepat waktu.",
-  "impo_expo_services_3_li3": "3. Izin Bea Cukai dan Dokumentasi: Layanan transportasi udara kami mencakup pengelolaan izin bea cukai dan dokumentasi yang komprehensif. Kami menangani semua dokumen yang diperlukan, termasuk surat jalan udara dan deklarasi impor/ekspor, untuk memastikan pengiriman yang lancar dan sesuai dengan peraturan.",
-  "impo_expo_services_3_li4": "4. Kargo Udara dengan Suhu Terkendali: Untuk barang-barang yang sensitif terhadap suhu seperti obat-obatan atau barang yang mudah rusak, kami menawarkan solusi kargo udara dengan suhu terkendali. Kontainer khusus kami menjaga kondisi yang diperlukan selama penerbangan, melindungi kiriman Anda yang berharga.",
-  "impo_expo_services_3_li5": "5. Layanan Prioritas dan Charter: Kami menyediakan opsi transportasi udara prioritas dan penerbangan charter untuk pengiriman yang mendesak atau bernilai tinggi. Layanan kami yang disesuaikan memastikan pengiriman yang tepat waktu dan aman, dengan dukungan khusus untuk mengelola setiap aspek kebutuhan angkutan udara Anda.",
-
+  "impo_expo_services_3_li3": "3. Bea Cukai dan Dokumentasi: Layanan kargo udara kami mencakup bea cukai dan manajemen dokumentasi yang komprehensif. Kami menangani semua dokumen yang diperlukan, termasuk surat jalan udara dan deklarasi impor/ekspor, untuk memastikan pengiriman yang lancar dan sesuai.",
+  "impo_expo_services_3_li4": "4. Kargo Udara dengan Suhu Terkendali: Untuk barang-barang yang sensitif terhadap suhu seperti farmasi atau barang yang mudah rusak, kami menawarkan solusi kargo udara dengan suhu terkendali. Kontainer khusus kami menjaga kondisi yang diperlukan selama penerbangan, melindungi pengiriman Anda yang berharga.",
+  "impo_expo_services_3_li5": "5. Layanan Prioritas dan Charter: Kami menyediakan opsi kargo udara prioritas dan penerbangan charter untuk pengiriman yang mendesak atau bernilai tinggi. Layanan khusus kami memastikan pengiriman yang tepat waktu dan aman, dengan dukungan khusus untuk mengelola setiap aspek kebutuhan angkutan udara Anda.",
   "software_dev_0": "Layanan Pengembangan Perangkat Lunak Kami",
-
   "software_dev_0_title": "Kami menyediakan berbagai layanan",
-
   "get_started": "Mulai",
-
   "software_dev_1_head": "Pengembangan Perangkat Lunak",
-
   "sd_main_desc": "Solusi yang disesuaikan untuk memenuhi kebutuhan unik bisnis Anda, dari konsep hingga penerapan",
-
   "sd_process1_main_title": "Proses Pengembangan Kami",
-
   "sd_process1_1_title": "1. Analisis Persyaratan",
-
   "sd_process1_1_desc": "Kami memulai dengan analisis terperinci tentang kebutuhan bisnis Anda untuk memastikan solusi perangkat lunak memenuhi persyaratan khusus Anda",
-
   "sd_process1_2_title": "2. Desain dan Pembuatan Prototipe",
   "sd_process1_2_desc": "Tim kami membuat dokumen desain terperinci dan prototipe untuk memvisualisasikan fungsionalitas perangkat lunak dan antarmuka pengguna",
   "sd_process1_3_title": "3. Pengembangan dan Pengujian",
   "sd_process1_3_desc": "Kami menggunakan praktik terbaik industri untuk membangun perangkat lunak yang tangguh dan dapat diskalakan serta melakukan pengujian menyeluruh untuk memastikan kualitas",
   "sd_process1_4_title": "4. Penerapan dan Dukungan",
-
   "sd_process1_4_desc": "Kami menangani penerapan dan menyediakan dukungan dan pemeliharaan berkelanjutan untuk memastikan kinerja yang optimal",
-
   "sd_solution1_title": "Solusi Perangkat Lunak yang Kami Sediakan",
-
   "sd_solution1_1": "Sistem ERP",
-
   "sd_solution1_2": "Perangkat Lunak CRM",
-
   "sd_solution1_3": "Alat Manajemen Proyek",
-
   "sd_solution1_4": "Sistem Manajemen SDM",
-
   "sd_solution1_5": "Layanan Komputasi Awan",
-
   "sd_solution1_6": "Solusi Keamanan Siber",
-
   "sd_solution1_7": "Alat Kolaborasi",
-
   "sd_solution1_8": "Analisis Data & BI",
-
   "sd_solution1_9": "Alat DevOps",
-
   "sd_solution1_10": "Manajemen Keuangan",
-
   "sd_solution1_11": "Platform E-Commerce",
   "sd_solution1_12": "Solusi Helpdesk",
-
   "web_dev_1_head": "Pengembangan Aplikasi Web",
   "wd_main_desc": "Kami menggunakan teknologi terkini untuk membangun aplikasi yang fungsional dan ramah pengguna",
-
   "wd_process1_main_title": "Proses Pengembangan Kami",
   "wd_process1_1_title": "1. Pengembangan Front-End",
   "wd_process1_1_desc": "Kami merancang dan mengembangkan antarmuka pengguna yang intuitif dan responsif untuk memberikan pengalaman pengguna yang lancar di semua perangkat.",
@@ -211,31 +166,18 @@
   "wd_process1_3_title": "3. Desain dan Manajemen Basis Data",
   "wd_process1_3_desc": "Kami menerapkan basis data yang aman dan efisien untuk mendukung kebutuhan penyimpanan dan pengambilan data aplikasi web Anda, memastikan kinerja dan keandalan yang tinggi.",
   "wd_process1_4_title": "4. Pengembangan API",
-
   "wd_process1_4_desc": "Kami membuat dan mengintegrasikan API untuk memfasilitasi komunikasi antara aplikasi web Anda dan layanan lainnya, memastikan pertukaran data yang lancar dan efisien.",
-
   "wd_solution1_title": "Teknologi yang Kami Gunakan",
-
   "wd_solution1_1": "React",
-
   "wd_solution1_2": "Angular",
-
   "wd_solution1_3": "Vue.js",
-
   "wd_solution1_4": "Node.js",
-
   "wd_solution1_5": "Express",
-
   "wd_solution1_6": "Django",
-
   "wd_solution1_7": "Flask",
-
   "wd_solution1_8": "MongoDB",
-
   "wd_solution1_9": "PostgreSQL",
-
   "wd_solution1_10": "MySQL",
-
   "wd_solution1_11": "Firebase",
   "wd_solution1_12": "GraphQL",
   "mob_dev_1_head": "Pengembangan Aplikasi Seluler",
@@ -249,17 +191,14 @@
   "md_process1_3_desc": "Kami mendesain antarmuka yang menarik dan ramah pengguna untuk aplikasi seluler, dengan fokus pada kegunaan dan daya tarik visual untuk meningkatkan kepuasan pengguna.",
   "md_process1_4_title": "4. Pengujian dan Pengoptimalan Aplikasi",
   "md_process1_4_desc": "Kami melakukan pengujian dan pengoptimalan ekstensif untuk memastikan bahwa aplikasi Anda berfungsi dengan lancar di berbagai perangkat dan sistem operasi.",
-
   "md_solution1_title": "Teknologi yang Kami Gunakan",
   "md_solution1_1": "React Native",
   "md_solution1_2": "Flutter",
   "md_solution1_3": "Swift",
   "md_solution1_4": "Kotlin",
   "md_solution1_5": "Xamarin",
-
   "sis_dev_1_head": "Integrasi Perangkat Lunak",
   "sis_main_desc": "Layanan integrasi perangkat lunak kami membantu Anda menghubungkan berbagai sistem dan aplikasi untuk menyederhanakan operasi Anda.",
-
   "sis_process1_main_title": "Proses Integrasi Kami",
   "sis_process1_1_title": "1. Analisis Sistem",
   "sis_process1_1_desc": "Kami menganalisis sistem Anda yang sudah ada untuk mengidentifikasi titik dan persyaratan integrasi, merancang solusi yang memenuhi kebutuhan spesifik Anda.",
@@ -269,14 +208,12 @@
   "sis_process1_3_desc": "Kami mengelola migrasi data Anda antara sistem, memastikan keakuratan dan integritas sambil meminimalkan gangguan pada bisnis Anda.",
   "sis_process1_4_title": "4. Pengujian Integrasi",
   "sis_process1_4_desc": "Kami melakukan pengujian menyeluruh untuk memastikan bahwa sistem terintegrasi berfungsi dengan benar dan efisien, memenuhi standar kinerja dan keandalan Anda.",
-
   "sis_solution1_title": "Apa yang Kami Integrasikan",
   "sis_solution1_1": "API REST",
   "sis_solution1_2": "API SOAP",
   "sis_solution1_3": "OAuth 2.0",
   "sis_solution1_4": "GraphQL",
   "sis_solution1_5": "Zapier",
-
   "cb_dev_1_head": "Solusi Berbasis Cloud",
   "cb_main_desc": "Solusi yang disesuaikan untuk infrastruktur dan layanan cloud, meningkatkan kelincahan bisnis Anda.",
   "cb_process1_main_title": "Solusi Berbasis Cloud Kami",
@@ -288,16 +225,13 @@
   "cb_process1_3_desc": "Integrasikan berbagai layanan dan aplikasi cloud untuk operasi yang terpadu dan efisien.",
   "cb_process1_4_title": "4. Keamanan Cloud",
   "cb_process1_4_desc": "Terapkan langkah-langkah keamanan yang kuat untuk melindungi data dan aplikasi Anda di cloud.",
-
   "cb_solution1_title": "Teknologi Cloud yang Kami Gunakan",
   "cb_solution1_1": "AWS",
   "cb_solution1_2": "Microsoft Azure",
   "cb_solution1_3": "Google Cloud",
   "cb_solution1_4": "Cloudflare",
-
   "sm_dev_1_head": "Solusi Manajemen Perangkat Lunak",
   "sm_main_desc": "Manajemen sistem perangkat lunak yang efisien untuk mengoptimalkan kinerja dan meningkatkan produktivitas.",
-
   "sm_process1_main_title": "Layanan Manajemen Perangkat Lunak Kami",
   "sm_process1_1_title": "1. Manajemen Siklus Hidup Perangkat Lunak",
   "sm_process1_1_desc": "Kami memastikan pendekatan yang lancar dan terstruktur untuk pengembangan perangkat lunak, dari perencanaan hingga penerapan.",
@@ -312,25 +246,19 @@
   "sm_solution1_2": "GitLab",
   "sm_solution1_3": "Trello",
   "sm_solution1_4": "Azure DevOps",
-
   "contact_us_bottom_title": "Siap Mengubah Bisnis Anda?",
   "contact_us_bottom_desc": "Mari diskusikan bagaimana solusi perangkat lunak kami dapat mendorong kesuksesan Anda.",
   "contact_us_bottom_btn": "Hubungi Kami",
-
   "software_dev_2_head": "Pengembangan Aplikasi Web",
   "software_dev_3_head": "Pengembangan Aplikasi Seluler",
   "software_dev_4_head": "Integrasi Perangkat Lunak",
   "software_dev_5_head": "layanan berbasis internet",
   "software_dev_6_head": "Pemeliharaan Perangkat Lunak",
-
   "------------------------------------------": "----------------------------------------",
-
   "thirt_party_0": "Pemasaran Digital",
-
   "thirt_party_1_head": "Optimasi Mesin Pencari (SEO)",
   "seo_dev_1_head": "Optimasi Mesin Pencari (SEO)",
   "seo_main_desc": "Kami menggunakan pendekatan berbasis data untuk meningkatkan kehadiran online Anda dan mendorong lalu lintas organik.",
-
   "seo_process1_main_title": "Strategi SEO Kami",
   "seo_process1_1_title": "1. Riset Kata Kunci",
   "seo_process1_1_desc": "Kami melakukan riset kata kunci menyeluruh untuk mengidentifikasi kata kunci yang paling relevan dan memiliki lalu lintas tinggi untuk bisnis Anda, mengoptimalkan konten Anda untuk peringkat mesin pencari yang lebih baik.",
@@ -346,15 +274,12 @@
   "seo_solution1_3": "SEMrush",
   "seo_solution1_4": "Yoast SEO",
   "seo_solution1_5": "Google Search Console",
-
   "seo_contact_title": "Siap Meningkatkan Strategi SEO Anda?",
   "seo_contact_desc": "Mari bahas bagaimana layanan SEO kami dapat meningkatkan kehadiran online Anda dan mendorong lalu lintas organik.",
   "seo_contact_btn": "Hubungi Kami",
-
   "thirt_party_2_head": "Pemasaran Konten",
   "content_marketing_head": "Pemasaran Konten",
   "content_marketing_main_desc": "Layanan pemasaran konten kami berfokus pada pembuatan konten yang berharga dan relevan yang menarik, melibatkan, dan mempertahankan audiens target Anda.",
-
   "content_marketing_process1_main_title": "Strategi Pemasaran Konten Kami",
   "content_marketing_process1_1_title": "1. Perencanaan Konten",
   "content_marketing_process1_1_desc": "Kami mengembangkan strategi konten komprehensif yang selaras dengan sasaran bisnis, kebutuhan audiens, dan tren industri Anda.",
@@ -364,22 +289,18 @@
   "content_marketing_process1_3_desc": "Kami mendistribusikan konten Anda secara strategis di berbagai platform untuk memaksimalkan jangkauan dan visibilitas.",
   "content_marketing_process1_4_title": "4. Pelacakan Kinerja",
   "content_marketing_process1_4_desc": "Kami menganalisis kinerja kampanye pemasaran konten Anda, melacak metrik utama untuk mengukur efektivitas.",
-
   "content_marketing_solution1_title": "Alat Pemasaran Konten yang Kami Gunakan",
   "content_marketing_solution1_1": "Google Analytics",
   "content_marketing_solution1_2": "HubSpot",
   "content_marketing_solution1_3": "BuzzSumo",
   "content_marketing_solution1_4": "CoSchedule",
   "content_marketing_solution1_5": "SEMrush",
-
   "content_marketing_contact_title": "Siap Meningkatkan Strategi Konten Anda?",
   "content_marketing_contact_desc": "Mari bahas bagaimana layanan pemasaran konten kami dapat mendorong keterlibatan dan mengembangkan audiens Anda.",
   "content_marketing_contact_btn": "Hubungi Kami",
-
   "thirt_party_3_head": "Pemasaran Media Sosial",
   "social_media_marketing_head": "Pemasaran Media Sosial",
   "social_media_marketing_main_desc": "Layanan pemasaran media sosial kami membantu bisnis membangun kehadiran online yang kuat, melibatkan audiens, dan mendorong konversi.",
-
   "social_media_marketing_process1_main_title": "Strategi Pemasaran Media Sosial Kami",
   "social_media_marketing_process1_1_title": "1. Riset Audiens",
   "social_media_marketing_process1_1_desc": "Kami menganalisis audiens target Anda untuk memahami preferensi, perilaku, dan platform yang sering mereka gunakan untuk menyesuaikan kampanye secara efektif.",
@@ -389,18 +310,15 @@
   "social_media_marketing_process1_3_desc": "Tim kami mengelola platform media sosial Anda, memposting konten, berinteraksi dengan pengikut, dan memastikan konsistensi di semua saluran.",
   "social_media_marketing_process1_4_title": "4. Analisis Kinerja",
   "social_media_marketing_process1_4_desc": "Kami melacak metrik kinerja utama, memantau tren, dan menyesuaikan strategi untuk memastikan kampanye Anda terus memberikan hasil yang kuat.",
-
   "social_media_marketing_solution1_title": "Platform Media Sosial yang Kami Spesialisasikan",
   "social_media_marketing_solution1_1": "Facebook",
   "social_media_marketing_solution1_2": "Instagram",
   "social_media_marketing_solution1_3": "LinkedIn",
   "social_media_marketing_solution1_4": "Twitter",
   "social_media_marketing_solution1_5": "YouTube",
-
   "social_media_marketing_contact_title": "Siap untuk Meningkatkan Kehadiran Media Sosial Anda?",
   "social_media_marketing_contact_desc": "Mari kita bahas bagaimana layanan pemasaran media sosial kami dapat membantu Anda terlibat dengan audiens dan mengembangkan merek Anda.",
   "social_media_marketing_contact_btn": "Hubungi Kami",
-
   "thirt_party_4_head": "Iklan Bayar Per Klik (PPC)",
   "ppc_advertising_head": "Iklan Bayar Per Klik (PPC)",
   "ppc_advertising_main_desc": "Layanan iklan PPC kami membantu Anda mengarahkan lalu lintas bertarget ke situs web Anda melalui penempatan iklan yang strategis, memaksimalkan ROI dengan setiap klik.",
@@ -419,33 +337,26 @@
   "ppc_advertising_solution1_3": "Iklan Facebook",
   "ppc_advertising_solution1_4": "Iklan LinkedIn",
   "ppc_advertising_solution1_5": "Iklan Twitter",
-
   "ppc_contact_title": "Siap Meningkatkan Trafik Anda dengan PPC?",
   "ppc_contact_desc": "Mari kita bahas bagaimana layanan PPC kami dapat meningkatkan kehadiran online Anda.",
   "ppc_contact_btn": "Hubungi Kami",
-
   "-----------------blog------------------------": "------------------blog-----------------------",
   "blog_title": "Menavigasi Perdagangan Global: Strategi Impor-Ekspor untuk 2024",
   "blog_date": "9 September 2024",
   "blog_author": "Wawasan Perdagangan Global",
   "blog_intro": "Dalam lanskap perdagangan global yang terus berkembang, 2024 menghadirkan tantangan dan peluang baru. Dari gangguan rantai pasokan hingga perang dagang dan perubahan regulasi, bisnis yang terlibat dalam impor-ekspor harus tangkas dan proaktif. Dalam blog ini, kita akan mengeksplorasi strategi utama untuk mengoptimalkan operasi impor-ekspor Anda, mengurangi risiko, dan memanfaatkan peluang di pasar berkembang.",
-
   "section1_title": "Diversifikasi Rantai Pasokan untuk Stabilitas",
   "section1_desc": "Dengan meningkatnya ketegangan geopolitik dan pembatasan perdagangan, diversifikasi rantai pasokan Anda sangatlah penting. Perusahaan harus mengeksplorasi sumber dari berbagai negara untuk meminimalkan gangguan dan memastikan aliran barang yang stabil. Dengan memanfaatkan perjanjian perdagangan bebas dan menjalin kemitraan baru, Anda dapat melindungi operasi Anda dari gangguan yang tidak terduga.",
-
   "section2_title": "Memanfaatkan Teknologi untuk Efisiensi Perdagangan",
   "section2_desc": "Solusi digital mengubah cara kita berdagang. Dari teknologi blockchain yang memastikan transparansi dalam transaksi hingga analitik berbasis AI yang memprediksi tren pasar, perusahaan yang merangkul inovasi teknologi akan memperoleh keunggulan kompetitif. Menerapkan pelacakan waktu nyata dan pemrosesan bea cukai digital dapat memperlancar aktivitas impor-ekspor Anda.",
-
   "section3_title": "Beradaptasi dengan Peraturan Perdagangan yang Berubah",
   "section3_desc": "Tahun 2024 membawa perubahan dalam peraturan perdagangan, khususnya dengan persyaratan lingkungan dan keberlanjutan yang baru. Tetap mengikuti peraturan ini tidak hanya akan membantu menghindari hukuman tetapi juga dapat membuka pintu ke pasar baru. Memahami nuansa peraturan seperti penyesuaian batas karbon dan sertifikasi keberlanjutan akan sangat penting untuk keberhasilan jangka panjang.",
-
   "section4_title": "Menjelajahi Pasar Berkembang",
   "section4_desc": "Pasar berkembang di Asia, Afrika, dan Amerika Latin menawarkan peluang menguntungkan bagi bisnis yang ingin memperluas jangkauan global mereka. Dengan kelas menengah yang terus tumbuh dan meningkatnya permintaan barang, kawasan ini menyediakan potensi yang belum dimanfaatkan bagi eksportir. Melakukan riset pasar menyeluruh dan membangun kemitraan lokal akan menjadi kunci untuk memasuki pasar ini dengan sukses.",
   "section5_title": "Mengurangi Risiko Perdagangan",
   "section5_desc": "Lingkungan perdagangan internasional penuh dengan risiko, termasuk nilai mata uang yang berfluktuasi, ketidakstabilan politik, dan tantangan logistik. Perusahaan harus menerapkan strategi manajemen risiko, seperti lindung nilai terhadap fluktuasi mata uang, mendiversifikasi basis pelanggan, dan mengamankan asuransi kredit perdagangan untuk meminimalkan potensi kerugian.",
   "section6_title": "Keberlanjutan dan Sumber yang Etis",
   "section6_desc": "Konsumen dan pemerintah semakin memprioritaskan keberlanjutan dan sumber yang etis. Perusahaan yang mengadopsi praktik ramah lingkungan, seperti mengurangi emisi karbon dalam pengiriman dan pengadaan dari pemasok yang etis, tidak hanya akan mematuhi peraturan tetapi juga meningkatkan reputasi merek mereka dan menarik konsumen yang sadar.",
-
   "blog_title1": "Mengapa Bisnis Anda Membutuhkan Perangkat Lunak Kustom",
   "blog_author1": "Solusi Teknologi",
   "blog_date1": "9 September 2024",
@@ -462,7 +373,6 @@
   "section5_desc1": "Dengan menerapkan perangkat lunak yang dirancang khusus untuk bisnis Anda, Anda dapat memperoleh keunggulan kompetitif yang signifikan. Perangkat lunak khusus memungkinkan Anda berinovasi dan menawarkan layanan atau produk yang tidak dapat ditawarkan oleh pesaing yang menggunakan perangkat lunak generik. Hal ini memungkinkan fleksibilitas dan respons yang lebih baik terhadap perubahan pasar, memposisikan bisnis Anda sebagai pemimpin dalam industri Anda.",
   "section6_title1": "Mempersiapkan Bisnis Anda untuk Masa Depan",
   "section6_desc1": "Teknologi berkembang dengan cepat, dan bisnis memerlukan solusi yang dapat beradaptasi dengan perubahan ini. Perangkat lunak khusus dapat dirancang dengan mempertimbangkan skalabilitas, memastikannya tumbuh seiring dengan bisnis Anda. Pembaruan dan fitur baru dapat ditambahkan sesuai kebutuhan, menjaga perangkat lunak Anda tetap relevan dan efisien tanpa perlu penggantian total.",
-
   "blog_byb_title1": "Tingkatkan Merek Anda",
   "blog_byb_author1": "Solusi Teknologi",
   "blog_byb_date1": "19 Juli 2024",
@@ -476,7 +386,6 @@
   "section4_byb_desc1": "Konten berkualitas tinggi adalah landasan pencitraan merek yang efektif. Konten tidak hanya menarik dan mempertahankan pelanggan, tetapi juga menetapkan merek Anda sebagai otoritas di industri Anda. Berinvestasi dalam pembuatan konten profesional, termasuk blog, video, dan infografis, dapat memengaruhi reputasi dan keberhasilan merek Anda secara signifikan.",
   "section5_byb_title1": "Memantau dan Menyesuaikan Strategi Merek Anda",
   "section5_byb_desc1": "Pemantauan berkelanjutan dan penyesuaian strategi merek Anda sangat penting untuk keberhasilan jangka panjang. Menganalisis metrik kinerja utama, mengumpulkan umpan balik pelanggan, dan tetap mengikuti tren pasar akan membantu Anda menyempurnakan pendekatan dan memastikan merek Anda tetap relevan dan kompetitif.",
-
   "hr_busi_0": "Konsultasi Bisnis SDM",
   "hr_busi_1": "Selamat datang di layanan Konsultasi Bisnis SDM kami, tempat keahlian bertemu inovasi! Di perusahaan kami, kami memahami tantangan dinamis yang dihadapi bisnis dalam lanskap persaingan saat ini. Dengan tim konsultan berpengalaman, kami menawarkan panduan strategis yang disesuaikan dengan kebutuhan spesifik Anda. Baik Anda perusahaan rintisan yang ingin membangun kehadiran pasar atau perusahaan mapan yang ingin mencapai keunggulan operasional, solusi komprehensif kami memberdayakan Anda untuk mencapai tujuan Anda.",
   "hr_busi_2": "Di bidang Konsultasi Bisnis SDM, kami mendefinisikan ulang kemungkinan. Tim profesional kami yang berdedikasi menggabungkan wawasan industri dengan kreativitas, memberikan solusi inovatif yang mendorong pertumbuhan bisnis. Kami percaya tidak hanya untuk memenuhi tetapi juga melampaui harapan klien. Dengan memanfaatkan keahlian kami di bidang-bidang seperti riset pasar, perencanaan strategis, dan pengembangan organisasi, kami membantu bisnis dalam membuat keputusan yang tepat dan tetap menjadi yang terdepan dalam persaingan. Biarkan kami menjadi mitra strategis Anda, membimbing Anda menuju masa depan dengan kesuksesan dan pertumbuhan yang tak tertandingi.",
@@ -487,15 +396,12 @@
   "hr_comp_1": "Menavigasi lanskap kepatuhan SDM dan peraturan hukum yang kompleks sangat penting bagi bisnis apa pun. Layanan Kepatuhan SDM dan Dukungan Hukum kami dirancang untuk memberi Anda panduan ahli dan ketenangan pikiran. Kami selalu mengikuti perkembangan hukum dan peraturan ketenagakerjaan terbaru, memastikan bahwa kebijakan dan praktik perusahaan Anda selaras dengan persyaratan hukum.",
   "hr_comp_2": "Tim profesional kami yang berdedikasi menawarkan dukungan komprehensif dalam menyusun, meninjau, dan memperbarui kebijakan dan prosedur SDM. Kami melakukan audit menyeluruh untuk mengidentifikasi potensi area risiko dan memandu Anda tentang praktik terbaik untuk mengurangi tantangan hukum. Baik itu kontrak kerja, kebijakan antidiskriminasi, atau pedoman keselamatan tempat kerja, kami menyesuaikan layanan kami dengan kebutuhan industri spesifik Anda, memastikan kepatuhan terhadap hukum lokal, negara bagian, dan federal.",
   "hr_comp_3": "Dengan bermitra dengan kami untuk Kepatuhan SDM dan Dukungan Hukum, Anda dapat fokus pada aktivitas bisnis inti Anda, yakin bahwa praktik SDM Anda sejalan dengan hukum. Tetap terdepan dalam perubahan peraturan, minimalkan risiko hukum, dan bina lingkungan kerja yang mempromosikan kepatuhan hukum dan integritas etika. Biarkan kami menjadi mitra tepercaya Anda dalam memastikan tempat kerja yang aman dan patuh bagi karyawan Anda.",
-
   "read_more": "Baca Selengkapnya",
-
   "first_name_form": "Masukkan nama depan Anda",
   "last_name_form": "Masukkan nama belakang Anda",
   "email_form": "Masukkan alamat email Anda",
   "num_code_form": "Nomor telepon dengan kode negara",
   "msg_form": "Tulis pesan Anda...",
-
   "landTransportationHeading": "Layanan Transportasi Darat",
   "landTransportationDescription": "Di PCOX Internet Pvt Limited, Kami mengkhususkan diri dalam menyediakan solusi transportasi darat yang efisien dan andal yang disesuaikan untuk memenuhi kebutuhan logistik spesifik Anda.",
   "landTransportationFeature1": "Optimalisasi Transportasi Darat",
@@ -508,7 +414,6 @@
   "landTransportationProcess4": "Pergudangan",
   "landTransportationContact": "Hubungi kami untuk solusi transportasi darat yang disesuaikan, mulai dari manajemen armada hingga layanan lintas batas.",
   "landTransportationContactLink": "Hubungi kami!",
-
   "seaTransportationHeading": "Layanan Transportasi Laut",
   "seaTransportationDescription": "Di PCOX Internet Pvt Limited, kami menyediakan solusi transportasi laut yang andal dan efisien, memastikan kargo Anda mencapai tujuannya dengan aman dan tepat waktu.",
   "seaTransportationFeature1": "Solusi Pengiriman Global",
@@ -521,7 +426,6 @@
   "seaTransportationProcess4": "Pergudangan",
   "seaTransportationContact": "Hubungi kami untuk layanan transportasi laut yang dapat diandalkan dan pengurusan bea cukai yang lancar untuk kargo Anda.",
   "seaTransportationContactLink": "Hubungi kami!",
-
   "airTransportationHeading": "Layanan Transportasi Udara",
   "airTransportationDescription": "Di PCOX Internet Pvt Limited, kami menawarkan solusi transportasi udara yang cepat dan efisien untuk kebutuhan pengiriman mendesak Anda, memastikan pengiriman tepat waktu ke seluruh dunia.",
   "airTransportationFeature1": "Pengiriman Ekspres",
@@ -534,9 +438,7 @@
   "airTransportationProcess4": "Pergudangan",
   "airTransportationContact": "Butuh transportasi udara cepat? Hubungi kami untuk pengiriman ekspres dan pelacakan waktu nyata untuk kebutuhan pengiriman mendesak Anda.",
   "airTransportationContactLink": "Hubungi kami!",
-
   "landTransportationProcessTitle": "Proses Kami",
-
   "pageTitle": "Layanan Penggajian Pihak Ketiga SDM",
   "breadcrumbTitle": "thirt_party_0",
   "serviceDetailsHeader": "Dalam Pemasaran Digital, Berikut adalah apa yang kami sediakan",
@@ -553,6 +455,5 @@
   "serviceCard3Contact": "services_wwp_card_btn1",
   "serviceCard3ServicePage": "services_wwp_card_btn2",
   "serviceCard4Title": "Iklan Bayar-Per-Klik (PPC)",
-
   "company_address": "Innov8 Mantri commercio, Lantai 5, Tower-A Bellandur ORR, Bengaluru, Karnataka 560103"
 }

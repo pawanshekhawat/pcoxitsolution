@@ -98,7 +98,7 @@ const Blog = () => {
                 <div className="blog blog-style--1">
                   <div className="thumbnail blogImageBox">
                     <a href={blog.link}>
-                      <ImageWithPriority
+                      <img
                         loading="eager"
                         className="w-100"
                         src={blog.image}

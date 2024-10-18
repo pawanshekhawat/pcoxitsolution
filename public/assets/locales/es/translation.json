@@ -16,30 +16,22 @@
   "country": "Países atendidos",
   "promise": "Promesas cumplidas",
   "mission": "Misión",
-
   "home_hero_sec_title": "Potenciándose en su camino con",
   "home_hero_sec_desc": "Más de 400 empresas confían en nosotros",
   "Software-Development": "Desarrollo de software",
   "home_hero_sec_loop2": "Marketing digital",
   "home_hero_sec_loop3": "Servicios de importación exportación y soluciones logísticas",
-
   "testimonials_head": "Testimonios",
-
   "testimonials_desc1": "PCOX Internet Pvt. Ltd. transformó nuestra presencia digital con sus soluciones innovadoras. Su plataforma de comercio y logística digital ha optimizado nuestras operaciones de importación y exportación, ¡lo que nos ha permitido ahorrar tiempo y dinero!",
   "testimonials_client1": "Edawrd blinkin",
-
   "testimonials_desc2": "Trabajar con PCOX Internet Pvt. Ltd. ha sido un cambio radical para nuestro negocio. Su experiencia en desarrollo web y marketing digital nos ayudó a llegar a nuevos mercados y a aumentar significativamente nuestra base de clientes.",
   "testimonials_client2": "Kelvin Thomas",
-
   "testimonials_desc3": "Teníamos dificultades con la visibilidad de la cadena de suministro hasta que nos asociamos con PCOX Internet Pvt. Ltd. Su plataforma ha proporcionado una eficiencia inigualable y datos en tiempo real, lo que ha revolucionado nuestra gestión logística.",
   "testimonials_client3": "Hileri Andrew",
-
   "testimonials_desc4": "PCOX Internet Pvt. Ltd. nos proporcionó con servicios de desarrollo de software excepcionales que se adaptaron perfectamente a nuestras necesidades comerciales. Su equipo fue profesional, receptivo y comprometido con nuestro éxito desde el primer día..",
   "testimonials_client4": "Aklima",
-
   "testimonials_desc5": "Las estrategias de marketing digital desarrolladas por PCOX Internet Pvt. Ltd. han sido increíblemente efectivas. ¡Nuestra participación en línea se ha disparado y hemos visto un aumento notable en clientes potenciales y conversiones!",
   "testimonials_client5": "Jelia trump",
-
   "mission_desc_1": "En PCOX Internet Pvt. Ltd., nuestra misión es empoderar a las empresas con soluciones digitales innovadoras que mejoren el crecimiento, la eficiencia y la participación del cliente. Nos esforzamos por ser un socio de confianza al brindar servicios personalizados y de alta calidad en desarrollo web, desarrollo de software, marketing digital y comercio y logística digitales, garantizando que nuestros clientes prosperen en el panorama digital en constante evolución.",
   "vision": "Visión",
   "vision_desc_1": "Nuestra visión es ser un líder mundial en transformación digital, conocido por nuestro compromiso con la innovación, la excelencia y el éxito del cliente. Nuestro objetivo es redefinir la experiencia digital de las empresas de todo el mundo, permitiéndoles alcanzar su máximo potencial a través de tecnología de vanguardia y soluciones digitales estratégicas.",
@@ -47,7 +39,6 @@
   "value_desc_1": "Enfoque en el cliente: ponemos a nuestros clientes en el centro de todo lo que hacemos, trabajando en estrecha colaboración con ellos para comprender sus necesidades únicas y brindar soluciones personalizadas que impulsen el éxito.",
   "value_desc_2": "Innovación: buscamos continuamente formas nuevas y creativas de resolver problemas, aceptando el cambio y adoptando las últimas tecnologías para ofrecer los mejores resultados.",
   "value_desc_3": "Integridad: mantenemos los más altos estándares de honestidad, transparencia y comportamiento ético en todas nuestras interacciones y prácticas comerciales.",
-
   "our_services": "Nuestros servicios",
   "our_services_message": "Soluciones integrales en desarrollo web, desarrollo de software, marketing digital, importación-exportación y logística para impulsar el éxito de su negocio.",
   "hr_services": "Servicios de importación-exportación y soluciones logísticas",
@@ -91,7 +82,6 @@
   "lets_get_to_work": "¡Estamos aquí para ti!",
   "social_connect": "Síganos en Redes sociales",
   "submit": "Enviar",
-
   "contact_us": "Contáctenos",
   "find_jobs": "Encuentre empleos",
   "Job_abu_dhabi": "Empleos en Abu Dhabi",
@@ -112,48 +102,38 @@
   "location": "Ubicación",
   "formcont1": "Contáctenos",
   "formdesc": "Para ayudarnos a brindar las mejores soluciones adaptadas a su negocio, complete el formulario a continuación con sus requisitos específicos.",
-
   "services_wwp_card_btn1": "Consultar ahora",
   "services_wwp_card_btn2": "Conozca más",
-
   "impo_expo_services_0": "Nuestros servicios de importación exportación y soluciones logísticas",
-
   "impo_expo_services_wwp_title": "Ofrecemos este tipo de servicios de transporte",
-  "impo_expo_services_wwp_card1_title": "Transporte terrestre",
-  "impo_expo_services_wwp_card2_title": "Transporte marítimo",
-  "impo_expo_services_wwp_card3_title": "Transporte aéreo",
-
-  "impo_expo_services_1_head": "Servicios de transporte terrestre",
-  "impo_expo_services_1_desc": "En PCOX Internet Pvt Limited, nos comprometemos a brindar servicios de transporte terrestre de primer nivel que prioricen la eficiencia, la confiabilidad y la velocidad. Nuestras soluciones están cuidadosamente diseñadas para satisfacer las demandas en constante evolución de las empresas, lo que garantiza un movimiento sin problemas de mercancías a través de fronteras locales e internacionales",
-  "impo_expo_services_1_li1": "1. Optimización del transporte terrestre",
+  "impo_expo_services_wwp_card1_title": "Carga terrestre",
+  "impo_expo_services_wwp_card2_title": "Carga marítima",
+  "impo_expo_services_wwp_card3_title": "Carga aérea",
+  "impo_expo_services_1_head": "Carga terrestre",
+  "impo_expo_services_1_desc": "En PCOX Internet Pvt Limited, estamos comprometidos a brindar servicios de carga terrestre de primer nivel que prioricen la eficiencia, la confiabilidad y la velocidad. Nuestras soluciones están cuidadosamente diseñadas para satisfacer las demandas en constante evolución de las empresas, lo que garantiza un movimiento fluido de mercancías a través de fronteras locales e internacionales.",
+  "impo_expo_services_1_li1": "1. Optimización de la carga terrestre",
   "impo_expo_services_1_li2": "2. Soluciones transfronterizas",
-  "impo_expo_services_1_li3": "3. Gestión de flotas dedicada",
-  "impo_expo_services_1_li4": "4. Manejo de carga especializado",
-
-  "impo_expo_services_2_head": "Servicios de transporte marítimo",
-  "impo_expo_services_2_desc": "En PCOX Internet Pvt Limitados, nuestros servicios de transporte marítimo están diseñados para garantizar un envío eficiente y confiable a través de aguas globales. Ofrecemos una amplia gama de soluciones para mover su carga de manera segura y a tiempo, aprovechando las asociaciones estratégicas con los principales transportistas y puertos de todo el mundo.",
-  "impo_expo_services_2_li1": "1. Optimización del transporte marítimo: Nuestro equipo se especializa en optimizar las rutas de transporte marítimo para reducir los tiempos de tránsito y los costos. Trabajamos en estrecha colaboración con las líneas navieras para ofrecer tarifas competitivas y horarios de envío flexibles adaptados a las necesidades de su negocio.",
-  "impo_expo_services_2_li2": "2. Carga de contenedor completo (FCL) y carga fraccionada (LCL): Ofrecemos opciones FCL y LCL según el tamaño de su carga. Ya sea que tenga un envío completo o uno más pequeño, nos aseguramos de que sus productos estén embalados de manera segura y transportados de manera eficiente.",
-  "impo_expo_services_2_li3": "3. Aduanas y documentación: Nuestros servicios de transporte marítimo incluyen el despacho de aduanas completo y la gestión de toda la documentación, incluidos los conocimientos de embarque, las declaraciones de exportación y los certificados de origen, lo que garantiza el cumplimiento de las normas de comercio internacional.",
-  "impo_expo_services_2_li4": "4. Envíos con temperatura controlada: Ofrecemos servicios de contenedores refrigerados para productos sensibles a la temperatura, lo que garantiza que los artículos perecederos, como alimentos y productos farmacéuticos, se mantengan en las condiciones requeridas durante todo el viaje.",
-  "impo_expo_services_2_li5": "5. Manejo de carga especializada: Para cargas de gran tamaño o especializadas, ofrecemos soluciones de transporte marítimo personalizadas, incluidos servicios de carga de proyectos y de carga pesada. Nuestro equipo garantiza una carga, sujeción y descarga adecuadas para garantizar una entrega segura.",
-
-  "impo_expo_services_3_head": "Servicios de transporte aéreo",
-  "impo_expo_services_3_desc": "En PCOX Internet Pvt Limited, nuestros servicios de transporte aéreo están diseñados para proporcionar un envío rápido, confiable y seguro para su carga sensible al tiempo. Utilizamos una red de aerolíneas y transportistas de carga globales para garantizar que sus productos lleguen a su destino de manera rápida y segura.",
-  "impo_expo_services_3_li1": "1. Optimización del transporte aéreo: Nos especializamos en optimizar las rutas de transporte aéreo para ofrecer los tiempos de tránsito más rápidos y soluciones rentables. Nuestras asociaciones con las principales aerolíneas nos permiten ofrecer horarios flexibles y tarifas competitivas para todas sus necesidades de transporte aéreo.",
-  "impo_expo_services_3_li2": "2. Envío aéreo exprés y estándar: Ya sea que necesite una entrega rápida o servicios de transporte aéreo estándar, ofrecemos opciones que se adaptan a su urgencia y presupuesto. Nuestras soluciones garantizan que su carga se maneje con cuidado y llegue a tiempo.",
-  "impo_expo_services_3_li3": "3. Despacho de aduanas y documentación: Nuestros servicios de transporte aéreo incluyen el despacho de aduanas integral y la gestión de la documentación. Nos encargamos de todos los trámites necesarios, incluidas las guías aéreas y las declaraciones de importación/exportación, para garantizar un envío sin problemas y conforme a las normas.",
-  "impo_expo_services_3_li4": "4. Carga aérea con temperatura controlada: para artículos sensibles a la temperatura, como productos farmacéuticos o productos perecederos, ofrecemos soluciones de carga aérea con temperatura controlada. Nuestros contenedores especializados mantienen las condiciones requeridas durante todo el vuelo, protegiendo sus valiosos envíos.",
-  "impo_expo_services_3_li5": "5. Servicios prioritarios y chárter: ofrecemos transporte aéreo prioritario y opciones de vuelos chárter para envíos urgentes o de alto valor. Nuestros servicios personalizados garantizan una entrega oportuna y segura, con soporte dedicado para gestionar cada aspecto de sus necesidades de transporte aéreo.",
-
+  "impo_expo_services_1_li3": "3. Gestión de flotas especializada",
+  "impo_expo_services_1_li4": "4. Manejo de carga especializada",
+  "impo_expo_services_2_head": "Carga marítima",
+  "impo_expo_services_2_desc": "En PCOX Internet Pvt Limited, nuestros servicios de carga marítima están diseñados para garantizar un envío eficiente y confiable a través de aguas globales. Ofrecemos una gama integral de soluciones para mover su carga de manera segura y a tiempo, aprovechando asociaciones estratégicas con los principales transportistas y puertos de todo el mundo.",
+  "impo_expo_services_2_li1": "1. Optimización del transporte marítimo: Nuestro equipo se especializa en optimizar las rutas de transporte marítimo para reducir los tiempos y costos de tránsito. Trabajamos en estrecha colaboración con las líneas navieras para ofrecer tarifas competitivas y horarios de envío flexibles adaptados a las necesidades de su negocio.",
+  "impo_expo_services_2_li2": "2. Carga de contenedor completo (FCL) y carga fraccionada (LCL): ofrecemos opciones FCL y LCL según el tamaño de su carga. Ya sea que tenga un envío completo o uno más pequeño, nos aseguramos de que sus productos estén embalados de forma segura y se transporten de manera eficiente.",
+  "impo_expo_services_2_li3": "3. Aduanas y documentación: nuestros servicios de carga marítima incluyen el despacho de aduanas completo y la gestión de toda la documentación, incluidos los conocimientos de embarque, las declaraciones de exportación y los certificados de origen, lo que garantiza el cumplimiento de las regulaciones comerciales internacionales.",
+  "impo_expo_services_2_li4": "4. Envío con temperatura controlada: ofrecemos servicios de contenedores refrigerados para productos sensibles a la temperatura, lo que garantiza que los artículos perecederos, como alimentos y productos farmacéuticos, se mantengan en las condiciones requeridas durante todo el viaje.",
+  "impo_expo_services_2_li5": "5. Manejo de carga especializada: para carga de gran tamaño o especializada, ofrecemos soluciones de carga marítima personalizadas, que incluyen carga de proyecto y servicios de carga pesada. Nuestro equipo garantiza la carga, el aseguramiento y la descarga adecuados para garantizar una entrega segura.",
+  "impo_expo_services_3_head": "Carga aérea",
+  "impo_expo_services_3_desc": "En PCOX Internet Pvt Limited, nuestros servicios de carga aérea están diseñados para proporcionar un envío rápido, confiable y seguro para su carga urgente. Utilizamos una red de aerolíneas y transportistas de carga globales para garantizar que sus productos lleguen a su destino de manera rápida y segura.",
+  "impo_expo_services_3_li1": "1. Optimización del transporte aéreo: Nos especializamos en optimizar las rutas de transporte aéreo para ofrecer los tiempos de tránsito más rápidos y soluciones rentables. Nuestras asociaciones con las principales aerolíneas nos permiten ofrecer horarios flexibles y tarifas competitivas para todas sus necesidades de carga aérea.",
+  "impo_expo_services_3_li2": "2. Envío aéreo exprés y estándar: Ya sea que necesite una entrega urgente o servicios de transporte aéreo estándar, ofrecemos opciones que se adaptan a su urgencia y presupuesto. Nuestras soluciones garantizan que su carga se maneje con cuidado y llegue a tiempo.",
+  "impo_expo_services_3_li3": "3. Despacho de aduanas y documentación: Nuestros servicios de carga aérea incluyen el despacho de aduanas integral y la gestión de la documentación. Nos encargamos de todos los trámites necesarios, incluidas las guías aéreas y las declaraciones de importación/exportación, para garantizar un envío sin problemas y conforme a las normas.",
+  "impo_expo_services_3_li4": "4. Carga aérea con temperatura controlada: Para artículos sensibles a la temperatura, como productos farmacéuticos o productos perecederos, ofrecemos soluciones de carga aérea con temperatura controlada. Nuestros contenedores especializados mantienen las condiciones requeridas durante todo el vuelo, protegiendo sus valiosos envíos.",
+  "impo_expo_services_3_li5": "5. Servicios prioritarios y chárter: Ofrecemos opciones de carga aérea prioritaria y vuelos chárter para envíos urgentes o de alto valor. Nuestros servicios personalizados garantizan una entrega oportuna y segura, con soporte dedicado para gestionar cada aspecto de sus necesidades de carga aérea.",
   "software_dev_0": "Nuestros servicios de desarrollo de software",
-
   "software_dev_0_title": "Ofrecemos una variedad de servicios",
-
   "get_started": "Comience",
   "software_dev_1_head": "Desarrollo de software",
   "sd_main_desc": "Soluciones personalizadas para satisfacer las necesidades únicas de su negocio, desde el concepto hasta la implementación",
-
   "sd_process1_main_title": "Nuestro proceso de desarrollo",
   "sd_process1_1_title": "1. Análisis de requisitos",
   "sd_process1_1_desc": "Comenzamos con un análisis detallado de las necesidades de su negocio para garantizar que la solución de software cumpla con sus requisitos específicos",
@@ -163,7 +143,6 @@
   "sd_process1_3_desc": "Usamos las mejores prácticas de la industria para crear software sólido y escalable y realizamos pruebas exhaustivas para garantizar la calidad",
   "sd_process1_4_title": "4. Implementación y soporte",
   "sd_process1_4_desc": "Nos encargamos de la implementación y brindamos soporte y mantenimiento continuos para garantizar un rendimiento óptimo",
-
   "sd_solution1_title": "Soluciones de software que brindamos",
   "sd_solution1_1": "Sistemas ERP",
   "sd_solution1_2": "Software CRM",
@@ -177,10 +156,8 @@
   "sd_solution1_10": "Gestión financiera",
   "sd_solution1_11": "Plataformas de comercio electrónico",
   "sd_solution1_12": "Soluciones de soporte técnico",
-
   "web_dev_1_head": "Desarrollo de aplicaciones web",
   "wd_main_desc": "Utilizamos las últimas tecnologías para crear aplicaciones que sean funcionales y fáciles de usar",
-
   "wd_process1_main_title": "Nuestro proceso de desarrollo",
   "wd_process1_1_title": "1. Desarrollo front-end",
   "wd_process1_1_desc": "Diseñamos y desarrollamos interfaces de usuario intuitivas y responsivas para brindar una experiencia de usuario perfecta en todos los dispositivos.",
@@ -190,7 +167,6 @@
   "wd_process1_3_desc": "Implementamos bases de datos seguras y eficientes para respaldar las necesidades de almacenamiento y recuperación de datos de su aplicación web, lo que garantiza un alto rendimiento y confiabilidad.",
   "wd_process1_4_title": "4. Desarrollo de API",
   "wd_process1_4_desc": "Creamos e integramos API para facilitar la comunicación entre su aplicación web y sus clientes. aplicación web y otros servicios, lo que garantiza un intercambio de datos fluido y eficiente.",
-
   "wd_solution1_title": "Tecnologías que utilizamos",
   "wd_solution1_1": "React",
   "wd_solution1_2": "Angular",
@@ -204,10 +180,8 @@
   "wd_solution1_10": "MySQL",
   "wd_solution1_11": "Firebase",
   "wd_solution1_12": "GraphQL",
-
   "mob_dev_1_head": "Desarrollo de aplicaciones móviles",
   "md_main_desc": "Ofrecemos servicios integrales de desarrollo de aplicaciones móviles para plataformas iOS y Android.",
-
   "md_process1_main_title": "Nuestro proceso de desarrollo",
   "md_process1_1_title": "1. Desarrollo de aplicaciones nativas",
   "md_process1_1_desc": "Desarrollamos aplicaciones nativas adaptadas a los requisitos específicos de las plataformas iOS y Android, garantizando un rendimiento y una experiencia de usuario óptimos.",
@@ -217,17 +191,14 @@
   "md_process1_3_desc": "Diseñamos interfaces atractivas y fáciles de usar para aplicaciones móviles, centrándonos en la usabilidad y el atractivo visual para mejorar la satisfacción del usuario.",
   "md_process1_4_title": "4. Pruebas y optimización de aplicaciones",
   "md_process1_4_desc": "Realizamos pruebas y optimizaciones exhaustivas para garantizar que su aplicación funcione sin problemas en diferentes dispositivos y sistemas operativos.",
-
   "md_solution1_title": "Tecnologías que utilizamos",
   "md_solution1_1": "React Native",
   "md_solution1_2": "Flutter",
   "md_solution1_3": "Swift",
   "md_solution1_4": "Kotlin",
   "md_solution1_5": "Xamarin",
-
   "sis_dev_1_head": "Integración de software",
   "sis_main_desc": "Nuestros servicios de integración de software lo ayudan a conectar varios sistemas y aplicaciones para optimizar sus operaciones.",
-
   "sis_process1_main_title": "Nuestro proceso de integración",
   "sis_process1_1_title": "1. Análisis del sistema",
   "sis_process1_1_desc": "Analizamos sus sistemas existentes para identificar puntos de integración y requisitos, diseñando soluciones que satisfagan sus necesidades específicas.",
@@ -237,17 +208,14 @@
   "sis_process1_3_desc": "Gestionamos la migración de sus datos entre sistemas, asegurando la precisión e integridad y minimizando las interrupciones en su negocio.",
   "sis_process1_4_title": "4. Pruebas de integración",
   "sis_process1_4_desc": "Realizamos pruebas exhaustivas para garantizar que los sistemas integrados funcionen de manera correcta y eficiente, cumpliendo con sus estándares de rendimiento y confiabilidad.",
-
   "sis_solution1_title": "Lo que hacemos Integrar",
   "sis_solution1_1": "API REST",
   "sis_solution1_2": "API SOAP",
   "sis_solution1_3": "OAuth 2.0",
   "sis_solution1_4": "GraphQL",
   "sis_solution1_5": "Zapier",
-
   "cb_dev_1_head": "Soluciones basadas en la nube",
   "cb_main_desc": "Soluciones personalizadas para servicios e infraestructura en la nube, que mejoran la agilidad de su negocio.",
-
   "cb_process1_main_title": "Nuestras soluciones basadas en la nube",
   "cb_process1_1_title": "1. Desarrollo de aplicaciones en la nube",
   "cb_process1_1_desc": "Diseñamos y construimos aplicaciones en la nube personalizadas que se adaptan a las necesidades de su negocio e impulsan el crecimiento.",
@@ -257,16 +225,13 @@
   "cb_process1_3_desc": "Integre varios servicios y aplicaciones en la nube para lograr una operación unificada y eficiente.",
   "cb_process1_4_title": "4. Seguridad en la nube",
   "cb_process1_4_desc": "Implemente medidas de seguridad sólidas para proteger sus datos y aplicaciones en la nube.",
-
   "cb_solution1_title": "Tecnologías en la nube que utilizamos",
   "cb_solution1_1": "AWS",
   "cb_solution1_2": "Microsoft Azure",
   "cb_solution1_3": "Google Cloud",
   "cb_solution1_4": "Cloudflare",
-
   "sm_dev_1_head": "Soluciones de gestión de software",
   "sm_main_desc": "Gestión eficiente de sistemas de software para optimizar el rendimiento y mejorar la productividad.",
-
   "sm_process1_main_title": "Nuestros servicios de gestión de software",
   "sm_process1_1_title": "1. Gestión del ciclo de vida del software",
   "sm_process1_1_desc": "Garantizamos un enfoque fluido y estructurado para el desarrollo de software, desde la planificación hasta la implementación.",
@@ -276,29 +241,23 @@
   "sm_process1_3_desc": "Realice un seguimiento, priorice y resuelva errores de manera eficiente para garantizar una experiencia de software perfecta.",
   "sm_process1_4_title": "4. Monitoreo del rendimiento",
   "sm_process1_4_desc": "Monitoree el rendimiento de su software en tiempo real para identificar y abordar problemas potenciales de manera temprana.",
-
   "sm_solution1_title": "Herramientas de administración de software que usamos",
   "sm_solution1_1": "Jira",
   "sm_solution1_2": "GitLab",
   "sm_solution1_3": "Trello",
   "sm_solution1_4": "Azure DevOps",
-
   "contact_us_bottom_title": "¿Está listo para transformar su negocio?",
   "contact_us_bottom_desc": "Hablemos sobre cómo nuestras soluciones de software pueden impulsar su éxito.",
   "contact_us_bottom_btn": "Contáctenos",
-
   "software_dev_2_head": "Desarrollo de aplicaciones web",
   "software_dev_3_head": "Desarrollo de aplicaciones móviles",
   "software_dev_4_head": "Integración de software",
   "software_dev_5_head": "Soluciones basadas en la nube",
   "software_dev_6_head": "Mantenimiento de software",
-
   "thirt_party_0": "Mercadotecnia Digital",
-
   "thirt_party_1_head": "Optimización de motores de búsqueda",
   "seo_dev_1_head": "Optimización de motores de búsqueda",
   "seo_main_desc": "Usamos un enfoque basado en datos para mejorar su presencia en línea y generar tráfico orgánico.",
-
   "seo_process1_main_title": "Nuestra estrategia de SEO",
   "seo_process1_1_title": "1. Investigación de palabras clave",
   "seo_process1_1_desc": "Realizamos una investigación exhaustiva de palabras clave para identificar las palabras clave más relevantes y de mayor tráfico para su negocio, optimizando su contenido para obtener mejores clasificaciones en los motores de búsqueda.",
@@ -308,22 +267,18 @@
   "seo_process1_3_desc": "Desarrollamos una campaña estratégica de link building para aumentar la autoridad y credibilidad de tu sitio web, mejorando tus posibilidades de posicionarte mejor en los resultados de búsqueda.",
   "seo_process1_4_title": "4. Seguimiento del rendimiento",
   "seo_process1_4_desc": "Monitoreamos continuamente el rendimiento de su SEO, utilizando análisis para realizar un seguimiento del progreso, identificar áreas de mejora y ajustar las estrategias según sea necesario.",
-
   "seo_solution1_title": "Herramientas de SEO que utilizamos",
   "seo_solution1_1": "Google Analytics",
   "seo_solution1_2": "Ahrefs",
   "seo_solution1_3": "SEMrush",
   "seo_solution1_4": "Yoast SEO",
   "seo_solution1_5": "Google Search Console",
-
   "seo_contact_title": "¿Está listo para mejorar su estrategia de SEO?",
   "seo_contact_desc": "Hablemos sobre cómo nuestros servicios de SEO pueden mejorar su presencia en línea y generar tráfico orgánico.",
   "seo_contact_btn": "Contáctenos",
-
   "thirt_party_2_head": "Marketing de contenidos",
   "content_marketing_head": "Marketing de contenidos",
   "content_marketing_main_desc": "Nuestros servicios de marketing de contenidos se centran en crear contenido valioso y relevante que atraiga, involucre y retenga a su público objetivo.",
-
   "content_marketing_process1_main_title": "Nuestra estrategia de marketing de contenidos",
   "content_marketing_process1_1_title": "1. Planificación de contenidos",
   "content_marketing_process1_1_desc": "Desarrollamos una estrategia de contenido integral que se alinea con sus objetivos comerciales, las necesidades de la audiencia y las tendencias de la industria.",
@@ -333,22 +288,18 @@
   "content_marketing_process1_3_desc": "Distribuimos estratégicamente su contenido en varias plataformas para maximizar el alcance y la visibilidad.",
   "content_marketing_process1_4_title": "4. Seguimiento del rendimiento",
   "content_marketing_process1_4_desc": "Analizamos el rendimiento de sus campañas de marketing de contenido y hacemos un seguimiento de las métricas clave para medir la eficacia.",
-
   "content_marketing_solution1_title": "Herramientas de marketing de contenido que utilizamos",
   "content_marketing_solution1_1": "Google Analytics",
   "content_marketing_solution1_2": "HubSpot",
   "content_marketing_solution1_3": "BuzzSumo",
   "content_marketing_solution1_4": "CoSchedule",
   "content_marketing_solution1_5": "SEMrush",
-
   "content_marketing_contact_title": "¿Está listo para mejorar su estrategia de contenido?",
   "content_marketing_contact_desc": "Hablemos sobre cómo nuestros servicios de marketing de contenido pueden impulsar la participación y hacer crecer su audiencia.",
   "content_marketing_contact_btn": "Contáctenos",
-
   "thirt_party_3_head": "Marketing en redes sociales",
   "social_media_marketing_head": "Marketing en redes sociales",
   "social_media_marketing_main_desc": "Nuestros servicios de marketing en redes sociales ayudan a las empresas a construir una fuerte presencia en línea, interactuar con las audiencias e impulsar las conversiones.",
-
   "social_media_marketing_process1_main_title": "Nuestra estrategia de marketing en redes sociales",
   "social_media_marketing_process1_1_title": "1. Investigación de audiencia",
   "social_media_marketing_process1_1_desc": "Analizamos su audiencia objetivo para comprender sus preferencias, comportamientos y las plataformas que frecuentan para adaptar las campañas de manera efectiva.",
@@ -358,67 +309,52 @@
   "social_media_marketing_process1_3_desc": "Nuestro equipo administra sus plataformas de redes sociales, publica contenido, interactúa con los seguidores y garantiza la coherencia en todos los canales.",
   "social_media_marketing_process1_4_title": "4. Análisis de rendimiento",
   "social_media_marketing_process1_4_desc": "Realizamos un seguimiento de las métricas de rendimiento clave, monitoreamos las tendencias y ajustamos las estrategias para garantizar que sus campañas sigan brindando resultados sólidos",
-
   "social_media_marketing_solution1_title": "Plataformas de redes sociales en las que nos especializamos",
   "social_media_marketing_solution1_1": "Facebook",
   "social_media_marketing_solution1_2": "Instagram",
   "social_media_marketing_solution1_3": "LinkedIn",
   "social_media_marketing_solution1_4": "Twitter",
   "social_media_marketing_solution1_5": "YouTube",
-
   "social_media_marketing_contact_title": "¿Está listo para mejorar su presencia en las redes sociales?",
   "social_media_marketing_contact_desc": "Hablemos sobre cómo nuestros servicios de marketing en redes sociales pueden ayudarlo a interactuar con su audiencia y hacer crecer su marca",
   "social_media_marketing_contact_btn": "Contáctenos",
-
   "thirt_party_4_head": "Publicidad de pago por clic",
   "ppc_advertising_head": "Publicidad de pago por clic",
   "ppc_advertising_main_desc": "Nuestros servicios de publicidad PPC lo ayudan a generar tráfico dirigido a su sitio web a través de ubicaciones estratégicas de anuncios, maximizando el ROI con cada clic",
-
   "ppc_advertising_process1_main_title": "Nuestra estrategia de publicidad PPC",
   "ppc_advertising_process1_1_title": "1. Planificación de campañas",
   "ppc_advertising_process1_1_desc": "Desarrollamos una estrategia de campaña PPC detallada adaptada a sus objetivos comerciales, identificando las mejores plataformas y palabras clave para un máximo impacto",
-
   "ppc_advertising_process1_2_title": "2. Creación de anuncios",
   "ppc_advertising_process1_2_desc": "Nuestro equipo diseña anuncios atractivos con texto persuasivo y elementos visuales atractivos que Capte la atención y genere conversiones.",
   "ppc_advertising_process1_3_title": "3. Gestión de ofertas",
   "ppc_advertising_process1_3_desc": "Gestionamos sus ofertas para optimizar la ubicación de los anuncios y garantizar un gasto rentable en función de los datos de rendimiento.",
   "ppc_advertising_process1_4_title": "4. Monitoreo de desempeño",
   "ppc_advertising_process1_4_desc": "Monitoreamos continuamente sus campañas de PPC, analizando métricas clave para refinar las estrategias y mejorar el ROI con el tiempo.",
-
   "ppc_advertising_solution1_title": "Plataformas de PPC en las que nos destacamos",
   "ppc_advertising_solution1_1": "Anuncios de Google",
   "ppc_advertising_solution1_2": "Anuncios de Bing",
   "ppc_advertising_solution1_3": "Anuncios de Facebook",
   "ppc_advertising_solution1_4": "Anuncios de LinkedIn",
   "ppc_advertising_solution1_5": "Anuncios de Twitter",
-
   "ppc_contact_title": "¿Está listo para aumentar su tráfico con PPC?",
   "ppc_contact_desc": "Hablemos sobre cómo nuestros servicios de PPC pueden mejorar su presencia en línea.",
   "ppc_contact_btn": "Contáctenos",
-
   "blog_title": "Navegando por el comercio global: estrategias de importación y exportación para 2024",
   "blog_date": "9 de septiembre de 2024",
   "blog_author": "Perspectivas sobre el comercio global",
   "blog_intro": "En el panorama en constante evolución del comercio global, 2024 presenta nuevos desafíos y oportunidades. Desde interrupciones en la cadena de suministro hasta guerras comerciales y regulaciones cambiantes, las empresas que participan en la importación y exportación deben ser ágiles y proactivas. En este blog, exploraremos estrategias clave para optimizar sus operaciones de importación y exportación, mitigar los riesgos y aprovechar las oportunidades en los mercados emergentes",
-
   "section1_title": "Diversificación de las cadenas de suministro para la estabilidad",
   "section1_desc": "Con las tensiones geopolíticas y las restricciones comerciales en aumento, diversificar su cadena de suministro es esencial. Las empresas deben explorar la posibilidad de abastecerse en varios países para minimizar las interrupciones y garantizar un flujo constante de bienes. Al aprovechar los acuerdos de libre comercio y forjar nuevas asociaciones, puede proteger sus operaciones de cambios inesperados. disrupciones.",
-
   "section2_title": "Aprovechar la tecnología para la eficiencia comercial",
   "section2_desc": "Las soluciones digitales están transformando la forma en que comerciamos. Desde la tecnología blockchain que garantiza la transparencia en las transacciones hasta los análisis impulsados ​​por IA que predicen las tendencias del mercado, las empresas que adopten innovaciones tecnológicas obtendrán una ventaja competitiva. La implementación del seguimiento en tiempo real y el procesamiento aduanero digital puede agilizar sus actividades de importación y exportación.",
-
   "section3_title": "Adaptación a las cambiantes regulaciones comerciales",
   "section3_desc": "El año 2024 trae cambios en las regulaciones comerciales, en particular con nuevos requisitos ambientales y de sostenibilidad. Mantenerse a la vanguardia de estas regulaciones no solo ayudará a evitar sanciones, sino que también puede abrir las puertas a nuevos mercados. Comprender los matices de las regulaciones, como los ajustes fronterizos de carbono y las certificaciones de sostenibilidad, será crucial para el éxito a largo plazo.",
-
   "section4_title": "Explorar los mercados emergentes",
   "section4_desc": "Los mercados emergentes de Asia, África y América Latina ofrecen oportunidades lucrativas para las empresas que buscan expandir su alcance global. Con una clase media en crecimiento y una mayor demanda de bienes, estas regiones ofrecen un potencial sin explotar para los exportadores. Realizar estudios de mercado exhaustivos y establecer alianzas locales será fundamental para ingresar con éxito a estos mercados.",
-
   "section5_title": "Mitigación de riesgos comerciales",
   "section5_desc": "El entorno comercial internacional está plagado de riesgos, entre ellos, fluctuaciones en los valores de las divisas, inestabilidad política y desafíos logísticos. Las empresas deben implementar estrategias de gestión de riesgos, como la protección contra las fluctuaciones cambiarias, la diversificación de las bases de clientes y la obtención de seguros de crédito comercial para minimizar las posibles pérdidas.",
-
   "section6_title": "Sustentabilidad y abastecimiento ético",
   "section6_desc": "Los consumidores y los gobiernos están dando cada vez más prioridad a la sustentabilidad y al abastecimiento ético. Las empresas que adopten prácticas respetuosas con el medio ambiente, como la reducción de las emisiones de carbono en los envíos y el abastecimiento de proveedores éticos, no solo cumplirán con las regulaciones, sino que también mejorarán la reputación de su marca y atraerán a consumidores conscientes.",
-
   "blog_title1": "Por qué su empresa necesita software personalizado",
   "blog_author1": "Soluciones tecnológicas",
   "blog_date1": "9 de septiembre de 2024",
@@ -435,7 +371,6 @@
   "section5_desc1": "Al implementar un software diseñado específicamente para su negocio, puede obtener una importante ventaja competitiva. El software personalizado le permite innovar y ofrecer servicios o productos que los competidores que usan software genérico no pueden. Permite una mayor flexibilidad y capacidad de respuesta a los cambios del mercado, posicionando a su negocio como líder en su industria.",
   "section6_title1": "Asegurar el futuro de su negocio",
   "section6_desc1": "La tecnología evoluciona rápidamente y las empresas necesitan soluciones que puedan adaptarse a estos cambios. El software personalizado se puede diseñar teniendo en cuenta la escalabilidad, lo que garantiza que crezca junto con su negocio. Se pueden agregar actualizaciones y nuevas funciones según sea necesario, manteniendo su software relevante y eficiente sin la necesidad de reemplazos completos.",
-
   "blog_byb_title1": "Potencia tu marca",
   "blog_byb_author1": "Soluciones tecnológicas",
   "blog_byb_date1": "19 de julio de 2024",
@@ -449,7 +384,6 @@
   "section4_byb_desc1": "El contenido de alta calidad es una piedra angular de una marca eficaz. No solo atrae y retiene a los clientes, sino que también establece su marca como una autoridad en su industria. Invertir en la creación de contenido profesional, incluidos blogs, videos e infografías, puede afectar significativamente la reputación y el éxito de su marca.",
   "section5_byb_title1": "Monitoreo y adaptación de su estrategia de marca",
   "section5_byb_desc1": "El monitoreo y la adaptación continuos de su estrategia de marca son esenciales para el éxito a largo plazo. Analizar métricas de rendimiento clave, recopilar comentarios de los clientes y mantenerse actualizado con las tendencias del mercado lo ayudarán a perfeccionar su enfoque y garantizar que su marca siga siendo relevante y competitiva",
-
   "hr_busi_0": "Consultoría de negocios de RR.HH.",
   "hr_busi_1": "Bienvenido a nuestros servicios de Consultoría de negocios de RR.HH., donde la experiencia se encuentra con la innovación. En nuestra firma, comprendemos los desafíos dinámicos que enfrentan las empresas en el panorama competitivo actual. Con un equipo de consultores experimentados, ofrecemos orientación estratégica adaptada a sus necesidades específicas. Ya sea que sea una empresa emergente que busca establecer su presencia en el mercado o una corporación establecida que apunta a la excelencia operativa, nuestras soluciones integrales lo capacitan para alcanzar sus objetivos.",
   "hr_busi_2": "En el ámbito de la Consultoría de negocios de RR.HH., redefinimos las posibilidades. Nuestro dedicado equipo de profesionales combina conocimientos de la industria con creatividad, brindando soluciones innovadoras que impulsan el crecimiento empresarial. Creemos no solo en cumplir, sino también en superar las expectativas del cliente. Al aprovechar nuestra experiencia en áreas como investigación de mercado, planificación estratégica y desarrollo organizacional, ayudamos a las empresas a tomar decisiones informadas y mantenerse por delante de la competencia. Permítanos ser sus socios estratégicos y guiarlo hacia un futuro de éxito y crecimiento sin igual.",
@@ -460,16 +394,13 @@
   "hr_comp_1": "Navegar por el complejo panorama del cumplimiento de RR. HH. y las regulaciones legales es crucial para cualquier negocio. Nuestros servicios de Cumplimiento de RR.HH. y Asistencia Legal están diseñados para brindarle orientación experta y tranquilidad. Nos mantenemos actualizados con las últimas leyes y regulaciones laborales, lo que garantiza que las políticas y prácticas de su empresa se alineen perfectamente con los requisitos legales.",
   "hr_comp_2": "Nuestro equipo dedicado de profesionales ofrece un apoyo integral en la redacción, revisión y actualización de políticas y procedimientos de RR.HH. Realizamos auditorías exhaustivas para identificar áreas potenciales de riesgo y lo orientamos sobre las mejores prácticas para mitigar los desafíos legales. Ya sean contratos de empleo, políticas antidiscriminación o pautas de seguridad en el lugar de trabajo, adaptamos nuestros servicios a las necesidades específicas de su industria, lo que garantiza el cumplimiento de las leyes locales, estatales y federales.",
   "hr_comp_3": "Al asociarse con nosotros para el Cumplimiento de RR.HH. y Asistencia Legal, puede concentrarse en sus actividades comerciales principales, con la confianza de que sus prácticas de RR.HH. están en línea con la ley. Manténgase a la vanguardia de los cambios regulatorios, minimice los riesgos legales y fomente un entorno de trabajo que promueva tanto el cumplimiento legal como la integridad ética. Permítanos ser su socio de confianza para garantizar un lugar de trabajo seguro y que cumpla con las normas para sus empleados.",
-
   "read_more": "Leer más",
-
   "first_name_form": "Ingresa tu nombre",
   "last_name_form": "Ingresa tu apellido",
   "email_form": "Ingrese su dirección de correo electrónico",
   "num_code_form": "Número de teléfono con código de país",
   "msg_form": "Escribe tu mensaje...",
-
-  "landTransportationHeading": "Servicios de transporte terrestre",
+  "landTransportationHeading": "Carga terrestre",
   "landTransportationDescription": "En PCOX Internet Pvt Limited, nos especializamos en brindar soluciones de transporte terrestre eficientes y confiables diseñadas para satisfacer sus necesidades logísticas específicas",
   "landTransportationFeature1": "Optimización del transporte terrestre",
   "landTransportationFeature2": "Soluciones transfronterizas",
@@ -481,8 +412,7 @@
   "landTransportationProcess4": "Almacenamiento",
   "landTransportationContact": "Contacte con nosotros para obtener soluciones de transporte terrestre personalizadas, desde gestión de flotas hasta servicios transfronterizos.",
   "landTransportationContactLink": "Contáctanos!",
-
-  "seaTransportationHeading": "Servicios de transporte marítimo",
+  "seaTransportationHeading": "Carga marítima",
   "seaTransportationDescription": "En PCOX Internet Pvt Limited, ofrecemos soluciones de transporte marítimo confiables y eficientes, garantizando que su carga llegue a su destino de manera segura y a tiempo.",
   "seaTransportationFeature1": "Soluciones de envío globales",
   "seaTransportationFeature2": "Gestión de contenedores",
@@ -494,8 +424,7 @@
   "seaTransportationProcess4": "Almacenamiento",
   "seaTransportationContact": "Contáctenos para obtener servicios de transporte marítimo confiables y un despacho de aduana sin problemas para su carga.",
   "seaTransportationContactLink": "Contáctanos!",
-
-  "airTransportationHeading": "Servicios de transporte aéreo",
+  "airTransportationHeading": "Carga aéreo",
   "airTransportationDescription": "En PCOX Internet Pvt Limited, ofrecemos soluciones de transporte aéreo rápidas y eficientes para sus necesidades de envío urgente, garantizando una entrega oportuna en todo el mundo.",
   "airTransportationFeature1": "Entrega exprés",
   "airTransportationFeature2": "Soluciones de transporte global",
@@ -507,9 +436,7 @@
   "airTransportationProcess4": "Almacenamiento",
   "airTransportationContact": "¿Necesita transporte aéreo rápido? Contáctenos para entrega exprés y seguimiento en tiempo real para sus necesidades de envío urgente.",
   "airTransportationContactLink": "Contáctanos!",
-
   "landTransportationProcessTitle": "Nuestro proceso",
-
   "pageTitle": "Servicios de nómina de terceros para RR. HH.",
   "breadcrumbTitle": "thirt_party_0",
   "serviceDetailsHeader": "En marketing digital, esto es lo que ofrecemos",
@@ -526,6 +453,5 @@
   "serviceCard3Contact": "services_wwp_card_btn1",
   "serviceCard3ServicePage": "services_wwp_card_btn2",
   "serviceCard4Title": "Publicidad de pago por clic",
-
   "company_address": "Innov8 Mantri commercio, quinto piso, Torre-A Bellandur ORR, Bengaluru, Karnataka 560103"
 }

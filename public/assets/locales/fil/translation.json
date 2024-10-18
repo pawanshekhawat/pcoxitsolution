@@ -16,30 +16,22 @@
   "country": "Mga Bansang Pinaglilingkuran",
   "promise": "Mga Pangako na Natupad",
   "misyon": "Misyon",
-
   "home_hero_sec_title": "Pagpapalakas sa Iyong Paglalakbay kasama",
   "home_hero_sec_desc": "Pinagkakatiwalaan ng mahigit 400+ kumpanya",
   "Software-Development": "Pagbuo ng Software",
   "home_hero_sec_loop2": " Digital Marketing",
   "home_hero_sec_loop3": "Import-Export Services sa Logistics Solutions",
-
   "testimonials_head": "Mga testimonial",
-
   "testimonials_desc1": "Binago ng PCOX Internet Pvt. Ltd. ang aming digital presence gamit ang kanilang mga makabagong solusyon. Ang kanilang Digital Trade & Logistics Platform ay na-streamline ang aming mga operasyon sa pag-import-export, na nakakatipid sa amin ng oras at pera!",
   "testimonials_client1": "Edawrd blinkin",
-
   "testimonials_desc2": "Ang pakikipagtulungan sa PCOX Internet Pvt. Ltd. ay naging game-changer para sa aming negosyo. Ang kanilang kadalubhasaan sa web development at digital marketing ay nakatulong sa amin na maabot ang mga bagong market at makabuluhang mapalago ang aming client base.",
   "testimonials_client2": "Kelvin Thomas",
-
   "testimonials_desc3": "Nahihirapan kami sa visibility ng supply chain hanggang sa nakipagsosyo kami sa PCOX Internet Pvt. Ltd. Nagbigay ang kanilang platform ng walang kaparis na kahusayan at real-time na data, na nagbabago ng aming pamamahala sa logistik.",
   "testimonials_client3": "Hileri Andrew",
-
   "testimonials_desc4": "Ang PCOX Internet Pvt. Ltd. ay nagbigay sa amin ng pambihirang mga serbisyo sa pagbuo ng software na ganap na angkop sa aming mga pangangailangan sa negosyo. Ang kanilang koponan ay propesyonal, tumutugon, at nakatuon sa aming tagumpay mula sa unang araw..",
   "testimonials_client4": "Aklima",
-
   "testimonials_desc5": "Ang mga diskarte sa digital marketing na binuo ng PCOX Internet Pvt. Ltd. ay naging napakabisa. Ang aming online na pakikipag-ugnayan ay tumaas, at nakakita kami ng kapansin-pansing pagtaas sa mga lead at conversion!",
   "testimonials_client5": "Jelia trump",
-
   "mission_desc_1": "Sa PCOX Internet Pvt. Ltd., ang aming misyon ay bigyang kapangyarihan ang mga negosyo gamit ang mga makabagong digital na solusyon na nagpapahusay sa paglago, kahusayan, at pakikipag-ugnayan sa customer. Nagsusumikap kaming maging isang pinagkakatiwalaang kasosyo sa pamamagitan ng paghahatid ng mga pinasadya, mataas na kalidad na mga serbisyo sa web development, software development, digital marketing, at digital trade at logistics, na tinitiyak na umunlad ang aming mga kliyente sa patuloy na nagbabagong digital landscape.",
   "vision": "Vision",
   "vision_desc_1": "Ang aming pananaw ay maging isang pandaigdigang lider sa digital na pagbabago, na kilala sa aming pangako sa pagbabago, kahusayan, at tagumpay ng kliyente. Nilalayon naming muling tukuyin ang digital na karanasan para sa mga negosyo sa buong mundo, na nagbibigay-daan sa kanila na maabot ang kanilang buong potensyal sa pamamagitan ng pagputol -edge na teknolohiya at mga madiskarteng digital na solusyon.",
@@ -47,7 +39,6 @@
   "value_desc_1": "Focus ng Kliyente: Inilalagay namin ang aming mga kliyente sa gitna ng lahat ng aming ginagawa, nakikipagtulungan nang malapit sa kanila upang maunawaan ang kanilang mga natatanging pangangailangan at maghatid ng mga pasadyang solusyon na nagtutulak ng tagumpay.",
   "value_desc_2": "Innovation: Patuloy kaming naghahanap ng mga bago at malikhaing paraan upang malutas ang mga problema, yakapin ang pagbabago at gamitin ang pinakabagong mga teknolohiya upang maihatid ang pinakamahusay na mga resulta.",
   "value_desc_3": "Integridad: Sinusuportahan namin ang pinakamataas na pamantayan ng katapatan, transparency, at etikal na pag-uugali sa lahat ng aming mga pakikipag-ugnayan at mga kasanayan sa negosyo.",
-
   "our_services": "Aming Serbisyo",
   "our_services_message": "Mga komprehensibong solusyon sa web development, software development, digital marketing, import-export, at logistics upang himukin ang tagumpay ng iyong negosyo.",
   "hr_services": " Import-Export Services sa Logistics Solutions",
@@ -66,7 +57,7 @@
   "industries_we_serve_message": "Ipinagmamalaki namin ang pag-aalok ng mga makabagong solusyon at serbisyo sa magkakaibang hanay ng mga industriya",
   "building_construction": "E-commerce",
   "building_construction_message": "Pagpapahusay ng mga karanasan sa online shopping sa web development, digital marketing, at mahusay na logistik.",
-  "road_construction": "Pangangalaga sa kalusugan",
+  "road_construction": "Kalusugan",
   "road_construction_message": "Pagbuo ng custom na software para sa pamamahala ng pasyente, pagmemerkado ng mga serbisyo sa pangangalagang pangkalusugan, at pagtiyak ng maayos na logistik para sa mga medikal na suplay.",
   "oil_and_gas": "Paggawa",
   "oil_and_gas_message": "Pag-streamline ng mga supply chain, pagpapabuti ng logistik, at pagpapatupad ng mga custom na solusyon sa software para sa kahusayan sa produksyon.",
@@ -111,51 +102,38 @@
   "location": "Lokasyon",
   "formcont1": "Makipag-ugnayan sa Amin",
   "formdesc": "Upang matulungan kaming magbigay ng pinakamahusay na mga solusyon na angkop sa iyong negosyo, mangyaring punan ang form sa ibaba ng iyong mga partikular na kinakailangan.",
-
   "services_wwp_card_btn1": "Mag-inquire ngayon",
   "services_wwp_card_btn2": "alam pa",
-
   "impo_expo_services_0": "Aming Import-Export Services sa Logistics Solutions",
-
   "impo_expo_services_wwp_title": "Nagbibigay kami ng mga ganitong uri ng serbisyo sa transportasyon",
-  "impo_expo_services_wwp_card1_title": "Transportasyon sa Lupa",
-  "impo_expo_services_wwp_card2_title": "Transportasyon sa Dagat",
-  "impo_expo_services_wwp_card3_title": "Transportasyon sa himpapawid",
-
-  "impo_expo_services_1_head": "Mga Serbisyo sa Road Transportation",
-  "impo_expo_services_1_desc": "Sa PCOX Internet Pvt Limited, nakatuon kami sa pagbibigay ng mga nangungunang serbisyo sa transportasyong pang-lupa na inuuna ang kahusayan, pagiging maaasahan, at bilis. Ang aming mga solusyon ay maingat na ginawa upang matugunan ang patuloy na umuusbong na mga pangangailangan ng mga negosyo, na tinitiyak ang tuluy-tuloy na paggalaw ng mga kalakal sa parehong lokal at internasyonal na mga hangganan.",
-  "impo_expo_services_1_li1": "1. Road Transportation Optimization",
+  "impo_expo_services_wwp_card1_title": "Land Cargo",
+  "impo_expo_services_wwp_card2_title": "Marine Cargo",
+  "impo_expo_services_wwp_card3_title": "Air Cargo",
+  "impo_expo_services_1_head": "Land Cargo",
+  "impo_expo_services_1_desc": "Sa PCOX Internet Pvt Limited, nakatuon kami sa pagbibigay ng top-tier land cargo services na inuuna ang kahusayan, pagiging maaasahan, at bilis. Ang aming mga solusyon ay maingat na ginawa upang matugunan ang patuloy na umuusbong na mga pangangailangan ng mga negosyo, na tinitiyak ang tuluy-tuloy na paggalaw ng mga kalakal sa parehong lokal at internasyonal na mga hangganan.",
+  "impo_expo_services_1_li1": "1. Land Cargo Optimization",
   "impo_expo_services_1_li2": "2. Cross-Border Solutions",
   "impo_expo_services_1_li3": "3. Dedicated Fleet Management",
   "impo_expo_services_1_li4": "4. Specialized Cargo Handling",
-
-  "impo_expo_services_2_head": "Mga Serbisyo sa Transportasyong Dagat",
-  "impo_expo_services_2_desc": "Sa PCOX Internet Pvt Limited, ang aming mga serbisyo sa transportasyon sa dagat ay idinisenyo upang matiyak ang mahusay at maaasahang pagpapadala sa mga pandaigdigang tubig. Nag-aalok kami ng komprehensibong hanay ng mga solusyon upang ilipat ang iyong kargamento nang ligtas at nasa iskedyul, na gumagamit ng mga estratehikong pakikipagsosyo sa mga pangunahing carrier at port sa buong mundo.",
+  "impo_expo_services_2_head": "Marine Cargo",
+  "impo_expo_services_2_desc": "Sa PCOX Internet Pvt Limited, ang aming mga serbisyo ng sea cargo ay idinisenyo upang matiyak ang mahusay at maaasahang pagpapadala sa mga pandaigdigang tubig. Nag-aalok kami ng isang komprehensibong hanay ng mga solusyon upang ilipat ang iyong kargamento nang ligtas at nasa iskedyul, na gumagamit ng mga estratehikong pakikipagsosyo sa mga pangunahing carrier at port sa buong mundo.",
   "impo_expo_services_2_li1": "1. Ocean Freight Optimization: Ang aming koponan ay dalubhasa sa pag-optimize ng mga ruta ng kargamento sa karagatan upang bawasan ang mga oras at gastos sa pagbibiyahe. Mahigpit kaming nakikipagtulungan sa mga linya ng pagpapadala upang magbigay ng mapagkumpitensyang mga rate at flexible na iskedyul ng pagpapadala na iniayon sa iyong mga pangangailangan sa negosyo.",
-  "impo_expo_services_2_li2": "2. Full Container Load (FCL) at Less-than-Container Load (LCL): Nagbibigay kami ng parehong FCL at LCL na opsyon depende sa laki ng iyong kargamento. Kung mayroon kang buong kargamento o mas maliit, tinitiyak namin ang iyong mga kalakal ay ligtas na nakaimpake at naihatid nang mahusay.",
-  "impo_expo_services_2_li3": "3. Customs and Documentation: Kasama sa aming mga sea transport services ang buong customs clearance at pamamahala ng lahat ng dokumentasyon, kabilang ang mga bill of lading, mga deklarasyon sa pag-export, at mga sertipiko ng pinagmulan, na tinitiyak ang pagsunod sa mga internasyonal na regulasyon sa kalakalan.",
+  "impo_expo_services_2_li2": "2. Full Container Load (FCL) at Less-than-Container Load (LCL): Nagbibigay kami ng parehong FCL at LCL na opsyon depende sa laki ng iyong kargamento. Kung mayroon kang isang buong kargamento o mas maliit, tinitiyak namin ang iyong mga kalakal ay ligtas na nakaimpake at naihatid nang mahusay.",
+  "impo_expo_services_2_li3": "3. Customs and Documentation: Kasama sa aming mga sea cargo services ang buong customs clearance at pamamahala ng lahat ng dokumentasyon, kabilang ang mga bill of lading, export declarations, at certificates of origin, na tinitiyak ang pagsunod sa mga internasyonal na regulasyon sa kalakalan.",
   "impo_expo_services_2_li4": "4. Pagpapadala na Kinokontrol ng Temperatura: Nag-aalok kami ng mga serbisyo sa palamigan na lalagyan para sa mga kalakal na sensitibo sa temperatura, na tinitiyak na ang mga bagay na madaling masira tulad ng pagkain at mga parmasyutiko ay pinananatili sa mga kinakailangang kondisyon sa buong paglalakbay.",
-  "impo_expo_services_2_li5": "5. Specialized Cargo Handling: Para sa napakalaki o espesyal na kargamento, nagbibigay kami ng mga customized na solusyon sa transportasyon sa dagat, kabilang ang mga serbisyo ng cargo at heavy-lift ng proyekto.",
-
-  "impo_expo_services_3_head": "Mga Serbisyo sa Panghimpapawid na Transportasyon",
-  "impo_expo_services_3_desc": "Sa PCOX Internet Pvt Limited, ang aming mga serbisyo sa transportasyon sa himpapawid ay idinisenyo upang magbigay ng mabilis, maaasahan, at ligtas na pagpapadala para sa iyong kargamento na sensitibo sa oras. Gumagamit kami ng isang network ng mga pandaigdigang airline at mga carrier ng kargamento upang matiyak na ang iyong mga kalakal ay makarating sa kanilang destinasyon. mabilis at ligtas.",
-  "impo_expo_services_3_li1": "1. Pag-optimize ng Air Freight: Kami ay dalubhasa sa pag-optimize ng mga ruta ng air freight upang mag-alok ng pinakamabilis na oras ng transit at mga solusyon na matipid sa gastos. Ang aming mga pakikipagtulungan sa mga pangunahing airline ay nagbibigay-daan sa amin na magbigay ng flexible na iskedyul at kompetitibong mga rate para sa lahat ng iyong pangangailangan sa air transport.",
-  "impo_expo_services_3_li2": "2. Express at Standard na Air Shipping: Kung kailangan mo ng mabilis na paghahatid o standard na air freight services, nagbibigay kami ng mga opsyon na naaayon sa iyong pangangailangan at badyet. Tinitiyak ng aming mga solusyon na maayos na maihahatid ang iyong kargo at dumating sa tamang oras.",
-
-  "impo_expo_services_3_li3": "3. Customs Clearance at Dokumentasyon: Kasama sa aming air transport services ang komprehensibong customs clearance at pamamahala ng dokumentasyon. Inaayos namin ang lahat ng kinakailangang papeles, kabilang ang air waybills at import/export declarations, upang matiyak ang maayos at sumusunod na pagpapadala.",
-
-  "impo_expo_services_3_li4": "4. Temperature-Controlled Air Cargo: Para sa mga bagay na sensitibo sa temperatura tulad ng mga gamot o mabilis masirang kalakal, nag-aalok kami ng mga solusyon sa temperature-controlled air cargo. Ang aming mga espesyal na container ay nagpapanatili ng kinakailangang kondisyon sa buong biyahe upang maprotektahan ang iyong mahalagang kargamento.",
-
-  "impo_expo_services_3_li5": "5. Priority at Charter Services: Nagbibigay kami ng priority air transport at mga opsyon sa charter flight para sa mga agarang o mahalagang kargamento. Ang aming mga serbisyong inangkop ay tinitiyak ang napapanahong at ligtas na paghahatid, na may dedikadong suporta upang pamahalaan ang bawat aspeto ng iyong pangangailangan sa air freight.",
-
+  "impo_expo_services_2_li5": "5. Specialized Cargo Handling: Para sa napakalaki o espesyal na kargamento, nagbibigay kami ng mga customized na solusyon sa sea cargo, kabilang ang project cargo at heavy-lift services.",
+  "impo_expo_services_3_head": "Air Cargo",
+  "impo_expo_services_3_desc": "Sa PCOX Internet Pvt Limited, ang aming mga serbisyo sa air cargo ay idinisenyo upang magbigay ng mabilis, maaasahan, at secure na pagpapadala para sa iyong kargamento na sensitibo sa oras. Gumagamit kami ng isang network ng mga pandaigdigang airline at mga carrier ng kargamento upang matiyak na ang iyong mga kalakal ay makarating sa kanilang destinasyon. mabilis at ligtas.",
+  "impo_expo_services_3_li1": "1. Pag-optimize ng Air Freight: Dalubhasa kami sa pag-optimize ng mga ruta ng kargamento sa himpapawid upang mag-alok ng pinakamabilis na oras ng transit at mga solusyong matipid sa gastos. Ang aming pakikipagsosyo sa mga pangunahing airline ay nagbibigay-daan sa amin na magbigay ng flexible na pag-iskedyul at mapagkumpitensyang mga rate para sa lahat ng iyong mga pangangailangan sa air cargo.",
+  "impo_expo_services_3_li2": "2. Express at Standard Air Shipping: Kailangan mo man ng pinabilis na paghahatid o karaniwang mga serbisyo ng air freight, nagbibigay kami ng mga opsyon na tumutugon sa iyong pagkaapurahan at badyet. Tinitiyak ng aming mga solusyon na ang iyong kargamento ay pinangangasiwaan nang may pag-iingat at darating sa oras.",
+  "impo_expo_services_3_li3": "3. Customs Clearance at Documentation: Kasama sa aming mga serbisyo sa air cargo ang komprehensibong customs clearance at pamamahala ng dokumentasyon. Pinangangasiwaan namin ang lahat ng kinakailangang papeles, kabilang ang mga air waybill at mga deklarasyon sa pag-import/export, upang matiyak ang maayos at sumusunod na pagpapadala.",
+  "impo_expo_services_3_li4": "4. Temperature-Controlled Air Cargo: Para sa mga bagay na sensitibo sa temperatura tulad ng mga parmasyutiko o nabubulok na mga produkto, nag-aalok kami ng mga solusyon sa air cargo na kontrolado ng temperatura. Ang aming mga espesyal na container ay nagpapanatili ng mga kinakailangang kondisyon sa buong flight, na nagpoprotekta sa iyong mahahalagang kargamento.",
+  "impo_expo_services_3_li5": "5. Mga Serbisyong Priyoridad at Charter: Nagbibigay kami ng mga priyoridad na air cargo at mga pagpipilian sa paglipad ng charter para sa madalian o mataas na halaga ng mga pagpapadala. Tinitiyak ng aming mga iniangkop na serbisyo ang napapanahon at secure na paghahatid, na may nakatuong suporta upang pamahalaan ang bawat aspeto ng iyong mga pangangailangan sa air freight .",
   "software_dev_0": "Aming Mga Serbisyo sa Pag-develop ng Software",
-
   "software_dev_0_title": "Nagbibigay kami ng iba't ibang serbisyo",
-
   "get_started": "Magsimula",
   "software_dev_1_head": "Pagpapaunlad ng Software",
   "sd_main_desc": "Mga iniangkop na solusyon upang matugunan ang mga natatanging pangangailangan ng iyong negosyo, mula sa konsepto hanggang sa pag-deploy",
-
   "sd_process1_main_title": "Aming Proseso ng Pag-unlad",
   "sd_process1_1_title": "1. Pagsusuri ng Kinakailangan",
   "sd_process1_1_desc": "Nagsisimula kami sa isang detalyadong pagsusuri sa mga pangangailangan ng iyong negosyo upang matiyak na ang solusyon sa software ay nakakatugon sa iyong mga partikular na pangangailangan",
@@ -165,7 +143,6 @@
   "sd_process1_3_desc": "Gumagamit kami ng mga pinakamahuhusay na kasanayan sa industriya upang bumuo ng matatag, nasusukat na software at magsagawa ng masusing pagsubok upang matiyak ang kalidad",
   "sd_process1_4_title": "4. Deployment at Suporta",
   "sd_process1_4_desc": "Hinahawakan namin ang deployment at nagbibigay ng patuloy na suporta at pagpapanatili upang matiyak ang pinakamainam na pagganap",
-
   "sd_solution1_title": "Mga Solusyon sa Software na Ibinibigay Namin",
   "sd_solution1_1": "ERP Systems",
   "sd_solution1_2": "CRM Software",
@@ -179,10 +156,8 @@
   "sd_solution1_10": "Pamamahala sa Pinansyal",
   "sd_solution1_11": "Mga Platform ng E-Commerce",
   "sd_solution1_12": "Helpdesk Solutions",
-
   "web_dev_1_head": "Pagbuo ng Web Application",
   "wd_main_desc": "Gumagamit kami ng mga pinakabagong teknolohiya upang bumuo ng mga application na parehong gumagana at user-friendly",
-
   "wd_process1_main_title": "Ang Ating Proseso ng Pag-unlad",
   "wd_process1_1_title": "1. Front-End Development",
   "wd_process1_1_desc": "Kami ay nagdidisenyo at bumuo ng madaling maunawaan at tumutugon na mga interface ng gumagamit upang makapagbigay ng tuluy-tuloy na karanasan ng user sa lahat ng device.",
@@ -192,7 +167,6 @@
   "wd_process1_3_desc": "Nagpapatupad kami ng ligtas at mahusay na mga database upang suportahan ang pag-imbak ng data ng iyong web application at mga pangangailangan sa pagkuha, na tinitiyak ang mataas na pagganap at pagiging maaasahan.",
   "wd_process1_4_title": "4. API Development",
   "wd_process1_4_desc": "Kami ay gumagawa at nagsasama ng mga API upang mapadali ang komunikasyon sa pagitan ng iyong web application at iba pang mga serbisyo, na tinitiyak ang maayos at mahusay na pagpapalitan ng data.",
-
   "wd_solution1_title": "Mga Teknolohiyang Ginagamit Namin",
   "wd_solution1_1": "Mag-react",
   "wd_solution1_2": "Angular",
@@ -206,10 +180,8 @@
   "wd_solution1_10": "MySQL",
   "wd_solution1_11": "Firebase",
   "wd_solution1_12": "GraphQL",
-
   "mob_dev_1_head": "Pagpapaunlad ng Mobile App",
   "md_main_desc": "Nag-aalok kami ng komprehensibong serbisyo sa pagpapaunlad ng mobile app para sa parehong mga platform ng IOS at Android.",
-
   "md_process1_main_title": "Aming Proseso ng Pag-unlad",
   "md_process1_1_title": "1. Native App Development",
   "md_process1_1_desc": "Bumubuo kami ng mga katutubong app na iniayon sa mga partikular na pangangailangan ng iOS at Android platform, na tinitiyak ang pinakamainam na pagganap at karanasan ng user.",
@@ -219,17 +191,14 @@
   "md_process1_3_desc": "Kami ay nagdidisenyo ng mga nakakaengganyo at user-friendly na mga interface para sa mga mobile app, na nakatuon sa kakayahang magamit at visual na apela upang mapabuti ang kasiyahan ng gumagamit.",
   "md_process1_4_title": "4. App Testing and Optimization",
   "md_process1_4_desc": "Nagsasagawa kami ng malawak na pagsubok at pag-optimize upang matiyak na maayos na gumagana ang iyong app sa iba't ibang device at operating system.",
-
   "md_solution1_title": "Mga Teknolohiyang Ginagamit Namin",
   "md_solution1_1": "React Native",
   "md_solution1_2": "Pag-flutter",
   "md_solution1_3": "Mabilis",
   "md_solution1_4": "Kotlin",
   "md_solution1_5": "Xamarin",
-
   "sis_dev_1_head": "Pagsasama-sama ng Software",
   "sis_main_desc": "Ang aming mga serbisyo sa pagsasama-sama ng software ay tumutulong sa iyo na kumonekta sa iba't ibang mga sistema at aplikasyon upang mapadali ang iyong mga operasyon.",
-
   "sis_process1_main_title": "Aming Proseso ng Pagsasama",
   "sis_process1_1_title": "1. System Analysis",
   "sis_process1_1_desc": "Sinusuri namin ang iyong mga umiiral nang system upang matukoy ang mga punto ng pagsasanib at mga kinakailangan, pagdidisenyo ng mga solusyon na tumutugon sa iyong mga partikular na pangangailangan.",
@@ -239,17 +208,14 @@
   "sis_process1_3_desc": "Pinamamahalaan namin ang paglipat ng iyong data sa pagitan ng mga system, tinitiyak ang katumpakan at integridad habang pinapaliit ang pagkagambala sa iyong negosyo.",
   "sis_process1_4_title": "4. Integration Testing",
   "sis_process1_4_desc": "Nagsasagawa kami ng masusing pagsusuri upang matiyak na gumagana nang tama at mahusay ang pinagsama-samang mga sistema, na nakakatugon sa iyong mga pamantayan sa pagganap at pagiging maaasahan.",
-
   "sis_solution1_title": "Ano ang Isinasama Namin",
   "sis_solution1_1": "Mga REST API",
   "sis_solution1_2": "Mga SOAP API",
   "sis_solution1_3": "OAuth 2.0",
   "sis_solution1_4": "GraphQL",
   "sis_solution1_5": "Zapier",
-
   "cb_dev_1_head": "Mga Solusyong Nakabatay sa Cloud",
   "cb_main_desc": "Mga iniangkop na solusyon para sa imprastraktura at serbisyo ng ulap, na nagpapahusay sa liksi ng iyong negosyo.",
-
   "cb_process1_main_title": "Aming Cloud-Based Solutions",
   "cb_process1_1_title": "1. Cloud Application Development",
   "cb_process1_1_desc": "Kami ay nagdidisenyo at bumuo ng mga custom na cloud application na umaangkop sa iyong mga pangangailangan sa negosyo at humihimok ng paglago.",
@@ -259,16 +225,13 @@
   "cb_process1_3_desc": "Pagsamahin ang iba't ibang serbisyo at aplikasyon ng ulap para sa isang pinag-isa at mahusay na operasyon.",
   "cb_process1_4_title": "4. Cloud Security",
   "cb_process1_4_desc": "Magpatupad ng matatag na mga hakbang sa seguridad upang protektahan ang iyong data at mga application sa cloud.",
-
   "cb_solution1_title": "Cloud Technologies na Ginagamit Namin",
   "cb_solution1_1": "AWS",
   "cb_solution1_2": "Microsoft Azure",
   "cb_solution1_3": "Google Cloud",
   "cb_solution1_4": "Cloudflare",
-
   "sm_dev_1_head": "Mga Solusyon sa Pamamahala ng Software",
   "sm_main_desc": "Mahusay na pamamahala ng mga software system upang ma-optimize ang pagganap at mapahusay ang pagiging produktibo.",
-
   "sm_process1_main_title": "Aming Mga Serbisyo sa Pamamahala ng Software",
   "sm_process1_1_title": "1. Software Lifecycle Management",
   "sm_process1_1_desc": "Tinitiyak namin ang maayos at balangkas na diskarte sa pagbuo ng software, mula sa pagpaplano hanggang sa pag-deploy.",
@@ -278,31 +241,24 @@
   "sm_process1_3_desc": "Subaybayan, bigyang-priyoridad, at lutasin ang mga bug nang mahusay upang matiyak ang isang tuluy-tuloy na karanasan sa software.",
   "sm_process1_4_title": "4. Pagsubaybay sa Pagganap",
   "sm_process1_4_desc": "Subaybayan ang pagganap ng iyong software sa real-time upang matukoy at matugunan nang maaga ang mga potensyal na isyu.",
-
   "sm_solution1_title": "Mga Tool sa Pamamahala ng Software na Ginagamit Namin",
   "sm_solution1_1": "Jira",
   "sm_solution1_2": "GitLab",
   "sm_solution1_3": "Trello",
   "sm_solution1_4": "Azure DevOps",
-
   "contact_us_bottom_title": "Handa nang Baguhin ang Iyong Negosyo?",
   "contact_us_bottom_desc": "Pag-usapan natin kung paano ang aming mga solusyon sa software ay maaaring humimok ng iyong tagumpay.",
   "contact_us_bottom_btn": "Makipag-ugnayan sa Amin",
-
   "software_dev_2_head": "Pagpapaunlad ng Web Application",
   "software_dev_3_head": "Pagpapaunlad ng Mobile App",
   "software_dev_4_head": "Pagsasama ng Software",
   "software_dev_5_head": "Mga Solusyong Nakabatay sa Cloud",
   "software_dev_6_head": "Pagpapanatili ng Software",
-
   "------------------------------------------": "---- ------------------------------------",
-
   "thirt_party_0": "Digital Marketing",
-
   "thirt_party_1_head": "Search Engine Optimization (SEO)",
   "seo_dev_1_head": "Search Engine Optimization (SEO)",
   "seo_main_desc": "Gumagamit kami ng data-driven na diskarte upang mapahusay ang iyong presensya sa online at humimok ng organikong trapiko.",
-
   "seo_process1_main_title": "Ang aming SEO Strategy",
   "seo_process1_1_title": "1. Pananaliksik sa Keyword",
   "seo_process1_1_desc": "Nagsasagawa kami ng masusing pagsasaliksik sa keyword upang matukoy ang mga keyword na pinaka-may-katuturan at mataas ang trapiko para sa iyong negosyo, na nag-o-optimize ng iyong nilalaman para sa mas mahusay na ranggo ng search engine.",
@@ -312,22 +268,18 @@
   "seo_process1_3_desc": "Bumubuo kami ng isang madiskarteng kampanya sa pagbuo ng link upang pataasin ang awtoridad at kredibilidad ng iyong website, na pinapabuti ang iyong mga pagkakataong mas mataas ang ranggo sa mga resulta ng paghahanap.",
   "seo_process1_4_title": "4. Pagsubaybay sa Pagganap",
   "seo_process1_4_desc": "Patuloy naming sinusubaybayan ang iyong pagganap sa SEO, gamit ang analytics upang subaybayan ang pag-unlad, tukuyin ang mga lugar para sa pagpapabuti, at ayusin ang mga diskarte kung kinakailangan.",
-
   "seo_solution1_title": "Mga Tool sa SEO na Ginagamit Namin",
   "seo_solution1_1": "Google Analytics",
   "seo_solution1_2": "Ahrefs",
   "seo_solution1_3": "SEMrush",
   "seo_solution1_4": "Yoast SEO",
   "seo_solution1_5": "Google Search Console",
-
   "seo_contact_title": "Handa nang Pataasin ang Iyong SEO Strategy?",
   "seo_contact_desc": "Pag-usapan natin kung paano mapapahusay ng aming mga serbisyo sa SEO ang iyong presensya sa online at humimok ng organikong trapiko.",
   "seo_contact_btn": "Makipag-ugnayan sa Amin",
-
   "thirt_party_2_head": "Content Marketing",
   "content_marketing_head": "Content Marketing",
   "content_marketing_main_desc": "Ang aming mga serbisyo sa marketing ng nilalaman ay nakatuon sa paglikha ng mahalaga, may-katuturang nilalaman na umaakit, umaakit, at nagpapanatili ng iyong target na madla.",
-
   "content_marketing_process1_main_title": "Ang aming Diskarte sa Marketing ng Nilalaman",
   "content_marketing_process1_1_title": "1. Pagpaplano ng Nilalaman",
   "content_marketing_process1_1_desc": "Bumuo kami ng isang komprehensibong diskarte sa nilalaman na naaayon sa iyong mga layunin sa negosyo, mga pangangailangan ng madla, at mga uso sa industriya.",
@@ -337,22 +289,18 @@
   "content_marketing_process1_3_desc": "Madiskarteng ipinamahagi namin ang iyong nilalaman sa iba't ibang platform upang mapakinabangan ang abot at visibility.",
   "content_marketing_process1_4_title": "4. Pagsubaybay sa Pagganap",
   "content_marketing_process1_4_desc": "Sinusuri namin ang pagganap ng iyong mga kampanya sa marketing ng nilalaman, sinusubaybayan ang mga pangunahing sukatan upang sukatin ang pagiging epektibo.",
-
   "content_marketing_solution1_title": "Content Marketing Tools na Ginagamit Namin",
   "content_marketing_solution1_1": "Google Analytics",
   "content_marketing_solution1_2": "HubSpot",
   "content_marketing_solution1_3": "BuzzSumo",
   "content_marketing_solution1_4": "CoSchedule",
   "content_marketing_solution1_5": "SEMrush",
-
   "content_marketing_contact_title": "Handa nang Iangat ang Iyong Diskarte sa Nilalaman?",
   "content_marketing_contact_desc": "Pag-usapan natin kung paano ang aming mga serbisyo sa marketing ng nilalaman ay maaaring humimok ng pakikipag-ugnayan at palaguin ang iyong madla.",
   "content_marketing_contact_btn": "Makipag-ugnayan sa Amin",
-
   "thirt_party_3_head": "Social Media Marketing",
   "social_media_marketing_head": "Social Media Marketing",
   "social_media_marketing_main_desc": "Ang aming mga serbisyo sa marketing sa social media ay tumutulong sa mga negosyo na bumuo ng isang malakas na presensya online, makipag-ugnayan sa mga madla, at humimok ng mga conversion.",
-
   "social_media_marketing_process1_main_title": "Aming Social Media Marketing Strategy",
   "social_media_marketing_process1_1_title": "1. Pananaliksik sa Audience",
   "social_media_marketing_process1_1_desc": "Sinusuri namin ang iyong target na madla upang maunawaan ang kanilang mga kagustuhan, pag-uugali, at ang mga platform na madalas nilang maiangkop sa mga kampanya nang epektibo.",
@@ -362,22 +310,18 @@
   "social_media_marketing_process1_3_desc": "Ang aming koponan ay namamahala sa iyong mga platform ng social media, nagpo-post ng nilalaman, nakikipag-ugnayan sa mga tagasunod, at tinitiyak ang pagkakapare-pareho sa lahat ng mga channel.",
   "social_media_marketing_process1_4_title": "4. Performance Analytics",
   "social_media_marketing_process1_4_desc": "Sinusubaybayan namin ang mga pangunahing sukatan ng pagganap, sinusubaybayan ang mga uso, at inaayos ang mga diskarte upang matiyak na ang iyong mga kampanya ay patuloy na naghahatid ng malalakas na resulta.",
-
   "social_media_marketing_solution1_title": "Mga Platform ng Social Media na Dalubhasa Namin",
   "social_media_marketing_solution1_1": "Facebook",
   "social_media_marketing_solution1_2": "Instagram",
   "social_media_marketing_solution1_3": "LinkedIn",
   "social_media_marketing_solution1_4": "Twitter",
   "social_media_marketing_solution1_5": "YouTube",
-
   "social_media_marketing_contact_title": "Handa nang Pagandahin ang Iyong Presensya sa Social Media?",
   "social_media_marketing_contact_desc": "Pag-usapan natin kung paano makakatulong sa iyo ang aming mga serbisyo sa marketing sa social media na makisali sa iyong audience at palaguin ang iyong brand.",
   "social_media_marketing_contact_btn": "Makipag-ugnayan sa Amin",
-
   "thirt_party_4_head": "Pay-Per-Click (PPC) Advertising",
   "ppc_advertising_head": "Pay-Per-Click (PPC) Advertising",
   "ppc_advertising_main_desc": "Ang aming mga serbisyo sa advertising ng PPC ay nakakatulong sa iyo na humimok ng naka-target na trapiko sa iyong website sa pamamagitan ng mga madiskarteng placement ng ad, na nagpapalaki ng ROI sa bawat pag-click.",
-
   "ppc_advertising_process1_main_title": "Ang aming PPC Advertising Strategy",
   "ppc_advertising_process1_1_title": "1. Pagpaplano ng Kampanya",
   "ppc_advertising_process1_1_desc": "Bumuo kami ng isang detalyadong diskarte sa kampanya ng PPC na iniayon sa iyong mga layunin sa negosyo, na tinutukoy ang pinakamahusay na mga platform at keyword para sa maximum na epekto.",
@@ -387,42 +331,32 @@
   "ppc_advertising_process1_3_desc": "Pinamamahalaan namin ang iyong mga bid upang i-optimize ang placement ng ad at matiyak ang cost-effective na paggastos batay sa data ng pagganap.",
   "ppc_advertising_process1_4_title": "4. Pagsubaybay sa Pagganap",
   "ppc_advertising_process1_4_desc": "Patuloy naming sinusubaybayan ang iyong mga kampanyang PPC, sinusuri ang mga pangunahing sukatan upang pinuhin ang mga diskarte at upang mapabuti ang ROI sa paglipas ng panahon.",
-
   "ppc_advertising_solution1_title": "Mga PPC Platform na Namin Ang Excel In",
   "ppc_advertising_solution1_1": "Google Ads",
   "ppc_advertising_solution1_2": "Bing Ads",
   "ppc_advertising_solution1_3": "Mga Ad sa Facebook",
   "ppc_advertising_solution1_4": "Mga Ad ng LinkedIn",
   "ppc_advertising_solution1_5": "Mga Ad sa Twitter",
-
   "ppc_contact_title": "Handa nang Palakasin ang Iyong Trapiko gamit ang PPC?",
   "ppc_contact_desc": "Pag-usapan natin kung paano mapapahusay ng aming mga serbisyo ng PPC ang iyong online presence.",
   "ppc_contact_btn": "Makipag-ugnayan sa Amin",
-
   "-----------------blog-----------------------": "---- --------------blog----------------------",
   "blog_title": "Pag-navigate sa Pandaigdigang Kalakalan: Mga Istratehiya sa Import-Export para sa 2024",
   "blog_date": "Setyembre 9, 2024",
   "blog_author": "Mga Pananaw sa Pandaigdigang Kalakalan",
   "blog_intro": "Sa patuloy na umuusbong na tanawin ng pandaigdigang kalakalan, ang 2024 ay nagpapakita ng mga bagong hamon at pagkakataon. Mula sa mga pagkagambala sa supply chain hanggang sa mga digmaang pangkalakalan at pagbabago ng mga regulasyon, ang mga negosyong nakikibahagi sa import-export ay dapat na maliksi at maagap. Sa blog na ito, kami Mag-e-explore ng mga pangunahing estratehiya para ma-optimize ang iyong mga operasyon sa pag-import-export, pagaanin ang mga panganib, at samantalahin ang mga pagkakataon sa mga umuusbong na merkado.",
-
   "section1_title": "Pag-iba-iba ng Supply Chain para sa Katatagan",
   "section1_desc": "Sa pagtaas ng geopolitical tensions at paghihigpit sa kalakalan, ang pag-iba-iba ng iyong supply chain ay mahalaga. Dapat tuklasin ng mga kumpanya ang pagkuha mula sa maraming bansa upang mabawasan ang mga pagkagambala at matiyak ang tuluy-tuloy na daloy ng mga kalakal. Sa pamamagitan ng paggamit ng mga kasunduan sa libreng kalakalan at pagbuo ng mga bagong pakikipagsosyo, maaari mong pangalagaan ang iyong mga operasyon mula sa mga hindi inaasahang pagkagambala.",
-
   "section2_title": "Paggamit ng Teknolohiya para sa Kahusayan sa Kalakalan",
   "section2_desc": "Binabago ng mga digital na solusyon ang paraan ng pangangalakal natin. Mula sa teknolohiyang blockchain na nagsisiguro ng transparency sa mga transaksyon hanggang sa analytics na hinimok ng AI na hinuhulaan ang mga uso sa merkado, ang mga kumpanyang yakapin ang mga teknolohikal na inobasyon ay magkakaroon ng competitive edge. Ang pagpapatupad ng real-time na pagsubaybay at digital ang pagpoproseso ng customs ay maaaring i-streamline ang iyong mga aktibidad sa pag-import-export.",
-
   "section3_title": "Pag-aangkop sa Pagbabago ng mga Regulasyon sa Kalakalan",
   "section3_desc": "Ang 2024 ay nagdadala ng mga pagbabago sa mga regulasyon sa kalakalan, lalo na sa mga bagong kinakailangan sa kapaligiran at pagpapanatili. Ang pananatiling nangunguna sa mga regulasyong ito ay hindi lamang makatutulong na maiwasan ang mga parusa ngunit maaari ring magbukas ng mga pinto sa mga bagong merkado. Ang pag-unawa sa mga pagkakaiba ng mga regulasyon tulad ng mga pagsasaayos sa hangganan ng carbon at Ang mga sertipikasyon ng pagpapanatili ay magiging mahalaga para sa pangmatagalang tagumpay.",
-
   "section4_title": "Paggalugad sa mga Umuusbong na Merkado",
   "section4_desc": "Ang mga umuusbong na merkado sa Asia, Africa, at Latin America ay nag-aalok ng mga mapagkakakitaang pagkakataon para sa mga negosyong nagnanais na palawakin ang kanilang pandaigdigang abot. Sa lumalaking middle class at tumaas na demand para sa mga kalakal, ang mga rehiyong ito ay nagbibigay ng hindi pa nagagamit na potensyal para sa mga exporter. Pagsasagawa ng masusing pananaliksik sa merkado at ang pagbuo ng mga lokal na pakikipagsosyo ay magiging susi sa matagumpay na pagpasok sa mga pamilihang ito.",
-
   "section5_title": "Pagbabawas ng mga Panganib sa Kalakalan",
   "section5_desc": "Ang pandaigdigang kapaligiran ng kalakalan ay puno ng mga panganib, kabilang ang mga pabagu-bagong halaga ng pera, kawalang-tatag sa pulitika, at mga hamon sa logistik. Ang mga kumpanya ay dapat magpatupad ng mga diskarte sa pamamahala ng panganib, tulad ng pag-hedging laban sa mga pagbabago sa pera, pag-iba-iba ng mga base ng customer, at pag-secure ng trade credit insurance sa bawasan ang mga potensyal na pagkalugi.",
-
   "section6_title": "Sustainability at Ethical Sourcing",
   "section6_desc": "Lalong binibigyang-priyoridad ng mga mamimili at pamahalaan ang sustainability at ethical sourcing. Ang mga kumpanyang nagpapatupad ng mga environment friendly na gawi, gaya ng pagbabawas ng carbon emissions sa pagpapadala at pagkuha mula sa etikal na mga supplier, ay hindi lamang susunod sa mga regulasyon kundi pati na rin sa pagpapahusay ng kanilang reputasyon sa tatak at pag-akit mulat na mga mamimili.",
-
   "blog_title1": "Bakit Kailangan ng Iyong Negosyo ang Custom na Software",
   "blog_author1": "Tech Solutions",
   "blog_date1": "Setyembre 9, 2024",
@@ -439,7 +373,6 @@
   "section5_desc1": "Sa pamamagitan ng pagpapatupad ng software na partikular na idinisenyo para sa iyong negosyo, maaari kang makakuha ng isang makabuluhang kalamangan sa pakikipagkumpitensya. Ang custom na software ay nagbibigay-daan sa iyong magpabago at mag-alok ng mga serbisyo o produkto na hindi kayang gawin ng mga kakumpitensya na gumagamit ng generic na software. Nagbibigay-daan ito para sa higit na kakayahang umangkop at kakayahang tumugon sa mga pagbabago sa merkado, pagpoposisyon sa iyong negosyo bilang nangunguna sa iyong industriya.",
   "section6_title1": "Pagpapatunay ng Iyong Negosyo sa Hinaharap",
   "section6_desc1": "Mabilis na umuusbong ang teknolohiya, at ang mga negosyo ay nangangailangan ng mga solusyon na maaaring umangkop sa mga pagbabagong ito. Maaaring idisenyo ang custom na software nang may scalability sa isip, tinitiyak na ito ay lalago kasama ng iyong negosyo. Maaaring magdagdag ng mga update at bagong feature kung kinakailangan, na pinapanatili ang iyong may kaugnayan at mahusay na software nang hindi nangangailangan ng kumpletong pagpapalit.",
-
   "blog_byb_title1": "Palakasin ang Iyong Brand",
   "blog_byb_author1": "Tech Solutions",
   "blog_byb_date1": "Hulyo 19, 2024",
@@ -453,7 +386,6 @@
   "section4_byb_desc1": "Ang mataas na kalidad na nilalaman ay isang pundasyon ng epektibong pagba-brand. Hindi lamang ito nakakaakit at nagpapanatili ng mga customer ngunit nagtatatag din ng iyong tatak bilang isang awtoridad sa iyong industriya. Ang pamumuhunan sa paglikha ng propesyonal na nilalaman, kabilang ang mga blog, video, at infographics, ay maaaring makabuluhang nakakaapekto sa reputasyon at tagumpay ng iyong brand.",
   "section5_byb_title1": "Pagsubaybay at Pag-angkop sa Iyong Diskarte sa Brand",
   "section5_byb_desc1": "Ang patuloy na pagsubaybay at pag-angkop sa iyong diskarte sa brand ay mahalaga para sa pangmatagalang tagumpay. Ang pagsusuri sa mga pangunahing sukatan ng pagganap, pangangalap ng feedback ng customer, at pananatiling updated sa mga uso sa merkado ay makakatulong sa iyong pinuhin ang iyong diskarte at matiyak na ang iyong brand ay mananatiling may kaugnayan at mapagkumpitensya. ",
-
   "hr_busi_0": "Pagkonsulta sa Negosyo ng HR",
   "hr_busi_1": "Maligayang pagdating sa aming mga serbisyo sa HR Business Consulting, kung saan ang kadalubhasaan ay nakakatugon sa pagbabago! Sa aming kumpanya, naiintindihan namin ang mga dynamic na hamon na kinakaharap ng mga negosyo sa mapagkumpitensyang tanawin ngayon. Sa isang pangkat ng mga batikang consultant, nag-aalok kami ng madiskarteng gabay na iniangkop sa iyong mga partikular na pangangailangan . Kung ikaw ay isang startup na naghahanap upang itatag ang iyong presensya sa merkado o isang matatag na korporasyon na naglalayong para sa kahusayan sa pagpapatakbo, binibigyang kapangyarihan ka ng aming mga komprehensibong solusyon na makamit ang iyong mga layunin.",
   "hr_busi_2": "Sa larangan ng HR Business Consulting, muling tinutukoy namin ang mga posibilidad. Pinagsasama ng aming dedikadong pangkat ng mga propesyonal ang mga insight sa industriya sa pagkamalikhain, na naghahatid ng mga makabagong solusyon na nagtutulak sa paglago ng negosyo. Naniniwala kami na hindi lamang matugunan ngunit lumampas sa inaasahan ng kliyente. Sa pamamagitan ng paggamit ng aming kadalubhasaan sa mga lugar tulad ng pananaliksik sa merkado, estratehikong pagpaplano, at pag-unlad ng organisasyon, tinutulungan namin ang mga negosyo sa paggawa ng matalinong mga desisyon at manatiling nangunguna sa kumpetisyon.",
@@ -464,16 +396,13 @@
   "hr_comp_1": "Ang pag-navigate sa masalimuot na tanawin ng pagsunod sa HR at mga legal na regulasyon ay mahalaga para sa anumang negosyo. Ang aming mga serbisyo sa Pagsunod sa HR at Legal na Suporta ay idinisenyo upang mabigyan ka ng ekspertong gabay at kapayapaan ng isip. Nananatili kaming up-to-date sa pinakabagong mga batas at regulasyon sa pagtatrabaho, na tinitiyak na ang mga patakaran at kasanayan ng iyong kumpanya ay maayos na naaayon sa mga legal na kinakailangan.",
   "hr_comp_2": "Ang aming nakatuong pangkat ng mga propesyonal ay nag-aalok ng komprehensibong suporta sa pagbalangkas, pagsusuri, at pag-update ng mga patakaran at pamamaraan ng HR. Nagsasagawa kami ng masusing pag-audit upang matukoy ang mga potensyal na lugar ng panganib at gabayan ka sa mga pinakamahusay na kasanayan upang mapagaan ang mga legal na hamon. Maging ito ay mga kontrata sa pagtatrabaho , mga patakaran laban sa diskriminasyon, o mga alituntunin sa kaligtasan sa lugar ng trabaho, iniangkop namin ang aming mga serbisyo sa iyong partikular na pangangailangan sa industriya, na tinitiyak ang pagsunod sa mga lokal, estado, at pederal na batas.",
   "hr_comp_3": "Sa pamamagitan ng pakikipagsosyo sa amin para sa HR Compliance at Legal Support, maaari kang tumuon sa iyong mga pangunahing aktibidad sa negosyo, kumpiyansa na ang iyong mga gawi sa HR ay naaayon sa batas. Manatiling nangunguna sa mga pagbabago sa regulasyon, bawasan ang mga legal na panganib, at pagyamanin ang isang kapaligiran sa trabaho na nagtataguyod ng parehong legal na pagsunod at etikal na integridad.",
-
   "read_more": "Magbasa pa",
-
   "first_name_form": "Ilagay ang iyong pangalan",
   "last_name_form": "Ilagay ang iyong apelyido",
   "email_form": "Ilagay ang iyong email address",
   "num_code_form": "Numero ng telepono na may country code",
   "msg_form": "Isulat ang iyong mensahe...",
-
-  "landTransportationHeading": "Mga Serbisyo sa Transportasyong Lupa",
+  "landTransportationHeading": "Land Cargo",
   "landTransportationDescription": "Sa PCOX Internet Pvt Limited, Dalubhasa Kami sa pagbibigay ng mahusay at maaasahang mga solusyon sa transportasyon sa lupa na iniayon upang matugunan ang iyong mga partikular na pangangailangan sa logistik.",
   "landTransportationFeature1": "Road Transportation Optimization",
   "landTransportationFeature2": "Mga Cross-Border Solutions",
@@ -485,8 +414,7 @@
   "landTransportationProcess4": "Warehousing",
   "landTransportationContact": "Makipag-ugnayan para sa mga iniangkop na solusyon sa transportasyon sa lupa, mula sa pamamahala ng fleet hanggang sa mga serbisyong cross-border.",
   "landTransportationContactLink": "Makipag-ugnayan!",
-
-  "seaTransportationHeading": "Mga Serbisyo sa Transportasyong Dagat",
+  "seaTransportationHeading": "Sea Cargo",
   "seaTransportationDescription": "Sa PCOX Internet Pvt Limited, nagbibigay kami ng maaasahan at mahusay na mga solusyon sa transportasyon sa dagat, na tinitiyak na ligtas at nasa oras na makakarating ang iyong kargamento sa destinasyon nito.",
   "seaTransportationFeature1": "Global Shipping Solutions",
   "seaTransportationFeature2": "Pamamahala ng Container",
@@ -498,8 +426,7 @@
   "seaTransportationProcess4": "Pag-iimbak",
   "seaTransportationContact": "Makipag-ugnayan sa amin para sa maaasahang serbisyo sa transportasyong dagat at maayos na customs clearance para sa iyong kargamento.",
   "seaTransportationContactLink": "Makipag-ugnayan!",
-
-  "airTransportationHeading": "Mga Serbisyo sa Transportasyong Panghimpapawid",
+  "airTransportationHeading": "Air Cargo",
   "airTransportationDescription": "Sa PCOX Internet Pvt Limited, nag-aalok kami ng mabilis at mahusay na mga solusyon sa transportasyong panghimpapawid para sa iyong agarang pangangailangan sa pagpapadala, na tinitiyak ang napapanahong paghahatid sa buong mundo.",
   "airTransportationFeature1": "Express Delivery",
   "airTransportationFeature2": "Global Freight Solutions",
@@ -511,9 +438,7 @@
   "airTransportationProcess4": "Warehousing",
   "airTransportationContact": "Kailangan mo ba ng mabilis na air transport? Makipag-ugnayan sa amin para sa express delivery at real-time tracking ng iyong agarang padala.",
   "airTransportationContactLink": "Makipag-ugnayan!",
-
   "landTransportationProcessTitle": "Aming Proseso",
-
   "pageTitle": "Mga Serbisyo sa Payroll ng Third Party ng HR",
   "breadcrumbTitle": "thirt_party_0",
   "serviceDetailsHeader": "Sa Digital Marketing, Narito ang ibinibigay namin",
@@ -530,6 +455,5 @@
   "serviceCard3Contact": "services_wwp_card_btn1",
   "serviceCard3ServicePage": "services_wwp_card_btn2",
   "serviceCard4Title": "Pay-Per-Click (PPC) Advertising",
-
   "company_address": "Innov8 Mantri commercial, 5th Floor, Tower-A Bellandur ORR, Bengaluru, Karnataka 560103"
 }

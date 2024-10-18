@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import Slider from "react-slick";
 import { useTranslation } from "react-i18next";
+import classNames from 'classnames';
 
 const BlogSlider = () => {
     const { t, i18n } = useTranslation();
@@ -70,7 +71,7 @@ const BlogSlider = () => {
                             >
                                 <div className="blog blog-style--1 Blogblur">
                                     <div className="thumbnail blogImageBox">
-                                        <a href={`${value.bloglink}`}>
+                                        <a  className="h-100" href={`${value.bloglink}`}>
                                             <img
                                                 loading="eager"
                                                 className="w-100"

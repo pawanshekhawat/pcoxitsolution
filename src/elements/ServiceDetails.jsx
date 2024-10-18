@@ -81,7 +81,7 @@ const ServiceDetails = () => {
                   <AiOutlineTruck className="reactIcons" /> <br />
                   {t("impo_expo_services_wwp_card1_title")}
                 </a>
-                <div className="btmBtn mt-3 d-flex">
+                <div className="btmBtn my-3 d-flex">
                   <a href="/contact" className="cardBtn btn">{t("services_wwp_card_btn1")}</a>
                   <a href="#lt" className="cardBtn btn mx-2">{t("services_wwp_card_btn2")}</a>
                 </div>
@@ -93,7 +93,7 @@ const ServiceDetails = () => {
                   <LiaShipSolid className="reactIcons" /> <br />
                   {t("impo_expo_services_wwp_card2_title")}
                 </a>
-                <div className="btmBtn mt-3 d-flex">
+                <div className="btmBtn my-3 d-flex">
                   <a href="/contact" className="cardBtn btn">{t("services_wwp_card_btn1")}</a>
                   <a href="#st" className="cardBtn btn mx-2">{t("services_wwp_card_btn2")}</a>
                 </div>
@@ -105,7 +105,7 @@ const ServiceDetails = () => {
                   <PiAirplaneTiltLight className="reactIcons" /> <br />
                   {t("impo_expo_services_wwp_card3_title")}
                 </a>
-                <div className="btmBtn mt-3 d-flex">
+                <div className="btmBtn my-3 d-flex">
                   <a href="/contact" className="cardBtn btn">{t("services_wwp_card_btn1")}</a>
                   <a href="#at" className="cardBtn btn mx-2">{t("services_wwp_card_btn2")}</a>
                 </div>
@@ -116,13 +116,13 @@ const ServiceDetails = () => {
           <div className="row pt--40 rn-about-area">
             <div className="col-lg-12">
               <div className="service-details-inner" style={{ textAlign: isArabic ? 'right' : 'left' }}>
-                <section className="seprateBgSection" id="lt">
+                <section className="seprateBgSection my-5" id="lt">
                   <LandTransport />
                 </section>
-                <section id="st">
+                <section id="st" className="my-5">
                   <SeaTransport />
                 </section>
-                <section className="seprateBgSection" id="at">
+                <section className="seprateBgSection my-5" id="at">
                   <AirTransport />
                 </section>
               </div>

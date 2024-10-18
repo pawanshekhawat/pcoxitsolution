@@ -85,7 +85,7 @@ const ServiceDetails = () => {
                   <RiSeoLine className="reactIcons" /> <br />
                   {t("serviceCard1Title")}
                 </a>
-                <div className="btmBtn mt-3 d-flex">
+                <div className="btmBtn my-3 d-flex">
                   <a href="/contact" className="cardBtn btn mx-1">
                     {t("services_wwp_card_btn1")}
                   </a>
@@ -105,7 +105,7 @@ const ServiceDetails = () => {
                   <BiBookContent className="reactIcons" /> <br />
                   {t("serviceCard2Title")}
                 </a>
-                <div className="btmBtn mt-3 d-flex">
+                <div className="btmBtn my-3 d-flex">
                   <a href="/contact" className="cardBtn btn mx-1">
                     {t("services_wwp_card_btn1")}
                   </a>
@@ -125,7 +125,7 @@ const ServiceDetails = () => {
                   <IoShareSocialSharp className="reactIcons" /> <br />
                   {t("serviceCard3Title")}
                 </a>
-                <div className="btmBtn mt-3 d-flex">
+                <div className="btmBtn my-3 d-flex">
                   <a href="/contact" className="cardBtn btn mx-1">
                     {t("services_wwp_card_btn1")}
                   </a>
@@ -145,7 +145,7 @@ const ServiceDetails = () => {
                   <TbClick className="reactIcons" /> <br />
                   {t("serviceCard4Title")}
                 </a>
-                <div className="btmBtn mt-3 d-flex">
+                <div className="btmBtn my-3 d-flex">
                   <a href="/contact" className="cardBtn btn mx-1">
                     {t("services_wwp_card_btn1")}
                   </a>

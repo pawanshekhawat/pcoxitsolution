@@ -93,7 +93,7 @@ const PageTemplate = ({ pageTitle, backgroundImage, content }) => {
             <div className="row mx-auto">
               {content.processSections.map((section, index) => (
                 <div className="col-md-6 col-lg-6 mb-4 cardPadAlign" key={index}>
-                  <div className="DevProg p-4 bg_color--5 rounded shadow-sm">
+                  <div className="DevProg p-4 bg_color--5 h-100 rounded shadow-sm">
                     <h3 className="h3 font-weight-bold serviceProcHead">
                       {t(section.titleKey)}
                     </h3>

@@ -102,7 +102,7 @@ function PortfolioList(props) {
                   <br />
                   {value.category}
                 </span>
-                <div className="btmBtn mt-3 d-flex">
+                <div className="btmBtn my-3 d-flex">
                   <a href="/contact" className="cardBtn btn">
                     {t("services_wwp_card_btn1")}
                   </a>
@@ -129,7 +129,7 @@ function PortfolioList(props) {
                   <br />
                   {value.category}
                 </span>
-                <div className="btmBtn mt-3 d-flex">
+                <div className="btmBtn my-3 d-flex">
                   <a href="/contact" className="cardBtn btn">
                     {t("services_wwp_card_btn1")}
                   </a>

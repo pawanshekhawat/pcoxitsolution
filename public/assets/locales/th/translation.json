@@ -458,8 +458,8 @@
 
   "read_more": "อ่านเพิ่มเติม",
 
-  "first_name_form": "ใส่ชื่อของคุณ",
-  "last_name_form": "ใส่ชื่อของคุณ",
+  "first_name_form": "กรุณากรอกชื่อของคุณ",
+  "last_name_form": "กรุณากรอกนามสกุลของคุณ",
   "email_form": "ใส่ที่อยู่อีเมลของคุณ",
   "num_code_form": "หมายเลขโทรศัพท์พร้อมรหัสประเทศ",
   "msg_form": "เขียนข้อความของคุณ...",
@@ -507,13 +507,13 @@
 
   "pageTitle": "บริการด้านเงินเดือนของบุคคลภายนอก",
   "serviceDetailsHeader": "ในด้านการตลาดดิจิทัล นี่คือสิ่งที่เรามอบให้",
-  "serviceCard1Title": "การเพิ่มประสิทธิภาพเครื่องมือค้นหา (SEO)",
+  "serviceCard1Title": "การเพิ่มประสิทธิภาพเครื่องมือค้นหา",
   "serviceCard1Icon": "RiSeoLine",
   "serviceCard2Title": "การตลาดเนื้อหาเชิงกลยุทธ์",
   "serviceCard2Icon": "BiBookContent",
-  "serviceCard3Title": "การตลาดโซเชียลมีเดีย",
+  "serviceCard3Title": "การตลาดเพื่อสังคมออนไลน์",
   "serviceCard3Icon": "IoShareSocialSharp",
-  "serviceCard4Title": "การโฆษณาแบบจ่ายต่อคลิก (PPC)",
+  "serviceCard4Title": "การโฆษณาแบบจ่ายต่อคลิก",
 
   "company_address": "Innov8 Mantri commercio, ชั้น 5, Tower-A Bellandur ORR, เบงกาลูรู, กรณาฏกะ 560103"
 }

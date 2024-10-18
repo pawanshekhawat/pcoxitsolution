@@ -110,6 +110,7 @@ const PortfolioLanding = ({ value }) => {
                   loop
                   muted
                   className="homeBGvid"
+                  playsinline
                 ></video>
                 <div className="container homeHeroContent">
                   <div className="row">

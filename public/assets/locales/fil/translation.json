@@ -122,9 +122,9 @@
   "impo_expo_services_wwp_card2_title": "Transportasyon sa Dagat",
   "impo_expo_services_wwp_card3_title": "Transportasyon sa himpapawid",
 
-  "impo_expo_services_1_head": "Mga Serbisyo sa Land Transportation",
+  "impo_expo_services_1_head": "Mga Serbisyo sa Road Transportation",
   "impo_expo_services_1_desc": "Sa PCOX Internet Pvt Limited, nakatuon kami sa pagbibigay ng mga nangungunang serbisyo sa transportasyong pang-lupa na inuuna ang kahusayan, pagiging maaasahan, at bilis. Ang aming mga solusyon ay maingat na ginawa upang matugunan ang patuloy na umuusbong na mga pangangailangan ng mga negosyo, na tinitiyak ang tuluy-tuloy na paggalaw ng mga kalakal sa parehong lokal at internasyonal na mga hangganan.",
-  "impo_expo_services_1_li1": "1. Land Transportation Optimization",
+  "impo_expo_services_1_li1": "1. Road Transportation Optimization",
   "impo_expo_services_1_li2": "2. Cross-Border Solutions",
   "impo_expo_services_1_li3": "3. Dedicated Fleet Management",
   "impo_expo_services_1_li4": "4. Specialized Cargo Handling",
@@ -468,14 +468,14 @@
   "read_more": "Magbasa pa",
 
   "first_name_form": "Ilagay ang iyong pangalan",
-  "last_name_form": "Ilagay ang iyong pangalan",
+  "last_name_form": "Ilagay ang iyong apelyido",
   "email_form": "Ilagay ang iyong email address",
   "num_code_form": "Numero ng telepono na may country code",
   "msg_form": "Isulat ang iyong mensahe...",
 
   "landTransportationHeading": "Mga Serbisyo sa Transportasyong Lupa",
   "landTransportationDescription": "Sa PCOX Internet Pvt Limited, Dalubhasa Kami sa pagbibigay ng mahusay at maaasahang mga solusyon sa transportasyon sa lupa na iniayon upang matugunan ang iyong mga partikular na pangangailangan sa logistik.",
-  "landTransportationFeature1": "Land Transportation Optimization",
+  "landTransportationFeature1": "Road Transportation Optimization",
   "landTransportationFeature2": "Mga Cross-Border Solutions",
   "landTransportationFeature3": "Dedicated Fleet Management",
   "landTransportationFeature4": "Specialized Cargo Handling",

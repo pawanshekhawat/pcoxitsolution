@@ -44,10 +44,10 @@ function MainForm({ props }) {
 
         emailjs
             .sendForm(
-                'service_ugq0h5p',
-                'template_gzsif4t',
+                'service_tqm9amh',
+                'template_v1hw16e',
                 e.target,
-                'zBxfkmAk1QRYw3STT'
+                'Z3gherEoymzeGyn_c'
             )
             .then(
                 (result) => {

@@ -105,13 +105,15 @@ const PortfolioLanding = ({ value }) => {
               >
                 <video
                   loading="lazy"
-                  src={BgVid}
                   autoPlay
                   loop
                   muted
                   className="homeBGvid"
-                  playsinline
-                ></video>
+                  playsInline
+                  disablePictureInPicture
+                >
+                  <source src={BgVid} type="video/mp4" />
+                </video>
                 <div className="container homeHeroContent">
                   <div className="row">
                     <div className="col-lg-12">

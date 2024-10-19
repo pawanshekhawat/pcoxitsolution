@@ -94,12 +94,12 @@ const About = () => {
               </div>
             </div>
             <div className="row mt--30 aboutOtherParaContent" style={{ textAlign: isArabic ? 'right' : 'left' }}>
-              <div className="col-lg-6 col-md-12 col-sm-12 col-12 p-0">
+              <div className="col-lg-6 col-md-12 col-sm-12 col-12 secPara">
                 <div className="about-us-list">
                   <p className="aboutParaRspn">{t("about_desc_2")}</p>
                 </div>
               </div>
-              <div className="col-lg-6 col-md-12 col-sm-12 col-12 p-0">
+              <div className="col-lg-6 col-md-12 col-sm-12 col-12 secPara">
                 <div className="about-us-list">
                   <p className="aboutParaRspn">{t("about_desc_4")}</p>
                 </div>

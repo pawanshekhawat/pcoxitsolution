@@ -68,3 +68,9 @@
     display: grid;
     place-items: center;
 }
+
+@media (max-width: 768px) {
+    .secPara {
+        padding: 0 !important;
+    }
+}

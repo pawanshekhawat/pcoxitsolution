@@ -112,7 +112,7 @@ const PageTemplate = ({ pageTitle, backgroundImage, content }) => {
             <div className="row">
               {content.solutionSections.map((solution, index) => (
                 <div className="col-12 col-md-6 col-lg-3 mb-4" key={index}>
-                  <div className="cardBtn2 p-3 rounded text-center">
+                  <div className="cardBtn2 p-3 rounded text-center h-100">
                     {t(solution.key)}
                   </div>
                 </div>

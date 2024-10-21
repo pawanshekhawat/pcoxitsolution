@@ -20,6 +20,7 @@ function MainForm({ props }) {
         message: ""
     });
     const { t, i18n } = useTranslation();
+    const [phoneError, setPhoneError] = useState(false);
 
     // Check if the current language is Arabic
     const isArabic = i18n.language === 'ar';
@@ -29,6 +30,13 @@ function MainForm({ props }) {
         if (typeof e === 'string') {
             // This is the phone input case, where 'e' is the phone number string
             setFormData({ ...FormData, phone: e });
+
+            // Perform validation here
+            if (!e || e.trim() === "" || e.length < 10) {
+                setPhoneError(true); // Set error if phone is empty or invalid
+            } else {
+                setPhoneError(false); // Clear the error if valid phone number
+            }
         } else {
             // For regular inputs, handle like normal
             const { name, value } = e.target;
@@ -38,28 +46,29 @@ function MainForm({ props }) {
             }));
         }
     };
-
     const sendEmail = async (e) => {
         e.preventDefault();
 
         emailjs
             .sendForm(
-                'service_tqm9amh',
-                'template_v1hw16e',
+                'service_g36tynb',
+                'template_clo5t07',
                 e.target,
                 'Z3gherEoymzeGyn_c'
             )
             .then(
                 (result) => {
                     console.log(result.text);
+                    console.log(FormData);
                     showResult(true);
 
-                    setTimeout(() => {
-                        window.location.reload();
-                    }, 2000);
+                    // setTimeout(() => {
+                    //     window.location.reload();
+                    // }, 3000);
                 },
                 (error) => {
                     console.log(error.text);
+                    alert('Failed to send the message, please try again later.');
                 }
             );
 
@@ -109,20 +118,27 @@ function MainForm({ props }) {
                     />
                 </div>
 
-                <div className={`rn-form-group ${isArabic ? 'rtl-flag' : ''}`}>
+                <div className={`rn-form-group ${isArabic ? 'rtl-flag' : ''} ${phoneError ? 'error' : ''}`}>
                     <PhoneInput
+                        name="phoneInput"
                         className={`phoneInput ${isArabic ? 'text-right' : ''}`}
                         country={"in"}
-                        type="text"
+                        type="number"
                         value={FormData.phone}
                         autoFormat={true}
                         inputClass={`w ${isArabic ? 'rtl-input' : ''}`} // Conditional RTL class
                         placeholder={t("num_code_form")}  // Translated placeholder
                         required
-                        name="phone"
                         onChange={handleInputChange}
                     />
                 </div>
+
+                <input
+                    type="hidden"
+                    name="phone"
+                    required
+                    value={FormData.phone}
+                />
 
                 <div className="rn-form-group">
                     <textarea
